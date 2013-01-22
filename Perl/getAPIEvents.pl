@@ -5,9 +5,9 @@ use SparqlQuery;
 my $hash;
 getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2012-11");
+# print getEvents("2012-11");
 # print getHosts();
-# print getVenues();
+print getVenues();
 
 ## end main ##
 
