@@ -5,9 +5,9 @@ use SparqlQuery;
 my $hash;
 getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-# print getEvents("2012-11");
+print getEvents("2013-01");
 # print getHosts();
-print getVenues();
+# print getVenues();
 
 ## end main ##
 
@@ -50,13 +50,8 @@ sub TurtleEnvelope {
 \@prefix cal: <http://www.w3.org/2002/12/cal/ical#> .
 \@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 \@prefix ld: <http://leipzig-data.de/Data/Model/> .
+\@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
 \@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-<http://leipzig-data.de/Data/Events/>
-    a owl:Ontology ;
-    rdfs:label "LeipzigData - Events"  .
-
-ld:Event a owl:Class ; rdfs:label "Events" .
 
 $out
 EOT
@@ -94,8 +89,9 @@ sub processEvent {
   my $out="<http://leipzig-data.de/Data/Event/APILeipzig.$id> a ld:Event";
   $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APILeipzig/Event.$id>");
   $out.=addReference("ld:contactPerson","<$hid>");
+  $out.=addReference("cal:organizer","<$hid>");
   $out.=addReference("cal:location","<$vid>");
-  $out.=addReference("ld:hasTag","<http://leipzig-data.de/Data/Tag/KreativesLeipzig>");
+  $out.=addReference("ld:hasTag","ldtag:KreativesLeipzig");
   #$out.=addLiteral("ld:hasOwner",$owner);
   $out.=addLiteral("rdfs:label",$title);
   $out.=addLiteral("cal:dtstart",$df) if $df;
