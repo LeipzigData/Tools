@@ -2,6 +2,8 @@ Ein paar Beispiel-Anfragen:
 
 Alle APIRefs finden
 
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX cal: <http://www.w3.org/2002/12/cal/ical#>
 SELECT distinct ?p ?pn WHERE {
   ?pn ld:hasAPIRef ?p . 
 } 
