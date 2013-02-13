@@ -1,5 +1,54 @@
 Ein paar Beispiel-Anfragen:
 
+Alle MINT-Orte finden
+
+PREFIX ldo: <http://leipzig-data.de/Data/Ort/>
+PREFIX ldp: <http://leipzig-data.de/Data/Person/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?l ?k WHERE {
+  ?p ld:hasTag ldtag:MINT .
+  ?p a ld:Ort .
+  ?p rdfs:label ?l .
+  ?p ld:Kurzinformation ?k .
+}
+
+Welche Events haben einen Ort, der nicht existiert? 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX cal: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?o WHERE {
+  ?e a ld:Event .
+  ?e cal:location ?o .
+  optional {?o rdfs:label ?l .}
+  filter (!bound(?l))
+} 
+
+Welche Orte haben keine gültige Adresse?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?e ?o WHERE {
+  ?e a ld:Ort .
+  ?e ld:hasAddress ?o .
+  optional {?o rdfs:label ?l .}
+  filter (!bound(?l))
+} 
+
+Welche Adressen haben keine Geokoordinaten? 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?e WHERE {
+  ?e a ld:Adresse .
+  optional {?e <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?l .}
+  filter (!bound(?l))
+} 
+
+--------------------------------------------
+
+
 Alle APIRefs finden
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
