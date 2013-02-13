@@ -1,5 +1,24 @@
 Ein paar Beispiel-Anfragen:
 
+Alle MINT-Orte finden
+
+PREFIX ldo: <http://leipzig-data.de/Data/Ort/>
+PREFIX ldp: <http://leipzig-data.de/Data/Person/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?l ?k WHERE {
+  ?p ld:hasTag ldtag:MINT .
+  ?p a ld:Ort .
+  ?p rdfs:label ?l .
+  ?p ld:Kurzinformation ?k .
+}
+
+--------------------------------------------
+
+
 Alle APIRefs finden
 
 SELECT distinct ?p ?pn WHERE {
