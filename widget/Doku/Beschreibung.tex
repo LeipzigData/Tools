@@ -1,0 +1,228 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{a4wide,ngerman,url}
+\usepackage[utf8]{inputenc}
+
+\makeatletter
+\let\@listI\@listii
+
+\parskip4pt
+\parindent0pt
+
+\begin{document}
+\begin{center}
+  \textbf{\Large Entwurfsbeschreibung}\\[1em]
+  Version vom 14. Februar 2013
+\end{center}
+
+\section{Allgemeines}
+Ziel der entwickelten Softwarelösung ist die prototypische Web-Darstellung
+von Event- und begleitenden Informationen aus dem LeipzigData Projekt auf
+Webseiten angeschlossener \emph{Akteure} (siehe Glossar) auf der Basis des
+JS-Frameworks \emph{Exhibit}. 
+
+Die Lösung bietet dem \emph{Webdienste-Anbieter} die Möglichkeit, auf einfache
+Weise eine lesende Sicht auf vorhandene Daten mit Such- und Filterfunktionen
+zu definieren und in die Webpräsenzen der von ihm betreuten Akteure
+einzubauen.  Der Webdienste-Anbieter kann dazu relevante Daten aus
+Datenbeständen, die nach einer vorgegebenen Ontologie aufgebaut sind, der
+\emph{LD.Datenbasis}, in einen eigenen lokalen ARC2 Data Store auslesen,
+daraus über Filterkriterien akteursspezifisch einen relevanten Teilbestand für
+die Präsentation auswählen und in die Webpräsenz des Akteurs als iframe
+einbinden.  Nutzer der Webpräsenz des Akteurs können in diesen Informationen
+weiter selektiv suchen und sich die Ergebnisse in verschiedenen Formaten
+anzeigen lassen.
+
+Nicht erfasst ist der Prozess des Fortschreibens der LD.Datenbasis durch einen
+Kreis dafür autorisierter Personen -- hierfür ist ein zweites Projekt
+aufzusetzen, mit dem die bisherigen Datenerfassungsprozesse auf Protokollebene
+so harmonisiert werden, dass relevante und qualitätsgesicherte Daten direkt in
+die LD.Datenbasis übernommen werden können. In einer weiteren Ausbaustufe kann
+hier ein Mashup aus verschiedenen Kanälen eingebaut werden, die dem
+vereinbarten Protokoll folgen.  Derzeit können Veranstaltungsdaten von
+autorisierten Personen direkt über das Ontowiki-Portal
+\url{http://leipzig-data.de/Data} des LD.Datenprojekts eingegeben werden.
+
+Die Softwarelösung basiert auf Javascript, die Präsentation läuft komplett mit
+allen Such- und Darstellungsfunktionen im Webbrowser des Nutzers ab und greift
+auf ein JSON-Datenobjekt zu, das mit der Javascript-Funktionalität des
+Widget-Framework \emph{Exhibit} weiter aufbereitet wird.
+
+\section{Produktübersicht}
+
+\subsection{Übersicht}
+
+Über eine Sparql-Anfrage (siehe Queries.txt) kann der Webdienste-Anbieter
+regelmäßig relevante Daten aus der LD.Datenbasis auslesen und mit dem PHP
+Skript \texttt{Store.php} als Dump in einem eigenen lokalen ARC2 Data Store
+speichern. Im Rahmen der LD.Event Aktivität wird wöchentlich ein solcher
+aktueller Dump mit Event-Daten, die nicht länger als drei Monate zurückliegen,
+als RDF-Datei im Turtle-Format zur Verfügung gestellt. Damit werden die
+{\glqq}Werkbänke{\grqq} der beteiligten Webdesigner an den verteilten
+LD.Datenbestand angebunden.
+
+Aus diesem Datenbestand können akteursspezifische Angebote zusammengestellt
+werden.  Dazu ist vom Webdienste-Anbieter pro Akteur ein eigenes \emph{Thema}
+zu erstellen oder aus vorgegebenen Themen auszuwählen oder anzupassen, in
+welchem die akteursspezifischen Vorgaben und Wünsche umgesetzt sind.  Die
+Anpassungsmöglichkeiten beziehen sich auf
+\begin{itemize}
+\item die Auswahl des relevanten Grunddatenbestands (über einen gestaltbaren
+  PHP-Filter\-prozess \texttt{getdata.php}, über den auch regelmäßig die Daten
+  aktualisiert werden),
+\item Umfang und Anordnung der Such- und Filterfunktionen, die den Nutzern zur
+  Verfügung stehen (über eine Exhibit-Template-Datei
+  \texttt{presentation.html}, die akteursspezifisch angepasst werden kann),
+  und
+\item das Layout (über eine akteursspezifische CSS-Datei \texttt{styles.css}). 
+\end{itemize}
+Im Zentrum des Konzepts steht das Javascript basierte Widget-Framework
+\emph{Exhibit} in der Version 2.0. In den weiteren Ausführungen wird die
+Kenntnis dieses Frameworks im Umfang von [Ex] vorausgesetzt.
+
+\subsection{Installation}
+
+\begin{itemize}
+\item Ausrollen der Dateien in ein eigenes Verzeichnis \texttt{widget} auf dem
+  Webserver, das der Webserver lesen kann,
+\item Ausrollen von ARC2, siehe [Arc2], das als Unterverzeichnis \texttt{arc2}
+  an \texttt{widget} zu linken ist, und Einbinden der Datei(en) im Verzeichnis
+  \texttt{plugins} in das Verzeichnis \texttt{arc2/plugins} (etwa durch
+  Linken).
+\item Aufsetzen einer Datenbank und Konfiguration des ARC2 Data Store. 
+
+  Dazu ist die Datei \texttt{db\_credentials.php} in eine Datei
+  \texttt{db.php} zu kopieren und die Zugangsdaten zur lokalen Datenbank
+  einzutragen. In dieser Datenbank werden eine Reihe neuer Tabellen mit dem
+  Namenspräfix\footnote{Dieser Präfix kann in der Datei \texttt{Store.php}
+    geändert werden.} \texttt{data\_store} angelegt.
+\item Auswahl oder Erstellen eines Themas pro Akteur zur Datenpräsentation und
+  Einbinden -- z.\,B.\ als Webseite -- in die Struktur der Website.  Dazu kann
+  aus den vorhandenen Themen (Verzeichnis \texttt{themes}) ausgewählt werden. 
+\end{itemize}
+Die Anzeige kann durch Ändern der Präsentations- und Stildateien des Themas
+akteurs\-spezifischen Bedürfnissen angepasst werden, was aber einige
+Vertrautheit mit dem Exhibit-Framework voraussetzt.  Siehe dazu ebenfalls
+[Ex].
+
+\section{Grundsätzliche Struktur- und Entwurfsprinzipien}
+
+\subsection{Anlegen der json-Datei}
+
+Die Datei \texttt{data.json} enthält alle relevanten Informationen im
+Exhibit-spezifischen JSON-Format und ist für das gewählte Thema mit dem
+dortigen PHP-Skript \texttt{getdata.php} zu erzeugen.
+
+Dazu wurden die RDF-Management-Funktionalitäten von ARC2 um das
+Exhibit-JSON-Plug\-in \texttt{plugins/ARC2\_ExhibitJSONSerializerPlugin.php}
+erweitert, welches die Serialisierung des geparsten RDF-Graphs im Zielformat
+realisiert.  Dabei wird eine automatische Erkennung der Exhibit-Datentypen
+vorgenommen, sodass z.\,B.\ ein Datum auch den Datentyp \texttt{date}
+zugewiesen bekommt.
+
+Die Struktur der Exhibit-JSON-Datei und die verwendeten Datentypen sind in
+[Ex] genauer beschrieben.
+
+\subsection{Anzeige der Daten}
+
+Zur Anzeige der Daten wird das Javascript basierte Widget-Framework
+\emph{Exhibit} (Version 2.0) verwendet, das in einer Webseite die als
+JSON-Datenobjekt aus der json-Datei geladenen ausgewählten RDF-Daten mit den
+Layout-Informationen der Webseite über verschiedene Tag-Properties
+zusammenführt.
+
+Neben der json-Datei und \texttt{exhibit-api.js} werden die Erweiterungen
+\texttt{time-extension.js} und \texttt{calendar-extension.js} verwendet.
+Das json-Datenobjekt wird über eine Link-Header Deklaration mit
+\texttt{rel={\dq}exhibit/data{\dq}} eingebunden. 
+
+Zur Aktivierung der Google Maps Kartenfunktion wird ein eigener Google Maps
+Schlüssel benötigt. 
+
+Die Anzeige auf der Webseite wird von Exhibit entsprechend der angegebenen
+\texttt{ex:\ldots} Attribute verschiedener \texttt{<div>} Tags gesteuert.  So
+lassen sich auf einfache Weise verschiedene Strukturelemente kombinieren, über
+die unterschiedliche Sichten auf die Datenauswahl eingestellt und
+zusammengeführt werden können.  Die ausgewählten Daten werden dann im
+Hauptfeld angezeigt. 
+
+%\section{Testen}
+
+\section{Glossar}
+
+\subsection{Begriffe}
+
+\paragraph{Akteur.} 
+Anbieter realweltlicher Events, die im verteilten Kalendersystem erfasst
+werden sollen, um die Zielgruppe dieses Anbieters auf das Event aufmerksam zu
+machen.  Typischerweise ein Verein oder anderweitiger Betreiber eines Orts, an
+dem regelmäßig oder unregelmäßig Events stattfinden, der einen
+\emph{Webdienste-Anbieter} mit Design und technischer Unterstüt\-zung beim
+Betrieb der eigenen Webpräsenz beauftragt hat (oder diese Kompetenz selbst
+vorhält).
+
+\paragraph{ARC2.} 
+Flexibles RDF-System für PHP-basierte Semantic Web Anwendungen, siehe [Arc2].
+Für diese Anwendung muss das mitgelieferte JSON-Plugin installiert werden, das
+die erforderlichen Daten im Exhibit-spezifischen Ausgabeformat formatiert. 
+
+\paragraph{Exhibit.} 
+Javascript basiertes Publikations-Framework für datenreiche interaktive
+Webseiten, siehe \url{http://www.simile-widgets.org/exhibit}.  In dieser
+Anwendung wird Exhibit 2.0 verwendet.
+
+\paragraph{Nutzer.} 
+Besucher der Website des Akteurs. Restriktionen (etwa in der
+Behindertengerechtheit der Anzeige) ergeben sich aus dem verwendeten
+Framework, das vom Browser des Nutzers unterstützt werden muss (und im
+Normalfall auch unterstützt wird). Der Nutzer muss Javascript aktiviert haben.
+
+\paragraph{OntoWiki.} 
+Projekt der AKSW-Gruppe am Institut für Informatik der Universität Leipzig,
+siehe \url{http://ontowiki.net/Projects/OntoWiki}.
+
+\paragraph{Thema.} 
+Akteursspezifische Anpassung des Frameworks, bestehend aus 
+\begin{itemize}
+\item einem PHP-Filterskript \texttt{getdata.php},
+\item einem Exhibit-Präsentationstemplate \texttt{presentation.html},
+\item einer Stylesheet-Datei \texttt{styles.css},
+\item einer mit \texttt{getdata.php} zu generierenden und regelmäßig zu
+  aktualisierenden JSON-Datendatei \texttt{data.json} mit einem
+  akteursspezifische Ausschnitt aus den Grunddaten,
+\item ggf einem eigenen Google Maps Schlüssel \texttt{gmaps\_api\_key.php},
+\end{itemize}
+die vom Webdienste-Anbieter akteursspezifisch aus mehreren Vorlagen
+auszuwählen oder selbst herzustellen oder anzupassen ist.
+
+\paragraph{Webdienste-Anbieter.} 
+Betreiber einer oder mehrerer Websites von \emph{Akteuren} mit Zugriff auf das
+Dateisystem des Webservers, um dort weitere PHP-Funktionalität zu integrieren.
+Neben dem Betrieb der Websites leistet der Webdienste-Anbieter \emph{first
+  level support} im Bereich der Schulung der Datenverantwortlichen auf
+Akteursseite und bietet Beratung beim Design der Website des Akteurs an.
+
+\paragraph{LD.Datenbasis.} 
+Datenbasis des LD.LeipzigData Projekts, auf die über die Schnittstellen der
+OntoWiki-Instanz \url{http://leipzig-data.de/Data} zugegriffen werden kann.
+Alternativ können Projektmitglieder auf die Datenbasis auch in Dateiform
+zugreifen.  Perspektivisch soll diese Datenbasis zu einer verteilten
+gemeinsamen Datenbasis der am Projekt beteiligten Webdesigner weiterentwickelt
+werden, auf die nach Open Data Prinzipien zugegriffen werden kann.
+
+\paragraph{LeipzigData Projekt.} 
+Projekt im Rahmen des Netzprojekts am Institut für Informatik der Universität
+Leipzig, siehe \url{http://leipzig-data.de} sowie
+\url{http://www.dorfwiki.org/wiki.cgi?HansGertGraebe/NetzProjekt}. 
+
+\section{Quellen}
+
+\begin{description}
+\item[{[Arc2]}] Flexible RDF system for semantic web and PHP practitioners.\\ 
+\url{https://github.com/semsol/arc2/wiki}
+
+\item[{[Ex]}] Getting Started with Exhibit. \\
+\url{http://simile-widgets.org/wiki/Getting_Started_with_Exhibit}
+
+\end{description}
+
+\end{document}

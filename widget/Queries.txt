@@ -1,0 +1,17 @@
+Construct-Anfrage unter http://leipzig-data.de:8890/sparql stellen,
+als ntriples ausgeben lassen, abspeichern und weiter verarbeiten.
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+construct { 
+  ?a ?ap ?ao .
+  ?ao ?bp ?bo .
+  ?bo ?cp ?co .
+  ?co ?dp ?do .
+}
+Where { 
+  ?a ?ap ?ao .
+  ?a a ld:Event .
+  optional { ?ao ?bp ?bo .  }
+  optional { ?bo ?cp ?co .  }
+  optional { ?co ?dp ?do .  }
+} 
