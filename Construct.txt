@@ -1,0 +1,44 @@
+Construct-Anfrage unter http://leipzig-data.de:8890/sparql stellen,
+als ntriples ausgeben lassen,
+als a.ttl speichern
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cal: <http://www.w3.org/2002/12/cal/ical#> 
+Construct { 
+  ?a ?ap ?ao .
+}
+Where { 
+  ?a ?ap ?ao .
+  ?a cal:dtstart ?as .
+  ?a a ld:Event .
+FILTER ( xsd:dateTime(?as) > xsd:dateTime("2012-11-01T00:00:00Z") )
+} 
+
+-------------------------------------
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+construct { 
+  ?a ?ap ?ao .
+  ?ao ?bp ?bo .
+  ?bo ?cp ?co .
+  ?co ?dp ?do .
+}
+Where { 
+  ?a ?ap ?ao .
+  ?a a ld:Ort .
+  ?a ld:hasTag <http://leipzig-data.de/Data/Tag/MINT> .
+  optional { ?ao ?bp ?bo .  }
+  optional { ?bo ?cp ?co .  }
+  optional { ?co ?dp ?do .  }
+} 
+-------------------------------------
+
+Verarbeitung:
+Speichern unter /tmp/a.ttl
+
+cat Perl/EventPrefix.ttl >b.ttl 
+rapper -g /tmp/a.ttl -o turtle >> b.ttl 
+
+rapper -g b.ttl -o turtle > c.ttl # mache daraus unser Format
