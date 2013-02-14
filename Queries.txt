@@ -46,6 +46,15 @@ SELECT distinct ?e WHERE {
   filter (!bound(?l))
 } 
 
+Welche Adressen haben kein ld:inStreet? 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?e WHERE {
+  ?e a ld:Adresse .
+  optional {?e ld:hasCity ?l .}
+  filter (bound(?l))
+} 
+
 --------------------------------------------
 
 
