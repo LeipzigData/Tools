@@ -10,15 +10,15 @@
 
 \begin{document}
 \begin{center}
-  \textbf{\Large Entwurfsbeschreibung}\\[1em]
-  Version vom 14. Februar 2013
+  \textbf{\Large Technische Dokumentation\\[.3em] des Leipzig Data Events
+    Widgets}\\[1em] Version vom 14. Februar 2013
 \end{center}
 
 \section{Allgemeines}
-Ziel der entwickelten Softwarelösung ist die prototypische Web-Darstellung
-von Event- und begleitenden Informationen aus dem LeipzigData Projekt auf
-Webseiten angeschlossener \emph{Akteure} (siehe Glossar) auf der Basis des
-JS-Frameworks \emph{Exhibit}. 
+Ziel der entwickelten Softwarelösung ist die prototypische Web-Darstellung von
+Event- und begleitenden Informationen aus dem Leipzig Open Data Projekt [LOD]
+auf Webseiten angeschlossener \emph{Akteure} (siehe Glossar) auf der Basis des
+JS-Frameworks \emph{Exhibit}.
 
 Die Lösung bietet dem \emph{Webdienste-Anbieter} die Möglichkeit, auf einfache
 Weise eine lesende Sicht auf vorhandene Daten mit Such- und Filterfunktionen
@@ -40,12 +40,17 @@ die LD.Datenbasis übernommen werden können. In einer weiteren Ausbaustufe kann
 hier ein Mashup aus verschiedenen Kanälen eingebaut werden, die dem
 vereinbarten Protokoll folgen.  Derzeit können Veranstaltungsdaten von
 autorisierten Personen direkt über das Ontowiki-Portal
-\url{http://leipzig-data.de/Data} des LD.Datenprojekts eingegeben werden.
+\url{http://leipzig-data.de/Data} des Leipzig Open Data Projekts eingegeben
+werden.
 
 Die Softwarelösung basiert auf Javascript, die Präsentation läuft komplett mit
 allen Such- und Darstellungsfunktionen im Webbrowser des Nutzers ab und greift
 auf ein JSON-Datenobjekt zu, das mit der Javascript-Funktionalität des
 Widget-Framework \emph{Exhibit} weiter aufbereitet wird.
+
+Die Softwarelösung wurde von \textbf{Johannes Frey} im Rahmen des Leipzig Open
+Data Projekts [LOD] entwickelt. Das Projekt wurde durch die Stadt Leipzig im
+Rahmen der Open Innovation Ausschreibung 2012 unterstützt.
 
 \section{Produktübersicht}
 
@@ -57,8 +62,8 @@ Skript \texttt{Store.php} als Dump in einem eigenen lokalen ARC2 Data Store
 speichern. Im Rahmen der LD.Event Aktivität wird wöchentlich ein solcher
 aktueller Dump mit Event-Daten, die nicht länger als drei Monate zurückliegen,
 als RDF-Datei im Turtle-Format zur Verfügung gestellt. Damit werden die
-{\glqq}Werkbänke{\grqq} der beteiligten Webdesigner an den verteilten
-LD.Datenbestand angebunden.
+{\glqq}Werkbänke{\grqq} der beteiligten Webdienste-Anbieter an den verteilten
+Datenbestand angebunden.
 
 Aus diesem Datenbestand können akteursspezifische Angebote zusammengestellt
 werden.  Dazu ist vom Webdienste-Anbieter pro Akteur ein eigenes \emph{Thema}
@@ -202,17 +207,11 @@ Neben dem Betrieb der Websites leistet der Webdienste-Anbieter \emph{first
 Akteursseite und bietet Beratung beim Design der Website des Akteurs an.
 
 \paragraph{LD.Datenbasis.} 
-Datenbasis des LD.LeipzigData Projekts, auf die über die Schnittstellen der
-OntoWiki-Instanz \url{http://leipzig-data.de/Data} zugegriffen werden kann.
-Alternativ können Projektmitglieder auf die Datenbasis auch in Dateiform
-zugreifen.  Perspektivisch soll diese Datenbasis zu einer verteilten
-gemeinsamen Datenbasis der am Projekt beteiligten Webdesigner weiterentwickelt
+Datenbasis des Leipzig Open Data Projekts [LOD], auf die über eine
+Sparql-Schnittstelle oder ein git-Repo zugegriffen werden kann.
+Perspektivisch soll diese Datenbasis zu einer verteilten gemeinsamen
+Datenbasis der am Projekt beteiligten Webdienste-Anbieter weiterentwickelt
 werden, auf die nach Open Data Prinzipien zugegriffen werden kann.
-
-\paragraph{LeipzigData Projekt.} 
-Projekt im Rahmen des Netzprojekts am Institut für Informatik der Universität
-Leipzig, siehe \url{http://leipzig-data.de} sowie
-\url{http://www.dorfwiki.org/wiki.cgi?HansGertGraebe/NetzProjekt}. 
 
 \section{Quellen}
 
@@ -222,6 +221,9 @@ Leipzig, siehe \url{http://leipzig-data.de} sowie
 
 \item[{[Ex]}] Getting Started with Exhibit. \\
 \url{http://simile-widgets.org/wiki/Getting_Started_with_Exhibit}
+
+\item[{[LOD]}] Das Leipzig Open Data Projekt. Nov. 2012 -- April 2013. \\
+\url{http://leipzig-netz.de/index.php5/LD.OpenInnovation-12}
 
 \end{description}
 
