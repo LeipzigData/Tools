@@ -11,7 +11,7 @@
 \begin{document}
 \begin{center}
   \textbf{\Large Technische Dokumentation\\[.3em] des Leipzig Data Events
-    Widgets}\\[1em] Version vom 14. Februar 2013
+    Widgets}\\[1em] Version vom 21. Februar 2013
 \end{center}
 
 \section{Allgemeines}
@@ -56,14 +56,14 @@ Rahmen der Open Innovation Ausschreibung 2012 unterstützt.
 
 \subsection{Übersicht}
 
-Über eine Sparql-Anfrage (siehe Queries.txt) kann der Webdienste-Anbieter
-regelmäßig relevante Daten aus der LD.Datenbasis auslesen und mit dem PHP
-Skript \texttt{Store.php} als Dump in einem eigenen lokalen ARC2 Data Store
-speichern. Im Rahmen der LD.Event Aktivität wird wöchentlich ein solcher
-aktueller Dump mit Event-Daten, die nicht länger als drei Monate zurückliegen,
-als RDF-Datei im Turtle-Format zur Verfügung gestellt. Damit werden die
-{\glqq}Werkbänke{\grqq} der beteiligten Webdienste-Anbieter an den verteilten
-Datenbestand angebunden.
+Über eine Sparql-Anfrage (siehe \texttt{Queries.txt}) kann der
+Webdienste-Anbieter regelmäßig relevante Daten aus der LD.Datenbasis auslesen
+und mit dem PHP Skript \texttt{Store.php} als Dump in einem eigenen lokalen
+ARC2 Data Store speichern. Im Rahmen der LD.Event Aktivität wird wöchentlich
+ein solcher aktueller Dump mit Event-Daten, die nicht länger als drei Monate
+zurückliegen, als RDF-Datei im Turtle-Format zur Verfügung gestellt. Damit
+werden die {\glqq}Werkbänke{\grqq} der beteiligten Webdienste-Anbieter an den
+verteilten Datenbestand angebunden.
 
 Aus diesem Datenbestand können akteursspezifische Angebote zusammengestellt
 werden.  Dazu ist vom Webdienste-Anbieter pro Akteur ein eigenes \emph{Thema}
@@ -76,8 +76,7 @@ Anpassungsmöglichkeiten beziehen sich auf
   aktualisiert werden),
 \item Umfang und Anordnung der Such- und Filterfunktionen, die den Nutzern zur
   Verfügung stehen (über eine Exhibit-Template-Datei
-  \texttt{presentation.html}, die akteursspezifisch angepasst werden kann),
-  und
+  \texttt{presentation.php}, die akteursspezifisch angepasst werden kann), und
 \item das Layout (über eine akteursspezifische CSS-Datei \texttt{styles.css}). 
 \end{itemize}
 Im Zentrum des Konzepts steht das Javascript basierte Widget-Framework
@@ -115,7 +114,8 @@ Vertrautheit mit dem Exhibit-Framework voraussetzt.  Siehe dazu ebenfalls
 
 Die Datei \texttt{data.json} enthält alle relevanten Informationen im
 Exhibit-spezifischen JSON-Format und ist für das gewählte Thema mit dem
-dortigen PHP-Skript \texttt{getdata.php} zu erzeugen.
+dortigen PHP-Skript \texttt{getdata.php} zu erzeugen.  Hierbai kann eine
+weitere nutzerspezifische Datenauswahl durch den Webdienste-Anbieter erfolgen.
 
 Dazu wurden die RDF-Management-Funktionalitäten von ARC2 um das
 Exhibit-JSON-Plug\-in \texttt{plugins/ARC2\_ExhibitJSONSerializerPlugin.php}
@@ -129,10 +129,8 @@ Die Struktur der Exhibit-JSON-Datei und die verwendeten Datentypen sind in
 
 \subsection{Anzeige der Daten}
 
-Zur Anzeige der Daten wird das Javascript basierte Widget-Framework
-\emph{Exhibit} (Version 2.0) verwendet, das in einer Webseite die als
-JSON-Datenobjekt aus der json-Datei geladenen ausgewählten RDF-Daten mit den
-Layout-Informationen der Webseite über verschiedene Tag-Properties
+Zur Anzeige der Daten wird das JSON-Datenobjekt aus der json-Datei geladen und
+mit den Layout-Informationen der Webseite über verschiedene Tag-Properties
 zusammenführt.
 
 Neben der json-Datei und \texttt{exhibit-api.js} werden die Erweiterungen
@@ -150,7 +148,9 @@ die unterschiedliche Sichten auf die Datenauswahl eingestellt und
 zusammengeführt werden können.  Die ausgewählten Daten werden dann im
 Hauptfeld angezeigt. 
 
-%\section{Testen}
+\section{Testen}
+
+Zu ergänzen.
 
 \section{Glossar}
 
@@ -189,7 +189,7 @@ siehe \url{http://ontowiki.net/Projects/OntoWiki}.
 Akteursspezifische Anpassung des Frameworks, bestehend aus 
 \begin{itemize}
 \item einem PHP-Filterskript \texttt{getdata.php},
-\item einem Exhibit-Präsentationstemplate \texttt{presentation.html},
+\item einem Exhibit-Präsentationstemplate \texttt{presentation.php},
 \item einer Stylesheet-Datei \texttt{styles.css},
 \item einer mit \texttt{getdata.php} zu generierenden und regelmäßig zu
   aktualisierenden JSON-Datendatei \texttt{data.json} mit einem
