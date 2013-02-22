@@ -1,1 +1,1 @@
-this is the leipzig-data events widget
+Folgen Sie den Anweisungen in der Doku.
