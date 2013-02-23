@@ -1,6 +1,5 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage{a4wide,ngerman,url}
-\usepackage{enumerate}
 \usepackage[utf8]{inputenc}
 
 \makeatletter
@@ -12,7 +11,7 @@
 \begin{document}
 \begin{center}
   \textbf{\Large Technische Dokumentation\\[.3em] des Leipzig Data Events
-    Widgets}\\[1em] Version vom 21. Februar 2013
+    Widgets}\\[1em] Version vom 23. Februar 2013
 \end{center}
 
 \section{Allgemeines}
@@ -57,18 +56,18 @@ Rahmen der Open Innovation Ausschreibung 2012 unterstützt.
 
 \subsection{Übersicht}
 
-Über eine SPARQL-Anfrage kann der
-Webdienste-Anbieter regelmäßig relevante Daten aus der LD.Datenbasis auslesen
-und mit dem PHP Skript \texttt{Store.php} als Dump in einen eigenen lokalen
-ARC2 Data Store speichern. Im Rahmen der LD.Event Aktivität wird wöchentlich
-ein frei verfügbarer SPARQL-Endpunkt (siehe \texttt{ http://leipzig-data.de/widget/sparql.php}) mit aktuellen Event-Daten gefüllt. Damit
-werden die {\glqq}Werkbänke{\grqq} der beteiligten Webdienste-Anbieter an den
-verteilten Datenbestand angebunden.
+Über eine SPARQL-Anfrage kann der Webdienste-Anbieter regelmäßig relevante
+Daten aus der LD.Datenbasis auslesen und mit dem PHP Skript \texttt{Store.php}
+als Dump in einen eigenen lokalen ARC2 Data Store speichern. Im Rahmen der
+LD.Event Aktivität wird wöchentlich der öffentliche SPARQL-Endpunkt
+\url{http://leipzig-data.de/widget/sparql.php} mit aktuellen Event-Daten
+gefüllt. Darüber können die {\glqq}Werkbänke{\grqq} der beteiligten
+Webdienste-Anbieter an den verteilten Datenbestand angebunden werden.
 
-Aus diesem Datenbestand können akteursspezifische Angebote zusammengestellt
-werden.  Dazu ist vom Webdienste-Anbieter pro Akteur ein eigenes \emph{Thema}
-zu erstellen oder aus vorgegebenen Themen auszuwählen oder anzupassen, in
-welchem die akteursspezifischen Vorgaben und Wünsche umgesetzt sind.  Die
+Aus diesem Datenbestand können Webdienste-Anbieter akteursspezifische Angebote
+zusammenstellen.  Dazu müssen diese pro Akteur ein eigenes \emph{Thema}
+erstellen oder aus vorgegebenen Themen auswählen oder anpassen, in welchem die
+akteursspezifischen Vorgaben und Wünsche umgesetzt sind.  Die
 Anpassungsmöglichkeiten beziehen sich auf
 \begin{itemize}
 \item die Auswahl des relevanten Grunddatenbestands (über einen gestaltbaren
@@ -111,36 +110,61 @@ Vertrautheit mit dem Exhibit-Framework voraussetzt.  Siehe dazu ebenfalls
 \section{Grundsätzliche Struktur- und Entwurfsprinzipien}
 
 \subsection{Einspielen der Event-Daten}
-Um die Daten in den durch die vorherigen Schritte eingerichteten ARC2-Store zu importieren gibt es \textbf{2 Möglichkeiten}.
-\begin{enumerate}[(a)]
-	\item Import mittels SPARQL-Anfrage\\
-	Dies ist die vorkonfigurierte, einfacherere Variante. In der Datei \texttt{Store.php} befindet sich die Funktion \texttt{loadDataFromEndpoint}. In dieser kann die SPARQL-Anfrage angepasst werden, um eine Teilmenge der Event-Daten aus dem Event-Endpunkt (\url{http://leipzig-data.de/widget/sparql.php}) abzufragen. In der Vorkonfiguration werden alle Daten übernommen. Durch einfaches Ausführen der Datei \texttt{Store.php} findet der Import automatisch statt.
-	\item Import mittels Dateidump\\
-Dies ist die komplexere, aber stabilere Lösung.
-An die LD.Datenbasis (\url{http://leipzig-data.de/Data}) kann eine eigene in irgendeiner Weise (z.B. händisch) durchgeführte SPARQL-Abfrage (z.B. siehe \texttt{Queries.txt}) gestellt werden, um Event-Daten zu extrahieren.
-Das Ergebnis dieser Abfrage ist in einer Datei EventsDump.ttl zu speichern und in das Widget-Verzeichnis zu kopieren. Abschließend muss der Aufruf der Funktion \texttt{loadDataFromEndpoint} durch \texttt{loadDataFromFile} ersetzt werden und \texttt{Store.php} ausgeführt werden.
+Um die Daten in den durch die vorherigen Schritte eingerichteten ARC2-Store zu
+importieren gibt es \textbf{2 Möglichkeiten}.
+\begin{enumerate}
+\item \textbf{Import mittels SPARQL-Anfrage}
+
+  Dies ist die vorkonfigurierte, einfacherere Variante. In der Datei
+  \texttt{Store.php} befindet sich die Funktion \texttt{loadDataFromEndpoint}.
+  In dieser kann die SPARQL-Anfrage angepasst werden, um eine Teilmenge der
+  Event-Daten aus unserem öffentlichen
+  Sparql-Endpunkt\footnote{\url{http://leipzig-data.de/widget/sparql.php}}
+  abzufragen. In der Vorkonfiguration werden alle Daten übernommen. Durch
+  einfaches Ausführen der Datei \texttt{Store.php} findet der Import
+  automatisch statt.
+
+\item \textbf{Import mittels Dateidump}
+
+Dies ist die komplexere, aber stabilere Lösung.  An die unter
+\url{http://leipzig-data.de/Data} öffentlich verfügbare LD.Datenbasis kann
+eine eigene SPARQL-Abfrage\footnote{Über deren Sparql-Endpunkt
+  \url{http://leipzig-data.de:8890/sparql}.} gestellt werden, um Event-Daten
+zu extrahieren.  Beispiele für solche Anfragen finden sich in der Datei
+\texttt{Queries.txt} der Distribution.  Das Ergebnis dieser Abfrage ist in
+einer Datei \texttt{EventsDump.ttl} zu speichern und in das Widget-Verzeichnis
+zu kopieren. Abschließend muss der Aufruf der Funktion
+\texttt{loadDataFromEndpoint} durch \texttt{loadDataFromFile} ersetzt und
+\texttt{Store.php} ausgeführt werden.
 \end{enumerate}
-
-
-Eigene Daten können zusätzlich importiert werden, indem eine der eben genannten Funktionen erweitert wird, unter der Voraussetzung, dass die  Daten in einem RDF-Format vorliegen. 
+Eigene Daten können zusätzlich importiert werden, indem eine der eben
+genannten Funktionen erweitert wird, unter der Voraussetzung, dass die Daten
+in einem RDF-Format vorliegen.
 
 \subsection{Anlegen der json-Datei}
 
 Die Datei \texttt{data.json} enthält alle relevanten Informationen im
 Exhibit-spezifischen JSON-Format und ist für das gewählte Thema mit dem
 dortigen PHP-Skript \texttt{getdata.php} zu erzeugen.  Hierbei kann eine
-weitere nutzerspezifische Datenauswahl durch den Webdienste-Anbieter erfolgen, um z.B. in verschiedenen Themen unterschiedliche Daten darzustellen. Dazu kann die SPARQL-Anfrage der Funktion \texttt{filterData} verändert werden.
+weitere nutzerspezifische Datenauswahl durch den Webdienste-Anbieter erfolgen,
+um z.\,B.\ in verschiedenen Themen unterschiedliche Daten darzustellen. Dazu
+muss die SPARQL-Anfrage in der Funktion \texttt{filterData} verändert werden.
 
-Für das Konvertieren von RDF nach JSON wurden die RDF-Management-Funktionalitäten von ARC2 um das
-Exhibit-JSON-Plug\-in \texttt{plugins/ARC2\_ExhibitJSONSerializerPlugin.php}
-erweitert, welches die Serialisierung des geparsten RDF-Graphs im Zielformat
-realisiert.  Dabei wird eine automatische Erkennung der Exhibit-Datentypen
-vorgenommen, sodass z.\,B.\ ein Datum auch den Datentyp \texttt{date}
-zugewiesen bekommt.
+Für das Konvertieren von RDF nach JSON wurden die
+RDF-Management-Funktionalitäten von ARC2 um ein
+Exhibit-JSON-Plugin\footnote{Siehe die Datei
+  \url{plugins/ARC2_ExhibitJSONSerializerPlugin.php} in der Distribution.}
+erweitert, welches die Serialisierung des geparsten RDF-Graphen in das
+Zielformat realisiert.  Dabei wird eine automatische Erkennung der
+Exhibit-Datentypen vorgenommen, sodass z.\,B.\ ein Datum auch den Datentyp
+\texttt{date} zugewiesen bekommt.
 
 Die Struktur der Exhibit-JSON-Datei und die verwendeten Datentypen sind in
-[Ex] genauer beschrieben.\\
-{\Large\textsc{Achtung:} Für das korrekte Erstellen von \texttt{data.json} muss das PHP-Skript über \textbf{Schreibrechte} in dem Verzeichnis verfügen.} 
+[Ex] genauer beschrieben.
+\begin{quote}
+  \emph{Hinweis:}\ Für das korrekte Erstellen von \texttt{data.json} muss das
+  PHP-Skript über {Schreibrechte} in dem Verzeichnis verfügen.
+\end{quote}
 
 \subsection{Anzeige der Daten}
 
@@ -154,18 +178,24 @@ Das json-Datenobjekt wird über eine Link-Header Deklaration mit
 \texttt{rel={\dq}exhibit/data{\dq}} eingebunden. 
 
 Zur Aktivierung der Google Maps Kartenfunktion wird ein eigener Google Maps
-Schlüssel benötigt. Dieser ist in die Datei \texttt{gmaps\_api\_key.php} einzufügen.
+Schlüssel benötigt. Dieser ist in die Datei \texttt{gmaps\_api\_key.php}
+einzufügen.
 
 Die Anzeige auf der Webseite wird von Exhibit entsprechend der angegebenen
 \texttt{ex:\ldots} Attribute verschiedener \texttt{<div>} Tags gesteuert.  So
 lassen sich auf einfache Weise verschiedene Strukturelemente kombinieren, über
 die unterschiedliche Sichten auf die Datenauswahl eingestellt und
 zusammengeführt werden können.  Die ausgewählten Daten werden dann im
-Hauptfeld angezeigt. 
+Hauptfeld angezeigt.
 
 \subsection{Aktualisierung}
-Es sind die Schritte 3.1 sowie 3.2 erneut auszuführen, um neue Event-Daten einzuspielen. {\Large\textsc{Achtung:} Sollten anschließend in der Präsentation keine Veränderungen zu sehen sein, so hilft meist das \textbf{Löschen des Browser-Caches} weiter.}
-
+Es sind die Schritte 3.1 sowie 3.2 erneut auszuführen, um neue Event-Daten
+einzuspielen.
+\begin{quote}
+  \emph{Hinweis:}\ Sollten anschließend in der Präsentation keine
+  Veränderungen zu sehen sein, so hilft meist das {Löschen des Browser-Caches}
+  weiter.
+\end{quote}
 \section{Testen}
 
 Zu ergänzen.
