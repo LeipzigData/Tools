@@ -36,9 +36,22 @@ Where {
 -------------------------------------
 
 Verarbeitung:
-Speichern unter /tmp/a.ttl
+Speichern unter a.ttl
 
-cat Perl/EventPrefix.ttl >b.ttl 
-rapper -g /tmp/a.ttl -o turtle >> b.ttl 
+cat ??/RDFData/Prefix.ttl a.ttl >b.ttl 
 
 rapper -g b.ttl -o turtle > c.ttl # mache daraus unser Format
+
+-------------------------------------
+Suche die bekannten Geokoordinaten für gegebene Orte heraus
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+select ?a ?glat ?glong 
+Where { 
+  ?a ld:hasAddress ?ao .
+  ?a a ld:Ort .
+  optional { ?ao geo:lat ?glat .  }
+  optional { ?ao geo:long ?glong .  }
+} 
+-------------------------------------
