@@ -44,24 +44,25 @@ function loadDataFromFile($store) {
   $store->query("LOAD <file:EventsDump.ttl>");
 }
 
-/* Load Data from an SPARQL-Endpoint */
+/* Load Data from an SPARQL-Endpoint. Does not yet work as desired */
 function loadDataFromEndpoint($store) { 
-	$config = array(
-	  /* remote endpoint */
+  $config = 
+    array(/* remote endpoint */
 	  'remote_store_endpoint' => 'http://leipzig-data.de/widget/sparql.php',
 	);
-	$ep = ARC2::getRemoteStore($config);  	//get Access to remote endpoint
-	$q  = 'SELECT * WHERE {					
-				{ ?s ?p ?o . }
-			}';								//define query to run on endpoint
-	$rows = $ep->query($q , 'rows');		//connect to endpoint and run query
-	echo "read data from endpoint\n";
-	$store->insert($rows, '');				//insert data from endpoint to local store
-  
+  //get Access to remote endpoint
+  $ep = ARC2::getRemoteStore($config);  
+  //define query to run on endpoint	
+  $q  = 'SELECT * WHERE {{ ?s ?p ?o . }}';
+  //connect to endpoint and run query
+  $rows = $ep->query($q , 'rows');
+  echo "read data from endpoint\n";
+  //insert data from endpoint to local store
+  $store->insert($rows, '');		
 }
 
 $store->reset();
-loadDataFromEndpoint($store);
+loadDataFromFile($store);
 echo '<pre>';
 echo "warnings:\n";
 print_r ($store->warnings);
@@ -69,6 +70,5 @@ echo "errors:\n";
 print_r ($store->getErrors());
 echo "imported following triples:\n";
 echo listTriples($store);
-
 
 ?>
