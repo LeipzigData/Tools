@@ -3,7 +3,7 @@ use APILeipzig;
 
 my $hash=APILeipzig::getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2013-01");
+print getEvents("2013-02");
 
 ## end main ##
 
@@ -55,6 +55,7 @@ sub processEvent {
   $out.=addReference("ld:contactPerson","<$hid>");
   $out.=addReference("ical:organizer","<$hid>");
   $out.=addReference("ical:location","<$vid>");
+  $out.=addReference("ical:sentBy","<http://leipzig-data.de/Data/Agent/APILeipzig.Events>");
   $out.=addReference("ld:hasTag","ldtag:KreativesLeipzig");
   $out.=addLiteral("rdfs:label",$title);
   $out.=addLiteral("ical:summary",$title);
