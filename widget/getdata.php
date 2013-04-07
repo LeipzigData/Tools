@@ -5,9 +5,9 @@ set_time_limit(360);
 ini_set("memory_limit", "1024M");
 
 /* ARC2 static class inclusion */
-include_once('../../arc2/ARC2.php');
+include_once('arc2/ARC2.php');
 /* Database Settings inclusion */
-include_once('../../db.php');
+include_once('db.php');
 
 /* debug switch: set true to print errors and some other information and also
    to get a human readable data.json file */
