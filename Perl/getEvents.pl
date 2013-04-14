@@ -61,3 +61,5 @@ cat EventPrefix.ttl >c.ttl
 rapper -g b.ttl -o turtle >> c.ttl # mache daraus turtle ohne namespace kuerzel
 
 rapper -g c.ttl -o turtle > d.ttl # mache daraus unser Format
+
+mv d.ttl ~/git/LD/Webseiten/Services/widget/EventsDump.ttl 
