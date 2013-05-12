@@ -1,6 +1,7 @@
 # Aenderung 23.03.: URI ist nun NEU.<Datum>, keine NEUId mehr.
 # Aenderung 03.04.: MD5 Checksumme hinzugefügt und danach bereits aufgenommene
 # Events ausgefiltert.
+# Aenderung 04.05.: MD5 Checksumme über String ohne white spaces gebildet
 
 use Digest::MD5;
 use SparqlQuery;
@@ -92,6 +93,7 @@ sub printHash {
   push(@l,"ical:organizer ldo:NetzwerkEnergieUmwelt");
   push(@l,"ical:sentBy <http://leipzig-data.de/Data/Agent/NEU.Events>");
   push(@l,"ld:hasTag ldtag:Energie");
+  $md=~s/\s//gs;
   my $hashvalue=Digest::MD5::md5_base64($md);
   return if exists $hashtags->{$hashvalue};
   my $out=join(";\n",@l);
