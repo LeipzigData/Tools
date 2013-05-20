@@ -45,7 +45,7 @@ sub processVenue {
   my $ort=$postcode.".".$street.".".$hn;
   my $out="<http://leipzig-data.de/Data/Ort/$name> a ld:Ort";
   $out.=addLiteral("rdfs:label",$name);
-  $out.=addReference("ld:hasAPIId","<http://leipzig-data.de/Data/APIId/Venue.$id>");
+  $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Venue.$id>");
   $out.=addReference("ld:hasAddress","<http://leipzig-data.de/Data/Adresse/$ort>");
   $out.=addLiteral("rdfs:comment",$description) if $description;
   return "$out .\n\n";

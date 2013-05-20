@@ -16,15 +16,39 @@ SELECT ?l ?k WHERE {
   ?p ld:Kurzinformation ?k .
 }
 
+---------------------------------------------------
+Events kontrollieren
+
+Welche Events haben keinen Ort?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e WHERE {
+  ?e a ld:Event .
+  optional {?e ical:location ?o .}
+  filter (!bound(?o))
+} 
+
 Welche Events haben einen Ort, der nicht existiert? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-PREFIX cal: <http://www.w3.org/2002/12/cal/ical#> 
-SELECT distinct ?o WHERE {
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?o WHERE {
   ?e a ld:Event .
-  ?e cal:location ?o .
+  ?e ical:location ?o .
   optional {?o rdfs:label ?l .}
   filter (!bound(?l))
+} 
+
+Welche Events haben einen Ort ohne Adresse?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?o WHERE {
+  ?e a ld:Event .
+  ?e ical:location ?o .
+  optional { ?o ld:hasAddress ?a .}
+  filter (!bound(?a))
 } 
 
 Welche Orte haben keine gültige Adresse?
@@ -40,9 +64,10 @@ SELECT distinct ?e ?o WHERE {
 Welche Adressen haben keine Geokoordinaten? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT distinct ?e WHERE {
   ?e a ld:Adresse .
-  optional {?e <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?l .}
+  optional {?e geo:lat ?l . }
   filter (!bound(?l))
 } 
 

@@ -38,11 +38,11 @@ sub processHost {
   my $url=$a->{url};
   my $company=fix($a->{company});
   my $phone=fix($a->{phone});
-  my $out="<http://leipzig-data.de/Data/Person/$lname"."_"."$vname> a ld:NatuerlichePerson";
-  $out.=addLiteral("rdfs:label","$vname $lname");
-  $out.=addReference("ld:hasAPIId","<http://leipzig-data.de/Data/APIId/Host.$id>");
+  my $out="<http://leipzig-data.de/Data/Person/$lname"."_"."$vname> a foaf:Person";
+  $out.=addLiteral("foaf:name","$vname $lname");
+  $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Host.$id>");
   $out.=addLiteral("ld:relatedTo","$company") if $company;
-  $out.=addLiteral("ld:hasTelefon","$phone") if $phone;
+  $out.=addLiteral("foaf:phone","$phone") if $phone;
   $out.=addLiteral("ld:hasURL","$url") if $url;
   return "$out .\n\n";
 }
