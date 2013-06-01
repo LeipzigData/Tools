@@ -2,10 +2,13 @@
 # Aenderung 03.04.: MD5 Checksumme hinzugefügt und danach bereits aufgenommene
 # Events ausgefiltert.
 # Aenderung 04.05.: MD5 Checksumme über String ohne white spaces gebildet
+# Aenderung 01.06.: 
 
 use Digest::MD5;
 use SparqlQuery;
 use strict;
+
+my $startdate="2013-03-01";
 undef $/;
 system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;
@@ -95,7 +98,8 @@ sub printHash {
   push(@l,"ld:hasTag ldtag:Energie");
   $md=~s/\s//gs;
   my $hashvalue=Digest::MD5::md5_base64($md);
-  return if exists $hashtags->{$hashvalue};
+  return if exists $hashtags->{$hashvalue};  
+  return unless $date gt $startdate;
   my $out=join(";\n",@l);
   return <<EOT;
 <http://leipzig-data.de/Data/Event/NEU.$date.$id> a ld:Event ;

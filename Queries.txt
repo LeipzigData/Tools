@@ -51,6 +51,20 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?a))
 } 
 
+Welche Events haben einen Ort mit Adresse, aber ohne Geokoordinaten?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+SELECT distinct ?e ?o WHERE {
+  ?e a ld:Event .
+  ?e ical:location ?o .
+  ?o ld:hasAddress ?a .
+  optional { ?a geo:lat ?g .}
+  filter (!bound(?g))
+} 
+
+---------------------------------------------------
 Welche Orte haben keine gültige Adresse?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
