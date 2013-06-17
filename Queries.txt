@@ -17,6 +17,24 @@ SELECT ?l ?k WHERE {
 }
 
 ---------------------------------------------------
+Personen nach Namen finden
+
+SELECT ?p ?n WHERE {
+  ?p a foaf:Person .
+  ?p foaf:name ?n .
+  filter regex(?n,"Meier") .
+}
+
+Träger nach Namen finden
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT ?p ?n WHERE {
+  ?p a ld:Traeger .
+  ?p rdfs:label ?n .
+  filter regex(?n,"Meier") .
+}
+
+---------------------------------------------------
 Events kontrollieren
 
 Welche Events haben keinen Ort?
