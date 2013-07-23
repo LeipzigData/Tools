@@ -47,6 +47,10 @@ SELECT distinct ?e WHERE {
   filter (!bound(?o))
 } 
 
+Keine - alle Events mit unbestimmten Ort haben entweder
+http://leipzig-data.de/Data/Ort/NN oder
+http://leipzig-data.de/Data/Ort/Stadtweit
+
 Welche Events haben einen Ort, der nicht existiert? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
@@ -57,6 +61,11 @@ SELECT distinct ?e ?o WHERE {
   optional {?o rdfs:label ?l .}
   filter (!bound(?l))
 } 
+
+Keine - die unbestimmten Orte
+http://leipzig-data.de/Data/Ort/NN und
+http://leipzig-data.de/Data/Ort/Stadtweit
+sind unter Orte.ttl erfasst
 
 Welche Events haben einen Ort ohne Adresse?
 
@@ -69,15 +78,19 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?a))
 } 
 
+Nur Events zum den unbestimmten Orten
+http://leipzig-data.de/Data/Ort/NN und
+http://leipzig-data.de/Data/Ort/Stadtweit
+
 Welche Events haben einen Ort mit Adresse, aber ohne Geokoordinaten?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
-SELECT distinct ?e ?o WHERE {
+SELECT distinct ?o ?a WHERE {
   ?e a ld:Event .
   ?e ical:location ?o .
-  ?o ld:hasAddress ?a .
+  ?o ld:hasAddress ?a . 
   optional { ?a geo:lat ?g .}
   filter (!bound(?g))
 } 
