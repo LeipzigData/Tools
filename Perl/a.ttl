@@ -4,30 +4,6 @@
 @prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://leipzig-data.de/Data/Event/APILeipzig.169> a ld:Event ;
-	ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Event.169> ;
-	ld:contactPerson <http://leipzig-data.de/Data/Ort/KreativesLeipzig> ;
-	ical:organizer <http://leipzig-data.de/Data/Ort/KreativesLeipzig> ;
-	ical:location <http://leipzig-data.de/Data/Ort/BayerischerBahnhof> ;
-	ical:sentBy <http://leipzig-data.de/Data/Agent/APILeipzig.Events> ;
-	ld:hasTag ldtag:KreativesLeipzig ;
-	rdfs:label "Kreatives Leipzig Stammtisch" ;
-	ical:summary "Kreatives Leipzig Stammtisch" ;
-	ical:dtstart "2013-09-04T19:00:00+01:00" ;
-	ical:description "Ja, es gibt mal wieder einen KL Stammtisch. Ohne Thema, ohne Verpflichtungen - einfach nur mit Kaltgetränken und zum Quatschen. Vereinsmitglieder sind genauso gerne gesehen wie neue Gesichter. <br/> <br/> Als Lokalität soll diesmal der Biergarten im Bayerischen Bahnhof dienen. Da man dort keinen Tisch reservieren kann, wird es dann vor Ort spannend. :)" .
-
-<http://leipzig-data.de/Data/Event/APILeipzig.170> a ld:Event ;
-	ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Event.170> ;
-	ld:contactPerson <http://leipzig-data.de/Data/Ort/KreativesLeipzig> ;
-	ical:organizer <http://leipzig-data.de/Data/Ort/KreativesLeipzig> ;
-	ical:location <http://leipzig-data.de/Data/Ort/i-fabrik> ;
-	ical:sentBy <http://leipzig-data.de/Data/Agent/APILeipzig.Events> ;
-	ld:hasTag ldtag:KreativesLeipzig ;
-	rdfs:label "WISSENSWERT: Angebote für öffentliche Auftraggeber - Was muss ich beachten?" ;
-	ical:summary "WISSENSWERT: Angebote für öffentliche Auftraggeber - Was muss ich beachten?" ;
-	ical:dtstart "2013-09-10T16:00:00+01:00" ;
-	ical:description "Aufträge für Einrichtungen der öffentlichen Hand sind für viele Kreativschaffende attraktiv: Mit der Bezahlung gibt es selten Probleme und die Referenz, für eine Stadtverwaltung oder ein Ministerium gearbeitet zu haben, bringt einen Vertrauensvorschuss bei der nächsten Bewerbung gegenüber einem Unternehmen aus der Privatwirtschaft. Die Verfahren, in denen die öffentliche Hand Aufträge vergibt und die dabei angewandten Bewertungsmaßstäbe sind für viele aber ein Mysterium. Die Quote an formalen Fehlern bei Angeboten ist entsprechend hoch. <br/> <br/> Daher bietet Kreatives Leipzig e. V. einen Workshop an, in dem zunächst die gängigsten Vergabeverfahren und die häufigsten Formfehler vorgestellt werden. Anschließend werden Einzelbeispiele und Fragen der Teilnehmenden gemeinsam diskutiert. Die Durchführung und Moderation übernimmt Frank Trepte, Gründungsmitglied von Kreatives Leipzig e. V., der regelmäßig Auftraggeber der öffentlichen Hand bei der Vergabe kreativer Leistungen berät und begleitet. <br/> Für Mitglieder von Kreatives Leipzig e. V. ist die Teilnahme von bis zu 2 Personen kostenfrei. Für Nicht-Mitglieder wird ein Unkostenbeitrag von 15 Euro erhoben. Aus organisatorischen Gründen ist eine Teilnahme nur nach vorheriger Anmeldung möglich. Hierfür bitte folgenden Link nutzen: http://tiny.cc/wissenswert-anmeldung." .
-
 <http://leipzig-data.de/Data/Event/NEU.2013-09-25.1> a ld:Event ;
 ld:hasMD5Sum "/JrsWzlVfPfTcRWlAEoKOA" ;
 rdfs:label "IHK: 12. Sächsischer Energietag - Der Effizienz Dynamik verleihen";
