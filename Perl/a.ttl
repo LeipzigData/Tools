@@ -1,0 +1,38 @@
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix ldo: <http://leipzig-data.de/Data/Ort/> .
+@prefix ldp: <http://leipzig-data.de/Data/Person/> .
+@prefix ldt: <http://leipzig-data.de/Data/Traeger/> .
+@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://leipzig-data.de/Data/Firma/evermind> a foaf:Organization ;
+foaf:name "evermind GmbH" ;
+foaf:phone "0341-2539660";
+foaf:fax "0341-2539661"; 
+ld:hasAddress <http://leipzig-data.de/Data/Adresse/04155.Schorlemmerstrasse.1> .
+
+
+ldp:Kleshch_Irina a foaf:Person ;
+                  foaf:name "Irina Kleshch" ;
+                  foaf:mbox "ik@evermind.de" ;
+                  foaf:phone "0341-2539660" ;
+                  ld:relatedTo <http://leipzig-data.de/Data/Firma/evermind> .
+
+
+<http://leipzig-data.de/Data/Event/NEU.2013-11-28> a ld:Event ;
+ld:hasMD5Sum "ZS2c3YzbzVBR2x9cmdvXMA" ;
+rdfs:label "Energiemetropole-Leipzig: Fachtagung 'STADT LICHT + VERKEHR - Innovationen erleben!'";
+ical:description "Am 28. und 29. November 2013 veranstaltet das Netzwerk „Intelligente LED-Beleuchtungstechnik“, unter Mitträgerschaft der Deutschen Lichttechnischen Gesellschaft e. V. (LiTG), die Fachtagung „Stadt Licht + Verkehr – Innovationen erleben!“. Smart Citys erfordern innovative Kommunikations-, Steuerungs- und IT-Lösungen im öffentlichen Raum. Das betrifft z.B. adaptive Stadtbeleuchtungen, Systeme zur Verkehrsbeeinflussung und zur Lenkung von Verkehrsströmen sowie Sensornetze zur Erfassung von Umweltdaten. Für diese Anwendungen müssen Konzepte für das Zusammenwirken der einzelnen Teilsysteme und Komponenten sowie für eine multifunktionale IT- und Kommunikationsinfrastruktur entwickelt werden. Bei der Tagung werden Erfahrungen zum Einsatz von Systemen der Verkehrstelematik und von adaptiven Lichtmanagementsystemen ausgetauscht und entsprechende Wirkzusammenhänge diskutiert. Folgende Themenfelder werden bei der Fachtagung erläutert:<br/><br/>Vorstellung von innovativen Lösungen für Steuerungs- und Managementsysteme im öffentlichen Raum<br/>Verkehrstelematik, Systeme zur Verkehrsbeeinflussung und zur Lenkung von Verkehrsströmen, ÖPNV-Priorisierung<br/>Adaptive Straßenbeleuchtung<br/>Energiemanagement<br/>Integration der verschiedenen Teilsysteme in einer Stadt<br/>Neue technische und funktionale Möglichkeiten durch multifunktionale Ansätze<br/>Datenschutz<br/>Konzepte bei Systemausfällen und Störungen<br/>Automatische Funktionsüberrwachung<br/><br/>Die Tagung richtet sich insbesondere an Stadtplaner, Verkehrsplaner, Lichtplaner, kommunale Entscheider, Hersteller und Betreiber von Stadtbeleuchtungen sowie von Systemen der Verkehrstelematik. Besucher der Fachtagung erwartet ein Fachprogramm aus Vorträgen und Diskussionen, eine begleitende Ausstellung, eine Besichtigung des Testgebietes mit der LED-Installation sowie eine Abendveranstaltung. Fünf Universitäten darunter die TU Berlin, die HTWK Leipzig und die Frauenhofer IOSB stellen bei der „Stadt Licht + Verkehr“ ihre Forschungsergebnisse vor.<br/>Detaillierte Informationen zur Fachtagung erhalten Sie auf der Website des LED-Netzwerks.<br/>Kontakt: Irina Kleshch, Netzwerk Intelligente LED-Beleuchtungstechnik, c/o evermind GmbH · Schorlemmerstraße 1 · 04155 LeipzigTel.: +49 341 2539660 · Fax: +49 341 2539661· E-Mail: ik@evermind.de ·Internet: www.led-netzwerk.de";
+ical:dtend "2013-11-29";
+ical:dtstart "2013-11-28";
+ical:summary "Energiemetropole-Leipzig: Fachtagung 'STADT LICHT + VERKEHR - Innovationen erleben!'";
+ld:hasURL <http://www.led-netzwerk.de> ;
+ld:contactperson ldp:Kleshch_Irina;
+ical:organizer ldo:NetzwerkEnergieUmwelt, <http://leipzig-data.de/Data/Firma/evermind>;
+ical:sentBy <http://leipzig-data.de/Data/Agent/NEU.Events>;
+ld:hasTag ldtag:Energie  .
+
+
