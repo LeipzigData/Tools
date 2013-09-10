@@ -22,24 +22,40 @@ if($debug)
  *	main
  */
  
-/*initialize TripleStore */
-$config = array(
-    /* db */
-    'db_name' => DB_NAME, 
-    'db_user' => DB_USER,
-    'db_pwd' => DB_PASSWORD,
-    /* store */
-    'store_name' => 'data_store',
-    /* stop after 100 errors */
-    'max_errors' => 100,
-);
+$local_store = false; /* set true to use the integrated store and if youre dumping data via turtle files (local or remote)
+						    * set false if you want to retrieve data directly from a (remote) sparql endpoint */
 
-// connect to store
-$store = ARC2::getStore($config);
-if (!$store->isSetUp() && $debug) 
-	print "\nNo store has been Found! You first have to configure your database settings in db_credentials.php and then import some triples using Store.php!\n";
+
+if ($local_store)
+{
+	/*initialize TripleStore */
+	$config = array(
+		/* db */
+		'db_name' => DB_NAME, 
+		'db_user' => DB_USER,
+		'db_pwd' => DB_PASSWORD,
+		/* store */
+		'store_name' => 'data_store',
+		/* stop after 100 errors */
+		'max_errors' => 100,
+	);
+
+	// connect to store
+	$store = ARC2::getStore($config);
+	if (!$store->isSetUp() && $debug) 
+		print "\nNo store has been Found! You first have to configure your database settings in db_credentials.php and then import some triples using Store.php!\n";
+	else
+		if ($debug) print "\nsuccessfully connected to store\n";
+}
 else
-	if ($debug) print "\nsuccessfully connected to store\n";
+{
+	/* configuration */ 
+	$config = array(
+		'remote_store_endpoint' => 'http://leipzig-data.de:8890/sparql',
+	);
+	// connect to store
+	$store = ARC2::getRemoteStore($config);
+}
 // filter data (run sparql query)
 $trips = filterData($store);
 if ($debug && $store->getErrors()) {print "\nErrors occured during sparql request:\n"; print_r($store->getErrors());}
@@ -57,8 +73,30 @@ else
  * the query can be changed to filter the data as needed
  */
 function filterData($store) {
-  $q = 'CONSTRUCT {?s $p $o; $p $o.} WHERE { ?s ?p ?o}';
+  $q = 'CONSTRUCT {?s $p $o; $p $o.} WHERE { ?s ?p ?o}'; // query for local store (dumping all of it)
+  $q = '
+		PREFIX ld: <http://leipzig-data.de/Data/Model/>
+		construct { 
+		  ?a ?ap ?ao .
+		  ?ao ?bp ?bo .
+		  ?bo ?cp ?co .
+		  ?co ?dp ?do .
+		  ?do ?ep ?eo .
+		  ?eo ?fp ?fo .
+		}
+		Where { 
+		  ?a ?ap ?ao .
+		  ?a a ld:Event .
+		  optional { ?ao ?bp ?bo .  }
+		  optional { ?bo ?cp ?co .  }
+		  optional { ?co ?dp ?do .  }
+		  optional { ?do ?ep ?eo .  }
+		  optional { ?eo ?fp ?fo .  }
+		} ';
   $result = $store->query($q);
+  global $debug;
+  if ($debug)
+	echo 'imported '.count($result['result'])." triples\n";
   return $result['result'];
 }	
 	
