@@ -15,10 +15,16 @@
   des <a href="http://leipzig-netz.de/index.php5/LD.Events"
   >Leipzig Data Events Frameworks</a> demonstriert.
 </div>
-<div>
-Für diese Präsentation ist die wöchentliche Aktualisierung bereits als
-Datei <tt>EventsDump.ttl</tt> eingespielt und im Store aktualisiert.  Auf drei
-Webseiten sind daraus
+<h3>Aktuelle Daten einspielen</h3> 
+Es gibt 2 Möglichkeiten die Daten einzuspielen
+<ul>
+<li>Einspielen der Daten aus dem Virtuoso SPARQL-Endpunkt von leipzig-data (Standard-Einstellung). Dazu <a href="getdata.php">hier</a> klicken</li>
+<li>Erstellen eines eigenen aktuellen Dumps oder Einspielen des wöchentlichen Dumps als <tt>EventsDump.ttl</tt>. Dazu muss in der Datei getdata.php
+der Zeile $local_store = false; auf true gesetzt werden und der Aufruf des Sparql-Anfrage für den remote Store auskommentiert werden.</li>
+</ul>
+
+<h3>Präsentation der Daten</h3>
+Auf den folgenden drei Webseiten werden die eingespielten Daten als
 <ul>
 <li>eine <a href="themes/theme-1/presentation.php">einfache</a> Präsentation
   mit Karte, Eventliste, Kalender und Tagwolke,</li>
@@ -28,7 +34,7 @@ Webseiten sind daraus
 <li>eine <a href="themes/theme-2/presentation.php">experimentelle</a>
   Präsentation mit noch genauer zu fixierenden Facetten</li>
 </ul>
-zusammengestellt.  
+dargestellt.  
 </div>
 <div>
 <ul>

@@ -2,7 +2,7 @@
 <head>
     <title>ZAK</title>
     <!-- importing Data -->
-	<link href="data.json" type="application/json" rel="exhibit/data" />
+	<link href="../../data.json" type="application/json" rel="exhibit/data" />
 	<!-- importing Exhibit Main -->
     <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>
 	<!-- importing Date Picker -->
