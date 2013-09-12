@@ -11,7 +11,7 @@
 \begin{document}
 \begin{center}
   \textbf{\Large Technische Dokumentation\\[.3em] des Leipzig Data Events
-    Widgets}\\[1em] Version vom 23. Februar 2013
+    Widgets}\\[1em] Version vom 12. September 2013
 \end{center}
 
 \section{Allgemeines}
@@ -25,23 +25,26 @@ Weise eine lesende Sicht auf vorhandene Daten mit Such- und Filterfunktionen
 zu definieren und in die Webpräsenzen der von ihm betreuten Akteure
 einzubauen.  Der Webdienste-Anbieter kann dazu relevante Daten aus
 Datenbeständen, die nach einer vorgegebenen Ontologie aufgebaut sind, der
-\emph{LD.Datenbasis}, in einen eigenen lokalen ARC2 Data Store auslesen,
-daraus über Filterkriterien akteursspezifisch einen relevanten Teilbestand für
-die Präsentation auswählen und in die Webpräsenz des Akteurs als iframe
-einbinden.  Nutzer der Webpräsenz des Akteurs können in diesen Informationen
-weiter selektiv suchen und sich die Ergebnisse in verschiedenen Formaten
-anzeigen lassen.
+\emph{LD.Events Datenbasis}, in einen eigenen lokalen ARC2 Data Store
+auslesen, daraus über Filterkriterien akteursspezifisch einen relevanten
+Teilbestand für die Präsentation auswählen und in die Webpräsenz des Akteurs
+als iframe einbinden.  Nutzer der Webpräsenz des Akteurs können in diesen
+Informationen weiter selektiv suchen und sich die Ergebnisse in verschiedenen
+Formaten anzeigen lassen.
 
-Nicht erfasst ist der Prozess des Fortschreibens der LD.Datenbasis durch einen
-Kreis dafür autorisierter Personen -- hierfür ist ein zweites Projekt
-aufzusetzen, mit dem die bisherigen Datenerfassungsprozesse auf Protokollebene
-so harmonisiert werden, dass relevante und qualitätsgesicherte Daten direkt in
-die LD.Datenbasis übernommen werden können. In einer weiteren Ausbaustufe kann
-hier ein Mashup aus verschiedenen Kanälen eingebaut werden, die dem
-vereinbarten Protokoll folgen.  Derzeit können Veranstaltungsdaten von
-autorisierten Personen direkt über das Ontowiki-Portal
-\url{http://leipzig-data.de/Data} des Leipzig Open Data Projekts eingegeben
-werden.
+Alternativ kann die LD.Events Datenbasis oder Teile davon auch direkt über den
+Leipzig Data Sparql-Endpunkt \url{http://www.leipzig-data.de:8890/sparql}
+ausgelesen werden. 
+
+Nicht erfasst ist der Prozess des Fortschreibens der LD.Events Datenbasis
+durch einen Kreis dafür autorisierter Personen -- hierfür ist der bisherige
+Datenerfassungsprozess auf Protokollebene so zu harmonisieren, dass relevante
+und qualitätsgesicherte Daten direkt in die LD.Events Datenbasis übernommen
+werden können. In einer weiteren Ausbaustufe kann hier ein Mashup aus
+verschiedenen Kanälen eingebaut werden, die dem vereinbarten Protokoll folgen.
+Derzeit können Veranstaltungsdaten von autorisierten Personen direkt über das
+Ontowiki-Portal \url{http://leipzig-data.de/Data} des Leipzig Data Projekts
+eingegeben werden.
 
 Die Softwarelösung basiert auf Javascript, die Präsentation läuft komplett mit
 allen Such- und Darstellungsfunktionen im Webbrowser des Nutzers ab und greift
@@ -57,12 +60,9 @@ Rahmen der Open Innovation Ausschreibung 2012 unterstützt.
 \subsection{Übersicht}
 
 Über eine SPARQL-Anfrage kann der Webdienste-Anbieter regelmäßig relevante
-Daten aus der LD.Datenbasis auslesen und mit dem PHP Skript \texttt{Store.php}
-als Dump in einen eigenen lokalen ARC2 Data Store speichern. Im Rahmen der
-LD.Event Aktivität wird wöchentlich der öffentliche SPARQL-Endpunkt
-\url{http://leipzig-data.de/widget/sparql.php} mit aktuellen Event-Daten
-gefüllt. Darüber können die {\glqq}Werkbänke{\grqq} der beteiligten
-Webdienste-Anbieter an den verteilten Datenbestand angebunden werden.
+Daten aus der LD.Events Datenbasis auslesen und mit dem PHP Skript
+\texttt{Store.php} als Dump in einen eigenen lokalen ARC2 Data Store
+speichern oder direkt weiter verarbeiten. 
 
 Aus diesem Datenbestand können Webdienste-Anbieter akteursspezifische Angebote
 zusammenstellen.  Dazu müssen diese pro Akteur ein eigenes \emph{Thema}
@@ -87,11 +87,11 @@ Kenntnis dieses Frameworks im Umfang von [Ex] vorausgesetzt.
 \begin{itemize}
 \item Ausrollen der Dateien in ein eigenes Verzeichnis \texttt{widget} auf dem
   Webserver, das der Webserver lesen kann,
-\item Ausrollen von ARC2, siehe [Arc2], das als Unterverzeichnis \texttt{arc2}
-  an \texttt{widget} zu linken ist, und Einbinden der Datei(en) im Verzeichnis
-  \texttt{plugins} in das Verzeichnis \texttt{arc2/plugins} (etwa durch
-  Linken).
-\item Aufsetzen einer Datenbank und Konfiguration des ARC2 Data Store. 
+\item Ggf.\ Ausrollen von ARC2, siehe [Arc2], das als Unterverzeichnis
+  \texttt{arc2} an \texttt{widget} zu linken ist, Einbinden der Datei(en) im
+  Verzeichnis \texttt{plugins} in das Verzeichnis \texttt{arc2/plugins} (etwa
+  durch Linken), Aufsetzen einer Datenbank und Konfiguration des ARC2 Data
+  Store.
 
   Dazu ist die Datei \texttt{db\_credentials.php} in eine Datei
   \texttt{db.php} zu kopieren und die Zugangsdaten zur lokalen Datenbank
@@ -127,8 +127,8 @@ importieren gibt es \textbf{2 Möglichkeiten}.
 \item \textbf{Import mittels Dateidump}
 
 Dies ist die komplexere, aber stabilere Lösung.  An die unter
-\url{http://leipzig-data.de/Data} öffentlich verfügbare LD.Datenbasis kann
-eine eigene SPARQL-Abfrage\footnote{Über deren Sparql-Endpunkt
+\url{http://leipzig-data.de/Data} öffentlich verfügbare LD.Events Datenbasis
+kann eine eigene SPARQL-Abfrage\footnote{Über deren Sparql-Endpunkt
   \url{http://leipzig-data.de:8890/sparql}.} gestellt werden, um Event-Daten
 zu extrahieren.  Beispiele für solche Anfragen finden sich in der Datei
 \texttt{Queries.txt} der Distribution.  Das Ergebnis dieser Abfrage ist in
@@ -254,11 +254,11 @@ Neben dem Betrieb der Websites leistet der Webdienste-Anbieter \emph{first
   level support} im Bereich der Schulung der Datenverantwortlichen auf
 Akteursseite und bietet Beratung beim Design der Website des Akteurs an.
 
-\paragraph{LD.Datenbasis.} 
+\paragraph{LD.Events Datenbasis.} 
 Datenbasis des Leipzig Open Data Projekts [LOD], auf die über eine
 SPARQL-Schnittstelle oder ein git-Repo zugegriffen werden kann.
 Perspektivisch soll diese Datenbasis zu einer verteilten gemeinsamen
-Datenbasis der am Projekt beteiligten Webdienste-Anbieter weiterentwickelt
+Datenbasis der am Projekt beteiligten Web\-dienste-Anbieter weiterentwickelt
 werden, auf die nach Open Data Prinzipien zugegriffen werden kann.
 
 \section{Quellen}
