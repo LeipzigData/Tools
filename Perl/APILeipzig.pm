@@ -9,7 +9,7 @@ use SparqlQuery;
 
 ## process curl query 
 
-sub Query {
+sub rawQuery {
   my $url=shift;
   my $curl = WWW::Curl::Easy->new;
   my $response_body;
@@ -29,12 +29,14 @@ sub Query {
   $_=$response_body;
   #print $_;
   s/.*\{"data":\[/\{"data":\[/s; # remove HEADER;
-  my $json = JSON->new->allow_nonref;
-  #my $pretty_printed = $json->pretty->encode( $_ ); 
-  #print $pretty_printed; 
-  return $json->decode( $_ );
+  return $_; 
 }
 
+sub Query {
+  local $_=rawQuery(shift);
+  # print JSON->new->pretty->encode( $_ ); 
+  return JSON->new->allow_nonref->decode( $_ );
+}
 
 sub prefix { 
   return <<EOT;
@@ -59,5 +61,19 @@ EOT
   return $hash;
 }
 
+sub fixId {
+  local $_=shift;
+  return unless $_;
+  s/Ä/Ae/g; 
+  s/Ö/Oe/g; 
+  s/Ü/Ue/g;
+  s/ä/ae/g; 
+  s/ö/oe/g; 
+  s/ü/ue/g;
+  s/ß/ss/g; 
+  s/\.//g; 
+  s/\s+//g;  
+  return $_;
+}
 
 1;
