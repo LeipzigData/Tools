@@ -1,0 +1,2314 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://leipzig-data.de/Data/MediaBranch/1>
+    ld:created_at "2011-02-23T03:05:16+01:00" ;
+    ld:id "1" ;
+    ld:internal_key "" ;
+    ld:internal_type "cluster" ;
+    ld:name "Cluster Medien & Kreativwirtschaft" ;
+    ld:parent_id "" ;
+    ld:updated_at "2011-02-23T03:05:16+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/10>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "10" ;
+    ld:internal_key "WM" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Werbemarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/11>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "11" ;
+    ld:internal_key "DW" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Designwirtschaft" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/12>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "12" ;
+    ld:internal_key "AM" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Architekturmarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/13>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "13" ;
+    ld:internal_key "A" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Druck- und Verlagswesen" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/14>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "14" ;
+    ld:internal_key "B" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Hörfunk, Film, Fernsehen und Video" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/15>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "15" ;
+    ld:internal_key "C" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Informationstechnik, Neue Medien" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/16>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "16" ;
+    ld:internal_key "D" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Werbung, Marketing, Presse- und Öffentlichkeitsarbeit" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/17>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "17" ;
+    ld:internal_key "E" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Weitere Mediendienstleistungen" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/18>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "18" ;
+    ld:internal_key "F" ;
+    ld:internal_type "main_branch" ;
+    ld:name "Medienrelevante Institutionen, Kultureinrichtungen" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/19>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "19" ;
+    ld:internal_key "A1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Druckerei" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/2>
+    ld:created_at "2011-02-23T03:05:16+01:00" ;
+    ld:id "2" ;
+    ld:internal_key "SG" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Software/Games-Industrie" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:16+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/20>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "20" ;
+    ld:internal_key "A2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Verlag" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/21>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "21" ;
+    ld:internal_key "A3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Buchbinderei" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/22>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "22" ;
+    ld:internal_key "A4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Reproanstalt, Kopierservice, Setzerei" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/23>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "23" ;
+    ld:internal_key "A5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Vertrieb von Druckerzeugnissen" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/24>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "24" ;
+    ld:internal_key "A6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Weitere Dienstleistungen" ;
+    ld:parent_id "13" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/25>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "25" ;
+    ld:internal_key "B1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Rundfunkanstalt (öffentlich-rechtlich)" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/26>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "26" ;
+    ld:internal_key "B2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Fernsehsender/Hörfunksender (privat)" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/27>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "27" ;
+    ld:internal_key "B3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Produktionsunternehmen (Hörfunk, Film, Fernsehen, Video)" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/28>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "28" ;
+    ld:internal_key "B4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Verleih und Vertrieb von audio und audiovisuellen Produktionen" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/29>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "29" ;
+    ld:internal_key "B5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Vertrieb von rundfunk- oder filmtechnischen Geräten" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/3>
+    ld:created_at "2011-02-23T03:05:16+01:00" ;
+    ld:id "3" ;
+    ld:internal_key "BM" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Buchmarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:16+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/30>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "30" ;
+    ld:internal_key "B6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Vermietung von Geräten, Einrichtungen, Räumen und Personal" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/31>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "31" ;
+    ld:internal_key "B7" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "freiberuflich tätig" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/32>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "32" ;
+    ld:internal_key "B8" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Weitere Dienstleistungen" ;
+    ld:parent_id "14" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/33>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "33" ;
+    ld:internal_key "C1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Hardware und Hardwaresysteme" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/34>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "34" ;
+    ld:internal_key "C2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Netzanbieter (Carrier)" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/35>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "35" ;
+    ld:internal_key "C3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "IT-Netzwerke (Konzeption, Aufbau, Wartung)" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/36>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "36" ;
+    ld:internal_key "C4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Softwareentwicklung, -vertrieb und Installation (inkl. Datenbanken)" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/37>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "37" ;
+    ld:internal_key "C5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Multimedia, Online- und audiovisuelle Medien" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/38>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "38" ;
+    ld:internal_key "C6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Internetpräsentationen und e-Commerce-Lösungen" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/39>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "39" ;
+    ld:internal_key "C7" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Datenerfassung und -bearbeitung" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/4>
+    ld:created_at "2011-02-23T03:05:16+01:00" ;
+    ld:id "4" ;
+    ld:internal_key "PM" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Pressemarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:16+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/40>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "40" ;
+    ld:internal_key "C8" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Telekommunikation" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/41>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "41" ;
+    ld:internal_key "C9" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Weitere Dienstleistungen" ;
+    ld:parent_id "15" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/42>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "42" ;
+    ld:internal_key "D1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Marketing- und Werbeagentur" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/43>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "43" ;
+    ld:internal_key "D2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Presse- und Öffentlichkeitsarbeit" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/44>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "44" ;
+    ld:internal_key "D3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Markt- und Meinungsforschung" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/45>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "45" ;
+    ld:internal_key "D4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Grafik-, Design- und Fotostudio" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/46>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "46" ;
+    ld:internal_key "D5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Dienstleister, Zulieferer" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/47>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "47" ;
+    ld:internal_key "D6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "freiberuflich tätig" ;
+    ld:parent_id "16" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/48>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "48" ;
+    ld:internal_key "E1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Agentur, Archiv" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/49>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "49" ;
+    ld:internal_key "E2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Beratung und Service" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/5>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "5" ;
+    ld:internal_key "RW" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Rundfunkwirtschaft" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/50>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "50" ;
+    ld:internal_key "E3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Call Center, Help Desk" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/51>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "51" ;
+    ld:internal_key "E4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "freiberuflich tätig" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/52>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "52" ;
+    ld:internal_key "E5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Schulungen, Fort- und Weiterbildung" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/53>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "53" ;
+    ld:internal_key "E6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Weitere Mediendienstleistungen" ;
+    ld:parent_id "17" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/54>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "54" ;
+    ld:internal_key "F1" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Institution/Verwaltung" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/55>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "55" ;
+    ld:internal_key "F2" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Kultureinrichtung (Theater, Oper, Gewandhaus, Varieté, ...)" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/56>
+    ld:created_at "2011-02-23T03:05:18+01:00" ;
+    ld:id "56" ;
+    ld:internal_key "F3" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Verband" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:18+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/57>
+    ld:created_at "2011-02-23T03:05:18+01:00" ;
+    ld:id "57" ;
+    ld:internal_key "F4" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Verein" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:18+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/58>
+    ld:created_at "2011-02-23T03:05:18+01:00" ;
+    ld:id "58" ;
+    ld:internal_key "F5" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Bibliothek" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:18+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/59>
+    ld:created_at "2011-02-23T03:05:18+01:00" ;
+    ld:id "59" ;
+    ld:internal_key "F6" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Hoch- und Fachschule" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:18+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/6>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "6" ;
+    ld:internal_key "FW" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Filmwirtschaft" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/60>
+    ld:created_at "2011-02-23T03:05:18+01:00" ;
+    ld:id "60" ;
+    ld:internal_key "F7" ;
+    ld:internal_type "sub_branch" ;
+    ld:name "Weitere Institutionen und Einrichtungen" ;
+    ld:parent_id "18" ;
+    ld:updated_at "2011-02-23T03:05:18+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/61>
+    ld:created_at "2011-08-27T19:35:52+02:00" ;
+    ld:id "61" ;
+    ld:internal_key "10" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Informations- und Kommunikationstechnologie" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:35:52+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/62>
+    ld:created_at "2011-08-27T19:36:30+02:00" ;
+    ld:id "62" ;
+    ld:internal_key "20" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Zeitungen und Zeitschriften, Druck- und Verlagsgewerbe" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:36:30+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/63>
+    ld:created_at "2011-08-27T19:36:52+02:00" ;
+    ld:id "63" ;
+    ld:internal_key "30" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Rundfunk und Film" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:36:52+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/64>
+    ld:created_at "2011-08-27T19:37:17+02:00" ;
+    ld:id "64" ;
+    ld:internal_key "40" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Künste und Musik" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:37:17+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/65>
+    ld:created_at "2011-08-27T19:37:46+02:00" ;
+    ld:id "65" ;
+    ld:internal_key "50" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Werbung/Marketing, Öffentlichkeitsarbeit, Messe- und Ausstellungswesen" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:37:46+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/66>
+    ld:created_at "2011-08-27T19:38:08+02:00" ;
+    ld:id "66" ;
+    ld:internal_key "60" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Architekturmarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:38:08+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/67>
+    ld:created_at "2011-08-27T19:38:31+02:00" ;
+    ld:id "67" ;
+    ld:internal_key "70" ;
+    ld:internal_type "mkw_branch" ;
+    ld:name "Weitere Medien- und kulturelle Dienstleistungen" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-08-27T19:38:31+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/68>
+    ld:created_at "2012-10-18T12:41:50+02:00" ;
+    ld:id "68" ;
+    ld:internal_key "SO" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Sonstiges" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2012-10-18T12:41:50+02:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/7>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "7" ;
+    ld:internal_key "DK" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Markt für darstellende K" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/8>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "8" ;
+    ld:internal_key "KM" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Kunstmarkt" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaBranch/9>
+    ld:created_at "2011-02-23T03:05:17+01:00" ;
+    ld:id "9" ;
+    ld:internal_key "MW" ;
+    ld:internal_type "sub_market" ;
+    ld:name "Musikwirtschaft" ;
+    ld:parent_id "1" ;
+    ld:updated_at "2011-02-23T03:05:17+01:00" ;
+    a ld:MediaBranch .
+
+<http://leipzig-data.de/Data/MediaCompany/1>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/1000>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/1001>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/1004>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/1005>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/1006>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/1007>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/1008>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/1009>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/1010>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/1012>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/57> .
+
+<http://leipzig-data.de/Data/MediaCompany/1013>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/1014>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/1017>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/1019>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/102>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/44> .
+
+<http://leipzig-data.de/Data/MediaCompany/1023>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/1028>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/1029>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/1030>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/1032>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/1033>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/1035>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/1036>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/1039>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/105>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/108>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/109>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/112>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/59> .
+
+<http://leipzig-data.de/Data/MediaCompany/113>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/117>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/118>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/12>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/121>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/122>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/125>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33> .
+
+<http://leipzig-data.de/Data/MediaCompany/126>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/127>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/128>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/132>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/134>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/135>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/137>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/138>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/139>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/14>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/143>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/144>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/146>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/59> .
+
+<http://leipzig-data.de/Data/MediaCompany/147>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/15>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/151>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/153>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/156>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/157>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/163>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/169>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/17>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/170>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/171>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/172>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/177>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/179>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/44> .
+
+<http://leipzig-data.de/Data/MediaCompany/180>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/183>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/186>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/187>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/188>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/190>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/191>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/192>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/193>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/194>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/196>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/197>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/199>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/2>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22> .
+
+<http://leipzig-data.de/Data/MediaCompany/200>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/201>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/202>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/203>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/205>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/57> .
+
+<http://leipzig-data.de/Data/MediaCompany/207>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/208>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/21>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20> .
+
+<http://leipzig-data.de/Data/MediaCompany/210>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/213>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/214>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/215>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/217>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/218>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/220>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/221>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/222>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/223>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21> .
+
+<http://leipzig-data.de/Data/MediaCompany/224>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/226>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/231>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33> .
+
+<http://leipzig-data.de/Data/MediaCompany/233>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/235>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/44> .
+
+<http://leipzig-data.de/Data/MediaCompany/236>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/237>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/240>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/245>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/246>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/247>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/248>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/249>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/25>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/254>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/256>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/257>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/259>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/26>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/260>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/261>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/262>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/263>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/264>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/265>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/267>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/271>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/272>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/273>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/274>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/275>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/279>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/28>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35> .
+
+<http://leipzig-data.de/Data/MediaCompany/281>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/282>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/283>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/284>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/285>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/288>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/289>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22> .
+
+<http://leipzig-data.de/Data/MediaCompany/291>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/292>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/296>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/299>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/300>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/303>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/306>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/308>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/31>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/311>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/312>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/318>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/320>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/321>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/324>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/325>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/326>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/33>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/330>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/334>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/335>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/338>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/339>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/34>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20> .
+
+<http://leipzig-data.de/Data/MediaCompany/341>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/342>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/345>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/346>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/347>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/348>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/351>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/353>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/355>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/357>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/358>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/360>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/362>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/368>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/370>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/372>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/374>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/375>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/38>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/380>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/381>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/382>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/385>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/386>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/387>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/388>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/393>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/394>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/395>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/396>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/398>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/399>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/4>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/56>, <http://leipzig-data.de/Data/MediaBranch/57> .
+
+<http://leipzig-data.de/Data/MediaCompany/40>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/401>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/402>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/403>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/406>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/407>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/410>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/411>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/414>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/415>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/416>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/418>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20> .
+
+<http://leipzig-data.de/Data/MediaCompany/42>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/420>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/421>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/423>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/424>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28> .
+
+<http://leipzig-data.de/Data/MediaCompany/425>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/427>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/428>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/429>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/430>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/433>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/434>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/436>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/44>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/440>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/441>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/25>, <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/442>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/443>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/445>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/449>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/59> .
+
+<http://leipzig-data.de/Data/MediaCompany/45>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/450>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/451>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/452>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/58> .
+
+<http://leipzig-data.de/Data/MediaCompany/455>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/31> .
+
+<http://leipzig-data.de/Data/MediaCompany/456>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/457>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/458>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/46>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/460>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/461>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/464>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/465>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/466>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/468>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/44> .
+
+<http://leipzig-data.de/Data/MediaCompany/469>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/470>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/471>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/472>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/473>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/475>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/26>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/482>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/483>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/487>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28> .
+
+<http://leipzig-data.de/Data/MediaCompany/488>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/489>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/490>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/492>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/493>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/494>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/498>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/500>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/501>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/502>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22> .
+
+<http://leipzig-data.de/Data/MediaCompany/507>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/29> .
+
+<http://leipzig-data.de/Data/MediaCompany/508>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19> .
+
+<http://leipzig-data.de/Data/MediaCompany/51>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/511>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/512>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/514>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/515>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/517>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/519>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/52>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/520>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/521>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/522>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/523>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/28> .
+
+<http://leipzig-data.de/Data/MediaCompany/524>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/528>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/531>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/22> .
+
+<http://leipzig-data.de/Data/MediaCompany/533>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/534>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/539>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35> .
+
+<http://leipzig-data.de/Data/MediaCompany/54>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/540>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/542>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/50>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/543>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53>, <http://leipzig-data.de/Data/MediaBranch/57>, <http://leipzig-data.de/Data/MediaBranch/59> .
+
+<http://leipzig-data.de/Data/MediaCompany/546>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/547>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/549>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/55>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/550>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/553>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/554>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/555>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/558>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/57> .
+
+<http://leipzig-data.de/Data/MediaCompany/559>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/560>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/562>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/563>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/564>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/565>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/567>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/569>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/571>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/572>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/573>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/574>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/575>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/31> .
+
+<http://leipzig-data.de/Data/MediaCompany/576>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/578>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/579>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/580>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/582>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/585>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/586>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/588>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/25>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/44> .
+
+<http://leipzig-data.de/Data/MediaCompany/589>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/590>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/592>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/593>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/594>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/599>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/600>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/601>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/603>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/604>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/607>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/609>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/610>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/612>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/613>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/614>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/616>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/617>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/62>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/620>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/621>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/622>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/624>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/628>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/63>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/632>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/633>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/635>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/636>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/637>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/34> .
+
+<http://leipzig-data.de/Data/MediaCompany/638>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/639>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/640>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/644>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/647>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/648>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/649>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/65>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/651>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/655>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/44>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/657>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/661>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/662>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/663>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/664>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/665>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/666>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/667>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/668>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/669>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/672>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/674>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/675>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/680>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/681>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/684>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/686>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/687>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/689>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/690>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/691>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/692>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/693>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/694>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/695>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/696>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19> .
+
+<http://leipzig-data.de/Data/MediaCompany/697>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/699>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/700>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/701>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27> .
+
+<http://leipzig-data.de/Data/MediaCompany/703>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/51>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/704>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/708>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/57>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/71>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/710>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/715>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/716>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/719>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/72>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/721>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23> .
+
+<http://leipzig-data.de/Data/MediaCompany/722>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/723>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/725>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/726>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/727>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/729>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/31> .
+
+<http://leipzig-data.de/Data/MediaCompany/730>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/731>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/40>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/734>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/735>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/736>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/738>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/740>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/741>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/54> .
+
+<http://leipzig-data.de/Data/MediaCompany/742>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20> .
+
+<http://leipzig-data.de/Data/MediaCompany/743>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/745>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/748>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/749>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/75>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/750>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/751>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/752>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/754>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/755>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/757>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/29> .
+
+<http://leipzig-data.de/Data/MediaCompany/759>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/76>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/762>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/763>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/764>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/32> .
+
+<http://leipzig-data.de/Data/MediaCompany/766>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/77>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/770>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/771>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/772>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/773>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/774>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/776>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/778>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/29>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/78>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/782>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/785>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/789>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/79>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/40> .
+
+<http://leipzig-data.de/Data/MediaCompany/791>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/792>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/793>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/797>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/798>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/799>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/804>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/805>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/50> .
+
+<http://leipzig-data.de/Data/MediaCompany/807>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/808>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/810>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/811>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19> .
+
+<http://leipzig-data.de/Data/MediaCompany/812>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/813>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/817>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/82>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/820>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/55> .
+
+<http://leipzig-data.de/Data/MediaCompany/821>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/822>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/54>, <http://leipzig-data.de/Data/MediaBranch/59> .
+
+<http://leipzig-data.de/Data/MediaCompany/825>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/829>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/47> .
+
+<http://leipzig-data.de/Data/MediaCompany/83>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/831>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/834>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/835>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/837>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/838>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/84>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/843>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/844>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/846>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/847>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21> .
+
+<http://leipzig-data.de/Data/MediaCompany/848>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/850>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/851>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/29> .
+
+<http://leipzig-data.de/Data/MediaCompany/855>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/859>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/862>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/31>, <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/863>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/865>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/866>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/867>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/87>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/50>, <http://leipzig-data.de/Data/MediaBranch/51>, <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/878>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/879>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/880>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/881>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/32>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/882>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/883>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/884>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/26> .
+
+<http://leipzig-data.de/Data/MediaCompany/885>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/34> .
+
+<http://leipzig-data.de/Data/MediaCompany/888>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/28>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/89>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/890>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/30>, <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/891>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/892>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/894>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/895>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/896>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/897>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/9>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/90>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/908>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/909>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/911>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/912>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/914>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/20>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/54>, <http://leipzig-data.de/Data/MediaBranch/57>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/915>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/41>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/916>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43> .
+
+<http://leipzig-data.de/Data/MediaCompany/917>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35> .
+
+<http://leipzig-data.de/Data/MediaCompany/918>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/52> .
+
+<http://leipzig-data.de/Data/MediaCompany/919>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/923>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/52>, <http://leipzig-data.de/Data/MediaBranch/54>, <http://leipzig-data.de/Data/MediaBranch/60> .
+
+<http://leipzig-data.de/Data/MediaCompany/927>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/93>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24>, <http://leipzig-data.de/Data/MediaBranch/49>, <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/931>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/933>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/21>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/937>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/938>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/943>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/944>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/948>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/950>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46> .
+
+<http://leipzig-data.de/Data/MediaCompany/952>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/953>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33> .
+
+<http://leipzig-data.de/Data/MediaCompany/954>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36> .
+
+<http://leipzig-data.de/Data/MediaCompany/957>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/960>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/51> .
+
+<http://leipzig-data.de/Data/MediaCompany/961>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/37>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/962>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/39>, <http://leipzig-data.de/Data/MediaBranch/48> .
+
+<http://leipzig-data.de/Data/MediaCompany/964>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/27>, <http://leipzig-data.de/Data/MediaBranch/37> .
+
+<http://leipzig-data.de/Data/MediaCompany/966>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/967>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/19> .
+
+<http://leipzig-data.de/Data/MediaCompany/968>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/38> .
+
+<http://leipzig-data.de/Data/MediaCompany/97>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/22> .
+
+<http://leipzig-data.de/Data/MediaCompany/975>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/36>, <http://leipzig-data.de/Data/MediaBranch/39> .
+
+<http://leipzig-data.de/Data/MediaCompany/980>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/33>, <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/981>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/53> .
+
+<http://leipzig-data.de/Data/MediaCompany/985>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/986>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/35>, <http://leipzig-data.de/Data/MediaBranch/41> .
+
+<http://leipzig-data.de/Data/MediaCompany/988>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/42> .
+
+<http://leipzig-data.de/Data/MediaCompany/992>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/29>, <http://leipzig-data.de/Data/MediaBranch/30> .
+
+<http://leipzig-data.de/Data/MediaCompany/993>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/24> .
+
+<http://leipzig-data.de/Data/MediaCompany/997>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/45> .
+
+<http://leipzig-data.de/Data/MediaCompany/998>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/23>, <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/48>, <http://leipzig-data.de/Data/MediaBranch/49> .
+
+<http://leipzig-data.de/Data/MediaCompany/999>
+    ld:toMediaBranch <http://leipzig-data.de/Data/MediaBranch/38>, <http://leipzig-data.de/Data/MediaBranch/43>, <http://leipzig-data.de/Data/MediaBranch/45>, <http://leipzig-data.de/Data/MediaBranch/46>, <http://leipzig-data.de/Data/MediaBranch/47>, <http://leipzig-data.de/Data/MediaBranch/49> .
+

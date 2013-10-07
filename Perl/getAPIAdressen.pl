@@ -56,7 +56,7 @@ sub processStreets {
   my $a=shift;
   my $id=$a->{"id"};
   my $streetName=$a->{"name"};
-  my $streetId=fixId($streetName);
+  my $streetId=APILeipzig::fixId($streetName);
   my $plz=$a->{"postcode"};
   my $streetKey=$a->{"internal_key"};
   my $nr=$a->{"housenumber"};
@@ -87,16 +87,3 @@ sub addReference {
   return " ;\n\t$a $b";
 }
 
-sub fixId {
-  local $_=shift;
-  s/Ä/Ae/g; 
-  s/Ö/Oe/g; 
-  s/Ü/Ue/g;
-  s/ä/ae/g; 
-  s/ö/oe/g; 
-  s/ü/ue/g;
-  s/ß/ss/g; 
-  s/\.//g; 
-  s/\s+//g;  
-  return $_;
-}

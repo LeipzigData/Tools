@@ -74,7 +74,6 @@ else
  */
 function filterData($store) {
   $q = 'CONSTRUCT {?s $p $o; $p $o.} WHERE { ?s ?p ?o}'; // query for local store (dumping all of it)
-  // query for remote store, uncomment if using local store
   $q = '
 		PREFIX ld: <http://leipzig-data.de/Data/Model/>
 		construct { 
