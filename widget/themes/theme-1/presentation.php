@@ -4,13 +4,13 @@
     <!-- importing Data -->
 	<link href="../../data.json" type="application/json" rel="exhibit/data" />
 	<!-- importing Exhibit Main -->
-    <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>
+    <script src="http://simile-widgets.org/exhibit/api/exhibit-api.js" type="text/javascript"></script>
 	<!-- importing Date Picker -->
-    <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/time/time-extension.js" type="text/javascript"></script>
+    <script src="http://simile-widgets.org/exhibit/api/extensions/time/time-extension.js" type="text/javascript"></script>
 	<!-- importing Calendar View -->
-	<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/calendar/calendar-extension.js"></script>
+	<script src="http://simile-widgets.org/exhibit/api/extensions/calendar/calendar-extension.js"></script>
 	<!-- importing Map View -->
-	<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/map/map-extension.js?gmapkey=<?php include('gmaps_api_key.php');echo API_KEY;?>"></script>
+	<script src="http://simile-widgets.org/exhibit/api/extensions/map/map-extension.js?gmapkey=<?php include('gmaps_api_key.php');echo API_KEY;?>"></script>
 	<!-- <script src="copyright.js" type="text/javascript"></script> -->
 	<link rel='stylesheet' href='styles.css' type='text/css' />
 </head> 

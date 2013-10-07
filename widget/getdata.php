@@ -93,7 +93,7 @@ function filterData($store) {
 		  optional { ?co ?dp ?do .  }
 		  optional { ?do ?ep ?eo .  }
 		  optional { ?eo ?fp ?fo .  }
-		} ';
+		} '; 
   $result = $store->query($q);
   global $debug;
   if ($debug)
