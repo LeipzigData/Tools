@@ -3,7 +3,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
- <title>Leipzig Data Event Widgets</title>
+  <title>Leipzig Data Event Widgets</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 </head> 
 <body>
@@ -16,7 +16,7 @@
   >Leipzig Data Events Frameworks</a> demonstriert.
 </div>
 <h3>Unterschiede der Widget Versionen</h3> 
-Es gibt 2 verschiedene Widget Versionen. Sie benutzen momentan die umfangreichere <b>Widget</b> Version.</br>
+Es gibt 2 verschiedene Widget Versionen. Sie benutzen momentan die <b>Simple Widget</b> Version.</br>
 Die Versionen unterscheiden sich in der Art und Weise, wie Daten zur Präsentation eingespielt werden.
 <ul>
 <li><b>Simple Widget</b></br>Das simple Widget baut direkt eine Verbindung mit einem SPARQL-Endpunkt auf (z.B. dem von leipzig-data.de) und bezieht anhand
@@ -32,13 +32,7 @@ das ARC2-Framework.
 </ul>
 
 <h3>Einspielen der Daten</h3>
-<ol>
-<li>Erstellen eines eigenen aktuellen Dumps oder Einspielen des wöchentlichen Dumps als <tt>EventsDump.ttl</tt> in dieses Verzeichnis.
-Bei Bedarf können weitere Dateien eingespielt werden durch Ergänzen entsprechender Ladeanweisungen der Form <tt>$store->query("LOAD &lt;file:Datei.ttl&gt;");</tt>
-in der Datei <tt>Store.php</tt>.</li>
-<li>Laden aller Daten in den Store mittels Aufruf von <a href="Store.php"><tt>Store.php</tt></a>.</li>
-<li>Erzeugen der Präsentationdsatei und ggf. falls Filtern der Daten durch angepasste SPARQL-Anfrage durch <a href="getdata.php"><tt>getdata.php</tt></a>.</li>
-</ol>
+Zum Einspielen der Daten aus dem Virtuoso SPARQL-Endpunkt von leipzig-data (Standard-Einstellung) einfach <a href="getdata.php">hier</a> klicken</li>
 
 <h3>Präsentation der Daten</h3>
 Auf den folgenden drei Webseiten werden die eingespielten Daten als

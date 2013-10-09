@@ -44,7 +44,7 @@ function loadDataFromFile($store) {
   $store->query("LOAD <file:EventsDump.ttl>");
 }
 
-/* Load Data from an SPARQL-Endpoint. Does not yet work as desired */
+/* Load Data from an SPARQL-Endpoint. Does not yet work as desired because of the endpoint specific LIMIT of Triples delivered in one SPARQL request*/
 function loadDataFromEndpoint($store) { 
   $config = 
     array(/* remote endpoint */
