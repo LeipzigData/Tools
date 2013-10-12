@@ -1,8 +1,8 @@
-# Aenderung 23.03.: URI ist nun NEU.<Datum>, keine NEUId mehr.
-# Aenderung 03.04.: MD5 Checksumme hinzugefügt und danach bereits aufgenommene
-# Events ausgefiltert.
-# Aenderung 04.05.: MD5 Checksumme über String ohne white spaces gebildet
-# Aenderung 01.06.: 
+# Aenderung 12.10.2013: fixTime added
+# Aenderung 04.05.2013: MD5 Checksumme über String ohne white spaces gebildet
+# Aenderung 03.04.2013: MD5 Checksumme hinzugefügt und danach bereits
+# aufgenommene Events ausgefiltert.
+# Aenderung 23.03.2013: URI ist nun NEU.<Datum>, keine NEUId mehr.
 
 use Digest::MD5;
 use SparqlQuery;
@@ -22,7 +22,7 @@ getHashTags();
 getEvents($_);
 my $out;
 map $out.=printHash($_), (keys %$hash);
-print TurtleEnvelope($out);
+print TurtleEnvelope(fixTime($out));
 
 ## end main ##
 
@@ -39,6 +39,7 @@ sub TurtleEnvelope {
 \@prefix owl: <http://www.w3.org/2002/07/owl#> .
 \@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 \@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+\@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 $out
 EOT
@@ -142,6 +143,18 @@ sub fixpredicate {
   return "ical:location" if /LOCATION/;
   return $_;
 }
+
+sub fixTime {
+  local $_=shift;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3"^^xsd:date/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3"^^xsd:date/gs;
+  s/(T\d\d:\d\d:\d\d)"/$1+02:00"/gs;
+  s/\+\d\d:\d\d"/+02:00"/;
+  return $_;
+}
+
 
 
 __END__

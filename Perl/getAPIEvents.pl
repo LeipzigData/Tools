@@ -1,3 +1,6 @@
+# Aenderung 12.10.2013: ical:sentBy ergänzt
+# Aenderung 24.03.2013: ical:sentBy ergänzt
+
 use strict;
 use APILeipzig;
 
@@ -24,6 +27,7 @@ sub TurtleEnvelope {
 \@prefix ld: <http://leipzig-data.de/Data/Model/> .
 \@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
 \@prefix owl: <http://www.w3.org/2002/07/owl#> .
+\@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 $out
 EOT
@@ -88,5 +92,9 @@ sub fixTime {
   return unless $_;
   s/2000-01-01//gs;
   s/:00:42/:00:00/gs;
+  if (/T/) {
+    s/\+\d\d:\d\d/+02:00/;
+    $_.="+02:00" unless /\+/;
+  }
   return $_;
 }

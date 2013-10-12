@@ -78,7 +78,7 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?a))
 } 
 
-Nur Events zum den unbestimmten Orten
+Nur Events zu den unbestimmten Orten
 http://leipzig-data.de/Data/Ort/NN und
 http://leipzig-data.de/Data/Ort/Stadtweit
 
@@ -117,6 +117,8 @@ SELECT distinct ?e WHERE {
   filter (!bound(?l))
 } 
 
+Aktuell 2361 Einträge. 
+
 Welche Adressen haben kein ld:inStreet? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
@@ -126,6 +128,7 @@ SELECT distinct ?e WHERE {
   filter (bound(?l))
 } 
 
+keine.
 --------------------------------------------
 
 
