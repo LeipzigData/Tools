@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage{a4wide,ngerman,url}
 \usepackage[utf8]{inputenc}
+\usepackage{enumerate}
 
 \makeatletter
 \let\@listI\@listii
@@ -11,7 +12,7 @@
 \begin{document}
 \begin{center}
   \textbf{\Large Technische Dokumentation\\[.3em] des Leipzig Data Events
-    Widgets}\\[1em] Version vom 09. Oktober 2013
+    Widgets}\\[1em] Version vom 12. Oktober 2013
 \end{center}
 
 \section{Allgemeines}
@@ -25,16 +26,16 @@ Weise eine lesende Sicht auf vorhandene Daten mit Such- und Filterfunktionen
 zu definieren und in die Webpräsenzen der von ihm betreuten Akteure
 einzubauen.  Der Webdienste-Anbieter kann dazu relevante Daten aus
 Datenbeständen, die nach einer vorgegebenen Ontologie aufgebaut sind, der
-\emph{LD.Events Datenbasis}, in einen eigenen lokalen ARC2 Data Store
-auslesen, daraus über Filterkriterien akteursspezifisch einen relevanten
+\emph{LD.Events Datenbasis}, je nach Widget-Version in einen eigenen lokalen ARC2 Data Store
+einlesen, daraus über Filterkriterien akteursspezifisch einen relevanten
 Teilbestand für die Präsentation auswählen und in die Webpräsenz des Akteurs
-als iframe einbinden.  Nutzer der Webpräsenz des Akteurs können in diesen
-Informationen weiter selektiv suchen und sich die Ergebnisse in verschiedenen
-Formaten anzeigen lassen.
-
-Alternativ kann die LD.Events Datenbasis oder Teile davon auch direkt über den
+als iframe einbinden. Alternativ kann die LD.Events Datenbasis oder Teile davon auch direkt über den
 Leipzig Data Sparql-Endpunkt \url{http://www.leipzig-data.de:8890/sparql}
-ausgelesen werden. 
+ausgelesen werden. Nutzer der Webpräsenz des Akteurs können in diesen
+Informationen weiter selektiv suchen und sich die Ergebnisse in verschiedenen
+Formaten optisch ansprechend anzeigen lassen.
+
+
 
 Nicht erfasst ist der Prozess des Fortschreibens der LD.Events Datenbasis
 durch einen Kreis dafür autorisierter Personen -- hierfür ist der bisherige
@@ -59,12 +60,20 @@ Rahmen der Open Innovation Ausschreibung 2012 unterstützt.
 
 \subsection{Übersicht}
 
-Über eine SPARQL-Anfrage kann der Webdienste-Anbieter regelmäßig relevante
-Daten aus der LD.Events Datenbasis auslesen und mit dem PHP Skript
-\texttt{Store.php} als Dump in einen eigenen lokalen ARC2 Data Store
-speichern oder direkt weiter verarbeiten. 
+\subsubsection{Unterschiede in den Versionen}
 
-Aus diesem Datenbestand können Webdienste-Anbieter akteursspezifische Angebote
+Es gibt \textbf{2 verschiedene} Widget Versionen. Welche Version momentan verwendet wird steht in der \texttt{index.html}.
+Die Versionen unterscheiden sich in der Art und Weise, wie Daten zur Präsentation eingespielt werden.
+\begin{itemize}
+	\item \textbf{Simple Widget}\\
+Das simple Widget baut direkt eine Verbindung mit einem SPARQL-Endpunkt auf (z.B. dem von leipzig-data.de) und bezieht anhand einer nutzerdefinierten Anfrage Daten aus diesem. Es ist sehr leichtgewichtig und verwendet keinen eigenen Triplestore. Es benötigt somit auch keine eigene MySQL-Datenbank und verzichtet auf weitere Frameworks.
+\item \textbf{Widget} \\
+Das komplexere Widget verfügt über einen eigenen Triplestore. In diesen können RDF Daten wie der auf leipzig-data.de wöchentlich bereitgestellte EventsDump.ttl oder eigene Daten eingespielt werden. Zusätzlich können weitere Daten aus anderen Quellen eingespielt und mit denen von Leipzig Data aggregiert werden. Ein Filtermechanismus erlaubt es anschließend nur bestimmte Daten für eine Präsentation auszuwählen. Als besonderes Feature stellt dieses Widget noch einen öffentlich zugänglichen und konfigurierbaren SPARQL-Endpunkt für die aggregierten Daten bereit. Das Widget benötigt im Gegensatz zur simplen Version eine MySQL Datenbank und verwendet das ARC2-Framework.
+
+\end{itemize}
+
+\subsubsection{Individuelle Präsentation}
+Aus dem eingespielten Datenbestand können Webdienste-Anbieter akteursspezifische Angebote
 zusammenstellen.  Dazu müssen diese pro Akteur ein eigenes \emph{Thema}
 erstellen oder aus vorgegebenen Themen auswählen oder anpassen, in welchem die
 akteursspezifischen Vorgaben und Wünsche umgesetzt sind.  Die
@@ -83,14 +92,24 @@ Im Zentrum des Konzepts steht das Javascript basierte Widget-Framework
 Kenntnis dieses Frameworks im Umfang von [Ex] vorausgesetzt.
 
 \subsection{Installation}
+Die Installation unterscheidet sich je nach gewählter Version.
+\subsubsection{Simple Widget}
+\begin{itemize}
+\item Ausrollen der Dateien in ein eigenes Verzeichnis \texttt{widget} auf dem
+  Webserver, in welchem der Webserver lesen \textbf{und schreiben} kann.
+\item Das simple Widget ist bereits vorkonfiguriert und bezieht alle aktuellen Event-Daten vollständig
+aus dem SPARQL-Endpunkt von Leipzig Data. Folgen Sie einfach den Hinweisen in der \texttt{index.html}
+\end{itemize}
+\subsubsection{Komplexes Widget}
 
 \begin{itemize}
 \item Ausrollen der Dateien in ein eigenes Verzeichnis \texttt{widget} auf dem
-  Webserver, das der Webserver lesen kann,
-\item Ggf.\ Ausrollen von ARC2, siehe [Arc2], das als Unterverzeichnis
-  \texttt{arc2} an \texttt{widget} zu linken ist, Einbinden der Datei(en) im
-  Verzeichnis \texttt{plugins} in das Verzeichnis \texttt{arc2/plugins} (etwa
-  durch Linken), Aufsetzen einer Datenbank und Konfiguration des ARC2 Data
+  Webserver, in welchem der Webserver lesen \textbf{und schreiben} kann.
+%\item Ggf.\ Ausrollen von ARC2, siehe [Arc2], das als Unterverzeichnis
+  %\texttt{arc2} an \texttt{widget} zu linken ist, Einbinden der Datei(en) im
+ % Verzeichnis \texttt{plugins} in das Verzeichnis \texttt{arc2/plugins} (etwa
+ % durch Linken), 
+	\item Aufsetzen einer Datenbank und Konfiguration des ARC2 Data
   Store.
 
   Dazu ist die Datei \texttt{db\_credentials.php} in eine Datei
@@ -112,34 +131,36 @@ Vertrautheit mit dem Exhibit-Framework voraussetzt.  Siehe dazu ebenfalls
 \subsection{Einspielen der Event-Daten}
 Um die Daten in den durch die vorherigen Schritte eingerichteten ARC2-Store zu
 importieren gibt es \textbf{2 Möglichkeiten}.
-\begin{enumerate}
-\item \textbf{Import mittels SPARQL-Anfrage}
+\begin{enumerate}[a)]
+\item \textbf{Import mittels SPARQL-Anfrage (NUR Simple Widget)}
 
-  Dies ist die vorkonfigurierte, einfacherere Variante. In der Datei
-  \texttt{Store.php} befindet sich die Funktion \texttt{loadDataFromEndpoint}.
-  In dieser kann die SPARQL-Anfrage angepasst werden, um eine Teilmenge der
+  Dies ist die einfacherere Variante. In der Datei
+  \texttt{getdata.php} befindet sich die Funktion \texttt{getData(\$store)}.
+  In dieser kann die SPARQL-Anfrage angepasst werden, um nur eine Teilmenge der
   Event-Daten aus unserem öffentlichen
-  Sparql-Endpunkt\footnote{\url{http://leipzig-data.de/widget/sparql.php}}
+  Sparql-Endpunkt\footnote{\url{http://leipzig-data.de:8890/sparql}}
   abzufragen. In der Vorkonfiguration werden alle Daten übernommen. Durch
-  einfaches Ausführen der Datei \texttt{Store.php} findet der Import
-  automatisch statt.
+  einfaches Ausführen der Datei \texttt{getdata.php} findet der Import
+  automatisch statt und die für die Präsentation benötigte Datei \texttt{data.json} wird erstellt.
 
-\item \textbf{Import mittels Dateidump}
+\item \textbf{Import mittels Dateidump(s) (NUR komplexes Widget)}
 
-Dies ist die komplexere, aber stabilere Lösung.  An die unter
+Dies ist die komplexere, aber dafür stabilere und flexiblere Lösung.  An die unter
 \url{http://leipzig-data.de/Data} öffentlich verfügbare LD.Events Datenbasis
 kann eine eigene SPARQL-Abfrage\footnote{Über deren Sparql-Endpunkt
   \url{http://leipzig-data.de:8890/sparql}.} gestellt werden, um Event-Daten
 zu extrahieren.  Beispiele für solche Anfragen finden sich in der Datei
 \texttt{Queries.txt} der Distribution.  Das Ergebnis dieser Abfrage ist in
 einer Datei \texttt{EventsDump.ttl} zu speichern und in das Widget-Verzeichnis
-zu kopieren. Abschließend muss der Aufruf der Funktion
-\texttt{loadDataFromEndpoint} durch \texttt{loadDataFromFile} ersetzt und
-\texttt{Store.php} ausgeführt werden.
-\end{enumerate}
-Eigene Daten können zusätzlich importiert werden, indem eine der eben
-genannten Funktionen erweitert wird, unter der Voraussetzung, dass die Daten
+zu kopieren. 
+
+Bei Bedarf können weitere Dateien eingespielt werden durch Ergänzen entsprechender Ladeanweisungen der Form \verb!$store->query("LOAD <file:Datei.ttl>");! in der Funktion \texttt{loadDataFromFile} der Datei \texttt{Store.php}, unter der Voraussetzung, dass die Daten
 in einem RDF-Format vorliegen.
+
+Zusätzlich ist es möglich noch Dateien über einen SPARQL-Endpunkt einzubinden mit der Funktion \texttt{loadDataFromEndpoint}. Diese muss and die Bedürfnisse angepasst werden und dann noch an entsprechender Stelle in der Datei \texttt{Store.php} aufgerufen werden. Sollten jedoch lediglich Daten über einen SPARQL-Endpunkt geladen werden ist das Simple Widget die bessere Wahl.
+
+Nach dieser Konfiguration erfolgt das Laden aller Daten in den Store mittels Aufruf von Store.php., dann das Erzeugen der Präsentationdsatei und ggf. falls Filtern der Daten durch angepasste SPARQL-Anfrage durch getdata.php.
+\end{enumerate}
 
 \subsection{Anlegen der json-Datei}
 
@@ -157,7 +178,8 @@ Exhibit-JSON-Plugin\footnote{Siehe die Datei
 erweitert, welches die Serialisierung des geparsten RDF-Graphen in das
 Zielformat realisiert.  Dabei wird eine automatische Erkennung der
 Exhibit-Datentypen vorgenommen, sodass z.\,B.\ ein Datum auch den Datentyp
-\texttt{date} zugewiesen bekommt.
+\texttt{date} zugewiesen bekommt. In der simplen Version kommt einen Anpassung dieses
+Plugins zum Einsatz was funktional identisch ist jedoch ohne ARC2 funktioniert.
 
 Die Struktur der Exhibit-JSON-Datei und die verwendeten Datentypen sind in
 [Ex] genauer beschrieben.

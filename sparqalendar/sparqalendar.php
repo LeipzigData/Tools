@@ -8,7 +8,32 @@ Author URI: http://leipzig-data.de
 */
 
 include_once("kalender.php");
+include_once("rdfmapping.php");
+
+
+
+
+	//wp_enqueue_style( 'sparqalendar', plugins_url().'/sparqalendar/styles.css' );
+
+
+add_action( 'init', 'register_sparqalendar_style' );
+add_action( 'wp_enqueue_scripts', 'enqueue_sparqalendar_style' );
 add_shortcode( 'sparqalendar', 'displayKalenderGet' );
 
+/**
+ * Register style sheet.
+ */
+function register_sparqalendar_style() {
+	wp_register_style( 'sparqalendar', plugins_url( 'sparqalendar/styles.css' ) );
+}
+/**
+ * enqueue style sheet.
+ */
+function enqueue_sparqalendar_style() {
+	wp_enqueue_style( 'sparqalendar' );
+	//echo plugins_url( 'sparqalendar/styles.css' );
+}
+
+	
 
 ?>
