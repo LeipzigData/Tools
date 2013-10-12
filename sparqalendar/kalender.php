@@ -51,22 +51,21 @@ function fetch_events($jahr,$monat)
 			select ?a ?l ?s ?e
 			Where { 
 					?a a ld:Event .
-					?a ical:dtstart ?s; ical:dtend ?e; rdfs:label ?l.
+					?a ical:dtstart ?s; rdfs:label ?l. OPTIONAL { ?a ical:dtend ?e}.
 					Filter(    (xsd:date(?s) >= "'.convert_date($jahr,$monat,'1').'"^^xsd:date && xsd:date(?s) < "'.convert_date($jahr,$monat+1,'1').'"^^xsd:date)
 							|| (xsd:date(?e) >= "'.convert_date($jahr,$monat,'1').'"^^xsd:date && xsd:date(?e) < "'.convert_date($jahr,$monat+1,'1').'"^^xsd:date) ).
 			}
             order by (?s)';
 			
 	$r = run_query($query,'select');
-	
 		//print_r($r);
-	if (isset($r)) {	
+	if (isset($r)) {	//generate a data structure where for every day of the current month the list of events is stored
 	foreach ($r['results']['bindings'] as $k => $v)
 	{
 		$id=$v['a']['value']; $s = reduce_dateTime($v['s']['value']); $e = reduce_dateTime($v['e']['value']); $l = $v['l']['value'];
 
-
-		$date1 = date_create($s); $date2 = date_create($e); 
+			//evaluate dtstart and dtend of every event and "attach" it to the days when it takes place
+		$date1 = date_create($s); $date2 = ($e) ?  date_create($e) : date_create($s); //assume duration of one day if dtend is not specified - NOTE
 		$aday = new DateInterval('P1D');
 		while ($date1 <= $date2)
 		{
@@ -114,14 +113,14 @@ function getDatum($datum) {
   return $uhu[2].".".$uhu[1].".".$uhu[0];  
 }
 
-function printEventsPerDay($datum) {
+function printEventsPerDay($datum) 
+{
   global $sp_events;
   $datstring=getDatum($datum);
-//  $buchungen=fetch_events($datum,$foo);
   $bu="";
-  //$a=array();
-  //foreach ($buchungen as $buchung) { $a[getTimeInterval($buchung)]=1; }
-  foreach($sp_events[$datum] as $k => $v) { $bu.="<li>".$v['label']."</li>"; }
+  foreach($sp_events[$datum] as $k => $v) { 
+	$bu.='<li><a href="'.get_param_url(array('eid'=>$v['id'])).'#buchungstabelle">'.$v['label']."</a></li>";
+  }
   $out='<div id="buchungsinfo">
   <p>Am <b>'.$datstring.'</b> ' ;
   if ($bu) { 
@@ -132,6 +131,35 @@ function printEventsPerDay($datum) {
   }
   return $out;
 
+}
+
+function printEventInfo($eid) 
+{
+	$query = 
+		'	PREFIX ld: <http://leipzig-data.de/Data/Model/>
+			select distinct *
+			Where 	{ 
+						<'.$eid.'> ?p ?o 
+					}';
+			
+	$r = run_query($query,'select');
+	$r = transformEventData($r['results']['bindings']);
+	$table ='<div id="EventInfoHead">Informationen zum Event:</br> '.$r['rdf-schema#label']['value'].'</div><table cellspacing="0" id="EventInfo">';
+	foreach ( $r as $k => $v)
+	{
+		$table.='<tr class="EventInfoRow"><td class="EventInfoPredicate">'.$k.'</td class="EventInfoObject"><td>'.printResource($v).'</td></tr>';
+	}
+	$table.='</table>';
+	return $table;
+}
+
+function printResource($v)
+{
+	if ($v['type']=='uri')
+		return '<a href="'.$v['value'].'">'.$v['value'].'</a>';
+	else
+		return $v['value'];
+		
 }
 
 function displayKalenderGet($atts) {
@@ -146,6 +174,7 @@ function displayKalenderGet($atts) {
   $tag   = (empty($_GET['sday']))   ?   0       : $_GET['sday'] ; 
   $monat = (empty($_GET['smonth'])) ? date('n') : $_GET['smonth'] ;
   $jahr  = (empty($_GET['syear']))  ? date('Y') : $_GET['syear'] ;
+  $eid   = (empty($_GET['eid']))   ? false     : $_GET['eid'] ; 
 
   fetch_events($jahr,$monat);
   
@@ -163,20 +192,20 @@ function displayKalenderGet($atts) {
 		   
 		   
   $perm = curPageURL(); /*echo $perm;*/ //print_r($_GET); #####!
-  $out= '<div id="buchungstabelle" style="padding-top: 40px">
+  $out= '<table id="sparqalendar"><tr><td><div id="buchungstabelle">
    <table cellspacing="0">
      <tr>
-       <th class="termin">
-		<a href="'.get_param_url(array('syear'=>$link_alt_jahr,'smonth'=>$link_alt_monat,'sday'=>'0')).'#buchungstabelle">&larr;</a>
+       <th class="termin" id="letzterMonat">
+		<a href="'.get_param_url(array('syear'=>$link_alt_jahr,'smonth'=>$link_alt_monat,'sday'=>'0','eid'=>'')).'#buchungstabelle">&larr;</a>
 	   </th>
-       <th colspan="5" align="center">'.$namen[$monat].' '.$jahr.'
+       <th colspan="5" id="monat">'.$namen[$monat].' '.$jahr.'
 	   </th>
-       <th class="termin">
-		<a href="'.get_param_url(array('syear'=>$link_neu_jahr,'smonth'=>$link_neu_monat,'sday'=>'0')).'#buchungstabelle">&rarr;</a>
+       <th class="termin" id="naechsterMonat">
+		<a href="'.get_param_url(array('syear'=>$link_neu_jahr,'smonth'=>$link_neu_monat,'sday'=>'0','eid'=>'')).'#buchungstabelle">&rarr;</a>
 	   </th>
      </tr>
 
-     <tr> <th>Mo</th> <th>Di</th> <th>Mi</th> <th>Do</th> <th>Fr</th>
+     <tr id="Tageleiste"> <th>Mo</th> <th>Di</th> <th>Mi</th> <th>Do</th> <th>Fr</th>
        <th>Sa</th> <th>So</th> 
      </tr>
 ';
@@ -200,7 +229,7 @@ function displayKalenderGet($atts) {
 		if ($sp_events[$dt])
 			$out.='
 		<td class="zu">  
-		  <a class="tabelle" href="'.get_param_url(array('syear'=>$date['year'],'smonth'=>$date['month'],'sday'=>$date['day'])).'#buchungstabelle">'
+		  <a class="tabelle" href="'.get_param_url(array('syear'=>$date['year'],'smonth'=>$date['month'],'sday'=>$date['day'],'eid'=>'')).'#buchungstabelle">'
 		  .$date['day'].'</a></td>';
 	  else 
 			$out.='
@@ -213,7 +242,7 @@ function displayKalenderGet($atts) {
       if($sp_events[$dt]){	
 	$out.='
     <td class="teilfrei">
-      <a class="tabelle" href="'.get_param_url(array('syear'=>$date['year'],'smonth'=>$date['month'],'sday'=>$date['day'])).'#buchungstabelle">'
+      <a class="tabelle" href="'.get_param_url(array('syear'=>$date['year'],'smonth'=>$date['month'],'sday'=>$date['day'],'eid'=>'')).'#buchungstabelle">'
 	  .$date['day'].'</a></td>';
       }
       else { $out.='<td class="frei">'.$date['day'].'</td>'; }
@@ -223,9 +252,12 @@ function displayKalenderGet($atts) {
   }
 
   for($i=6;$i>$letzter_tag%7;$i--){ $out.='<td>&nbsp;</td>'; }
-  $out.='</tr></table></div>'; // Ende buchungstabelle linke Seite
+  $out.='</tr></table></div></td>'; // Ende buchungstabelle linke Seite
 
-  if ($tag) { $out.=printEventsPerDay(convert_date($jahr,$monat,$tag)); } 	
+  if     ($eid) { $out.='<td>'.printEventInfo($eid).'</td></tr></table>'; }
+  elseif ($tag) { $out.='<td>'.printEventsPerDay(convert_date($jahr,$monat,$tag)).'</td></tr></table>'; }
+  else {$out.='</td></tr></table>'; }
+  
 
   return "<div>$out</div>";
 
@@ -235,9 +267,10 @@ function displayKalenderGet($atts) {
      while reusing the parameters of the old request, which have not been changed #### workaround for blogs without permalinks */
  function get_param_url($param_array)
  {
+	$GET = $_GET;
 	foreach ($param_array as $k => $v) 	//set new parameters and override the old ones if neccessary
 	{
-		$_GET[$k]=$v;
+		$GET[$k]=$v;
 	}
 	
 	$b = strpos(curPageURL(),'?');
@@ -245,7 +278,7 @@ function displayKalenderGet($atts) {
 		$u = curPageURL().'?';
 	else
 		$u = substr(curPageURL(),0, $b).'?';
-	foreach ($_GET as $k => $v)			//append the parameters to url
+	foreach ($GET as $k => $v)			//append the parameters to url
 	{
 		$u = $u.$k.'='.urlencode($v).'&';
 	}
