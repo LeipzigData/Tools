@@ -10,10 +10,10 @@ Stable tag: 1.0
 
 == Installations- und Konfigurationsanleitung ==
 
--	Installation Plugin:
-Die Installation des Plugins entspricht der Standard- Plugin- Installation in Wordpress. 
-Sollte Ihnen das Plugin in einer .zip- Datei vorliegen, so kann es über die WordPress Schnittstelle im Admin-Bereich installiert werden. Gehen Sie dafür in das Settings-Menü „Plugins“ Eintrag „Add New“ und wählen in der oberen Link-Leiste den Eintrag Upload. Hier kann der .zip Ordner von der lokalen Festplatte hochgeladen und installiert werden.
-Anderenfalls lässt sich das Plugin durch einfaches Kopieren des Plugin Ordners „sparqalendar“ in den Plugin Ordner Ihrer Lokalen Wordpress Installation hinzufügen. Dieser befindet sich in den häufigsten Fällen unter „<Pfad zur WP-Installation>/wordpress-<version>/wp-content/plugins“.
+- Installation Plugin:
+Die Installation des Plugins entspricht der Standard-Plugin-Installation in
+Wordpress.  
+Sollte Ihnen das Plugin in einer zip-Datei vorliegen, so kann es Ã¼ber die WordPress Schnittstelle im Admin-Bereich installiert werden. Gehen Sie dafÃ¼r in das Settings-MenÃ¼ "Plugins" Eintrag "Add New" und wÃ¤hlen in der oberen Link-Leiste den Eintrag Upload. Hier kann der .zip Ordner von der lokalen Festplatte hochgeladen und installiert werden.
+Anderenfalls lÃ¤sst sich das Plugin durch einfaches Kopieren des Plugin Ordners "sparqalendar" in den Plugin Ordner Ihrer Lokalen Wordpress Installation hinzufÃ¼gen. Dieser befindet sich in den hÃ¤ufigsten FÃ¤llen unter <Pfad zur WP-Installation>/wordpress-<version>/wp-content/plugins.
 
-
--	Konfiguration Plugin
+- Konfiguration Plugin
