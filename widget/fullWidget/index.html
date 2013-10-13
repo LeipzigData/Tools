@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Leipzig Data Event Widgets</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head> 
+<body>
+
+<h1>Leipzig Data Event Widgets</h1>
+
+<div>Mit den <i>Leipzig Data Event Widgets</i> werden die prinzipiellen
+  Möglichkeiten des <a href="http://www.leipzig-data.de/events/" >Leipzig Data
+  Events Frameworks</a> demonstriert.
+</div>
+<h3>Unterschiede der Widget Versionen</h3> 
+
+Es gibt 2 verschiedene Widget Versionen. Sie benutzen momentan die
+umfangreichere <b>Full Widget</b> Version.</br>  Die Versionen unterscheiden
+sich in der Art und Weise, wie Daten zur Präsentation eingespielt werden.
+<ul>
+<li><b>Simple Widget</b></br>Das Simple Widget baut eine direkte Verbindung
+zu einem SPARQL-Endpunkt auf (z.B. dem von leipzig-data.de) und bezieht
+anhand einer nutzerdefinierten Anfrage Daten aus diesem. Es ist sehr
+leichtgewichtig und verwendet keinen eigenen Triplestore. Es benötigt somit
+auch keine eigene MySQL-Datenbank und verzichtet auf weitere Frameworks.
+
+<li><b>Full Widget</b></br>Das komplexere Widget verfügt über einen eigenen
+Triplestore. In diesen können RDF-Daten wie ein
+von <a href="http://leipzig-data.de/Data" >http://leipzig-data.de/Data</a>
+heruntergeladener Dump oder eigene Daten eingespielt werden. Zusätzlich können
+weitere Daten aus anderen Quellen eingespielt und mit den vorhandenen
+aggregiert werden. Ein Filtermechanismus erlaubt es anschließend, nur
+bestimmte Daten für eine Präsentation auszuwählen. Als besonderes Feature
+stellt dieses Widget noch einen öffentlich zugänglichen und konfigurierbaren
+SPARQL-Endpunkt für die aggregierten Daten bereit. Das Widget benötigt im
+Gegensatz zur Simple Version eine MySQL Datenbank und verwendet das
+ARC2-Framework.
+</ul>
+
+<h3>Einspielen der Daten</h3>
+<ol>
+<li>Herunterladen eines aktuellen Dumps mit Event-Daten im Turtle-Format
+als <tt>EventsDump.ttl</tt> in dieses Verzeichnis.  Bei Bedarf können weitere
+Dateien eingespielt werden, indem die Ladeanweisungen der Form
+<blockquote>
+  <tt>$store->query("LOAD &lt;file:Datei.ttl&gt;");</tt>
+</blockquote>
+in der Datei <tt>Store.php</tt> entsprechend ergänzt werden.</li>
+<li>Laden aller Daten in den Store mittels Aufruf
+von <a href="Store.php"><tt>Store.php</tt></a>.</li>
+<li>Erzeugen der Präsentationdsatei und ggf. Filtern der Daten durch
+angepasste SPARQL-Anfrage
+  mittels <a href="getdata.php"><tt>getdata.php</tt></a>.</li> 
+</ol>
+
+<h3>Präsentation der Daten</h3>
+Auf den folgenden drei Webseiten werden die eingespielten Daten als
+<ul>
+<li>eine <a href="../themes/theme-1/presentation.php">einfache</a>
+  Präsentation mit Karte, Eventliste, Kalender und Tagwolke,</li>
+<li>eine <a href="../themes/theme-2/presentation.php">komplexe</a>
+  Präsentation mit verschiedenen stabilen Facetten, Filter- und
+  Suchmöglichkeiten sowie</li>
+<li>eine <a href="../themes/theme-3/presentation.php">experimentelle</a>
+  Präsentation mit noch genauer zu fixierenden Facetten</li>
+</ul>
+dargestellt.  
+</div>
+<div>
+<ul>
+  <li><a href="http://leipzig-data.de/Upload/Event-Widget.pdf">Technische
+  Dokumentation</a></li> 
+ </ul>
+
+Die Präsentation ist Teil des <a href="http://leipzig-data.de">Leipzig Open
+Data Projekts</a>.
+
+</div>
+
+</body>
+</html>
