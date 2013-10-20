@@ -1,4 +1,4 @@
-# Aenderung 12.10.2013: ical:sentBy ergänzt
+# Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
 # Aenderung 24.03.2013: ical:sentBy ergänzt
 
 use strict;
@@ -39,7 +39,7 @@ sub processEvent {
   my ($a,$d)=@_; 
   my $id=$a->{"id"};
   return "" if $hash->{"http://leipzig-data.de/Data/APIId/Event.$id"};
-  return "" if $hash->{"http://leipzig-data.de/Data/APILeipzig/Event.$id"}; 
+  # return "" if $hash->{"http://leipzig-data.de/Data/APILeipzig/Event.$id"}; 
     # letzte Zeile ist nur, um einen früheren Bug in Daten zu fixen.
   my $hid=translate("http://leipzig-data.de/Data/APIId/Host.".$a->{"host_id"});
   my $vid=translate("http://leipzig-data.de/Data/APIId/Venue.".$a->{"venue_id"});

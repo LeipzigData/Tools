@@ -1,3 +1,5 @@
+# 2013-10-20: Update auf neue Adress-URIs 
+
 use strict;
 use APILeipzig;
 
@@ -42,11 +44,11 @@ sub processVenue {
   my $description=fix($a->{description});
   my $city=fix($a->{city});
   my $postcode=fix($a->{postcode});
-  my $ort=$postcode.".".$street.".".$hn;
+  my $ort=$postcode.".Leipzig.".$street.".".$hn;
   my $out="<http://leipzig-data.de/Data/Ort/$name> a ld:Ort";
   $out.=addLiteral("rdfs:label",$name);
   $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Venue.$id>");
-  $out.=addReference("ld:hasAddress","<http://leipzig-data.de/Data/Adresse/$ort>");
+  $out.=addReference("ld:hasAddress","<http://leipzig-data.de/Data/$ort>");
   $out.=addLiteral("rdfs:comment",$description) if $description;
   return "$out .\n\n";
 }
