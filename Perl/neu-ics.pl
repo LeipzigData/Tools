@@ -8,7 +8,7 @@ use Digest::MD5;
 use SparqlQuery;
 use strict;
 
-my $startdate="2013-09-01";
+my $startdate="2013-12-15";
 undef $/;
 system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;

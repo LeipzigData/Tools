@@ -107,10 +107,18 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?l))
 } 
 
+Wie viele Adressen?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT count(?e) WHERE {
+  ?e a ld:Adresse .
+} 
+
 Welche Adressen haben keine Geokoordinaten? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#> 
 SELECT distinct ?e WHERE {
   ?e a ld:Adresse .
   optional {?e geo:lat ?l . }
