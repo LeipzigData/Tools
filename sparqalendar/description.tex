@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{a4wide,ngerman,url}
+\usepackage[utf8]{inputenc}
+
+\parskip4pt
+\parindent0pt
+
+\title{Technical documentation}
+\author{Compiled by Hans-Gert Gr\"abe, leipzig-data.de}
+\date{Version of Jan 2014}
+
+\begin{document}
+\maketitle
+
+\section{Purpose of the Plugin}
+
+This plugin is a first demonstration how directly (not using any intermediate
+store) to extract RDF information from a Sparql endpoint and to display it
+within Wordpress using the short code mechanism.  State information is stored
+by the PHP session mechanism in a JSON object and explored for different
+aspects through HTTP GET constructs. The plugin is designed for use with a
+Virtuoso based Sparql endpoint.
+
+\section{Background}
+
+Within the Leipzig Data Project \texttt{http://leipzig-data.de} we use
+Wordpress as one of the blueprints to display semantically rich information
+that is stored in RDF triple stores and can be retrieved via sparql endpoints.
+The Wordpress plugin mechanism is best suited to consolidate ideas and share
+useful code between different Wordpress instances.
+
+See \texttt{http://www.leipzig-data.de/wordpress} for more information (in
+german) about our Wordpress based RDF activities.
+
+This plugin was designed and implemented by Johannes Frey based on earlier
+code developed for the Inspirata booking system
+\texttt{http://www.inspirata.de/anmeldung}.
+
+\section{General Design}
+
+The plugin consists of the following resources
+\begin{itemize}
+\item \texttt{config.php} -- no idea what this is about;        
+\item \texttt{kalender.php} -- at the moment the main engine, should be
+  refactored along functional binding rules;
+\item \texttt{readme.txt} -- WP plugin description in standard form;
+\item \texttt{styles.css} -- CSS styles of the plugin;
+\item \texttt{rdfmapping.php} -- a hook for URI reduction into readable
+  strings
+\item \texttt{sparqalendar.php} -- embedding of the plugin into the overall
+  Wordpress structure.
+\end{itemize}
+
+\section{Design in more Detail}
+
+For the moment all business logics is contained in the script
+\texttt{kalender.php}. Here is a short description of the main functionality:
+\begin{itemize}
+\item \url{run_query} -- run a sparql query at leipzig-data.de endpoint
+  and request the result in json format, type can be 'select' or 'construct.
+
+  Forms an HTTP request from a Sparql query, sends that query via
+  \url{wp_remote_get} to the Sparql endpoint to return a json object, decodes
+  that object into a PHP array and returns that array.
+
+\item \url{fetch_events} -- get event IDs, labels, start and end dates for the
+  given month from the Sparql endpoint via a dedicated Sparql query and store
+  them per day in a global variable \texttt{\$sp\_events} as arrays (ID,
+  label).
+
+  Uses PHP DateTime objects to manage date information. 
+\item \url{printEventsPerDay} -- extracts info from \texttt{\$sp\_events} for
+  the given day.
+\item \url{printEventInfo} -- get full event information for the event ID from the
+  Sparql endpoint via a dedicated Sparql query and display it. 
+\item \url{displayKalenderGet} -- a revised version of the Inspirata calendar
+  renderer. 
+\item \url{get_param_url} -- retrieve the current requested url and (re)set
+  the given parameters in that uri while reusing the parameters of the old
+  request, which have not been changed.
+
+  Required for \url{displayKalenderGet} to create additional HTTP Get requests
+  from the base URL to display additional information for selected days. 
+\end{itemize}
+\end{document}
