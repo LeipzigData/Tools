@@ -5,9 +5,11 @@
 \parskip4pt
 \parindent0pt
 
+\newcommand{\comment}[1]{\par\paragraph{Comment:} #1}
+
 \title{Technical documentation}
 \author{Compiled by Hans-Gert Gr\"abe, leipzig-data.de}
-\date{Version of Jan 2014}
+\date{Version of Jan 05, 2014}
 
 \begin{document}
 \maketitle
@@ -39,8 +41,7 @@ code developed for the Inspirata booking system
 \section{General Design}
 
 The plugin consists of the following resources
-\begin{itemize}
-\item \texttt{config.php} -- no idea what this is about;        
+\begin{itemize}       
 \item \texttt{kalender.php} -- at the moment the main engine, should be
   refactored along functional binding rules;
 \item \texttt{readme.txt} -- WP plugin description in standard form;
@@ -49,12 +50,17 @@ The plugin consists of the following resources
   strings
 \item \texttt{sparqalendar.php} -- embedding of the plugin into the overall
   Wordpress structure.
+
+  \comment{Whats about to have here only the overall embedding of the plugin
+    into the Wordpress structure and to put the \texttt{add\_shortcode}
+    commands in the different display php files? Whats about a common naming
+    scheme for display php files? }
 \end{itemize}
 
 \section{Design in more Detail}
 
-For the moment all business logics is contained in the script
-\texttt{kalender.php}. Here is a short description of the main functionality:
+For the moment all business logic is contained in the script
+\texttt{kalender.php} with main functionality:
 \begin{itemize}
 \item \url{run_query} -- run a sparql query at leipzig-data.de endpoint
   and request the result in json format, type can be 'select' or 'construct.
@@ -63,23 +69,47 @@ For the moment all business logics is contained in the script
   \url{wp_remote_get} to the Sparql endpoint to return a json object, decodes
   that object into a PHP array and returns that array.
 
+  \comment{To be refactored into a separate query engine with well designed
+    interface.} 
+
 \item \url{fetch_events} -- get event IDs, labels, start and end dates for the
   given month from the Sparql endpoint via a dedicated Sparql query and store
   them per day in a global variable \texttt{\$sp\_events} as arrays (ID,
   label).
 
   Uses PHP DateTime objects to manage date information. 
+
 \item \url{printEventsPerDay} -- extracts info from \texttt{\$sp\_events} for
   the given day.
-\item \url{printEventInfo} -- get full event information for the event ID from the
-  Sparql endpoint via a dedicated Sparql query and display it. 
+
+\item \url{printEventInfo} -- get full event information for the event ID from
+  the Sparql endpoint via a dedicated Sparql query and display it.
+
 \item \url{displayKalenderGet} -- a revised version of the Inspirata calendar
   renderer. 
+
 \item \url{get_param_url} -- retrieve the current requested url and (re)set
   the given parameters in that uri while reusing the parameters of the old
   request, which have not been changed.
 
   Required for \url{displayKalenderGet} to create additional HTTP Get requests
   from the base URL to display additional information for selected days. 
+
+  \comment{In the early Inspirata code also a POST version existed.  Would it
+    be a better idea to store and communicate session state in a POST variable
+    at the server side? What are the requirements, benefits and odds of such a
+    concept?  Surely odd: The server has to track the user.}
+
 \end{itemize}
+
+\section{Experimental add-ons}
+
+\begin{itemize}
+\item \texttt{config.php} -- no idea what this is about;     
+\item \texttt{rdfquery.php} -- a first attempt to shape a useful RDF Query
+  engine;
+\item \texttt{fachgruppe.php} -- display code used at
+  \url{http://www.fachgruppe-computeralgebra.de/fachgruppenleitung}.
+\end{itemize}
+
 \end{document}
