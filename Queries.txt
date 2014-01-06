@@ -1,6 +1,5 @@
 Ein paar Beispiel-Anfragen:
 
-Alle MINT-Orte finden
 
 PREFIX ldo: <http://leipzig-data.de/Data/Ort/>
 PREFIX ldp: <http://leipzig-data.de/Data/Person/>
@@ -9,6 +8,14 @@ PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+---------------------------------------------------
+Suchen. Weitere Suchanfragen ganz unten
+
+Alle MINT-Orte finden
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
 SELECT ?l ?k WHERE {
   ?p ld:hasTag ldtag:MINT .
   ?p a ld:Ort .
@@ -16,9 +23,9 @@ SELECT ?l ?k WHERE {
   ?p ld:Kurzinformation ?k .
 }
 
----------------------------------------------------
 Personen nach Namen finden
 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
 SELECT ?p ?n WHERE {
   ?p a foaf:Person .
   ?p foaf:name ?n .
@@ -95,7 +102,19 @@ SELECT distinct ?o ?a WHERE {
   filter (!bound(?g))
 } 
 
+Welche Events vor einem bestimmten Datum?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?d WHERE {
+  ?e a ld:Event .
+  ?e ical:dtstart ?d . 
+  Filter(xsd:date(?d) <= "2013-11-01"^^xsd:date) .
+} order by (xsd:date(?d))
+
 ---------------------------------------------------
+Adressen und Geokoordinaten kontrollieren
+
 Welche Orte haben keine g¸ltige Adresse?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
@@ -107,10 +126,18 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?l))
 } 
 
+Wie viele Adressen?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT count(?e) WHERE {
+  ?e a ld:Adresse .
+} 
+
 Welche Adressen haben keine Geokoordinaten? 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#> 
 SELECT distinct ?e WHERE {
   ?e a ld:Adresse .
   optional {?e geo:lat ?l . }
@@ -129,9 +156,8 @@ SELECT distinct ?e WHERE {
 } 
 
 keine.
+
 --------------------------------------------
-
-
 Alle APIRefs finden
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
@@ -141,16 +167,7 @@ SELECT distinct ?p ?pn WHERE {
 } 
 
 --------------------------------------------
-
-Alle Events nach einem bestimmten Datum finden
-
-SELECT distinct ?a ?as WHERE {
-  ?a a ld:Event  . 
-  ?a cal:dtstart ?as . 
-FILTER ( xsd:dateTime(?as) > xsd:dateTime("2012-01-01T00:00:00Z") )
-} 
-
---------------------------------------------
+Weitere Suchanfragen 
 
 Alle Adressen zu einem Straﬂen-regex finden
 
@@ -161,16 +178,6 @@ SELECT ?p WHERE {
 filter regex(?l,"Kohlgartenstra") .
 } 
 
---------------------------------------------
-
-Alle Orte finden, die in Events als cal:location vorkommen
-
-SELECT distinct ?e ?o ?ol WHERE {
-  ?e a ld:Event .
-  ?e cal:location ?o .
-  optional { ?o rdfs:label ?ol .}
-} 
-
 Alle Orte finden, die keinen Label haben
 
 SELECT distinct ?o ?ol WHERE {
@@ -179,21 +186,9 @@ SELECT distinct ?o ?ol WHERE {
   filter (!bound(?ol))
 } 
 
-SELECT distinct ?e WHERE {
-  ?e a ld:Event .
-  ?e cal:location <http://leipzig-data.de/Data/Ort/KreativesLeipzig> .
-} 
-
---------------------------------------------
-
 Alle Datens‰tze mit Pr‰dikat ?p finden, das "zusatz" case insensitiv matcht.
 
 select ?a ?p ?b where {
 ?a ?p ?b .
   filter regex(?p,"zusatz","i") .
-}
-
-select ?a ?p ?b where {
-?a ?p ?b .
-  filter regex(?p,"Adresse","i") .
 }
