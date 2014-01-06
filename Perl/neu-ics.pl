@@ -1,3 +1,4 @@
+# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
 # Aenderung 12.10.2013: fixTime added
 # Aenderung 04.05.2013: MD5 Checksumme über String ohne white spaces gebildet
 # Aenderung 03.04.2013: MD5 Checksumme hinzugefügt und danach bereits
@@ -8,7 +9,7 @@ use Digest::MD5;
 use SparqlQuery;
 use strict;
 
-my $startdate="2013-09-01";
+my $startdate="2013-10-01";
 undef $/;
 system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;
@@ -146,12 +147,12 @@ sub fixpredicate {
 
 sub fixTime {
   local $_=shift;
-  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
-  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
   s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3"^^xsd:date/gs;
   s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3"^^xsd:date/gs;
-  s/(T\d\d:\d\d:\d\d)"/$1+02:00"/gs;
-  s/\+\d\d:\d\d"/+02:00"/;
+  s/(T\d\d:\d\d:\d\d)"/$1+01:00"/gs;
+  s/\+\d\d:\d\d"/+01:00"/;
   return $_;
 }
 
