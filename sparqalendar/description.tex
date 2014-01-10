@@ -9,7 +9,7 @@
 
 \title{Technical documentation}
 \author{Compiled by Hans-Gert Gr\"abe, leipzig-data.de}
-\date{Version of Jan 05, 2014}
+\date{Version of Jan 10, 2014}
 
 \begin{document}
 \maketitle
@@ -18,10 +18,14 @@
 
 This plugin is a first demonstration how directly (not using any intermediate
 store) to extract RDF information from a Sparql endpoint and to display it
-within Wordpress using the short code mechanism.  State information is stored
-by the PHP session mechanism in a JSON object and explored for different
+within Wordpress using the short code mechanism.  State information is
+retrieved as JSON object, cached as an array and explored for different
 aspects through HTTP GET constructs. The plugin is designed for use with a
 Virtuoso based Sparql endpoint.
+
+\comment{At the moment cached in a global variable per viewed month, thus
+  interfering between different users. The cached variable should be assigned
+  to the PHP session. }
 
 \section{Background}
 
@@ -50,11 +54,6 @@ The plugin consists of the following resources
   strings
 \item \texttt{sparqalendar.php} -- embedding of the plugin into the overall
   Wordpress structure.
-
-  \comment{Whats about to have here only the overall embedding of the plugin
-    into the Wordpress structure and to put the \texttt{add\_shortcode}
-    commands in the different display php files? Whats about a common naming
-    scheme for display php files? }
 \end{itemize}
 
 \section{Design in more Detail}
@@ -86,7 +85,8 @@ For the moment all business logic is contained in the script
   the Sparql endpoint via a dedicated Sparql query and display it.
 
 \item \url{displayKalenderGet} -- a revised version of the Inspirata calendar
-  renderer. 
+  renderer.  Uses HTTP Get parameters to display event details for a given day
+  in the displayed month. 
 
 \item \url{get_param_url} -- retrieve the current requested url and (re)set
   the given parameters in that uri while reusing the parameters of the old
@@ -94,11 +94,6 @@ For the moment all business logic is contained in the script
 
   Required for \url{displayKalenderGet} to create additional HTTP Get requests
   from the base URL to display additional information for selected days. 
-
-  \comment{In the early Inspirata code also a POST version existed.  Would it
-    be a better idea to store and communicate session state in a POST variable
-    at the server side? What are the requirements, benefits and odds of such a
-    concept?  Surely odd: The server has to track the user.}
 
 \end{itemize}
 
