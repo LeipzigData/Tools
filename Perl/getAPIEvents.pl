@@ -63,8 +63,8 @@ sub processEvent {
   $out.=addReference("ld:hasTag","ldtag:KreativesLeipzig");
   $out.=addLiteral("rdfs:label",$title);
   $out.=addLiteral("ical:summary",$title);
-  $out.=addLiteral("ical:dtstart",$df) if $df;
-  $out.=addLiteral("ical:dtend",$dt) if $dt;
+  $out.=addDateTime("ical:dtstart",$df) if $df;
+  $out.=addDateTime("ical:dtend",$dt) if $dt;
   $out.=addLiteral("ical:description",$description) if $description;
   $out.=addReference("ld:hasURL","<$url>") if $url;
   return "$out .\n\n";
@@ -74,6 +74,7 @@ sub processEvent {
 
 sub translate { my $a=shift; return $hash->{$a} if $hash->{$a}; return $a; }
 sub addLiteral { my ($a,$b)=@_; return " ;\n\t$a \"$b\""; }
+sub addDateTime { my ($a,$b)=@_; return " ;\n\t$a \"$b\"^^xsd:datetime"; }
 sub addReference { my ($a,$b)=@_; return " ;\n\t$a $b"; }
 
 sub fix {
