@@ -192,3 +192,22 @@ select ?a ?p ?b where {
 ?a ?p ?b .
   filter regex(?p,"zusatz","i") .
 }
+---------------------------------------------------
+
+Welche Geokoordinaten tauchen mehrfach auf?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT distinct ?lat ?long count(distinct ?e) WHERE {
+  ?e a ld:Adresse .
+  ?e geo:lat ?lat . 
+  ?e geo:long ?long . 
+}
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?e WHERE {
+  ?e a ld:Adresse .
+  ?e geo:lat 51.2906416 . 
+  ?e geo:long 12.4391084 . 
+}

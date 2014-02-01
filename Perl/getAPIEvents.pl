@@ -1,3 +1,4 @@
+# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
 # Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
 # Aenderung 24.03.2013: ical:sentBy ergänzt
 
@@ -94,8 +95,8 @@ sub fixTime {
   s/2000-01-01//gs;
   s/:00:42/:00:00/gs;
   if (/T/) {
-    s/\+\d\d:\d\d/+02:00/;
-    $_.="+02:00" unless /\+/;
+    s/\+\d\d:\d\d/+01:00/;
+    $_.="+01:00" unless /\+/;
   }
   return $_;
 }
