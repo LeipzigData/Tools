@@ -1,0 +1,21 @@
+
+Alle Relationen mit Hausnummern:
+wget -O hausnr_rels.xml 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"];rel(area)["addr:housenumber"];(._;>;);out;'
+
+Alle Knoten mit Hausnr:
+wget --timeout=0 -O hausnr.xml 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"];node(area)["addr:housenumber"];out;'
+
+Fabain Schmidt (2014-01-29)
+
+- alle Knoten in Leipzig und Objekte, die diese Knoten enthalten: (Nachteil:
+  z.B. Straßen, die über die Stadtgrenze gehen, enthalten nur einen Teil der
+  Knoten:
+
+wget -O - 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"][admin_level=6];(node(area);<;);out meta;' > lpz.osm
+
+- alle Knoten in Leipzig und Objekte, die diese Knoten enthalten, und alles,
+  was in diesen Objekten enthalten ist: (Nachteil: es sind Objekte außerhalb
+  Leipzigs drin, die gemeinsam mit Leipziger Objekten in einer Relation
+  stehen, außerdem ist es aufwendiger)
+
+wget -O - 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"][admin_level=6];(node(area);<;>;);out meta;' > lpz2.osm
