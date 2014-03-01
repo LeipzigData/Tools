@@ -23,6 +23,21 @@ SELECT ?l ?k WHERE {
   ?p ld:Kurzinformation ?k .
 }
 
+Alle Planungsräume
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+construct 
+ ?s ld:containsOrtsteil ?o .
+WHERE {
+  ?o ld:zuPlanungsRaum ?s .
+}
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?s ?sl WHERE {
+  ?o ld:zuPlanungsRaum ?s .
+optional { ?s rdfs:label ?sl .}
+}
+
 Personen nach Namen finden
 
 PREFIX foaf: <http://xmlns.com/foaf/0.1/> 

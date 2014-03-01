@@ -1,3 +1,4 @@
+# Aenderung 09.02.2014: ld:contactPerson entfernt
 # Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
 # Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
 # Aenderung 24.03.2013: ical:sentBy ergänzt
@@ -7,7 +8,7 @@ use APILeipzig;
 
 my $hash=APILeipzig::getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2013-12-29");
+print getEvents("2014-02-01");
 
 ## end main ##
 
@@ -57,7 +58,6 @@ sub processEvent {
   my $description=fix($a->{"description"});
   my $out="<http://leipzig-data.de/Data/Event/APILeipzig.$id> a ld:Event";
   $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Event.$id>");
-  $out.=addReference("ld:contactPerson","<$hid>");
   $out.=addReference("ical:organizer","<$hid>");
   $out.=addReference("ical:location","<$vid>");
   $out.=addReference("ical:sentBy","<http://leipzig-data.de/Data/Agent/APILeipzig.Events>");

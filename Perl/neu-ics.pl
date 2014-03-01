@@ -1,4 +1,5 @@
-# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
+# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt 
+# Nächste Sommerzeit 30.3.-26.10.2014 +02:00, Winter +01:00
 # Aenderung 12.10.2013: fixTime added
 # Aenderung 04.05.2013: MD5 Checksumme über String ohne white spaces gebildet
 # Aenderung 03.04.2013: MD5 Checksumme hinzugefügt und danach bereits
@@ -9,7 +10,7 @@ use Digest::MD5;
 use SparqlQuery;
 use strict;
 
-my $startdate="2013-12-29";
+my $startdate="2014-02-01";
 undef $/;
 system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;
