@@ -5,7 +5,8 @@ wget -O hausnr_rels.xml 'http://overpass-api.de/api/interpreter?data=area[name="
 Alle Knoten mit Hausnr:
 wget --timeout=0 -O hausnr.xml 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"];node(area)["addr:housenumber"];out;'
 
-Fabain Schmidt (2014-01-29)
+-----------------------------------------------------------
+Fabian Schmidt (2014-01-29)
 
 - alle Knoten in Leipzig und Objekte, die diese Knoten enthalten: (Nachteil:
   z.B. Straßen, die über die Stadtgrenze gehen, enthalten nur einen Teil der
@@ -19,3 +20,8 @@ wget -O - 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"][admi
   stehen, außerdem ist es aufwendiger)
 
 wget -O - 'http://overpass-api.de/api/interpreter?data=area[name="Leipzig"][admin_level=6];(node(area);<;>;);out meta;' > lpz2.osm
+
+-----------------------------------------------------------
+Als Ausgabe wird im wesentlichen OSM-XML und JSON unterstützt, ein schöner
+Use-Case sind Straßenbahnlinienpläne:
+http://www.overpass-api.de/api/sketch-line?ref=10&network=MDV&style=wuppertal
