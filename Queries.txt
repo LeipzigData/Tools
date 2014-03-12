@@ -21,6 +21,47 @@ SELECT ?l ?k WHERE {
   ?p a ld:Ort .
   ?p rdfs:label ?l .
   ?p ld:Kurzinformation ?k .
+} order by (?l)
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+SELECT distinct ?p ?l ?k WHERE {
+  ?p ld:hasTag ldtag:MINT .
+  ?p rdfs:label ?l .
+  ?p ld:hasStatus ?k .
+} order by (?l)
+
+Alle MINT-Orte und zugehörige Projekte finden
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+SELECT ?l ?k WHERE {
+  ?p ld:hasTag ldtag:MINT .
+  ?p a ld:Ort .
+  ?p rdfs:label ?l .
+  ?p ld:Kurzinformation ?k .
+}
+
+Alle Angebote der LSGM finden
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT ?l ?k 
+WHERE {
+  ?p ld:relatedBundle <http://leipzig-data.de/Data/Ort/LSGM> .
+  ?p a ld:Angebot .
+  ?p rdfs:label ?l .
+  ?p ld:Kurzinformation ?k .
+}
+
+Alles zu MINT-Orten extrahieren
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+construct { ?s ?p ?o . } 
+WHERE {
+  ?s ld:hasTag ldtag:MINT .
+  ?s a ld:Ort .
+  ?s ?p ?o .
 }
 
 Alle Planungsräume
@@ -54,6 +95,15 @@ SELECT ?p ?n WHERE {
   ?p a ld:Traeger .
   ?p rdfs:label ?n .
   filter regex(?n,"Meier") .
+}
+
+---------------------------------------------------
+ld:hasURL durchsehen, welche noch Literale sind
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT ?p ?n WHERE {
+  ?p ld:hasURL ?n .
+filter isliteral(?n) .
 }
 
 ---------------------------------------------------
@@ -233,3 +283,65 @@ SELECT ?e WHERE {
   ?e geo:lat 51.2906416 . 
   ?e geo:long 12.4391084 . 
 }
+---------------------------------------------------
+Anfragen zur Energiekarte.
+
+Die folgende Anfrage ist zu komplex und scheitert an einem TimeOut
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?anlage ?adresse ?lat ?long ?einspeisungsebene ?energietraeger
+?leistung ?inbetriebnahmedatum ?netzbetreiber ?postleitzahl ?enr 
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+FROM <http://leipzig-data.de/Data/GeoDaten/>
+where {
+  ?anlage a ld:Anlage  .
+  ?anlage ld:Einspeisungsebene ?euri .
+  ?euri rdfs:label ?einspeisungsebene .
+  ?anlage ld:Energietraeger ?turi .
+  ?turi rdfs:label ?energietraeger .
+  ?anlage ld:installierteLeistung ?leistung .
+  ?anlage ld:Netzbetreiber ?nuri .
+  ?nuri skos:prefLabel ?netzbetreiber .
+  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
+  ?anlage ld:PLZ ?postleitzahl .
+  ?anlage ld:hasENR ?enr .
+optional{  ?anlage ld:hatAdresse ?adresse .
+optional {  ?adresse geo:lat ?lat .
+  ?adresse geo:long ?long .} }
+} Limit 3000
+
+Aufteilung der Anfrage in zwei Anfragen
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select 
+?anlage ?einspeisungsebene ?energietraeger ?leistung ?inbetriebnahmedatum ?enr
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+where {
+  ?anlage a ld:Anlage  .
+  ?anlage ld:Einspeisungsebene ?euri .
+  ?euri rdfs:label ?einspeisungsebene .
+  ?anlage ld:Energietraeger ?turi .
+  ?turi rdfs:label ?energietraeger .
+  ?anlage ld:installierteLeistung ?leistung .
+  ?nuri skos:prefLabel ?netzbetreiber .
+  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
+  ?anlage ld:hasENR ?enr .
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select 
+?anlage ?adresse ?lat ?long ?netzbetreiber ?postleitzahl
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+FROM <http://leipzig-data.de/Data/GeoDaten/>
+where {
+  ?anlage a ld:Anlage  .
+  ?anlage ld:Netzbetreiber ?nuri .
+  ?nuri skos:prefLabel ?netzbetreiber .
+  ?anlage ld:PLZ ?postleitzahl .
+optional{  ?anlage ld:hatAdresse ?adresse .
+optional {  ?adresse geo:lat ?lat .
+  ?adresse geo:long ?long .} }
+} 
