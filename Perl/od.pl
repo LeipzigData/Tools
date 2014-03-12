@@ -2,6 +2,27 @@ use SparqlQuery;
 use strict;
 
 my $query = <<EOT;
+select ?anlage ?einspeisungsebene ?energietraeger
+?leistung ?inbetriebnahmedatum ?netzbetreiber ?postleitzahl ?enr 
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+FROM <http://leipzig-data.de/Data/GeoDaten/>
+where {
+  ?anlage a ld:Anlage  .
+  ?anlage ld:Einspeisungsebene ?euri .
+  ?euri rdfs:label ?einspeisungsebene .
+  ?anlage ld:Energietraeger ?turi .
+  ?turi rdfs:label ?energietraeger .
+  ?anlage ld:installierteLeistung ?leistung .
+  ?anlage ld:Netzbetreiber ?nuri .
+  ?nuri skos:prefLabel ?netzbetreiber .
+  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
+  ?anlage ld:PLZ ?postleitzahl .
+  ?anlage ld:hasENR ?enr .
+} Limit 3000
+EOT
+
+my $query1 = <<EOT;
 SELECT ?l ?k WHERE {
   ?p ld:hasTag ldtag:MINT .
   ?p a ld:Ort .
