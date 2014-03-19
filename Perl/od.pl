@@ -9,9 +9,9 @@ FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
 FROM <http://leipzig-data.de/Data/GeoDaten/>
 where {
   ?anlage a ld:Anlage  .
-  ?anlage ld:Einspeisungsebene ?euri .
+  ?anlage ld:hatEinspeisungsebene ?euri .
   ?euri rdfs:label ?einspeisungsebene .
-  ?anlage ld:Energietraeger ?turi .
+  ?anlage ld:hatEnergietraeger ?turi .
   ?turi rdfs:label ?energietraeger .
   ?anlage ld:installierteLeistung ?leistung .
   ?anlage ld:Netzbetreiber ?nuri .

@@ -345,3 +345,12 @@ optional{  ?anlage ld:hatAdresse ?adresse .
 optional {  ?adresse geo:lat ?lat .
   ?adresse geo:long ?long .} }
 } 
+
+select 
+?class ?label ?type 
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+where {
+  ?class rdfs:label ?label .
+FILTER (langmatches(lang(?label), "de") || REGEX(lang(?label), "^$"))
+OPTIONAL { ?class a  ?type . }
+} 
