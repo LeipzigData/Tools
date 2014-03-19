@@ -1,0 +1,40 @@
+Für weitere Applikationen muss eine Struktur gebaut werden, die mehrere Werte
+zu einem Schlüssel einlesen kann, wie in der folgenden Abfrage zu Beiträgen in
+den CAR:
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+PREFIX dct: <http://purl.org/dc/terms/>
+select distinct ?a ?author ?title ?citation ?subject
+from <http://symbolicdata.org/Data/CAR-Beitraege/>
+Where { 
+?a a sd:Reference .
+optional { ?a dct:creator ?author . } 
+optional { ?a dct:title ?title . } 
+optional { ?a dct:bibliographicCitation ?citation . }
+optional { ?a dct:subject ?subject . } 
+} order by desc(?citation)
+
+Eindeutig ist allein 
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+PREFIX dct: <http://purl.org/dc/terms/>
+select distinct ?a ?title ?citation 
+from <http://symbolicdata.org/Data/CAR-Beitraege/>
+Where { 
+?a a sd:Reference .
+optional { ?a dct:title ?title . } 
+optional { ?a dct:bibliographicCitation ?citation . }
+} order by desc(?citation)
+
+oder mit einem vorgegebenen dct:subject
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+PREFIX dct: <http://purl.org/dc/terms/>
+select distinct ?a ?title ?citation 
+from <http://symbolicdata.org/Data/CAR-Beitraege/>
+Where { 
+?a a sd:Reference .
+?a dct:subject "Schule" .
+optional { ?a dct:title ?title . } 
+optional { ?a dct:bibliographicCitation ?citation . }
+} order by desc(?citation)

@@ -96,6 +96,7 @@ sub printHash {
     $md.=$h->{$a} if $predicate=~/summary/;
     $md.=$h->{$a} if $predicate=~/description/;
   } 
+  #return unless $h->{"location"}=~/Leipzig/;
   push(@l,"ical:organizer ldo:NetzwerkEnergieUmwelt");
   push(@l,"ical:sentBy <http://leipzig-data.de/Data/Agent/NEU.Events>");
   push(@l,"ld:hasTag ldtag:Energie");
