@@ -1,7 +1,8 @@
-# Aenderung 09.02.2014: ld:contactPerson entfernt
-# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
-# Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
 # Aenderung 24.03.2013: ical:sentBy ergänzt
+# Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
+# Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
+# Aenderung 09.02.2014: ld:contactPerson entfernt
+# Aenderung 19.03.2014: xsd:dateTime gefixt
 
 use strict;
 use APILeipzig;
@@ -75,7 +76,7 @@ sub processEvent {
 
 sub translate { my $a=shift; return $hash->{$a} if $hash->{$a}; return $a; }
 sub addLiteral { my ($a,$b)=@_; return " ;\n\t$a \"$b\""; }
-sub addDateTime { my ($a,$b)=@_; return " ;\n\t$a \"$b\"^^xsd:datetime"; }
+sub addDateTime { my ($a,$b)=@_; return " ;\n\t$a \"$b\"^^xsd:dateTime"; }
 sub addReference { my ($a,$b)=@_; return " ;\n\t$a $b"; }
 
 sub fix {

@@ -184,6 +184,15 @@ SELECT distinct ?e ?d WHERE {
   Filter(xsd:date(?d) <= "2013-11-01"^^xsd:date) .
 } order by (xsd:date(?d))
 
+Welche Events vor einem bestimmten Datum?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?d WHERE {
+  ?e a ld:Event .
+  ?e ical:dtstart ?d . 
+} order by (xsd:date(?d))
+
 ---------------------------------------------------
 Adressen und Geokoordinaten kontrollieren
 

@@ -5,6 +5,7 @@
 # Aenderung 03.04.2013: MD5 Checksumme hinzugefügt und danach bereits
 # aufgenommene Events ausgefiltert.
 # Aenderung 23.03.2013: URI ist nun NEU.<Datum>, keine NEUId mehr.
+# Aenderung 19.03.2014: xsd:dateTime gefixt
 
 use Digest::MD5;
 use SparqlQuery;
@@ -149,8 +150,8 @@ sub fixpredicate {
 
 sub fixTime {
   local $_=shift;
-  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
-  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+01:00"^^xsd:dateTime/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+01:00"^^xsd:dateTime/gs;
   s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3"^^xsd:date/gs;
   s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3"^^xsd:date/gs;
   s/(T\d\d:\d\d:\d\d)"/$1+01:00"/gs;
