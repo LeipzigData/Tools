@@ -111,9 +111,10 @@ class ARC2_ExhibitJSONSerializerPlugin extends ARC2_RDFSerializer {
 				$exhibit['types'][$rdf_type_term] = array('label'=> $this->uri_to_label($rdf_type), );				
 			}
 			/* create new item and set label and type of it */
+			label = $this->get_label($properties);
 			$item = array(
 				'id' => $uri,
-				'label' => $this->get_label($properties),
+				'label' => ($label) ? $label : '!!!!LABEL MISSING',
 				'type' =>  (!empty($rdf_type_term))? $rdf_type_term : 'item',
 				);
 			
