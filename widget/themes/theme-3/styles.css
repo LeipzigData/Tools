@@ -29,6 +29,11 @@ tr {
 	white-space:	normal;
 }
 
+div.gm-style-cc div span
+{
+	display:none;
+}
+
 div.exhibit-date-picker-text {
 
 	display:none;

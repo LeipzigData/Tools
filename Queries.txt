@@ -150,6 +150,13 @@ SELECT distinct ?e ?o WHERE {
   filter (!bound(?a))
 } 
 
+Wie viele Adressen gibt es?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT count(distinct ?a) WHERE {
+  ?e a ld:Adresse .
+} 
+
 Nur Events zu den unbestimmten Orten
 http://leipzig-data.de/Data/Ort/NN und
 http://leipzig-data.de/Data/Ort/Stadtweit
@@ -175,6 +182,15 @@ SELECT distinct ?e ?d WHERE {
   ?e a ld:Event .
   ?e ical:dtstart ?d . 
   Filter(xsd:date(?d) <= "2013-11-01"^^xsd:date) .
+} order by (xsd:date(?d))
+
+Welche Events vor einem bestimmten Datum?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?d WHERE {
+  ?e a ld:Event .
+  ?e ical:dtstart ?d . 
 } order by (xsd:date(?d))
 
 ---------------------------------------------------
@@ -337,6 +353,15 @@ where {
 optional{  ?anlage ld:hatAdresse ?adresse .
 optional {  ?adresse geo:lat ?lat .
   ?adresse geo:long ?long .} }
+} 
+
+select 
+?class ?label ?type 
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+where {
+  ?class rdfs:label ?label .
+FILTER (langmatches(lang(?label), "de") || REGEX(lang(?label), "^$"))
+OPTIONAL { ?class a  ?type . }
 } 
 
 -- Events der Inspirata auslesen

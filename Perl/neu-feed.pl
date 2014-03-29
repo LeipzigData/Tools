@@ -1,4 +1,5 @@
 # NEU Event-Feed auslesen
+# Aenderung 19.32.2014: xsd:dateTime gefixt
 
 use XML::DOM;
 use HTML::Entities;
@@ -30,8 +31,8 @@ sub getItem {
   return <<EOT;
 <http://leipzig-data.de/Data/Event/NEU.$startdate> a ld:Event;
 rdfs:label "$title" ; 
-ical:dtstart "$startdate"^^xsd:datetime ; 
-ical:dtend "$startdate"^^xsd:datetime ; 
+ical:dtstart "$startdate"^^xsd:dateTime ; 
+ical:dtend "$startdate"^^xsd:dateTime ; 
 ical:dtstamp "$pubDate" ;
 ld:hasTag ldtag:Energie ;
 ld:hasURL <$link> ; 

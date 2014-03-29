@@ -4,8 +4,11 @@ use XML::DOM;
 use HTML::Entities;
 use Time::ParseDate;
 use Date::Format;
+use SparqlQuery;
 use strict;
 
+my $hashtags;
+getHashTags();
 my $outfile="inspirata.xml"; 
 system("wget -O $outfile http://www.inspirata.de/category/zukunftsveranstaltungen/feed");
 my $parser=new XML::DOM::Parser;
@@ -15,27 +18,40 @@ map { $doc.=getItem($_) } $dom->getElementsByTagName("item");
 print TurtleEnvelope($doc);
 
 ## end main ##
+sub getHashTags {
+  my $query = <<EOT;
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?a WHERE {
+  ?a a ld:Event . 
+filter regex(?a,'Data/Event/Inspirata.') .
+} 
+EOT
+  my $u=SparqlQuery::query($query);
+  my $res=SparqlQuery::parseResult($u);
+  map $hashtags->{$_->{"a"}}=1, (@$res);
+  print join(", ",(sort keys %$hashtags))."\n\n";
+}
 
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $link=getValue($node,"link");
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   my $creator=getValue($node,"dc:creator");
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
+  return if $hashtags->{"http://leipzig-data.de/Data/Event/Inspirata.$id"};
   my $description=fixContent(decode_entities(getValue($node,"description")));
   my $content=fixContent(decode_entities(getValue($node,"content:encoded")));
   return <<EOT;
 <http://leipzig-data.de/Data/Event/Inspirata.$id> a ld:Event;
 rdfs:label "$title" ; 
-ical:dtstart "" ; 
-ical:dtend "" ; 
+ical:dtstart ""^^xsd:dateTime ; 
+ical:dtend ""^^xsd:dateTime ; 
 ld:hasTag ldtag:MINT, ldtag:Inspirata ;
 ical:location <http://leipzig-data.de/Data/Ort/Inspirata> ; 
-ld:hasURL <$link> , <$guid> ; 
+ld:hasURL <$guid> ; 
 ical:summary "$description" ;
-ical:dtstamp "$pubDate" ;
+ical:dtstamp "$pubDate"^^xsd:dateTime ;
 ical:description "$content" .
 
 EOT

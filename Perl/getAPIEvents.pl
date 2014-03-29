@@ -1,4 +1,5 @@
 # Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt
+# Aenderung 19.03.2014: xsd:dateTime gefixt
 # Aenderung 09.02.2014: ld:contactPerson entfernt
 # Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
 # Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
@@ -43,7 +44,7 @@ sub processEvent {
   my $id=$a->{"id"};
   return "" if $hash->{"http://leipzig-data.de/Data/APIId/Event.$id"};
   # return "" if $hash->{"http://leipzig-data.de/Data/APILeipzig/Event.$id"}; 
-    # letzte Zeile ist nur, um einen früheren Bug in Daten zu fixen.
+  # letzte Zeile ist nur, um einen früheren Bug in Daten zu fixen.
   my $hid=translate("http://leipzig-data.de/Data/APIId/Host.".$a->{"host_id"});
   my $vid=translate("http://leipzig-data.de/Data/APIId/Venue.".$a->{"venue_id"});
   my $owner=$a->{"owner_id"};
@@ -76,7 +77,7 @@ sub processEvent {
 
 sub translate { my $a=shift; return $hash->{$a} if $hash->{$a}; return $a; }
 sub addLiteral { my ($a,$b)=@_; return " ;\n\t$a \"$b\""; }
-sub addDateTime { my ($a,$b)=@_; return " ;\n\t$a \"$b\"^^xsd:datetime"; }
+sub addDateTime { my ($a,$b)=@_; return " ;\n\t$a \"$b\"^^xsd:dateTime"; }
 sub addReference { my ($a,$b)=@_; return " ;\n\t$a $b"; }
 
 sub fix {

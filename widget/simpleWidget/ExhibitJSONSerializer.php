@@ -27,8 +27,9 @@ class ExhibitJSONSerializer {
 
 	function get_label($props)
 	{
-
+		/* priorized from up to down */
 		$title_candidates = array(
+		    'http://www.w3.org/2004/02/skos/core#prefLabel',
 			self::DC.'title',
 			self::RSS.'title',
 			self::FOAF.'name',
@@ -107,9 +108,10 @@ class ExhibitJSONSerializer {
 				$exhibit['types'][$rdf_type_term] = array('label'=> $this->uri_to_label($rdf_type), );				
 			}
 			/* create new item and set label and type of it */
+			$label = $this->get_label($properties);
 			$item = array(
 				'id' => $uri,
-				'label' => $this->get_label($properties),
+				'label' => ($label) ? $label : '!!!!LABEL MISSING',
 				'type' =>  (!empty($rdf_type_term))? $rdf_type_term : 'item',
 				);
 			
