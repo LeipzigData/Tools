@@ -1,3 +1,5 @@
+# Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt, Events ohne
+# Zeitangabe rausgeworfen
 # Aenderung 29.10.2013: time offset auf Winterzeit gesetzt 
 # Nächste Sommerzeit 30.3.-26.10.2014 +02:00, Winter +01:00
 # Aenderung 12.10.2013: fixTime added
@@ -10,7 +12,7 @@ use Digest::MD5;
 use SparqlQuery;
 use strict;
 
-my $startdate="2014-02-01";
+my $startdate="2014-03-01";
 undef $/;
 system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;
@@ -97,6 +99,7 @@ sub printHash {
     $md.=$h->{$a} if $predicate=~/description/;
   } 
   #return unless $h->{"location"}=~/Leipzig/;
+  return unless $h->{"DTSTART"}=~/T/;
   push(@l,"ical:organizer ldo:NetzwerkEnergieUmwelt");
   push(@l,"ical:sentBy <http://leipzig-data.de/Data/Agent/NEU.Events>");
   push(@l,"ld:hasTag ldtag:Energie");
@@ -149,12 +152,12 @@ sub fixpredicate {
 
 sub fixTime {
   local $_=shift;
-  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
-  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+01:00"^^xsd:datetime/gs;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+02:00"^^xsd:datetime/gs;
   s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3"^^xsd:date/gs;
   s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3"^^xsd:date/gs;
-  s/(T\d\d:\d\d:\d\d)"/$1+01:00"/gs;
-  s/\+\d\d:\d\d"/+01:00"/;
+  s/(T\d\d:\d\d:\d\d)"/$1+02:00"/gs;
+  s/\+\d\d:\d\d"/+02:00"/;
   return $_;
 }
 

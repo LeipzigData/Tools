@@ -1,3 +1,4 @@
+# Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt
 # Aenderung 09.02.2014: ld:contactPerson entfernt
 # Aenderung 29.10.2013: time offset auf Winterzeit gesetzt
 # Aenderung 12.10.2013: time offset gefixt und Typangabe ergänzt
@@ -8,7 +9,7 @@ use APILeipzig;
 
 my $hash=APILeipzig::getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2014-02-01");
+print getEvents("2014-03-01");
 
 ## end main ##
 
@@ -95,8 +96,8 @@ sub fixTime {
   s/2000-01-01//gs;
   s/:00:42/:00:00/gs;
   if (/T/) {
-    s/\+\d\d:\d\d/+01:00/;
-    $_.="+01:00" unless /\+/;
+    s/\+\d\d:\d\d/+02:00/;
+    $_.="+02:00" unless /\+/;
   }
   return $_;
 }

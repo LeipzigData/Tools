@@ -343,13 +343,24 @@ optional {  ?adresse geo:lat ?lat .
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#>
-select ?d ?t ?s ?u 
+select ?d ?t ?s 
 from <http://leipzig-data.de/Data/Events/>
 where {
   ?a a ld:Event . 
   ?a ld:hasTag <http://leipzig-data.de/Data/Tag/Inspirata> .
   ?a rdfs:label ?t .
 optional { ?a ical:dtstart ?d . }
-optional { ?a ld:hasURL ?u . }
-optional { ?a ical summary ?s . }
+optional { ?a ical:summary ?s . }
 }
+
+-- Events ohne rdfs:label
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?b ?t 
+from <http://leipzig-data.de/Data/Events/>
+where {
+  ?a a ?b . 
+  ?a rdfs:label ?t .
+filter by regex(?t,"0") . 
+}
+
