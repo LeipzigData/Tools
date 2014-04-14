@@ -29,7 +29,7 @@ EOT
   my $u=SparqlQuery::query($query);
   my $res=SparqlQuery::parseResult($u);
   map $hashtags->{$_->{"a"}}=1, (@$res);
-  print join(", ",(sort keys %$hashtags))."\n\n";
+  # print join(", ",(sort keys %$hashtags))."\n\n";
 }
 
 sub getItem {
@@ -39,6 +39,7 @@ sub getItem {
   my $creator=getValue($node,"dc:creator");
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
+  return if $id="4366";
   return if $hashtags->{"http://leipzig-data.de/Data/Event/Inspirata.$id"};
   my $description=fixContent(decode_entities(getValue($node,"description")));
   my $content=fixContent(decode_entities(getValue($node,"content:encoded")));
