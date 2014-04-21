@@ -99,6 +99,7 @@ sub getValue {
   } $node->getElementsByTagName($tag,0);
 }
 
+# %z returns a wrong format +0200 instead of +02:00
 sub getDateTime { return time2str("%Y-%m-%dT%T%z",parsedate(shift)); } 
 sub getDate { return time2str("%Y-%m-%d",parsedate(shift)); }
 
