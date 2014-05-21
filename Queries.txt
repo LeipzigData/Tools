@@ -62,7 +62,7 @@ WHERE {
   ?s ld:hasTag ldtag:MINT .
   ?s a ld:Ort .
   ?s ?p ?o .
-}
+}  
 
 Alle Planungsräume
 
@@ -214,11 +214,54 @@ SELECT count(?e) WHERE {
   ?e a ld:Adresse .
 } 
 
-Welche Adressen haben keine Geokoordinaten? 
+Ausschnitt von Adressen mit Geokoordinaten
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames: <http://www.geonames.org/ontology#> 
+SELECT distinct ?a ?long ?lat ?way WHERE {
+  ?a a ld:Adresse .
+  ?a geo:lat ?lat . 
+  ?a geo:long ?long . 
+  ?a geonames:nearbyFeatures ?way .
+  filter regex(?a, "Tierkliniken")
+} 
+
+Welche Geokoordinaten tauchen mehrfach auf?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT distinct ?lat ?long count(distinct ?e) as ?s WHERE {
+  ?e a ld:Adresse .
+  ?e geo:lat ?lat . 
+  ?e geo:long ?long . 
+} order by ?s
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?e WHERE {
+  ?e a ld:Adresse .
+  ?e geo:lat 51.2906416 . 
+  ?e geo:long 12.4391084 . 
+}
+
+Welche Geokoordinaten tauchen mehrfach auf, welche ways? -- Anfrage ist zu
+komplex
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#> 
+SELECT distinct ?lat ?long ?way count(distinct ?e) as ?s WHERE {
+  ?e a ld:Adresse .
+  ?e geo:lat ?lat . 
+  ?e geo:long ?long . 
+  ?a geonames:nearbyFeatures ?way .
+} order by desc(?s)
+
+Welche Adressen haben keine Geokoordinaten? 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 SELECT distinct ?e WHERE {
   ?e a ld:Adresse .
   optional {?e geo:lat ?l . }
@@ -272,25 +315,6 @@ Alle Datensätze mit Prädikat ?p finden, das "zusatz" case insensitiv matcht.
 select ?a ?p ?b where {
 ?a ?p ?b .
   filter regex(?p,"zusatz","i") .
-}
----------------------------------------------------
-
-Welche Geokoordinaten tauchen mehrfach auf?
-
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT distinct ?lat ?long count(distinct ?e) WHERE {
-  ?e a ld:Adresse .
-  ?e geo:lat ?lat . 
-  ?e geo:long ?long . 
-}
-
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT ?e WHERE {
-  ?e a ld:Adresse .
-  ?e geo:lat 51.2906416 . 
-  ?e geo:long 12.4391084 . 
 }
 ---------------------------------------------------
 Anfragen zur Energiekarte.
