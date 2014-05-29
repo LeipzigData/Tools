@@ -1,4 +1,5 @@
 # Inspirata Event-Feed auslesen
+# 2014-05-29: Bug fixing
 
 use XML::DOM;
 use HTML::Entities;
@@ -10,7 +11,7 @@ use strict;
 my $hashtags;
 getHashTags();
 my $outfile="inspirata.xml"; 
-system("wget -O $outfile http://www.inspirata.de/category/zukunftsveranstaltungen/feed");
+#system("wget -O $outfile http://www.inspirata.de/category/zukunftsveranstaltungen/feed");
 my $parser=new XML::DOM::Parser;
 my $dom=$parser->parsefile($outfile) or die;
 my $doc;
@@ -39,15 +40,14 @@ sub getItem {
   my $creator=getValue($node,"dc:creator");
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
-  return if $id="4366";
+  return if $id eq "4366";
   return if $hashtags->{"http://leipzig-data.de/Data/Event/Inspirata.$id"};
   my $description=fixContent(decode_entities(getValue($node,"description")));
   my $content=fixContent(decode_entities(getValue($node,"content:encoded")));
   return <<EOT;
 <http://leipzig-data.de/Data/Event/Inspirata.$id> a ld:Event;
 rdfs:label "$title" ; 
-ical:dtstart ""^^xsd:dateTime ; 
-ical:dtend ""^^xsd:dateTime ; 
+ical:dtstart "2014-07-12T12:00:00+02:00"^^xsd:dateTime ;  fix this 
 ld:hasTag ldtag:MINT, ldtag:Inspirata ;
 ical:location <http://leipzig-data.de/Data/Ort/Inspirata> ; 
 ld:hasURL <$guid> ; 
