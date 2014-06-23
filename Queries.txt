@@ -317,76 +317,15 @@ select ?a ?p ?b where {
   filter regex(?p,"zusatz","i") .
 }
 ---------------------------------------------------
-Anfragen zur Energiekarte.
-
-Die folgende Anfrage ist zu komplex und scheitert an einem TimeOut
+RDF Graphen aufteilen
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-select ?anlage ?adresse ?lat ?long ?einspeisungsebene ?energietraeger
-?leistung ?inbetriebnahmedatum ?netzbetreiber ?postleitzahl ?enr 
-FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
-FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
-FROM <http://leipzig-data.de/Data/GeoDaten/>
+construct { ?a a ld:Buergerverein . }
+from <http://leipzig-data.de/Data/Traeger/>
 where {
-  ?anlage a ld:Anlage  .
-  ?anlage ld:Einspeisungsebene ?euri .
-  ?euri rdfs:label ?einspeisungsebene .
-  ?anlage ld:Energietraeger ?turi .
-  ?turi rdfs:label ?energietraeger .
-  ?anlage ld:installierteLeistung ?leistung .
-  ?anlage ld:Netzbetreiber ?nuri .
-  ?nuri skos:prefLabel ?netzbetreiber .
-  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
-  ?anlage ld:PLZ ?postleitzahl .
-  ?anlage ld:hasENR ?enr .
-optional{  ?anlage ld:hatAdresse ?adresse .
-optional {  ?adresse geo:lat ?lat .
-  ?adresse geo:long ?long .} }
-} Limit 3000
-
-Aufteilung der Anfrage in zwei Anfragen
-
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-select 
-?anlage ?einspeisungsebene ?energietraeger ?leistung ?inbetriebnahmedatum ?enr
-FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
-FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
-where {
-  ?anlage a ld:Anlage  .
-  ?anlage ld:Einspeisungsebene ?euri .
-  ?euri rdfs:label ?einspeisungsebene .
-  ?anlage ld:Energietraeger ?turi .
-  ?turi rdfs:label ?energietraeger .
-  ?anlage ld:installierteLeistung ?leistung .
-  ?nuri skos:prefLabel ?netzbetreiber .
-  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
-  ?anlage ld:hasENR ?enr .
-} 
-
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-select 
-?anlage ?adresse ?lat ?long ?netzbetreiber ?postleitzahl
-FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
-FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
-FROM <http://leipzig-data.de/Data/GeoDaten/>
-where {
-  ?anlage a ld:Anlage  .
-  ?anlage ld:Netzbetreiber ?nuri .
-  ?nuri skos:prefLabel ?netzbetreiber .
-  ?anlage ld:PLZ ?postleitzahl .
-optional{  ?anlage ld:hatAdresse ?adresse .
-optional {  ?adresse geo:lat ?lat .
-  ?adresse geo:long ?long .} }
-} 
-
-select 
-?class ?label ?type 
-FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
-where {
-  ?class rdfs:label ?label .
-FILTER (langmatches(lang(?label), "de") || REGEX(lang(?label), "^$"))
-OPTIONAL { ?class a  ?type . }
-} 
+  ?a a ld:Traeger .
+  filter regex(?a, "BV") .
+}
 
 -- Events der Inspirata auslesen
 
