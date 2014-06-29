@@ -11,7 +11,7 @@ use strict;
 my $hashtags;
 getHashTags();
 my $outfile="inspirata.xml"; 
-#system("wget -O $outfile http://www.inspirata.de/category/zukunftsveranstaltungen/feed");
+system("wget -O $outfile http://www.inspirata.de/category/zukunftsveranstaltungen/feed");
 my $parser=new XML::DOM::Parser;
 my $dom=$parser->parsefile($outfile) or die;
 my $doc;

@@ -1,0 +1,195 @@
+*,
+body {
+    border: 0 solid #000000;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+#wrapper,
+div#headerImage img {
+    width: 60em;
+}
+#wrapper {
+    background-color: #5B9B20;
+    margin: 0px auto;
+    min-height: 50em;
+}
+div#headerImage {
+    background-color: black;
+}
+
+#menu,
+div#menuHeaderImage img,
+.menuEntry {
+    width: 13em;
+}
+#menu {
+    float: left;
+}
+.menuEntry {
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+.menuEntry a {
+    color: white;
+    text-decoration: none;
+}
+.menuEntry a :hover {
+    color: black;
+}
+.menuEntry a :active {
+    color: black;
+}
+.menuEntry a div {
+    padding: 1em;
+}
+
+#content {
+    width: 100%;
+}
+
+.textContent {
+    color: #FFFFFF;
+    float: left;
+    padding: 1em;
+    width: 45em;
+}
+b {
+    line-height: 2em;
+}
+.websitePreviewDiv {
+    padding: 1em 0;
+}
+img.websitePreview {
+    float:right;
+    margin-left: 1em;
+    margin-top: 2em;
+    width: 50%;
+}
+
+#mapFrame{
+    float: left;
+    padding: 1em;
+    width: 45em;
+}
+
+#map {
+    height: 500px;
+}
+.markerPopup {
+    width: 28em;
+}
+.markerPopup td {
+    padding: 0.1em 0.2em;
+    font-size: 0.9em;
+}
+.markerPopup .popUpHeadLine {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#filter {
+    color: white;
+    font-size: 0.85em;
+    padding: 1em;
+}
+#headLine {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+#firstFilter {
+    float:left;
+    font-weight: bold;
+    width: 18em;
+}
+#secondFilter {
+    float:left;
+    font-size: 0.8em;
+    width: 63em;
+}
+#filter input {
+    font-size: 1em;
+    font-weight: bold;
+    height: 1.8em;
+    margin: 0.2em;
+    text-align: center;
+    width: 16.5em;
+}
+
+#inbetriebnahmedatum,
+#enr {
+    padding: 0.2em;
+}
+#enr input {
+    color: #F6931F;
+}
+div#inbetriebnahmedatum {
+    padding: 0.2em;
+}
+#inbetriebnahmedatum input {
+    color: #F6931F;
+}
+#leistung {
+    padding: 0.2em;
+}
+#leistung input {
+    text-align: center;
+}
+#leistung #slider-range {
+    margin: 0.8em 1em 0 0.3em;
+}
+#energietraeger,
+#einspeisungsebene {
+    float: left;
+    padding: 0.2em;
+    text-align: center;
+}
+#netzbetreiber {
+    float: left;
+    padding: 0.2em;
+    text-align: center;
+}
+#plz {
+    padding: 0.2em;
+    text-align: center;
+}
+#plz ol {
+    width: 7em;
+}
+#plz ol li {
+    float:left;
+}
+
+#filter #selectable .ui-selecting {
+    background: #FECA40;
+}
+#filter #selectable .ui-selected {
+    background: #F39814;
+    color: white;
+}
+#filter #selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#filter #selectable li {
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+}

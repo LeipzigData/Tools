@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de"> 
+    <head>
+        <title>Energiewende Praktikum - Uni Leipzig</title>
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/layout.css" type="text/css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" type="text/css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+        <script type="text/javascript"  src="http://openlayers.org/api/OpenLayers.js"></script>
+        <script type="text/javascript">
+            var stammSparql = "<?php echo $stammSparql; ?>";
+            var geoSparql = "<?php echo $geoSparql; ?>";
+            var labelSparql = "<?php echo $labelSparql; ?>";
+            var sparqlEndpoint = "<?php echo $sparqlEndpoint; ?>";
+        </script>
+        <script src="js/geodaten.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="headerImage">
+                <img src="img/header.jpg" alt="Header Image">
+            </div>
+            <div id="menu">
+                <div id="menuHeaderImage">
+                    <img src="img/menuHeader.png" alt="Menu Header Image">
+                </div>
+                <div class="menuEntry">
+                    <a href="?s=index">
+                        <div>Home</div>
+                    </a>
+                </div>
+                <div class="menuEntry">
+                    <a href="?s=bestandsaufnahme">
+                        <div>Bestandsaufnahme</div>
+                    </a>
+                </div>
+                <div class="menuEntry">
+                    <a href="?s=rechtliches">
+                        <div>Erneuerbare Energien Gesetz</div>
+                    </a>
+                </div>
+                <div class="menuEntry">
+                    <a href="?s=geodaten">
+                        <div>Energie Karte</div>
+                    </a>
+                </div>
+                <div class="menuEntry">
+                    <a href="?s=impressum">
+                        <div>Impressum</div>
+                    </a>
+                </div>
+            </div>
+            <div id="content">
+                <?php include_once $content; ?>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
