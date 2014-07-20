@@ -10,7 +10,7 @@ use APILeipzig;
 
 my $hash=APILeipzig::getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2014-04-25");
+print getEvents("2014-07-10");
 
 ## end main ##
 

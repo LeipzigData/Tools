@@ -1,21 +1,30 @@
+use open qw/:std :utf8/;
+use utf8;
 use strict;
 use APILeipzig;
 
 my $u=APILeipzig::Query("http://www.apileipzig.de/api/v1/district/streets");
 my $streetHash;
-my $out=StreetsPrefix(); map $out.=processStreets($_), @{$u->{data}};
-map {
-  $out.=<<EOT;
+my $out;
+#$out=getBasicData();
+map $out.=addOrtsteil($_), @{$u->{data}};
+print TurtleEnvelope($out);
+
+## end main ##
+
+sub getBasicData {
+  my $out=StreetsPrefix(); 
+  map $out.=processStreets($_), @{$u->{data}};
+  map {
+    $out.=<<EOT;
 <http://leipzig-data.de/Data/Strasse/$_> a ld:Strasse;
   rdfs:label "$streetHash->{$_}{'label'}";
   ld:hasStreetKey "$streetHash->{$_}{'key'}" . 
 
 EOT
-} (keys %$streetHash);
-
-print TurtleEnvelope($out);
-
-## end main ##
+  } (keys %$streetHash);
+  return $out;
+}
 
 sub StreetsPrefix {
   return <<EOT;
@@ -63,7 +72,7 @@ sub processStreets {
   my $nra=$a->{"housenumber_additional"};
   $nr=$nr.$nra if $nra;
   my $out=<<EOT;
-<http://leipzig-data.de/Data/Adresse/$plz.$streetId.$nr> a ld:Adresse
+<http://leipzig-data.de/Data/$plz.Leipzig.$streetId.$nr> a ld:Adresse
 EOT
   $out.=addLiteral("rdfs:label","$streetName $nr");
   $out.=addReference("ld:inStreet","lds:$streetId") if $streetId;
@@ -73,6 +82,22 @@ EOT
   $streetHash->{$streetId}{"label"}=$streetName;
   $streetHash->{$streetId}{"key"}=$streetKey;
   return "$out .\n\n";
+}
+
+sub addOrtsteil {
+  my $a=shift;
+  my $id=$a->{"id"};
+  my $streetName=$a->{"name"};
+  my $plz=$a->{"postcode"};
+  my $streetId=APILeipzig::fixId($streetName);
+  my $district=$a->{"district_id"};
+  my $nr=$a->{"housenumber"};
+  my $nra=$a->{"housenumber_additional"};
+  $nr=$nr.$nra if $nra;
+  return <<EOT;
+<http://leipzig-data.de/Data/$plz.Leipzig.$streetId.$nr> 
+ld:im Ortsteil <http://leipzig-data.de/Data/Ortsteil/$district> .
+EOT
 }
 
 # helpers
@@ -86,4 +111,3 @@ sub addReference {
   my ($a,$b)=@_;
   return " ;\n\t$a $b";
 }
-

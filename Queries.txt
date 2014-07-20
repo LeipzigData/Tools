@@ -352,3 +352,100 @@ where {
 filter by regex(?t,"0") . 
 }
 
+---------------------------------------------------
+Liste der Schulen 
+
+-- Adressen checken
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+select distinct ?a ?type ?t ?alabel ?lat ?long 
+from <http://leipzig-data.de/Data/Schulen/>
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+where {
+  ?a a ld:Schule ; rdfs:label ?t ; a ?type .
+optional { ?a ld:hasAddress ?add  . }
+optional { ?add rdfs:label ?alabel; geo:lat ?lat ; geo:long ?long . }
+filter regex(?type, "Gymnasium")
+} order by ?type ?t
+
+--- mit CodeForLeipzig vergleichen
+--- Adressen fixen
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?t ?add ?aname
+from <http://leipzig-data.de/Data/KidsLE/Schulen/>
+from <http://leipzig-data.de/Data/Adressen/>
+where {
+  ?a a ld:KidLESchule ; rdfs:label ?t .
+optional { ?a ld:hasAddress ?add  . }
+optional { ?add rdfs:label ?aname . }
+} 
+
+--- finde zugehörige Schule zu KidLE-Schule über Adresse
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?t ?b
+from <http://leipzig-data.de/Data/KidsLE/Schulen/>
+from <http://leipzig-data.de/Data/Schulen/>
+where {
+  ?a a ld:KidLESchule ; rdfs:label ?t .
+optional { ?a ld:hasAddress ?add  . }
+optional { ?b a ld:Schule; ld:hasAddress ?add  . }
+} 
+
+--- finde fehlende KidLE-Schulen
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?t 
+from <http://leipzig-data.de/Data/KidsLE/Schulen/>
+from <http://leipzig-data.de/Data/Schulen/>
+where {
+  ?a a ld:Schule ; rdfs:label ?t .
+optional { ?a ld:hasAddress ?add  . }
+optional { ?b a ld:KidLESchule; ld:hasAddress ?add  . }
+filter (!bound(?b))
+} 
+
+--- Adressen und Geokoordinaten
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+select ?a ?t ?klat ?klong ?slat ?slong 
+(xsd:float(?klat)-xsd:float(?slat)) as ?deltalat 
+(xsd:float(?klong)-xsd:float(?slong)) as ?deltalong
+from <http://leipzig-data.de/Data/KidsLE/Schulen/>
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+where {
+  ?a a ld:KidLESchule ; rdfs:label ?t; geo:lat ?klat; geo:long ?klong .
+optional { ?a ld:hasAddress ?add  . }
+optional { ?add geo:lat ?slat; geo:long ?slong . }
+} 
+
+-----------------------------------
+--- Ortsteile und Adressen
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?o ?l
+from <http://leipzig-data.de/Data/AdministrativeGliederung/>
+from <http://leipzig-data.de/Data/OrtsteilZuAdressen/>
+from <http://leipzig-data.de/Data/Adressen/>
+where {
+  ?a a ld:Adresse ; ld:imOrtsteil ?ot . ?o a ld:Ortsteil; ld:hasStadtRef ?ot .
+optional { ?a rdfs:label ?l . }
+  filter regex(?ot, "Ortsteil.03") .
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+construct { ?a ld:inOrtsteil ?o . }
+from <http://leipzig-data.de/Data/AdministrativeGliederung/>
+from <http://leipzig-data.de/Data/OrtsteilZuAdressen/>
+from <http://leipzig-data.de/Data/Adressen/>
+where {
+  ?a a ld:Adresse ; ld:imOrtsteil ?ot . ?o a ld:Ortsteil; ld:hasStadtRef ?ot .
+} 
+
+
+
