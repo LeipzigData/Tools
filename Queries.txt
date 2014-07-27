@@ -270,7 +270,7 @@ SELECT distinct ?e WHERE {
   filter (!bound(?l))
 } 
 
-Aktuell 2361 Einträge. 
+Aktuell 2165 Einträge. 
 
 Welche Adressen haben kein ld:inStreet? 
 
