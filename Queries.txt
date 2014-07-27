@@ -124,9 +124,11 @@ http://leipzig-data.de/Data/Ort/NN oder
 http://leipzig-data.de/Data/Ort/Stadtweit
 
 Welche Events haben einen Ort, der nicht existiert? 
-
+-- Achtung org:Organization hat skos:prefLabel statt rdfs:label, ich habe das
+-- an den relevanten Stellen unter beiden keys eingetragen. HGG 2014-07-27 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT distinct ?e ?o WHERE {
   ?e a ld:Event .
   ?e ical:location ?o .
