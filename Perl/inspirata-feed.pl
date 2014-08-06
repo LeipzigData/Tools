@@ -1,4 +1,5 @@
 # Inspirata Event-Feed auslesen
+# Aenderung 06.08.2014: ld:hasURL zu ical:url
 # 2014-05-29: Bug fixing
 
 use XML::DOM;
@@ -50,7 +51,7 @@ rdfs:label "$title" ;
 ical:dtstart "2014-07-12T12:00:00+02:00"^^xsd:dateTime ;  fix this 
 ld:hasTag ldtag:MINT, ldtag:Inspirata ;
 ical:location <http://leipzig-data.de/Data/Ort/Inspirata> ; 
-ld:hasURL <$guid> ; 
+ical:url <$guid> ; 
 ical:summary "$description" ;
 ical:dtstamp "$pubDate"^^xsd:dateTime ;
 ical:description "$content" .

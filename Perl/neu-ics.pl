@@ -15,7 +15,7 @@ use strict;
 
 my $startdate="2014-07-01";
 undef $/;
-system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
+#system("wget -O uhu.ics www.energiemetropole-leipzig.de/energiemetropole-leipzig.ics");
 open(FH,"uhu.ics") or die;
 $_=<FH>;
 s/\n\s//gs; # mache Zeilenumbrüche rückgängig

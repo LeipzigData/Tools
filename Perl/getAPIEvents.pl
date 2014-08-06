@@ -1,3 +1,4 @@
+# Aenderung 06.08.2014: ld:hasURL zu ical:url
 # Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt
 # Aenderung 19.03.2014: xsd:dateTime gefixt
 # Aenderung 09.02.2014: ld:contactPerson entfernt
@@ -69,7 +70,7 @@ sub processEvent {
   $out.=addDateTime("ical:dtstart",$df) if $df;
   $out.=addDateTime("ical:dtend",$dt) if $dt;
   $out.=addLiteral("ical:description",$description) if $description;
-  $out.=addReference("ld:hasURL","<$url>") if $url;
+  $out.=addReference("ical:url","<$url>") if $url;
   return "$out .\n\n";
 }
 

@@ -1,4 +1,5 @@
 # NEU Event-Feed auslesen
+# Aenderung 06.08.2014: ld:hasURL zu ical:url
 # Aenderung 19.32.2014: xsd:dateTime gefixt
 
 use XML::DOM;
@@ -35,7 +36,7 @@ ical:dtstart "$startdate"^^xsd:dateTime ;
 ical:dtend "$startdate"^^xsd:dateTime ; 
 ical:dtstamp "$pubDate" ;
 ld:hasTag ldtag:Energie ;
-ld:hasURL <$link> ; 
+ical:url <$link> ; 
 ical:description "$description" .
 
 EOT
