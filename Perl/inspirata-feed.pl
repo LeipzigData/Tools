@@ -1,4 +1,5 @@
 # Inspirata Event-Feed auslesen
+# Aenderung 23.08.2014: pubdate falsches Timeoffset gefixt
 # Aenderung 06.08.2014: ld:hasURL zu ical:url
 # 2014-05-29: Bug fixing
 
@@ -38,6 +39,7 @@ sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
   my $pubDate=getDateTime(getValue($node,"pubDate"));
+  $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
