@@ -2,56 +2,20 @@ use SparqlQuery;
 use strict;
 
 my $query = <<EOT;
-select ?anlage ?einspeisungsebene ?energietraeger
-?leistung ?inbetriebnahmedatum ?netzbetreiber ?postleitzahl ?enr 
-FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>
-FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/>
-FROM <http://leipzig-data.de/Data/GeoDaten/>
+select ?a ?lat ?long
+from <http://leipzig-data.de/Data/GeoDaten/>
 where {
-  ?anlage a ld:Anlage  .
-  ?anlage ld:hatEinspeisungsebene ?euri .
-  ?euri rdfs:label ?einspeisungsebene .
-  ?anlage ld:hatEnergietraeger ?turi .
-  ?turi rdfs:label ?energietraeger .
-  ?anlage ld:installierteLeistung ?leistung .
-  ?anlage ld:Netzbetreiber ?nuri .
-  ?nuri skos:prefLabel ?netzbetreiber .
-  ?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum .
-  ?anlage ld:PLZ ?postleitzahl .
-  ?anlage ld:hasENR ?enr .
-} Limit 3000
-EOT
-
-my $query1 = <<EOT;
-SELECT ?l ?k WHERE {
-  ?p ld:hasTag ldtag:MINT .
-  ?p a ld:Ort .
-  ?p rdfs:label ?l .
-  ?p ld:Kurzinformation ?k .
+?a geo:lat ?lat ; geo:long ?long . 
 }
 EOT
 
-my $query2 = <<EOT;
-SELECT distinct ?a ?o WHERE {
-  ?a a ld:Ort .      
-  ?a ld:hasAPIId ?o  .
-} 
-EOT
-
-my $hash;
 my $u=SparqlQuery::query(prefix().$query);
 my $res=SparqlQuery::parseResult($u);
-#my $out;
+my $out;
 #SparqlQuery::printResultSet($res);
-map { 
-  $hash->{$_->{"l"}}.="\n-------\n".$_->{"k"}; 
-}  (@$res);
+map $out.=erzeugeSatz($_), (@$res);
 
-map {
-  print "\n=======\n$_".$hash->{$_};
-} (sort keys %$hash);
-
-#print TurtleEnvelope($out);
+print TurtleEnvelope($out);
 
 ## end main ##
 
@@ -63,6 +27,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX cal: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
 EOT
 }
 
@@ -82,6 +47,6 @@ EOT
 sub erzeugeSatz {
   my $a=shift;
   return<<EOT;
-<$a->{"a"}> ld:hasAPIId <http://leipzig-data.de/Data/APIId/$a->{"o"}> .
+<$a->{"a"}> ld:geoJSONObject "type: Point, coordinates: [$a->{"lat"}, $a->{"long"}]" .
 EOT
 }

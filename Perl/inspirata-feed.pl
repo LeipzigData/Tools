@@ -38,6 +38,7 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
+  my $date=extractDate($title)."T12:00:00+02:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");
@@ -50,8 +51,9 @@ sub getItem {
   return <<EOT;
 <http://leipzig-data.de/Data/Event/Inspirata.$id> a ld:Event;
 rdfs:label "$title" ; 
-ical:dtstart "2014-07-12T12:00:00+02:00"^^xsd:dateTime ;  fix this 
+ical:dtstart "$date"^^xsd:dateTime ;  fix this 
 ld:hasTag ldtag:MINT, ldtag:Inspirata ;
+ical:organizer <http://leipzig-data.de/Data/Ort/Inspirata> ; 
 ical:location <http://leipzig-data.de/Data/Ort/Inspirata> ; 
 ical:url <$guid> ; 
 ical:summary "$description" ;
@@ -73,6 +75,13 @@ sub TurtleEnvelope {
 
 $out
 EOT
+}
+
+sub extractDate {
+  local $_=shift;
+  my $date="2014-09-20";
+  $date="$3-$2-$1" if m|(\d+)\.(\d+)\.(\d+)|;
+  return $date;
 }
 
 sub fixContent {

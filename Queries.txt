@@ -64,19 +64,16 @@ WHERE {
   ?s ?p ?o .
 }  
 
-Alle Planungsräume
+Alle Adressen, die nicht existieren
+
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-construct 
- ?s ld:containsOrtsteil ?o .
+select ?a ?c
+from <http://leipzig-data.de/Data/PolizeidirektionLeipzig/>
+from <http://leipzig-data.de/Data/Adressen/>
 WHERE {
-  ?o ld:zuPlanungsRaum ?s .
-}
-
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-SELECT distinct ?s ?sl WHERE {
-  ?o ld:zuPlanungsRaum ?s .
-optional { ?s rdfs:label ?sl .}
+  ?b ld:hasAddress ?a .
+optional { ?a a ?c .}
 }
 
 Personen nach Namen finden
