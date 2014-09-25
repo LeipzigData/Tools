@@ -552,9 +552,13 @@ function makeMarkers(stammDaten, geoDaten, map, labels) {
         position       = new OpenLayers.LonLat(geoDaten[value.anlage.value].long.value,
 					       geoDaten[value.anlage.value].lat.value)
 	    .transform( fromProjection, toProjection);
-        iconUrl        = 'http://www.openlayers.org/dev/img/marker.png';
+        iconUrl        = 'js/marker.png';
         
         // Auswahl des Marker Icons je nach Energieträger
+
+	// hgg, 2014-09-25: fixed to local images since the url to
+	// http://www.openlayers.org/dev/img/ did no more work
+
         switch (value.energietraeger.value) {
             case "http://leipzig-data.de/Data/Model/Solar":
                 iconUrl = 'js/marker-gold.png'
