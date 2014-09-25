@@ -557,19 +557,19 @@ function makeMarkers(stammDaten, geoDaten, map, labels) {
         // Auswahl des Marker Icons je nach Energieträger
         switch (value.energietraeger.value) {
             case "http://leipzig-data.de/Data/Model/Solar":
-                iconUrl = 'http://www.openlayers.org/dev/img/marker-gold.png'
+                iconUrl = 'js/marker-gold.png'
                 break;
             case "http://leipzig-data.de/Data/Model/Biomasse":
-                iconUrl = 'http://www.openlayers.org/dev/img/marker-green.png'
+                iconUrl = 'js/marker-green.png'
                 break;
             case "http://leipzig-data.de/Data/Model/Wasser":
-                iconUrl = 'http://www.openlayers.org/dev/img/marker-blue.png'
+                iconUrl = 'js/marker-blue.png'
                 break;
             case "http://leipzig-data.de/Data/Model/Wind":
-                iconUrl = 'http://www.openlayers.org/dev/img/marker-red.png'
+                iconUrl = 'js/marker-red.png'
                 break;
             default:
-                iconUrl = 'http://www.openlayers.org/dev/img/marker.png'
+                iconUrl = 'js/marker.png'
         }
        
         // Marker und Popup wird in einem Feature erzeugt
