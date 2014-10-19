@@ -193,18 +193,49 @@ SELECT distinct ?e ?d WHERE {
 } order by (xsd:date(?d))
 
 ---------------------------------------------------
-Adressen und Geokoordinaten kontrollieren
-
-Welche Orte haben keine gültige Adresse?
+Jugendtstadtplan aufbereiten
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
-SELECT distinct ?e ?o WHERE {
+SELECT distinct ?e ?label ?adresse ?url
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+WHERE {
   ?e a jsp:Ort .
-  ?e ld:hasAddress ?o .
-  optional {?o rdfs:label ?l .}
-  filter (!bound(?l))
+  ?e jsp:hasAddress ?adresse .
+  ?e rdfs:label ?label .
+  ?e ld:hasURL ?url .
 } 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
+SELECT distinct ?e ?o ?el ?ol ?ea ?oa 
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+from  <http://leipzig-data.de/Data/Orte/>
+WHERE {
+  ?o a ld:Ort .
+  ?e a jsp:Ort .
+  ?o rdfs:label ?ol .
+  ?e rdfs:label ?el .
+optional {  ?e jsp:hasAddress ?ea . }
+optional {   ?o ld:hasAddress ?oa . }
+filter regex(?ol, ?el) 
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
+CONSTRUCT {
+ ?e a ld:Ort; ld:hasAddress ?adresse; rdfs:label ?label; ld:hasURL ?url .
+}
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+WHERE {
+  ?e a jsp:Ort ; jsp:hasAddress ?adresse .
+  ?e rdfs:label ?label .
+  ?e ld:hasURL ?url .
+} 
+
+
+---------------------------------------------------
+Adressen und Geokoordinaten kontrollieren
 
 Wie viele Adressen?
 
