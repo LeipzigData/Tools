@@ -1,0 +1,225 @@
+/* Einzug der BebasNeue */
+@font-face {
+    font-family: BebasNeue;
+    src: url('../fonts/BebasNeue.otf');
+
+}
+html, body {
+    height:100%;
+    width: 100%;
+    /*overflow: hidden;*/
+    text-align:left;
+}
+
+
+#header {
+
+    margin-top: 3%;
+    position: relative;
+    height: 30px;
+    width: 85%;
+    text-align: left;
+    vertical-align: middle;
+
+}
+#header img {
+
+    padding-left: 5px;
+    vertical-align: middle;
+}
+#livesearch {
+    font-size: 12px;
+    width: 153px;
+    left:85px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 2000;
+}
+#searchfield {
+    margin-left: 20px;
+    width: 153px;
+}
+
+#footer {
+    background-color: #663333;
+    width: 95%;
+    height: 1.5em;
+    margin-top: 11px;
+    padding-top: 5px;
+    font-family: BebasNeue, Georgia, Palatino, Times New Roman, serif;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+#footer a, #footer a:hover, #footer a:visited, #footer a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+#inner-wrap {
+    height:75%;
+    width: 85%;
+
+}
+#content {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bottomnavi {
+    float: left;
+    height: 1.35em;
+    padding-top: 0.15em;
+    margin-left: 15px;
+
+
+}
+.bottomnavi_selected {
+
+    background-position: bottom;
+    background-image: url("../images/bottom_navi_selected.png") ;
+
+    background-repeat: no-repeat;
+
+
+}
+
+#wrap-details {
+    position: relative;
+
+
+}
+
+#detailsbox {
+    position: absolute;
+    right:-11.5%;
+    bottom:0;
+    width: 230px;
+    height: 450px;
+    background-color: #963133;
+    border-color: #FFFFFF;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 0px;
+    border-style: solid;
+}
+#detailsbox a, #detailsbox a:hover, #detailsbox a:visited, #detailsbox a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+#detailsbox img {
+    float: left;
+    padding:5px;
+}
+
+#label {
+    background-color: #ff6666;
+    text-align: right;
+    color: #FFFFFF;
+    height: 20px;
+    width:86%;
+    margin-top:-15px;
+    padding-right:7px;
+    padding-top: 2px;
+    float: left;
+    font-family: BebasNeue, Georgia, Palatino, Times New Roman, serif;
+
+
+}
+#label a, #label a:hover, #label a:visited, #label a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+#about {
+    float:left;
+    position: absolute;
+
+}
+#description {
+
+    /*overflow-y: scroll;*/
+    height: 180px;
+    float: left;
+    padding:4px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #FFFFFF;
+
+}
+
+#adresse {
+
+    /*overflow-y: scroll;*/
+    height: 180px;
+    float: left;
+    padding:4px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #FFFFFF;
+
+
+}
+#adresse  table {
+
+    text-align: center;
+    border-bottom-color: #FFFFFF;
+    border-width: 1px;
+    border-style: dotted;
+
+
+}
+#eigenschaften {
+
+    /*overflow-y: scroll;*/
+    height: 180px;
+    float: left;
+    padding:4px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #FFFFFF;
+    margin-right:7px;
+
+}
+#kontakt {
+
+    /*overflow-y: scroll;*/
+    height: 180px;
+    float: left;
+    padding:4px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-bottom-style:solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #FFFFFF;
+
+}
+.details_subnavi {
+    background-image: url("../images/back2.jpg");
+    background-repeat:repeat-x;
+    background-color: #bb4143;
+    width: 100%;
+    height: 25px;
+    float: left;
+    text-align: center;
+    color: #78292a;
+    font-family: BebasNeue, Georgia, Palatino, Times New Roman, serif;
+    padding-top:10px;
+    font-size: 14px;
+}
