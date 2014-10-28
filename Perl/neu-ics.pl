@@ -1,7 +1,6 @@
-# Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt, Events ohne
-# Zeitangabe rausgeworfen
+# Aenderung 29.10.2014: time offset auf Winterzeit gesetzt
+# Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt, Events ohne Zeitangabe rausgeworfen
 # Aenderung 29.10.2013: time offset auf Winterzeit gesetzt 
-# Nächste Sommerzeit 30.3.-26.10.2014 +02:00, Winter +01:00
 # Aenderung 12.10.2013: fixTime added
 # Aenderung 04.05.2013: MD5 Checksumme über String ohne white spaces gebildet
 # Aenderung 03.04.2013: MD5 Checksumme hinzugefügt und danach bereits
@@ -153,12 +152,12 @@ sub fixpredicate {
 
 sub fixTime {
   local $_=shift;
-  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+02:00"^^xsd:dateTime/gs;
-  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+02:00"^^xsd:dateTime/gs;
+  s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3T$4:$5:$6+01:00"^^xsd:dateTime/gs;
+  s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3T$4:$5:$6+01:00"^^xsd:dateTime/gs;
   s/ical:dtstart\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtstart "$1-$2-$3"^^xsd:date/gs;
   s/ical:dtend\s+"(\d\d\d\d)(\d\d)(\d\d)"/ical:dtend "$1-$2-$3"^^xsd:date/gs;
-  s/(T\d\d:\d\d:\d\d)"/$1+02:00"/gs;
-  s/\+\d\d:\d\d"/+02:00"/;
+  s/(T\d\d:\d\d:\d\d)"/$1+01:00"/gs;
+  s/\+\d\d:\d\d"/+01:00"/;
   return $_;
 }
 

@@ -1,3 +1,4 @@
+# Aenderung 29.10.2014: Umstellung auf Winterzeit
 # Inspirata Event-Feed auslesen
 # Aenderung 23.08.2014: pubdate falsches Timeoffset gefixt
 # Aenderung 06.08.2014: ld:hasURL zu ical:url
@@ -38,7 +39,7 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $date=extractDate($title)."T12:00:00+02:00";
+  my $date=extractDate($title)."T12:00:00+01:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");

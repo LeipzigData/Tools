@@ -1,3 +1,4 @@
+# Aenderung 28.10.2014: time offset auf Winterzeit gesetzt
 # Aenderung 06.08.2014: ld:hasURL zu ical:url
 # Aenderung 29.03.2014: time offset auf Sommerzeit gesetzt
 # Aenderung 19.03.2014: xsd:dateTime gefixt
@@ -98,8 +99,8 @@ sub fixTime {
   s/2000-01-01//gs;
   s/:00:42/:00:00/gs;
   if (/T/) {
-    s/\+\d\d:\d\d/+02:00/;
-    $_.="+02:00" unless /\+/;
+    s/\+\d\d:\d\d/+01:00/;
+    $_.="+01:00" unless /\+/;
   }
   return $_;
 }
