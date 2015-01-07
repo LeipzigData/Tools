@@ -80,7 +80,7 @@ EOT
 
 sub extractDate {
   local $_=shift;
-  my $date="2014-09-20";
+  my $date="2015-01-01";
   $date="$3-$2-$1" if m|(\d+)\.(\d+)\.(\d+)|;
   return $date;
 }
