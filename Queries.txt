@@ -173,6 +173,29 @@ SELECT distinct ?o ?a WHERE {
   filter (!bound(?g))
 } 
 
+Alle Adressen mit gegebenem Adress-String
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?a WHERE {
+  ?a a ld:Adresse .
+  filter regex($a, "04105.Leipzig.Loehrstrasse")
+} 
+
+Alle Orte mit  mit gegebenem Adress-String
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?o ?a WHERE {
+  ?o ld:hasAddress ?a .
+  filter regex($a, "04105.Leipzig.Loehrstrasse")
+} 
+
+
+
+http://leipzig-data.de/Data/Ort/UniLeipzig.Augustusplatz 	
+http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10-11
+http://leipzig-data.de/Data/Ort/Volkshochschule
+http://leipzig-data.de/Data/04105.Leipzig.Loehrstrasse.3-7
+
 Welche Events vor einem bestimmten Datum?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
