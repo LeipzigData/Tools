@@ -1,8 +1,12 @@
+# 2015-02-09: The district id's of the municipality and the internal id's
+# differ. Extract the translation table from district/districts
+
 use open qw/:std :utf8/;
 use utf8;
 use strict;
 use APILeipzig;
 
+my $streetHash;
 my $u=APILeipzig::Query("http://www.apileipzig.de/api/v1/district/streets");
 my $streetHash;
 my $out;
@@ -11,6 +15,14 @@ map $out.=addOrtsteil($_), @{$u->{data}};
 print TurtleEnvelope($out);
 
 ## end main ##
+
+sub getDistrictHash {
+  my $DistrictHash; 
+  map { 
+    $DistrictHash->{$_->{"id"}}=$_->{"number"}; 
+  } (@{$u->{data}});
+  return $DistrictHash;
+}
 
 sub getBasicData {
   my $out=StreetsPrefix(); 
@@ -96,7 +108,7 @@ sub addOrtsteil {
   $nr=$nr.$nra if $nra;
   return <<EOT;
 <http://leipzig-data.de/Data/$plz.Leipzig.$streetId.$nr> 
-ld:im Ortsteil <http://leipzig-data.de/Data/Ortsteil/$district> .
+ld:im Ortsteil <http://leipzig-data.de/Data/APIId/$district> .
 EOT
 }
 
@@ -111,3 +123,5 @@ sub addReference {
   my ($a,$b)=@_;
   return " ;\n\t$a $b";
 }
+
+__END__
