@@ -9,7 +9,7 @@ use Date::Format;
 use strict;
 
 my $outfile="neu.xml"; 
-#system("wget -O $outfile http://www.energiemetropole-leipzig.de/energiemetropole-leipzig.xml");
+system("wget -O $outfile http://www.energiemetropole-leipzig.de/energiemetropole-leipzig.xml");
 my $parser=new XML::DOM::Parser;
 my $dom=$parser->parsefile($outfile) or die;
 my $doc;
