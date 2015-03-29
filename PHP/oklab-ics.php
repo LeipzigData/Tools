@@ -1,6 +1,7 @@
 <?php 
 
 // Übernahme der ics-Anwendung vom NEU e.V.
+// 2015-02-22: rdf type zu ld:Event gefixt
 
 /* 
 
@@ -32,17 +33,19 @@ function addEvent($event) {
   $summary=$event['SUMMARY'];
   $description=delnl($event['DESCRIPTION']);
   $url=$event['URL'];
-  $dtstart=$begin->format('Y-m-d').'T'.$begin->format('H:i:s');
-  $dtend=$end->format('Y-m-d').'T'.$end->format('H:i:s');
+  $dtstart=$begin->format('Y-m-d').'T'.$begin->format('H:i:s').'+01:00';
+  $dtend=$end->format('Y-m-d').'T'.$end->format('H:i:s').'+01:00';
   $id=$begin->format('Y-m-d');
 
-  return "<http://leipzig-data.de/Data/Event/OKLab.$id> a ical:Event ; 
+  return "<http://leipzig-data.de/Data/Event/OKLab.$id> a ld:Event ; 
   rdfs:label \"$summary\" ;
-  ical:dtstart \"$dtstart\" ;
-  ical:dtend \"$dtend\" ;
+  ical:dtstart \"$dtstart\"^^xsd:dateTime ;
+  ical:dtend \"$dtend\"^^xsd:dateTime ;
   ical:summary \"$summary\" ;
   ical:description \"$description\" ;
   ical:url <$url> ;
+  ical:organizer ldt:CodeForLeipzig;
+  ld:Tag ldtag:CodeForLeipzig;
   ical:location <http://leipzig-data.de/Data/Ort/BIC> .
 
 ";

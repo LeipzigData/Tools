@@ -1,3 +1,4 @@
+# Aenderung 29.03.2015: Umstellung auf Sommerzeit
 # Aenderung 29.10.2014: Umstellung auf Winterzeit
 # Inspirata Event-Feed auslesen
 # Aenderung 23.08.2014: pubdate falsches Timeoffset gefixt
@@ -39,7 +40,7 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $date=extractDate($title)."T12:00:00+01:00";
+  my $date=extractDate($title)."T12:00:00+02:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");
@@ -52,7 +53,7 @@ sub getItem {
   return <<EOT;
 <http://leipzig-data.de/Data/Event/Inspirata.$id> a ld:Event;
 rdfs:label "$title" ; 
-ical:dtstart "$date"^^xsd:dateTime ;  fix this 
+ical:dtstart "$date"^^xsd:dateTime ;  # fix this 
 ld:hasTag ldtag:MINT, ldtag:Inspirata ;
 ical:organizer <http://leipzig-data.de/Data/Ort/Inspirata> ; 
 ical:location <http://leipzig-data.de/Data/Ort/Inspirata> ; 

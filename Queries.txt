@@ -66,7 +66,6 @@ WHERE {
 
 Alle Adressen, die nicht existieren
 
-
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 select ?a ?c
 from <http://leipzig-data.de/Data/PolizeidirektionLeipzig/>
@@ -105,6 +104,19 @@ filter isliteral(?n) .
 
 ---------------------------------------------------
 Events kontrollieren
+
+Eine Reihe von Tripeln mit ical:dtstart als xsd:date wurden nicht korrekt
+gelöscht. Finde diese:
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+SELECT distinct ?e ?d
+from <http://leipzig-data.de/Data/Events/>
+WHERE {
+  ?e ical:dtstart ?d . 
+optional {  ?e a ?t  . }
+filter (!bound(?t))
+} order by ?e
 
 Welche Events haben keinen Ort?
 
