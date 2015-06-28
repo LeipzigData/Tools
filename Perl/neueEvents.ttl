@@ -1,0 +1,195 @@
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix ldo: <http://leipzig-data.de/Data/Ort/> .
+@prefix ldp: <http://leipzig-data.de/Data/Person/> .
+@prefix ldt: <http://leipzig-data.de/Data/Traeger/> .
+@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://leipzig-data.de/Data/Event/DTS.2015-06-08> 
+ld:contactPerson <http://leipzig-data.de/Data/Person/Schroth_Johannes> ;
+ld:hasTag ldtag:DenkTankStelle, ldtag:ZukunftsDiskurs ;
+ld:zurReihe <http://leipzig-data.de/Data/Projekt/Attac.DenkTankStelle> ;
+a ld:Event ;
+rdfs:label "Zwischen \"Mitmachfalle\" und \"Engagiert Euch!\"" ;
+ical:description "Wir ließen uns bei den Begriffen von einem Buch von Thomas Wagner und einem Büchlein von Steffan Hessel anregen. Während der eine vor einem pseudodemokratischen Feigenblatt warnt, mit dem die Regierungen bis Kommunen ihr Volk zu täuschen versuchen, um ihre neoliberalen Vorhaben durchzusetzen, ruft Stephane Hessel zum Engagement auf. Wir wollen keine Bücher besprechen, sondern diese beiden Prinzipien gegenüberstellen und über ihre Tauglichkeit zur Entwicklung einer emanzipierten Welt disputieren. Und wie immer, kann auch über das diskutiert werden, was uns aktuell bewegt. So z.B. über Methoden und Möglichkeiten, sich Bürgerbewegungen und -initiativen vom Halse zu halten. " ;
+ical:dtstart "2015-06-08T19:00:00+01:00"^^xsd:dateTime ;
+ical:location <http://leipzig-data.de/Data/Ort/Cafe-Grundmann> ;
+ical:organizer <http://leipzig-data.de/Data/Ort/Attac.Leipzig> ;
+ical:summary "Attac DenkTankStelle: Zwischen \"Mitmachfalle\" und \"Engagiert Euch!\"" ;
+ical:url <http://leipzig-netz.de/index.php5/Attac.DenkTankStelle.2015-06-08> .
+
+<http://leipzig-data.de/Data/Event/DTS.2015-07-13> 
+ld:contactPerson <http://leipzig-data.de/Data/Person/Schroth_Johannes> ;
+ld:hasTag ldtag:DenkTankStelle, ldtag:ZukunftsDiskurs ;
+ld:zurReihe <http://leipzig-data.de/Data/Projekt/Attac.DenkTankStelle> ;
+a ld:Event ;
+rdfs:label "Kunst" ;
+ical:description "Aus einer beiläufigen Diskussion über die Möglichkeiten der Kunst, zu Erkenntnissen über uns und die Welt aber auch zur Verschleierung der Wahrheiten beizutragen, wurde vorgeschlagen, das Thema \"KUNST\" zu behandeln. Auch weil sich unserer Runde ein hochkarätiger Künstler - ein Musikus - zugesellt hat, versprechen wir uns zwei hochinteressante Stunden. Was versteht eigentlich jeder einzelne von uns darunter? Welche Bedeutung hat die Kunst für uns? \"L'art pour l'art\" oder \"Kunst ist Waffe\" sind Sätze, denen sich die meisten von uns schon einmal stellen mussten. Leben ohne Kunst, ist das denkbar? Welche Zusammenhänge zwischen Kunst und Kultur müssen genannt werden, um diese Frage überhaupt beantworten zu können. Und so weiter. " ;
+ical:dtstart "2015-07-13T19:00:00+01:00"^^xsd:dateTime ;
+ical:location <http://leipzig-data.de/Data/Ort/Cafe-Grundmann> ;
+ical:organizer <http://leipzig-data.de/Data/Ort/Attac.Leipzig> ;
+ical:summary "Attac DenkTankStelle: Kunst" ;
+ical:url <http://leipzig-netz.de/index.php5/Attac.DenkTankStelle.2015-07-13> .
+
+<http://leipzig-data.de/Data/Event/ASG.2015-06-18> ld:hasTag ldtag:ASG ;
+ld:zurReihe <http://leipzig-data.de/Data/Projekt/ASG.SommerfeldSeminar> ;
+a ld:Event ;
+ical:description "Multiresistente Erreger – aktuelle Theorien und Fakten. Mit Prof. Dr. Manfred Füting, Manfred H. Wolff, Dr. Karl-Michael Meiss (alle ASG Leipzig)" ;
+ical:dtstart "2015-06-18T17:00:00+02:00"^^xsd:dateTime ;
+ical:location <http://leipzig-data.de/Data/Ort/UniLeipzig.Ritterstrasse> ;
+ical:organizer <http://leipzig-data.de/Data/Ort/ASG> ;
+ical:summary "Multiresistente Erreger – aktuelle Theorien und Fakten. Mit Prof. Dr. Manfred Füting, Manfred H. Wolff, Dr. Karl-Michael Meiss (alle ASG Leipzig)" ;
+ical:url <http://bj-kaiser.homepage.t-online.de/Seminar.html> .
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-06-29> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-06-29T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-06-29T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/223446859/> .
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-07-06> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-07-06T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-07-06T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytkbjb/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-07-13> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-07-13T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-07-13T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytkbrb/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-07-20> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-07-20T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-07-20T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytkbbc/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-07-27> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-07-27T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-07-27T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytkbkc/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-08-03> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-08-03T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-08-03T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytlbfb/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-08-10> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-08-10T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-08-10T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytlbnb/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-08-17> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-08-17T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-08-17T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytlbwb/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-08-24> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-08-24T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-08-24T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytlbgc/> .
+
+
+<http://leipzig-data.de/Data/Event/OKLab.2015-08-31> 
+ld:Tag ldtag:CodeForLeipzig ;
+a ld:Event ;
+rdfs:label "OK Lab Leipzig Treffen" ;
+ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
+ical:dtend "2015-08-31T22:00:00+02:00"^^xsd:dateTime ;
+ical:dtstart "2015-08-31T19:00:00+02:00"^^xsd:dateTime ;
+ical:location ldo:BIC ;
+ical:organizer ldt:CodeForLeipzig ;
+ical:summary "OK Lab Leipzig Treffen" ;
+ical:url <http://www.meetup.com/OK-Lab-Leipzig/events/qhkbdlytlbpc/> .
+
+
+<http://leipzig-data.de/Data/Event/NEU.2015-08-26.433> a ld:Event ;
+ld:hasMD5Sum "ey63UxCNKWQ6y2gyp02Qfw" ;
+rdfs:label "Energiemetropole-Leipzig: Sommerfest des NEU e.V.";
+ical:contact "Daniel Reißmann, Tel.:  +49 &#40;0&#41;341 121 3317, E-Mail: reissmann@energiemetropole-leipzig.de";
+ical:description "Am 26. August 2015 findet ab 16:00 Uhr das erste Vereinstreffen des NEU e. V. statt. In lockerer Atmosphäre besteht die Möglichkeit, dass Sie sich untereinander besser kennenlernen können. Daher laden wir Sie recht herzlich zu einem Grillabend beim „Zaubergarten Leipzig“ ein. Datum und Uhrzeit: 26.08.2015, 16:00 – 22:00 Uhr Ort: Zaubergarten Leipzig, Holzhäuser Str. 120, 04299 Leipzig. Getränke und Verpflegung werden bereit gestellt. Die Teilnahme ist für Mitglieder des NEU e.V. kostenfrei, Nicht-Mitglieder zahlen 40.00 Euro. Für Rückfragen können Sie sich gern an unsere Geschäftsstelle wenden: reissmann@energiemetropole-leipzig.de und 0341-121-3317. Wir freuen uns auf Ihr Kommen!";
+ical:dtend "2015-08-26T22:00:00+02:00"^^xsd:dateTime;
+ical:dtstart "2015-08-26T16:00:00+02:00"^^xsd:dateTime;
+ical:location <http://leipzig-data.de/Data/Ort/Zaubergarten>;
+ical:summary "Energiemetropole-Leipzig: Sommerfest des NEU e.V.";
+ical:organizer ldo:NetzwerkEnergieUmwelt;
+ical:sentBy <http://leipzig-data.de/Data/Agent/NEU.Events>;
+ld:hasTag ldtag:Energie  .
+
+#---------------------------------------------------------
+
+<http://leipzig-data.de/Data/Ort/Zaubergarten> a ld:Ort ;
+rdfs:label "Zaubergarten Leipzig" ;
+ld:hasAddress <http://leipzig-data.de/Data/04299.Leipzig.HolzhaeuserStrasse.120> .
+
