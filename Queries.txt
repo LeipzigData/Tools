@@ -16,11 +16,16 @@ Alle MINT-Orte finden
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
-SELECT ?l ?k WHERE {
+PREFIX mint2012: <http://leipzig-data.de/Data/MINTBroschuere2012/>
+SELECT distinct ?p ?l ?k ?m
+from  <http://leipzig-data.de/Data/Orte/>
+from  <http://leipzig-data.de/Data/Mi/>
+WHERE {
   ?p ld:hasTag ldtag:MINT .
   ?p a ld:Ort .
   ?p rdfs:label ?l .
-  ?p ld:Kurzinformation ?k .
+optional{  ?p ld:Kurzinformation ?k . }
+optional{  ?m mint2012:describes ?p . }
 } order by (?l)
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
