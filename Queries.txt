@@ -252,8 +252,6 @@ SELECT distinct ?o ?a WHERE {
   filter regex($a, "04105.Leipzig.Loehrstrasse")
 } 
 
-
-
 http://leipzig-data.de/Data/Ort/UniLeipzig.Augustusplatz 	
 http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10-11
 http://leipzig-data.de/Data/Ort/Volkshochschule
@@ -563,5 +561,48 @@ where {
   ?a a ld:Adresse ; ld:imOrtsteil ?ot . ?o a ld:Ortsteil; ld:hasStadtRef ?ot .
 } 
 
+-----------------------------------
+--- Energiedaten
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+select ?a ?o ?l
+from <http://leipzig-data.de/Data/EnergiewendeVokabular/>
+where {
+  ?a a ld:Energietraeger; ?b ?c  .
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>  
+SELECT ?anlage ?einspeisungsebene ?energietraeger ?leistung ?inbetriebnahmedatum ?netzbetreiber ?enr  
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/>  
+WHERE {  
+?anlage a ld:Anlage   .
+?anlage ld:hatEinspeisungsebene ?einspeisungsebene   .
+?anlage ld:hatEnergietraeger ?energietraeger   .
+?anlage ld:installierteLeistung ?leistung   .
+?anlage ld:Netzbetreiber ?netzbetreiber   .
+?anlage ld:Inbetriebnahmedatum ?inbetriebnahmedatum   .
+?anlage ld:PLZ ?postleitzahl   .
+?anlage ld:hasENR ?enr   .
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>  
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>  
+SELECT ?anlage ?adresse ?lat ?long ?postleitzahl  
+FROM <http://leipzig-data.de/Data/EEG_Stammdaten_2012/> 
+FROM <http://leipzig-data.de/Data/GeoDaten/>  
+WHERE {  
+?anlage a ld:Anlage   .
+?anlage ld:PLZ ?postleitzahl   .
+?anlage ld:hatAdresse ?adresse  .  
+?adresse geo:lat ?lat . 
+?adresse geo:long ?long .
+} 
 
 
+select ?class ?label ?type 
+FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/> 
+where { 
+?class <http://www.w3.org/2000/01/rdf-schema#label> ?label . 
+FILTER (langmatches(lang(?label), "de") || REGEX(lang(?label), "^$"))
+OPTIONAL { ?class <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type . }
+}
