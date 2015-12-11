@@ -1,3 +1,4 @@
+# Aenderung 11.12.2015: Umstellung auf Winterzeit
 # Aenderung 29.03.2015: Umstellung auf Sommerzeit
 # Aenderung 29.10.2014: Umstellung auf Winterzeit
 # Inspirata Event-Feed auslesen
@@ -40,7 +41,7 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $date=extractDate($title)."T12:00:00+02:00";
+  my $date=extractDate($title)."T12:00:00+01:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");

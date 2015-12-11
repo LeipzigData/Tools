@@ -43,7 +43,7 @@ rdfs:label "OK Lab Leipzig Treffen" ;
 ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. " ;
 ical:dtend "$end+01:00"^^xsd:dateTime ;
 ical:dtstart "$begin+01:00"^^xsd:dateTime ;
-ical:location ldo:SpinLab ;
+ical:location ldo:BasislagerCoworkingLeipzig ;
 ical:organizer ldt:CodeForLeipzig ;
 ical:summary "OK Lab Leipzig Treffen" ;
 ical:url <$url> .
