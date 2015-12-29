@@ -1,11 +1,10 @@
+# 2015-12-29: Hashtags entfernt, wurden eh nicht genutzt
 # 2015-05-22: Neu angelegt
 # 2015-10-23: Auf Winterzeit umgestellt.
 
 use SparqlQuery;
 use strict;
 
-my $hashtags;
-getHashTags();
 my $outfile="oklab.ics"; 
 system("wget http://www.meetup.com/OK-Lab-Leipzig/events/ical/ -O- | tr -d '\r' >$outfile");
 print TurtleEnvelope(getEvents($outfile));
@@ -48,21 +47,6 @@ ical:organizer ldt:CodeForLeipzig ;
 ical:summary "OK Lab Leipzig Treffen" ;
 ical:url <$url> .
 EOT
-}
-
-
-sub getHashTags { 
-  my $query = <<EOT;
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
-SELECT distinct ?a WHERE {
-  ?a a ld:Event . 
-filter regex(?a,'Data/Event/Inspirata.') .
-} 
-EOT
-  my $u=SparqlQuery::query($query);
-  my $res=SparqlQuery::parseResult($u);
-  map $hashtags->{$_->{"a"}}=1, (@$res);
-  # print join(", ",(sort keys %$hashtags))."\n\n";
 }
 
 sub TurtleEnvelope {
