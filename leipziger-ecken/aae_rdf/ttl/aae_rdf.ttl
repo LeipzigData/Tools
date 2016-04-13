@@ -1,0 +1,1854 @@
+@base <http://pcai042.informatik.uni-leipzig.de>.
+@prefix spa: <http://aae_rdf_sparten.com/aae_rdf_sparte>.
+@prefix akt: <http://aae_rdf_akteur.com/aae_rdf_akteur>.
+@prefix adr: <http://aae_rdf_adresse.com/aae_rdf_adresse>.
+@prefix bez: <http://aae_rdf_bezirke.com/aae_rdf_bezirke>.
+@prefix eve: <http://aae_rdf_event.com/aae_rdf_event>.
+<#aae_rdf_akteur2>
+    akt:AID """2""";
+    akt:name """Helden wider Willen e.V.""";
+    akt:email """ariane@eexistence.de""";
+    akt:telefon """0178/475 466 9""";
+    akt:url """baumit.weebly.com""";
+    akt:ansprechpartner """Ariane Jedlitschka""";
+    akt:funktion """Vorstand""";
+    akt:bild """/sites/default/files/styles/large/public/field/image/leipziger_ecken.jpg""";
+    akt:beschreibung """Verein für Stadtteilkultur und Nachbarschaften.""";
+    akt:oeffnungszeiten """jeden Donnerstag von 10:00 - 17:00""";
+    akt:adresse <#aae_rdf_adresse2>;
+    akt:ersteller """0""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event11>".
+
+<#aae_rdf_akteur5>
+    akt:AID """5""";
+    akt:name """Initiative Ost-Passage Theater""";
+    akt:email """Daniel.Schade@ost-passage-theater.de""";
+    akt:telefon """---""";
+    akt:url """ost-passage-theater.de""";
+    akt:ansprechpartner """Daniel Schade""";
+    akt:funktion """Organisation, Dramaturgie und Pressearbeit""";
+    akt:bild """/sites/default/files/pictures/aae/OstPT_LOGO_FINALE.gif""";
+    akt:beschreibung """Als Ort des sozialen, gemeinwohlorientierten und kreativen Miteinanders &uuml;ber die Schichten und Milieus hinweg soll das Ost-Passage Theater gleichzeitig Sprachrohr und Impulsgeber sein f&uuml;r die Ideen, W&uuml;nsche und Utopien derjenigen, die sich diesen Freiraum mit uns erobern und beleben.""";
+    akt:oeffnungszeiten """(in Sanierung)""";
+    akt:adresse <#aae_rdf_adresse7>;
+    akt:ersteller """0""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur6>
+    akt:AID """6""";
+    akt:name """Quartiers-management Leipziger Osten""";
+    akt:email """qm@leipziger-osten.de""";
+    akt:telefon """0341 3513 7913""";
+    akt:url """http://www.leipziger-osten.de""";
+    akt:ansprechpartner """Matthias Schirmer""";
+    akt:funktion """Stadtteilmoderator""";
+    akt:bild """/sites/default/files/pictures/aae/05aa66aa125a8b6ac3.jpg""";
+    akt:beschreibung """Das Quartiersmanagement (QM) versteht sich als Mittler zwischen den verschiedenen Akteuren im Stadtteil (Bewohner, Vereine/Initiativen, Einrichtungen) untereinander sowie zwischen Stadtteilakteuren und Stadtverwaltung. Das Quartiersmanagement ist ein Projekt der Stadt Leipzig und wird gef&ouml;rdert aus dem Bund-L&auml;nder-Programm &quot;Soziale Stadt&quot; im Leipziger Osten. Projekttr&auml;ger: CivixX - Werkstatt f&uuml;r Zivilgesellschaft.""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse8>;
+    akt:ersteller """0""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event16>";
+    akt:event "<#aae_rdf_event30>".
+
+<#aae_rdf_akteur10>
+    akt:AID """10""";
+    akt:name """Jazzkollektiv Leipzig""";
+    akt:email """luisevolkmann@gmx.de""";
+    akt:telefon """""";
+    akt:url """http://jazzkollektiv-leipzig.de/""";
+    akt:ansprechpartner """Luise Volkmann""";
+    akt:funktion """""";
+    akt:bild """""";
+    akt:beschreibung """Das Jazzkollektiv hat es sich zum Ziel gesetzt die Leipziger Jazzszene zu featuren und gleichzeitig zeitgen&ouml;ssichen Jazz in der Stadt zu pr&auml;sentieren und ein Publikum daf&uuml;r zu generieren. Au&szlig;erdem geh&ouml;ren sozialpolitische Bereiche wie Arbeit mit Kindern und Jugendlichen dazu.""";
+    akt:oeffnungszeiten """Jeden erster Montag im Monat""";
+    akt:adresse <#aae_rdf_adresse13>;
+    akt:ersteller """31""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur11>
+    akt:AID """11""";
+    akt:name """Pöge-Haus e.V.""";
+    akt:email """kontakt@verein.poege-haus.de""";
+    akt:telefon """""";
+    akt:url """verein.poege-haus.de""";
+    akt:ansprechpartner """Stefan Kausch""";
+    akt:funktion """Vorsitzender Pöge-Haus e.V.""";
+    akt:bild """/sites/default/files/styles/large/public/field/image/Logo PHeV.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse14>;
+    akt:ersteller """32""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur16>
+    akt:AID """16""";
+    akt:name """IG FORTUNA | Kino der Jugend""";
+    akt:email """Daniel.Schade@ost-passage-theater.de""";
+    akt:telefon """""";
+    akt:url """http://ig-fortuna.de""";
+    akt:ansprechpartner """Daniel Schade""";
+    akt:funktion """Pressesprecher""";
+    akt:bild """/sites/default/files/pictures/aae/LOGO IG Fortuna.jpg""";
+    akt:beschreibung """Die Interessensgemeinschaft FORTUNA | Kino der Jugend versammelt Organisationen, Gruppen und Einzelpersonen in nachbarschaftlich gleichberechtigter Runde zu dem Zweck, das ehemalige &quot;Kino der Jugend&quot; (Eisenbahnstra&szlig;e 162) vor dem fortschreitenden baulichen Verfall und den st&auml;dtischen Abrisspl&auml;nen zu retten sowie einer &ouml;ffentlichen kulturellen Nutzung in historischer Kontinuit&auml;t zuzuf&uuml;hren.""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse27>;
+    akt:ersteller """""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event22>";
+    akt:event "<#aae_rdf_event23>".
+
+<#aae_rdf_akteur33>
+    akt:AID """33""";
+    akt:name """FabLab Leipzig""";
+    akt:email """contact@fablab-leipzig.de""";
+    akt:telefon """01633149507""";
+    akt:url """www.fablab-leipzig.de""";
+    akt:ansprechpartner """Matthias Petzold""";
+    akt:funktion """Labmanager""";
+    akt:bild """/sites/default/files/pictures/aae/fablab_logo_le.png""";
+    akt:beschreibung """Ein FabLab f&uuml;r alle!Wir m&ouml;chten euch eine offene digitale Werkstatt mit laborcharakter bieten. Einen Ort an dem ihr eure Ideen in einem iterativen Prozess ausprobieren k&ouml;nnt. Wo ihr auf gleichgesinnte trefft und Kooperationen bildet, um gemeinsam an der Entwicklung von Produkten teilzuhaben.Wir versuchen euch eine FabLab Infrastruktur zur Verf&uuml;gung zustellen.Eine Kooperative, welche sich gegenseitig bei der Entwicklung von Ideen, Produkten und Konzepten weiterhilft.""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse57>;
+    akt:ersteller """10""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event27>".
+
+<#aae_rdf_akteur37>
+    akt:AID """37""";
+    akt:name """KollektivArtesMobiles""";
+    akt:email """contact@kollektivartesmobiles.com""";
+    akt:telefon """""";
+    akt:url """www.kollektivartesmobiles.com""";
+    akt:ansprechpartner """Nina Maria Stemberger""";
+    akt:funktion """""";
+    akt:bild """/sites/default/files/pictures/aae/SquareLand.jpg""";
+    akt:beschreibung """Wir entwickeln verschiedene Formate, in denen wir unser individuelles Kunstverst&auml;ndnis ausleben und neue Wege der Beziehung zwischen Publikum und Akteur_Innen erforschen. In dem Versuch die klassische Abgrenzung zwischen Theater, bildender Kunst und Musik aufzubrechen, kombinieren wir in unseren Performances diese Kunstformen mit den Technologien der zeitgen&ouml;ssischen Medien in einem neuen Format: augmented theatre.""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse62>;
+    akt:ersteller """58""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur39>
+    akt:AID """39""";
+    akt:name """Kerstin Köppen""";
+    akt:email """kontakt@meinholzhandwerk.de""";
+    akt:telefon """01733160186""";
+    akt:url """www.meinholzhandwerk.de""";
+    akt:ansprechpartner """Kerstin Köppen""";
+    akt:funktion """Kursleitung""";
+    akt:bild """/sites/default/files/pictures/aae/ProfilbildKerKoe.jpg""";
+    akt:beschreibung """Kursangebote im Bereich der Bildenden Kunst, Bildhauerei, offene Grafikwerkstatt. Workshopangebot an Samstagen und zu speziellen Veranstaltungen des P&ouml;ge-Haus e.V. Gern Kursangebot in Kooperation mit Akteuren des Leipziger Ostens, wie z.B. Freien Tr&auml;gern, Schulen oder Vereinen.""";
+    akt:oeffnungszeiten """ab März 2016 auf Anfrage und an Samstagen""";
+    akt:adresse <#aae_rdf_adresse65>;
+    akt:ersteller """63""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event25>".
+
+<#aae_rdf_akteur40>
+    akt:AID """40""";
+    akt:name """Zündkerzenwerkstatt KUNST|KULTUR|HANDWERK""";
+    akt:email """zuendkerzenwerkstatt@gmx.de""";
+    akt:telefon """""";
+    akt:url """https://www.facebook.com/zuendkerzenwerkstatt/""";
+    akt:ansprechpartner """Kerstin Köppen""";
+    akt:funktion """Vermietung und Veranstaltung""";
+    akt:bild """/sites/default/files/pictures/aae/ZueKeWe hanging.jpg""";
+    akt:beschreibung """Wir sind eine k&uuml;nstlerisch-handwerkliche Ansammlung kreativer K&ouml;pfe,die den Leipziger Osten mit Kultur, Handwerk und Kunst bereichern wollen.ateliergemeinschaft/werkst&auml;tten/kunst/kultur/veranstaltungsort""";
+    akt:oeffnungszeiten """nach Absprache""";
+    akt:adresse <#aae_rdf_adresse67>;
+    akt:ersteller """63""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur41>
+    akt:AID """41""";
+    akt:name """Grüne Liga Kohrener Land e:V.""";
+    akt:email """kohrenerland@grueneliga.de""";
+    akt:telefon """0163/3149507""";
+    akt:url """""";
+    akt:ansprechpartner """Tomas Brückmann""";
+    akt:funktion """Vorstand""";
+    akt:bild """/sites/default/files/pictures/aae/18e9409fc8463bc4b7.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse68>;
+    akt:ersteller """74""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur44>
+    akt:AID """44""";
+    akt:name """Offener Treff für Kinder und Jugendliche »Tante Hedwig«""";
+    akt:email """Tante-Hedwig.Leipzig@internationaler-bund.de""";
+    akt:telefon """03417 6884696""";
+    akt:url """https://www.facebook.com/IB-Offener-Treff-Tante-Hedwig-339073406217093/?fref=ts""";
+    akt:ansprechpartner """Herr Schmidt, Frau Franke""";
+    akt:funktion """Mitarbeiter im Treff""";
+    akt:bild """/sites/default/files/pictures/aae/a4cc71f2e622fbc731.jpg""";
+    akt:beschreibung """Die &quot;Tante Hedwig&quot; ist ein Kinder- und Jugendtreff f&uuml;r die Zielgruppe 6-27 Jahren.Hier kann man:Dart, * Kicker, Playstation, Wii spielenan * an der Cluliga teilnehmen * im Internet surfen * neue Leute kennenlernengemeinsam * Musik h&ouml;ren &amp; Filme anschauen * mit uns kochen, backen, basteln * Ferienangebote nutzen * an gr&ouml;&szlig;eren Workshops teilnehmen (Hiphop, Pakour, Graffitti, Sportangebote, etc.) * Unterst&uuml;tzung bei euren&nbsp;Hausaufgaben bekommen * mit uns zusammen Bewerbungen erstellen, f&uuml;r Einstellungstests trainieren, f&uuml;r Vorstellungsgespr&auml;che &uuml;ben * an euren eigenen Fahrr&auml;dern schrauen und vieles mehr ..""";
+    akt:oeffnungszeiten """Mo-Do 14-20 / Fr 14-19""";
+    akt:adresse <#aae_rdf_adresse73>;
+    akt:ersteller """77""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event29>".
+
+<#aae_rdf_akteur45>
+    akt:AID """45""";
+    akt:name """Förderverein Bülowgärten""";
+    akt:email """foerderverein@buelowviertel-ev.de""";
+    akt:telefon """""";
+    akt:url """http://www.buelowviertel-leipzig.de/foerderverein-buelowgaerten-e-v/""";
+    akt:ansprechpartner """Paula Hofmann""";
+    akt:funktion """Vorstand""";
+    akt:bild """/sites/default/files/pictures/aae/4c6025fcf27227a2bf.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse76>;
+    akt:ersteller """82""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur46>
+    akt:AID """46""";
+    akt:name """Die Wunderfinder - Bildungspatenprojekt im Leipziger Osten""";
+    akt:email """post@buergerfuerleipzig.de""";
+    akt:telefon """0341/960 15 30""";
+    akt:url """http://www.diewunderfinder.de""";
+    akt:ansprechpartner """Stiftung Bürger für Leipzig""";
+    akt:funktion """Projektkoordination""";
+    akt:bild """/sites/default/files/pictures/aae/af1478b111f56898db.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse77>;
+    akt:ersteller """83""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur47>
+    akt:AID """47""";
+    akt:name """Kinder- und Jugendkulturzentrum O.S.K.A.R.""";
+    akt:email """jkz_oskar@t-online.de""";
+    akt:telefon """0341-6865680""";
+    akt:url """oskarinleipzig.de""";
+    akt:ansprechpartner """Ellen Heising""";
+    akt:funktion """Leiterin""";
+    akt:bild """/sites/default/files/pictures/aae/4efdd2f969559e8b1c.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse78>;
+    akt:ersteller """84""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur48>
+    akt:AID """48""";
+    akt:name """Bürgerverein Anger-Crottendorf""";
+    akt:email """info@koenigreich-crottendorf.de""";
+    akt:telefon """""";
+    akt:url """http://koenigreich-crottendorf.de/""";
+    akt:ansprechpartner """""";
+    akt:funktion """""";
+    akt:bild """/sites/default/files/pictures/aae/462bd9c5416245b918.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """""";
+    akt:adresse <#aae_rdf_adresse79>;
+    akt:ersteller """86""";
+    akt:created """""";
+    akt:modified """""".
+
+<#aae_rdf_akteur49>
+    akt:AID """49""";
+    akt:name """Dresdner59""";
+    akt:email """stadtteilprojekt@dresdner59.de""";
+    akt:telefon """0341/12591579""";
+    akt:url """www.dresdner59.de""";
+    akt:ansprechpartner """Johanna Pahl""";
+    akt:funktion """Projektkoordination""";
+    akt:bild """/sites/default/files/pictures/aae/0e8c934e881021b692.jpg""";
+    akt:beschreibung """""";
+    akt:oeffnungszeiten """Dienstag, Mittwoch, Donnerstag 15 - 18 Uhr, sowie zu den einzelnen Veranstaltungen""";
+    akt:adresse <#aae_rdf_adresse80>;
+    akt:ersteller """30""";
+    akt:created """""";
+    akt:modified """""";
+    akt:event "<#aae_rdf_event31>".
+
+<#aae_rdf_adresse1>
+    adr:ADID """1""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke1>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse2>
+    adr:ADID """2""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """Zugang über 49""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """49/51""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse3>
+    adr:ADID """3""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse4>
+    adr:ADID """4""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """49""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse5>
+    adr:ADID """5""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """51""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse6>
+    adr:ADID """6""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """01""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse7>
+    adr:ADID """7""";
+    adr:strasse """Konradstraße""";
+    adr:adresszusatz """(über ALDI)""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """27""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse8>
+    adr:ADID """8""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """c/o InfoCenter Eisenbahnstraße""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """49""";
+    adr:plz """04315""";
+    adr:gps """51.342,12.375""".
+
+<#aae_rdf_adresse9>
+    adr:ADID """9""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke41>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse10>
+    adr:ADID """10""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """Hinterhof""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """49""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse11>
+    adr:ADID """11""";
+    adr:strasse """Teststraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke1>;
+    adr:nr """1""";
+    adr:plz """04567""";
+    adr:gps """""".
+
+<#aae_rdf_adresse12>
+    adr:ADID """12""";
+    adr:strasse """Laden auf Zeit, Kohlgartenstr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """51""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse13>
+    adr:ADID """13""";
+    adr:strasse """Kohlgartenstrasse""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """51""";
+    adr:plz """04315""";
+    adr:gps """51.3423112,12.3992969""".
+
+<#aae_rdf_adresse14>
+    adr:ADID """14""";
+    adr:strasse """Hedwigstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """20""";
+    adr:plz """04315""";
+    adr:gps """51.346596,12.403096""".
+
+<#aae_rdf_adresse15>
+    adr:ADID """15""";
+    adr:strasse """wer""";
+    adr:adresszusatz """werq""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """wer""";
+    adr:plz """werwer""";
+    adr:gps """""".
+
+<#aae_rdf_adresse16>
+    adr:ADID """16""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """""".
+
+<#aae_rdf_adresse17>
+    adr:ADID """17""";
+    adr:strasse """Muusteralle""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke30>;
+    adr:nr """19""";
+    adr:plz """04317""";
+    adr:gps """""".
+
+<#aae_rdf_adresse18>
+    adr:ADID """18""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke7>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse19>
+    adr:ADID """19""";
+    adr:strasse """stststs""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke15>;
+    adr:nr """4""";
+    adr:plz """1234""";
+    adr:gps """""".
+
+<#aae_rdf_adresse20>
+    adr:ADID """20""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke19>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse21>
+    adr:ADID """21""";
+    adr:strasse """haus""";
+    adr:adresszusatz """hinten""";
+    adr:bezirk <#aae_rdf_bezirke19>;
+    adr:nr """1""";
+    adr:plz """12345""";
+    adr:gps """""".
+
+<#aae_rdf_adresse22>
+    adr:ADID """22""";
+    adr:strasse """straße""";
+    adr:adresszusatz """vorn""";
+    adr:bezirk <#aae_rdf_bezirke4>;
+    adr:nr """5""";
+    adr:plz """12345""";
+    adr:gps """""".
+
+<#aae_rdf_adresse23>
+    adr:ADID """23""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke13>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse24>
+    adr:ADID """24""";
+    adr:strasse """straße""";
+    adr:adresszusatz """hinterhof""";
+    adr:bezirk <#aae_rdf_bezirke17>;
+    adr:nr """12""";
+    adr:plz """12345""";
+    adr:gps """""".
+
+<#aae_rdf_adresse25>
+    adr:ADID """25""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke3>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse26>
+    adr:ADID """26""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke15>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse27>
+    adr:ADID """27""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """Helden wider Willen e.V.""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """49""";
+    adr:plz """04315""";
+    adr:gps """52.161542,8.0490356""".
+
+<#aae_rdf_adresse28>
+    adr:ADID """28""";
+    adr:strasse """Kochstraße""";
+    adr:adresszusatz """Cammerspiele Leipzig""";
+    adr:bezirk <#aae_rdf_bezirke37>;
+    adr:nr """132""";
+    adr:plz """04277""";
+    adr:gps """""".
+
+<#aae_rdf_adresse29>
+    adr:ADID """29""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke15>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """""".
+
+<#aae_rdf_adresse30>
+    adr:ADID """30""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke3>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """""".
+
+<#aae_rdf_adresse31>
+    adr:ADID """31""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """,""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """""".
+
+<#aae_rdf_adresse32>
+    adr:ADID """32""";
+    adr:strasse """qwe""";
+    adr:adresszusatz """adressz""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """nr""";
+    adr:plz """plz""";
+    adr:gps """14.946207,101.992222""".
+
+<#aae_rdf_adresse33>
+    adr:ADID """33""";
+    adr:strasse """qwe""";
+    adr:adresszusatz """adressz""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """nr""";
+    adr:plz """plz""";
+    adr:gps """14.946207,101.992222""".
+
+<#aae_rdf_adresse34>
+    adr:ADID """34""";
+    adr:strasse """wer""";
+    adr:adresszusatz """wer""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """wer""";
+    adr:plz """wer""";
+    adr:gps """-6.711,108.5037""".
+
+<#aae_rdf_adresse35>
+    adr:ADID """35""";
+    adr:strasse """wer""";
+    adr:adresszusatz """wer""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """wer""";
+    adr:plz """wer""";
+    adr:gps """-6.711,108.5037""".
+
+<#aae_rdf_adresse36>
+    adr:ADID """36""";
+    adr:strasse """wer""";
+    adr:adresszusatz """wer""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """wer""";
+    adr:plz """wer""";
+    adr:gps """-6.711,108.5037""".
+
+<#aae_rdf_adresse37>
+    adr:ADID """37""";
+    adr:strasse """wer""";
+    adr:adresszusatz """wer""";
+    adr:bezirk <#aae_rdf_bezirke2>;
+    adr:nr """wer""";
+    adr:plz """wer""";
+    adr:gps """-6.711,108.5037""".
+
+<#aae_rdf_adresse38>
+    adr:ADID """38""";
+    adr:strasse """@""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse39>
+    adr:ADID """39""";
+    adr:strasse """@""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse40>
+    adr:ADID """40""";
+    adr:strasse """@""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse41>
+    adr:ADID """41""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """im OFT Rabet""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """54""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse42>
+    adr:ADID """42""";
+    adr:strasse """Torgauer Platz""";
+    adr:adresszusatz """Tonne""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """2""";
+    adr:plz """04315""";
+    adr:gps """""".
+
+<#aae_rdf_adresse43>
+    adr:ADID """43""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke9>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """52.573086,13.407617""".
+
+<#aae_rdf_adresse44>
+    adr:ADID """44""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke9>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """52.573086,13.407617""".
+
+<#aae_rdf_adresse45>
+    adr:ADID """45""";
+    adr:strasse """Ossietzkystr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke9>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """52.573086,13.407617""".
+
+<#aae_rdf_adresse46>
+    adr:ADID """46""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke3>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse47>
+    adr:ADID """47""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke3>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse48>
+    adr:ADID """48""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke3>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse49>
+    adr:ADID """49""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse50>
+    adr:ADID """50""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse51>
+    adr:ADID """51""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse52>
+    adr:ADID """52""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse53>
+    adr:ADID """53""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke17>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse54>
+    adr:ADID """54""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke18>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse55>
+    adr:ADID """55""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke12>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse56>
+    adr:ADID """56""";
+    adr:strasse """Hildergardstrassee""";
+    adr:adresszusatz """49 über den Hinterhof""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """51""";
+    adr:plz """04315""";
+    adr:gps """Ermittle Geo-Koordinaten...""".
+
+<#aae_rdf_adresse57>
+    adr:ADID """57""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """49 über den Hinterhof""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """51""";
+    adr:plz """04315""";
+    adr:gps """51.3431029,12.4070104""".
+
+<#aae_rdf_adresse58>
+    adr:ADID """58""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke5>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse59>
+    adr:ADID """59""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke18>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse60>
+    adr:ADID """60""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke18>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse61>
+    adr:ADID """61""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """Café Caba""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """147""";
+    adr:plz """04315""";
+    adr:gps """48.719173,9.402638""".
+
+<#aae_rdf_adresse62>
+    adr:ADID """62""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse63>
+    adr:ADID """63""";
+    adr:strasse """Ossietzkystrasse""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke10>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """51.359697,12.409615""".
+
+<#aae_rdf_adresse64>
+    adr:ADID """64""";
+    adr:strasse """Ossietzkystrasse""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """19""";
+    adr:plz """04347""";
+    adr:gps """51.359697,12.409615""".
+
+<#aae_rdf_adresse65>
+    adr:ADID """65""";
+    adr:strasse """Hedwigstraße""";
+    adr:adresszusatz """Atelieretage""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """20""";
+    adr:plz """04315""";
+    adr:gps """51.346596,12.403096""".
+
+<#aae_rdf_adresse66>
+    adr:ADID """66""";
+    adr:strasse """Hedwigstraße""";
+    adr:adresszusatz """Atelieretage""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """20""";
+    adr:plz """04317""";
+    adr:gps """51.346596,12.403096""".
+
+<#aae_rdf_adresse67>
+    adr:ADID """67""";
+    adr:strasse """Dresdner Straße Hinterhof""";
+    adr:adresszusatz """Obere Etage""";
+    adr:bezirk <#aae_rdf_bezirke30>;
+    adr:nr """84""";
+    adr:plz """04317""";
+    adr:gps """51.3391931,12.3988189""".
+
+<#aae_rdf_adresse68>
+    adr:ADID """68""";
+    adr:strasse """Hildegardstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """49""";
+    adr:plz """04315""";
+    adr:gps """52.161542,8.0490356""".
+
+<#aae_rdf_adresse69>
+    adr:ADID """69""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """113b""";
+    adr:plz """04315""";
+    adr:gps """Ermittle Geo-Koordinaten...""".
+
+<#aae_rdf_adresse70>
+    adr:ADID """70""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """113b""";
+    adr:plz """04315""";
+    adr:gps """Ermittle Geo-Koordinaten...""".
+
+<#aae_rdf_adresse71>
+    adr:ADID """71""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke15>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse72>
+    adr:ADID """72""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke16>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse73>
+    adr:ADID """73""";
+    adr:strasse """Hedwigstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """7""";
+    adr:plz """04315""";
+    adr:gps """51.342,12.375""".
+
+<#aae_rdf_adresse74>
+    adr:ADID """74""";
+    adr:strasse """Hediwgstr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """7""";
+    adr:plz """04315""";
+    adr:gps """Ermittle Geo-Koordinaten...""".
+
+<#aae_rdf_adresse75>
+    adr:ADID """75""";
+    adr:strasse """Hedwigstr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """7""";
+    adr:plz """04315""";
+    adr:gps """51.342,12.375""".
+
+<#aae_rdf_adresse76>
+    adr:ADID """76""";
+    adr:strasse """Eisenbahnstraße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke21>;
+    adr:nr """157""";
+    adr:plz """04315""";
+    adr:gps """51.345989,12.399316""".
+
+<#aae_rdf_adresse77>
+    adr:ADID """77""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse78>
+    adr:ADID """78""";
+    adr:strasse """Gabelsbergerstr.""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke20>;
+    adr:nr """30""";
+    adr:plz """04317""";
+    adr:gps """Ermittle Geo-Koordinaten...""".
+
+<#aae_rdf_adresse79>
+    adr:ADID """79""";
+    adr:strasse """""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke22>;
+    adr:nr """""";
+    adr:plz """""";
+    adr:gps """""".
+
+<#aae_rdf_adresse80>
+    adr:ADID """80""";
+    adr:strasse """Dresdner Straße""";
+    adr:adresszusatz """""";
+    adr:bezirk <#aae_rdf_bezirke30>;
+    adr:nr """59""";
+    adr:plz """04317""";
+    adr:gps """51.338952,12.402913""".
+
+<#aae_rdf_event4>
+    eve:EID """4""";
+    eve:name """Honorary Kitchen""";
+    eve:kurzbeschreibung """""";
+    eve:bild """/~swp15-aae/drupal/sites/default/files/styles/large/public/field/image/honorarykitch_bild.jpg""";
+    eve:ort """10""";
+    eve:url """""";
+    eve:ersteller """10""";
+    eve:start_ts """2015-08-06 11:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event10>
+    eve:EID """10""";
+    eve:name """ANNA WEBBER Large Ensemble""";
+    eve:kurzbeschreibung """Nach der Sommerpause eröfnnet das Jazzkollektiv Leipzig die zweite Jahreshälfte mti einem Extrakonzert der New Yorker Saxophonistin und Komponistin Anna Webber. Mit anderen Berliner MusikerInnen bildet sie das Large Ensemble "Percussive Mechanics".
+Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Finessen und monderner Improvisation.""";
+    eve:bild """/~swp15-aae/drupal/sites/default/files/styles/large/public/field/image/AnnaWebberHarmonieHIRES.jpg""";
+    eve:ort """12""";
+    eve:url """http://jazzkollektiv-leipzig.de/""";
+    eve:ersteller """31""";
+    eve:start_ts """2015-09-12 19:30:01""";
+    eve:ende_ts """2015-09-12 22:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event11>
+    eve:EID """11""";
+    eve:name """help* Festival 2015""";
+    eve:kurzbeschreibung """1. help* Festival - HAL Atelierhaus in der Hildegardstra&szlig;e 49. Ganz praktisch werden interdisziplin&auml;re Teams help* Aktionen durchf&uuml;hren und in der Nachbarschaft Hilfestellungen geben. Dienstag bis Donnerstag - Honorary Kitchen; mittwochs - offenes Fr&uuml;hst&uuml;ck + abendlichen Ausklang; Wochenenden - vielf&auml;ltiges Kulturprogramm mit den help* Residenten Lucy Steggals, Johannes Maria Schmit, Inga Gerner Nielsen, Victor Maz&oacute;n Gardoqui""";
+    eve:bild """""";
+    eve:ort """10""";
+    eve:url """http://baumit.weebly.com/festival.html""";
+    eve:ersteller """13""";
+    eve:start_ts """1000-01-01 00:00:00""";
+    eve:ende_ts """2015-10-10 00:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event15>
+    eve:EID """15""";
+    eve:name """L.E.dreams - Ein episches Schauspiel aus dem Herzen einer Stadt | Ohne Helden""";
+    eve:kurzbeschreibung """Mit k&uuml;hl distanziertem Blick erz&auml;hlt das freie Ensemble der gruppe tag die Kurzgeschichte der Autorin Kohl-Eppelt &#39;Ein kleines Blatt vom Baum der Geschichte&#39;, die vor gut 25 Jahren in Leipzig spielt, und setzt sie analogisch in Beziehung zu einer B&uuml;hnenhandlung in der Jetztzeit. Das &#39;Prinzip Hoffnung&#39; des Philosophen und Leipzigers Ernst Bloch steht zur Diskussion. 100 Minuten, ohne Pause. In Welt-Urauff&uuml;hrung.""";
+    eve:bild """""";
+    eve:ort """28""";
+    eve:url """http://ost-passage-theater.de/projekte/leipzig-die-utopische-kommune""";
+    eve:ersteller """21""";
+    eve:start_ts """2015-10-10 20:00:01""";
+    eve:ende_ts """2015-10-10 22:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event16>
+    eve:EID """16""";
+    eve:name """Dialog im Stadtteil""";
+    eve:kurzbeschreibung """Das Quartiersmanagement Leipziger Osten und das Amt f&uuml;r Stadterneuerung und Wohnungsbauf&ouml;rderung laden ein zum&bdquo;Dialog im Stadtteil&ldquo;Diskussion zu aktuellen F&ouml;rderstrategien f&uuml;r den Leipziger OstenDonnerstag, 12. November, 18:00 Uhr &ndash; 20:00 Uhrim Freizeittreff Rabet""";
+    eve:bild """/sites/default/files/styles/large/public/field/image/151030#2_plakat_002-2.jpg""";
+    eve:ort """41""";
+    eve:url """http://www.leipziger-osten.de/nc/content/aktuelles/news/newsdetails/archive/2015/november/02/article/332/""";
+    eve:ersteller """22""";
+    eve:start_ts """2015-11-12 18:00:01""";
+    eve:ende_ts """2015-11-12 20:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event17>
+    eve:EID """17""";
+    eve:name """Gesprächskreis""";
+    eve:kurzbeschreibung """Der ArbeitsladenPlus im Leipziger Osten m&ouml;chte mit Ihnen ins Gespr&auml;ch kommen. Wir bieten Ihnen die M&ouml;glichkeit, in einer freien Gespr&auml;chsrunde Ihre Erfahrungen, W&uuml;nsche und Assoziationen zu diesem wichtigen Lebensbereich auszutauschen. Ansprechpartner: Bruno Lejsek, Tel.: 0341.2466415""";
+    eve:bild """""";
+    eve:ort """42""";
+    eve:url """""";
+    eve:ersteller """56""";
+    eve:start_ts """2015-11-26 15:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event22>
+    eve:EID """22""";
+    eve:name """IG FORTUNA | Kino der Jugend""";
+    eve:kurzbeschreibung """Regelm&auml;&szlig;iges, offenes Treffen der IG FORTUNA | Kino der Jugend jeden zweiten Donnerstag zur Rettung des ehemaligen Kinos in der Eisenbahnstra&szlig;e 162.""";
+    eve:bild """/sites/default/files/pictures/aae/LOGO IG Fortuna.jpg""";
+    eve:ort """61""";
+    eve:url """https://www.facebook.com/igfortuna""";
+    eve:ersteller """21""";
+    eve:start_ts """2015-12-10 19:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event23>
+    eve:EID """23""";
+    eve:name """IG FORTUNA | Kino der Jugend""";
+    eve:kurzbeschreibung """Regelm&auml;&szlig;iges, offenes Treffen der IG FORTUNA | Kino der Jugend jeden zweiten Donnerstag zur Rettung des ehemaligen Kinos in der Eisenbahnstra&szlig;e 162.""";
+    eve:bild """/sites/default/files/pictures/aae/LOGO IG Fortuna.jpg""";
+    eve:ort """61""";
+    eve:url """https://www.facebook.com/igfortuna""";
+    eve:ersteller """21""";
+    eve:start_ts """2016-01-07 19:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event25>
+    eve:EID """25""";
+    eve:name """offene Grafikwerkstatt im Pöge-Haus""";
+    eve:kurzbeschreibung """Offene Grafikwerkstatt zum Ausprobieren von Linol- und Holzschnitt, einfachen Hochdruckverfahren und kleinen Buchbindeprojekten. F&uuml;r Gro&szlig; &amp; Klein, Jung &amp; jung Gebliebene. Die erste Stunde darf geschnuppert werden, danach nehme ich gern eine Werkstattpauschale von 5 &euro; pro Samstag entgegen, damit die Werkstatt jeden ersten und dritten Samstag eines Monats &quot;rund&quot; laufen kann. Vereinsmitglieder des P&ouml;ge-Haus e. V. haben freien Zutritt.""";
+    eve:bild """/sites/default/files/pictures/aae/Holzschnittkalender_kategoriebild.jpg""";
+    eve:ort """66""";
+    eve:url """http://www.meinholzhandwerk.de""";
+    eve:ersteller """63""";
+    eve:start_ts """2016-03-05 14:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event27>
+    eve:EID """27""";
+    eve:name """Raspberry your Life""";
+    eve:kurzbeschreibung """In den kommenden Winterferien vom 15.02. bis 18.02.2016 laden wir Euch zu einem Programmierworkshop f&uuml;r Einsteiger &ldquo;RASPBERRY your life&rdquo; ins FabLab Leipzig ein. Der Workshop dauert 4 Tage und kostet 60&euro; pro Teilnehmer. Ihr solltet zwischen 9 und 15 Jahre alt sein, um teil zu nehmen.Bitte meldet euch bis 15.01.2016 unter matthias[at]fablab-leipzig[dot]de an.""";
+    eve:bild """/sites/default/files/pictures/aae/creative-technologists.png""";
+    eve:ort """57""";
+    eve:url """http://fablab-leipzig.de/raspberry-life/""";
+    eve:ersteller """10""";
+    eve:start_ts """2016-02-15 10:00:01""";
+    eve:ende_ts """2016-02-18 16:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event29>
+    eve:EID """29""";
+    eve:name """S T O P M O T I O N - W O R K S H O P""";
+    eve:kurzbeschreibung """Durch die Stopmotion-Technik lassen wir leblose Gegenst&auml;nde mit einfachen Tricks zum Leben erwachen und machen so unseren eigenen Animationsfilm!Daf&uuml;r werden wir gemeinsam basteln, malen und uns Geschichten ausdenken.Du brauchst nur Neugierde und Ideen. Alles andere haben wir da. Der Workshop ist gratis und Vorkenntnisse werden nicht ben&ouml;tigt.. Am besten bist du zwischen 5 und 15 Jahren. Wir wollen an den oben genannten Tagen immer von 9 bis 16 Uhr.""";
+    eve:bild """/sites/default/files/pictures/aae/8b045b1ed0ee62623e.jpg""";
+    eve:ort """75""";
+    eve:url """https://www.facebook.com/events/1500259133616801/""";
+    eve:ersteller """77""";
+    eve:start_ts """2016-02-08 09:00:01""";
+    eve:ende_ts """2016-02-12 16:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event30>
+    eve:EID """30""";
+    eve:name """Frühjahrsputz""";
+    eve:kurzbeschreibung """Wenn wir den Dreck nicht wegr&auml;umen, wird es niemand tun! - Beim Fr&uuml;hjahrsputz k&ouml;nnen die Dreckecken im &ouml;ffentlichen Raum ber&auml;umt werden, um die sich sonst niemand k&uuml;mmert. Hierf&uuml;r werden viele Helfer gesucht.An welcher Ecke m&uuml;sste schon lange mal aufger&auml;umt werden? - Wo w&uuml;rden Sie mit f&uuml;r Sauberkeit sorgen? - Bitte wenden Sie sich an das Quartiersmanagement, das die Aktion der Vereine, Initiativen und Anwohner vor Ort koordiniert.""";
+    eve:bild """/sites/default/files/pictures/aae/a5e2d0dd94c01a2101.jpg""";
+    eve:ort """79""";
+    eve:url """""";
+    eve:ersteller """22""";
+    eve:start_ts """2016-04-09 09:00:01""";
+    eve:ende_ts """1000-01-01 00:00:00""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event31>
+    eve:EID """31""";
+    eve:name """Brot & Butter - Mitbring Abendessen""";
+    eve:kurzbeschreibung """Beim Mitbring-Abendessen stehen Brot und Butter f&uuml;r Alle bereit und JedeR kann noch etwas mit bringen. Wir teilen und es reicht f&uuml;r alle! :)Jeden 1. und 3. Mittwoch im Monat in der Dresdner59.""";
+    eve:bild """/sites/default/files/pictures/aae/09a290492fd88faf9e.jpg""";
+    eve:ort """80""";
+    eve:url """http://www.dresdner59.de/brot-butter-offenes-mitbring-abendbrot/""";
+    eve:ersteller """30""";
+    eve:start_ts """2016-02-17 19:00:01""";
+    eve:ende_ts """2016-02-17 21:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_event32>
+    eve:EID """32""";
+    eve:name """Winterspielplatz""";
+    eve:kurzbeschreibung """Der Saal ist jeden Dienstagnachmittag f&uuml;r Eltern mit Kindern offen....so lange das Wetter uns nach Drinnen treibt.""";
+    eve:bild """""";
+    eve:ort """80""";
+    eve:url """http://dresdner59.de""";
+    eve:ersteller """30""";
+    eve:start_ts """2016-02-09 15:00:01""";
+    eve:ende_ts """2016-02-09 18:00:01""";
+    eve:created """2016-02-07 22:44:37""";
+    eve:modified """""".
+
+<#aae_rdf_sparte1>
+    spa:KID """1""";
+    spa:kategorie """spiel""".
+
+<#aae_rdf_sparte2>
+    spa:KID """2""";
+    spa:kategorie """donnerstags""".
+
+<#aae_rdf_sparte5>
+    spa:KID """5""";
+    spa:kategorie """jazz""".
+
+<#aae_rdf_sparte32>
+    spa:KID """32""";
+    spa:kategorie """workshop""".
+
+<#aae_rdf_sparte33>
+    spa:KID """33""";
+    spa:kategorie """raspberry""".
+
+<#aae_rdf_sparte34>
+    spa:KID """34""";
+    spa:kategorie """fablab""".
+
+<#aae_rdf_sparte35>
+    spa:KID """35""";
+    spa:kategorie """technik""".
+
+<#aae_rdf_sparte36>
+    spa:KID """36""";
+    spa:kategorie """bastler""".
+
+<#aae_rdf_sparte37>
+    spa:KID """37""";
+    spa:kategorie """code""".
+
+<#aae_rdf_sparte38>
+    spa:KID """38""";
+    spa:kategorie """löten""".
+
+<#aae_rdf_sparte39>
+    spa:KID """39""";
+    spa:kategorie """opensource""".
+
+<#aae_rdf_sparte40>
+    spa:KID """40""";
+    spa:kategorie """hildegardstasse""".
+
+<#aae_rdf_sparte41>
+    spa:KID """41""";
+    spa:kategorie """kinder""".
+
+<#aae_rdf_sparte42>
+    spa:KID """42""";
+    spa:kategorie """workshop""".
+
+<#aae_rdf_sparte43>
+    spa:KID """43""";
+    spa:kategorie """raspberry""".
+
+<#aae_rdf_sparte44>
+    spa:KID """44""";
+    spa:kategorie """fablab""".
+
+<#aae_rdf_sparte45>
+    spa:KID """45""";
+    spa:kategorie """technik""".
+
+<#aae_rdf_sparte46>
+    spa:KID """46""";
+    spa:kategorie """bastler""".
+
+<#aae_rdf_sparte47>
+    spa:KID """47""";
+    spa:kategorie """code""".
+
+<#aae_rdf_sparte48>
+    spa:KID """48""";
+    spa:kategorie """löten""".
+
+<#aae_rdf_sparte49>
+    spa:KID """49""";
+    spa:kategorie """opensource""".
+
+<#aae_rdf_sparte50>
+    spa:KID """50""";
+    spa:kategorie """hildegardstasse""".
+
+<#aae_rdf_sparte51>
+    spa:KID """51""";
+    spa:kategorie """kinder""".
+
+<#aae_rdf_sparte52>
+    spa:KID """52""";
+    spa:kategorie """offene werkstatt""".
+
+<#aae_rdf_sparte53>
+    spa:KID """53""";
+    spa:kategorie """fablab""".
+
+<#aae_rdf_sparte54>
+    spa:KID """54""";
+    spa:kategorie """leipzig""".
+
+<#aae_rdf_sparte55>
+    spa:KID """55""";
+    spa:kategorie """volkmarsdorf""".
+
+<#aae_rdf_sparte56>
+    spa:KID """56""";
+    spa:kategorie """elektronik""".
+
+<#aae_rdf_sparte57>
+    spa:KID """57""";
+    spa:kategorie """opensource""".
+
+<#aae_rdf_sparte58>
+    spa:KID """58""";
+    spa:kategorie """löten""".
+
+<#aae_rdf_sparte59>
+    spa:KID """59""";
+    spa:kategorie """basteln""".
+
+<#aae_rdf_sparte60>
+    spa:KID """60""";
+    spa:kategorie """coden""".
+
+<#aae_rdf_sparte61>
+    spa:KID """61""";
+    spa:kategorie """kreativ""".
+
+<#aae_rdf_sparte62>
+    spa:KID """62""";
+    spa:kategorie """ideen""".
+
+<#aae_rdf_sparte63>
+    spa:KID """63""";
+    spa:kategorie """prototypen""".
+
+<#aae_rdf_sparte64>
+    spa:KID """64""";
+    spa:kategorie """helden wider willen e.v.""".
+
+<#aae_rdf_sparte155>
+    spa:KID """155""";
+    spa:kategorie """theater""".
+
+<#aae_rdf_sparte156>
+    spa:KID """156""";
+    spa:kategorie """soziokultur""".
+
+<#aae_rdf_sparte157>
+    spa:KID """157""";
+    spa:kategorie """nachbarschaft""".
+
+<#aae_rdf_sparte158>
+    spa:KID """158""";
+    spa:kategorie """kulturraum""".
+
+<#aae_rdf_sparte159>
+    spa:KID """159""";
+    spa:kategorie """soziokultur""".
+
+<#aae_rdf_sparte160>
+    spa:KID """160""";
+    spa:kategorie """nachbarschaft""".
+
+<#aae_rdf_sparte161>
+    spa:KID """161""";
+    spa:kategorie """kino""".
+
+<#aae_rdf_sparte162>
+    spa:KID """162""";
+    spa:kategorie """theater""".
+
+<#aae_rdf_sparte163>
+    spa:KID """163""";
+    spa:kategorie """kulturraum""".
+
+<#aae_rdf_sparte164>
+    spa:KID """164""";
+    spa:kategorie """nachbarschaft""".
+
+<#aae_rdf_sparte165>
+    spa:KID """165""";
+    spa:kategorie """soziokultur""".
+
+<#aae_rdf_sparte166>
+    spa:KID """166""";
+    spa:kategorie """kino""".
+
+<#aae_rdf_sparte167>
+    spa:KID """167""";
+    spa:kategorie """kulturraum""".
+
+<#aae_rdf_sparte168>
+    spa:KID """168""";
+    spa:kategorie """soziokultur""".
+
+<#aae_rdf_sparte169>
+    spa:KID """169""";
+    spa:kategorie """nachbarschaft""".
+
+<#aae_rdf_sparte170>
+    spa:KID """170""";
+    spa:kategorie """kino""".
+
+<#aae_rdf_sparte172>
+    spa:KID """172""";
+    spa:kategorie """multikulti""".
+
+<#aae_rdf_sparte173>
+    spa:KID """173""";
+    spa:kategorie """künstlerische projekte""".
+
+<#aae_rdf_sparte174>
+    spa:KID """174""";
+    spa:kategorie """offene grafikwerkstatt""".
+
+<#aae_rdf_sparte175>
+    spa:KID """175""";
+    spa:kategorie """offene grafikwerkstatt""".
+
+<#aae_rdf_sparte176>
+    spa:KID """176""";
+    spa:kategorie """bildende kunst""".
+
+<#aae_rdf_sparte177>
+    spa:KID """177""";
+    spa:kategorie """veranstaltungsort""".
+
+<#aae_rdf_sparte178>
+    spa:KID """178""";
+    spa:kategorie """kunst und kultur""".
+
+<#aae_rdf_sparte179>
+    spa:KID """179""";
+    spa:kategorie """handwerk""".
+
+<#aae_rdf_sparte180>
+    spa:KID """180""";
+    spa:kategorie """lesungen""".
+
+<#aae_rdf_sparte181>
+    spa:KID """181""";
+    spa:kategorie """ateliers""".
+
+<#aae_rdf_sparte182>
+    spa:KID """182""";
+    spa:kategorie """natur""".
+
+<#aae_rdf_sparte183>
+    spa:KID """183""";
+    spa:kategorie """kohrener land""".
+
+<#aae_rdf_sparte184>
+    spa:KID """184""";
+    spa:kategorie """apfelsaft""".
+
+<#aae_rdf_sparte185>
+    spa:KID """185""";
+    spa:kategorie """bio""".
+
+<#aae_rdf_sparte186>
+    spa:KID """186""";
+    spa:kategorie """nachhaltigkeit""".
+
+<#aae_rdf_sparte187>
+    spa:KID """187""";
+    spa:kategorie """ausflugsziel""".
+
+<#aae_rdf_sparte188>
+    spa:KID """188""";
+    spa:kategorie """gemeinützig""".
+
+<#aae_rdf_sparte189>
+    spa:KID """189""";
+    spa:kategorie """jugendclub""".
+
+<#aae_rdf_sparte190>
+    spa:KID """190""";
+    spa:kategorie """offener treff""".
+
+<#aae_rdf_sparte191>
+    spa:KID """191""";
+    spa:kategorie """oft""".
+
+<#aae_rdf_sparte192>
+    spa:KID """192""";
+    spa:kategorie """jugendliche""".
+
+<#aae_rdf_sparte193>
+    spa:KID """193""";
+    spa:kategorie """offenes angebot""".
+
+<#aae_rdf_sparte194>
+    spa:KID """194""";
+    spa:kategorie """jugendtreff""".
+
+<#aae_rdf_sparte195>
+    spa:KID """195""";
+    spa:kategorie """hedwig""".
+
+<#aae_rdf_sparte196>
+    spa:KID """196""";
+    spa:kategorie """tante hedwig""".
+
+<#aae_rdf_sparte197>
+    spa:KID """197""";
+    spa:kategorie """straßenmusik""".
+
+<#aae_rdf_sparte198>
+    spa:KID """198""";
+    spa:kategorie """spielplatz""".
+
+<#aae_rdf_sparte199>
+    spa:KID """199""";
+    spa:kategorie """bülowviertel""".
+
+<#aae_rdf_sparte200>
+    spa:KID """200""";
+    spa:kategorie """stadtteil""".
+
+<#aae_rdf_sparte201>
+    spa:KID """201""";
+    spa:kategorie """quartiersmangaement""".
+
+<#aae_rdf_sparte202>
+    spa:KID """202""";
+    spa:kategorie """integration""".
+
+<#aae_rdf_sparte203>
+    spa:KID """203""";
+    spa:kategorie """kommunikation""".
+
+<#aae_rdf_sparte204>
+    spa:KID """204""";
+    spa:kategorie """leipziger osten""".
+
+<#aae_rdf_sparte205>
+    spa:KID """205""";
+    spa:kategorie """netzwerke""".
+
+<#aae_rdf_sparte206>
+    spa:KID """206""";
+    spa:kategorie """frühjahrsputz""".
+
+<#aae_rdf_sparte207>
+    spa:KID """207""";
+    spa:kategorie """müll""".
+
+<#aae_rdf_sparte208>
+    spa:KID """208""";
+    spa:kategorie """engagement""".
+
+<#aae_rdf_sparte209>
+    spa:KID """209""";
+    spa:kategorie """brachflächen""".
+
+<#aae_rdf_sparte210>
+    spa:KID """210""";
+    spa:kategorie """dreck""".
+
+<#aae_rdf_sparte211>
+    spa:KID """211""";
+    spa:kategorie """sauberkeit""".
+
+<#aae_rdf_sparte212>
+    spa:KID """212""";
+    spa:kategorie """müll""".
+
+<#aae_rdf_sparte213>
+    spa:KID """213""";
+    spa:kategorie """spiel""".
+
+<#aae_rdf_sparte214>
+    spa:KID """214""";
+    spa:kategorie """kinder""".
+
+<#aae_rdf_bezirke1>
+    bez:BID """1""";
+    bez:bezirksname """Zentrum (Mitte)""".
+
+<#aae_rdf_bezirke2>
+    bez:BID """2""";
+    bez:bezirksname """Zentrum-Ost (Mitte)""".
+
+<#aae_rdf_bezirke3>
+    bez:BID """3""";
+    bez:bezirksname """Zentrum-Südost (Mitte)""".
+
+<#aae_rdf_bezirke4>
+    bez:BID """4""";
+    bez:bezirksname """Seeburgviertel (Mitte)""".
+
+<#aae_rdf_bezirke5>
+    bez:BID """5""";
+    bez:bezirksname """Zentrum-Süd (Mitte)""".
+
+<#aae_rdf_bezirke6>
+    bez:BID """6""";
+    bez:bezirksname """Musikviertel (Mitte)""".
+
+<#aae_rdf_bezirke7>
+    bez:BID """7""";
+    bez:bezirksname """Zentrum-West (Mitte)""".
+
+<#aae_rdf_bezirke8>
+    bez:BID """8""";
+    bez:bezirksname """Bachviertel (Mitte)""".
+
+<#aae_rdf_bezirke9>
+    bez:BID """9""";
+    bez:bezirksname """Zentrum-Nordwest (Mitte)""".
+
+<#aae_rdf_bezirke10>
+    bez:BID """10""";
+    bez:bezirksname """Waldstraßenviertel (Mitte)""".
+
+<#aae_rdf_bezirke11>
+    bez:BID """11""";
+    bez:bezirksname """Zentrum-Nord (Mitte)""".
+
+<#aae_rdf_bezirke12>
+    bez:BID """12""";
+    bez:bezirksname """Schönefeld-Abtnaundorf (Nordost)""".
+
+<#aae_rdf_bezirke13>
+    bez:BID """13""";
+    bez:bezirksname """Schönefeld-Ost (Nordost)""".
+
+<#aae_rdf_bezirke14>
+    bez:BID """14""";
+    bez:bezirksname """Schönefeld (Nordost)""".
+
+<#aae_rdf_bezirke15>
+    bez:BID """15""";
+    bez:bezirksname """Mockau-Süd (Nordost)""".
+
+<#aae_rdf_bezirke16>
+    bez:BID """16""";
+    bez:bezirksname """Mockau-Nord (Nordost)""".
+
+<#aae_rdf_bezirke17>
+    bez:BID """17""";
+    bez:bezirksname """Mockau (Nordost)""".
+
+<#aae_rdf_bezirke18>
+    bez:BID """18""";
+    bez:bezirksname """Thekla (Nordost)""".
+
+<#aae_rdf_bezirke19>
+    bez:BID """19""";
+    bez:bezirksname """Plaußig-Portitz (Nordost)""".
+
+<#aae_rdf_bezirke20>
+    bez:BID """20""";
+    bez:bezirksname """Neustadt-Neuschönefeld (Ost)""".
+
+<#aae_rdf_bezirke21>
+    bez:BID """21""";
+    bez:bezirksname """Volkmarsdorf (Ost)""".
+
+<#aae_rdf_bezirke22>
+    bez:BID """22""";
+    bez:bezirksname """Anger-Crottendorf (Ost)""".
+
+<#aae_rdf_bezirke23>
+    bez:BID """23""";
+    bez:bezirksname """Sellerhausen-Stünz (Ost)""".
+
+<#aae_rdf_bezirke24>
+    bez:BID """24""";
+    bez:bezirksname """Paunsdorf (Ost)""".
+
+<#aae_rdf_bezirke25>
+    bez:BID """25""";
+    bez:bezirksname """Heiterblick (Ost)""".
+
+<#aae_rdf_bezirke26>
+    bez:BID """26""";
+    bez:bezirksname """Mölkau (Ost)""".
+
+<#aae_rdf_bezirke27>
+    bez:BID """27""";
+    bez:bezirksname """Engelsdorf (Ost)""".
+
+<#aae_rdf_bezirke28>
+    bez:BID """28""";
+    bez:bezirksname """Baalsdorf (Ost)""".
+
+<#aae_rdf_bezirke29>
+    bez:BID """29""";
+    bez:bezirksname """Althen-Kleinpösna (Ost)""".
+
+<#aae_rdf_bezirke30>
+    bez:BID """30""";
+    bez:bezirksname """Reudnitz-Thonberg (Südost)""".
+
+<#aae_rdf_bezirke31>
+    bez:BID """31""";
+    bez:bezirksname """Stötteritz (Südost)""".
+
+<#aae_rdf_bezirke32>
+    bez:BID """32""";
+    bez:bezirksname """Probstheida (Südost)""".
+
+<#aae_rdf_bezirke33>
+    bez:BID """33""";
+    bez:bezirksname """Meusdorf (Südost)""".
+
+<#aae_rdf_bezirke34>
+    bez:BID """34""";
+    bez:bezirksname """Liebertwolkwitz (Südost)""".
+
+<#aae_rdf_bezirke35>
+    bez:BID """35""";
+    bez:bezirksname """Holzhausen (Südost)""".
+
+<#aae_rdf_bezirke36>
+    bez:BID """36""";
+    bez:bezirksname """Südvorstadt (Süd)""".
+
+<#aae_rdf_bezirke37>
+    bez:BID """37""";
+    bez:bezirksname """Connewitz (Süd)""".
+
+<#aae_rdf_bezirke38>
+    bez:BID """38""";
+    bez:bezirksname """Marienbrunn (Süd)""".
+
+<#aae_rdf_bezirke39>
+    bez:BID """39""";
+    bez:bezirksname """Lößnig (Süd)""".
+
+<#aae_rdf_bezirke40>
+    bez:BID """40""";
+    bez:bezirksname """Dölitz-Dösen (Süd)""".
+
+<#aae_rdf_bezirke41>
+    bez:BID """41""";
+    bez:bezirksname """Schleußig (Südwest)""".
+
+<#aae_rdf_bezirke42>
+    bez:BID """42""";
+    bez:bezirksname """Plagwitz (Südwest)""".
+
+<#aae_rdf_bezirke43>
+    bez:BID """43""";
+    bez:bezirksname """Kleinzschocher (Südwest)""".
+
+<#aae_rdf_bezirke44>
+    bez:BID """44""";
+    bez:bezirksname """Großzschocher (Südwest)""".
+
+<#aae_rdf_bezirke45>
+    bez:BID """45""";
+    bez:bezirksname """Knautkleeberg-Knauthain (Südwest)""".
+
+<#aae_rdf_bezirke46>
+    bez:BID """46""";
+    bez:bezirksname """Hartmannsdorf-Knautnaundorf (Südwest)""".
+
+<#aae_rdf_bezirke47>
+    bez:BID """47""";
+    bez:bezirksname """Schönau (West)""".
+
+<#aae_rdf_bezirke48>
+    bez:BID """48""";
+    bez:bezirksname """Grünau-Ost (West)""".
+
+<#aae_rdf_bezirke49>
+    bez:BID """49""";
+    bez:bezirksname """Grünau-Mitte (West)""".
+
+<#aae_rdf_bezirke50>
+    bez:BID """50""";
+    bez:bezirksname """Grünau-Siedlung (West)""".
+
+<#aae_rdf_bezirke51>
+    bez:BID """51""";
+    bez:bezirksname """Lausen-Grünau (West)""".
+
+<#aae_rdf_bezirke52>
+    bez:BID """52""";
+    bez:bezirksname """Grünau-Nord (West)""".
+
+<#aae_rdf_bezirke53>
+    bez:BID """53""";
+    bez:bezirksname """Grünau (West)""".
+
+<#aae_rdf_bezirke54>
+    bez:BID """54""";
+    bez:bezirksname """Miltitz (West)""".
+
+<#aae_rdf_bezirke55>
+    bez:BID """55""";
+    bez:bezirksname """Lindenau (Alt-West)""".
+
+<#aae_rdf_bezirke56>
+    bez:BID """56""";
+    bez:bezirksname """Altlindenau (Alt-West)""".
+
+<#aae_rdf_bezirke57>
+    bez:BID """57""";
+    bez:bezirksname """Neulindenau (Alt-West)""".
+
+<#aae_rdf_bezirke58>
+    bez:BID """58""";
+    bez:bezirksname """Leutzsch (Alt-West)""".
+
+<#aae_rdf_bezirke59>
+    bez:BID """59""";
+    bez:bezirksname """Böhlitz-Ehrenberg (Alt-West)""".
+
+<#aae_rdf_bezirke60>
+    bez:BID """60""";
+    bez:bezirksname """Burghausen-Rückmarsdorf (Alt-West)""".
+
+<#aae_rdf_bezirke61>
+    bez:BID """61""";
+    bez:bezirksname """Möckern (Nordwest)""".
+
+<#aae_rdf_bezirke62>
+    bez:BID """62""";
+    bez:bezirksname """Wahren (Nordwest)""".
+
+<#aae_rdf_bezirke63>
+    bez:BID """63""";
+    bez:bezirksname """Lützschena-Stahmeln (Nordwest)""".
+
+<#aae_rdf_bezirke64>
+    bez:BID """64""";
+    bez:bezirksname """Lindenthal (Nordwest)""".
+
+<#aae_rdf_bezirke65>
+    bez:BID """65""";
+    bez:bezirksname """Gohlis-Süd (Nord)""".
+
+<#aae_rdf_bezirke66>
+    bez:BID """66""";
+    bez:bezirksname """Gohlis-Mitte (Nord)""".
+
+<#aae_rdf_bezirke67>
+    bez:BID """67""";
+    bez:bezirksname """Gohlis-Nord (Nord)""".
+
+<#aae_rdf_bezirke68>
+    bez:BID """68""";
+    bez:bezirksname """Gohlis (Nord)""".
+
+<#aae_rdf_bezirke69>
+    bez:BID """69""";
+    bez:bezirksname """Eutritzsch (Nord)""".
+
+<#aae_rdf_bezirke70>
+    bez:BID """70""";
+    bez:bezirksname """Seehausen (Nord)""".
+
+<#aae_rdf_bezirke71>
+    bez:BID """71""";
+    bez:bezirksname """Wiederitzsch (Nord)""".
+
