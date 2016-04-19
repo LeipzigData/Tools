@@ -3,16 +3,7 @@
 /* Copy inc_sample.php to inc.php and fill in your credentials */
 
 include_once("inc.php");
-
-function addLiteral($a,$key,$value) {
-  if (!empty($value)) { $a[]=" $key ".'"'.$value.'"'; }
-  return $a;
-}
-
-function addResource($a,$key,$prefix,$value) {
-  if (!empty($value)) { $a[]=" $key <".$prefix.$value.'>'; }
-  return $a;
-}
+include_once("helper.php");
 
 function getAkteure() {
   $mysqli=getConnection(); 
