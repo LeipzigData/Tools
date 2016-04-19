@@ -1,3 +1,4 @@
+# Aenderung 03.04.2016: time offset in fixTime auf Sommerzeit gesetzt
 # Aenderung 23.12.2015: time offset in fixTime auf Winterzeit gesetzt
 # Aenderung 28.03.2015: time offset in fixTime auf Sommerzeit gesetzt
 # Aenderung 28.10.2014: time offset in fixTime auf Winterzeit gesetzt
@@ -14,7 +15,7 @@ use APILeipzig;
 
 my $hash=APILeipzig::getTranslationHash();
 # map print("$_ -> $hash->{$_}\n"), (sort keys %$hash);
-print getEvents("2015-11-01");
+print getEvents("2016-04-01");
 
 ## end main ##
 
@@ -101,8 +102,8 @@ sub fixTime {
   s/2000-01-01//gs;
   s/:00:42/:00:00/gs;
   if (/T/) {
-    s/\+\d\d:\d\d/+01:00/;
-    $_.="+01:00" unless /\+/;
+    s/\+\d\d:\d\d/+02:00/;
+    $_.="+02:00" unless /\+/;
   }
   return $_;
 }
