@@ -13,19 +13,12 @@ function getEvents() {
   while ($row = $res->fetch_assoc()) {
     $out.=createEvent($row);
   }
-  return $out;
-}
+  return TurtlePrefix().'
+<http://leipziger-ecken.de/Data/Events/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    rdfs:label "Leipziger Ecken - Events" .
 
-function fixPhone($u) {
-  $u=str_replace(" ", "", $u);
-  $u=str_replace("---", "", $u);
-  $u=str_replace("/", "-", $u);
-  return $u;
-}
-
-function fixURL($u) {
-  if (strpos($u,'http')===false) { $u='http://'.$u; }
-  return $u;
+'.$out;
 }
 
 function createEvent($row) {
@@ -46,28 +39,7 @@ function createEvent($row) {
   return '<http://leipziger-ecken.de/Data/Event/E'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
-function TurtlePrefix() {
-return '
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ld: <http://leipzig-data.de/Data/Model/> .
-@prefix le: <http://leipziger-ecken.de/Data/Model#> .
-@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
-@prefix lep: <http://leipziger-ecken.de/Data/Akteur/Profil/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-
-<http://leipziger-ecken.de/Data/Events/>
-    a owl:Ontology ;
-    rdfs:label "Dump aus der Datenbank" .
-
-';
-}
-
-echo TurtlePrefix().getEvents();
+// zum Testen
+// echo getEvents();
 
 ?>
