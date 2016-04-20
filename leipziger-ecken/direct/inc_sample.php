@@ -6,7 +6,7 @@
 function getConnection() {
   $verbindung=mysqli_connect("localhost","dbuser","dbpass","dbname") or 
     die ("Keine Verbindung m&ouml;glich. Benutzername oder Passwort sind falsch.");
-  mysql_set_charset('utf8',$verbindung); 
+  $verbindung->set_charset('utf8'); 
   return $verbindung;
 }
 

@@ -13,29 +13,13 @@ function getAkteure() {
   while ($row = $res->fetch_assoc()) {
     $out.=createAkteur($row);
   }
-  return '<pre>'.TurtlePrefix().'
+  return TurtlePrefix().'
 <http://leipziger-ecken.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Leipziger Ecken - Akteure" .
 
-'.$out.'</pre>';
-
-}
-
-function getAdressen() {
-  $mysqli=getConnection(); 
-  $mysqli->real_query("SELECT * FROM aae_data_adresse");
-  $res = $mysqli->use_result();
-  $out='';
-  while ($row = $res->fetch_assoc()) {
-    $out.=createAdresse($row);
-  }
-  return TurtlePrefix().'
-<http://leipziger-ecken.de/Data/Adressen/> a owl:Ontology ;
-    rdfs:comment "Dump aus der Datenbank";
-    rdfs:label "Leipziger Ecken - Adressen" .
-
 '.$out;
+
 }
 
 function createAkteur($row) {
@@ -59,20 +43,7 @@ function createAkteur($row) {
   return '<http://leipziger-ecken.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
-function createAdresse($row) {
-  $id=$row['ADID'];
-  $a=array();
-  $a[]=' a ld:Adresse ';
-  $a=addLiteral($a,'ld:strasse', $row['strasse']);
-  $a=addLiteral($a,'ld:nr', $row['nr']);
-  $a=addLiteral($a,'ld:zusatz', $row['adresszusatz']);
-  $a=addLiteral($a,'ld:plz', $row['plz']);
-  $a=addLiteral($a,'ld:gps', $row['gps']);
-  return '<http://leipziger-ecken.de/Data/Adresse/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
-}
-
 // zum Testen
 // echo getAkteure();
-// echo getAdressen();
 
 ?>

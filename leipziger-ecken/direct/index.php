@@ -5,13 +5,14 @@
  */
 
 include_once("akteure.php");
+include_once("adressen.php");
 include_once("events.php");
 
 function main() {
   $what=$_GET['show'];
-  if ($what=='akteure') { return getAkteure(); }
-  else if ($what=='adressen') { return getAdressen(); }
-  else if ($what=='events') { return getEvents(); }
+  if ($what=='akteure') { return asPlainText(getAkteure()); }
+  else if ($what=='adressen') { return asPlainText(getAdressen()); }
+  else if ($what=='events') { return asPlainText(getEvents()); }
   else return applicationList();
 }
 

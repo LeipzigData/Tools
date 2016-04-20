@@ -30,6 +30,7 @@ return '
 @prefix lep: <http://leipziger-ecken.de/Data/Akteur/Profil/> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 ';
 }
@@ -43,5 +44,13 @@ function fixPhone($u) {
 
 function fixURL($u) {
   if (strpos($u,'http')===false) { $u='http://'.$u; }
+  return $u;
+}
+
+function fixURI($u) { // Umlaute und so'n Zeugs transformieren
+  return $u;
+}
+
+function asPlainText($u) {
   return $u;
 }
