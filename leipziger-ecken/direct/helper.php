@@ -52,5 +52,5 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
 }
 
 function asPlainText($u) {
-  return $u;
+  return '<pre>'.htmlspecialchars($u).'</pre>';
 }
