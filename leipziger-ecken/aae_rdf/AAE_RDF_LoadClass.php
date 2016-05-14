@@ -6,12 +6,24 @@
         private $dbName;
         private $nToOne; 
         private $mToN;
+        private $classTag;
+        private $tableTag;
+        private $classTagSize;
+        private $tableTagSize;
        
-        public function __construct($assocArray){
+        public function __construct($classT,$tableT,$assocArray){
+           $this->classTag=$classT;
+           $this->tableTag=$tableT;
+           $this->classTagSize=strlen($classT);
+           $this->tableTagSize=strlen($tableT);
            $this->loadMap();
+           //Logger::getLogger('myLogger')->warn("construct: ".$classT." ".$tableT." ".$this->classTagSize." ".$this->tableTagSize);                           //logging
            if(isset($assocArray)){$this->manualLoad($assocArray);}
         }
-     
+/**
+* part of the constructor
+* assigns values to regular (from the child class) attributes
+*/ 
         public function manualLoad($assocArray){
            foreach($this->realArrVar as $assocKey){ 
              $this->{$assocKey}=$assocArray[$assocKey];
@@ -31,52 +43,57 @@
              if(substr($value,0,5)=='#n:1_'){ $this->nToOne[]=array($key ,substr($value,5)); }
              if(is_array($value)){ if($value[0]=='#m:n'){ $this->mToN[]=array($key, $value[1], $value[2], $value[3], $value[4]);}}
              if($value=='#id'){$this->classID=$key;}
-             if(($key!='classID')&&($key!='realArrVar')&&($key!='dbName')&&($key!='nToOne')&&($key!='mToN')&&($key!=end($this->mToN)[0])) {$this->realArrVar[]=$key;}
+             if(($key!='classID')&&($key!='realArrVar')&&($key!='dbName')&&($key!='nToOne')&&($key!='mToN')&&($key!=end($this->mToN)[0])&&($key!='classTag')&&($key!='tableTag')&&($key!='classTagSize')&&($key!='tableTagSize')) {$this->realArrVar[]=$key;}
            }
+           //Logger::getLogger('myLogger')->warn("dbName1: ".$this->dbName);
            $this->dbName=get_class($this);
-           $this->dbName=substr($this->dbName,7);
-           $this->dbName='aae_data'.$this->dbName;
+           //Logger::getLogger('myLogger')->warn("dbName2: ".$this->dbName);
+           $this->dbName=substr($this->dbName,$this->classTagSize);
+           //Logger::getLogger('myLogger')->warn("dbName3: ".$this->dbName." classTagSize: ".$this->classTagSize);
+           $this->dbName=$this->tableTag.$this->dbName;
+           //Logger::getLogger('myLogger')->warn("dbName4: ".$this->dbName);
            return;
         }
     
         public function selfLoad($ID, $bool=true){ //$bool prevents loading cycle
            $query=null;
-           $query=db_select($this->dbName,'x')
-             ->fields('x',$this->realArrVar)
-             ->condition($this->classID, $ID,'=')
-             ->range(0,1)
-             ->execute();         
+           $db=dbManager::getConnection();
+           $SQLstr="SELECT ".implode(",",$this->realArrVar)." FROM ".$this->dbName." WHERE ".$this->classID." = ?";
+           $bindVariables=array($ID);
+           $query=$db->execute($SQLstr, $bindVariables);
+          
            foreach($query as $que){
              foreach($this->realArrVar as $fields){
-               $this->{$fields}=$que->{$fields};
+
+               $this->{$fields}=$que[$fields];
              }
              if($bool){
-               foreach($this->nToOne as $fk){ //
+               foreach($this->nToOne as $fk){
                  $fkN=$this->{$fk[0]};               
                  if($fkN!='NUll'){
-                   $this->{$fk[0]}=(new ReflectionClass('aae_rdf_'.$fk[1]))->newInstance();
+                   $this->{$fk[0]}=(new ReflectionClass($this->classTag.'_'.$fk[1]))->newInstance($this->classTag, $this->tableTag);
                    $this->{$fk[0]}->loadMap();
                    $this->{$fk[0]}->selfLoad($fkN,false);
                  }
                }
-
                foreach($this->mToN as $fk){
-                 $readObj=(new ReflectionClass('aae_rdf_'.$fk[2]))->newInstance();
+                 $readObj=(new ReflectionClass($this->classTag.'_'.$fk[2]))->newInstance($this->classTag, $this->tableTag);
                  $readObj->loadMap();
-                 $joinQuery=db_select('aae_data_'.$fk[1],'x')
+                 $joinQuery=db_select($this->tableTag.'_'.$fk[1],'x')
                    ->fields('x',array($fk[3],$fk [4]))
                    ->condition('x.'.$fk[3],$ID,'=');
-                 $joinQuery->join('aae_data_'.$fk[2], 'y', 'x.'.$fk[4].'= y.'.$readObj->classID);
+                 $joinQuery->join($this->tableTag.'_'.$fk[2], 'y', 'x.'.$fk[4].'= y.'.$readObj->classID);
                  $joinQuery->fields('y',$readObj->realArrVar);
-                 $joinResult=$joinQuery->execute();
+                 
+                 $joinQuery="SELECT y.* FROM ".$this->tableTag."_".$fk[1]." x JOIN ".$this->tableTag."_".$fk[2]." y ON x.".$fk[4]."= y.".$readObj->classID." WHERE x.".$fk[3]."=".$ID;
+                 $joinResult=$db->execute($joinQuery);
                  $this->{$fk[0]}=array();
-                 while($record= $joinResult->fetchAssoc() ){
+                 foreach($joinResult as $record){
                    $properties=array();
                    foreach($readObj->realArrVar as $prop){
                      $properties[$prop]=$record[$prop];
                    }
-       //            echo "<script>console.log('".json_encode($properties)."');</script>";
-                   $this->{$fk[0]}[] = (new ReflectionClass('aae_rdf_'.$fk[2]))->newInstance($properties);                
+                   $this->{$fk[0]}[] = (new ReflectionClass($this->classTag.'_'.$fk[2]))->newInstance($this->classTag, $this->tableTag, $properties);                
                  }
                }      
              }      
@@ -85,23 +102,23 @@
         }
   
         public function loadMore(){
+          $db=dbManager::getConnection();
           $mapClass=get_class($this);
           $IDs=array();
-          $query=db_select($this->dbName,'x')
-            ->fields('x',$this->realArrVar)
-            ->execute();
+          $SQLstr="SELECT x.".implode(",",$this->realArrVar)." FROM ".$this->dbName." x";
+          $query=$db->execute($SQLstr);
           $resultArr=array();
           foreach($query as $que)
           {
-            $obj= (new ReflectionClass($mapClass))->newInstance();
+            $obj= (new ReflectionClass($mapClass))->newInstance($this->classTag, $this->tableTag);
             foreach($this->realArrVar as $fields){
-              $obj->{$fields}=$que->{$fields};
-              if($fields==$this->classID){$IDs[]=$que->{$fields};}
+              $obj->{$fields}=$que[$fields];
+              if($fields==$this->classID){$IDs[]=$que[$fields];}
             }
             foreach($this->nToOne as $fk){ //
                $fkN=$obj->{$fk[0]};
                if($fkN!='NUll'){
-                 $obj->{$fk[0]}=(new ReflectionClass('aae_rdf_'.$fk[1]))->newInstance();
+                 $obj->{$fk[0]}=(new ReflectionClass($this->classTag.'_'.$fk[1]))->newInstance($this->classTag, $this->tableTag);
                  $obj->{$fk[0]}->loadMap();
                  $obj->{$fk[0]}->selfLoad($fkN,false);
                }
@@ -109,35 +126,29 @@
 
             $resultArr[]=$obj;
           }
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
           foreach($this->mToN as $fk){
-              $readObj=(new ReflectionClass('aae_rdf_'.$fk[2]))->newInstance();
+              $readObj=(new ReflectionClass($this->classTag.'_'.$fk[2]))->newInstance($this->classTag, $this->tableTag);
               $readObj->loadMap();
-              $joinQuery=db_select('aae_data_'.$fk[1],'x')
-                ->fields('x',array($fk[3],$fk [4]))
-                ->condition('x.'.$fk[3],$IDs,'IN');
-              $joinQuery->join('aae_data_'.$fk[2], 'y', 'x.'.$fk[4].'= y.'.$readObj->classID);
-              $joinQuery->fields('y',$readObj->realArrVar);
-              $joinResult=$joinQuery->execute();
+              
+              $JOINstr="SELECT x.".$fk[3]." AS MAPid, y.* FROM ".$this->tableTag.'_'.$fk[1]." x JOIN ".$this->tableTag.'_'.$fk[2]." y ON x.".$fk[4]."= y.".$readObj->classID." WHERE x.".$fk[3]." IN (".implode(",",$IDs).")";
+              $joinResult=$db->execute($JOINstr);
               foreach($resultArr as $res){
                 $res->{$fk[0]}=array();
               }
 
-              while($record= $joinResult->fetchAssoc() ){
+              foreach($joinResult as $record){
                 $properties=array();
                 foreach($readObj->realArrVar as $prop){
                   $properties[$prop]=$record[$prop];
                 }
                 foreach($resultArr as $res){
-                  if($res->{$this->classID}==$record[$this->classID]){
-                    $res->{$fk[0]}[] = (new ReflectionClass('aae_rdf_'.$fk[2]))->newInstance($properties);
+                  if($res->{$this->classID}==$record["MAPid"]){
+                    $res->{$fk[0]}[] = (new ReflectionClass($this->classTag.'_'.$fk[2]))->newInstance($this->classTag, $this->tableTag, $properties);
                   }
                 }
-          //      echo "<script>console.log('".json_encode($properties)."');</script>";
-          //      $this->{$fk[0]}[] = (new ReflectionClass('aae_rdf_'.$fk[2]))->newInstance($properties);
               }
           }
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
           return $resultArr;
         }
