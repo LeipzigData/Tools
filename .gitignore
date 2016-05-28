@@ -1,3 +1,8 @@
+*.aux
+*.log
+*.dvi
+*.bbl
+*.toc 
 blib/
 .build/
 _build/
@@ -7,7 +12,6 @@ Build
 !Build/
 Build.bat
 .last_cover_stats
-Makefile
 Makefile.old
 MANIFEST.bak
 META.yml

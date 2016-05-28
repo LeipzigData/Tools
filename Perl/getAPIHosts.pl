@@ -43,7 +43,7 @@ sub processHost {
   $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Host.$id>");
   $out.=addLiteral("ld:relatedTo","$company") if $company;
   $out.=addLiteral("foaf:phone","$phone") if $phone;
-  $out.=addLiteral("ld:hasURL","$url") if $url;
+  $out.=addReference("foaf:homepage","<$url>") if $url;
   return "$out .\n\n";
 }
 

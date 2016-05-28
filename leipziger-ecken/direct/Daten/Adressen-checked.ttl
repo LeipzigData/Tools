@@ -1,0 +1,195 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix le: <http://leipziger-ecken.de/Data/Model#> .
+@prefix lep: <http://leipziger-ecken.de/Data/Akteur/Profil/> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+
+<http://leipziger-ecken.de/Data/Adressen/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    rdfs:label "Leipziger Ecken - Adressen" .
+
+<http://leipziger-ecken.de/Data/Adresse/A2> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51> ;
+   rdfs:label "Hildegardstraße 49/51, Zugang über 49, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A4> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   rdfs:label "Hildegardstraße 49, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A5> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51> ;
+   rdfs:label "Hildegardstraße 51, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A6> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.1> ;
+   rdfs:label "Hildegardstraße 01, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A7> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27> ;
+   rdfs:label "Konradstraße 27, 04315 Leipzig, (über ALDI)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A8> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße 49, c/o InfoCenter Eisenbahnstraße, 04315 Leipzig" ;
+   geo:lat_long "51.342,12.375" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A10> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   rdfs:label "Hildegardstraße 49, 04315 Leipzig, Hinterhof" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A11> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04567.Leipzig.Teststrasse.1> ;
+   rdfs:label "Teststraße 1, 04567 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A12> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51> ;
+   rdfs:label "Laden auf Zeit, Kohlgartenstraße 51, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A13> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51> ;
+   rdfs:label "Kohlgartenstraße 51, 04315 Leipzig" ;
+   geo:lat_long "51.3423112,12.3992969" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A14> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20> ;
+   rdfs:label "Hedwigstraße 20, 04315 Leipzig" ;
+   geo:lat_long "51.346596,12.403096" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A16> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A27> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   rdfs:label "Hildegardstraße 49, Helden wider Willen e.V., 04315 Leipzig" ;
+   geo:lat_long "52.161542,8.0490356" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A28> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132> ;
+   rdfs:label "Kochstraße 132, Cammerspiele Leipzig, 04277 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A29> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A30> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A31> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A41> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.54> ;
+   rdfs:label "Eisenbahnstraße 54, im OFT Rabet, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A42> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.2> ;
+   rdfs:label "Torgauer Platz 2, Tonne, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A43> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" ;
+   geo:lat_long "52.573086,13.407617" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A44> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" ;
+   geo:lat_long "52.573086,13.407617" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A45> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystraße 19, 04347 Leipzig" ;
+   geo:lat_long "52.573086,13.407617" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A56> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildergardstrassee.51> ;
+   rdfs:label "Hildergardstraße 51/49 über den Hinterhof, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A57> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51f> ;
+   rdfs:label "Hildegardstraße 51, 49 über den Hinterhof, 04315 Leipzig" ;
+   geo:lat_long "51.3431029,12.4070104" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A61> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.147> ;
+   rdfs:label "Eisenbahnstraße 147, Café Caba, 04315 Leipzig" ;
+   geo:lat_long "48.719173,9.402638" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A63> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystrasse 19, 04347 Leipzig" ;
+   geo:lat_long "51.359697,12.409615" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A64> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.19> ;
+   rdfs:label "Ossietzkystrasse 19, 04347 Leipzig" ;
+   geo:lat_long "51.359697,12.409615" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A65> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20> ;
+   rdfs:label "Hedwigstraße 20, Atelieretage, 04315 Leipzig" ;
+   geo:lat_long "51.346596,12.403096" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A66> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04317.Leipzig.Hedwigstrasse.20> ;
+   rdfs:label "Hedwigstraße 20, Atelieretage, 04317 Leipzig" ;
+   geo:lat_long "51.346596,12.403096" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A67> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.84> ;
+   rdfs:label "Dresdner Straße 84, Hinterhof Obere Etage, 04317 Leipzig" ;
+   geo:lat_long "51.3391931,12.3988189" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A68> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   rdfs:label "Hildegardstraße 49, 04315 Leipzig" ;
+   geo:lat_long "52.161542,8.0490356" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A69> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.113b> ;
+   rdfs:label "Eisenbahnstraße 113b, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A70> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.113b> ;
+   rdfs:label "Eisenbahnstraße 113b, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A73> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7> ;
+   rdfs:label "Hedwigstraße 7, 04315 Leipzig" ;
+   geo:lat_long "51.342,12.375" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A74> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hediwgstrasse.7> ;
+   rdfs:label "Hediwgstraße 7, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A75> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7> ;
+   rdfs:label "Hedwigstraße 7, 04315 Leipzig" ;
+   geo:lat_long "51.342,12.375" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A76> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.157> ;
+   rdfs:label "Eisenbahnstraße 157, 04315 Leipzig" ;
+   geo:lat_long "51.345989,12.399316" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A78> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04317.Leipzig.Gabelsbergerstrasse.30> ;
+   rdfs:label "Gabelsbergerstraße 30, 04317 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A80> a le:Adresse  ;
+   owl:sameAs <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
+   rdfs:label "Dresdner Straße 59, 04317 Leipzig" ;
+   geo:lat_long "51.338952,12.402913" . 
+

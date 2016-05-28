@@ -27,7 +27,6 @@ return '
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ld: <http://leipzig-data.de/Data/Model/> .
 @prefix le: <http://leipziger-ecken.de/Data/Model#> .
-@prefix lep: <http://leipziger-ecken.de/Data/Akteur/Profil/> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
@@ -47,7 +46,20 @@ function fixURL($u) {
   return $u;
 }
 
+function fixImageString($u) {
+  $u=str_replace("/~swp15-aae/drupal", "", $u);
+  $u=str_replace("/sites/default/files/", "", $u);
+  return $u;
+}
+
 function fixURI($u) { // Umlaute und so'n Zeugs transformieren
+  $u=str_replace("ä", "ae", $u);
+  $u=str_replace("ö", "oe", $u);
+  $u=str_replace("ü", "ue", $u);
+  $u=str_replace("Ä", "Ae", $u);
+  $u=str_replace("Ö", "Oe", $u);
+  $u=str_replace("Ü", "Ue", $u);
+  $u=str_replace("ß", "ss", $u);  
   return $u;
 }
 

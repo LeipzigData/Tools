@@ -8,10 +8,11 @@ include_once("helper.php");
 function getAkteure() {
   $mysqli=getConnection(); 
   $mysqli->real_query("SELECT * FROM aae_data_akteur");
-  $res = $mysqli->use_result();
+  $res = $mysqli->store_result();
   $out='';
   while ($row = $res->fetch_assoc()) {
-    $out.=createAkteur($row);
+    //$out.=createAkteur($row);
+    //$out.=createMembership($row);
   }
   return TurtlePrefix().'
 <http://leipziger-ecken.de/Data/Akteure/> a owl:Ontology ;
@@ -33,14 +34,23 @@ function createAkteur($row) {
   $a=addResource($a,'foaf:homepage', "", fixURL($row['url']));
   $a=addLiteral($a,'foaf:Image', str_replace("/sites/default/files/", "",$row['bild']));
   $a=addLiteral($a,'foaf:description', $row['beschreibung']);
-  $a=addLiteral($a,'le:hatAnsprechpartner', $row['ansprechpartner']);
-  $a=addLiteral($a,'le:hatFunktion', $row['funktion']);
   $a=addLiteral($a,'le:hatOeffungszeiten', $row['oeffnungszeiten']);
   $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse/A",$row['adresse']);
   $a=addResource($a,'le:hatErsteller',"http://leipziger-ecken.de/Data/Person/P", $row['ersteller']);
   $a=addLiteral($a,'dcterms:created', str_replace(" ", "T", $row['created']));
   $a=addLiteral($a,'dcterms:lastModified', str_replace(" ", "T", $row['modified']));
   return '<http://leipziger-ecken.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+}
+
+function createMembership($row) {
+  if(empty($row['ansprechpartner'])) { return; }
+  $id=$row['AID'];
+  $a=array();
+  $a[]=' a org:Membership ';
+  $a=addLiteral($a,'org:member', $row['ansprechpartner']);
+  $a=addResource($a,'org:organization', "http://leipziger-ecken.de/Data/Akteur/A",$id);
+  $a=addLiteral($a,'org:role', $row['funktion']);
+  return '<http://leipziger-ecken.de/Data/Membership/M'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen

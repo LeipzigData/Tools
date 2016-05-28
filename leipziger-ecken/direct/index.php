@@ -7,12 +7,14 @@
 include_once("akteure.php");
 include_once("adressen.php");
 include_once("events.php");
+include_once("sparten.php");
 
 function main() {
   $what=$_GET['show'];
   if ($what=='akteure') { return asPlainText(getAkteure()); }
   else if ($what=='adressen') { return asPlainText(getAdressen()); }
   else if ($what=='events') { return asPlainText(getEvents()); }
+  else if ($what=='sparten') { return asPlainText(getSparten()); }
   else return applicationList();
 }
 
@@ -58,6 +60,7 @@ function applicationList() {
 <li> <a href="./?show=akteure">Die Akteure</a></li>
 <li> <a href="./?show=adressen">Die Adressen</a></li>
 <li> <a href="./?show=events">Die Events</a></li>
+<li> <a href="./?show=sparten">Die Sparten</a></li>
 </ul>
 </div> 
 ';

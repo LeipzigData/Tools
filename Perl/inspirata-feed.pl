@@ -49,6 +49,8 @@ sub getItem {
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
   return if $id eq "4366";
+  return if $id eq "6398";
+  return if $id eq "8527";
   return if $hashtags->{"http://leipzig-data.de/Data/Event/Inspirata.$id"};
   my $description=fixContent(decode_entities(getValue($node,"description")));
   my $content=fixContent(decode_entities(getValue($node,"content:encoded")));
