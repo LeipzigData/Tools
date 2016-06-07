@@ -7,7 +7,7 @@ include_once("helper.php");
 
 function getEvents() {
   $mysqli=getConnection(); 
-  $mysqli->real_query("SELECT * FROM aae_data_event");
+  $mysqli->real_query("SELECT * FROM aae_data_event WHERE recurring_event_type IS NULL");
   $res = $mysqli->use_result();
   $out='';
   while ($row = $res->fetch_assoc()) {
