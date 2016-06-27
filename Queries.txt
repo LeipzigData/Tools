@@ -15,18 +15,20 @@ Suchen. Weitere Suchanfragen ganz unten
 Alle MINT-Orte finden
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
-PREFIX mint2012: <http://leipzig-data.de/Data/MINTBroschuere2012/>
-SELECT distinct ?p ?l ?k ?m
-from  <http://leipzig-data.de/Data/Orte/>
-from  <http://leipzig-data.de/Data/Mi/>
+PREFIX mint2014: <http://leipzig-data.de/Data/MINT-2014/> 
+SELECT distinct ?l ?email ?telefon ?url
+from  <http://leipzig-data.de/Data/MINTBroschuere2014/> 
 WHERE {
-  ?p ld:hasTag ldtag:MINT .
-  ?p a ld:Ort .
-  ?p rdfs:label ?l .
-optional{  ?p ld:Kurzinformation ?k . }
-optional{  ?m mint2012:describes ?p . }
+  ?p a mint2014:Ortsbeschreibung; rdfs:label ?l .
+optional{ ?p  mint2014:Telefon ?telefon . }
+optional{ ?p  mint2014:Internet ?url . }
+optional{ ?p  mint2014:Mail ?email . }
 } order by (?l)
+
+Alle Schuladressen heraussuchen
+
+
+
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>

@@ -1,0 +1,88 @@
+# Vergleich von triplify mit dem von uns entwickelten Tool. 
+
+## Aufgabenstellung, Mail vom 30.05.2016
+
+Wir haben heute im AKSW-Team noch einmal den Projektkontext besprochen. Einmal
+wäre es aus Sicht der Experten wichtig, Ihre Entwicklungen mit Triplify
+abzugleichen, um das Rad nicht mehrfach zu erfinden
+
+* http://aksw.org/Projects/Triplify.html
+* https://sourceforge.net/projects/triplify/
+* http://triplify.org/ -- funzt leider nicht.
+* http://www.informatik.uni-leipzig.de/~auer/publication/triplify.pdf
+
+## Installation von triplify:
+
+Release laden [1] und der README folgen.
+
+[1] https://sourceforge.net/projects/triplify/files/latest/download
+
+## Bericht von Sebastian Zänker, 06.06.2016
+
+Im folgenden soll geklärt werden, ob es sich lohnt, `aae_rdf`
+weiterzuentwickeln oder ob die Funktionalitäten schon durch `triplify` gegeben
+sind und einfach dieses weiterentwickelt werden sollte. Hierbei ist zu
+beachten, dass `aae_rdf` sich in einem frühen Stadium der Entwicklung im
+Vergleich zu `triplify` befindet und daher nicht alle Aussagen den Ist-Zustand
+des Tools korrekt wiedergeben.
+
+## Kriterien
+
+- Datenaustausch über semantic Web Technologien
+- Benutzerfreundlichkeit
+- Portierbarkeit
+- [Optional] generiert zusätzliche mit Daten befüllte Objekte
+
+## Allgemeines:
+Um es vorweg zu nehmen, `aae_rdf` und `triplify` haben in ihren
+Funktionalitäten große Überschneidungen und ein großer Teil von deren
+Entwicklungsarbeit wurde somit doppelt betrieben. Zum Beispiel beschreiben die
+ersten drei Punkte in
+http://www.informatik.uni-leipzig.de/~auer/publication/triplify.pdf "3.2
+Relational View Structure" Konventionen, die genauso oder in ähnlicher,
+angepasster Form auch von `aae_rdf` verwendet werden. Allerdings habe ich
+soweit keine Möglichkeit gesehen, Daten mittels `triplify` zu importieren.
+Anders als `triplif`y ist `aae_rdf` explizit für den Datenaustausch über
+Semantic Web Technologien entworfen worden und hat somit auch eine
+Architektur, die einen Datenimport ermöglicht. Ob `triplify` in dieser
+Richtung noch weiterentwickelt werden kann, ist unklar. Jedoch ist `triplify`
+deutlich schneller, wenn es um das reine Präsentieren von Daten geht. Das
+liegt daran, dass `triplify` einen Großteil des Aufwandes auf die Datenbank
+abwälzen kann, während das bei `aae_rd`f aufgrund der inneren Architektur nur
+begrenzt möglich ist.
+
+Zum Thema Benutzerfreundlichkeit sind beide Tools meiner Meinung nach in etwa
+gleichauf. Beide Tools nehmen fast dieselben Parameter, wobei `aae_rdf` einige
+zusätzliche Parameter zur genaueren Anpassung von URIs nimmt. Aufgrund dieser
+zusätzlichen Parameter und der Tatsache, dass bei `aae_rdf` stets eine geringe
+Menge an Programmieraufwand besteht, ist `triplify` etwas leichter zu
+gebrauchen.  Ebenfalls relativ gleich ist die Portierbarkeit der beiden Tools.
+Bei Datenbanken mit gleichen Schemen und gleichen Parametern können Kopien von
+einer Konfiguration verwendet werden. Aber auch hier muss wieder beachtet
+werden, dass `aae_rdf` in Code eingebettet wird und daher zusätzliche Arbeit
+beim Wechsel zu einem anderen CMS entsteht. Insgesamt verlangt `aae_rdf` eine
+stärkere Einbettung in die auf dem jeweiligen Server laufenden Scripts. Dies
+kann aber bei einer Weiterentwicklung des Tools leicht ummodelliert werden,
+sodass es auf eine ähnliche Weise wie `triplify` gehandhabt werden kann. Die
+stärkere Einbettung in die Skripte hat den Vorteil, dass die Daten
+programmatisch weiter verarbeitet werden können und somit auch deren
+Präsentation stärker angepasst werden kann. Zu diesem Zweck generiert
+`aae_rdf` Datenobjekte, deren Attribute die extrahierten Daten enthalten.
+
+## Ergebnis:
+
+Der geplante Output an rdf-Daten von `aae_rdf` und der Output von `triplify`
+sind, abgesehen von Format und Metadaten, fast identisch. `Triplify` ist dabei
+jedoch performanter und skaliert besser, was wohl auch immer so bleiben wird.
+Sollte es also reichen, die Daten einfach als Tripel auszugeben, ist
+`triplify` aufgrund seiner Leichtgewichtigkeit, Performance und
+Benutzerfreundlichkeit `aae_rdf` auf jeden Fall vorzuziehen. Geht es darüber
+hinaus um das Importieren und Weiterverarbeiten von Daten, ist die
+Weiterentwicklung von `aae_rdf` wahrscheinlich deutlich interessanter, da
+diese Aspekte beim Entwurf von `aae_rdf` beachtet wurden.
+
+## Anmerkung:
+
+Da an `aae_rdf` noch keine Tests hinsichtlich der Performance durchgeführt
+wurden, sind sämtliche Aussagen über die Performance im Vergleich zu
+`triplify` anhand der Architektur von `aae_rdf` getroffen worden.
