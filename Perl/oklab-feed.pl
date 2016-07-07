@@ -44,7 +44,7 @@ ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps f√
 ical:dtend "$end+02:00"^^xsd:dateTime ;
 ical:dtstart "$begin+02:00"^^xsd:dateTime ;
 ical:location ldo:BasislagerCoworkingLeipzig ;
-ical:organizer ldt:CodeForLeipzig ;
+ical:organizer <http://leipzig-data.de/Data/Projekt/CodeForLeipzig> ;
 ical:summary "OK Lab Leipzig Treffen" ;
 ical:url <$url> .
 EOT

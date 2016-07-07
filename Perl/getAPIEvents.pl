@@ -67,7 +67,7 @@ sub processEvent {
   $out.=addReference("ld:hasAPIRef","<http://leipzig-data.de/Data/APIId/Event.$id>");
   $out.=addReference("ical:organizer","<$hid>");
   $out.=addReference("ical:location","<$vid>");
-  $out.=addReference("ical:sentBy","<http://leipzig-data.de/Data/Agent/APILeipzig.Events>");
+  $out.=addReference("ical:sentBy","<http://leipzig-data.de/Data/Projekt/APILeipzig.Events>");
   $out.=addReference("ld:hasTag","ldtag:KreativesLeipzig");
   $out.=addLiteral("rdfs:label",$title);
   $out.=addLiteral("ical:summary",$title);
