@@ -47,7 +47,14 @@ function generalContent() {
 
   <h1 align="center">Leipziger Ecken RDF Infoseite</h1>
 
-<p> Bla Bla Bla </p> 
+<p> Mit dieser kleinen Anwendung wird gezeigt, wie sich aus der SQL-basierten
+Stadtteilplattform <a href="http://leipziger-ecken.de/">leipziger-ecken.de</a>
+verschiedene Informationen im RDF-Format extrahieren lassen.  </p>
+
+<p> Zur Installation muss eine Datenbank mit einem Dump der Daten der
+Plattform leipziger-ecken.de angebunden und das Projekt mit \'composer
+update\' (Installation der RDF-Bibliothek EasyRDF) ausgerollt werden.  Details
+dazu in der Datei README.md.</p>
 
 </div> 
 ';

@@ -1,0 +1,335 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix le: <http://leipziger-ecken.de/Data/Model#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://leipziger-ecken.de/Data/Akteure/>
+  a owl:Ontology ;
+  rdfs:comment "Dump aus der Datenbank" ;
+  rdfs:label "Leipziger Ecken - Akteure" .
+
+<http://leipziger-ecken.de/Data/Akteur/A2>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "2" ;
+  foaf:name "Helden wider Willen e.V." ;
+  foaf:mbox "ariane@eexistence.de" ;
+  foaf:phone "0178-4754669" ;
+  foaf:homepage <http://baumit.weebly.com> ;
+  foaf:Image "styles/large/public/field/image/leipziger_ecken.jpg" ;
+  foaf:description "Verein für Stadtteilkultur und Nachbarschaften." ;
+  le:hatOeffungszeiten "jeden Donnerstag von 10:00 - 17:00" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A2> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P13> .
+
+<http://leipziger-ecken.de/Data/Membership/M2>
+  a org:Membership ;
+  org:member "Ariane Jedlitschka" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A2> ;
+  org:role "Vorstand" .
+
+<http://leipziger-ecken.de/Data/Akteur/A5>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "5" ;
+  foaf:name "Initiative Ost-Passage Theater" ;
+  foaf:mbox "Daniel.Schade@ost-passage-theater.de" ;
+  foaf:homepage <http://ost-passage-theater.de> ;
+  foaf:Image "pictures/aae/OstPT_LOGO_FINALE.gif" ;
+  foaf:description "Als Ort des sozialen, gemeinwohlorientierten und kreativen Miteinanders &uuml;ber die Schichten und Milieus hinweg soll das Ost-Passage Theater gleichzeitig Sprachrohr und Impulsgeber sein f&uuml;r die Ideen, W&uuml;nsche und Utopien derjenigen, die sich diesen Freiraum mit uns erobern und beleben." ;
+  le:hatOeffungszeiten "(in Sanierung)" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A7> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P21> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S155>, <http://leipziger-ecken.de/Data/Sparte/S156>, <http://leipziger-ecken.de/Data/Sparte/S157> .
+
+<http://leipziger-ecken.de/Data/Membership/M5>
+  a org:Membership ;
+  org:member "Daniel Schade" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A5> ;
+  org:role "Organisation, Dramaturgie und Pressearbeit" .
+
+<http://leipziger-ecken.de/Data/Akteur/A6>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "6" ;
+  foaf:name "Quartiers-management Leipziger Osten" ;
+  foaf:mbox "qm@leipziger-osten.de" ;
+  foaf:phone "034135137913" ;
+  foaf:homepage <http://www.leipziger-osten.de> ;
+  foaf:Image "pictures/aae/05aa66aa125a8b6ac3.jpg" ;
+  foaf:description "Das Quartiersmanagement (QM) versteht sich als Mittler zwischen den verschiedenen Akteuren im Stadtteil (Bewohner, Vereine/Initiativen, Einrichtungen) untereinander sowie zwischen Stadtteilakteuren und Stadtverwaltung. Das Quartiersmanagement ist ein Projekt der Stadt Leipzig und wird gef&ouml;rdert aus dem Bund-L&auml;nder-Programm &quot;Soziale Stadt&quot; im Leipziger Osten. Projekttr&auml;ger: CivixX - Werkstatt f&uuml;r Zivilgesellschaft." ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A8> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P22> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S200>, <http://leipziger-ecken.de/Data/Sparte/S201>, <http://leipziger-ecken.de/Data/Sparte/S202>, <http://leipziger-ecken.de/Data/Sparte/S203>, <http://leipziger-ecken.de/Data/Sparte/S204>, <http://leipziger-ecken.de/Data/Sparte/S205> .
+
+<http://leipziger-ecken.de/Data/Membership/M6>
+  a org:Membership ;
+  org:member "Matthias Schirmer" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A6> ;
+  org:role "Stadtteilmoderator" .
+
+<http://leipziger-ecken.de/Data/Akteur/A10>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "10" ;
+  foaf:name "Jazzkollektiv Leipzig" ;
+  foaf:mbox "luisevolkmann@gmx.de" ;
+  foaf:homepage <http://jazzkollektiv-leipzig.de/> ;
+  foaf:description "Das Jazzkollektiv hat es sich zum Ziel gesetzt die Leipziger Jazzszene zu featuren und gleichzeitig zeitgen&ouml;ssichen Jazz in der Stadt zu pr&auml;sentieren und ein Publikum daf&uuml;r zu generieren. Au&szlig;erdem geh&ouml;ren sozialpolitische Bereiche wie Arbeit mit Kindern und Jugendlichen dazu." ;
+  le:hatOeffungszeiten "Jeden erster Montag im Monat" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A13> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P31> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P31> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S5> .
+
+<http://leipziger-ecken.de/Data/Membership/M10>
+  a org:Membership ;
+  org:member "Luise Volkmann" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A10> .
+
+<http://leipziger-ecken.de/Data/Akteur/A11>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "11" ;
+  foaf:name "Pöge-Haus e.V." ;
+  foaf:mbox "kontakt@verein.poege-haus.de" ;
+  foaf:homepage <http://verein.poege-haus.de> ;
+  foaf:Image "styles/large/public/field/image/Logo PHeV.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A14> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P32> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P32> .
+
+<http://leipziger-ecken.de/Data/Membership/M11>
+  a org:Membership ;
+  org:member "Stefan Kausch" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A11> ;
+  org:role "Vorsitzender Pöge-Haus e.V." .
+
+<http://leipziger-ecken.de/Data/Akteur/A16>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "16" ;
+  foaf:name "IG FORTUNA | Kino der Jugend" ;
+  foaf:mbox "Daniel.Schade@ost-passage-theater.de" ;
+  foaf:homepage <http://ig-fortuna.de> ;
+  foaf:Image "pictures/aae/LOGO IG Fortuna.jpg" ;
+  foaf:description "Die Interessensgemeinschaft FORTUNA | Kino der Jugend versammelt Organisationen, Gruppen und Einzelpersonen in nachbarschaftlich gleichberechtigter Runde zu dem Zweck, das ehemalige &quot;Kino der Jugend&quot; (Eisenbahnstra&szlig;e 162) vor dem fortschreitenden baulichen Verfall und den st&auml;dtischen Abrisspl&auml;nen zu retten sowie einer &ouml;ffentlichen kulturellen Nutzung in historischer Kontinuit&auml;t zuzuf&uuml;hren." ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A27> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P21> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S158>, <http://leipziger-ecken.de/Data/Sparte/S159>, <http://leipziger-ecken.de/Data/Sparte/S160>, <http://leipziger-ecken.de/Data/Sparte/S161>, <http://leipziger-ecken.de/Data/Sparte/S162> .
+
+<http://leipziger-ecken.de/Data/Membership/M16>
+  a org:Membership ;
+  org:member "Daniel Schade" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A16> ;
+  org:role "Pressesprecher" .
+
+<http://leipziger-ecken.de/Data/Akteur/A33>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "33" ;
+  foaf:name "FabLab Leipzig" ;
+  foaf:mbox "contact@fablab-leipzig.de" ;
+  foaf:phone "01633149507" ;
+  foaf:homepage <http://www.fablab-leipzig.de> ;
+  foaf:Image "pictures/aae/fablab_logo_le.png" ;
+  foaf:description "Ein FabLab f&uuml;r alle!Wir m&ouml;chten euch eine offene digitale Werkstatt mit laborcharakter bieten. Einen Ort an dem ihr eure Ideen in einem iterativen Prozess ausprobieren k&ouml;nnt. Wo ihr auf gleichgesinnte trefft und Kooperationen bildet, um gemeinsam an der Entwicklung von Produkten teilzuhaben.Wir versuchen euch eine FabLab Infrastruktur zur Verf&uuml;gung zustellen.Eine Kooperative, welche sich gegenseitig bei der Entwicklung von Ideen, Produkten und Konzepten weiterhilft." ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A57> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P10> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P10> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S52>, <http://leipziger-ecken.de/Data/Sparte/S53>, <http://leipziger-ecken.de/Data/Sparte/S54>, <http://leipziger-ecken.de/Data/Sparte/S55>, <http://leipziger-ecken.de/Data/Sparte/S56>, <http://leipziger-ecken.de/Data/Sparte/S57>, <http://leipziger-ecken.de/Data/Sparte/S58>, <http://leipziger-ecken.de/Data/Sparte/S59>, <http://leipziger-ecken.de/Data/Sparte/S60>, <http://leipziger-ecken.de/Data/Sparte/S61>, <http://leipziger-ecken.de/Data/Sparte/S62>, <http://leipziger-ecken.de/Data/Sparte/S63>, <http://leipziger-ecken.de/Data/Sparte/S64> .
+
+<http://leipziger-ecken.de/Data/Membership/M33>
+  a org:Membership ;
+  org:member "Matthias Petzold" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A33> ;
+  org:role "Labmanager" .
+
+<http://leipziger-ecken.de/Data/Akteur/A37>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "37" ;
+  foaf:name "KollektivArtesMobiles" ;
+  foaf:mbox "contact@kollektivartesmobiles.com" ;
+  foaf:homepage <http://www.kollektivartesmobiles.com> ;
+  foaf:Image "pictures/aae/SquareLand.jpg" ;
+  foaf:description "Wir entwickeln verschiedene Formate, in denen wir unser individuelles Kunstverst&auml;ndnis ausleben und neue Wege der Beziehung zwischen Publikum und Akteur_Innen erforschen. In dem Versuch die klassische Abgrenzung zwischen Theater, bildender Kunst und Musik aufzubrechen, kombinieren wir in unseren Performances diese Kunstformen mit den Technologien der zeitgen&ouml;ssischen Medien in einem neuen Format: augmented theatre." ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A62> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P58> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P58> .
+
+<http://leipziger-ecken.de/Data/Membership/M37>
+  a org:Membership ;
+  org:member "Nina Maria Stemberger" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A37> .
+
+<http://leipziger-ecken.de/Data/Akteur/A39>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "39" ;
+  foaf:name "Kerstin Köppen" ;
+  foaf:mbox "kontakt@meinholzhandwerk.de" ;
+  foaf:phone "01733160186" ;
+  foaf:homepage <http://www.meinholzhandwerk.de> ;
+  foaf:Image "pictures/aae/ProfilbildKerKoe.jpg" ;
+  foaf:description "Kursangebote im Bereich der Bildenden Kunst, Bildhauerei, offene Grafikwerkstatt. Workshopangebot an Samstagen und zu speziellen Veranstaltungen des P&ouml;ge-Haus e.V. Gern Kursangebot in Kooperation mit Akteuren des Leipziger Ostens, wie z.B. Freien Tr&auml;gern, Schulen oder Vereinen." ;
+  le:hatOeffungszeiten "ab März 2016 auf Anfrage und an Samstagen" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A65> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P63> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P63> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S173>, <http://leipziger-ecken.de/Data/Sparte/S174> .
+
+<http://leipziger-ecken.de/Data/Membership/M39>
+  a org:Membership ;
+  org:member "Kerstin Köppen" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A39> ;
+  org:role "Kursleitung" .
+
+<http://leipziger-ecken.de/Data/Akteur/A40>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "40" ;
+  foaf:name "Zündkerzenwerkstatt KUNST|KULTUR|HANDWERK" ;
+  foaf:mbox "zuendkerzenwerkstatt@gmx.de" ;
+  foaf:homepage <https://www.facebook.com/zuendkerzenwerkstatt/> ;
+  foaf:Image "pictures/aae/ZueKeWe hanging.jpg" ;
+  foaf:description "Wir sind eine k&uuml;nstlerisch-handwerkliche Ansammlung kreativer K&ouml;pfe,die den Leipziger Osten mit Kultur, Handwerk und Kunst bereichern wollen.ateliergemeinschaft/werkst&auml;tten/kunst/kultur/veranstaltungsort" ;
+  le:hatOeffungszeiten "nach Absprache" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A67> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P63> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P63> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S177>, <http://leipziger-ecken.de/Data/Sparte/S178>, <http://leipziger-ecken.de/Data/Sparte/S179>, <http://leipziger-ecken.de/Data/Sparte/S180>, <http://leipziger-ecken.de/Data/Sparte/S181> .
+
+<http://leipziger-ecken.de/Data/Membership/M40>
+  a org:Membership ;
+  org:member "Kerstin Köppen" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A40> ;
+  org:role "Vermietung und Veranstaltung" .
+
+<http://leipziger-ecken.de/Data/Akteur/A41>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "41" ;
+  foaf:name "Grüne Liga Kohrener Land e:V." ;
+  foaf:mbox "kohrenerland@grueneliga.de" ;
+  foaf:phone "0163-3149507" ;
+  foaf:homepage <http://> ;
+  foaf:Image "pictures/aae/18e9409fc8463bc4b7.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A68> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P74> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P74> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S182>, <http://leipziger-ecken.de/Data/Sparte/S183>, <http://leipziger-ecken.de/Data/Sparte/S184>, <http://leipziger-ecken.de/Data/Sparte/S185>, <http://leipziger-ecken.de/Data/Sparte/S186>, <http://leipziger-ecken.de/Data/Sparte/S187>, <http://leipziger-ecken.de/Data/Sparte/S188> .
+
+<http://leipziger-ecken.de/Data/Membership/M41>
+  a org:Membership ;
+  org:member "Tomas Brückmann" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A41> ;
+  org:role "Vorstand" .
+
+<http://leipziger-ecken.de/Data/Akteur/A44>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "44" ;
+  foaf:name "Offener Treff für Kinder und Jugendliche »Tante Hedwig«" ;
+  foaf:mbox "Tante-Hedwig.Leipzig@internationaler-bund.de" ;
+  foaf:phone "034176884696" ;
+  foaf:homepage <https://www.facebook.com/IB-Offener-Treff-Tante-Hedwig-339073406217093/?fref=ts> ;
+  foaf:Image "pictures/aae/a4cc71f2e622fbc731.jpg" ;
+  foaf:description "Die &quot;Tante Hedwig&quot; ist ein Kinder- und Jugendtreff f&uuml;r die Zielgruppe 6-27 Jahren.Hier kann man:Dart, * Kicker, Playstation, Wii spielenan * an der Cluliga teilnehmen * im Internet surfen * neue Leute kennenlernengemeinsam * Musik h&ouml;ren &amp; Filme anschauen * mit uns kochen, backen, basteln * Ferienangebote nutzen * an gr&ouml;&szlig;eren Workshops teilnehmen (Hiphop, Pakour, Graffitti, Sportangebote, etc.) * Unterst&uuml;tzung bei euren&nbsp;Hausaufgaben bekommen * mit uns zusammen Bewerbungen erstellen, f&uuml;r Einstellungstests trainieren, f&uuml;r Vorstellungsgespr&auml;che &uuml;ben * an euren eigenen Fahrr&auml;dern schrauen und vieles mehr .." ;
+  le:hatOeffungszeiten "Mo-Do 14-20 / Fr 14-19" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A73> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P77> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P77> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S41>, <http://leipziger-ecken.de/Data/Sparte/S189>, <http://leipziger-ecken.de/Data/Sparte/S190>, <http://leipziger-ecken.de/Data/Sparte/S191>, <http://leipziger-ecken.de/Data/Sparte/S192>, <http://leipziger-ecken.de/Data/Sparte/S193>, <http://leipziger-ecken.de/Data/Sparte/S194>, <http://leipziger-ecken.de/Data/Sparte/S195>, <http://leipziger-ecken.de/Data/Sparte/S196> .
+
+<http://leipziger-ecken.de/Data/Membership/M44>
+  a org:Membership ;
+  org:member "Herr Schmidt, Frau Franke" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A44> ;
+  org:role "Mitarbeiter im Treff" .
+
+<http://leipziger-ecken.de/Data/Akteur/A45>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "45" ;
+  foaf:name "Förderverein Bülowgärten" ;
+  foaf:mbox "foerderverein@buelowviertel-ev.de" ;
+  foaf:homepage <http://www.buelowviertel-leipzig.de/foerderverein-buelowgaerten-e-v/> ;
+  foaf:Image "pictures/aae/4c6025fcf27227a2bf.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A76> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P82> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P82> ;
+  le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S197>, <http://leipziger-ecken.de/Data/Sparte/S198>, <http://leipziger-ecken.de/Data/Sparte/S199> .
+
+<http://leipziger-ecken.de/Data/Membership/M45>
+  a org:Membership ;
+  org:member "Paula Hofmann" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A45> ;
+  org:role "Vorstand" .
+
+<http://leipziger-ecken.de/Data/Akteur/A46>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "46" ;
+  foaf:name "Die Wunderfinder - Bildungspatenprojekt im Leipziger Osten" ;
+  foaf:mbox "post@buergerfuerleipzig.de" ;
+  foaf:phone "0341-9601530" ;
+  foaf:homepage <http://www.diewunderfinder.de> ;
+  foaf:Image "pictures/aae/af1478b111f56898db.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A77> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P83> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P83> .
+
+<http://leipziger-ecken.de/Data/Membership/M46>
+  a org:Membership ;
+  org:member "Stiftung Bürger für Leipzig" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A46> ;
+  org:role "Projektkoordination" .
+
+<http://leipziger-ecken.de/Data/Akteur/A47>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "47" ;
+  foaf:name "Kinder- und Jugendkulturzentrum O.S.K.A.R." ;
+  foaf:mbox "jkz_oskar@t-online.de" ;
+  foaf:phone "0341-6865680" ;
+  foaf:homepage <http://oskarinleipzig.de> ;
+  foaf:Image "pictures/aae/4efdd2f969559e8b1c.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A78> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P84> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P84> .
+
+<http://leipziger-ecken.de/Data/Membership/M47>
+  a org:Membership ;
+  org:member "Ellen Heising" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A47> ;
+  org:role "Leiterin" .
+
+<http://leipziger-ecken.de/Data/Akteur/A48>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "48" ;
+  foaf:name "Bürgerverein Anger-Crottendorf" ;
+  foaf:mbox "info@koenigreich-crottendorf.de" ;
+  foaf:homepage <http://koenigreich-crottendorf.de/> ;
+  foaf:Image "pictures/aae/462bd9c5416245b918.jpg" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A79> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P86> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P86> .
+
+<http://leipziger-ecken.de/Data/Akteur/A49>
+  a ld:Akteur, org:Organization ;
+  le:hasAID "49" ;
+  foaf:name "Dresdner59" ;
+  foaf:mbox "stadtteilprojekt@dresdner59.de" ;
+  foaf:phone "0341-12591579" ;
+  foaf:homepage <http://www.dresdner59.de> ;
+  foaf:Image "pictures/aae/0e8c934e881021b692.jpg" ;
+  le:hatOeffungszeiten "Dienstag, Mittwoch, Donnerstag 15 - 18 Uhr, sowie zu den einzelnen Veranstaltungen" ;
+  le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A80> ;
+  dc:creator <http://leipziger-ecken.de/Data/Person/P30> ;
+  org:hasMember <http://leipziger-ecken.de/Data/Person/P30> .
+
+<http://leipziger-ecken.de/Data/Membership/M49>
+  a org:Membership ;
+  org:member "Johanna Pahl" ;
+  org:organization <http://leipziger-ecken.de/Data/Akteur/A49> ;
+  org:role "Projektkoordination" .
+
+<http://leipziger-ecken.de/Data/Akteur/A9> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S1> .
+<http://leipziger-ecken.de/Data/Akteur/A21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S6>, <http://leipziger-ecken.de/Data/Sparte/S7>, <http://leipziger-ecken.de/Data/Sparte/S8>, <http://leipziger-ecken.de/Data/Sparte/S9>, <http://leipziger-ecken.de/Data/Sparte/S10>, <http://leipziger-ecken.de/Data/Sparte/S11> .
+<http://leipziger-ecken.de/Data/Akteur/A22> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S19>, <http://leipziger-ecken.de/Data/Sparte/S20>, <http://leipziger-ecken.de/Data/Sparte/S21>, <http://leipziger-ecken.de/Data/Sparte/S22> .
+<http://leipziger-ecken.de/Data/Akteur/A23> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S12>, <http://leipziger-ecken.de/Data/Sparte/S13>, <http://leipziger-ecken.de/Data/Sparte/S14> .
+<http://leipziger-ecken.de/Data/Akteur/A25> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S15>, <http://leipziger-ecken.de/Data/Sparte/S16>, <http://leipziger-ecken.de/Data/Sparte/S17> .
+<http://leipziger-ecken.de/Data/Akteur/A28> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S6>, <http://leipziger-ecken.de/Data/Sparte/S15>, <http://leipziger-ecken.de/Data/Sparte/S18> .
+<http://leipziger-ecken.de/Data/Akteur/A29> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S20> .
+<http://leipziger-ecken.de/Data/Akteur/A30> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S23>, <http://leipziger-ecken.de/Data/Sparte/S24> .
+<http://leipziger-ecken.de/Data/Akteur/A31> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S20>, <http://leipziger-ecken.de/Data/Sparte/S25> .
+<http://leipziger-ecken.de/Data/Akteur/A32> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S5>, <http://leipziger-ecken.de/Data/Sparte/S26>, <http://leipziger-ecken.de/Data/Sparte/S27>, <http://leipziger-ecken.de/Data/Sparte/S28> .

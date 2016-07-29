@@ -6,8 +6,13 @@ include_once("inc.php");
 include_once("helper.php");
 
 function getAdressen() {
+  $query='
+SELECT * FROM aae_data_adresse where 
+exists (select * from aae_data_akteur where adresse=ADID) or
+exists (select * from aae_data_event where ort=ADID) 
+';
   $mysqli=getConnection(); 
-  $mysqli->real_query("SELECT * FROM aae_data_adresse");
+  $mysqli->real_query($query);
   $res = $mysqli->use_result();
   $out='';
   while ($row = $res->fetch_assoc()) {
@@ -27,16 +32,20 @@ function createAdresse($row) {
   if (empty($strasse)) { return ; }
   $nr=$row['nr'].$row['adresszusatz'];
   $plz=$row['plz'];
-  $gps=$row['gps_lat'].','.$row['gps_long']; 
+  $gps=$row['gps']; 
+  if (!empty($gps) and strstr($gps,",")) { $gps=geo($gps); } else {$gps='';}
   $leipzigDataURI=fixURI($plz.'.Leipzig.'.$strasse.'.'.$nr);
   $a=array();
   $a[]=' a le:Adresse ';
-  $a=addResource($a,'owl:sameAs', "http://leipzig-data.de/Data/", $leipzigDataURI);
+  $a=addResource($a,'ld:hasAddress', "http://leipzig-data.de/Data/", $leipzigDataURI);
   $a=addLiteral($a,'rdfs:label', "$strasse $nr, $plz Leipzig");
-  if ($row['gps_lat'] != 'Ermittle Geo-Koordinaten...') {
-   $a=addLiteral($a,'geo:lat_long', (!empty($row['gps_lat']) ? $row['gps_lat'].','.$row['gps_long'] : NULL));
-  }
+  $a=addLiteral($a,'gsp:asWKT', "$gps");
   return '<http://leipziger-ecken.de/Data/Adresse/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+}
+
+function geo($s) {
+  $a=preg_split('/\s*,\s*/',$s);
+  return "Point($a[1] $a[0])";
 }
 
 // zum Testen
