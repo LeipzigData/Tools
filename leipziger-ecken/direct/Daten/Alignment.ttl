@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix le: <http://leipziger-ecken.de/Data/Model#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+
+<http://leipziger-ecken.de/Data/Alignment/>
+  a owl:Ontology ;
+  rdfs:comment "Zuordnung zwischen LE und LD Datensätzen" ;
+  rdfs:label "Leipziger Ecken - LD-Alignment" .
+
+<http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A28> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.147>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A61> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.157>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A76> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A8> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.54>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A41> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A14>, <http://leipziger-ecken.de/Data/Adresse/A65> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A73>, <http://leipziger-ecken.de/Data/Adresse/A75> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A10>, <http://leipziger-ecken.de/Data/Adresse/A2>, <http://leipziger-ecken.de/Data/Adresse/A27>, <http://leipziger-ecken.de/Data/Adresse/A68> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A57> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A12>, <http://leipziger-ecken.de/Data/Adresse/A13> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A7> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.2>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A42> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A80> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.84>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A67> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Gabelsbergerstrasse.30>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A78> ;
+    a ld:Adresse .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Hedwigstrasse.20>
+    le:hasLEID <http://leipziger-ecken.de/Data/Adresse/A66> ;
+    a ld:Adresse .
+

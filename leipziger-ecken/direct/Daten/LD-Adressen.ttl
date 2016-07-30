@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix le: <http://leipziger-ecken.de/Data/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+
+<http://leipziger-ecken.de/Data/LD-Adressen/>
+  a owl:Ontology ;
+  rdfs:comment "Aus LeipzigData extrahierte Adressen und Geodaten" ;
+  rdfs:label "Leipziger Ecken - LD-Adressen" .
+
+<http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Kochstraße 132" ;
+   gsp:asWKT "Point(12.3713328476493 51.310057128245)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.147>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Eisenbahnstraße 147" ;
+   gsp:asWKT "Point(12.4189593 51.3449446)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.157>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Eisenbahnstraße 157" ;
+   gsp:asWKT "Point(12.4207268 51.3448569)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Eisenbahnstraße 49" ;
+   gsp:asWKT "Point(12.4023604 51.3458157)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.54>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Eisenbahnstraße 54" ;
+   gsp:asWKT "Point(12.3945081 51.3461353)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Hedwigstraße 20" ;
+   gsp:asWKT "Point(12.4032093 51.3464121)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Hedwigstraße 7" ;
+   gsp:asWKT "Point(12.4031474 51.3467999)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Hildegardstraße 49" ;
+   gsp:asWKT "Point(12.4072117 51.3445224)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Hildegardstraße 51" ;
+   gsp:asWKT "Point(12.4072117 51.3445224)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Kohlgartenstraße 51" ;
+   gsp:asWKT "Point(12.4021349 51.3398044)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Konradstraße 27" ;
+   gsp:asWKT "Point(12.4088463 51.3445096)" . 
+
+<http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.2>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Torgauer Platz 2" ;
+   gsp:asWKT "Point(12.4148757 51.3450465)" . 
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Dresdner Straße 59" ;
+   gsp:asWKT "Point(12.4029673 51.3389024)" . 
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.84>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Dresdner Straße 84" ;
+   gsp:asWKT "Point(12.4061516728362 51.3379169390566)" . 
+
+<http://leipzig-data.de/Data/04317.Leipzig.Gabelsbergerstrasse.30>  a ld:Adresse  ;
+   rdfs:label "Leipzig, Gabelsbergerstraße 30" ;
+   gsp:asWKT "Point(12.3960962 51.3410685)" . 
+

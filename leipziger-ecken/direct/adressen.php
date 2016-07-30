@@ -30,14 +30,14 @@ function createAdresse($row) {
   $id=$row['ADID'];
   $strasse=$row['strasse'];
   if (empty($strasse)) { return ; }
-  $nr=$row['nr'].$row['adresszusatz'];
+  $nr=$row['nr'];
   $plz=$row['plz'];
   $gps=$row['gps']; 
   if (!empty($gps) and strstr($gps,",")) { $gps=geo($gps); } else {$gps='';}
   $leipzigDataURI=fixURI($plz.'.Leipzig.'.$strasse.'.'.$nr);
   $a=array();
   $a[]=' a le:Adresse ';
-  $a=addResource($a,'ld:hasAddress', "http://leipzig-data.de/Data/", $leipzigDataURI);
+  $a=addResource($a,'le:proposedAddress', "http://leipzig-data.de/Data/", $leipzigDataURI);
   $a=addLiteral($a,'rdfs:label', "$strasse $nr, $plz Leipzig");
   $a=addLiteral($a,'gsp:asWKT', "$gps");
   return '<http://leipziger-ecken.de/Data/Adresse/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
