@@ -5,27 +5,22 @@
 include_once("inc.php");
 include_once("helper.php");
 
-function getEvents() {
-  $mysqli=getConnection(); 
-
-  $mysqli->real_query("SELECT * FROM aae_data_event");
-  $res = $mysqli->use_result();
+function getEvents() { 
+  $res = db_query("SELECT * FROM aae_data_event");
   $out='';
-  while ($row = $res->fetch_assoc()) {
+  foreach ($res as $row) {
     $out.=createEvent($row);
   }
 
-  $mysqli->real_query("SELECT * FROM aae_data_akteur_hat_event where EID>0");
-  $res = $mysqli->store_result();
-  while ($row = $res->fetch_assoc()) {
+  $res = db_query("SELECT * FROM aae_data_akteur_hat_event where EID>0");
+  foreach ($res as $row) {
     $out.='<http://leipziger-ecken.de/Data/Event/E'. $row['EID'] .'> '
       .'le:hatAkteur '
       .'<http://leipziger-ecken.de/Data/Akteur/A'. $row['AID'] ."> . \n\n" ;
   }
 
-  $mysqli->real_query("SELECT * FROM aae_data_event_hat_sparte where hat_EID>0");
-  $res = $mysqli->store_result();
-  while ($row = $res->fetch_assoc()) {
+  $res = db_query("SELECT * FROM aae_data_event_hat_sparte where hat_EID>0");
+  foreach ($res as $row) {
     $out.='<http://leipziger-ecken.de/Data/Event/E'. $row['hat_EID'] .'> '
       .'le:zurSparte '
       .'<http://leipziger-ecken.de/Data/Sparte/S'. $row['hat_KID'] ."> . \n\n" ;

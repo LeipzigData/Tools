@@ -11,11 +11,9 @@ SELECT * FROM aae_data_adresse where
 exists (select * from aae_data_akteur where adresse=ADID) or
 exists (select * from aae_data_event where ort=ADID) 
 ';
-  $mysqli=getConnection(); 
-  $mysqli->real_query($query);
-  $res = $mysqli->use_result();
+  $res = db_query($query);
   $out='';
-  while ($row = $res->fetch_assoc()) {
+  foreach ($res as $row) {
     $out.=createAdresse($row);
   }
   return TurtlePrefix().'

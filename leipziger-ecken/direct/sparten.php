@@ -6,11 +6,9 @@ include_once("inc.php");
 include_once("helper.php");
 
 function getSparten() {
-  $mysqli=getConnection(); 
-  $mysqli->real_query("SELECT * FROM aae_data_sparte");
-  $res = $mysqli->use_result();
+  $res = db_query("SELECT * FROM aae_data_sparte");
   $out='';
-  while ($row = $res->fetch_assoc()) {
+  foreach ($res as $row) {
     $out.=createSparte($row);
   }
 

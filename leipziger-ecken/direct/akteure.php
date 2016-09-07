@@ -6,36 +6,31 @@ include_once("inc.php");
 include_once("helper.php");
 
 function getAkteure() {
-  $mysqli=getConnection(); 
   $query='SELECT * FROM aae_data_akteur, aae_data_adresse where adresse=ADID';
-  $mysqli->real_query($query);
-  $res = $mysqli->store_result(); 
+  $res = db_query($query);
   $out='';
-  while ($row = $res->fetch_assoc()) {
+  foreach ($res as $row) {
     $out.=createAkteur($row);
     $out.=createOrt($row);
     if(!empty($row['ansprechpartner'])) { $out.=createMembership($row); }
   }
 
-  $mysqli->real_query("SELECT * FROM aae_data_akteur_hat_user");
-  $res = $mysqli->store_result();
-  while ($row = $res->fetch_assoc()) {
+  $res = db_query("SELECT * FROM aae_data_akteur_hat_user");
+  foreach ($res as $row) {
     $out.='<http://leipziger-ecken.de/Data/Akteur/A'. $row['hat_AID'] .'> '
       .'org:hasMember '
       .'<http://leipziger-ecken.de/Data/Person/P'. $row['hat_UID'] ."> . \n\n" ;
   }
 
   // Platzhalter für die Extraktion von foaf:Person Einträgen aus der User-Tabelle 
-  $mysqli->real_query("SELECT * FROM aae_data_akteur where ersteller>0");
-  $res = $mysqli->store_result();
-  while ($row = $res->fetch_assoc()) {
+  $res = db_query("SELECT * FROM aae_data_akteur where ersteller>0");
+  foreach ($res as $row) {
     $out.='<http://leipziger-ecken.de/Data/Person/P'. $row['ersteller'] .'> '
       .'a foaf:Person; foaf:name "to be added" ' ." . \n\n" ;
   }
 
-  $mysqli->real_query("SELECT * FROM aae_data_akteur_hat_sparte");
-  $res = $mysqli->store_result();
-  while ($row = $res->fetch_assoc()) {
+  $res = db_query("SELECT * FROM aae_data_akteur_hat_sparte");
+  foreach ($res as $row) {
     $out.='<http://leipziger-ecken.de/Data/Ort/O'. $row['hat_AID'] .'> '
       .'le:zurSparte '
       .'<http://leipziger-ecken.de/Data/Sparte/S'. $row['hat_KID'] ."> . \n\n" ;
