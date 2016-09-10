@@ -3,12 +3,12 @@
 require 'vendor/autoload.php';
 
 function addLiteral($a,$key,$value) {
-  if (!empty($value)) { $a[]=" $key ".'"'.$value.'"'; }
+    if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes($value).'"'; }
   return $a;
 }
 
 function addMLiteral($a,$key,$value) {
-  if (!empty($value)) { $a[]=" $key ".'"""'.$value.'"""'; }
+    if (!empty($value)) { $a[]=" $key ".'"""'.$value.'"""'; }
   return $a;
 }
 
@@ -48,6 +48,12 @@ function fixURL($u) {
   return $u;
 }
 
+function fixQuotes($u) {
+  $u=str_replace("\"", "\\\"", $u);
+  // $u=str_replace("\n", " <br/> ", $u);
+  return $u;
+}
+
 function fixImageString($u) {
   $u=str_replace("/~swp15-aae/drupal", "", $u);
   $u=str_replace("/sites/default/files/", "", $u);
@@ -56,6 +62,7 @@ function fixImageString($u) {
 
 function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("str.", "strasse", $u);
+  $u=str_replace("Str.", "Strasse", $u);
   $u=str_replace(" ", "", $u);
   $u=str_replace("ä", "ae", $u);
   $u=str_replace("ö", "oe", $u);
@@ -68,7 +75,8 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
 }
 
 function asPlainText($u) {
-  return '<pre>'.htmlspecialchars(toRDFString($u)).'</pre>';
+    // return '<pre>'.htmlspecialchars(toRDFString($u)).'</pre>';
+  return '<pre>'.htmlspecialchars($u).'</pre>';
 }
 
 function setNamespace() {

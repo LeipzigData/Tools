@@ -30,14 +30,17 @@ function createAdresse($row) {
   if (empty($strasse)) { return ; }
   $nr=$row['nr'];
   $plz=$row['plz'];
-  $gps=$row['gps']; 
-  if (!empty($gps) and strstr($gps,",")) { $gps=geo($gps); } else {$gps='';}
+  $gps_lat=$row['gps_lat']; 
+  $gps_long=$row['gps_long'];
+  // if (!empty($gps) and strstr($gps,",")) { $gps=geo($gps); } else {$gps='';}
   $leipzigDataURI=fixURI($plz.'.Leipzig.'.$strasse.'.'.$nr);
   $a=array();
   $a[]=' a le:Adresse ';
   $a=addResource($a,'le:proposedAddress', "http://leipzig-data.de/Data/", $leipzigDataURI);
   $a=addLiteral($a,'rdfs:label', "$strasse $nr, $plz Leipzig");
-  $a=addLiteral($a,'gsp:asWKT', "$gps");
+  if (!empty($gps_lat)) { 
+      $a=addLiteral($a,'gsp:asWKT', "Point($gps_long $gps_lat)"); 
+  }
   return '<http://leipziger-ecken.de/Data/Adresse/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 

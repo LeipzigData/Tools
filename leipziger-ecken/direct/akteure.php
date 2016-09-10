@@ -69,10 +69,11 @@ function createOrt($row) {
   $a=addLiteral($a,'foaf:phone', fixPhone($row['telefon']));
   $a=addResource($a,'foaf:homepage', "", fixURL($row['url']));
   $a=addLiteral($a,'foaf:Image', str_replace("/sites/default/files/", "",$row['bild']));
-  $a=addLiteral($a,'foaf:description', $row['beschreibung']);
-  $a=addLiteral($a,'le:hatOeffungszeiten', $row['oeffnungszeiten']);
+  $a=addMLiteral($a,'foaf:description', $row['beschreibung']);
+  $a=addMLiteral($a,'le:hatOeffungszeiten', $row['oeffnungszeiten']);
   $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse/A",$row['adresse']);
-  $a=addLiteral($a,'le:hatAdresszusatz', $row['adresszusatz']);
+  $a=addLiteral($a,'le:hatAdresszusatz', $row['adresszusatz']); // obsolet
+  $a=addLiteral($a,'le:barrierefrei', $row['barrierefrei']); 
   $a=addResource($a,'dct:creator',"http://leipziger-ecken.de/Data/Person/P", $row['ersteller']);
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created']));
   $a=addLiteral($a,'dct:lastModified', str_replace(" ", "T", $row['modified']));

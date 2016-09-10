@@ -41,7 +41,7 @@ function createEvent($row) {
   $a=addLiteral($a,'le:hasEID', $id);
   $a=addLiteral($a,'rdfs:label', $row['name']);
   $a=addMLiteral($a,'ical:summary', $row['kurzbeschreibung']);
-  // $a=addLiteral($a,'foaf:Image', fixImageString($row['bild']));
+  $a=addLiteral($a,'foaf:Image', fixImageString($row['bild']));
   $a=addResource($a,'ical:location', "http://leipziger-ecken.de/Data/Adresse/A",$row['ort']);
   $a=addResource($a,'ical:url', "", fixURL($row['url']));
   $a=addResource($a,'ical:creator', "http://leipziger-ecken.de/Data/Person/P",$row['ersteller']);
@@ -53,6 +53,6 @@ function createEvent($row) {
 }
 
 // zum Testen
-// echo getEvents();
+echo getEvents();
 
 ?>

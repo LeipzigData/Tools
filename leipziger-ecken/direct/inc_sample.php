@@ -4,11 +4,18 @@
      Datenbanken. */
 
 function getConnection() {
-  $verbindung=mysqli_connect("localhost","dbuser","dbpass","dbname") or 
-    die ("Keine Verbindung m&ouml;glich. Benutzername oder Passwort sind falsch.");
-  $verbindung->set_charset('utf8'); 
-  return $verbindung;
+    try {
+        $dbh = new PDO('mysql:host=localhost;dbname=??;charset=utf8', "dbuser", "dbpass");
+    } catch (PDOException $e) {
+        print "Error!: " . $e->getMessage() . "<br/>";
+        die();
+    } 
+    return $dbh;
 }
 
+function db_query($query) {
+    $dbh = getConnection();
+    return $dbh->query($query);
+}
 
 ?>
