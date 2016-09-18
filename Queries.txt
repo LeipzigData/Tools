@@ -613,3 +613,97 @@ where {
 FILTER (langmatches(lang(?label), "de") || REGEX(lang(?label), "^$"))
 OPTIONAL { ?class <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type . }
 }
+
+-----------------------------------
+--- Welche Adressen fehlen oder sind nicht korrekt?
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>  
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>  
+SELECT xsd:string(?l) as ?unternehmen xsd:string(?plz) as ?plz xsd:string(?al) as ?al ?lat ?long  
+FROM <http://leipzig-data.de/Data/Unternehmen/> 
+FROM <http://leipzig-data.de/Data/Adressen/>  
+FROM <http://leipzig-data.de/Data/GeoDaten/>  
+WHERE {  
+?u a ld:Unternehmen; rdfs:label ?l; ld:hasAddress ?adresse  .  
+?adresse rdfs:label ?al; ld:hasPostCode ?plz .  
+?adresse geo:lat ?lat ; geo:long ?long .
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?u ?a 
+FROM <http://leipzig-data.de/Data/Unternehmen/> 
+FROM <http://leipzig-data.de/Data/Adressen/>  
+WHERE {  
+?u a ld:Unternehmen; rdfs:label ?l; ld:hasAddress ?a .  
+optional { ?a rdfs:label ?al . }
+filter (!bound(?al))
+} 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?u ?a 
+FROM <http://leipzig-data.de/Data/Vereine/> 
+FROM <http://leipzig-data.de/Data/Adressen/> 
+FROM <http://leipzig-data.de/Data/WeitereAdressen/>  
+WHERE {  
+?u a ld:Verein; rdfs:label ?l; ld:hasAddress ?a .  
+optional { ?a rdfs:label ?al . }
+filter (!bound(?al))
+} 
+
+ u 	a
+http://leipzig-data.de/Data/Verein/AD.Behindertenhilfe 	http://leipzig-data.de/Data/04109.Leipzig.Friedrich-Ebert-Strasse.19A
+http://leipzig-data.de/Data/Verein/AlleMitmischen 	http://leipzig-data.de/Data/04277.Leipzig.Doelitzerstrasse.31A
+http://leipzig-data.de/Data/Verein/Artpa 	http://leipzig-data.de/Data/04275.Leipzig.Kantstrasse.18
+http://leipzig-data.de/Data/Verein/BrueckeDerKulturen 	http://leipzig-data.de/Data/04249.Leipzig.Gerhard-Ellrodt-Srasse.26
+http://leipzig-data.de/Data/Verein/EI.MutistischeKinder 	http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.25
+http://leipzig-data.de/Data/Verein/ElIrakerTreff 	http://leipzig-data.de/Data/04013.Leipzig.Sternwartenstrasse.4
+http://leipzig-data.de/Data/Verein/JazzclubLeipzig 	http://leipzig-data.de/Data/04103.Leipzig.Rosa-Luxemburg-Strasse.10
+http://leipzig-data.de/Data/Verein/Kindernest 	http://leipzig-data.de/Data/04420.Leipzig.Nordstrasse.10
+http://leipzig-data.de/Data/Verein/KreativitaetsWerkstattLeipzig 	http://leipzig-data.de/Data/04155.Leipzig.Luetzowstrasse.19
+http://leipzig-data.de/Data/Verein/KulturLounge 	http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.5
+http://leipzig-data.de/Data/Verein/LEMANN 	http://leipzig-data.de/Data/04279.Leipzig.Prinz-Eugen-Strasse.34
+http://leipzig-data.de/Data/Verein/LaLecheLigaDeutschland 	http://leipzig-data.de/Data/04416.Leipzig.Spindelweg.5
+http://leipzig-data.de/Data/Verein/LeipzigerKlinikclowns 	http://leipzig-data.de/Data/04416.Leipzig.Werner-Rummelt-Strasse.1
+http://leipzig-data.de/Data/Verein/LernfoerdervereinPlagwitz 	http://leipzig-data.de/Data/04229.Leipzig.Kantatenweg.47
+http://leipzig-data.de/Data/Verein/MukoviszidoseSelbsthilfeLeipzig 	http://leipzig-data.de/Data/04849.Leipzig.Bluecherstrasse.69
+http://leipzig-data.de/Data/Verein/MusikProjektSachsen 	http://leipzig-data.de/Data/04416.Leipzig.Erikenweg.1
+http://leipzig-data.de/Data/Verein/Plusnull 	http://leipzig-data.de/Data/04177.Leipzig.Luetznerstrasse.91
+http://leipzig-data.de/Data/Verein/RheumaLigaSachsen 	http://leipzig-data.de/Data/04103.Leipzig.Liebigstrasse.22A
+http://leipzig-data.de/Data/Verein/SchattenUndLicht 	http://leipzig-data.de/Data/86465.Leipzig.ObereWeinbergstrasse.3
+http://leipzig-data.de/Data/Verein/SchlossSchoenefeld 	http://leipzig-data.de/Data/04347.Leipzig.ZeumerStrasse.1
+http://leipzig-data.de/Data/Verein/SelbsthilfegruppeAdipositas 	http://leipzig-data.de/Data/04838.Leipzig.LeipzigerStrasse.4
+http://leipzig-data.de/Data/Verein/SelbsthilfegruppeFuerMenschenMitSchilddruesenerkrankungenLeipzig 	http://leipzig-data.de/Data/45147.Leipzig.Gemarkenstrasse.133
+http://leipzig-data.de/Data/Verein/SelbsthilfegruppeSued 	http://leipzig-data.de/Data/04275.Leipzig.Bernhard-Goering-Strasse.18
+http://leipzig-data.de/Data/Verein/SelbsthilfegruppeWeg 	http://leipzig-data.de/Data/04299.Leipzig.StoetteritzerStrasse.28
+http://leipzig-data.de/Data/Verein/SelbsthilfegruppenAlleinerziehender 	http://leipzig-data.de/Data/04109.Leipzig.Hauptmannstrasse.4
+http://leipzig-data.de/Data/Verein/Triade 	http://leipzig-data.de/Data/04416.Leipzig.August-Bebel-Strasse.35
+http://leipzig-data.de/Data/Verein/VHS.DasExtraFuerFrauen 	http://leipzig-data.de/Data/04107.Leipzig.Loehrstrasse.3
+http://leipzig-data.de/Data/Verein/VereinFuerFrauenFamilieUndJugendInLeipzig 	http://leipzig-data.de/Data/04107.Leipzig.Windmuehlenstrasse.41
+http://leipzig-data.de/Data/Verein/VereinZurBeruflichenFoerderungVonFrauenInSachsen 	http://leipzig-data.de/Data/04463.Leipzig.StoermthalerWeg.2
+http://leipzig-data.de/Data/Verein/WasserStadtLeipzig 	http://leipzig-data.de/Data/04229.Leipzig.Industriestrasse.72
+http://leipzig-data.de/Data/Verein/ZuHause 	http://leipzig-data.de/Data/04107.Leipzig.HoheStrasse.9-13
+http://leipzig-data.de/Data/Verein/Zwergenland 	http://leipzig-data.de/Data/04277.Leipzig.Doelitzerstrasse.14
+http://leipzig-data.de/Data/Verein/Caritas.Leipzig 	http://leipzig-data.de/Data/Strasse/Elsterstrasse.15
+http://leipzig-data.de/Data/Verein/Civixx 	http://leipzig-data.de/Data/04178.Leipzig.Pestalozzistrasse.70
+http://leipzig-data.de/Data/Verein/DRK.AkademischerKreisverband 	http://leipzig-data.de/Data/04177.Leipzig.Birkenstrasse.26-30
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX org: <http://www.w3.org/ns/org#> 
+SELECT ?u ?a 
+WHERE {  
+?u a org:Organization; rdfs:label ?l; ld:hasAddress ?a .  
+optional { ?a rdfs:label ?al . }
+filter (!bound(?al))
+} 
+
+--------------------------------
+-- Reihen, Projekte und Angebote
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?u ?r
+FROM <http://leipzig-data.de/Data/Events/> 
+WHERE {  
+?u ld:zurReihe ?r .
+} 
+
+
