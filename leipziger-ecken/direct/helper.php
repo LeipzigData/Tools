@@ -95,6 +95,10 @@ function setNamespace() {
 }
 
 function toRDFString($s) {
+    return $s;
+}
+
+function OldtoRDFString($s) {
   setNamespace(); 
   $graph = new EasyRdf_Graph("http://leipziger-ecken.de/rdf/");
   $graph->parse($s);
