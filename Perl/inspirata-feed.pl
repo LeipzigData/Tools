@@ -1,3 +1,4 @@
+# Aenderung 11.12.2016: Umstellung auf Winterzeit
 # Aenderung 03.04.2016: Umstellung auf Sommerzeit
 # Aenderung 11.12.2015: Umstellung auf Winterzeit
 # Aenderung 29.03.2015: Umstellung auf Sommerzeit
@@ -42,15 +43,15 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $date=extractDate($title)."T12:00:00+02:00";
+  my $date=extractDate($title)."T12:00:00+01:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");
   my $guid=getValue($node,"guid");
   my $id=getId($guid);
-  return if $id eq "4366";
-  return if $id eq "6398";
-  return if $id eq "8527";
+  #return if $id eq "4366";
+  #return if $id eq "6398";
+  #return if $id eq "8527";
   return if $hashtags->{"http://leipzig-data.de/Data/Event/Inspirata.$id"};
   my $description=fixContent(decode_entities(getValue($node,"description")));
   my $content=fixContent(decode_entities(getValue($node,"content:encoded")));
