@@ -1,3 +1,4 @@
+# Aenderung 21.04.2017: Umstellung auf Sommerzeit
 # Aenderung 11.12.2016: Umstellung auf Winterzeit
 # Aenderung 03.04.2016: Umstellung auf Sommerzeit
 # Aenderung 11.12.2015: Umstellung auf Winterzeit
@@ -43,7 +44,7 @@ EOT
 sub getItem {
   my $node=shift;
   my $title=getValue($node,"title");
-  my $date=extractDate($title)."T12:00:00+01:00";
+  my $date=extractDate($title)."T12:00:00+02:00";
   my $pubDate=getDateTime(getValue($node,"pubDate"));
   $pubDate=~s/\+(\d\d)(\d\d)/+$1:$2/;
   my $creator=getValue($node,"dc:creator");

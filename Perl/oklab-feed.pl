@@ -1,3 +1,4 @@
+# 2017-04-21: Auf Sommerzeit umgestellt.
 # 2016-11-20: Auf Winterzeit umgestellt.
 # 2016-04-03: Auf Sommerzeit umgestellt.
 # 2015-12-29: Hashtags entfernt, wurden eh nicht genutzt
@@ -42,8 +43,8 @@ ld:Tag ldtag:CodeForLeipzig ;
 a ld:Event ;
 rdfs:label "OK Lab Leipzig Treffen" ;
 ical:description "OK Lab Leipzig. Wir treffen uns, um gemeinsam an Civic Apps für Leipzig zu arbeiten. Für alle die Interesse haben, findet jeden 2. Mittwoch im Monat eine kleine Vorstellungsrunde statt." ;
-ical:dtend "$end+01:00"^^xsd:dateTime ;
-ical:dtstart "$begin+01:00"^^xsd:dateTime ;
+ical:dtend "$end+02:00"^^xsd:dateTime ;
+ical:dtstart "$begin+02:00"^^xsd:dateTime ;
 ical:location ldo:BasislagerCoworkingLeipzig ;
 ical:organizer <http://leipzig-data.de/Data/Projekt/CodeForLeipzig> ;
 ical:summary "OK Lab Leipzig Treffen" ;
