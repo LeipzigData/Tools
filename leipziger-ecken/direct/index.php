@@ -64,10 +64,10 @@ function applicationList() {
   return '
 <div class="container">
 <ul>
-<li> <a href="./?show=akteure">Die Akteure</a></li>
-<li> <a href="./?show=adressen">Die Adressen</a></li>
-<li> <a href="./?show=events">Die Events</a></li>
-<li> <a href="./?show=sparten">Die Sparten</a></li>
+<li> <a href="./getdata.php?show=akteure">Die Akteure</a></li>
+<li> <a href="./getdata.php?show=adressen">Die Adressen</a></li>
+<li> <a href="./getdata.php?show=events">Die Events</a></li>
+<li> <a href="./getdata.php?show=sparten">Die Sparten</a></li>
 </ul>
 </div> 
 ';
@@ -86,7 +86,7 @@ function pageFooter() {
 }
 
 function showPage($content) {
-  return pageHeader().generalContent().main().pageFooter();
+    return pageHeader().generalContent().main().pageFooter();
 }
 
 echo pageHeader().generalContent().main().pageFooter();

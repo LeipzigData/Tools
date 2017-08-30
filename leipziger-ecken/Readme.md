@@ -60,5 +60,11 @@ Akteure leichtgewichtige Werkzeuge benötigen, die sie auch sicher in ihrem
 jeweiligen Kontext beherrschen können. Dies wird aktuell im Verzeichnis
 `leipziger-ecken` mit zwei Ansätzen weiter vorangetrieben.
 
- 
+Die Vorarbeiten sind im privaten Bereich in der ld-workbench (Kontakt:
+graebe@informatik.uni-leipzig.de) verfügbar.
+
+Als "einfache Lösung" wurde eine direkte Daten-Transformation eingerichtet, die
+sich im Backend ausrollen lässt, über einen Web Service getdata.php
+angesprochen werden kann und unmittelbar über die entsprechende
+Drupal-Schnittstelle auf die Datenbank zugreifen soll.
 

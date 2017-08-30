@@ -35,7 +35,7 @@ function getAkteure() {
       .'le:zurSparte '
       .'<http://leipziger-ecken.de/Data/Sparte/S'. $row['hat_KID'] ."> . \n\n" ;
   }
-
+  
   return TurtlePrefix().'
 <http://leipziger-ecken.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
@@ -92,6 +92,6 @@ function createMembership($row) {
 
 
 // zum Testen
-// echo getAkteure();
+echo getAkteure();
 
 ?>
