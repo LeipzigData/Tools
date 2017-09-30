@@ -9,11 +9,15 @@
 * ggf. einen PHP-fähigen Webserver auf localhost: starten 
 * und die Seite *index.php* aufrufen. 
 
+Anmerkung: In *inc.php* ist die Funktion db_query($query) definiert.  Eine
+Funktion gleichen Namens greift in Drupal auf die Datenbank zu, so dass es
+einfach sein sollte, diese Installation in ein Drupal-Modul zu verwandeln.
+
 ## Grundsätzliche Struktur des Verzeichnisses
 
 In diesem Verzeichnis sind verschiedene php Transformationsroutinen
 zusammengestellt, die direkt auf die Datenbank zugreifen und die Instanzen der
-Klassen *le:Akteur*, *org:Membership*, *le:Ort', *le:Adresse*, *le:Event* und
+Klassen *le:Akteur*, *org:Membership*, *le:Ort*, *le:Adresse*, *le:Event* und
 *le:Sparte* in verschiedenen RDF-Graphen erzeugen.
 
 Die entsprechenden Transformationen werden von den Scripts `adressen.php`,
@@ -112,10 +116,10 @@ LeipzigData als Unterklassen von *org:Organization* modelliert und inzwischen
 auf mehrere RDF-Graphen aufgeteilt:
 
 * Buergervereine.ttl 
+* Hochschulen.ttl
 * KirchlicheEinrichtungen.ttl
 * OeffentlicheEinrichtungen.ttl
-* StadtLeipzig.ttl
-* UniversitaetLeipzig.ttl
+* Stadtverwaltung.ttl
 * Unternehmen.ttl
 * Vereine.ttl
 

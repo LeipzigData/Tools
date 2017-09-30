@@ -92,6 +92,6 @@ function createMembership($row) {
 
 
 // zum Testen
-echo getAkteure();
+// echo getAkteure();
 
 ?>
