@@ -1514,36 +1514,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtend "2016-09-21T19:30:01" ;
    dct:created "2016-06-21T14:47:57" . 
 
-<http://leipziger-ecken.de/Data/Event/E225> a ld:Event  ;
-   le:hasEID "225" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-28T18:00:01" ;
-   ical:dtend "2016-09-28T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E226> a ld:Event  ;
-   le:hasEID "226" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-05T18:00:01" ;
-   ical:dtend "2016-10-05T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E227> a ld:Event  ;
-   le:hasEID "227" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-12T18:00:01" ;
-   ical:dtend "2016-10-12T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E228> a ld:Event  ;
-   le:hasEID "228" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-19T18:00:01" ;
-   ical:dtend "2016-10-19T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E229> a ld:Event  ;
-   le:hasEID "229" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-26T18:00:01" ;
-   ical:dtend "2016-10-26T19:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E230> a ld:Event  ;
    le:hasEID "230" ;
    rdfs:label "Origamiblüten aus Papier" ;
@@ -1786,36 +1756,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtend "2016-08-04T15:30:01" ;
    dct:created "2016-06-27T15:33:32" . 
 
-<http://leipziger-ecken.de/Data/Event/E265> a ld:Event  ;
-   le:hasEID "265" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-23T20:00:01" ;
-   ical:dtend "2016-07-23T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E266> a ld:Event  ;
-   le:hasEID "266" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-30T20:00:01" ;
-   ical:dtend "2016-07-30T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E267> a ld:Event  ;
-   le:hasEID "267" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-06T20:00:01" ;
-   ical:dtend "2016-08-06T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E268> a ld:Event  ;
-   le:hasEID "268" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-13T20:00:01" ;
-   ical:dtend "2016-08-13T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E269> a ld:Event  ;
-   le:hasEID "269" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-20T20:00:01" ;
-   ical:dtend "2016-08-20T22:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E270> a ld:Event  ;
    le:hasEID "270" ;
    rdfs:label "Lesung aus \"Weiskerns Nachlass\" (Christoph Hein)" ;
@@ -1827,36 +1767,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtstart "2016-07-08T20:00:01" ;
    ical:dtend "2016-07-08T22:00:01" ;
    dct:created "2016-06-27T19:51:50" . 
-
-<http://leipziger-ecken.de/Data/Event/E271> a ld:Event  ;
-   le:hasEID "271" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-09T20:00:01" ;
-   ical:dtend "2016-07-09T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E272> a ld:Event  ;
-   le:hasEID "272" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-16T20:00:01" ;
-   ical:dtend "2016-07-16T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E273> a ld:Event  ;
-   le:hasEID "273" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-23T20:00:01" ;
-   ical:dtend "2016-07-23T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E274> a ld:Event  ;
-   le:hasEID "274" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-30T20:00:01" ;
-   ical:dtend "2016-07-30T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E275> a ld:Event  ;
-   le:hasEID "275" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-06T20:00:01" ;
-   ical:dtend "2016-08-06T22:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E276> a ld:Event  ;
    le:hasEID "276" ;
@@ -1870,78 +1780,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtend "2016-07-07T22:00:01" ;
    dct:created "2016-06-27T23:09:00" ;
    dct:lastModified "2016-06-29T00:04:17" . 
-
-<http://leipziger-ecken.de/Data/Event/E282> a ld:Event  ;
-   le:hasEID "282" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-06-28T18:00:01" ;
-   ical:dtend "2016-07-05T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E283> a ld:Event  ;
-   le:hasEID "283" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-05T18:00:01" ;
-   ical:dtend "2016-07-12T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E287> a ld:Event  ;
-   le:hasEID "287" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-09T15:00:01" ;
-   ical:dtend "2016-07-09T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E288> a ld:Event  ;
-   le:hasEID "288" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-16T15:00:01" ;
-   ical:dtend "2016-07-16T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E289> a ld:Event  ;
-   le:hasEID "289" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-23T15:00:01" ;
-   ical:dtend "2016-07-23T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E290> a ld:Event  ;
-   le:hasEID "290" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-30T15:00:01" ;
-   ical:dtend "2016-07-30T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E291> a ld:Event  ;
-   le:hasEID "291" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-06T15:00:01" ;
-   ical:dtend "2016-08-06T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E292> a ld:Event  ;
-   le:hasEID "292" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-14T18:00:01" ;
-   ical:dtend "2016-07-14T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E293> a ld:Event  ;
-   le:hasEID "293" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-21T18:00:01" ;
-   ical:dtend "2016-07-21T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E294> a ld:Event  ;
-   le:hasEID "294" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-28T18:00:01" ;
-   ical:dtend "2016-07-28T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E295> a ld:Event  ;
-   le:hasEID "295" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-04T18:00:01" ;
-   ical:dtend "2016-08-04T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E296> a ld:Event  ;
-   le:hasEID "296" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-11T18:00:01" ;
-   ical:dtend "2016-08-11T22:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E297> a ld:Event  ;
    le:hasEID "297" ;
@@ -2089,36 +1927,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtend "2016-07-02T17:30:01" ;
    dct:created "2016-06-29T15:56:10" . 
 
-<http://leipziger-ecken.de/Data/Event/E314> a ld:Event  ;
-   le:hasEID "314" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-10T14:00:01" ;
-   ical:dtend "2016-07-10T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E315> a ld:Event  ;
-   le:hasEID "315" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-17T14:00:01" ;
-   ical:dtend "2016-07-17T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E316> a ld:Event  ;
-   le:hasEID "316" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-24T14:00:01" ;
-   ical:dtend "2016-07-24T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E317> a ld:Event  ;
-   le:hasEID "317" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-31T14:00:01" ;
-   ical:dtend "2016-07-31T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E318> a ld:Event  ;
-   le:hasEID "318" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-07T14:00:01" ;
-   ical:dtend "2016-08-07T16:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E319> a ld:Event  ;
    le:hasEID "319" ;
    rdfs:label "Lagerfeuer mit Percussion für Erwachsene / Sakhile Methula" ;
@@ -2130,36 +1938,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtstart "2016-07-03T18:00:01" ;
    ical:dtend "2016-07-03T21:00:01" ;
    dct:created "2016-06-29T15:59:28" . 
-
-<http://leipziger-ecken.de/Data/Event/E320> a ld:Event  ;
-   le:hasEID "320" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-10T15:00:01" ;
-   ical:dtend "2016-07-10T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E321> a ld:Event  ;
-   le:hasEID "321" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-17T15:00:01" ;
-   ical:dtend "2016-07-17T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E322> a ld:Event  ;
-   le:hasEID "322" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-24T15:00:01" ;
-   ical:dtend "2016-07-24T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E323> a ld:Event  ;
-   le:hasEID "323" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-07-31T15:00:01" ;
-   ical:dtend "2016-07-31T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E324> a ld:Event  ;
-   le:hasEID "324" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-07T15:00:01" ;
-   ical:dtend "2016-08-07T19:30:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E325> a ld:Event  ;
    le:hasEID "325" ;
@@ -2207,24 +1985,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtstart "2016-07-05T14:00:01" ;
    ical:dtend "2016-07-05T20:00:01" ;
    dct:created "2016-07-01T20:54:58" . 
-
-<http://leipziger-ecken.de/Data/Event/E334> a ld:Event  ;
-   le:hasEID "334" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-19T09:00:01" ;
-   ical:dtend "2016-08-19T10:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E335> a ld:Event  ;
-   le:hasEID "335" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-26T09:00:01" ;
-   ical:dtend "2016-08-26T10:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E336> a ld:Event  ;
-   le:hasEID "336" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-02T09:00:01" ;
-   ical:dtend "2016-09-02T10:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E339> a ld:Event  ;
    le:hasEID "339" ;
@@ -2385,36 +2145,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtend "2016-08-12T11:30:01" ;
    dct:created "2016-08-05T12:09:50" . 
 
-<http://leipziger-ecken.de/Data/Event/E357> a ld:Event  ;
-   le:hasEID "357" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-19T10:30:01" ;
-   ical:dtend "2016-08-19T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E358> a ld:Event  ;
-   le:hasEID "358" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-08-26T10:30:01" ;
-   ical:dtend "2016-08-26T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E359> a ld:Event  ;
-   le:hasEID "359" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-02T10:30:01" ;
-   ical:dtend "2016-09-02T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E360> a ld:Event  ;
-   le:hasEID "360" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-09T10:30:01" ;
-   ical:dtend "2016-09-09T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E361> a ld:Event  ;
-   le:hasEID "361" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-16T10:30:01" ;
-   ical:dtend "2016-09-16T11:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E362> a ld:Event  ;
    le:hasEID "362" ;
    rdfs:label "Musik &amp; Lesung \"Kinderrevolution\"" ;
@@ -2463,36 +2193,6 @@ Die Musik dieses Ensemble bewegt sich zwischen Klangtepichen, rhythmischen Fines
    ical:dtstart "2016-08-25T18:30:01" ;
    ical:dtend "2016-08-25T20:00:01" ;
    dct:created "2016-08-15T10:19:58" . 
-
-<http://leipziger-ecken.de/Data/Event/E366> a ld:Event  ;
-   le:hasEID "366" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-01T18:30:01" ;
-   ical:dtend "2016-09-01T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E367> a ld:Event  ;
-   le:hasEID "367" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-08T18:30:01" ;
-   ical:dtend "2016-09-08T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E368> a ld:Event  ;
-   le:hasEID "368" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-15T18:30:01" ;
-   ical:dtend "2016-09-15T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E369> a ld:Event  ;
-   le:hasEID "369" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-22T18:30:01" ;
-   ical:dtend "2016-09-22T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E370> a ld:Event  ;
-   le:hasEID "370" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-29T18:30:01" ;
-   ical:dtend "2016-09-29T20:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E371> a ld:Event  ;
    le:hasEID "371" ;
@@ -2803,18 +2503,6 @@ Schirmherr der Interkulturellen Wochen Leipzig.</p>""" ;
    dct:created "2016-08-30T22:02:48" ;
    dct:lastModified "2016-09-06T13:26:47" . 
 
-<http://leipziger-ecken.de/Data/Event/E418> a ld:Event  ;
-   le:hasEID "418" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-13T16:00:01" ;
-   ical:dtend "2016-09-13T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E419> a ld:Event  ;
-   le:hasEID "419" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-20T16:00:01" ;
-   ical:dtend "2016-09-20T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E420> a ld:Event  ;
    le:hasEID "420" ;
    rdfs:label "Honorary Kitchen" ;
@@ -3043,18 +2731,6 @@ Schirmherr der Interkulturellen Wochen Leipzig.</p>""" ;
    ical:dtend "2016-10-08T17:00:01" ;
    dct:created "2016-09-02T18:40:54" . 
 
-<http://leipziger-ecken.de/Data/Event/E443> a ld:Event  ;
-   le:hasEID "443" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-18T11:00:01" ;
-   ical:dtend "2016-09-11T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E444> a ld:Event  ;
-   le:hasEID "444" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-25T11:00:01" ;
-   ical:dtend "2016-09-18T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E445> a ld:Event  ;
    le:hasEID "445" ;
    rdfs:label "HxH. Die Stadt (er)wartet" ;
@@ -3066,36 +2742,6 @@ Schirmherr der Interkulturellen Wochen Leipzig.</p>""" ;
    ical:dtstart "2016-09-10T17:30:01" ;
    ical:dtend "2016-09-10T18:30:01" ;
    dct:created "2016-09-06T10:36:02" . 
-
-<http://leipziger-ecken.de/Data/Event/E446> a ld:Event  ;
-   le:hasEID "446" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-20T14:00:01" ;
-   ical:dtend "2016-09-20T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E447> a ld:Event  ;
-   le:hasEID "447" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-04T14:00:01" ;
-   ical:dtend "2016-10-04T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E448> a ld:Event  ;
-   le:hasEID "448" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-18T14:00:01" ;
-   ical:dtend "2016-10-18T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E449> a ld:Event  ;
-   le:hasEID "449" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-11-01T14:00:01" ;
-   ical:dtend "2016-11-01T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E450> a ld:Event  ;
-   le:hasEID "450" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-11-15T14:00:01" ;
-   ical:dtend "2016-11-15T16:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E451> a ld:Event  ;
    le:hasEID "451" ;
@@ -3273,36 +2919,6 @@ Schirmherr der Interkulturellen Wochen Leipzig.</p>""" ;
    ical:dtend "2016-09-14T18:00:01" ;
    dct:created "2016-09-10T15:52:51" ;
    dct:lastModified "2016-09-10T15:53:35" . 
-
-<http://leipziger-ecken.de/Data/Event/E472> a ld:Event  ;
-   le:hasEID "472" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-21T16:00:01" ;
-   ical:dtend "2016-09-21T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E473> a ld:Event  ;
-   le:hasEID "473" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-09-28T16:00:01" ;
-   ical:dtend "2016-09-28T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E474> a ld:Event  ;
-   le:hasEID "474" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-05T16:00:01" ;
-   ical:dtend "2016-10-05T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E475> a ld:Event  ;
-   le:hasEID "475" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-12T16:00:01" ;
-   ical:dtend "2016-10-12T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E476> a ld:Event  ;
-   le:hasEID "476" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-10-19T16:00:01" ;
-   ical:dtend "2016-10-19T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E477> a ld:Event  ;
    le:hasEID "477" ;
@@ -3753,36 +3369,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2016-11-10T16:15:01" ;
    dct:created "2016-11-09T16:24:22" . 
 
-<http://leipziger-ecken.de/Data/Event/E519> a ld:Event  ;
-   le:hasEID "519" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-11-17T15:15:01" ;
-   ical:dtend "2016-11-17T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E520> a ld:Event  ;
-   le:hasEID "520" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-11-24T15:15:01" ;
-   ical:dtend "2016-11-24T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E521> a ld:Event  ;
-   le:hasEID "521" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-01T15:15:01" ;
-   ical:dtend "2016-12-01T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E522> a ld:Event  ;
-   le:hasEID "522" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-08T15:15:01" ;
-   ical:dtend "2016-12-08T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E523> a ld:Event  ;
-   le:hasEID "523" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-15T15:15:01" ;
-   ical:dtend "2016-12-15T16:15:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E524> a ld:Event  ;
    le:hasEID "524" ;
    rdfs:label "LIVE²- SINGER|SONGWRITER Salon" ;
@@ -3913,30 +3499,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "1000-01-01T00:00:00" ;
    dct:created "2016-12-20T16:34:15" . 
 
-<http://leipziger-ecken.de/Data/Event/E540> a ld:Event  ;
-   le:hasEID "540" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-11-30T19:00:01" ;
-   ical:dtend "2016-11-30T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E541> a ld:Event  ;
-   le:hasEID "541" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-07T19:00:01" ;
-   ical:dtend "2016-12-07T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E542> a ld:Event  ;
-   le:hasEID "542" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-14T19:00:01" ;
-   ical:dtend "2016-12-14T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E543> a ld:Event  ;
-   le:hasEID "543" ;
-   ical:url <http://> ;
-   ical:dtstart "2016-12-21T19:00:01" ;
-   ical:dtend "2016-12-21T21:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E545> a ld:Event  ;
    le:hasEID "545" ;
    rdfs:label "Einladung Initiativtreffen" ;
@@ -4047,36 +3609,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    dct:created "2017-01-11T23:23:07" ;
    dct:lastModified "2017-01-11T23:25:11" . 
 
-<http://leipziger-ecken.de/Data/Event/E558> a ld:Event  ;
-   le:hasEID "558" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-01-18T16:00:01" ;
-   ical:dtend "2017-01-18T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E559> a ld:Event  ;
-   le:hasEID "559" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-01-25T16:00:01" ;
-   ical:dtend "2017-01-25T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E560> a ld:Event  ;
-   le:hasEID "560" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-01T16:00:01" ;
-   ical:dtend "2017-02-01T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E561> a ld:Event  ;
-   le:hasEID "561" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-08T16:00:01" ;
-   ical:dtend "2017-02-08T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E562> a ld:Event  ;
-   le:hasEID "562" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-15T16:00:01" ;
-   ical:dtend "2017-02-15T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E563> a ld:Event  ;
    le:hasEID "563" ;
    rdfs:label "Eltern-Kind-Café" ;
@@ -4126,36 +3658,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-01-19T18:00:01" ;
    dct:created "2017-01-18T18:43:43" ;
    dct:lastModified "2017-01-18T18:45:14" . 
-
-<http://leipziger-ecken.de/Data/Event/E570> a ld:Event  ;
-   le:hasEID "570" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-01-26T16:00:01" ;
-   ical:dtend "2017-01-26T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E571> a ld:Event  ;
-   le:hasEID "571" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-02T16:00:01" ;
-   ical:dtend "2017-02-02T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E572> a ld:Event  ;
-   le:hasEID "572" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-09T16:00:01" ;
-   ical:dtend "2017-02-09T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E573> a ld:Event  ;
-   le:hasEID "573" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-16T16:00:01" ;
-   ical:dtend "2017-02-16T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E574> a ld:Event  ;
-   le:hasEID "574" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-23T16:00:01" ;
-   ical:dtend "2017-02-23T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E575> a ld:Event  ;
    le:hasEID "575" ;
@@ -4243,36 +3745,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    dct:created "2017-01-25T10:54:25" ;
    dct:lastModified "2017-01-25T10:57:09" . 
 
-<http://leipziger-ecken.de/Data/Event/E582> a ld:Event  ;
-   le:hasEID "582" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-03T10:30:01" ;
-   ical:dtend "1000-01-08T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E583> a ld:Event  ;
-   le:hasEID "583" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-10T10:30:01" ;
-   ical:dtend "1000-01-15T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E584> a ld:Event  ;
-   le:hasEID "584" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-17T10:30:01" ;
-   ical:dtend "1000-01-22T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E585> a ld:Event  ;
-   le:hasEID "585" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-24T10:30:01" ;
-   ical:dtend "1000-01-29T11:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E586> a ld:Event  ;
-   le:hasEID "586" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-03T10:30:01" ;
-   ical:dtend "1000-02-05T11:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E588> a ld:Event  ;
    le:hasEID "588" ;
    rdfs:label "Ohne Moos nix los - Workshop: Kollegiale Beratung zu Fundraising" ;
@@ -4308,156 +3780,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-02-02T19:30:01" ;
    ical:dtend "2017-02-02T22:00:01" ;
    dct:created "2017-01-30T15:06:40" . 
-
-<http://leipziger-ecken.de/Data/Event/E601> a ld:Event  ;
-   le:hasEID "601" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-15T09:00:01" ;
-   ical:dtend "2017-02-15T10:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E602> a ld:Event  ;
-   le:hasEID "602" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-22T09:00:01" ;
-   ical:dtend "2017-02-22T10:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E603> a ld:Event  ;
-   le:hasEID "603" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-01T09:00:01" ;
-   ical:dtend "2017-03-01T10:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E604> a ld:Event  ;
-   le:hasEID "604" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-08T09:00:01" ;
-   ical:dtend "2017-03-08T10:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E605> a ld:Event  ;
-   le:hasEID "605" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-15T09:00:01" ;
-   ical:dtend "2017-03-15T10:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E606> a ld:Event  ;
-   le:hasEID "606" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-02T18:30:01" ;
-   ical:dtend "2017-03-02T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E607> a ld:Event  ;
-   le:hasEID "607" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-09T18:30:01" ;
-   ical:dtend "2017-03-09T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E608> a ld:Event  ;
-   le:hasEID "608" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-16T18:30:01" ;
-   ical:dtend "2017-03-16T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E609> a ld:Event  ;
-   le:hasEID "609" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-23T18:30:01" ;
-   ical:dtend "2017-03-23T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E610> a ld:Event  ;
-   le:hasEID "610" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-30T18:30:01" ;
-   ical:dtend "2017-03-30T20:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E611> a ld:Event  ;
-   le:hasEID "611" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-01T16:00:01" ;
-   ical:dtend "2017-03-01T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E612> a ld:Event  ;
-   le:hasEID "612" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-08T16:00:01" ;
-   ical:dtend "2017-03-08T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E613> a ld:Event  ;
-   le:hasEID "613" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-15T16:00:01" ;
-   ical:dtend "2017-03-15T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E614> a ld:Event  ;
-   le:hasEID "614" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-22T16:00:01" ;
-   ical:dtend "2017-03-22T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E615> a ld:Event  ;
-   le:hasEID "615" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-29T16:00:01" ;
-   ical:dtend "2017-03-29T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E616> a ld:Event  ;
-   le:hasEID "616" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-28T15:00:01" ;
-   ical:dtend "2017-02-28T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E617> a ld:Event  ;
-   le:hasEID "617" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-07T15:00:01" ;
-   ical:dtend "2017-03-07T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E618> a ld:Event  ;
-   le:hasEID "618" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-14T15:00:01" ;
-   ical:dtend "2017-03-14T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E619> a ld:Event  ;
-   le:hasEID "619" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-21T15:00:01" ;
-   ical:dtend "2017-03-21T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E620> a ld:Event  ;
-   le:hasEID "620" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-28T15:00:01" ;
-   ical:dtend "2017-03-28T16:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E621> a ld:Event  ;
-   le:hasEID "621" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-20T18:30:01" ;
-   ical:dtend "2017-02-20T20:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E622> a ld:Event  ;
-   le:hasEID "622" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-27T18:30:01" ;
-   ical:dtend "2017-02-27T20:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E623> a ld:Event  ;
-   le:hasEID "623" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-06T18:30:01" ;
-   ical:dtend "2017-03-06T20:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E624> a ld:Event  ;
-   le:hasEID "624" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-13T18:30:01" ;
-   ical:dtend "2017-03-13T20:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E625> a ld:Event  ;
-   le:hasEID "625" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-20T18:30:01" ;
-   ical:dtend "2017-03-20T20:30:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E627> a ld:Event  ;
    le:hasEID "627" ;
@@ -4590,36 +3912,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-02-27T15:00:01" ;
    dct:created "2017-02-21T15:23:23" . 
 
-<http://leipziger-ecken.de/Data/Event/E639> a ld:Event  ;
-   le:hasEID "639" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-06T14:00:01" ;
-   ical:dtend "2017-03-06T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E640> a ld:Event  ;
-   le:hasEID "640" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-13T14:00:01" ;
-   ical:dtend "2017-03-13T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E641> a ld:Event  ;
-   le:hasEID "641" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-20T14:00:01" ;
-   ical:dtend "2017-03-20T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E642> a ld:Event  ;
-   le:hasEID "642" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-27T14:00:01" ;
-   ical:dtend "2017-03-27T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E643> a ld:Event  ;
-   le:hasEID "643" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-03T14:00:01" ;
-   ical:dtend "2017-04-03T15:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E644> a ld:Event  ;
    le:hasEID "644" ;
    rdfs:label "Kreativer Kindertanz" ;
@@ -4630,36 +3922,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-02-27T15:45:01" ;
    ical:dtend "2017-02-27T16:20:01" ;
    dct:created "2017-02-21T15:26:06" . 
-
-<http://leipziger-ecken.de/Data/Event/E645> a ld:Event  ;
-   le:hasEID "645" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-06T15:45:01" ;
-   ical:dtend "2017-03-06T16:20:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E646> a ld:Event  ;
-   le:hasEID "646" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-13T15:45:01" ;
-   ical:dtend "2017-03-13T16:20:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E647> a ld:Event  ;
-   le:hasEID "647" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-20T15:45:01" ;
-   ical:dtend "2017-03-20T16:20:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E648> a ld:Event  ;
-   le:hasEID "648" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-27T15:45:01" ;
-   ical:dtend "2017-03-27T16:20:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E649> a ld:Event  ;
-   le:hasEID "649" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-03T15:45:01" ;
-   ical:dtend "2017-04-03T16:20:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E650> a ld:Event  ;
    le:hasEID "650" ;
@@ -4672,36 +3934,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-02-27T17:45:01" ;
    dct:created "2017-02-21T15:27:51" . 
 
-<http://leipziger-ecken.de/Data/Event/E651> a ld:Event  ;
-   le:hasEID "651" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-06T16:45:01" ;
-   ical:dtend "2017-03-06T17:45:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E652> a ld:Event  ;
-   le:hasEID "652" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-13T16:45:01" ;
-   ical:dtend "2017-03-13T17:45:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E653> a ld:Event  ;
-   le:hasEID "653" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-20T16:45:01" ;
-   ical:dtend "2017-03-20T17:45:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E654> a ld:Event  ;
-   le:hasEID "654" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-27T16:45:01" ;
-   ical:dtend "2017-03-27T17:45:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E655> a ld:Event  ;
-   le:hasEID "655" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-03T16:45:01" ;
-   ical:dtend "2017-04-03T17:45:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E656> a ld:Event  ;
    le:hasEID "656" ;
    rdfs:label "Offene Keramikwerkstatt" ;
@@ -4713,36 +3945,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-02-27T22:00:01" ;
    dct:created "2017-02-21T15:37:33" . 
 
-<http://leipziger-ecken.de/Data/Event/E657> a ld:Event  ;
-   le:hasEID "657" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-06T19:00:01" ;
-   ical:dtend "2017-03-06T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E658> a ld:Event  ;
-   le:hasEID "658" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-13T19:00:01" ;
-   ical:dtend "2017-03-13T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E659> a ld:Event  ;
-   le:hasEID "659" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-20T19:00:01" ;
-   ical:dtend "2017-03-20T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E660> a ld:Event  ;
-   le:hasEID "660" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-27T19:00:01" ;
-   ical:dtend "2017-03-27T22:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E661> a ld:Event  ;
-   le:hasEID "661" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-03T19:00:01" ;
-   ical:dtend "2017-04-03T22:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E662> a ld:Event  ;
    le:hasEID "662" ;
    rdfs:label "Offene Keramikwerkstatt" ;
@@ -4753,36 +3955,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-02-21T10:00:01" ;
    ical:dtend "2017-02-21T14:00:01" ;
    dct:created "2017-02-21T15:39:05" . 
-
-<http://leipziger-ecken.de/Data/Event/E663> a ld:Event  ;
-   le:hasEID "663" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-02-28T10:00:01" ;
-   ical:dtend "2017-02-28T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E664> a ld:Event  ;
-   le:hasEID "664" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-07T10:00:01" ;
-   ical:dtend "2017-03-07T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E665> a ld:Event  ;
-   le:hasEID "665" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-14T10:00:01" ;
-   ical:dtend "2017-03-14T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E666> a ld:Event  ;
-   le:hasEID "666" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-21T10:00:01" ;
-   ical:dtend "2017-03-21T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E667> a ld:Event  ;
-   le:hasEID "667" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-28T10:00:01" ;
-   ical:dtend "2017-03-28T14:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E668> a ld:Event  ;
    le:hasEID "668" ;
@@ -4807,66 +3979,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-03-01T12:00:01" ;
    dct:created "2017-02-21T15:46:27" . 
 
-<http://leipziger-ecken.de/Data/Event/E675> a ld:Event  ;
-   le:hasEID "675" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-08T09:30:01" ;
-   ical:dtend "2017-03-08T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E676> a ld:Event  ;
-   le:hasEID "676" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-15T09:30:01" ;
-   ical:dtend "2017-03-15T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E677> a ld:Event  ;
-   le:hasEID "677" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-22T09:30:01" ;
-   ical:dtend "2017-03-22T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E678> a ld:Event  ;
-   le:hasEID "678" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-29T09:30:01" ;
-   ical:dtend "2017-03-29T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E679> a ld:Event  ;
-   le:hasEID "679" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-05T09:30:01" ;
-   ical:dtend "2017-04-05T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E680> a ld:Event  ;
-   le:hasEID "680" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-02T14:00:01" ;
-   ical:dtend "2017-03-02T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E681> a ld:Event  ;
-   le:hasEID "681" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-09T14:00:01" ;
-   ical:dtend "2017-03-09T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E682> a ld:Event  ;
-   le:hasEID "682" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-16T14:00:01" ;
-   ical:dtend "2017-03-16T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E683> a ld:Event  ;
-   le:hasEID "683" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-23T14:00:01" ;
-   ical:dtend "2017-03-23T15:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E684> a ld:Event  ;
-   le:hasEID "684" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-30T14:00:01" ;
-   ical:dtend "2017-03-30T15:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E685> a ld:Event  ;
    le:hasEID "685" ;
    rdfs:label "Tänze und Bewegung im Sitzen" ;
@@ -4878,36 +3990,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-02-23T16:15:01" ;
    dct:created "2017-02-21T15:51:13" . 
 
-<http://leipziger-ecken.de/Data/Event/E686> a ld:Event  ;
-   le:hasEID "686" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-02T15:15:01" ;
-   ical:dtend "2017-03-02T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E687> a ld:Event  ;
-   le:hasEID "687" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-09T15:15:01" ;
-   ical:dtend "2017-03-09T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E688> a ld:Event  ;
-   le:hasEID "688" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-16T15:15:01" ;
-   ical:dtend "2017-03-16T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E689> a ld:Event  ;
-   le:hasEID "689" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-23T15:15:01" ;
-   ical:dtend "2017-03-23T16:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E690> a ld:Event  ;
-   le:hasEID "690" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-30T15:15:01" ;
-   ical:dtend "2017-03-30T16:15:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E691> a ld:Event  ;
    le:hasEID "691" ;
    rdfs:label "Bauchtanz für KINDER mit Latifaa" ;
@@ -4918,36 +4000,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-03-02T16:30:01" ;
    ical:dtend "2017-03-02T17:15:01" ;
    dct:created "2017-02-21T15:54:58" . 
-
-<http://leipziger-ecken.de/Data/Event/E692> a ld:Event  ;
-   le:hasEID "692" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-09T16:30:01" ;
-   ical:dtend "2017-03-09T17:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E693> a ld:Event  ;
-   le:hasEID "693" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-16T16:30:01" ;
-   ical:dtend "2017-03-16T17:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E694> a ld:Event  ;
-   le:hasEID "694" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-23T16:30:01" ;
-   ical:dtend "2017-03-23T17:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E695> a ld:Event  ;
-   le:hasEID "695" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-30T16:30:01" ;
-   ical:dtend "2017-03-30T17:15:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E696> a ld:Event  ;
-   le:hasEID "696" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-06T16:30:01" ;
-   ical:dtend "2017-04-06T17:15:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E697> a ld:Event  ;
    le:hasEID "697" ;
@@ -4961,36 +4013,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-03-02T19:00:01" ;
    dct:created "2017-02-21T15:59:13" ;
    dct:lastModified "2017-02-21T16:06:07" . 
-
-<http://leipziger-ecken.de/Data/Event/E709> a ld:Event  ;
-   le:hasEID "709" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-09T17:30:01" ;
-   ical:dtend "2017-03-09T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E710> a ld:Event  ;
-   le:hasEID "710" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-16T17:30:01" ;
-   ical:dtend "2017-03-16T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E711> a ld:Event  ;
-   le:hasEID "711" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-23T17:30:01" ;
-   ical:dtend "2017-03-23T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E712> a ld:Event  ;
-   le:hasEID "712" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-30T17:30:01" ;
-   ical:dtend "2017-03-30T19:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E713> a ld:Event  ;
-   le:hasEID "713" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-06T17:30:01" ;
-   ical:dtend "2017-04-06T19:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E714> a ld:Event  ;
    le:hasEID "714" ;
@@ -5016,36 +4038,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-03-15T19:30:01" ;
    dct:created "2017-02-21T17:34:00" ;
    dct:lastModified "2017-02-21T17:34:51" . 
-
-<http://leipziger-ecken.de/Data/Event/E716> a ld:Event  ;
-   le:hasEID "716" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-22T18:00:01" ;
-   ical:dtend "2017-03-22T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E717> a ld:Event  ;
-   le:hasEID "717" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-03-29T18:00:01" ;
-   ical:dtend "2017-03-29T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E718> a ld:Event  ;
-   le:hasEID "718" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-05T18:00:01" ;
-   ical:dtend "2017-04-05T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E719> a ld:Event  ;
-   le:hasEID "719" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-12T18:00:01" ;
-   ical:dtend "2017-04-12T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E720> a ld:Event  ;
-   le:hasEID "720" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-19T18:00:01" ;
-   ical:dtend "2017-04-19T19:30:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E721> a ld:Event  ;
    le:hasEID "721" ;
@@ -5313,36 +4305,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    dct:created "2017-04-03T16:41:26" ;
    dct:lastModified "2017-04-08T17:00:13" . 
 
-<http://leipziger-ecken.de/Data/Event/E754> a ld:Event  ;
-   le:hasEID "754" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-12T18:00:01" ;
-   ical:dtend "2017-07-05T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E755> a ld:Event  ;
-   le:hasEID "755" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-19T18:00:01" ;
-   ical:dtend "2017-07-12T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E756> a ld:Event  ;
-   le:hasEID "756" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-04-26T18:00:01" ;
-   ical:dtend "2017-07-19T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E757> a ld:Event  ;
-   le:hasEID "757" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-03T18:00:01" ;
-   ical:dtend "2017-07-26T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E758> a ld:Event  ;
-   le:hasEID "758" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-10T18:00:01" ;
-   ical:dtend "2017-08-02T19:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E759> a ld:Event  ;
    le:hasEID "759" ;
    rdfs:label "Musik mit Kindern (3 - 6 Jahre) &amp; Eltern" ;
@@ -5578,66 +4540,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    dct:created "2017-04-18T14:25:42" ;
    dct:lastModified "2017-04-18T14:28:46" . 
 
-<http://leipziger-ecken.de/Data/Event/E794> a ld:Event  ;
-   le:hasEID "794" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-03T16:45:01" ;
-   ical:dtend "2017-05-03T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E795> a ld:Event  ;
-   le:hasEID "795" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-10T16:45:01" ;
-   ical:dtend "2017-05-10T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E796> a ld:Event  ;
-   le:hasEID "796" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-17T16:45:01" ;
-   ical:dtend "2017-05-17T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E797> a ld:Event  ;
-   le:hasEID "797" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-24T16:45:01" ;
-   ical:dtend "2017-05-24T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E798> a ld:Event  ;
-   le:hasEID "798" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-31T16:45:01" ;
-   ical:dtend "2017-05-31T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E799> a ld:Event  ;
-   le:hasEID "799" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-03T15:45:01" ;
-   ical:dtend "2017-05-03T16:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E800> a ld:Event  ;
-   le:hasEID "800" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-10T15:45:01" ;
-   ical:dtend "2017-05-10T16:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E801> a ld:Event  ;
-   le:hasEID "801" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-17T15:45:01" ;
-   ical:dtend "2017-05-17T16:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E802> a ld:Event  ;
-   le:hasEID "802" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-24T15:45:01" ;
-   ical:dtend "2017-05-24T16:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E803> a ld:Event  ;
-   le:hasEID "803" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-31T15:45:01" ;
-   ical:dtend "2017-05-31T16:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E804> a ld:Event  ;
    le:hasEID "804" ;
    rdfs:label "AGON - Das kleine Festival des antiken Theaters" ;
@@ -5742,36 +4644,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-05-31T21:00:01" ;
    dct:created "2017-05-08T15:29:30" . 
 
-<http://leipziger-ecken.de/Data/Event/E813> a ld:Event  ;
-   le:hasEID "813" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-18T10:00:01" ;
-   ical:dtend "2017-07-06T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E814> a ld:Event  ;
-   le:hasEID "814" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-25T10:00:01" ;
-   ical:dtend "2017-07-13T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E815> a ld:Event  ;
-   le:hasEID "815" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-01T10:00:01" ;
-   ical:dtend "2017-07-20T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E816> a ld:Event  ;
-   le:hasEID "816" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-08T10:00:01" ;
-   ical:dtend "2017-07-27T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E817> a ld:Event  ;
-   le:hasEID "817" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-15T10:00:01" ;
-   ical:dtend "2017-08-03T12:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E818> a ld:Event  ;
    le:hasEID "818" ;
    rdfs:label "Samenkugeln-Workshop" ;
@@ -5809,36 +4681,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-05-16T18:00:01" ;
    dct:created "2017-05-15T17:42:19" . 
 
-<http://leipziger-ecken.de/Data/Event/E821> a ld:Event  ;
-   le:hasEID "821" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-23T15:00:01" ;
-   ical:dtend "2017-05-23T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E822> a ld:Event  ;
-   le:hasEID "822" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-30T15:00:01" ;
-   ical:dtend "2017-05-30T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E823> a ld:Event  ;
-   le:hasEID "823" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-06T15:00:01" ;
-   ical:dtend "2017-06-06T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E824> a ld:Event  ;
-   le:hasEID "824" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-13T15:00:01" ;
-   ical:dtend "2017-06-13T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E825> a ld:Event  ;
-   le:hasEID "825" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-20T15:00:01" ;
-   ical:dtend "2017-06-20T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E826> a ld:Event  ;
    le:hasEID "826" ;
    rdfs:label "Nachbarschaftsgarten" ;
@@ -5851,36 +4693,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-05-17T18:00:01" ;
    dct:created "2017-05-15T17:47:57" . 
 
-<http://leipziger-ecken.de/Data/Event/E827> a ld:Event  ;
-   le:hasEID "827" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-24T15:00:01" ;
-   ical:dtend "2017-05-24T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E828> a ld:Event  ;
-   le:hasEID "828" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-31T15:00:01" ;
-   ical:dtend "2017-05-31T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E829> a ld:Event  ;
-   le:hasEID "829" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-07T15:00:01" ;
-   ical:dtend "2017-06-07T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E830> a ld:Event  ;
-   le:hasEID "830" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-14T15:00:01" ;
-   ical:dtend "2017-06-14T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E831> a ld:Event  ;
-   le:hasEID "831" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-21T15:00:01" ;
-   ical:dtend "2017-06-21T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E832> a ld:Event  ;
    le:hasEID "832" ;
    rdfs:label "Nachbarschaftsgarten" ;
@@ -5892,36 +4704,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-05-18T15:00:01" ;
    ical:dtend "2017-05-18T18:00:01" ;
    dct:created "2017-05-15T17:50:27" . 
-
-<http://leipziger-ecken.de/Data/Event/E833> a ld:Event  ;
-   le:hasEID "833" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-05-25T15:00:01" ;
-   ical:dtend "2017-05-25T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E834> a ld:Event  ;
-   le:hasEID "834" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-01T15:00:01" ;
-   ical:dtend "2017-06-01T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E835> a ld:Event  ;
-   le:hasEID "835" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-08T15:00:01" ;
-   ical:dtend "2017-06-08T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E836> a ld:Event  ;
-   le:hasEID "836" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-15T15:00:01" ;
-   ical:dtend "2017-06-15T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E837> a ld:Event  ;
-   le:hasEID "837" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-22T15:00:01" ;
-   ical:dtend "2017-06-22T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E838> a ld:Event  ;
    le:hasEID "838" ;
@@ -6116,36 +4898,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    dct:created "2017-06-15T16:37:21" ;
    dct:lastModified "2017-07-21T14:11:23" . 
 
-<http://leipziger-ecken.de/Data/Event/E854> a ld:Event  ;
-   le:hasEID "854" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-06-26T16:00:01" ;
-   ical:dtend "1000-01-08T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E855> a ld:Event  ;
-   le:hasEID "855" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-07-03T16:00:01" ;
-   ical:dtend "1000-01-15T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E856> a ld:Event  ;
-   le:hasEID "856" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-07-10T16:00:01" ;
-   ical:dtend "1000-01-22T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E857> a ld:Event  ;
-   le:hasEID "857" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-07-17T16:00:01" ;
-   ical:dtend "1000-01-29T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E858> a ld:Event  ;
-   le:hasEID "858" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-07-24T16:00:01" ;
-   ical:dtend "1000-02-05T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E859> a ld:Event  ;
    le:hasEID "859" ;
    rdfs:label "Grundlagen der S/W-Laborarbeit" ;
@@ -6195,36 +4947,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-09-20T19:30:01" ;
    dct:created "2017-07-18T10:24:45" ;
    dct:lastModified "2017-07-18T10:26:38" . 
-
-<http://leipziger-ecken.de/Data/Event/E868> a ld:Event  ;
-   le:hasEID "868" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-27T18:00:01" ;
-   ical:dtend "2017-09-27T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E869> a ld:Event  ;
-   le:hasEID "869" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-04T18:00:01" ;
-   ical:dtend "2017-10-04T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E870> a ld:Event  ;
-   le:hasEID "870" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-11T18:00:01" ;
-   ical:dtend "2017-10-11T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E871> a ld:Event  ;
-   le:hasEID "871" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-18T18:00:01" ;
-   ical:dtend "2017-10-18T19:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E872> a ld:Event  ;
-   le:hasEID "872" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-25T18:00:01" ;
-   ical:dtend "2017-10-25T19:30:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E873> a ld:Event  ;
    le:hasEID "873" ;
@@ -6406,36 +5128,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "2017-09-21T20:00:01" ;
    dct:created "2017-08-09T15:55:03" . 
 
-<http://leipziger-ecken.de/Data/Event/E888> a ld:Event  ;
-   le:hasEID "888" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-08-31T10:00:01" ;
-   ical:dtend "1000-01-08T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E889> a ld:Event  ;
-   le:hasEID "889" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-07T10:00:01" ;
-   ical:dtend "1000-01-15T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E890> a ld:Event  ;
-   le:hasEID "890" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-14T10:00:01" ;
-   ical:dtend "1000-01-22T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E891> a ld:Event  ;
-   le:hasEID "891" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-21T10:00:01" ;
-   ical:dtend "1000-01-29T12:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E892> a ld:Event  ;
-   le:hasEID "892" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-28T10:00:01" ;
-   ical:dtend "1000-02-05T12:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E893> a ld:Event  ;
    le:hasEID "893" ;
    rdfs:label "Kindertreff" ;
@@ -6448,36 +5140,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtend "1000-01-01T17:30:01" ;
    dct:created "2017-08-17T12:26:00" . 
 
-<http://leipziger-ecken.de/Data/Event/E894> a ld:Event  ;
-   le:hasEID "894" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-08-31T16:00:01" ;
-   ical:dtend "1000-01-08T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E895> a ld:Event  ;
-   le:hasEID "895" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-07T16:00:01" ;
-   ical:dtend "1000-01-15T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E896> a ld:Event  ;
-   le:hasEID "896" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-14T16:00:01" ;
-   ical:dtend "1000-01-22T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E897> a ld:Event  ;
-   le:hasEID "897" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-21T16:00:01" ;
-   ical:dtend "1000-01-29T17:30:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E898> a ld:Event  ;
-   le:hasEID "898" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-28T16:00:01" ;
-   ical:dtend "1000-02-05T17:30:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E899> a ld:Event  ;
    le:hasEID "899" ;
    rdfs:label "Malkurs - Mal was Anderes" ;
@@ -6489,24 +5151,6 @@ uuml;digsdorf soll der Abschluss des <strong>help* Festival 2016</strong> bewuss
    ical:dtstart "2017-09-04T15:00:01" ;
    ical:dtend "1000-01-01T18:00:01" ;
    dct:created "2017-08-17T12:29:48" . 
-
-<http://leipziger-ecken.de/Data/Event/E900> a ld:Event  ;
-   le:hasEID "900" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-18T15:00:01" ;
-   ical:dtend "1000-01-15T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E901> a ld:Event  ;
-   le:hasEID "901" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-02T15:00:01" ;
-   ical:dtend "1000-01-29T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E902> a ld:Event  ;
-   le:hasEID "902" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-16T15:00:01" ;
-   ical:dtend "1000-02-12T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E903> a ld:Event  ;
    le:hasEID "903" ;
@@ -6753,36 +5397,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    dct:created "2017-08-30T16:51:09" ;
    dct:lastModified "2017-09-21T17:42:35" . 
 
-<http://leipziger-ecken.de/Data/Event/E921> a ld:Event  ;
-   le:hasEID "921" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-11T16:00:01" ;
-   ical:dtend "2017-09-11T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E922> a ld:Event  ;
-   le:hasEID "922" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-18T16:00:01" ;
-   ical:dtend "2017-09-18T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E923> a ld:Event  ;
-   le:hasEID "923" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-25T16:00:01" ;
-   ical:dtend "2017-09-25T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E924> a ld:Event  ;
-   le:hasEID "924" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-02T16:00:01" ;
-   ical:dtend "2017-10-02T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E925> a ld:Event  ;
-   le:hasEID "925" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-09T16:00:01" ;
-   ical:dtend "2017-10-09T18:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E928> a ld:Event  ;
    le:hasEID "928" ;
    rdfs:label "Workshop Großfigurenbau #GrueneParade" ;
@@ -6936,36 +5550,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtend "2017-09-09T18:00:01" ;
    dct:created "2017-09-01T12:56:53" . 
 
-<http://leipziger-ecken.de/Data/Event/E956> a ld:Event  ;
-   le:hasEID "956" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-07T16:00:01" ;
-   ical:dtend "1000-01-08T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E957> a ld:Event  ;
-   le:hasEID "957" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-14T16:00:01" ;
-   ical:dtend "1000-01-15T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E958> a ld:Event  ;
-   le:hasEID "958" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-21T16:00:01" ;
-   ical:dtend "1000-01-22T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E959> a ld:Event  ;
-   le:hasEID "959" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-28T16:00:01" ;
-   ical:dtend "1000-01-29T21:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E960> a ld:Event  ;
-   le:hasEID "960" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-05T16:00:01" ;
-   ical:dtend "1000-02-05T21:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E972> a ld:Event  ;
    le:hasEID "972" ;
    rdfs:label "help* Campus - open studio" ;
@@ -6978,66 +5562,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtend "1000-01-01T00:00:00" ;
    dct:created "2017-09-01T20:14:17" ;
    dct:lastModified "2017-09-01T20:42:54" . 
-
-<http://leipziger-ecken.de/Data/Event/E978> a ld:Event  ;
-   le:hasEID "978" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-11T15:00:01" ;
-   ical:dtend "1000-01-08T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E979> a ld:Event  ;
-   le:hasEID "979" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-18T15:00:01" ;
-   ical:dtend "1000-01-15T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E980> a ld:Event  ;
-   le:hasEID "980" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-25T15:00:01" ;
-   ical:dtend "1000-01-22T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E981> a ld:Event  ;
-   le:hasEID "981" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-02T15:00:01" ;
-   ical:dtend "1000-01-29T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E982> a ld:Event  ;
-   le:hasEID "982" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-09T15:00:01" ;
-   ical:dtend "1000-02-05T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E983> a ld:Event  ;
-   le:hasEID "983" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-15T12:00:01" ;
-   ical:dtend "1000-01-08T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E984> a ld:Event  ;
-   le:hasEID "984" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-22T12:00:01" ;
-   ical:dtend "1000-01-15T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E985> a ld:Event  ;
-   le:hasEID "985" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-09-29T12:00:01" ;
-   ical:dtend "1000-01-22T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E986> a ld:Event  ;
-   le:hasEID "986" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-06T12:00:01" ;
-   ical:dtend "1000-01-29T14:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E987> a ld:Event  ;
-   le:hasEID "987" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-13T12:00:01" ;
-   ical:dtend "1000-02-05T14:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E988> a ld:Event  ;
    le:hasEID "988" ;
@@ -7185,36 +5709,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtend "2017-09-25T13:00:01" ;
    dct:created "2017-09-19T14:02:48" . 
 
-<http://leipziger-ecken.de/Data/Event/E1001> a ld:Event  ;
-   le:hasEID "1001" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-02T12:00:01" ;
-   ical:dtend "2017-10-02T13:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1002> a ld:Event  ;
-   le:hasEID "1002" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-09T12:00:01" ;
-   ical:dtend "2017-10-09T13:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1003> a ld:Event  ;
-   le:hasEID "1003" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-16T12:00:01" ;
-   ical:dtend "2017-10-16T13:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1004> a ld:Event  ;
-   le:hasEID "1004" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-23T12:00:01" ;
-   ical:dtend "2017-10-23T13:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1005> a ld:Event  ;
-   le:hasEID "1005" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-30T12:00:01" ;
-   ical:dtend "2017-10-30T13:00:01" . 
-
 <http://leipziger-ecken.de/Data/Event/E1006> a ld:Event  ;
    le:hasEID "1006" ;
    rdfs:label "Nähen (lernen)" ;
@@ -7225,36 +5719,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtstart "2017-09-26T15:00:01" ;
    ical:dtend "2017-09-26T17:00:01" ;
    dct:created "2017-09-19T14:06:47" . 
-
-<http://leipziger-ecken.de/Data/Event/E1007> a ld:Event  ;
-   le:hasEID "1007" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-03T15:00:01" ;
-   ical:dtend "2017-10-03T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1008> a ld:Event  ;
-   le:hasEID "1008" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-10T15:00:01" ;
-   ical:dtend "2017-10-10T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1009> a ld:Event  ;
-   le:hasEID "1009" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-17T15:00:01" ;
-   ical:dtend "2017-10-17T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1010> a ld:Event  ;
-   le:hasEID "1010" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-24T15:00:01" ;
-   ical:dtend "2017-10-24T17:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1011> a ld:Event  ;
-   le:hasEID "1011" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-31T15:00:01" ;
-   ical:dtend "2017-10-31T17:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E1012> a ld:Event  ;
    le:hasEID "1012" ;
@@ -7339,36 +5803,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtstart "2017-10-12T13:00:01" ;
    ical:dtend "2017-10-12T18:00:01" ;
    dct:created "2017-10-05T16:47:54" . 
-
-<http://leipziger-ecken.de/Data/Event/E1019> a ld:Event  ;
-   le:hasEID "1019" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-19T13:00:01" ;
-   ical:dtend "2017-10-19T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1020> a ld:Event  ;
-   le:hasEID "1020" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-26T13:00:01" ;
-   ical:dtend "2017-10-26T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1021> a ld:Event  ;
-   le:hasEID "1021" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-02T13:00:01" ;
-   ical:dtend "2017-11-02T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1022> a ld:Event  ;
-   le:hasEID "1022" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-09T13:00:01" ;
-   ical:dtend "2017-11-09T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1023> a ld:Event  ;
-   le:hasEID "1023" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-16T13:00:01" ;
-   ical:dtend "2017-11-16T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E1024> a ld:Event  ;
    le:hasEID "1024" ;
@@ -7514,36 +5948,6 @@ Stadt Leipzig, Kulturamt und Amt für Stadterneuerung und Wohnungsbauförderung"
    ical:dtend "2017-10-16T18:00:01" ;
    dct:created "2017-10-13T15:22:50" ;
    dct:lastModified "2017-10-13T15:23:58" . 
-
-<http://leipziger-ecken.de/Data/Event/E1046> a ld:Event  ;
-   le:hasEID "1046" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-23T16:00:01" ;
-   ical:dtend "2017-10-23T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1047> a ld:Event  ;
-   le:hasEID "1047" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-10-30T16:00:01" ;
-   ical:dtend "2017-10-30T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1048> a ld:Event  ;
-   le:hasEID "1048" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-06T16:00:01" ;
-   ical:dtend "2017-11-06T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1049> a ld:Event  ;
-   le:hasEID "1049" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-13T16:00:01" ;
-   ical:dtend "2017-11-13T18:00:01" . 
-
-<http://leipziger-ecken.de/Data/Event/E1050> a ld:Event  ;
-   le:hasEID "1050" ;
-   ical:url <http://> ;
-   ical:dtstart "2017-11-20T16:00:01" ;
-   ical:dtend "2017-11-20T18:00:01" . 
 
 <http://leipziger-ecken.de/Data/Event/E1051> a ld:Event  ;
    le:hasEID "1051" ;
