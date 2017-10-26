@@ -295,21 +295,21 @@
 <http://leipziger-ecken.de/Data/Akteur/A45> a le:Akteur, org:Organization  ;
    le:hasID "45" ;
    foaf:name "Förderverein Bülowgärten" ;
-   foaf:mbox "foerderverein@buelowviertel-ev.de" ;
-   foaf:homepage <http://www.buelowviertel-leipzig.de/foerderverein-buelowgaerten-e-v/> ;
+   foaf:mbox "gaerten@buelowviertel.de" ;
+   foaf:homepage <http://buelowviertel.de/> ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A76> . 
 
 <http://leipziger-ecken.de/Data/Ort/O45> a le:Ort  ;
    le:hasAID "45" ;
    ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A45> ;
    foaf:name "Förderverein Bülowgärten" ;
-   foaf:mbox "foerderverein@buelowviertel-ev.de" ;
-   foaf:homepage <http://www.buelowviertel-leipzig.de/foerderverein-buelowgaerten-e-v/> ;
+   foaf:mbox "gaerten@buelowviertel.de" ;
+   foaf:homepage <http://buelowviertel.de/> ;
    foaf:Image "pictures/aae/efb3e102f934ced4db.jpg" ;
-   foaf:description """<p>seit 2010 bauen, pflanzen und werkeln wir an einem naturnahen Spielplatz in der Paulinenstra&szlig;e 12-14 im B&uuml;lowviertel. Mit Spenden, vielen Ideen und vorallem zahlreichen Stunden ehrenamtlichen Engagements ist auf zwei Brachfl&auml;chen der LWB inzwischen ein kleines, gr&uuml;nes Fleckchen Erde entstanden, das zum Spielen, ausruhen und enstpannt beieinandersitzen einl&auml;dt.</p><p>Der Spielplatz ist f&uuml;r alle Menschen offen - zumindest immer zwischen 9-20Uhr.</p><p>Einmal im Jahr veranstaltet der Verein mit engagierten Bewohner_innen das <a href="https://de-de.facebook.com/pages/B%C3%BClowstra%C3%9Fenmusikfestival/471838382871259">B&uuml;lowstra&szlig;enmusikfestival</a>. - Dieses Jahr am 3.September!</p><p>herzlich Willkommen!</p>""" ;
+   foaf:description """<p><strong>Warum es uns gibt &ndash; Historie</strong></p><p>Der F&ouml;rderverein B&uuml;lowg&auml;rten e.V. hat sich im M&auml;rz 2010 im &bdquo;neuentdeckten&ldquo; Viertel am Ende der Eisenbahnstra&szlig;e gegr&uuml;ndet. Anlass war, dass sich engagierte Eigent&uuml;mer_innen in diesem kleinen Gr&uuml;nderzeitquartier zusammentaten, um gemeinsam ihr Viertel, dem sie den Namen &bdquo;B&uuml;lowviertel&ldquo; verliehen, wieder zu einem bl&uuml;henden Wohnquartier entwickeln wollten. Neben dem B&uuml;lowiertel e.V., dessen Mitglieder sich aus Eigent&uuml;mer_innen zusammensetzte, gr&uuml;ndeten Bewohner_innen den F&ouml;rderverein, der sich zuerst die Aufgabe setzte f&uuml;r dieses kinderreiche Quartier einen Spielplatz und f&uuml;r die Eltern einen Begegnungsort zu schaffen.</p><p><strong>Wer wir sind und was wir tun:</strong></p><p>Der F&ouml;rderverein B&uuml;lowg&auml;rten e.V. ist ein kleiner Verein, der am Ende der Eisenbahnstra&szlig;e im Leipziger Osten, im sogenannten B&uuml;lowviertel aktiv ist. Das B&uuml;lowviertel stellte 2009 eines der kinderreichsten Quartiere Leipzigs dar. Etwa 30% der etwa 800 Bewohner waren unter 18 Jahre jung (So die Statistik von 2009 &ndash; das hat sich augenscheinlich prozentual nur vergr&ouml;&szlig;ert:-)). So war die Idee geboren, einen eigenen Spielplatz im B&uuml;lowviertel zu errichten.</p><p>Vereinsmitglieder und Anwohner_innen des Viertels erschaffen, bewirtschaften und Pflegen seit nunmehr sieben Jahren eine ca. 400 Quadratmeter gro&szlig;e Brachfl&auml;che, die mittlerweile zu einer kleinen, gr&uuml;nen Perle inmitten des Viertels gewachsen ist. Viel Gr&uuml;n, ein liebevoll gestalteter Weidentunnel, Schaukeln, Sandkasten und Holzger&uuml;st laden die Kleinsten zum Spielen und Toben ein, w&auml;hrend die Eltern die angelegten Beete bewirtschaften, Erdbeeren, Johannis- und Stachel- und Himbeeren naschen oder sich am Kr&auml;uterbeet g&uuml;tlich tun. Einfach nur Sitzen, Sonnen und Quatschen ist auch erlaubt.</p><p>Neben dem gerade beschriebenem Spielplatz veranstaltet der Verein seit 2012 regelm&auml;&szlig;ig das&nbsp; <a target="_blank" href="https://www.facebook.com/B%C3%BClowstra%C3%9Fenmusikfestival-471838382871259/">B&uuml;lowSTRASSENMUSIKfestival</a> von und f&uuml;r die Bewohner_innen. Mittlerweile ist das Festival schon sehr bekannt und erfreut sich immer gr&ouml;&szlig;erer Beliebtheit, auch &uuml;ber die Stadtteilgrenze hinaus&hellip;</p><p><strong>Welche Ziele der Verein verfolgt</strong></p><p>Der F&ouml;rderverein B&uuml;lowg&auml;rten e.V. verfolgt ausschlie&szlig;lich gemeinn&uuml;tzige Zwecke.</p><p>Schwerpunkte stellen vor allem die Unterhaltung und Pflege des Spielplatzes in der Paulinenstra&szlig;e dar. Seit 2012 veranstalten wir zudem j&auml;hrlich das B&uuml;lowSTRASSENMUSIKfestival.</p><p>Die Vereinsstruktur gestaltet sich gegen&uuml;ber allen Interessent_innen transparent und offen. So ist das aktive Einbringen von Ideen und Engagement eines jeden Mitglieds herzlich erw&uuml;nscht.</p><p>&nbsp;</p>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A76> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P82> ;
-   dct:lastModified "2016-06-17T10:36:03" . 
+   dct:lastModified "2017-09-01T12:58:30" . 
 
 <http://leipziger-ecken.de/Data/Membership/M45> a org:Membership  ;
    org:member "Paula Hofmann" ;
@@ -399,11 +399,11 @@
    foaf:phone "0341-12591579" ;
    foaf:homepage <http://dresdner59.de> ;
    foaf:Image "pictures/aae/201b3a33dd32a92298.jpg" ;
-   foaf:description """<p>Im Pfarrhaus der ev.-luth. Dreifaltigkeitskirchgemeinde bietet das Stadtteilprojekt &bdquo;Dresdner59&ldquo; Raum f&uuml;r Begegnung, Beteiligung und Kultur.<br />Noch ist viel Raum sich auszuprobieren! Ein paar Ideen tragen schon Fr&uuml;chte&hellip;<br />Hier ist B&uuml;rgerbeteiligung gefragt!<br />Komm dazu und mach mit. Bring Dich mit deinen Ideen, Themen und Bed&uuml;rfnissen ein.</p><p>Tr&auml;ger des Projektes ist die Ev.-Luth. Dreifaltigkeitskirchgemeinde (Reudnitz &amp; Anger-Crottendorf) in Zusammenarbeit mit der Diakonie. Wir sind offen f&uuml;r andere Weltanschauungen, insofern sie nicht Menschen verachtend sind. Transparenz ist uns wichtig, kirchliche Angebote werden von uns deutlich gekennzeichnet.</p>""" ;
+   foaf:description """<p>Im Pfarrhaus der Ev.-Luth. Dreifaltigkeitskirchgemeinde bietet das Stadtteilprojekt &bdquo;Dresdner59&ldquo; Raum f&uuml;r Begegnung, Beteiligung und Kultur.<br />Dienstags, Mittwochs und Donnerstags von 15 bis 18 Uhr k&ouml;nnt ihr uns im Nachbarschaftscaf&eacute; treffen und euch vernetzen.<br />Die Angebote, in diesem Projekt sind von Nachbarn kreiert, die Teilnahme ist kostenlos oder gegen Spende.<br />Komm dazu und mach mit. Bring Dich mit deinen Ideen, Themen und Bed&uuml;rfnissen ein.</p><p>Tr&auml;ger des Projektes ist die Ev.-Luth. Dreifaltigkeitskirchgemeinde (Reudnitz &amp; Anger-Crottendorf) in Zusammenarbeit mit der Diakonie.</p>""" ;
    le:hatOeffungszeiten """Dienstag, Mittwoch, Donnerstag 15 - 18 Uhr, sowie zu den einzelnen Veranstaltungen""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A80> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P30> ;
-   dct:lastModified "2016-06-16T11:02:55" . 
+   dct:lastModified "2017-02-08T21:48:04" . 
 
 <http://leipziger-ecken.de/Data/Membership/M49> a org:Membership  ;
    org:member "Johanna Pahl" ;
@@ -415,7 +415,7 @@
    foaf:name "MiO Der Interkulturelle Mädchentreff im Osten" ;
    foaf:mbox "lehmann@frauenkultur-leipzig.de" ;
    foaf:phone "0341-92735732" ;
-   foaf:homepage <http://> ;
+   foaf:homepage <http://www.mio-maedchentreff.de> ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A82> . 
 
 <http://leipziger-ecken.de/Data/Ort/O50> a le:Ort  ;
@@ -424,12 +424,13 @@
    foaf:name "MiO Der Interkulturelle Mädchentreff im Osten" ;
    foaf:mbox "lehmann@frauenkultur-leipzig.de" ;
    foaf:phone "0341-92735732" ;
-   foaf:homepage <http://> ;
-   foaf:Image "pictures/aae/9528dfde4d5ff6fccd.jpg" ;
-   foaf:description """MiO. Der interkulturelle M&auml;dchentreff im Osten.... richtig bunt. interkulturell, offen, viel Spa&szlig;, andere M&auml;dchen treffen, kreativ sein, immer was los ...""" ;
+   foaf:homepage <http://www.mio-maedchentreff.de> ;
+   foaf:Image "pictures/aae/c1388a1cd668362ad0.jpg" ;
+   foaf:description """<p>MiO. Der interkulturelle M&auml;dchentreff im Osten.... richtig bunt. interkulturell, offen, viel Spa&szlig;, andere M&auml;dchen treffen, kreativ sein, immer was los ...</p><p>MiO &ndash; der Interkulturelle M&auml;dchentreff ist ein Projekt des Soziokulturellen Zentrums Frauenkultur Leipzig. MiO ist ge&ouml;ffnet f&uuml;r alle M&auml;dchen von 6 &ndash; 21 Jahren &hellip; und f&uuml;r ihre j&uuml;ngeren Schwestern. Die M&auml;dchen dort sprechen deutsch, arabisch, t&uuml;rkisch, persisch, englisch, russisch oder&hellip;</p><p><strong>Das MiO ist eine Schnittstelle</strong> zwischen den <strong>verschiedenen Kulturen</strong>, ein Br&uuml;cke, die ein Kennenlernen, ein &Ouml;ffnen und ein Von-einander-Lernen erm&ouml;glicht. Dass die Br&uuml;cke manchmal schmal ist, liegt auch daran, dass es Menschen oft schwer f&auml;llt, sich mit neuen anderen Lebensweisen und Werten offen und ohne Vorurteile auseinanderzusetzen. Das betrifft alle Menschen &ndash; unabh&auml;ngig vom Geschlecht, unabh&auml;ngig vom Herkunftsland. Interkulturelles Miteinander, integrative Teilhabe funktioniert nur im wechselseitigen Wollen. Das versuchen die Nutzerinnen und die Teamerinnen im MiO gemeinsam zu leben. Die Idee dieses interkulturellen M&auml;dchentreffs wurde von vielen Menschen in dieser Stadt geteilt und wichtig gefunden wurde. Das war bereits vor der Er&ouml;ffnung des MiOs zu erleben &ndash; denn es ist eine Tatsache: Ohne die Unterst&uuml;tzung und das ehrenamtliche Engagement vieler h&auml;tten wir das MiO im Oktober 2013 nicht er&ouml;ffnet k&ouml;nnen. Die gesamte Einrichtung vom L&ouml;ffel bis zur Couch war innerhalb von drei Wochen gespendet; die Leipziger Wohnungsbaugesellschaft (LWB) unterst&uuml;tzt das Projekt durch einen symbolischen Mietzins. Und nat&uuml;rlich genauso wichtig f&uuml;r dieses Projekt ist die Institutionelle F&ouml;rderung der Frauenkultur durch das Kulturamt Leipzig. Auf Grund der Personalsituation war am Anfang nur ein Tag ge&ouml;ffnet, sp&auml;ter drei. Seit Januar 2015 ist das MiO von <strong>Montag &ndash; Freitag</strong>, von <strong>14 bis 18 Uhr</strong> ge&ouml;ffnet. Genutzt wird der Ort von vielen M&auml;dchen, von denen einige t&auml;glich, andere ab und zu kommen. Der Gro&szlig;teil der M&auml;dchen ist muslimisch. Ehrenamtliche Unterst&uuml;tzung war von Anfang an ein wichtiges Moment aller MiO-Aktivit&auml;ten:</p><ul><li>Sch&uuml;lerinnen und Studentinnen, die bei den unterschiedlichsten Aktionen mit dabei sind</li><li>eine leidenschaftliche Lehrerin, die jetzt in Rente ist;</li><li>Frauen aus verschiedenen Sprachr&auml;umen, die dolmetschen</li><li>Vereinsfrauen, Praktikantinnen und Teamerinnen der Frauenkultur</li></ul><p>&hellip; sie alle unterst&uuml;tzen bei Ausfl&uuml;gen, bei dem Stra&szlig;enfest in der Konradstra&szlig;e oder anderen Festen. Das alles ist aus unserer Sicht ein St&uuml;ck gelebte Integration&hellip; gewollte und wechselseitige Teilhabe am &ouml;ffentlichen Leben &ndash; und f&uuml;r unser freiheitliches Gemeinwesen unverzichtbar!</p>""" ;
    le:hatOeffungszeiten """14:00 - 18:00 Uhr""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A82> ;
-   dct:creator <http://leipziger-ecken.de/Data/Person/P27> . 
+   dct:creator <http://leipziger-ecken.de/Data/Person/P27> ;
+   dct:lastModified "2017-08-25T11:36:42" . 
 
 <http://leipziger-ecken.de/Data/Membership/M50> a org:Membership  ;
    org:member "Christine Rietzke" ;
@@ -610,7 +611,7 @@
    foaf:name "Helden wider Willen e.V." ;
    foaf:mbox "ariane@eexistence.de" ;
    foaf:phone "01784754669" ;
-   foaf:homepage <http://baumit.weebly.com> ;
+   foaf:homepage <http://honoraryhotel.net> ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A103> . 
 
 <http://leipziger-ecken.de/Data/Ort/O59> a le:Ort  ;
@@ -619,15 +620,15 @@
    foaf:name "Helden wider Willen e.V." ;
    foaf:mbox "ariane@eexistence.de" ;
    foaf:phone "01784754669" ;
-   foaf:homepage <http://baumit.weebly.com> ;
-   foaf:Image "pictures/aae/5870eac31e537895dd.jpg" ;
-   foaf:description """<p>Der Verein &quot;Helden wider Willen&quot; ist seit 2006 in Leipzig t&auml;tig und bietet einen offenen Raum f&uuml;r die Entwicklung interdiziplin&auml;rer Kunst- und Kulturprojekte, auch auf internationaler Ebene.<br />Unsere ersten Aktivit&auml;ten, wie die Workshopreihen BAU MIT!, PFLANZ MIT! machen nicht nur die unmittelbare Nachbarschaft neugierig. Es gibt Begegnungen und es entwickeln sich lokal Kooperationen und Netzwerke.</p><p>Regelm&auml;&szlig;ige Veranstaltungen:</p><p>Sprach-Tee immer Dienstags ab 15Uhr</p><p>Honorary Kitchen immer Donnerstags 11:00 -18:00</p><p>Einmal j&auml;hrlich im September veranstalten wir das *help-Festival.</p><p>Kommt vorbei oder kontaktiert uns.</p><p>&nbsp;</p>""" ;
-   le:hatOeffungszeiten """Immer Donnerstags ab 11:00 - 18:00""" ;
+   foaf:homepage <http://honoraryhotel.net> ;
+   foaf:Image "pictures/aae/0c5628309b11d5b90b.jpg" ;
+   foaf:description """<p>Unser Verein ist seit 2006 in Leipzig t&auml;tig und bietet einen offenen Raum f&uuml;r die Entwicklung interdiziplin&auml;rer Kunst- und Kulturprojekte, auch auf internationaler Ebene.<br />Unsere ersten Aktivit&auml;ten, wie die Workshopreihen BAU MIT!, PFLANZ MIT! machen nicht nur die unmittelbare Nachbarschaft neugierig. Es gibt Begegnungen und es entwickeln sich lokal Kooperationen und Netzwerke.</p><p>Regelm&auml;&szlig;ige Veranstaltungen:</p><p>Hildes Bauernmarkt Donnerstag 16 bis 18 Uhr</p><p>ab September wieder freitags: Honorary Kitchen</p><p>Vom 8. September bis 7. Oktober veranstalten wir auch 2017 das *help-Festival um Nachbarn, Mitworkende und K&uuml;nstlerinnen zu vernetzen.</p><p>Kommt vorbei oder kontaktiert uns.</p><p>&nbsp;</p>""" ;
+   le:hatOeffungszeiten """Donnerstag 16:00 - 18:00""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A103> ;
    le:hatAdresszusatz "und 51" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P20> ;
    dct:created "2016-04-05T17:18:11" ;
-   dct:lastModified "2016-04-07T14:03:22" . 
+   dct:lastModified "2017-08-21T18:55:49" . 
 
 <http://leipziger-ecken.de/Data/Membership/M59> a org:Membership  ;
    org:member "Ariane Jedlitschka" ;
@@ -704,14 +705,15 @@
    foaf:phone "034152903043" ;
    foaf:homepage <http://www.arbeitsladenplus.de/> ;
    foaf:Image "pictures/aae/8679de456b35bc74fa.jpg" ;
-   foaf:description """<p>Unternehmen und Bewohner aus dem Leipziger Osten k&ouml;nnen im ArbeitsladenPLUS am Torgauer Platz 2 (Leichtbauhalle) umfangreiche und kostenlose&nbsp;Unterst&uuml;tzung rund um das Thema Arbeit in Anspruch nehmen. Die Mitarbeiter/-innen informieren, vermitteln an bestehende Angebote, beraten und unterst&uuml;tzen bei Problemen. Wir bieten niedrigschwellige Information und Beratung, erg&auml;nzt durch Seminare und Coachings.</p><p>F&uuml;r die Unternehmen im Stadtteil ist der ArbeitsladenPLUS ein kompetenter Ansprechpartner. Beratung und Unterst&uuml;tzung im betrieblichen Alltag sowie Informationen zu verschiedensten Themen, wie F&ouml;rderm&ouml;glichkeiten, Netzwerken, Immobiliensuche und vieles mehr werden hier angeboten.</p><p>Arbeitsuchende erhalten zu unseren &Ouml;ffnungszeiten vor Ort Informationen &uuml;ber bestehende Angebote, Beratung und Unterst&uuml;tzung bei der Arbeitssuche und beruflichen (Neu-)Orientierung.</p><p>Alle Angebote sind kostenfrei. Termine k&ouml;nnnen auch gerne ausserhalb der &Ouml;ffnungzeiten vereinbart werden.</p><p>Der ArbeitsladenPLUS ist ein Projekt der Stadt Leipzig, des Bundesministerium f&uuml;r Umwelt, Naturschutz, Bau und Reaktorsicherheit und der Deutschen Angestellten Akademie. Das Projekt&nbsp;wendet sich vorrangig an lokale Firmen und Solo-Selbstst&auml;ndige, d. h. Ein-Person-Unternehmen sowie an Langzeitarbeitslose &uuml;ber 26 Jahre. Dabei geht es um die St&auml;rkung von Besch&auml;ftigungsf&auml;higkeit und Integration in den Arbeitsmarkt, um sozialraumorientierte Wirtschaftsf&ouml;rderung und damit auch um Unterst&uuml;tzung bei der Stadtteilentwicklung z.B. durch Neuansiedlungen.</p><p>&nbsp;</p><p><strong>Unsere Angebote:</strong></p><p><strong>F&uuml;r Arbeitssuchende</strong></p><ul><li>Ansprechpartner rund um das Thema Arbeit&nbsp;</li><li>PC-Pl&auml;tze zur eigenst&auml;ndigen Nutzung</li></ul><p>Beratung zur Arbeitssuche</p><ul><li>besch&auml;ftigungsorientierte Beratung</li><li>gemeinsames Erarbeiten von beruflichen St&auml;rken, Intressen und Chancen</li><li>berufliche Orientierung</li><li>Informationen zu Stellenangeboten</li><li>Unterst&uuml;tzung bei der Erstellung von Bewerbungsunterlagen</li></ul><p>Integration in Arbeit</p><ul><li>Ermittlung von Unterst&uuml;tzungsbedarfen</li><li>berufliche Neuorientierung</li><li>Unternehmensansprache</li><li>Begleitung in der Einarbeitungsphase</li></ul><p>&nbsp;</p><p><strong>F&uuml;r Unternehmer/-innen</strong></p><ul><li>Ansprechpartner f&uuml;r Unternehmen im Stadtteil</li><li>Vermmittlung von Angeboten der Kammern, des Jobcenters und der Arbeitsagentur</li></ul><p>Unterst&uuml;tzung im betrieblichen Alltag</p><ul><li>Analyse von Abl&auml;ufen</li><li>gemeinsame Suche nach Verbesserungsans&auml;tzen</li><li>betriebswirtschaftliche Kurzberatung</li></ul><p>Unterst&uuml;tzung bei neuen Angeboten</p><ul><li>Analyse des Personalbedarfs</li><li>Stellenbeschreibung und Stellenausschreibung</li><li>Vorauswahl von Bewerbungen</li><li>Unterst&uuml;tzung bei der Personaleinstellung</li></ul><p>betriebliche Weiterbildungsangebote</p><p>Leerstandsmanagement und Ansiedlungsbegleitung</p><p>Beratung von Soloselbst&auml;ndigen und Kreativen</p><p>&nbsp;</p><ul></ul><p>Besuchen Sie uns auch auf unserer Facebookseite:&nbsp;www.facebook.com/Arbeitsladen</p><p>&nbsp;</p>""" ;
-   le:hatOeffungszeiten """Montag und Donnerstag: 10.00 bis 18.00 Uhr; Dienstag: 13 bis 18 Uhr; weitere Termine gern nach Vereinbarung""" ;
+   foaf:description """<p>Unternehmen und Bewohner aus dem Leipziger Osten k&ouml;nnen im ArbeitsladenPLUS am Torgauer Platz 2 (Leichtbauhalle) umfangreiche und kostenlose&nbsp;Unterst&uuml;tzung rund um das Thema Arbeit in Anspruch nehmen. Die Mitarbeiter/-innen informieren, vermitteln an bestehende Angebote, beraten und unterst&uuml;tzen bei Problemen. Wir bieten niedrigschwellige Information und Beratung, erg&auml;nzt durch Seminare und Coachings.</p><p>F&uuml;r die Unternehmen im Stadtteil ist der ArbeitsladenPLUS ein kompetenter Ansprechpartner. Beratung und Unterst&uuml;tzung im betrieblichen Alltag sowie Informationen zu verschiedensten Themen, wie F&ouml;rderm&ouml;glichkeiten, Netzwerken, Immobiliensuche und vieles mehr werden hier angeboten.</p><p>Arbeitsuchende erhalten zu unseren &Ouml;ffnungszeiten vor Ort Informationen &uuml;ber bestehende Angebote, Beratung und Unterst&uuml;tzung bei der Arbeitssuche und beruflichen (Neu-)Orientierung.</p><p>Alle Angebote sind kostenfrei. Termine k&ouml;nnnen auch gerne ausserhalb der &Ouml;ffnungzeiten vereinbart werden.</p><p>Der ArbeitsladenPLUS ist ein Projekt der Stadt Leipzig, des Bundesministerium f&uuml;r Umwelt, Naturschutz, Bau und Reaktorsicherheit und der Deutschen Angestellten Akademie. Das Projekt&nbsp;wendet sich vorrangig an lokale Firmen und Solo-Selbstst&auml;ndige, d. h. Ein-Person-Unternehmen sowie an Langzeitarbeitslose &uuml;ber 26 Jahre. Dabei geht es um die St&auml;rkung von Besch&auml;ftigungsf&auml;higkeit und Integration in den Arbeitsmarkt, um sozialraumorientierte Wirtschaftsf&ouml;rderung und damit auch um Unterst&uuml;tzung bei der Stadtteilentwicklung z.B. durch Neuansiedlungen.</p><p>&nbsp;</p><p><strong>Unsere Angebote:</strong></p><p><strong>F&uuml;r Arbeitssuchende</strong></p><ul><li>Ansprechpartner rund um das Thema Arbeit&nbsp;</li><li>PC-Pl&auml;tze zur eigenst&auml;ndigen Nutzung</li></ul><p>Beratung zur Arbeitssuche</p><ul><li>besch&auml;ftigungsorientierte Beratung</li><li>gemeinsames Erarbeiten von beruflichen St&auml;rken, Intressen und Chancen</li><li>berufliche Orientierung</li><li>Informationen zu Stellenangeboten</li><li>Unterst&uuml;tzung bei der Erstellung von Bewerbungsunterlagen</li></ul><p>Integration in Arbeit</p><ul><li>Ermittlung von Unterst&uuml;tzungsbedarfen</li><li>berufliche Neuorientierung</li><li>Unternehmensansprache</li><li>Begleitung in der Einarbeitungsphase</li></ul><p>&nbsp;</p><p><strong>F&uuml;r Unternehmer/-innen</strong></p><ul><li>Ansprechpartner f&uuml;r Unternehmen im Stadtteil</li><li>Vermmittlung von Angeboten der Kammern, des Jobcenters und der Arbeitsagentur</li></ul><p>Unterst&uuml;tzung im betrieblichen Alltag</p><ul><li>Analyse von Abl&auml;ufen</li><li>gemeinsame Suche nach Verbesserungsans&auml;tzen</li><li>betriebswirtschaftliche Kurzberatung</li></ul><p>Unterst&uuml;tzung bei neuen Angeboten</p><ul><li>Analyse des Personalbedarfs</li><li>Stellenbeschreibung und Stellenausschreibung</li><li>Vorauswahl von Bewerbungen</li><li>Unterst&uuml;tzung bei der Personaleinstellung</li></ul><p>betriebliche Weiterbildungsangebote</p><p>Leerstandsmanagement und Ansiedlungsbegleitung</p><p>Beratung von Soloselbst&auml;ndigen und Kreativen</p><p>&nbsp;</p><ul></ul><p>Besuchen Sie uns auch auf unserer Facebookseite:&nbsp;www.facebook.com/Arbeitsladen</p><p>zur BIWAQ-Programminternetseite http://www.biwaq.de &nbsp;</p><p>zum ESF-Internetportal des Bundes http://www.esf.de</p><p>zur ESF-Internetseite der Europ&auml;ischen Kommission http://ec.europa.eu/employment_social/esf/index_de.htm</p><p>Dieses Vorhaben wird aus dem Europ&auml;ischen Sozialfonds der Europ&auml;ischen Union und aus Mitteln des Bundesministeriums f&uuml;r Verkehr, Bau und Stadtentwicklung gef&ouml;rdert. Der Europ&auml;ische Sozialfonds ist das zentrale arbeitsmarktpolitische F&ouml;rderinstrument der Europ&auml;ischen Union. Er leistet einen Beitrag zur Entwicklung der 
+Besch&auml;ftigung durch F&ouml;rderung der Besch&auml;ftigungsf&auml;higkeit, des Unternehmergeistes, der Anpassungsf&auml;higkeit sowie der Chancengleichheit und der Investition in die Humanressourcen.</p>""" ;
+   le:hatOeffungszeiten """Montag und Donnerstag: 10.00 bis 17.00 Uhr; Dienstag: 12 bis 17 Uhr; Freitag: 10 - 13 Uhr; weitere Termine gern nach Vereinbarung""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A120> ;
    le:hatAdresszusatz "Leichtbauhalle" ;
    le:barrierefrei "1" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P56> ;
    dct:created "2016-04-21T12:11:28" ;
-   dct:lastModified "2016-06-01T13:54:30" . 
+   dct:lastModified "2016-11-03T15:32:04" . 
 
 <http://leipziger-ecken.de/Data/Akteur/A67> a le:Akteur, org:Organization  ;
    le:hasID "67" ;
@@ -729,13 +731,13 @@
    foaf:phone "0341-6888940" ;
    foaf:homepage <http://www.if-leipzig.de/> ;
    foaf:Image "pictures/aae/0296658788222d6da1.jpg" ;
-   foaf:description """<p><strong>Wir sind &hellip;</strong></p><p><br />&hellip; der Verein &quot;Internationale Frauen Leipzig e.V.&quot;.<br /><br />Wir stehen f&uuml;r die Begegnung und den Dialog von Frauen unterschiedlicher Kulturen und Herkunft. Unser Verein f&ouml;rdert das Verst&auml;ndnis f&uuml;r Denk- und Lebensweisen anderer Kulturen, insbesondere zwischen Deutschen und der zugewanderten Bev&ouml;lkerung anderer Kulturkreise.<br /><br />Wir f&ouml;rdern die Eigeninitiative und pers&ouml;nliche Entfaltung der Frauen. Dazu organisieren wir kulturelle und landeskundliche Veranstaltungen (Vortr&auml;ge, Seminare, Musikabende, L&auml;nderabende, etc.) und ermutigen auch die Frauen, selbst Veranstaltungen zu organisieren.<br /><br />Wir beraten, unterst&uuml;tzen und begleiten Migrantinnen und deutsche Frauen in t&auml;glichen Lebensbereichen. Au&szlig;erdem wollen wir langzeitarbeitslose Frauen aus der Isolation herausholen, sie in unsere Veranstaltungen einbinden und dadurch ihr Selbstbewusstsein st&auml;rken.</p><p><strong>Wir bieten &hellip;</strong></p><p><br />- Allgemeine Beratung und Begleitung in t&auml;glichen Lebensbereichen<br />- Hilfe beim Ausf&uuml;llen von Antr&auml;gen und Formularen von &Auml;mtern (z.B. Agentur f&uuml;r Arbeit, Sozial&auml;mter, Krankenkasse)<br />- Hilfe beim &Uuml;bersetzen und Beantworten von beh&ouml;rdlichen Schreiben<br />- Hilfe bei Absprachen mit &Auml;mtern<br />- verschiedene Freizeitangebote, z.B. Frauentanzabende, Ausfl&uuml;ge, Kreatives<br />- Veranstaltungen mit kulturellen Multiplikatorinnen</p><p><br /><strong>Wir sprechen &hellip;</strong></p><p><br />- Arabisch<br />- Deutsch<br />- Englisch<br />- Kurdisch<br />- Polnisch<br />- Russisch<br />- T&uuml;rkisch<br />- Vietnamesisch</p>""" ;
+   foaf:description """<p><strong>Wir sind &hellip;</strong></p><p><br />&hellip; der Verein &quot;Internationale Frauen Leipzig e.V.&quot;.<br /><br />Wir stehen f&uuml;r die Begegnung und den Dialog von Frauen unterschiedlicher Kulturen und Herkunft. Unser Verein f&ouml;rdert das Verst&auml;ndnis f&uuml;r Denk- und Lebensweisen anderer Kulturen, insbesondere zwischen Deutschen und der zugewanderten Bev&ouml;lkerung anderer Kulturkreise.<br /><br />Wir f&ouml;rdern die Eigeninitiative und pers&ouml;nliche Entfaltung der Frauen. Dazu organisieren wir kulturelle und landeskundliche Veranstaltungen (Vortr&auml;ge, Seminare, Musikabende, L&auml;nderabende, etc.) und ermutigen auch die Frauen, selbst Veranstaltungen zu organisieren.<br /><br />Wir beraten, unterst&uuml;tzen und begleiten Migrantinnen und deutsche Frauen in t&auml;glichen Lebensbereichen. Au&szlig;erdem wollen wir langzeitarbeitslose Frauen aus der Isolation herausholen, sie in unsere Veranstaltungen einbinden und dadurch ihr Selbstbewusstsein st&auml;rken.</p><p><strong>Wir bieten &hellip;</strong></p><p><br />- Allgemeine Beratung und Begleitung in t&auml;glichen Lebensbereichen<br />- Hilfe beim Ausf&uuml;llen von Antr&auml;gen und Formularen von &Auml;mtern (z.B. Agentur f&uuml;r Arbeit, Sozial&auml;mter, Krankenkasse)<br />- Hilfe beim &Uuml;bersetzen und Beantworten von beh&ouml;rdlichen Schreiben<br />- Hilfe bei Absprachen mit &Auml;mtern<br />- verschiedene Freizeitangebote, z.B. Frauentanzabende, Ausfl&uuml;ge, Kreatives<br />- Veranstaltungen mit kulturellen Multiplikatorinnen</p><p><br /><strong>Wir sprechen &hellip;</strong></p><p><br />- Arabisch<br />- Deutsch<br />- Englisch<br />- Kurdisch<br />- Russisch<br />- T&uuml;rkisch<br />- Tschetschenisch<br />- Vietnamesisch</p>""" ;
    le:hatOeffungszeiten """09.00 - 18.00""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A131> ;
    le:hatAdresszusatz "A" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P195> ;
    dct:created "2016-05-13T16:57:19" ;
-   dct:lastModified "2016-05-13T16:58:55" . 
+   dct:lastModified "2017-02-17T12:42:40" . 
 
 <http://leipziger-ecken.de/Data/Membership/M67> a org:Membership  ;
    org:member "Dr. Anke Kästner" ;
@@ -960,7 +962,9 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
    foaf:mbox "info@dianawesser.de" ;
    foaf:homepage <http://> ;
    foaf:Image "pictures/aae/49de04a53d8eddde2d.jpg" ;
-   foaf:description """<p><strong>2.&ndash;5. Juli 2016</strong></p><p>*English version below*<br /><strong>Die Leipziger Eisenbahnstra&szlig;e kann was. Und das bringt sie euch bei &ndash; bei der Nachbarschafts-Sommerschule!</strong><br /><br />Vom 2. bis 5. Juli k&ouml;nnt ihr unter anderem Gitarre spielen lernen, ein Hochbeet bauen, einen internationalen Chor bilden oder etwas &uuml;ber die Arbeit mit Gefl&uuml;chteten erfahren. Die Dozenten sind so vielf&auml;ltig, wie die Nachbarschaften der Eisenbahnstra&szlig;e es sind. Sie kommen aus Syrien, Finnland, S&uuml;dafrika oder Deutschland und sind zwischen 18 und 79 Jahre alt. Die Kurse finden in verschiedenen Sprachen statt und das Angebot richtet sich an alle, die Lust haben, ihren Horizont zu erweitern. Veranstaltungsorte sind das HAL Atelierhaus, Hildegardstr. 49, 04315 Leipzig, das P&ouml;ge-Haus, Hedwigstr. 20, 04315 Leipzig und der nahe Stadtraum. Die Kurse sind kostenlos. Die Kursleiter*innen wurden gebeten anzugeben, was sie gern im Austausch h&auml;tten. Diese &bdquo;Geb&uuml;hren&ldquo; sind auf freiwilliger Basis, die Kurse k&ouml;nnen auch ganz ohne Gegenleistungen besucht werden.<br /><br /><strong>Anmeldung erw&uuml;nscht</strong> bei Sophia Brock vom HAL Atelierhaus:<br />sophia(at)eexistence.de / Tel: 0176 28647033&nbsp;&nbsp;<br /><br />Das Kurzprogramm findet ihr ganz unten. Ausf&uuml;hrliche Informationen zu den einzelnen Kursen und den tollen Dozent*innen aus der Nachbarschaft k&ouml;nnt ihr euch <strong><a target="_blank" href="http://www.dianawesser.de/download.php?85bd76939d45a2a813e3e2d41fe0e813">HIER</a></strong> herunterladen.</p><p><em>Die Nachbarschafts-Sommerschule ist ein Projekt von Diana Wesser in Kooperation mit dem HAL Atelierhaus Leipzig und dem P&ouml;ge- Haus e.V., k&uuml;nstlerische Mitarbeit: Sophia Brock, gef&ouml;rdert durch das Kulturamt der Stadt Leipzig, im Rahmen des<a target="_blank" href="https://leipziger-ecken.de/kunstfest16"> Kunstfest Neustadt 2016 &bdquo;Bildungsferne &ndash; so nah?&ldquo; </a></em></p><p>++++++++++++++++++++++++++++++++<br /><strong>Neighborhood Summer School&nbsp; 2 &ndash; 5 July</strong><br /><br />The Eisenbahnstra&szlig;e will teach you something! Between July 2nd and 5th you can learn to play the guitar, build a raised garden bed, join an international choir or learn something about the work with refugees. The teachers are as diverse as the Eisenbahnstra&szlig;e Neighborhood: they are from Finland, South-Africa, Syria or Germany and they are between 18 and 79. Individual courses are taught in different of languages. All participants are invited to learn and widen their horizons. All courses are free of charge. The teachers have been asked what they would like to have in exchange. These symbolic &bdquo;fees&ldquo; are voluntary, you can attend any course without giving something in return.<br /><br /><strong>Book in advance</strong> with Sophia Brock from HAL Atelierhaus:<br />Sophia@eexistence.de / Tel: 0176 2864 7033<br /><br />Please download the English Course Program <a target="_blank" href="http://www.dianawesser.de/download.php?929016373c540dae2b55b74a3b73691e"><strong>HERE</strong></a>.</p><p><em>The Neighborhood Summer School is a project by Diana Wesser in cooperation with HAL Atelierhaus Leipzig and P&ouml;ge-Haus e.V., in the context of the art festival <a target="_blank" href="https://leipziger-ecken.de/kunstfest16">Kunstfest Neustadt 2016</a>. </em></p><p>++++++++++++++++++++++++++++++++</p><p><br /><strong><strong>KURS-KURZ_PROGRAMM </strong><br /><br />Am 3. und 4. Juli gibt es ab 18 Uhr ein Lagerfeuer im Garten des HAL Atelierhauses. Bringt gern daf&uuml;r etwas zu Essen oder Getr&auml;nke mit. </strong>Die Kurse sind kostenlos. Die Kursleiter*innen wurden gebeten anzugeben, was sie gern im Austausch h&auml;tten. Diese &bdquo;Geb&uuml;hren&ldquo; sind auf freiwilliger Basis, die Kurse k&ouml;nnen auch ganz ohne Gegenleistungen besucht werden.<br /><br /><strong>Qigong &amp; Meditation</strong> / Ingrid Ung<br />2. Juli, 11&ndash;12 Uhr<br />Sprache: Englisch<br />Ort: HAL Atelierhaus / bei schlechtem Wetter im P&ouml;ge-Haus<br />Im Austausch freut Ingrid sich darauf, nach dem Kurs mit euch ins Gespr&auml;ch zu kommen.<br /><br /><strong>Der internationale Chor</strong> / Elias Toumeh<br />2. Juli, 15&ndash;18 Uhr, Um 18 Uhr besteht die M&ouml;glichkeit eines ersten Auftritts zur Er&ouml;ffnung des Kunstfest Neustadt. Bei Interesse besteht die Option den Chor weiter zu f&uuml;hren.<br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Gesangserfahrung<br />Sprachen: Englisch, Arabisch, Deutsch<br />Ort: B&uuml;rgergarten am P&ouml;ge-Haus / bei schlechtem Wetter im P&ouml;ge Haus<br />Elias freut sich darauf, mit euch eine gute Zeit zu verbringen.<br /><br /><strong>Chutneys selber machen</strong> / Andrea B&uuml;ttner<br />2. Juli, 12&ndash;14 Uhr, im Anschluss Picknick im HAL Garten<br />Mitbringen: Zutaten (erfahrt ihr nach der Anmeldung) &amp; Gef&auml;&szlig;e<br />Sprachen: Deutsch &amp; Englisch<br />Ort: HAL Atelierhaus<br />Im Austausch w&uuml;rde sich Andrea &uuml;ber eure veganen Lieblingsrezepte freuen.<br /><br /><strong>Malerei und Zeichnen</strong> / Christa Turnbull<br />2.&ndash;5. Juli, 12&ndash;17 Uhr, Teilnahme an einzelnen Tagen m&ouml;glich / am 3. und 4. Juli mit anschlie&szlig;endem Lagerfeuer <em> </em><br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Vorkenntnisse<br />Mitbringen: Falls vorhanden Kohlestifte, Farben, Papier (Material ist vor Ort) &amp; Beitrag f&uuml;r gemeinsames Vesper oder Kuchen<br />Sprachen: Deutsch &amp; Englisch<br />Ort: Stadtraum, Treffpunkt im HAL Atelierhaus<br /><br /><strong>Gitarre f&uuml;r Anf&auml;nger </strong>/ Robby Seitenschlag<br />2.&ndash;4. Juli, 12 &ndash; 17:30 Uhr am 3. und 4. Juli mit anschlie&szlig;endem Lagerfeuer<br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Vorkenntnisse<br />Mitbringen: Gitarre (falls vorhanden) &amp; Beitrag f&uuml;r gemeinsames Vesper oder Kuchen<br />Sprachen: Deutsch &amp; Englisch<br />Ort: HAL Atelierhaus<br /><br /><strong>Erfahrungsaustausch zur Arbeit mit Gefl&uuml;chteten</strong> / Arnim F&ouml;rster<br />3. Juli, 14&ndash;16 Uhr +&nbsp; 5. Juli, 15&ndash;17 (Praxistest beim interkulturellen Nachbarschaftscaf&eacute; &quot;Hildes Sprachtee&quot;)<br />F&uuml;r: Erwachsene mit und ohne Vorerfahrung<br />Sprachen: Deutsch, Englisch, Franz&ouml;sisch<br />Ort: HAL Atelierhaus<br />Im Austausch freut Arnim sich &uuml;ber Spenden (z.B. Kaffee, Tee, Geb&auml;ck) f&uuml;r den Begenungsort &quot;Hildes Sprachtee&quot;<br /><br /><strong>Pfadfinderwissen</strong> / Elias Toumeh<br />3. Juli, 15&ndash;19:30 Uhr, ab 18 Uhr mit Lagerfeuer im Hof des HAL Atelierhaus<br />F&uuml;r: Erwachsene und Kinder ab 6 Jahren<br />Mitbringen (optional): Seile (ca. 6mm St&auml;rke), St&ouml;cke (z.B. Besenstile) und/oder Marshmallows f&uuml;r das Lagerfeuer<br />Sprachen: Englisch, Arabisch, Deutsch<br />Ort: im Stadtraum, Treffpunkt im HAL Atelierhaus<br /><br /><strong>Percussion f&uuml;r Erwachsene</strong> / Sakhile Methula<br />3. Juli, 18&ndash;21 Uhr, am Lagerfeuer<br />Mitbringen: eigene Handtrommeln, falls vorhanden, Instrumente sind vor Ort<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br /><br /><strong>Percussion f&uuml;r Kinder ab 3</strong> / Sakhile Methula<br />4. Juli, 14&ndash;17 Uhr, ab 18 Uhr Lagerfeuer<br />Ort: HAL Atelierhaus<br />Mitbringen: eigene Handtrommeln, falls vorhanden, Instrumente sind vor Ort<br />Sprachen: Deutsch &amp; Englisch<br /><br /><strong>Zirkus f&uuml;r Kinder ab 8</strong> / Marissa Wloka<br />4.Juli, 16&ndash;18 Uhr, ab 18 Uhr Lagerfeuer<br />Mitbringen:&nbsp; Ausr&uuml;stung f&uuml;r Jonglage, Diabolo und Tellerdrehen, falls vorhanden, es gibt auch Ausr&uuml;stung vor Ort<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br />Im Austausch sucht Marissa sucht Kontakt zu Menschen, die mit Gefl&uuml;chteten arbeiten &ndash; sie m&ouml;chte sich gerne als Zirkusp&auml;dagogin einzubringen.<br /><br /><strong>Hochbeetbau</strong> / Stadtpflanzer<br />5. Juli, 10&ndash;13 Uhr<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br />Im Austausch freuen die Stadtpflanzer sich &uuml;ber Pflanzen f&uuml;r das Hochbeet, das ihr gemeinsam bauen werdet. Es wird sp&auml;ter einer Gefl&uuml;chteten-Unterkunft gespendet.</p>""" ;
+   foaf:description """<p><strong>2.&ndash;5. Juli 2016</strong></p><p>*English version below*<br /><strong>Die Leipziger Eisenbahnstra&szlig;e kann was. Und das bringt sie euch bei &ndash; bei der Nachbarschafts-Sommerschule!</strong><br /><br />Vom 2. bis 5. Juli k&ouml;nnt ihr unter anderem Gitarre spielen lernen, ein Hochbeet bauen, einen internationalen Chor bilden oder etwas &uuml;ber die Arbeit mit Gefl&uuml;chteten erfahren. Die Dozenten sind so vielf&auml;ltig, wie die Nachbarschaften der Eisenbahnstra&szlig;e es sind. Sie kommen aus Syrien, Finnland, S&uuml;dafrika oder Deutschland und sind zwischen 18 und 79 Jahre alt. Die Kurse finden in verschiedenen Sprachen statt und das Angebot richtet sich an alle, die Lust haben, ihren Horizont zu erweitern. Veranstaltungsorte sind das HAL Atelierhaus, Hildegardstr. 49, 04315 Leipzig, das P&ouml;ge-Haus, Hedwigstr. 20, 04315 Leipzig und der nahe Stadtraum. Die Kurse sind kostenlos. Die Kursleiter*innen wurden gebeten anzugeben, was sie gern im Austausch h&auml;tten. Diese &bdquo;Geb&uuml;hren&ldquo; sind auf freiwilliger Basis, die Kurse k&ouml;nnen auch ganz ohne Gegenleistungen besucht werden.<br /><br /><strong>Anmeldung erw&uuml;nscht</strong> bei Sophia Brock vom HAL Atelierhaus:<br />sophia(at)eexistence.de / Tel: 0176 28647033&nbsp;&nbsp;<br /><br />Das Kurzprogramm findet ihr ganz unten. Ausf&uuml;hrliche Informationen zu den einzelnen Kursen und den tollen Dozent*innen aus der Nachbarschaft k&ouml;nnt ihr euch <strong><a target="_blank" href="http://www.dianawesser.de/download.php?85bd76939d45a2a813e3e2d41fe0e813">HIER</a></strong> herunterladen.</p><p><em>Die Nachbarschafts-Sommerschule ist ein Projekt von Diana Wesser in Kooperation mit dem HAL Atelierhaus Leipzig und dem P&ouml;ge- Haus e.V., k&uuml;nstlerische Mitarbeit: Sophia Brock, gef&ouml;rdert durch das Kulturamt der Stadt Leipzig, im Rahmen des<a target="_blank" href="https://leipziger-ecken.de/kunstfest16"> Kunstfest Neustadt 2016 &bdquo;Bildungsferne &ndash; so nah?&ldquo; </a></em></p><p>++++++++++++++++++++++++++++++++<br /><strong>Neighborhood Summer School&nbsp; 2 &ndash; 5 July</strong><br /><br />The Eisenbahnstra&szlig;e will teach you something! Between July 2nd and 5th you can learn to play the guitar, build a raised garden bed, join an international choir or learn something about the work with refugees. The teachers are as diverse as the Eisenbahnstra&szlig;e Neighborhood: they are from Finland, South-Africa, Syria or Germany and they are between 18 and 79. Individual courses are taught in different of languages. All participants are invited to learn and widen their horizons. All courses are free of charge. The teachers have been asked what they would like to have in exchange. These symbolic &bdquo;fees&ldquo; are voluntary, you can attend any course without giving something in return.<br /><br /><strong>Book in advance</strong> with Sophia Brock from HAL Atelierhaus:<br />Sophia@eexistence.de / Tel: 0176 2864 7033<br /><br />Please download the English Course Program <a target="_blank" href="http://www.dianawesser.de/download.php?929016373c540dae2b55b74a3b73691e"><strong>HERE</strong></a>.</p><p><em>The Neighborhood Summer School is a project by Diana Wesser in cooperation with HAL Atelierhaus Leipzig and P&ouml;ge-Haus e.V., in the context of the art festival <a target="_blank" href="https://leipziger-ecken.de/kunstfest16">Kunstfest Neustadt 2016</a>. </em></p><p>++++++++++++++++++++++++++++++++</p><p><br /><strong><strong>KURS-KURZ_PROGRAMM </strong><br /><br />Am 3. und 4. Juli gibt es ab 18 Uhr ein Lagerfeuer im Garten des HAL Atelierhauses. Bringt gern daf&uuml;r etwas zu Essen oder Getr&auml;nke mit. </strong>Die Kurse sind kostenlos. Die Kursleiter*innen wurden gebeten anzugeben, was sie gern im Austausch h&auml;tten. Diese &bdquo;Geb&uuml;hren&ldquo; sind auf freiwilliger Basis, die Kurse k&ouml;nnen auch ganz ohne 
+Gegenleistungen besucht werden.<br /><br /><strong>Qigong &amp; Meditation</strong> / Ingrid Ung<br />2. Juli, 11&ndash;12 Uhr<br />Sprache: Englisch<br />Ort: HAL Atelierhaus / bei schlechtem Wetter im P&ouml;ge-Haus<br />Im Austausch freut Ingrid sich darauf, nach dem Kurs mit euch ins Gespr&auml;ch zu kommen.<br /><br /><strong>Der internationale Chor</strong> / Elias Toumeh<br />2. Juli, 15&ndash;18 Uhr, Um 18 Uhr besteht die M&ouml;glichkeit eines ersten Auftritts zur Er&ouml;ffnung des Kunstfest Neustadt. Bei Interesse besteht die Option den Chor weiter zu f&uuml;hren.<br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Gesangserfahrung<br />Sprachen: Englisch, Arabisch, Deutsch<br />Ort: B&uuml;rgergarten am P&ouml;ge-Haus / bei schlechtem Wetter im P&ouml;ge Haus<br />Elias freut sich darauf, mit euch eine gute Zeit zu verbringen.<br /><br /><strong>Chutneys selber machen</strong> / Andrea B&uuml;ttner<br />2. Juli, 12&ndash;14 Uhr, im Anschluss Picknick im HAL Garten<br />Mitbringen: Zutaten (erfahrt ihr nach der Anmeldung) &amp; Gef&auml;&szlig;e<br />Sprachen: Deutsch &amp; Englisch<br />Ort: HAL Atelierhaus<br />Im Austausch w&uuml;rde sich Andrea &uuml;ber eure veganen Lieblingsrezepte freuen.<br /><br /><strong>Malerei und Zeichnen</strong> / Christa Turnbull<br />2.&ndash;5. Juli, 12&ndash;17 Uhr, Teilnahme an einzelnen Tagen m&ouml;glich / am 3. und 4. Juli mit anschlie&szlig;endem Lagerfeuer <em> </em><br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Vorkenntnisse<br />Mitbringen: Falls vorhanden Kohlestifte, Farben, Papier (Material ist vor Ort) &amp; Beitrag f&uuml;r gemeinsames Vesper oder Kuchen<br />Sprachen: Deutsch &amp; Englisch<br />Ort: Stadtraum, Treffpunkt im HAL Atelierhaus<br /><br /><strong>Gitarre f&uuml;r Anf&auml;nger </strong>/ Robby Seitenschlag<br />2.&ndash;4. Juli, 12 &ndash; 17:30 Uhr am 3. und 4. Juli mit anschlie&szlig;endem Lagerfeuer<br />F&uuml;r: Erwachsene und Kinder ab 6 mit und ohne Vorkenntnisse<br />Mitbringen: Gitarre (falls vorhanden) &amp; Beitrag f&uuml;r gemeinsames Vesper oder Kuchen<br />Sprachen: Deutsch &amp; Englisch<br />Ort: HAL Atelierhaus<br /><br /><strong>Erfahrungsaustausch zur Arbeit mit Gefl&uuml;chteten</strong> / Arnim F&ouml;rster<br />3. Juli, 14&ndash;16 Uhr +&nbsp; 5. Juli, 15&ndash;17 (Praxistest beim interkulturellen Nachbarschaftscaf&eacute; &quot;Hildes Sprachtee&quot;)<br />F&uuml;r: Erwachsene mit und ohne Vorerfahrung<br />Sprachen: Deutsch, Englisch, Franz&ouml;sisch<br />Ort: HAL Atelierhaus<br />Im Austausch freut Arnim sich &uuml;ber Spenden (z.B. Kaffee, Tee, Geb&auml;ck) f&uuml;r den Begenungsort &quot;Hildes Sprachtee&quot;<br /><br /><strong>Pfadfinderwissen</strong> / Elias Toumeh<br />3. Juli, 15&ndash;19:30 Uhr, ab 18 Uhr mit Lagerfeuer im Hof des HAL Atelierhaus<br />F&uuml;r: Erwachsene und Kinder ab 6 Jahren<br />Mitbringen (optional): Seile (ca. 6mm St&auml;rke), St&ouml;cke (z.B. Besenstile) und/oder Marshmallows f&uuml;r das Lagerfeuer<br />Sprachen: Englisch, Arabisch, Deutsch<br />Ort: im Stadtraum, Treffpunkt im HAL Atelierhaus<br /><br /><strong>Percussion f&uuml;r Erwachsene</strong> / Sakhile Methula<br />3. Juli, 18&ndash;21 Uhr, am Lagerfeuer<br />Mitbringen: eigene Handtrommeln, falls vorhanden, Instrumente sind vor Ort<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br /><br /><strong>Percussion f&uuml;r Kinder ab 3</strong> / Sakhile Methula<br />4. Juli, 14&ndash;17 Uhr, ab 18 Uhr Lagerfeuer<br />Ort: HAL Atelierhaus<br />Mitbringen: eigene Handtrommeln, falls vorhanden, Instrumente sind vor Ort<br />Sprachen: Deutsch &amp; Englisch<br /><br /><strong>Zirkus f&uuml;r Kinder ab 8</strong> / Marissa Wloka<br />4.Juli, 16&ndash;18 Uhr, ab 18 Uhr Lagerfeuer<br />Mitbringen:&nbsp; Ausr&uuml;stung f&uuml;r Jonglage, Diabolo und Tellerdrehen, falls vorhanden, es gibt auch Ausr&uuml;stung vor Ort<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br />Im Austausch sucht Marissa sucht Kontakt zu Menschen, die mit Gefl&uuml;chteten arbeiten &ndash; sie m&ouml;chte sich gerne als 
+Zirkusp&auml;dagogin einzubringen.<br /><br /><strong>Hochbeetbau</strong> / Stadtpflanzer<br />5. Juli, 10&ndash;13 Uhr<br />Ort: HAL Atelierhaus<br />Sprachen: Deutsch &amp; Englisch<br />Im Austausch freuen die Stadtpflanzer sich &uuml;ber Pflanzen f&uuml;r das Hochbeet, das ihr gemeinsam bauen werdet. Es wird sp&auml;ter einer Gefl&uuml;chteten-Unterkunft gespendet.</p>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A149> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P221> ;
    dct:created "2016-06-06T15:01:45" ;
@@ -1078,7 +1082,8 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
    foaf:mbox "bienenland@eexistence.de" ;
    foaf:homepage <http://> ;
    foaf:Image "pictures/aae/83d5829a9cf1771430.jpg" ;
-   foaf:description """<p><strong>Willkommen im Bienenland!</strong></p><p>Mitten in Leipzig entstand im Jahr 2015 ein neuer Staat &ndash; das Bienenland. Aktuell residiert das Bienenland im 2. Stock des HAL Atelierhaus in der Projektwohnung Hildes Enkel: Es besitzt ein Postwesen, eine Fu&szlig;ballnationalmannschaft und es gibt regelm&auml;&szlig;ige Versammlungen, um die entstehenden Strukturen zu pflegen. Und wer einwandern will, der kann sich einfach einen Pass basteln.</p><p><strong>Einwohner:&nbsp; </strong>Die B&uuml;rgerInnen des Bienenlands sind aus vielen verschiedenen L&auml;ndern eingewandert, z.B. dem Iran, Sudan, Marokko, Serbien, Albanien, Deutschland oder Syrien.</p><p><strong>Gr&uuml;ndungsdatum</strong>: 22.02.15</p><p><strong>Nationalhymne:</strong> Coco Jambo (Mr. President)</p><p><strong>Nationalfeiertag:</strong> Geburtstag</p><p><strong>Nationalgericht:</strong> Honigwaffeln</p><p><strong>Amtssprache:</strong> Die Landessprache hei&szlig;t &bdquo;biendarabisch&ldquo;. Zur Stunde gibt es hier zwei allgemein anerkannte Begriffe: &bdquo;Guten Bienentit!&ldquo; und &bdquo;Bienenbirthday&ldquo;.</p><p><strong>Regierungssystem:</strong> basisdemokratische Versammlung, Wahlen in unregelm&auml;&szlig;igen Abst&auml;nden</p><p><strong>Staatsoberhaupt:</strong> Chefs werden in den Bienenlandversammlungen von den Bienenb&uuml;rgerInnen bestimmt:</p><p>aktuell kein amtierendes Staatsoberhaupt (2016)</p><p>Chef Jungen, Chef M&auml;dchen (November 2015)</p><p>Chefs f&uuml;r Spiele, Tanz, Malen, Dekoration, Sprachen, TV und Chillen (Juli 2015)</p><p>Chef alles (Februar 2015)</p><p><strong>W&auml;hrung: </strong>zur Zeit: keine. In der j&uuml;ngeren Geschichte des Bienenlands gab es bereits eine Inflation und eine zeitlang wurden Geldscheine nach der Person benannt, die sie besa&szlig;.</p><p><strong>Kontakt zu anderen Staaten</strong>: Bienenb&uuml;rgerInnen besuchen gerne andere L&auml;nder und freuen sich, die dortigen Gebr&auml;uche zu entdecken. Auch &uuml;ber kleine Geschenke und Aufmerksamkeiten freuen sie sich immer. Wenn Sie diplomatische Beziehungen zum Bienenland aufnehmen m&ouml;chten, dann melden Sie sich unter bienenland@eexistence.de.</p><p><strong>Mitmachen</strong></p><p><em>Das Bienenland als gelebte Utopie</em></p><p>Das Bienenland ist ein offenes Angebot f&uuml;r Kinder aus der Gemeinschaftsunetrkunft Torgauer Stra&szlig;e und dem Stadtteil rund um die Eisenbahnstra&szlig;e. Immer Dienstagnachmittags treffen sich die Bienenb&uuml;rgerInnen, um gemeinsam zu spielen, zu gestalten und die Stadt zu erkunden. In den Sommermonate vornehmlich drau&szlig;en auf verschiedenen Spielpl&auml;tzen und Freir&auml;umen im Leipziger Osten. Bei schlechtem Wetter und im Winter die den Projektr&auml;umen in der Hildegardstra&szlig;e 49 (Projektwohnung: Hildes Enkel). Gerne unternehmen die Bienenb&uuml;rgerInnen auch Ausfl&uuml;ge in verschiedene kulturelle Einrichtungen der Stadt &ndash; so waren wir u.a. schon bei der Kindersprechstunde des Oberb&uuml;rgermeisters, im Museum der Bildenden K&uuml;nste, in der Kinder- und JugendKulturWerkstatt Jojo und im Kleingarten Immergr&uuml;n.</p><p><em>Das Bienenland als Ort f&uuml;r freiwilliges Engagement, Vernetzung &amp; Austausch</em></p><p>Die Dienstags-Treffen werden von einer Gruppe engagierter Freiwilliger gestaltet und betreut. Einmal im Monat gibt es zudem ein Plenum f&uuml;r alle Freiwilligen, um aktuelle Entwicklungen, Erfahrungen und Probleme zu besprechen. Das Angebot umfasst nach Absprache die Abholung der Kinder in der Torgauer Stra&szlig;e, die gemeinsame Gestaltung des Nachmittags und das Zur&uuml;ckbringen der Kinder. Wichtig sind eine grunds&auml;tzliche Offenheit im Umgang mit Menschen und neuen Situationen und Geduld und Kreativit&auml;t bei &Uuml;bersetzungsprozessen. Du hast Lust, Teil des Bienenlands zu werden? Dann freuen wir uns &uuml;ber ein Nachricht an bienenland@eexistence.de</p><p><em>Das Bienenland als Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengruppe sieht sich das Bienenland auch als Initiator f&uuml;r weitere, zus&auml;tzliche kulturp&auml;dagogische Projekte im Stadtteil und der Arbeit mit Gefl&uuml;chteten. Aktuell f&uuml;hrt das Bienenland in Kooperation mit Theater Vision e.V. das Projekt Stadtteilgesichter durch.</p><p>&nbsp;</p>""" ;
+   foaf:description """<p><strong>Willkommen im Bienenland!</strong></p><p>Mitten in Leipzig entstand im Jahr 2015 ein neuer Staat &ndash; das Bienenland. Aktuell residiert das Bienenland im 2. Stock des HAL Atelierhaus in der Projektwohnung Hildes Enkel: Es besitzt ein Postwesen, eine Fu&szlig;ballnationalmannschaft und es gibt regelm&auml;&szlig;ige Versammlungen, um die entstehenden Strukturen zu pflegen. Und wer einwandern will, der kann sich einfach einen Pass basteln.</p><p><strong>Einwohner:&nbsp; </strong>Die B&uuml;rgerInnen des Bienenlands sind aus vielen verschiedenen L&auml;ndern eingewandert, z.B. dem Iran, Sudan, Marokko, Serbien, Albanien, Deutschland oder Syrien.</p><p><strong>Gr&uuml;ndungsdatum</strong>: 22.02.15</p><p><strong>Nationalhymne:</strong> Coco Jambo (Mr. President)</p><p><strong>Nationalfeiertag:</strong> Geburtstag</p><p><strong>Nationalgericht:</strong> Honigwaffeln</p><p><strong>Amtssprache:</strong> Die Landessprache hei&szlig;t &bdquo;biendarabisch&ldquo;. Zur Stunde gibt es hier zwei allgemein anerkannte Begriffe: &bdquo;Guten Bienentit!&ldquo; und &bdquo;Bienenbirthday&ldquo;.</p><p><strong>Regierungssystem:</strong> basisdemokratische Versammlung, Wahlen in unregelm&auml;&szlig;igen Abst&auml;nden</p><p><strong>Staatsoberhaupt:</strong> Chefs werden in den Bienenlandversammlungen von den Bienenb&uuml;rgerInnen bestimmt:</p><p>aktuell kein amtierendes Staatsoberhaupt (2016)</p><p>Chef Jungen, Chef M&auml;dchen (November 2015)</p><p>Chefs f&uuml;r Spiele, Tanz, Malen, Dekoration, Sprachen, TV und Chillen (Juli 2015)</p><p>Chef alles (Februar 2015)</p><p><strong>W&auml;hrung: </strong>zur Zeit: keine. In der j&uuml;ngeren Geschichte des Bienenlands gab es bereits eine Inflation und eine zeitlang wurden Geldscheine nach der Person benannt, die sie besa&szlig;.</p><p><strong>Kontakt zu anderen Staaten</strong>: Bienenb&uuml;rgerInnen besuchen gerne andere L&auml;nder und freuen sich, die dortigen Gebr&auml;uche zu entdecken. Auch &uuml;ber kleine Geschenke und Aufmerksamkeiten freuen sie sich immer. Wenn Sie diplomatische Beziehungen zum Bienenland aufnehmen m&ouml;chten, dann melden Sie sich unter bienenland@eexistence.de.</p><p><strong>Mitmachen</strong></p><p><em>Das Bienenland als gelebte Utopie</em></p><p>Das Bienenland ist ein offenes Angebot f&uuml;r Kinder aus der Gemeinschaftsunetrkunft Torgauer Stra&szlig;e und dem Stadtteil rund um die Eisenbahnstra&szlig;e. Immer Dienstagnachmittags treffen sich die Bienenb&uuml;rgerInnen, um gemeinsam zu spielen, zu gestalten und die Stadt zu erkunden. In den Sommermonate vornehmlich drau&szlig;en auf verschiedenen Spielpl&auml;tzen und Freir&auml;umen im Leipziger Osten. Bei schlechtem Wetter und im Winter die den Projektr&auml;umen in der Hildegardstra&szlig;e 49 (Projektwohnung: Hildes Enkel). Gerne unternehmen die Bienenb&uuml;rgerInnen auch Ausfl&uuml;ge in verschiedene kulturelle Einrichtungen der Stadt &ndash; so waren wir u.a. schon bei der Kindersprechstunde des Oberb&uuml;rgermeisters, im Museum der Bildenden K&uuml;nste, in der Kinder- und JugendKulturWerkstatt Jojo und im Kleingarten Immergr&uuml;n.</p><p><em>Das Bienenland als Ort f&uuml;r freiwilliges Engagement, Vernetzung &amp; Austausch</em></p><p>Die Dienstags-Treffen werden von einer Gruppe engagierter Freiwilliger gestaltet und betreut. Einmal im Monat gibt es zudem ein Plenum f&uuml;r alle Freiwilligen, um aktuelle Entwicklungen, Erfahrungen und Probleme zu besprechen. Das Angebot umfasst nach Absprache die Abholung der Kinder in der Torgauer Stra&szlig;e, die gemeinsame Gestaltung des Nachmittags und das Zur&uuml;ckbringen der Kinder. Wichtig sind eine grunds&auml;tzliche Offenheit im Umgang mit Menschen und neuen Situationen und Geduld und Kreativit&auml;t bei &Uuml;bersetzungsprozessen. Du hast Lust, Teil des Bienenlands zu werden? Dann freuen wir uns &uuml;ber ein Nachricht an bienenland@eexistence.de</p><p><em>Das Bienenland als 
+Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengruppe sieht sich das Bienenland auch als Initiator f&uuml;r weitere, zus&auml;tzliche kulturp&auml;dagogische Projekte im Stadtteil und der Arbeit mit Gefl&uuml;chteten. Aktuell f&uuml;hrt das Bienenland in Kooperation mit Theater Vision e.V. das Projekt Stadtteilgesichter durch.</p><p>&nbsp;</p>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A162> ;
    le:hatAdresszusatz "2. OG" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P248> ;
@@ -1152,17 +1157,581 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
    foaf:name "help* Festival" ;
    foaf:mbox "ariane@eexistence.de" ;
    foaf:homepage <https://leipziger-ecken.de/akteurprofil/91> ;
-   foaf:Image "pictures/aae/c1dc0e54daf1a7e907.jpg" ;
-   foaf:description """<p>Das Festivalprogramm besteht auch in diesem Jahr aus einem vielschichtigen Kulturprogramm rund um das HAL Atelierhaus im Leipziger Osten und erstmalig in R&uuml;digsdorf, im sch&ouml;nen Kohrener Land. Wie im letzten Jahr treffen sich in gem&uuml;tlicher Atmosph&auml;re Menschen aus verschiedenen Nachbarschaften, lokale Akteure, Newcomer und internationale Kunstschaffende. Sie tauschen sich untereinander aus, experimentieren und erproben vor Ort neue Ans&auml;tze in der Kunst und genie&szlig;en das friedliche Zusammenleben mit Menschen aus aller Welt.</p><p><strong>Das 2. Internationale help* Festival</strong></p><p>2. September bis zum 02. Oktober 2016</p><p><strong>#helpfest2016 #culture #art #action #welcome #help</strong></p><p><strong>#helpfest2016</strong></p><p>4 Wochen</p><p>60 Akteure</p><p>15 K&uuml;nstler*innen</p><p>250 Nachbar*innen</p><p>Stadt und Land</p><p>4 Honorary Kitchen</p><p>4 Hildes Sprachtee</p><p>4 Spielplatzbau</p><p>1 Flohmarkt</p><p>3 help* Resident*innen</p><p>Workshops, Lectures, Jam Sessions</p><p><strong>Vom HAL Atelierhaus zum Honorary Hotel</strong></p><p>W&auml;hrend des <strong>help* Festivals 2016</strong> entwickeln wir gemeinsam mit lokalen und internationalen Partnern das Konzept des <strong>Honorary Hotel</strong>s<strong>. </strong></p><p><strong>Unsere Vision vom Honorary Hotel</strong></p><p>Neben einem gut ausgestatteten und von allen nutzbaren Begegnungszentrum der K&uuml;nste im Leipziger Osten, soll ein internationales Netzwerk von Organisationen, NGOs, K&uuml;nstler*innen und anderen Lebens- und Freir&auml;umen entstehen und bespielt werden. Mit diesem Netzwerkkonzept suchen wir den Austausch mit anderen kreativen K&ouml;pfen, die mit ihren k&uuml;nstlerischen Ans&auml;tzen den sozialen Zusammenhalt von Menschen f&ouml;rdern.</p><p><strong>Wir crowdfunden einen Freiraum</strong></p><p>W&auml;hrend der Festivalzeit entwickeln wir mit lokalen und internationalen K&uuml;nstler*innen ein einzigartiges Crowdfundingkonzept. In diesem Jahr ist es das Ziel damit den fachgerechten Ausbau des Erdgescho&szlig;bereichs als &ouml;ffentlichen Begegnungsort zu realisieren.</p><p>Sei gespannt und komm vorbei!</p><p>Wir laden dich ein mit uns das multikulturelle Miteinander im Leipziger Osten zu feiern. Ob als Gast, w&auml;hrend einer help* Residence, einem Praktikum oder im Ehrenamt &ndash; wir hei&szlig;en alle lieben und weltoffenen Menschen herzlich willkommen!</p><p><em><a href="http://leipziger-ecken.de/helpfest2016">http://leipziger-ecken.de/helpfest2016</a></em></p><p><em><a href="http://HonoraryHotel.org/">http://HonoraryHotel.org</a></em></p><p>&nbsp;</p>""" ;
+   foaf:Image "pictures/aae/82fea6bead43e11a1b.jpg" ;
+   foaf:description """<p>Das Festivalprogramm besteht auch in diesem Jahr aus einem vielschichtigen Kulturprogramm rund um das HAL Atelierhaus im Leipziger Osten, R&uuml;digsdorf im sch&ouml;nen Kohrener Land und erstmalig in Kreuma beim Lobacher Hof. Wie im letzten Jahr treffen sich in gem&uuml;tlicher Atmosph&auml;re Menschen aus verschiedenen Nachbarschaften, lokale Kulturakteure, Newcomer und international t&auml;tige Kunstschaffende. Sie tauschen sich untereinander aus, experimentieren und erproben vor Ort neue Ans&auml;tze in der Kunst und genie&szlig;en das friedliche Zusammenleben mit Menschen aus aller Welt.</p><p><strong>Das 3. Internationale help* Festival</strong></p><p>8. September bis zum 7. Oktober 2017</p><p><strong>#helpfest2017 #culture #art #action #welcome #help</strong></p><p><strong>#helpfest2016</strong></p><p>4 Wochen</p><p>30 Akteure</p><p>15 K&uuml;nstler*innen</p><p>250 Nachbar*innen</p><p>Stadt und Land</p><p>4 Hildes Bauernmarkt</p><p>&nbsp;</p><p>4 Honorary Kitchen</p><p>3 help* Resident*innen</p><p>Workshops, Lectures, Jam Sessions</p><p><strong>Vom HAL Atelierhaus zum Honorary Hotel</strong></p><p>W&auml;hrend des <strong>help* Festivals 2017</strong> entwickeln wir gemeinsam mit lokalen und internationalen Partnern das Konzept des <strong>Honorary Hotel</strong>s<strong>. </strong></p><p><strong>Unsere Vision vom Honorary Hotel</strong></p><p>Neben einem gut ausgestatteten und von allen nutzbaren Begegnungszentrum der K&uuml;nste im Leipziger Osten, soll ein internationales Netzwerk von Organisationen, NGOs, K&uuml;nstler*innen und anderen Lebens- und Freir&auml;umen entstehen und bespielt werden. Mit diesem Netzwerkkonzept suchen wir den Austausch mit anderen kreativen K&ouml;pfen, die mit ihren k&uuml;nstlerischen Ans&auml;tzen den sozialen Zusammenhalt von Menschen f&ouml;rdern.</p><p><strong>Wir crowdfunden einen Freiraum</strong></p><p>W&auml;hrend der Festivalzeit entwickeln wir mit lokalen und internationalen K&uuml;nstler*innen ein einzigartiges Crowdfundingkonzept. In diesem Jahr ist es das Ziel damit den fachgerechten Ausbau des Erdgescho&szlig;bereichs als &ouml;ffentlichen Begegnungsort zu realisieren.</p><p>Sei gespannt und komm vorbei!</p><p>Wir laden dich ein mit uns das multikulturelle Miteinander im Leipziger Osten zu feiern. Ob als Gast, w&auml;hrend einer help* Residence, einem Praktikum oder im Ehrenamt &ndash; wir hei&szlig;en alle lieben und weltoffenen Menschen herzlich willkommen!</p><p><em><a href="http://leipziger-ecken.de/helpfest2016">http://leipziger-ecken.de/helpfest2017</a></em></p><p><em><a href="http://HonoraryHotel.org/">http://HonoraryHotel.net</a></em></p><p>&nbsp;</p>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A195> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P20> ;
    dct:created "2016-08-28T08:10:39" ;
-   dct:lastModified "2016-08-31T12:51:49" . 
+   dct:lastModified "2017-08-30T18:20:48" . 
 
 <http://leipziger-ecken.de/Data/Membership/M91> a org:Membership  ;
    org:member "Ari Malewitsch" ;
    org:organization <http://leipziger-ecken.de/Data/Akteur/A91> ;
    org:role "Organisatorin" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A92> a le:Akteur, org:Organization  ;
+   le:hasID "92" ;
+   foaf:name "Lichtstrahl" ;
+   foaf:mbox "info@lichtstrahl.de" ;
+   foaf:homepage <http://www.lichtstrahl-leipzig.de> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A207> . 
+
+<http://leipziger-ecken.de/Data/Ort/O92> a le:Ort  ;
+   le:hasAID "92" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A92> ;
+   foaf:name "Lichtstrahl" ;
+   foaf:mbox "info@lichtstrahl.de" ;
+   foaf:homepage <http://www.lichtstrahl-leipzig.de> ;
+   foaf:Image "pictures/aae/eee3334cd77d1720c9.jpg" ;
+   foaf:description """<p>Wir veranstalten jeden 1. und 3. Samstag im Monat von 15:30-17:00 Uhr ein Kinderfest im Leipziger Park Rabet. Herzlich willkommen!</p><p>&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A207> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P348> ;
+   dct:created "2016-09-29T10:14:54" ;
+   dct:lastModified "2016-09-29T10:15:34" . 
+
+<http://leipziger-ecken.de/Data/Membership/M92> a org:Membership  ;
+   org:member "Christopher Wegner" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A92> ;
+   org:role "Leiter" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A93> a le:Akteur, org:Organization  ;
+   le:hasID "93" ;
+   foaf:name "Ostwache" ;
+   foaf:mbox "ostwache@posteo.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A209> . 
+
+<http://leipziger-ecken.de/Data/Ort/O93> a le:Ort  ;
+   le:hasAID "93" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A93> ;
+   foaf:name "Ostwache" ;
+   foaf:mbox "ostwache@posteo.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/eb68ede716bd84fc14.jpg" ;
+   foaf:description """<p>Die Ostwache...<br />Die alte Feuerwache in Anger-Crottendorf wird gerade leer<br />gezogen. Die Branddirektion zieht um und das Geb&auml;ude<br />in der Gregor-Fuch-Stra&szlig;e mit gro&szlig;em Hof, Garagen und<br />vielen anderen R&auml;umen bietet mit einer Grundst&uuml;cksfl&auml;che<br />von ca. 7400 m2 Platz f&uuml;r Neues. Wir - einige Initiativen und<br />Interessierte aus dem Stadtteil - haben deshalb vor etwa<br />einem Jahr angefangen, uns zu treffen, Ideen zu spinnen<br />und an der Umsetzung zu arbeiten.<br />Die Grundidee des Konzepts:<br />In dem Geb&auml;udekomplex soll ein offenes Zentrum mit und<br />f&uuml;r den Stadtteil entstehen, das Raum f&uuml;r gewerbliche und<br />nichtkommerzielle Nutzungen bietet. [Mehr unter www.<br />ostwache.org] Wichtig ist f&uuml;r uns der Bezug zum Stadtteil.<br />Wir haben deshalb die Anwohner_innen befragt, was sie<br />sich f&uuml;r den Stadtteil w&uuml;nschen, der zu einem gro&szlig;en Teil<br />aus Kleing&auml;rten besteht, ansonsten aber kaum R&auml;ume<br />f&uuml;r nachbarschaftliche Begegnung und Austausch bietet.<br />Meist genannte Antworten waren: Begegnungsort f&uuml;r alle<br />Generationen, Spielpl&auml;tze, Sportr&auml;ume und Sportangebote<br />(auch f&uuml;r &auml;ltere Menschen), Caf&eacute;s und Kneipen, kleine<br />Einkaufsm&ouml;glichkeiten, R&auml;ume f&uuml;r Kulturveranstaltungen.<br />Mehr zu den Auswertungen aus den Befragungen k&ouml;nnt ihr<br />auf unserer Homepage lesen.<br />... sucht euch/Sie!<br />Wir suchen nun Initiativen, Vereine, Handwerker_innnen,<br />Kollektive, Einzelpersonen usw., die Lust haben,<br />davon etwas umzusetzen, oder auch ganz neue Ideen<br />mitbringen. Ein funktionierendes Finanzierungsmodell f&uuml;r<br />das Geb&auml;ude erarbeiten wir dann gemeinsam mit euch,<br />also den zuk&uuml;nftigen Nutzer_innen. Dabei streben wir<br />eine solidarische Querfinanzierung an, das hei&szlig;t, dass<br />Gesch&auml;fte, Werkst&auml;tten, B&uuml;ros etc. etwas mehr Miete<br />zahlen werden um damit nicht-kommerziellen (Stadtteil-)<br />Ostwache<br />Initiativen die M&ouml;glichkeit geben, ihre Pl&auml;ne bei<br />g&uuml;nstigeren Mietkosten umzusetzen. Wichtig: Hier<br />geht es nicht einfach darum, R&auml;ume anzumieten. Es<br />geht darum, gemeinsam am Konzept eines Zentrums<br />zu arbeiten, das sich der Nachbarschaft &ouml;ffnet.</p><p>Mitmachen!<br />Bei Interesse lest bitte in Ruhe das Konzept und die<br />Ergebnisse der Befragungen (www.ostwache.org)<br />f&uuml;llt bitte den Fragebogen auf der R&uuml;ckseite aus und<br />schickt ihn bis zum 15. Oktober 2016 an ostwache@<br />posteo.de Unter dieser e-Mail k&ouml;nnt ihr auch gerne<br />R&uuml;ckfragen stellen. Wir freuen uns, von euch zu h&ouml;ren!</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A209> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P354> ;
+   dct:created "2016-10-04T11:10:26" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A94> a le:Akteur, org:Organization  ;
+   le:hasID "94" ;
+   foaf:name "sherLOCKRooms" ;
+   foaf:mbox "info@sherlock-rooms.de" ;
+   foaf:phone "+4915254377425" ;
+   foaf:homepage <https://www.sherlock-rooms.de/EscapeRooms/> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A211> . 
+
+<http://leipziger-ecken.de/Data/Ort/O94> a le:Ort  ;
+   le:hasAID "94" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A94> ;
+   foaf:name "sherLOCKRooms" ;
+   foaf:mbox "info@sherlock-rooms.de" ;
+   foaf:phone "+4915254377425" ;
+   foaf:homepage <https://www.sherlock-rooms.de/EscapeRooms/> ;
+   foaf:Image "pictures/aae/f00fb60e598f73e4b2.jpg" ;
+   foaf:description """<p><strong>Spielspa&szlig; &amp; Events, Querdenken &amp; Kombinieren,&nbsp;Teambuilding &amp; Kulturelle Bildung</strong></p><p>Raus aus dem Alltag! 60 Minuten voller <strong>Adrenalin</strong>, <strong>Neugier</strong> und <strong>Spa&szlig;</strong>. Unser Projekt verwirklicht die kreative Umsetzung einer Spielidee, die unter dem Label <strong>Live Escape Games</strong> bekannt geworden ist: In themenbezogen gestalteten R&auml;umen erwarten Euch Herausforderungen, die sich durch das Finden vieler Hinweise und Gegenst&auml;nde ergeben. Aber Vorsicht, so manches f&uuml;hrt Euch in die Irre. Das Puzzle wird komplexer, die <strong>Zeit tickt</strong>. Die L&ouml;sung findet Ihr nur durch Kommunikation, Kombination und Querdenken.</p><p><strong>Escape Room 1: Sherlock&#39;s Wohnzimmer:&nbsp;</strong></p><p>Sherlock Holmes, der <strong>Meisterdetektiv</strong>, hat &uuml;ber seinen alten Erzrivalen Professor Moriarty nach vielen Wettstreiten endlich triumphiert. Da es ihm nun an einem ebenb&uuml;rtigen Gegner fehlt, sucht er eine neue Herausforderung. Er hat ein Auswahlverfahren entwickelt, das den Besten, den Kl&uuml;gsten und <strong>Gerissensten</strong> seiner Konkurrenten ausfindig machen soll. Seid Ihr mutig genug, Euch seinem &uuml;berlegenen Intellekt zu stellen? Traut Ihr Euch zu, seinem messerscharfen Verstand entgegenzutreten? Dann tretet ein und nehmt die <strong>Herausforderung</strong> an! Aber seid gewarnt: Lasst Euch nicht vom Zahlenwahnsinn &uuml;berkommen, vom Logikstrudel hinwegziehen oder von einer Denkschleife erdrosseln. Denn nur so findet Ihr den <strong>Schl&uuml;ssel</strong>, der Euch aus Sherlock&#39;s Wohnzimmer&nbsp;befreit.</p>""" ;
+   le:hatOeffungszeiten """Mo-So; 10:30-22:00 Uhr""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A211> ;
+   le:hatAdresszusatz "Hermann" ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P360> ;
+   dct:created "2016-10-11T21:16:55" ;
+   dct:lastModified "2016-10-11T21:27:10" . 
+
+<http://leipziger-ecken.de/Data/Membership/M94> a org:Membership  ;
+   org:member "Diana Dau" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A94> ;
+   org:role "Inhaberin" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A95> a le:Akteur, org:Organization  ;
+   le:hasID "95" ;
+   foaf:name "Kleine stadtfarm" ;
+   foaf:mbox "Kleine-stadt-farm@web.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A213> . 
+
+<http://leipziger-ecken.de/Data/Ort/O95> a le:Ort  ;
+   le:hasAID "95" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A95> ;
+   foaf:name "Kleine stadtfarm" ;
+   foaf:mbox "Kleine-stadt-farm@web.de" ;
+   foaf:homepage <http://> ;
+   foaf:description """<p>Wir sind eine Elterninitiative die sich zur Aufgabe gemacht hat Kindern eine sinnvolle Freizeitgestaltung zu erm&ouml;glichen und viel Spa&szlig; zu haben. Kinder k&ouml;nnen den Umgang mit Tieren lernen.&nbsp;</p><p>Homepage: kleine-stadt-farm.de.tl&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A213> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P367> ;
+   dct:created "2016-10-17T08:24:11" ;
+   dct:lastModified "2016-10-17T08:25:04" . 
+
+<http://leipziger-ecken.de/Data/Membership/M95> a org:Membership  ;
+   org:member "Silvio Olijnyk" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A95> ;
+   org:role "Projektleiter" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A96> a le:Akteur, org:Organization  ;
+   le:hasID "96" ;
+   foaf:name "Kampfsportschule Leipzig" ;
+   foaf:mbox "info@kampfsportschule-leipzig.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A214> . 
+
+<http://leipziger-ecken.de/Data/Ort/O96> a le:Ort  ;
+   le:hasAID "96" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A96> ;
+   foaf:name "Kampfsportschule Leipzig" ;
+   foaf:mbox "info@kampfsportschule-leipzig.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/729c131f02ca2ef53c.jpg" ;
+   foaf:description """<p>Wir sind ein bunt zusammen gew&uuml;rfelter Haufen von sport- und bewegungsbegeisterten Menschen, die ein teamorientiertes Training allesamt sehr sch&auml;tzen. Wir lachen viel und haben f&uuml;r jeden etwas dabei &ndash; egal, ob man sich auspowern will oder realistische Selbstverteidigung lernen m&ouml;chte oder sich in einem Sparring mit gleichgesinnten messen m&ouml;chte oder Waffenkampf oder Bodenkampf oder Cross Fitness betreiben m&ouml;chte. Wir bieten au&szlig;erdem verschiedene Kurse f&uuml;r Kinder ab 4 Jahren an, die ihnen dabei helfen, sich selbst zu verteidigen ud sportlicher zu werden. Schlie&szlig;lich unterst&uuml;tzen wir Frauen in speziellen Kursen dabei, Ihre F&auml;higkeit zur Selbstbehauptung zu st&auml;rken.</p><p>Die Kampfsportschule Leipzig gibt es bereits seit 2007. Damals haben ein paar hartgesottene Enthusiasten angefangen, im Park zu trainieren, um aus unterschiedlichen Systemen herauszufinden, was eigentlich realistische Selbstverteidigung ist und wie man diese am besten erlernen kann. Unser Kernsystem war in den ersten Jahre Wing Tsun. Jedoch haben wir das nie traditionell trainiert.</p><p>Im ersten Jahr haben wir noch in einem Keller in einem Studentenwohnheim trainiert (bei schlechtem Wetter). Nachdem unsere kleine Gruppe innerhalb der ersten Jahre auf &uuml;ber 10 Trainierende gewachsen war und das g&auml;nzlich ohne Werbung, festen Raum und unter Geheimhaltung, haben wir 2011 unsere ersten eigenen R&auml;umlichkeiten in der Heinrichstr. 11 bezogen. Stolze 21 qm Mattenfl&auml;che und ein Sammelsurium an Pratzen und Kettlebells hatten wir in unserem 42 qm Raum zur Verf&uuml;gung. Wir haben uns dem Verband The Wing Revolution angeschlossen, um die Qualit&auml;t des Trainings zu steigern. Fortan besuchten uns verschiedene Gr&ouml;&szlig;en des Kampfsports mehrmals im Jahr in Leipzig, um Seminare zu geben.</p><p>Das Training kommt gut an &ndash; so gut, dass wir Anfang 2013 wieder den Raum wechseln mussten. So kamen wir ins Aikido Dojo von Michael Kluck. Hier hatten wir in bester zentraler Lage ca. 150 qm Mattenfl&auml;che zur Verf&uuml;gung und so ausreichend Platz f&uuml;r unser Training. Im Laufe der Zeit wuchs unser Bedarf an Trainingszeiten so sehr, dass wir wieder eigene R&auml;umlichkeiten beziehen wollten.</p><p>So kam es, dass wir im Juli 2014 in die Stiftsstr. 7 gezogen sind und hier eine topmoderne, saubere und sch&ouml;ne Kampfsportschule eingerichtet haben.</p><p>Interesse? Melde dich zu einem (nat&uuml;rlich kostenlosen) Probetraining an. F&uuml;r weitere Informationen besuchen Sie unsere <a target="_blank" href="http://www.kampfsportschule-leipzig.de">Website</a>.</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A214> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P369> ;
+   dct:created "2016-10-18T18:53:04" ;
+   dct:lastModified "2016-10-18T18:57:11" . 
+
+<http://leipziger-ecken.de/Data/Membership/M96> a org:Membership  ;
+   org:member "Aron Schneider" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A96> ;
+   org:role "Schulleiter" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A97> a le:Akteur, org:Organization  ;
+   le:hasID "97" ;
+   foaf:name "OFF BOX Leipzig" ;
+   foaf:mbox "info@off-box.de" ;
+   foaf:phone "0179-7643890" ;
+   foaf:homepage <http://www.off-box.de> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A215> . 
+
+<http://leipziger-ecken.de/Data/Ort/O97> a le:Ort  ;
+   le:hasAID "97" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A97> ;
+   foaf:name "OFF BOX Leipzig" ;
+   foaf:mbox "info@off-box.de" ;
+   foaf:phone "0179-7643890" ;
+   foaf:homepage <http://www.off-box.de> ;
+   foaf:Image "pictures/aae/edfb383805cb064e13.jpg" ;
+   foaf:description """<p><strong>OFF BOX</strong> ist eine mobile Plattform aus Leipzig, die kreatives Verstehen und Handarbeit f&uuml;r Kinder, Jugendliche und Erwachsene anbietet. Wir als kleines Team, bestehend aus P&auml;dagog_innen und Grafikern_innen, haben es uns &uuml;ber die Technik des Siebdruckverfahrens zur Aufgabe gemacht, analoge k&uuml;nstlerische Methoden f&uuml;r jede_n erfahr- und praktisch anwendbarer zu gestalten.</p><p>Ob in der Schule, zu Projekttagen oder auf deiner Party - wir bringen mit individuellen Workshops Farbe und Empowerment in eure Veranstaltungen. Egal ob auf Textilien oder Papier, mit Spraydosen oder der Schere, f&uuml;r die Band, deinen Flyer oder nur so aus Interesse - werde mit uns aktiv und erkenne deine kreativen M&ouml;glichkeiten. Der Spa&szlig; an der Sache ist uns wichtig und die Erkenntnis, nicht immer alles vorgesetzt bekommen zu m&uuml;ssen.</p><p>Werde aktiv. Gestalte deinen Alltag neu!</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A215> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P372> ;
+   dct:created "2016-10-19T17:01:37" ;
+   dct:lastModified "2016-10-19T17:04:30" . 
+
+<http://leipziger-ecken.de/Data/Membership/M97> a org:Membership  ;
+   org:member "Pit / Konsti" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A97> ;
+   org:role "DIY-Manager" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A98> a le:Akteur, org:Organization  ;
+   le:hasID "98" ;
+   foaf:name "Freiwilligen-Agentur Leipzig" ;
+   foaf:mbox "info@fwal.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A233> . 
+
+<http://leipziger-ecken.de/Data/Ort/O98> a le:Ort  ;
+   le:hasAID "98" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A98> ;
+   foaf:name "Freiwilligen-Agentur Leipzig" ;
+   foaf:mbox "info@fwal.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/45664833fe7b376ee1.jpg" ;
+   foaf:description """<p>Die Freiwilligen-Agentur Leipzig e.V. ist das unabh&auml;ngige Kompetenzzentrum f&uuml;r b&uuml;rgerschaftliches Engagement in der Region Leipzig. Wir f&ouml;rdern Eigeninitiative sowie fachliche und soziale Kompetenz. Wir machen b&uuml;rgerschaftliches freiwilliges Engagement erlebbar.</p><p>Die Freiwilligen<em>-</em>Agentur Leipzig ist Vermittlungsstelle f&uuml;r freiwilliges Engagement. Wir stehen mit zalhreichen Gemeinwohlorganisationen in Kontakt und b&uuml;ndeln Angebote f&uuml;r freiwilliges Engagament. Gleichzeitig beraten wir Freiwillige auf ihrer Suche nach dem passenden Engagament. F&uuml;r die eigenst&auml;ndige Suche sind unsere Ehrenamtsangebote auch online einsehbar: http://www.freiwilligen-agentur-leipzig.de/suche-ehrenamt<br />Sollte Ihre Organisation ehrenamtliche Unterst&uuml;tzung suchen, wenden Sie sich gerne an uns!</p><p>Dar&uuml;ber hinaus bietet die <strong>Servicestelle </strong>einen individuellen Beratungsservice f&uuml;r Akteure der NGO-Landschaft. Sie haben Fragen zur Vereinsgr&uuml;ndung, zum Versicherungsschutz oder zur Aufwandsentsch&auml;digung im Ehrenamt? Sie brauchen einen Rat zur F&ouml;rdermittelbeantragung oder suchen Projektverb&uuml;ndete?</p><p>Unsere Mitarbeiterin steht Ihnen gerne zur Verf&uuml;gung. Fragen Sie nach einem gemeinsamen Gespr&auml;chstermin!</p><p>&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A233> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P384> ;
+   dct:created "2016-11-15T14:14:47" . 
+
+<http://leipziger-ecken.de/Data/Membership/M98> a org:Membership  ;
+   org:member "Judith Heese" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A98> ;
+   org:role "Servicestelle" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A102> a le:Akteur, org:Organization  ;
+   le:hasID "102" ;
+   foaf:name "Naomi e.V., Jugendmigrationsdienst" ;
+   foaf:mbox "jmd@naomi-leipzig.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A364> . 
+
+<http://leipziger-ecken.de/Data/Ort/O102> a le:Ort  ;
+   le:hasAID "102" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A102> ;
+   foaf:name "Naomi e.V., Jugendmigrationsdienst" ;
+   foaf:mbox "jmd@naomi-leipzig.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/89c7e3b56a78c3470c.jpg" ;
+   foaf:description """<p><strong>Jugendmigrationsdienst</strong></p><p>Sind Sie oder Ihre Angeh&ouml;rigen in den letzten Jahren nach Deutschland zugewandert?<br />Sind Sie oder Ihre Familie j&uuml;nger als 27 Jahre?<br />Dann k&ouml;nnen Sie unser kostenfreies Angebot nutzen:</p><ul><li>Beratung zu:<br />&Uuml;bergang von Schule zu Beruf<br />Anerkennung von Bildungsabschl&uuml;ssen<br />Sozialleistungen</li><li>Hilfe bei:<br />Antragstellung f&uuml;r Kindergeld und Arbeitslosengeld<br />Wohnungs- und Arbeitssuche</li><li>Begleitung zu Terminen (im Rahmen unserer M&ouml;glichkeiten):<br />in der Schule<br />im Jobcenter und bei anderen Beh&ouml;rden<br />beim Arzt</li></ul><p>&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A364> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P403> ;
+   dct:created "2017-05-31T15:01:12" ;
+   dct:lastModified "2017-05-31T15:02:16" . 
+
+<http://leipziger-ecken.de/Data/Membership/M102> a org:Membership  ;
+   org:member "Herr Harald Flemmig" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A102> ;
+   org:role "Leiter Jugendmigrationsdienst" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A103> a le:Akteur, org:Organization  ;
+   le:hasID "103" ;
+   foaf:name "Naomi e.V., Hochschulberatung" ;
+   foaf:mbox "jmd-felgner@naomi-leipzig.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A365> . 
+
+<http://leipziger-ecken.de/Data/Ort/O103> a le:Ort  ;
+   le:hasAID "103" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A103> ;
+   foaf:name "Naomi e.V., Hochschulberatung" ;
+   foaf:mbox "jmd-felgner@naomi-leipzig.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/89c7e3b56a78c3470c.jpg" ;
+   foaf:description """<p><strong>Bildungsberatung Garantiefonds Hochschule</strong></p><p>Die Bildungsberatung GF-H ber&auml;t und unterst&uuml;tzt junge Zugewanderte bei der Aufnahme oder Fortsetzung einer akademischen Laufbahn.</p><p>Kernthemen der Bildungsberatung GF-H sind:</p><ul><li>Spracherwerb (Sprachniveaus und geeignete Sprachkurse)</li><li>Bewertung der im Ausland erworbenen Vorbildung</li><li>Ma&szlig;nahmen zum Erwerb bzw. zur Vervollst&auml;ndigung der Hochschulreife</li><li>Studienangebot in Deutschland</li><li>Anrechnung von Studienleistungen aus dem Ausland</li><li>Studienfachwahl und Studienbewerbung</li><li>Ma&szlig;nahmen zur Eingliederung in den Akademikerarbeitsmarkt</li><li>Stipendien und F&ouml;rderangebote</li></ul><p>F&ouml;rderung</p><p>Fl&uuml;chtlinge und Sp&auml;taussiedler/-innen beantragen bei der Bildungsberatung GF-H<br />die Zulassung zur F&ouml;rderung vor Erreichen des 30. Lebensjahres. Die F&ouml;rderung<br />erstreckt sich auf Intensivsprachkurse Deutsch, Intensivsprachkurse Englisch,<br />Abiturkurse, Praktika f&uuml;r Akademiker und Seminare.</p><p>&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A365> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P403> ;
+   dct:created "2017-05-31T15:11:14" . 
+
+<http://leipziger-ecken.de/Data/Membership/M103> a org:Membership  ;
+   org:member "Herr Dirk Felgner" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A103> ;
+   org:role "Berater" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A104> a le:Akteur, org:Organization  ;
+   le:hasID "104" ;
+   foaf:name "caba-cafe" ;
+   foaf:mbox "bob.baier@gmx.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A369> . 
+
+<http://leipziger-ecken.de/Data/Ort/O104> a le:Ort  ;
+   le:hasAID "104" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A104> ;
+   foaf:name "caba-cafe" ;
+   foaf:mbox "bob.baier@gmx.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/d8098e8dacfc300ccb.jpg" ;
+   foaf:description """<p>caba-cafe, das kleine unscheinbare und gem&uuml;tliche Kaffee um die Ecke ;-)</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A369> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P417> ;
+   dct:created "2017-06-12T15:32:11" . 
+
+<http://leipziger-ecken.de/Data/Membership/M104> a org:Membership  ;
+   org:member "Robert Baier" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A104> ;
+   org:role "Mädchen für Alles" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A105> a le:Akteur, org:Organization  ;
+   le:hasID "105" ;
+   foaf:name "FREIRAUM FESTIVAL" ;
+   foaf:mbox "contact@freiraumleipzig.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A373> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> a le:Ort  ;
+   le:hasAID "105" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A105> ;
+   foaf:name "FREIRAUM FESTIVAL" ;
+   foaf:mbox "contact@freiraumleipzig.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/ca6a0d3dd1c6761151.jpg" ;
+   foaf:description """<p>Beim FREIRAUM Festival handelt es sich um ein Stadtteilfest in Leipzig. Es versteht sich als eine Repr&auml;sentations-, Partizipations- und Diskussionsgrundlage f&uuml;r eine kritische Reflektion sozialer und st&auml;dtebaulicher Entwicklungen im Leipziger Osten. In diesem Jahr findet das Festival am 8. und 9. September statt.</p><p>08. September 2017, 20 - 22 Uhr &gt;&gt; Er&ouml;ffnung in der Heilig-Kreuz-Kirche, Neust&auml;dter Markt<br />09. September 2017, 11 - 22 Uhr &gt;&gt; Allgemeines Festivalprogramm, Leipzig-Ost</p><p>Mehr gibt es via:<br />www.freiraumleipzig.de<br />https://www.facebook.com/events/1465299823511734</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A373> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P418> ;
+   dct:created "2017-06-13T00:43:54" ;
+   dct:lastModified "2017-06-13T00:46:38" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A106> a le:Akteur, org:Organization  ;
+   le:hasID "106" ;
+   foaf:name "Ortsgruppe Ost" ;
+   foaf:mbox "ortsgruppe-ost@bundleipzig.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A384> . 
+
+<http://leipziger-ecken.de/Data/Ort/O106> a le:Ort  ;
+   le:hasAID "106" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A106> ;
+   foaf:name "Ortsgruppe Ost" ;
+   foaf:mbox "ortsgruppe-ost@bundleipzig.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/b0dde879bb4b298310.jpg" ;
+   foaf:description """<p>Hallo!</p><p>Wir von der Ortsgruppe Ost des BUND sind in den Stadtteilen Neustadt-Neusch&ouml;nefeld, Volkmarsdorf, Reudnitz, Anger-Crottendorf und St&ouml;tteritz aktiv und engagieren uns f&uuml;r Umweltbildung und Nachhaltigkeit im Alltag. Wir wollen euch zeigen, wie einfach es ist den Alltag nachhaltiger und umweltfreundlicher zu gestalten - und das macht sogar Spa&szlig;! Wir wollen euch direkt vor Ort abholen und mit euch zusammen die Nachbarschaft gr&uuml;ner, bunter und sch&ouml;ner machen!</p><p>Wir veranstalten regelm&auml;&szlig;ig Aktionen wie Samelkugelnworkshops, Wildkr&auml;uterwanderungen, M&uuml;llsammelaktionen, initiieren Gemeinschaftsg&auml;rten im Leipziger Osten und wollen die Idee der &quot;Essbaren Stadt&quot; weiter verbreiten.</p><p>Dar&uuml;berhinaus geht es auch um die Begegnung von Menschen und das F&ouml;rdern eines gemeinschaftlichen Miteinander. Also schaut vorbei! Wir freuen uns auf euch!</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A384> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P414> ;
+   dct:created "2017-06-27T18:52:07" . 
+
+<http://leipziger-ecken.de/Data/Membership/M106> a org:Membership  ;
+   org:member "Amanda" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A106> ;
+   org:role "Gründungsmitglied" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A107> a le:Akteur, org:Organization  ;
+   le:hasID "107" ;
+   foaf:name "Müzik-Stüdyo.74" ;
+   foaf:mbox "daniel.vargas@villa-leipzig.de" ;
+   foaf:homepage <http://facebook.com/MuzikStudyo.74/> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A385> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> a le:Ort  ;
+   le:hasAID "107" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A107> ;
+   foaf:name "Müzik-Stüdyo.74" ;
+   foaf:mbox "daniel.vargas@villa-leipzig.de" ;
+   foaf:homepage <http://facebook.com/MuzikStudyo.74/> ;
+   foaf:Image "pictures/aae/a7a8d01bb36673e9d0.jpg" ;
+   foaf:description """<p>Das M&uuml;zik-St&uuml;dyo.74 ist entgegen der ersten Erwartung kein Musikstudio, sondern ein Ort an dem Musik erlebt wird.&nbsp;</p><p>Es gibt einen komplett ausgestatteten Bandproberaum mit PA, Schlagzeug, Keyboard, Gitarren und B&auml;sse. Hier unterst&uuml;tzen wir Jugendbands an ihren musikalischen F&auml;higkeiten zu pfeilen und bieten jugendlichen&nbsp;Kleingruppen aus Schulen oder anderen Einrichtungen die M&ouml;glichkeit das Spielen in einer Band zu erleben.&nbsp;</p><p>Jeden Donnerstag &ouml;ffnen wir unsere T&uuml;ren bei der &quot;musikalischen Couch&quot; und am ersten Samstag im Monat gibt es unsere Jam-Session im Haus.<br />&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A385> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P396> ;
+   dct:created "2017-06-28T11:16:35" ;
+   dct:lastModified "2017-10-10T10:45:44" . 
+
+<http://leipziger-ecken.de/Data/Membership/M107> a org:Membership  ;
+   org:member "Daniel Vargas" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A107> ;
+   org:role "Projektleitung" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A109> a le:Akteur, org:Organization  ;
+   le:hasID "109" ;
+   foaf:name "Nebenan" ;
+   foaf:mbox "nebenan@outlook.com" ;
+   foaf:homepage <https://www.facebook.com/nebenan.daneben/> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A387> . 
+
+<http://leipziger-ecken.de/Data/Ort/O109> a le:Ort  ;
+   le:hasAID "109" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A109> ;
+   foaf:name "Nebenan" ;
+   foaf:mbox "nebenan@outlook.com" ;
+   foaf:homepage <https://www.facebook.com/nebenan.daneben/> ;
+   foaf:Image "pictures/aae/914c00a14ca44cc960.jpg" ;
+   foaf:description """<p>Wohnzimmer ist nicht vorhanden...</p><p>oder mal wieder nicht aufger&auml;umt / Bier ist alle...und Kaffee sowieso?<br />Gut, dass nebenan ne Bar aufgemacht hat!</p><p>Neben unseren regul&auml;ren &Ouml;ffnungszeiten als Kneipe:</p><p>Mo. 20:00 - 02:00</p><p>Mi. 20:00 - 02:00</p><p>Sa. 20:00 - 02:00</p><p>Bieten wir Raum f&uuml;r Ausstellungen, Lesungen, Konzerte und was euch eben noch so einf&auml;llt :)</p><p>Also meldet euch gern! :)</p><p>Bis dann, Nebenan.</p><p>&nbsp;</p>""" ;
+   le:hatOeffungszeiten """Mo, Mi, Sa von 20:00 bis 02:00""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A387> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P420> ;
+   dct:created "2017-07-03T09:06:23" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A110> a le:Akteur, org:Organization  ;
+   le:hasID "110" ;
+   foaf:name "ein park im osten" ;
+   foaf:mbox "einparkimosten@riseup.net" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A389> . 
+
+<http://leipziger-ecken.de/Data/Ort/O110> a le:Ort  ;
+   le:hasAID "110" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A110> ;
+   foaf:name "ein park im osten" ;
+   foaf:mbox "einparkimosten@riseup.net" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/a436397a106cbd8b4f.jpg" ;
+   foaf:description """<p>Wir sind ein Zusammenschluss von verschiedenen Initiativen und Projekten, die hier einen selbst-organisierten Stadtteilpark erm&ouml;glichen wollen.</p><p><a href="https://epio.noblogs.org/">https://epio.noblogs.org/</a></p><p>Wir denken: Ein Park, den seine k&uuml;nftigen Nutzer*innen selbst gestalten und dessen sozio-kulturellen Angebote allen offen stehen, wird unser Quartier deutlich mehr bereichern, als ein reiner urbaner Wald allein dies leisten kann. Leipzig hat hier die einmalige Chance seinem Image nach einer lebendigen, selbstbestimmten, freiraum-orientierten Stadt durch einen kommunalen Beitrag zu best&auml;tigen. Bist du dabei?</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A389> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P422> ;
+   dct:created "2017-07-06T13:36:04" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A111> a le:Akteur, org:Organization  ;
+   le:hasID "111" ;
+   foaf:name "Die Brücke" ;
+   foaf:mbox "hugo.gevers@gmail.com" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A390> . 
+
+<http://leipziger-ecken.de/Data/Ort/O111> a le:Ort  ;
+   le:hasAID "111" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A111> ;
+   foaf:name "Die Brücke" ;
+   foaf:mbox "hugo.gevers@gmail.com" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/00647104149e8540f4.jpg" ;
+   foaf:description """<p>&quot;Die Br&uuml;cke&quot; ist ein Begegnungshaus f&uuml;r Kinder, Jugendliche und Migranten. Wir bieten Freizeitangebote und erlebnisp&auml;dagogische Projekte f&uuml;r Kinder an. Indessen wollen wir gern zwischen Familien, SChule und anderen profesionellen Organisationen vermitteln. F&uuml;r Migranten bieten wir Beratung f&uuml;r das Asylverfahren an. Ausserdem wollen wir ganz allgemein f&uuml;r di Sorgen und N&ouml;te der Menschen als Gespr&auml;chspartner da sein. F&uuml;r INteressenten bieten wir christlichen Unterricht und die Integration in eine christlichen GEmeinde an.</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A390> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P423> ;
+   dct:created "2017-07-17T17:13:36" . 
+
+<http://leipziger-ecken.de/Data/Membership/M111> a org:Membership  ;
+   org:member "Hugo Gevers" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A111> ;
+   org:role "Leiter" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A114> a le:Akteur, org:Organization  ;
+   le:hasID "114" ;
+   foaf:name "Bildungsverein Parcours e.V." ;
+   foaf:mbox "info@parcours-bildung.org" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A412> . 
+
+<http://leipziger-ecken.de/Data/Ort/O114> a le:Ort  ;
+   le:hasAID "114" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A114> ;
+   foaf:name "Bildungsverein Parcours e.V." ;
+   foaf:mbox "info@parcours-bildung.org" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/d4243b2d6ca86e479e.jpg" ;
+   foaf:description """<p>Der Bildungsverein Parcours e.V. bietet Workshops, Seminare und Projekttage f&uuml;r Jugendliche und junge Erwachsene an, um gemeinsam politische und gesellschaftliche Zusammenh&auml;nge erfahrbar und begreifbar zu machen, da so M&ouml;glichkeiten und Handlungsoptionen f&uuml;r deren Ver&auml;nderung erst er&ouml;ffnet werden.<br />Ziel unserer Bildungsarbeit ist eine kritische Auseinandersetzung mit Ideologien der Ungleichwertigkeit und aktuellen Erscheinungsformen des politisch rechten Spektrums. Die Inhalte und Methoden werden dabei individuell an die Interessen, Vorkenntnisse und Erwartungen der jeweiligen Zielgruppe angepasst.<br />F&uuml;r weitere Informationen und eine &Uuml;bersicht &uuml;ber unsere aktuellen Projekte besuchen Sie unsere Webseite: http://parcours-bildung.org/</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A412> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P425> ;
+   dct:created "2017-08-23T11:32:20" ;
+   dct:lastModified "2017-08-23T11:57:30" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A115> a le:Akteur, org:Organization  ;
+   le:hasID "115" ;
+   foaf:name "Kleine stadtfarm" ;
+   foaf:mbox "tine84joe2015@gmail.com" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A417> . 
+
+<http://leipziger-ecken.de/Data/Ort/O115> a le:Ort  ;
+   le:hasAID "115" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A115> ;
+   foaf:name "Kleine stadtfarm" ;
+   foaf:mbox "tine84joe2015@gmail.com" ;
+   foaf:homepage <http://> ;
+   foaf:description """<p>Wir sind eine elterninitiative die sich zur Aufgabe gemacht hat Kindern eine sinnvolle Freizeitgestaltung zu bieten und den Kontakt zu Tieren erm&ouml;glicht</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A417> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P367> ;
+   dct:created "2017-08-24T21:25:23" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A116> a le:Akteur, org:Organization  ;
+   le:hasID "116" ;
+   foaf:name "FiA – Frau­en in Ar­beit" ;
+   foaf:mbox "lehmann@frauenkultur-leipzig.de" ;
+   foaf:phone "0341–58154515" ;
+   foaf:homepage <http://www.fia-leipzig.de> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A421> . 
+
+<http://leipziger-ecken.de/Data/Ort/O116> a le:Ort  ;
+   le:hasAID "116" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A116> ;
+   foaf:name "FiA – Frau­en in Ar­beit" ;
+   foaf:mbox "lehmann@frauenkultur-leipzig.de" ;
+   foaf:phone "0341–58154515" ;
+   foaf:homepage <http://www.fia-leipzig.de> ;
+   foaf:Image "pictures/aae/48dd6808f089435bef.jpg" ;
+   foaf:description """<p><em><em>FiA</em></em> bie&shy;tet Frau&shy;en aus allen Kul&shy;tur- und Sprachr&auml;u&shy;men In&shy;for&shy;ma&shy;tio&shy;nen und Un&shy;ter&shy;st&uuml;t&shy;zung zu den The&shy;men: Aus&shy;bil&shy;dung, Aner&shy;ken&shy;nung von Ab&shy;schl&uuml;s&shy;sen, be&shy;ruf&shy;li&shy;che Qua&shy;li&shy;fi&shy;ka&shy;tio&shy;nen, Ar&shy;beit, ver&shy;si&shy;che&shy;rungs&shy;pflich&shy;ti&shy;ge Er&shy;werbs&shy;t&auml;&shy;tig&shy;kei&shy;ten.</p><p><em><em>FiA</em></em> ist ein Ort, an dem Frau&shy;en viel&shy;schich&shy;ti&shy;ge Un&shy;ter&shy;st&uuml;t&shy;zung er&shy;fah&shy;ren, an&shy;de&shy;re Frau&shy;en und M&ouml;g&shy;lich&shy;kei&shy;ten ken&shy;nen&shy;ler&shy;nen, um eine pas&shy;sen&shy;de Aus&shy;bil&shy;dung, ein Prak&shy;ti&shy;kum, eine Wei&shy;ter&shy;bil&shy;dung oder Ar&shy;beit fin&shy;den zu k&ouml;n&shy;nen.</p><p><em><em>FiA</em></em> l&auml;dt alle in&shy;ter&shy;es&shy;sier&shy;ten Frau&shy;en ein zu ver&shy;schie&shy;de&shy;nen in&shy;for&shy;ma&shy;ti&shy;ven wie auch krea&shy;tiv-kom&shy;mu&shy;ni&shy;ka&shy;ti&shy;ven Ak&shy;tio&shy;nen, die hilf&shy;reich f&uuml;r das All&shy;tags&shy;le&shy;ben sind &ndash; unter dem <em>FiA-Motto</em>: An&shy;kom&shy;men | Wei&shy;ter&shy;kom&shy;men | Ar&shy;beit fin&shy;den | Hier bes&shy;ser leben.</p><p>Ein Pro&shy;jekt des Frau&shy;en&shy;kul&shy;tur e.V. Leip&shy;zig &ndash; So&shy;zio&shy;kul&shy;tu&shy;rel&shy;les Zen&shy;trum</p>""" ;
+   le:hatOeffungszeiten """Mo &amp; Do:  10.00 - 15.00 Uhr Die, Mi &amp; Fr: 10.00 Uhr - 17.00 Uhr""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A421> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P27> ;
+   dct:created "2017-08-25T11:39:48" ;
+   dct:lastModified "2017-08-25T11:40:34" . 
+
+<http://leipziger-ecken.de/Data/Membership/M116> a org:Membership  ;
+   org:member "Christine Rietzke" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A116> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A117> a le:Akteur, org:Organization  ;
+   le:hasID "117" ;
+   foaf:name "OFT Club Sellerhausen" ;
+   foaf:mbox "club-sellerhausen@internationaler-bund.de" ;
+   foaf:phone "0341-2301023" ;
+   foaf:homepage <https://facebook.com/oft.club.sellerhausen> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A450> . 
+
+<http://leipziger-ecken.de/Data/Ort/O117> a le:Ort  ;
+   le:hasAID "117" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A117> ;
+   foaf:name "OFT Club Sellerhausen" ;
+   foaf:mbox "club-sellerhausen@internationaler-bund.de" ;
+   foaf:phone "0341-2301023" ;
+   foaf:homepage <https://facebook.com/oft.club.sellerhausen> ;
+   foaf:Image "pictures/aae/53308b73276cb87704.jpg" ;
+   foaf:description """<p><strong>Im Club Sellerhausen k&ouml;nnt ihr&nbsp;</strong></p><ul><li>euch mit euren Freunden treffen, quatschen und chillen</li><li>neue Leute kennenlernen</li><li>gemeinsam Musik h&ouml;ren &amp; dazu tanzen</li><li>Billard und Tischtennis spielen</li><li>im Internet surfen</li><li>mit uns kochen, backen, basteln</li><li>euch sportlich bet&auml;tigen beim Basketball, Breakdance, Fu&szlig;ball, Trampolinspringen und vielem anderem mehr</li><li>Ferienangebote nutzen und mit gestalten</li><li>Unterst&uuml;tzung bei euren&nbsp;Hausaufgaben, Pr&uuml;fungsvorbereitungen, etc. bekommen</li><li>mit uns zusammen eure Bewerbungen schreiben, Einstellungstests trainieren, f&uuml;r Vorstellungsgespr&auml;che &uuml;ben</li><li>bei M&auml;dchen- und Jungengruppen mitmachen</li></ul><p>&nbsp;&nbsp; &nbsp; &nbsp;... eure eigenen Ideen einbringen und verwirklichen.</p><p>&nbsp;&nbsp; &nbsp; &nbsp;... sicher sein, immer ein offenes Ohr f&uuml;r eure kleinen&nbsp;und gro&szlig;en Probleme zu finden.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... Seid ihr neugierig geworden, dann schaut mal vorbei!</p>""" ;
+   le:hatOeffungszeiten """Mo-Fr 14-20 Uhr""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A450> ;
+   le:barrierefrei "1" ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P429> ;
+   dct:created "2017-09-06T20:27:56" ;
+   dct:lastModified "2017-09-06T20:28:30" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A118> a le:Akteur, org:Organization  ;
+   le:hasID "118" ;
+   foaf:name "Querbeet Leipzig e.V." ;
+   foaf:mbox "angelajost@web.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A451> . 
+
+<http://leipziger-ecken.de/Data/Ort/O118> a le:Ort  ;
+   le:hasAID "118" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A118> ;
+   foaf:name "Querbeet Leipzig e.V." ;
+   foaf:mbox "angelajost@web.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/7368665a015a2c57cc.jpg" ;
+   foaf:description """<p>Tomate, Erbsen oder Rote Beete - unser Gemeinschaftsgarten bietet viel Platz f&uuml;rs eigene Allerlei. Seid Ihr erfahren oder lernwillig? Dann besucht uns gern zu den &Ouml;ffnungszeiten und bringt Euch aktiv ins Gartengeschehen ein! Im Fr&uuml;hjahr losen wir Beete aus, bestellen Saatgut und teilen uns in die Pflanzenpflege. Daneben finden in diesem Garten v.a. kulturelle und p&auml;dagogische Veranstaltungen statt. Wer Lust auf mehr Gr&uuml;n hat, kann uns gerne kontaktieren, um &uuml;ber die n&auml;chsten Bau-Aktionen und Plena Bescheid zu wissen.</p><p>http://www.querbeet-leipzig.de/</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A451> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P427> ;
+   dct:created "2017-09-12T13:41:38" . 
+
+<http://leipziger-ecken.de/Data/Membership/M118> a org:Membership  ;
+   org:member "Angela Jost" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A118> ;
+   org:role "Gartenmitglied" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A119> a le:Akteur, org:Organization  ;
+   le:hasID "119" ;
+   foaf:name "weh.MUT - Traumapsychologische Beratungsstelle" ;
+   foaf:mbox "weh.mut-leipzig@mail.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A466> . 
+
+<http://leipziger-ecken.de/Data/Ort/O119> a le:Ort  ;
+   le:hasAID "119" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A119> ;
+   foaf:name "weh.MUT - Traumapsychologische Beratungsstelle" ;
+   foaf:mbox "weh.mut-leipzig@mail.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/52909879b0ab3517c5.jpg" ;
+   foaf:description """<p><strong>Vom weh zum MUT. Selbstst&auml;rkung tut gut! </strong>Menschen, die Situationen &uuml;berw&auml;ltigender Hilflosigkeit und Verletzungen in fr&uuml;hen Bindungsbeziehungen erleiden, entwickeln &Uuml;berlebensstrategien, die nicht selten einen R&uuml;ckzug aus dem Kontakt mit ihrer Lebendigkeit zur Folge haben. Als unabh&auml;ngige Beratungsstelle m&ouml;chten wir Betroffenen und Angeh&ouml;rigen...</p><p>- auf Augenh&ouml;he begegnen und einen gesch&uuml;tzen Raum zur Verf&uuml;gung stellen, in dem Sie willkommen sind, geh&ouml;rt werden und sich angenommen f&uuml;hlen.</p><p>- Wir begleiten Sie in Ihren Fragestellungen durch die Vermittlung von Wissen, unterst&uuml;tzen Erfahrungen von Entlastung und</p><p>- schauen gemeinsam mit Ihnen auf das, was tr&auml;gt, wenn Sie nach Halt suchen.</p><p>Dabei legen wir gro&szlig;en Wert auf Selbstbestimmtheit und Mitbestimmung der Angebote, so dass Sie den Weg von &quot;altem weh&quot; zu &quot;neuem MUT&quot; in den Schritten gehen k&ouml;nnen, wie es Ihnen und Ihrer Situation entspricht.</p><p>Wir beraten vertraulich und kostenfrei. Termine nur mir vorheriger Anmeldung: weh.mut-leipzig@mail.de oder via Facebook. Ferdinand-Jost-Str. 20, 04299 Leipzig-St&ouml;tteritz.</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A466> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P432> ;
+   dct:created "2017-09-23T12:26:16" ;
+   dct:lastModified "2017-09-23T12:58:46" . 
+
+<http://leipziger-ecken.de/Data/Membership/M119> a org:Membership  ;
+   org:member "F. Seidel" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A119> ;
+   org:role "Traumaberater" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A120> a le:Akteur, org:Organization  ;
+   le:hasID "120" ;
+   foaf:name "Creative Writing. Kurs im Leipziger Osten" ;
+   foaf:mbox "juz@gmx.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A470> . 
+
+<http://leipziger-ecken.de/Data/Ort/O120> a le:Ort  ;
+   le:hasAID "120" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A120> ;
+   foaf:name "Creative Writing. Kurs im Leipziger Osten" ;
+   foaf:mbox "juz@gmx.de" ;
+   foaf:homepage <http://> ;
+   foaf:Image "pictures/aae/cffd59c341a28c6a9b.jpg" ;
+   foaf:description """<p>Schreiben ist schrecklich asozial. Oft ist nat&uuml;rlich gerade der pers&ouml;nliche R&uuml;ckzug gewollt. Aber die Einsamkeit kann einen schon ziemlich fertig machen und, noch eine schlechte Nachricht: Dem Schreiben tut es auf Dauer auch nicht gut.</p><p>Der fortlaufende Kurs ist f&uuml;r alle gedacht, die kontinuierlich Auseinandersetzung suchen und Lernprozesse machen wollen, nicht nur im Sinne eines Empowerments. Stiltraining, Geschmacksbildung, Selbstkonfrontation, gemeinsame Reflexion von Leseerfahrungen, Wissensaneignung, spielerische Herausforderung, Kritik, Anregung &ndash; abwechslungsreiche Inhalte, die je in Abstimmung mit den Interessen der Teilnehmer geplant werden.</p><p>Wann? Immer samstags 11 bis 13 Uhr</p><p>Kosten: 7 Euro/ 1 Treffen. 50 Euro/ 10 Treffen. Der erste Besuch ist immer kostenlos.</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A470> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P421> ;
+   dct:created "2017-09-25T11:27:17" . 
+
+<http://leipziger-ecken.de/Data/Membership/M120> a org:Membership  ;
+   org:member "Juliane Zöllner" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A120> ;
+   org:role "Leitung" . 
+
+<http://leipziger-ecken.de/Data/Akteur/A121> a le:Akteur, org:Organization  ;
+   le:hasID "121" ;
+   foaf:name "Projekt- und Ehrenamtskoordination Mühlstrasse 14 e.V." ;
+   foaf:mbox "integration@muehlstrasse.de" ;
+   foaf:homepage <http://> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A491> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> a le:Ort  ;
+   le:hasAID "121" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A121> ;
+   foaf:name "Projekt- und Ehrenamtskoordination Mühlstrasse 14 e.V." ;
+   foaf:mbox "integration@muehlstrasse.de" ;
+   foaf:homepage <http://> ;
+   foaf:description """<p>Wir unterst&uuml;tzen Gefl&uuml;chtete beim Ankommen. Wir unterst&uuml;tzen Menschen, die unterwegs sind, um gefl&uuml;chtete Menschen zu unterst&uuml;tzen. Wir ahnen, dass manchmal auf einen Schritt zur&uuml;ck, zwei nach Vorne folgen. Denn wir wissen nicht alles, aber zusammen finden wir Formen und Informationen, die uns alle ein St&uuml;ck weiterbringen. Durch Begegnung, gemeinsames Ideen-Schmieden, Ausprobieren und Reflektieren finden wir immer einen Weg oder eine Richtung.&nbsp;</p><p>Unterst&uuml;tzung, Begegnung und Spa&szlig; - Engagement hat viele Gesichter! Bist Du dabei?</p><p>Du willst Dich ehrenamtlich einbringen und wei&szlig;t nicht genau was und wo du bedarfsorientiert t&auml;tig werden kannst? Du engagierst Dich bereits und hast Fragen zu bestimmten Themen? Du hast Fragen zum Ankommen in Leipzig, Sachsen oder Deutschland? In Zusammenarbeit mit unterschiedlichen Kooperationspartner*innen k&ouml;nnen wir Dir unterschiedliche Bet&auml;tigungsfelder f&uuml;r ein bedarfsorientiertes Engagement in diversen Vereinen aufzeigen. Wir organisieren oder multiplizieren Workshops f&uuml;r Aktive, und reagieren gerne auf individuelle Fragen, Ideen und Bedarfe. Wir unterst&uuml;tzen Dich bei der Projektplanung und mit materiellen Hilfen f&uuml;r Projekte im Bereich der Fl&uuml;chtlingshilfe. Offen f&uuml;r Alle und (fast) alles, was unsere Gesellschaft noch demokratischer, toleranter und vielf&auml;ltiger macht!</p><p>Mehr aktuelle Infos &uuml;ber bestehende Angebote und ehrenamtlich durchgef&uuml;hrte Projekte gibt es hier <a href="https://www.facebook.com/IntergrationMuehle/">https://www.facebook.com/IntergrationMuehle/</a></p><p><em>Eine F&ouml;rderung aus der s&auml;chsischen Richtlinie Integrative Ma&szlig;nahmen erm&ouml;glicht unsere Arbeit. </em></p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A491> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P433> ;
+   dct:created "2017-10-20T11:59:06" ;
+   dct:lastModified "2017-10-20T12:01:26" . 
+
+<http://leipziger-ecken.de/Data/Membership/M121> a org:Membership  ;
+   org:member "Luise Schöpflin" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A121> ;
+   org:role "Projektkoordination" . 
 
 <http://leipziger-ecken.de/Data/Akteur/A5> org:hasMember <http://leipziger-ecken.de/Data/Person/P21> . 
 
@@ -1254,7 +1823,55 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Akteur/A89> org:hasMember <http://leipziger-ecken.de/Data/Person/P294> . 
 
-<http://leipziger-ecken.de/Data/Akteur/A91> org:hasMember <http://leipziger-ecken.de/Data/Person/P2> . 
+<http://leipziger-ecken.de/Data/Akteur/A91> org:hasMember <http://leipziger-ecken.de/Data/Person/P20> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A92> org:hasMember <http://leipziger-ecken.de/Data/Person/P348> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A93> org:hasMember <http://leipziger-ecken.de/Data/Person/P354> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A94> org:hasMember <http://leipziger-ecken.de/Data/Person/P360> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A95> org:hasMember <http://leipziger-ecken.de/Data/Person/P367> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A96> org:hasMember <http://leipziger-ecken.de/Data/Person/P369> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A97> org:hasMember <http://leipziger-ecken.de/Data/Person/P372> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A98> org:hasMember <http://leipziger-ecken.de/Data/Person/P384> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A102> org:hasMember <http://leipziger-ecken.de/Data/Person/P403> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A103> org:hasMember <http://leipziger-ecken.de/Data/Person/P403> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A104> org:hasMember <http://leipziger-ecken.de/Data/Person/P417> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A105> org:hasMember <http://leipziger-ecken.de/Data/Person/P418> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A106> org:hasMember <http://leipziger-ecken.de/Data/Person/P414> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A107> org:hasMember <http://leipziger-ecken.de/Data/Person/P396> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A109> org:hasMember <http://leipziger-ecken.de/Data/Person/P420> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A110> org:hasMember <http://leipziger-ecken.de/Data/Person/P422> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A111> org:hasMember <http://leipziger-ecken.de/Data/Person/P423> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A114> org:hasMember <http://leipziger-ecken.de/Data/Person/P425> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A115> org:hasMember <http://leipziger-ecken.de/Data/Person/P367> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A116> org:hasMember <http://leipziger-ecken.de/Data/Person/P27> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A117> org:hasMember <http://leipziger-ecken.de/Data/Person/P429> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A118> org:hasMember <http://leipziger-ecken.de/Data/Person/P427> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A119> org:hasMember <http://leipziger-ecken.de/Data/Person/P432> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A120> org:hasMember <http://leipziger-ecken.de/Data/Person/P421> . 
+
+<http://leipziger-ecken.de/Data/Akteur/A121> org:hasMember <http://leipziger-ecken.de/Data/Person/P433> . 
 
 <http://leipziger-ecken.de/Data/Person/P31> a foaf:Person; foaf:name "to be added"  . 
 
@@ -1344,6 +1961,54 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Person/P20> a foaf:Person; foaf:name "to be added"  . 
 
+<http://leipziger-ecken.de/Data/Person/P348> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P354> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P360> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P367> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P369> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P372> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P384> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P403> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P403> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P417> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P418> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P414> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P396> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P420> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P422> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P423> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P425> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P367> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P27> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P429> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P427> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P432> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P421> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P433> a foaf:Person; foaf:name "to be added"  . 
+
 <http://leipziger-ecken.de/Data/Ort/O5> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S155> . 
 
 <http://leipziger-ecken.de/Data/Ort/O5> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S156> . 
@@ -1396,63 +2061,7 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Ort/O16> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S161> . 
 
-<http://leipziger-ecken.de/Data/Ort/O16> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S162> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S6> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S7> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S8> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S9> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S10> . 
-
-<http://leipziger-ecken.de/Data/Ort/O21> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S11> . 
-
-<http://leipziger-ecken.de/Data/Ort/O22> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S19> . 
-
-<http://leipziger-ecken.de/Data/Ort/O22> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S20> . 
-
-<http://leipziger-ecken.de/Data/Ort/O22> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S21> . 
-
-<http://leipziger-ecken.de/Data/Ort/O22> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S22> . 
-
-<http://leipziger-ecken.de/Data/Ort/O23> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S12> . 
-
-<http://leipziger-ecken.de/Data/Ort/O23> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S13> . 
-
-<http://leipziger-ecken.de/Data/Ort/O23> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S14> . 
-
-<http://leipziger-ecken.de/Data/Ort/O25> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S15> . 
-
-<http://leipziger-ecken.de/Data/Ort/O25> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S16> . 
-
-<http://leipziger-ecken.de/Data/Ort/O25> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S17> . 
-
-<http://leipziger-ecken.de/Data/Ort/O28> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S6> . 
-
-<http://leipziger-ecken.de/Data/Ort/O28> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S15> . 
-
-<http://leipziger-ecken.de/Data/Ort/O28> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S18> . 
-
-<http://leipziger-ecken.de/Data/Ort/O29> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S20> . 
-
-<http://leipziger-ecken.de/Data/Ort/O30> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S23> . 
-
-<http://leipziger-ecken.de/Data/Ort/O30> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S24> . 
-
-<http://leipziger-ecken.de/Data/Ort/O31> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S20> . 
-
-<http://leipziger-ecken.de/Data/Ort/O31> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S25> . 
-
 <http://leipziger-ecken.de/Data/Ort/O32> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S5> . 
-
-<http://leipziger-ecken.de/Data/Ort/O32> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S26> . 
-
-<http://leipziger-ecken.de/Data/Ort/O32> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S27> . 
-
-<http://leipziger-ecken.de/Data/Ort/O32> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S28> . 
 
 <http://leipziger-ecken.de/Data/Ort/O33> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S34> . 
 
@@ -1530,6 +2139,8 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Ort/O44> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S196> . 
 
+<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S41> . 
+
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S157> . 
 
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S197> . 
@@ -1538,17 +2149,15 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S199> . 
 
-<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S412> . 
+<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S208> . 
 
-<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S413> . 
+<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S365> . 
+
+<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S412> . 
 
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S414> . 
 
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S415> . 
-
-<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S416> . 
-
-<http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S417> . 
 
 <http://leipziger-ecken.de/Data/Ort/O45> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S418> . 
 
@@ -1608,6 +2217,8 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S178> . 
 
+<http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S227> . 
+
 <http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S305> . 
 
 <http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S332> . 
@@ -1617,6 +2228,8 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 <http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S345> . 
 
 <http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S348> . 
+
+<http://leipziger-ecken.de/Data/Ort/O59> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S495> . 
 
 <http://leipziger-ecken.de/Data/Ort/O64> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S157> . 
 
@@ -1662,10 +2275,6 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 
 <http://leipziger-ecken.de/Data/Ort/O70> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S273> . 
 
-<http://leipziger-ecken.de/Data/Ort/O70> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S389> . 
-
-<http://leipziger-ecken.de/Data/Ort/O70> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S390> . 
-
 <http://leipziger-ecken.de/Data/Ort/O72> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S219> . 
 
 <http://leipziger-ecken.de/Data/Ort/O72> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S372> . 
@@ -1707,4 +2316,70 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
 <http://leipziger-ecken.de/Data/Ort/O89> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S339> . 
 
 <http://leipziger-ecken.de/Data/Ort/O91> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S348> . 
+
+<http://leipziger-ecken.de/Data/Ort/O92> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S1> . 
+
+<http://leipziger-ecken.de/Data/Ort/O92> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S41> . 
+
+<http://leipziger-ecken.de/Data/Ort/O92> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S351> . 
+
+<http://leipziger-ecken.de/Data/Ort/O94> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S1> . 
+
+<http://leipziger-ecken.de/Data/Ort/O94> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S178> . 
+
+<http://leipziger-ecken.de/Data/Ort/O95> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S1> . 
+
+<http://leipziger-ecken.de/Data/Ort/O98> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S493> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S202> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S348> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S433> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S497> . 
+
+<http://leipziger-ecken.de/Data/Ort/O105> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S524> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S173> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S192> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S204> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S216> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S362> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S481> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S501> . 
+
+<http://leipziger-ecken.de/Data/Ort/O107> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S517> . 
+
+<http://leipziger-ecken.de/Data/Ort/O115> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S1> . 
+
+<http://leipziger-ecken.de/Data/Ort/O120> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S32> . 
+
+<http://leipziger-ecken.de/Data/Ort/O120> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S173> . 
+
+<http://leipziger-ecken.de/Data/Ort/O120> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S589> . 
+
+<http://leipziger-ecken.de/Data/Ort/O120> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S590> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S32> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S157> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S193> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S208> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S259> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S378> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S395> . 
+
+<http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S493> . 
 

@@ -681,37 +681,16 @@
    le:hasKID "404" ;
    rdfs:label "ferien" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S405> a le:Sparte  ;
-   le:hasKID "405" ;
-   rdfs:label "kinder" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S406> a le:Sparte  ;
    le:hasKID "406" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S407> a le:Sparte  ;
-   le:hasKID "407" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S408> a le:Sparte  ;
    le:hasKID "408" ;
    rdfs:label "games" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S409> a le:Sparte  ;
-   le:hasKID "409" ;
-   rdfs:label "international" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S410> a le:Sparte  ;
-   le:hasKID "410" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S411> a le:Sparte  ;
-   le:hasKID "411" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S412> a le:Sparte  ;
    le:hasKID "412" ;
    rdfs:label "ausruhen" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S413> a le:Sparte  ;
-   le:hasKID "413" ;
-   rdfs:label "garten" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S414> a le:Sparte  ;
    le:hasKID "414" ;
@@ -721,39 +700,9 @@
    le:hasKID "415" ;
    rdfs:label "entspannen" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S416> a le:Sparte  ;
-   le:hasKID "416" ;
-   rdfs:label "kinder" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S417> a le:Sparte  ;
-   le:hasKID "417" ;
-   rdfs:label "engagement" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S418> a le:Sparte  ;
    le:hasKID "418" ;
    rdfs:label "kontakt" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S419> a le:Sparte  ;
-   le:hasKID "419" ;
-   rdfs:label "nachbarschaft" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S420> a le:Sparte  ;
-   le:hasKID "420" ;
-   rdfs:label "treffen" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S421> a le:Sparte  ;
-   le:hasKID "421" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S422> a le:Sparte  ;
-   le:hasKID "422" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S423> a le:Sparte  ;
-   le:hasKID "423" ;
-   rdfs:label "familie" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S424> a le:Sparte  ;
-   le:hasKID "424" ;
-   rdfs:label "spielplatz" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S425> a le:Sparte  ;
    le:hasKID "425" ;
@@ -763,12 +712,6 @@
    le:hasKID "426" ;
    rdfs:label "gesundheit" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S427> a le:Sparte  ;
-   le:hasKID "427" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S428> a le:Sparte  ;
-   le:hasKID "428" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S429> a le:Sparte  ;
    le:hasKID "429" ;
    rdfs:label "bewegung" . 
@@ -776,10 +719,6 @@
 <http://leipziger-ecken.de/Data/Sparte/S430> a le:Sparte  ;
    le:hasKID "430" ;
    rdfs:label "sport" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S431> a le:Sparte  ;
-   le:hasKID "431" ;
-   rdfs:label "jugendliche" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S432> a le:Sparte  ;
    le:hasKID "432" ;
@@ -817,10 +756,6 @@
    le:hasKID "440" ;
    rdfs:label "ibiz" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S441> a le:Sparte  ;
-   le:hasKID "441" ;
-   rdfs:label "welcome" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S442> a le:Sparte  ;
    le:hasKID "442" ;
    rdfs:label "kinderkunst und stadtpflanzen" . 
@@ -853,43 +788,17 @@
    le:hasKID "449" ;
    rdfs:label "sachsen" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S450> a le:Sparte  ;
-   le:hasKID "450" ;
-   rdfs:label "stadt" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S451> a le:Sparte  ;
    le:hasKID "451" ;
    rdfs:label "land" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S452> a le:Sparte  ;
-   le:hasKID "452" ;
-   rdfs:label "festival" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S453> a le:Sparte  ;
-   le:hasKID "453" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S454> a le:Sparte  ;
-   le:hasKID "454" ;
-   rdfs:label "apfelsaft" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S455> a le:Sparte  ;
-   le:hasKID "455" ;
-   rdfs:label "stadt" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S456> a le:Sparte  ;
    le:hasKID "456" ;
    rdfs:label "helpfest2016" . 
 
-<http://leipziger-ecken.de/Data/Sparte/S457> a le:Sparte  ;
-   le:hasKID "457" . 
-
 <http://leipziger-ecken.de/Data/Sparte/S458> a le:Sparte  ;
    le:hasKID "458" ;
    rdfs:label "brainstorming" . 
-
-<http://leipziger-ecken.de/Data/Sparte/S459> a le:Sparte  ;
-   le:hasKID "459" ;
-   rdfs:label "soziales" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S460> a le:Sparte  ;
    le:hasKID "460" ;
@@ -910,4 +819,476 @@
 <http://leipziger-ecken.de/Data/Sparte/S464> a le:Sparte  ;
    le:hasKID "464" ;
    rdfs:label "urbanart" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S465> a le:Sparte  ;
+   le:hasKID "465" ;
+   rdfs:label "glokal" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S466> a le:Sparte  ;
+   le:hasKID "466" ;
+   rdfs:label "inhouse" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S467> a le:Sparte  ;
+   le:hasKID "467" ;
+   rdfs:label "machtkritik" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S469> a le:Sparte  ;
+   le:hasKID "469" ;
+   rdfs:label "tanz" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S470> a le:Sparte  ;
+   le:hasKID "470" ;
+   rdfs:label "stadtgeschichte" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S473> a le:Sparte  ;
+   le:hasKID "473" ;
+   rdfs:label "information" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S474> a le:Sparte  ;
+   le:hasKID "474" ;
+   rdfs:label "der schwarze nazi" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S475> a le:Sparte  ;
+   le:hasKID "475" ;
+   rdfs:label "groteske" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S477> a le:Sparte  ;
+   le:hasKID "477" ;
+   rdfs:label "light dinner" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S478> a le:Sparte  ;
+   le:hasKID "478" ;
+   rdfs:label "lucy steggals" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S479> a le:Sparte  ;
+   le:hasKID "479" ;
+   rdfs:label "starurday museum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S480> a le:Sparte  ;
+   le:hasKID "480" ;
+   rdfs:label "oud" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S481> a le:Sparte  ;
+   le:hasKID "481" ;
+   rdfs:label "jam session" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S487> a le:Sparte  ;
+   le:hasKID "487" ;
+   rdfs:label "bienenland" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S488> a le:Sparte  ;
+   le:hasKID "488" ;
+   rdfs:label "plenum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S489> a le:Sparte  ;
+   le:hasKID "489" ;
+   rdfs:label "hildesenkel" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S490> a le:Sparte  ;
+   le:hasKID "490" ;
+   rdfs:label "party" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S491> a le:Sparte  ;
+   le:hasKID "491" ;
+   rdfs:label "grillen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S492> a le:Sparte  ;
+   le:hasKID "492" ;
+   rdfs:label "poetry" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S493> a le:Sparte  ;
+   le:hasKID "493" ;
+   rdfs:label "bürgerschaftliches engagement" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S494> a le:Sparte  ;
+   le:hasKID "494" ;
+   rdfs:label "forum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S495> a le:Sparte  ;
+   le:hasKID "495" ;
+   rdfs:label "interkulturell" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S496> a le:Sparte  ;
+   le:hasKID "496" ;
+   rdfs:label "initiative" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S497> a le:Sparte  ;
+   le:hasKID "497" ;
+   rdfs:label "freiraum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S498> a le:Sparte  ;
+   le:hasKID "498" ;
+   rdfs:label "vernetzung" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S499> a le:Sparte  ;
+   le:hasKID "499" ;
+   rdfs:label "plattform" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S500> a le:Sparte  ;
+   le:hasKID "500" ;
+   rdfs:label "open berlin" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S501> a le:Sparte  ;
+   le:hasKID "501" ;
+   rdfs:label "torgauer str." . 
+
+<http://leipziger-ecken.de/Data/Sparte/S502> a le:Sparte  ;
+   le:hasKID "502" ;
+   rdfs:label "müzik.stüdyo.74" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S503> a le:Sparte  ;
+   le:hasKID "503" ;
+   rdfs:label "singer/songwriter" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S504> a le:Sparte  ;
+   le:hasKID "504" ;
+   rdfs:label "offene bühne" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S505> a le:Sparte  ;
+   le:hasKID "505" ;
+   rdfs:label "liedermacher" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S506> a le:Sparte  ;
+   le:hasKID "506" ;
+   rdfs:label "senioren" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S507> a le:Sparte  ;
+   le:hasKID "507" ;
+   rdfs:label "familien" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S508> a le:Sparte  ;
+   le:hasKID "508" ;
+   rdfs:label "freiflächen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S509> a le:Sparte  ;
+   le:hasKID "509" ;
+   rdfs:label "kuchen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S510> a le:Sparte  ;
+   le:hasKID "510" ;
+   rdfs:label "bienum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S511> a le:Sparte  ;
+   le:hasKID "511" ;
+   rdfs:label "mitmachen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S512> a le:Sparte  ;
+   le:hasKID "512" ;
+   rdfs:label "spaß" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S513> a le:Sparte  ;
+   le:hasKID "513" ;
+   rdfs:label "feiern" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S514> a le:Sparte  ;
+   le:hasKID "514" ;
+   rdfs:label "café" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S515> a le:Sparte  ;
+   le:hasKID "515" ;
+   rdfs:label "generationsübergreifend" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S516> a le:Sparte  ;
+   le:hasKID "516" ;
+   rdfs:label "kooperativ" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S517> a le:Sparte  ;
+   le:hasKID "517" ;
+   rdfs:label "kulturelle bildung" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S518> a le:Sparte  ;
+   le:hasKID "518" ;
+   rdfs:label "kulturelle teilhabe" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S519> a le:Sparte  ;
+   le:hasKID "519" ;
+   rdfs:label "partizipativ" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S520> a le:Sparte  ;
+   le:hasKID "520" ;
+   rdfs:label "kulturelle vielfalt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S521> a le:Sparte  ;
+   le:hasKID "521" ;
+   rdfs:label "percussion" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S522> a le:Sparte  ;
+   le:hasKID "522" ;
+   rdfs:label "mittwochs" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S523> a le:Sparte  ;
+   le:hasKID "523" ;
+   rdfs:label "gemeinsam" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S524> a le:Sparte  ;
+   le:hasKID "524" ;
+   rdfs:label "dialog im stadtteil" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S525> a le:Sparte  ;
+   le:hasKID "525" ;
+   rdfs:label "quartiersschule" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S526> a le:Sparte  ;
+   le:hasKID "526" ;
+   rdfs:label "oberschule" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S527> a le:Sparte  ;
+   le:hasKID "527" ;
+   rdfs:label "gymnasium" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S528> a le:Sparte  ;
+   le:hasKID "528" ;
+   rdfs:label "ihmelsstraße" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S529> a le:Sparte  ;
+   le:hasKID "529" ;
+   rdfs:label "fahrrad" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S530> a le:Sparte  ;
+   le:hasKID "530" ;
+   rdfs:label "spende erwünscht" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S531> a le:Sparte  ;
+   le:hasKID "531" ;
+   rdfs:label "hand lettering" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S532> a le:Sparte  ;
+   le:hasKID "532" ;
+   rdfs:label "collage" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S533> a le:Sparte  ;
+   le:hasKID "533" ;
+   rdfs:label "malerei" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S534> a le:Sparte  ;
+   le:hasKID "534" ;
+   rdfs:label "grafik" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S535> a le:Sparte  ;
+   le:hasKID "535" ;
+   rdfs:label "regenwetterveranstaltung" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S536> a le:Sparte  ;
+   le:hasKID "536" ;
+   rdfs:label "kifaz" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S537> a le:Sparte  ;
+   le:hasKID "537" ;
+   rdfs:label "draußen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S538> a le:Sparte  ;
+   le:hasKID "538" ;
+   rdfs:label "bauen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S539> a le:Sparte  ;
+   le:hasKID "539" ;
+   rdfs:label "lernen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S540> a le:Sparte  ;
+   le:hasKID "540" ;
+   rdfs:label "sprachkurs" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S541> a le:Sparte  ;
+   le:hasKID "541" ;
+   rdfs:label "kinderfreundlich" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S542> a le:Sparte  ;
+   le:hasKID "542" ;
+   rdfs:label "familienfreundlich" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S543> a le:Sparte  ;
+   le:hasKID "543" ;
+   rdfs:label "sommerfest" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S544> a le:Sparte  ;
+   le:hasKID "544" ;
+   rdfs:label "feier" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S545> a le:Sparte  ;
+   le:hasKID "545" ;
+   rdfs:label "folk" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S546> a le:Sparte  ;
+   le:hasKID "546" ;
+   rdfs:label "umsonst &amp; draußen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S547> a le:Sparte  ;
+   le:hasKID "547" ;
+   rdfs:label "open air" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S548> a le:Sparte  ;
+   le:hasKID "548" ;
+   rdfs:label "politik" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S549> a le:Sparte  ;
+   le:hasKID "549" ;
+   rdfs:label "bundestagswahl" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S550> a le:Sparte  ;
+   le:hasKID "550" ;
+   rdfs:label "heilig-kreuz-kirche" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S551> a le:Sparte  ;
+   le:hasKID "551" ;
+   rdfs:label "grüne stadt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S552> a le:Sparte  ;
+   le:hasKID "552" ;
+   rdfs:label "grüne parade" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S553> a le:Sparte  ;
+   le:hasKID "553" ;
+   rdfs:label "kollektiv" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S554> a le:Sparte  ;
+   le:hasKID "554" ;
+   rdfs:label "regionalmarkt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S555> a le:Sparte  ;
+   le:hasKID "555" ;
+   rdfs:label "erzeugermarkt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S556> a le:Sparte  ;
+   le:hasKID "556" ;
+   rdfs:label "leipziger umland" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S557> a le:Sparte  ;
+   le:hasKID "557" ;
+   rdfs:label "marktschwärmer" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S558> a le:Sparte  ;
+   le:hasKID "558" ;
+   rdfs:label "gastgeber" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S559> a le:Sparte  ;
+   le:hasKID "559" ;
+   rdfs:label "food saving" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S560> a le:Sparte  ;
+   le:hasKID "560" ;
+   rdfs:label "food assembly" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S561> a le:Sparte  ;
+   le:hasKID "561" ;
+   rdfs:label "honorary radio" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S562> a le:Sparte  ;
+   le:hasKID "562" ;
+   rdfs:label "toolkit" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S563> a le:Sparte  ;
+   le:hasKID "563" ;
+   rdfs:label "newcomers" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S564> a le:Sparte  ;
+   le:hasKID "564" ;
+   rdfs:label "residents" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S565> a le:Sparte  ;
+   le:hasKID "565" ;
+   rdfs:label "lobacher hof" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S566> a le:Sparte  ;
+   le:hasKID "566" ;
+   rdfs:label "demeter" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S567> a le:Sparte  ;
+   le:hasKID "567" ;
+   rdfs:label "biologischer anbau" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S568> a le:Sparte  ;
+   le:hasKID "568" ;
+   rdfs:label "regionaler erzeuger" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S569> a le:Sparte  ;
+   le:hasKID "569" ;
+   rdfs:label "hildes bauernmarkt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S570> a le:Sparte  ;
+   le:hasKID "570" ;
+   rdfs:label "apfelkola" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S571> a le:Sparte  ;
+   le:hasKID "571" ;
+   rdfs:label "grüne liga" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S572> a le:Sparte  ;
+   le:hasKID "572" ;
+   rdfs:label "kohren-sahlis" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S573> a le:Sparte  ;
+   le:hasKID "573" ;
+   rdfs:label "saturday museum" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S574> a le:Sparte  ;
+   le:hasKID "574" ;
+   rdfs:label "ritual" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S575> a le:Sparte  ;
+   le:hasKID "575" ;
+   rdfs:label "entrances &amp; exit" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S576> a le:Sparte  ;
+   le:hasKID "576" ;
+   rdfs:label "freier eintritt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S577> a le:Sparte  ;
+   le:hasKID "577" ;
+   rdfs:label "helpfest2017" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S578> a le:Sparte  ;
+   le:hasKID "578" ;
+   rdfs:label "open innovation" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S579> a le:Sparte  ;
+   le:hasKID "579" ;
+   rdfs:label "coproduction" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S580> a le:Sparte  ;
+   le:hasKID "580" ;
+   rdfs:label "fair use" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S581> a le:Sparte  ;
+   le:hasKID "581" ;
+   rdfs:label "open studio" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S582> a le:Sparte  ;
+   le:hasKID "582" ;
+   rdfs:label "exhibition" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S583> a le:Sparte  ;
+   le:hasKID "583" ;
+   rdfs:label "digitale bildung" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S584> a le:Sparte  ;
+   le:hasKID "584" ;
+   rdfs:label "open education" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S585> a le:Sparte  ;
+   le:hasKID "585" ;
+   rdfs:label "graffiti" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S586> a le:Sparte  ;
+   le:hasKID "586" ;
+   rdfs:label "mullern" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S587> a le:Sparte  ;
+   le:hasKID "587" ;
+   rdfs:label "ostlichter festival" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S588> a le:Sparte  ;
+   le:hasKID "588" ;
+   rdfs:label "bauspielplatz" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S589> a le:Sparte  ;
+   le:hasKID "589" ;
+   rdfs:label "literatur" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S590> a le:Sparte  ;
+   le:hasKID "590" ;
+   rdfs:label "creative writing" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S591> a le:Sparte  ;
+   le:hasKID "591" ;
+   rdfs:label "lateinamerika" . 
 

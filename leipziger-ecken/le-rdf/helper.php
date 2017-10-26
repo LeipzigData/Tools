@@ -8,7 +8,7 @@ function addLiteral($a,$key,$value) {
 }
 
 function addMLiteral($a,$key,$value) {
-    if (!empty($value)) { $a[]=" $key ".'"""'.$value.'"""'; }
+    if (!empty($value)) { $a[]=" $key ".'"""'.fixBackslash($value).'"""'; }
   return $a;
 }
 
@@ -51,6 +51,11 @@ function fixURL($u) {
 function fixQuotes($u) {
   $u=str_replace("\"", "\\\"", $u);
   // $u=str_replace("\n", " <br/> ", $u);
+  return $u;
+}
+
+function fixBackslash($u) {
+  $u=str_replace("\\", "\\\\", $u);
   return $u;
 }
 

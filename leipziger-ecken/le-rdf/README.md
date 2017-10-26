@@ -24,8 +24,8 @@ Die entsprechenden Transformationen werden von den Scripts `adressen.php`,
 `akteure.php`, `events.php` und `sparten.php` ausgeführt, die durch die
 gemeinsame Datei `helper.php` unterstützt werden, in der vor allem
 verschiedenen Routinen zum Adjustieren von Strings sowie zum Erstellen von
-Einträgen in einer Turtle-Datei zusammengefasst sind, die immer wieder
-benötigt werden.
+Einträgen in einer Turtle-Datei zusammengefasst sind, die immer wieder benötigt
+werden.
 
 Generelles Vorgehen: über Select-Anfragen an die Datenbank werden die
 relevanten Information ausgelesen und dann datensatzweise über eine oder
@@ -39,6 +39,8 @@ anzeigt, `main.php` dagegen die Transformationen als Turtle-Dateien in das
 Unterverzeichnis `Daten` schreibt (Aufruf `php main.php` von der Kommandozeile
 aus).  Bei der Ausgabe wird dabei die jeweilige Information über eine
 RDF-Graph-Formatisierung mittels EasyRDF im Turtle-Format normalisiert.
+`getdata.php` stellt diese Funktionalität als einfachen Webservice zur
+Verfügung der etwa als `getdata.php?show=akteure` aufgerufen werden kann.
 
 ## Namensschemata für lokale URIs
 
@@ -174,8 +176,9 @@ In *Alignment.ttl* sind die geprüften Zuordnungen aufgeführt, in
 *LD-Adressen.ttl* ein aus LeipzigData extrahierter Datenbestand mit Adressen
 und GeoDaten zusammengestellt.
 
-## Anmerkungen: Analyse des dumps ledump-20160223.sql
+## Anmerkungen: Analyse des dumps ledump-20171022.sql
 
+--------------------------------------------------------------
 Finde die Adressen, die wirklich verwendet 
 
 ```
@@ -184,21 +187,60 @@ aae_data_akteur where adresse=ADID) or exists (select * from
 aae_data_event where ort=ADID); 
 ```
 
+Adressen: 467
+Adressen ohne strasse: 53
+Wirklich verwendete Adressen: 377
+
+--------------------------------------------------------------
 Finde die Adressen, die wirklich verwendet werden, aber keinen Straßennamen haben:
 
 ```
-SELECT * FROM aae_data_adresse where (exists (select * from
-aae_data_akteur where adresse=ADID) or exists (select * from
-aae_data_event where ort=ADID)) and strasse=''; 
-
-+------+---------+--------------+--------+------+------+------+
-| ADID | strasse | adresszusatz | bezirk | nr   | plz  | gps  |
-+------+---------+--------------+--------+------+------+------+
-|   62 |         |              |     21 |      |      |      |
-|   77 |         |              |     20 |      |      |      |
-|   79 |         |              |     22 |      |      |      |
-+------+---------+--------------+--------+------+------+------+
+SELECT ADID,strasse,AID,name FROM aae_data_adresse, aae_data_akteur where
+adresse=ADID and strasse='';
 ```
++------+---------+-----+------------------------------------------------------------+
+| ADID | strasse | AID | name                                                       |
++------+---------+-----+------------------------------------------------------------+
+|   62 |         |  37 | KollektivArtesMobiles                                      |
+|   77 |         |  46 | Die Wunderfinder - Bildungspatenprojekt im Leipziger Osten |
+|   79 |         |  48 | Bürgerverein Anger-Crottendorf                             |
+|   87 |         |  53 | Kunstverein gegenwart e.V.                                 |
+|  137 |         |  71 | Arbeitskreis Flüchtlingshilfe Region Alte Messe            |
+|  207 |         |  92 | Lichtstrahl                                                |
+|  373 |         | 105 | FREIRAUM FESTIVAL                                          |
+|  384 |         | 106 | Ortsgruppe Ost                                             |
++------+---------+-----+------------------------------------------------------------+
+8 rows in set (0,00 sec)
+
+```
+SELECT ADID,strasse,EID,name FROM aae_data_adresse, aae_data_event where
+ort=ADID and strasse='';
+```+------+---------+-----+------------------------------------------------+
+| ADID | strasse | EID | name                                           |
++------+---------+-----+------------------------------------------------+
+|   79 |         |  30 | Frühjahrsputz                                  |
+|   48 |         |  94 | Lenes Nachbarn - die andere Seite von Reudnitz |
+|   62 |         | 124 | Nachbarschafts-Sommerschule Eisenbahnstraße    |
+|  197 |         | 406 | Flohmarktfest von Hof zu Hof                   |
+|  137 |         | 461 | Speedgaming                                    |
+|  137 |         | 467 | Recycling Basteln - Fahrradschlauch            |
+|  137 |         | 468 | Recycling Basteln - Papierschöpfen             |
+|  137 |         | 469 | Internationaler Kochabend                      |
+|  137 |         | 470 | Film - Bekas                                   |
+|  137 |         | 471 | Tandem Café - deutsche Konversation            |
+|  137 |         | 477 | Speed Gaming - Learn German with Games         |
+|  137 |         | 478 | Recycling Basteln                              |
+|  207 |         | 486 | Lichtstrahl-Kinderfest                         |
+|  207 |         | 487 | Lichtstrahl-Kinderfest                         |
+|  298 |         | 724 | Frühjahrsputz                                  |
+|  314 |         | 750 | Test                                           |
+|  332 |         | 783 | Fahrradtour | Tag der Städtebauförderung       |
+|  372 |         | 845 | FREIRAUM FESTIVAL 2017                         |
++------+---------+-----+------------------------------------------------+
+18 rows in set (0,00 sec)
+--------------------------------------------------------------
+
+## Analyse der Geodaten -- Code im privaten Repo ld-workbench
 
 Es wurden die verfügbaren GeoDaten der jeweiligen ld:Adresse zugeordnet und
 verglichen (lokales Skript *checkDistance.php*).

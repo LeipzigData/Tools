@@ -9,15 +9,6 @@ include_once("adressen.php");
 include_once("events.php");
 include_once("sparten.php");
 
-function main() {
-  $what=$_GET['show'];
-  if ($what=='akteure') { return asPlainText(getAkteure()); }
-  else if ($what=='adressen') { return asPlainText(getAdressen()); }
-  else if ($what=='events') { return asPlainText(getEvents()); }
-  else if ($what=='sparten') { return asPlainText(getSparten()); }
-  else return applicationList();
-}
-
 function pageHeader() {
   return '
 <!DOCTYPE html>
@@ -26,8 +17,8 @@ function pageHeader() {
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="SymbolicData Standalone Info Page"/>
-    <meta name="author" content="SymbolicData Project"/>
+    <meta name="description" content="LD Leipziger Ecken Standalone Info Page"/>
+    <meta name="author" content="Leipzig Data Project"/>
 
     <title>Leipziger Ecken RDF Infoseite</title>
     <!-- Bootstrap core CSS -->
@@ -64,10 +55,10 @@ function applicationList() {
   return '
 <div class="container">
 <ul>
-<li> <a href="./getdata.php?show=akteure">Die Akteure</a></li>
-<li> <a href="./getdata.php?show=adressen">Die Adressen</a></li>
-<li> <a href="./getdata.php?show=events">Die Events</a></li>
-<li> <a href="./getdata.php?show=sparten">Die Sparten</a></li>
+<li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
+<li> <a href="./getdata.php?show=adressen&embedded=true">Die Adressen</a></li>
+<li> <a href="./getdata.php?show=events&embedded=true">Die Events</a></li>
+<li> <a href="./getdata.php?show=sparten&embedded=true">Die Sparten</a></li>
 </ul>
 </div> 
 ';
@@ -85,8 +76,4 @@ function pageFooter() {
 </html>';
 }
 
-function showPage($content) {
-    return pageHeader().generalContent().main().pageFooter();
-}
-
-echo pageHeader().generalContent().main().pageFooter();
+echo pageHeader().generalContent().applicationList().pageFooter();

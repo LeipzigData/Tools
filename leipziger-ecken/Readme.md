@@ -23,10 +23,10 @@ Weitere relevante Links:
 Im Sommersemester 2015 wurde in einem Projektpraktikum an der Uni Leipzig der
 Verein "Helden wider Willen e.V." unterstützt, eine Drupal-basierte
 Stadtteilplattform aufzubauen, die nach einer weiteren Konsolidierungsphase im
-Wintersemester 2015 unter http://leipziger-ecken.de/ zu ereichen ist.  Die
-Stadtteilplattform ist eine Standard-Drupal-Installation, für die ein weiteres
-Modul `aae_data` zur Verwaltung der Daten zu Akteuren und Events entwickelt
-wurde.  Der Code dazu ist zusammen mit einem eher spezifischen Theme
+Wintersemester 2015 seither unter http://leipziger-ecken.de/ zu erreichen ist.
+Die Stadtteilplattform ist eine Standard-Drupal-Installation, für die ein
+weiteres Modul `aae_data` zur Verwaltung der Daten zu Akteuren und Events
+entwickelt wurde.  Der Code dazu ist zusammen mit einem eher spezifischen Theme
 `aae_theme` als Projekt "easteasteast" bei
 [github.com](https://github.com/JuliAne/easteasteast) zu finden und wird
 ständig weiterentwickelt.
@@ -39,7 +39,7 @@ ständig weiterentwickelt.
 Da der Anspruch der Entwicklung einer *semantischen* Stadtteilplattform dabei
 nicht realisiert wurde, die in der Lage ist, die oben formulierte Vision des
 Datenaustauschs auf RDF-Basis umzusetzen, soll diese Vision nun in einem
-kleinen Nachfolgeprojekt mit sehr beschränkten Ressourcen weiter konkretisiert
+kleinen Nachfolgeprojekt mit beschränkten Ressourcen weiter konkretisiert
 werden.
 
 Dazu wurde in einer *Seminararbeit von Tobias Hahn* (HTWK Leipzig) zunächst
@@ -58,13 +58,13 @@ werden muss, in keinem Verhältnis zueinander stehen. Der Fokus liegt primär au
 der Organisation der *sozialen* Abstimmungsprozesse, wofür die zu gewinnenden
 Akteure leichtgewichtige Werkzeuge benötigen, die sie auch sicher in ihrem
 jeweiligen Kontext beherrschen können. Dies wird aktuell im Verzeichnis
-`leipziger-ecken` mit zwei Ansätzen weiter vorangetrieben.
+`leipziger-ecken` weiter vorangetrieben.
 
 Die Vorarbeiten sind im privaten Bereich in der ld-workbench (Kontakt:
 graebe@informatik.uni-leipzig.de) verfügbar.
 
-Als "einfache Lösung" wurde eine direkte Daten-Transformation eingerichtet, die
-sich im Backend ausrollen lässt, über einen Web Service getdata.php
-angesprochen werden kann und unmittelbar über die entsprechende
+Als "einfache Lösung" wurde mit `le-rdf` eine direkte Daten-Transformation
+eingerichtet, die sich im Backend ausrollen lässt, über einen Web Service
+getdata.php angesprochen werden kann und unmittelbar über die entsprechende
 Drupal-Schnittstelle auf die Datenbank zugreifen soll.
 
