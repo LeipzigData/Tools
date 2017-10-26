@@ -130,7 +130,7 @@ auf mehrere RDF-Graphen aufgeteilt:
 Die Modellierung folgt der von *ld:Event*. In der neuen LE-Version sind für
 Events nur noch Start- und Endzeit gegeben, die komplexeren Möglichkeiten von
 regelmäßig stattfindenden Events wird aktuell -- wie in ld:Event -- nicht
-unterstützt.  
+unterstützt.  Filtere die Events mit ersteller=0 raus. 
 
 Unterschiede zu ld:Event:
 
@@ -238,7 +238,15 @@ ort=ADID and strasse='';
 |  372 |         | 845 | FREIRAUM FESTIVAL 2017                         |
 +------+---------+-----+------------------------------------------------+
 18 rows in set (0,00 sec)
+
 --------------------------------------------------------------
+
+Finde Events, die wirklich verwendet werden 
+
+SELECT EID,name,ersteller FROM aae_data_event where name is NULL and ersteller<>0;
+
+SELECT * FROM aae_data_event where ersteller=0;
+
 
 ## Analyse der Geodaten -- Code im privaten Repo ld-workbench
 

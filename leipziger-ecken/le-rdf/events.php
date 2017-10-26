@@ -6,7 +6,7 @@ include_once("inc.php");
 include_once("helper.php");
 
 function getEvents() { 
-  $res = db_query("SELECT * FROM aae_data_event");
+  $res = db_query("SELECT * FROM aae_data_event where ersteller<>0");
   $out='';
   foreach ($res as $row) {
     $out.=createEvent($row);
