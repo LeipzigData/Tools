@@ -29,18 +29,27 @@ function createAkteur($row) {
   $a=addLiteral($a,'nl:hasID', $id);
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
   $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
-  $a=addLiteral($a,'org:memberOf', $row['organization']);
+  $a=addLiteral($a,'nl:lastLoginAt', str_replace(" ", "T", $row['last_login_at']));
+  $a=addLiteral($a,'nl:lastActivityCheckAt', str_replace(" ", "T", $row['activity_check_at']));
+  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
   $a=addLiteral($a,'foaf:firstName', $row['first_name']);
   $a=addLiteral($a,'foaf:lastName', $row['last_name']);
-  // Adresse, Geokoordinaten
+  $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
   $a=addLiteral($a,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_primary']));
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_secondary']));
-  $a=addResource($a,'foaf:homepage', "", $row['url']);
+  $a=addLiteral($a,'org:memberOf', $row['organization']);
+  $a=addResource($a,'foaf:homepage', "", $row['organization_url']);
+  $a=addLiteral($a,'nl:orgType', $row['organization_type']);
+  $a=addLiteral($a,'nl:orgPosition', $row['organization_position']);
+  $a=addLiteral($a,'nl:orgLogo', $row['organization_logo']);
+  $a=addLiteral($a,'nl:hasDistrict', $row['district']);
+  $a=addLiteral($a,'nl:isReviewed', $row['reviewed']);
+  $a=addLiteral($a,'nl:isTradeOrganization', $row['trade_organization']);
   return '<http://nachhaltiges-leipzig.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen
-echo getAkteure();
+// echo getAkteure();
 
 ?>
