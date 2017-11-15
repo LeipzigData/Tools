@@ -5,13 +5,20 @@
 * Kopie eines DB-Dumps von leipziger-ecken.de in eine Datenbank laden, 
 * die Datei *inc_sample.php* nach *inc.php* kopieren und dort die
   DB-Credentials dieser Datenbank eintragen,
-* das PHP-Projekt mit `composer update` installieren,
 * ggf. einen PHP-fähigen Webserver auf localhost: starten 
 * und die Seite *index.php* aufrufen. 
 
 Anmerkung: In *inc.php* ist die Funktion db_query($query) definiert.  Eine
 Funktion gleichen Namens greift in Drupal auf die Datenbank zu, so dass es
 einfach sein sollte, diese Installation in ein Drupal-Modul zu verwandeln.
+
+## Anmerkungen
+
+HGG 2017-11-12: "composer" ist aktuell nicht mehr erforderlich, da die
+Anhängigkeiten von EasyRDF eliminiert wurden. Damit wird allerdings bei der
+Ausgabe die jeweilige Information auch nicht mehr mittels EasyRDF im
+Turtle-Format normalisiert. Das müsste dann auf dem Weg der Weiterverarbeitung
+geschehen.
 
 ## Grundsätzliche Struktur des Verzeichnisses
 
@@ -37,9 +44,7 @@ Die Dateien `main.php` und `index.php` können verwendet werden, um die
 Transformationen auszuführen, wobei `index.php` das Ergebnis auf einer Webseite
 anzeigt, `main.php` dagegen die Transformationen als Turtle-Dateien in das
 Unterverzeichnis `Daten` schreibt (Aufruf `php main.php` von der Kommandozeile
-aus).  Bei der Ausgabe wird dabei die jeweilige Information über eine
-RDF-Graph-Formatisierung mittels EasyRDF im Turtle-Format normalisiert.
-`getdata.php` stellt diese Funktionalität als einfachen Webservice zur
+aus).  `getdata.php` stellt diese Funktionalität als einfachen Webservice zur
 Verfügung der etwa als `getdata.php?show=akteure` aufgerufen werden kann.
 
 ## Namensschemata für lokale URIs

@@ -53,6 +53,6 @@ function createEvent($row) {
 }
 
 // zum Testen
-// echo getEvents();
+echo getEvents();
 
 ?>
