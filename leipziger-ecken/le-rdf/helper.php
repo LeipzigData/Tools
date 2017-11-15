@@ -1,7 +1,5 @@
 <?php
 
-require 'vendor/autoload.php';
-
 function addLiteral($a,$key,$value) {
     if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes($value).'"'; }
   return $a;
@@ -84,28 +82,6 @@ function asPlainText($u) {
   return '<pre>'.htmlspecialchars($u).'</pre>';
 }
 
-function setNamespace() {
-  EasyRdf_Namespace::set('ld', 'http://leipzig-data.de/Data/Model/');
-  EasyRdf_Namespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
-  EasyRdf_Namespace::set('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
-  EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
-  EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
-  EasyRdf_Namespace::set('org', 'http://www.w3.org/ns/org#');
-  EasyRdf_Namespace::set('ld', 'http://leipzig-data.de/Data/Model/');
-  EasyRdf_Namespace::set('le', 'http://leipziger-ecken.de/Data/Model#');
-  EasyRdf_Namespace::set('les', 'http://leipziger-ecken.de/Data/Sparte/');
-  EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
-  EasyRdf_Namespace::set('dct', 'http://purl.org/dc/terms/');
-  EasyRdf_Namespace::set('gsp', 'http://www.opengis.net/ont/geosparql#');
-}
-
 function toRDFString($s) {
     return $s;
-}
-
-function OldtoRDFString($s) {
-  setNamespace(); 
-  $graph = new EasyRdf_Graph("http://leipziger-ecken.de/rdf/");
-  $graph->parse($s);
-  return $graph->serialise("turtle");
 }
