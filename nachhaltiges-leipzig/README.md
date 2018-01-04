@@ -44,6 +44,8 @@ schnell an veränderte Datenkonzepte angepasst werden kann. Die jeweilige
 Transformation lässt sich im Backend ausrollen und über einen Web Service
 getdata.php ansprechen.
 
+Mehr dazu in der README.md im Verzeichnis `nl-rdf`.
+
 ## Vorarbeiten
 
 In einer *Seminararbeit von Tobias Hahn* (HTWK Leipzig) zunächst untersucht,
@@ -66,3 +68,8 @@ jeweiligen Kontext beherrschen können.
 Die Vorarbeiten sind im privaten Bereich in der ld-workbench (Kontakt:
 graebe@informatik.uni-leipzig.de) verfügbar.
 
+## Aktuelle Arbeiten
+
+2018-01-04: Anlegen der Datei `changes.pl`, in der Änderungen an der Datenbasis
+"Nachhaltiges Leipzig" aufgearbeitet werden, die über Email-Notification
+ausgeliefert werden.  Work in progress.

@@ -1,4 +1,4 @@
-# Erzeugung von RDF-Daten aus der Datenbank "Leipziger Ecken"
+# Erzeugung von RDF-Daten aus der Datenbank "Nachhaltiges Leipzig"
 
 ## Installation
 
@@ -7,7 +7,10 @@
   DB-Credentials dieser Datenbank eintragen,
 * das PHP-Projekt mit `composer update` installieren,
 * ggf. einen PHP-fähigen Webserver auf localhost: starten 
-* und die Seite *index.php* aufrufen. 
+* und die Seite *index.php* aufrufen.
+
+Composer sollte nicht mehr erforderlich sein. Die Beschreibung muss noch an
+nl-rdf angepasst werden.
 
 Anmerkung: In *inc.php* ist die Funktion db_query($query) definiert.  Eine
 Funktion gleichen Namens greift in Drupal auf die Datenbank zu, so dass es
