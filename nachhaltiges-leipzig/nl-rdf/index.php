@@ -1,16 +1,8 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Date: 2017-10-28
+ * Date: 2018-01-07
  */
-
-include_once("actions.php");
-include_once("adressen.php");
-include_once("akteure.php");
-include_once("events.php");
-include_once("projects.php");
-include_once("services.php");
-include_once("stores.php");
 
 function pageHeader() {
   return '
@@ -47,9 +39,8 @@ Plattform <a href="https://daten.nachhaltiges-leipzig.de/"
 extrahieren lassen.  </p>
 
 <p> Zur Installation muss eine Datenbank mit einem Dump der Daten der Plattform
-nachhaltiges-leipzig.de angebunden und das Projekt mit \'composer update\'
-(Installation der RDF-Bibliothek EasyRDF &ndash; aktuell nicht in Verwendung)
-ausgerollt werden.  Details dazu in der Datei README.md.</p>
+nachhaltiges-leipzig.de angebunden werden.  Details dazu in der Datei
+<a href="README.md">README.md</a>.</p>
 
 </div> 
 ';
@@ -62,6 +53,7 @@ function applicationList() {
 <li> <a href="./getdata.php?show=adressen&embedded=true">Die Adressen</a></li>
 <li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
 <li> <a href="./getdata.php?show=aktionen&embedded=true">Die Aktionen</a></li>
+<li> <a href="./getdata.php?show=changes&embedded=true">Die Changes</a></li>
 <li> <a href="./getdata.php?show=events&embedded=true">Die Events</a></li>
 <li> <a href="./getdata.php?show=projekte&embedded=true">Die Projekte</a></li>
 <li> <a href="./getdata.php?show=services&embedded=true">Die Services</a></li>

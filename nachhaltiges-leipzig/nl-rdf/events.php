@@ -23,7 +23,7 @@ function getEvents() {
 function createEvent($row) {
   $id=$row['id'];
   $a=array();
-  $a[]=' a ld:Event ';
+  $a[]=' a nl:Event ';
   $a=addLiteral($a,"nl:hasId",$id);
   $a=addLiteral($a,"rdfs:label",$row["name"]);
   $a=addMLiteral($a,"ical:description",$row["description"]);

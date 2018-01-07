@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+// require 'vendor/autoload.php';
 
 function addLiteral($a,$key,$value) {
     if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes($value).'"'; }
@@ -95,7 +95,7 @@ function createAdresse($row) {
     $gps_long=$row["longitude"];
     $gps_lat=$row["latitude"];
     $a=array();
-    $a[]=' a ld:WeitereAdresse ';
+    $a[]=' a nl:Adresse ';
     $a=addLiteral($a,'rdfs:label', "$stadt, $strasse");
     $a=addLiteral($a,'ld:hasCity', $stadt);
     $a=addLiteral($a,'ld:hasStreet', getStreet($strasse));

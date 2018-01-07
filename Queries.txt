@@ -1,6 +1,5 @@
 Ein paar Beispiel-Anfragen:
 
-
 PREFIX ldo: <http://leipzig-data.de/Data/Ort/>
 PREFIX ldp: <http://leipzig-data.de/Data/Person/>
 PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
@@ -26,9 +25,6 @@ optional{ ?p  mint2014:Mail ?email . }
 } order by (?l)
 
 Alle Schuladressen heraussuchen
-
-
-
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
@@ -286,30 +282,58 @@ SELECT distinct ?e ?d WHERE {
 ---------------------------------------------------
 Jugendtstadtplan aufbereiten
 
-PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
-SELECT distinct ?e ?label ?adresse ?url
+SELECT ?p ?o
 from  <http://leipzig-data.de/Data/Jugendstadtplan/>
 WHERE {
-  ?e a jsp:Ort .
-  ?e jsp:hasAddress ?adresse .
-  ?e rdfs:label ?label .
-  ?e ld:hasURL ?url .
-} 
+  jsp:DieVilla ?p ?o .
+}
+
+PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
+SELECT ?a
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+WHERE {
+  ?a a owl:Class .
+}
+
+PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
+SELECT distinct ?a count(?b)
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+WHERE {
+  ?a a jsp:Art . ?b jsp:Art ?a
+}
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
-SELECT distinct ?e ?o ?el ?ol ?ea ?oa 
+SELECT distinct ?e ?label ?o ?ol
 from  <http://leipzig-data.de/Data/Jugendstadtplan/>
 from  <http://leipzig-data.de/Data/Orte/>
+from  <http://leipzig-data.de/Data/Unternehmen/>
+from  <http://leipzig-data.de/Data/Vereine/>
+from  <http://leipzig-data.de/Data/Treffpunkte/>
 WHERE {
-  ?o a ld:Ort .
-  ?e a jsp:Ort .
-  ?o rdfs:label ?ol .
-  ?e rdfs:label ?el .
-optional {  ?e jsp:hasAddress ?ea . }
-optional {   ?o ld:hasAddress ?oa . }
-filter regex(?ol, ?el) 
+  ?e a jsp:Ort ; jsp:describes ?o; rdfs:label ?label .
+  optional { ?o rdfs:label ?ol . }
+  filter (!bound(?ol))
+} 
+
+jsp:describes - Möglich sind Ort, Treffpunkt, Verein, Firma
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+SELECT distinct ?e ?label ?o ?a ?geo
+from  <http://leipzig-data.de/Data/Jugendstadtplan/>
+from  <http://leipzig-data.de/Data/Orte/>
+from  <http://leipzig-data.de/Data/Unternehmen/>
+from  <http://leipzig-data.de/Data/Vereine/>
+from  <http://leipzig-data.de/Data/Treffpunkte/>
+from  <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?e a jsp:Ort ; jsp:describes ?o; rdfs:label ?label .
+  optional { ?o ld:hasAddress ?a . }
+  optional { ?o ld:hasAddress ?a . ?a geosparql:asWKT ?geo . }
+  optional { ?o geosparql:asWKT ?geo . }
 } 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
@@ -323,7 +347,6 @@ WHERE {
   ?e rdfs:label ?label .
   ?e ld:hasURL ?url .
 } 
-
 
 ---------------------------------------------------
 Adressen und Geokoordinaten kontrollieren
@@ -604,7 +627,6 @@ WHERE {
 ?adresse geo:lat ?lat . 
 ?adresse geo:long ?long .
 } 
-
 
 select ?class ?label ?type 
 FROM <http://leipzig-data.de/Data/EnergiewendeVokabular/> 

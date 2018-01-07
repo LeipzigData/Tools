@@ -1,12 +1,13 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Date: 2017-10-28
+ * Date: 2018-01-07
  */
 
 include_once("actions.php");
 include_once("adressen.php");
 include_once("akteure.php");
+include_once("changes.php");
 include_once("events.php");
 include_once("projects.php");
 include_once("services.php");
@@ -18,6 +19,7 @@ function main() {
     if ($what=='akteure') { $out=asPlainText(getAkteure()); }
     else if ($what=='aktionen') { $out=asPlainText(getAktionen()); }
     else if ($what=='adressen') { $out=asPlainText(getAdressen()); }
+    else if ($what=='changes') { $out=asPlainText(displayChanges()); }
     else if ($what=='events') { $out=asPlainText(getEvents()); }
     else if ($what=='projekte') { $out=asPlainText(getProjekte()); }
     else if ($what=='services') { $out=asPlainText(getServices()); }
@@ -39,7 +41,7 @@ function htmlwrap($out) {
     <meta name="author" content="Leipzig Data Project"/>
 '. $out. '
   </body>
-</html>';
+</html> ';
 }    
 
 echo main();
