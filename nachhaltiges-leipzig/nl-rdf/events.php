@@ -37,6 +37,11 @@ function createEvent($row) {
   $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
   $a=addLiteral($a,'nl:hasSpeaker', $row["speaker"]);
   $a=addLiteral($a,'nl:isPublished', $row["published"]);
+  $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Event'");
+  foreach ($res as $u) {
+      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur/A", $u["user_id"]);
+      $a=addLiteral($a,'nl:hasEventType', $u["item_type_i18n"]);
+  }  
   return '<http://nachhaltiges-leipzig.de/Data/Event/E'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
