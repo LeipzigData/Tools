@@ -27,11 +27,11 @@ function createAkteur($row) {
   $a=array();
   $a[]=' a foaf:Person ';
   $a=addLiteral($a,'nl:hasID', $id);
-  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
+//  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
   $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
-  $a=addLiteral($a,'nl:lastLoginAt', str_replace(" ", "T", $row['last_login_at']));
-  $a=addLiteral($a,'nl:lastActivityCheckAt', str_replace(" ", "T", $row['activity_check_at']));
-  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
+//  $a=addLiteral($a,'nl:lastLoginAt', str_replace(" ", "T", $row['last_login_at']));
+//  $a=addLiteral($a,'nl:lastActivityCheckAt', str_replace(" ", "T", $row['activity_check_at']));
+//  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
   $a=addLiteral($a,'foaf:firstName', $row['first_name']);
   $a=addLiteral($a,'foaf:lastName', $row['last_name']);
   $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));

@@ -23,7 +23,7 @@ function main() {
   file_put_contents ("../Daten/Adressen.ttl",toRDFString(getAdressen())); 
   echo "<p>Ausgabe ../Daten/Adressen.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Changes.txt",toRDFString(displayChanges())); 
-  echo "<p>Ausgabe ../Daten/Adressen.ttl erzeugt</p> \n";
+  echo "<p>Ausgabe ../Daten/Changes.txt erzeugt</p> \n";
   file_put_contents ("../Daten/Events.ttl",toRDFString(getEvents()));  
   echo "<p>Ausgabe ../Daten/Events.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Projekte.ttl",toRDFString(getProjekte())); 
