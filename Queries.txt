@@ -354,37 +354,50 @@ Adressen und Geokoordinaten kontrollieren
 Wie viele Adressen?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-SELECT count(?e) WHERE {
-  ?e a ld:Adresse .
+SELECT count(?e) 
+from <http://leipzig-data.de/Data/Adressen/>
+WHERE {
+  ?e a ld:LeipzigerAdresse .
 } 
+
+# -> 65221
 
 Ausschnitt von Adressen mit Geokoordinaten
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames: <http://www.geonames.org/ontology#> 
-SELECT distinct ?a ?long ?lat ?way WHERE {
-  ?a a ld:Adresse .
+SELECT distinct ?a ?long ?lat ?way 
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?a a ld:LeipzigerAdresse .
   ?a geo:lat ?lat . 
   ?a geo:long ?long . 
   ?a geonames:nearbyFeatures ?way .
-  filter regex(?a, "Tierkliniken")
+  filter regex(?a, "Karl-Liebknecht-Strasse")
 } 
 
 Welche Geokoordinaten tauchen mehrfach auf?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT distinct ?lat ?long count(distinct ?e) as ?s WHERE {
-  ?e a ld:Adresse .
+SELECT distinct ?lat ?long count(distinct ?e) as ?s 
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?e a ld:LeipzigerAdresse .
   ?e geo:lat ?lat . 
   ?e geo:long ?long . 
 } order by ?s
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT ?e WHERE {
-  ?e a ld:Adresse .
+SELECT ?e 
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?e a ld:LeipzigerAdresse .
   ?e geo:lat 51.2906416 . 
   ?e geo:long 12.4391084 . 
 }
@@ -395,8 +408,11 @@ komplex
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames: <http://www.geonames.org/ontology#> 
-SELECT distinct ?lat ?long ?way count(distinct ?e) as ?s WHERE {
-  ?e a ld:Adresse .
+SELECT distinct ?lat ?long ?way count(distinct ?e) as ?s 
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?e a ld:LeipzigerAdresse .
   ?e geo:lat ?lat . 
   ?e geo:long ?long . 
   ?a geonames:nearbyFeatures ?way .
@@ -406,13 +422,16 @@ Welche Adressen haben keine Geokoordinaten?
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT distinct ?e WHERE {
-  ?e a ld:Adresse .
+SELECT count(distinct ?e) 
+from <http://leipzig-data.de/Data/Adressen/>
+from <http://leipzig-data.de/Data/GeoDaten/>
+WHERE {
+  ?e a ld:LeipzigerAdresse .
   optional {?e geo:lat ?l . }
   filter (!bound(?l))
 } 
 
-Aktuell 2165 Einträge. 
+Aktuell 1940 Einträge. 
 
 Welche Adressen haben kein ld:inStreet? 
 
