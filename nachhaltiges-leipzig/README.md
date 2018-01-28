@@ -70,6 +70,6 @@ graebe@informatik.uni-leipzig.de) verfügbar.
 
 ## Aktuelle Arbeiten
 
-2018-01-04: Anlegen der Datei `changes.pl`, in der Änderungen an der Datenbasis
-"Nachhaltiges Leipzig" aufgearbeitet werden, die über Email-Notification
-ausgeliefert werden.  Work in progress.
+2018-01-28: Erweiterung um Datei `changes.php`, in der Änderungen an der
+Datenbasis "Nachhaltiges Leipzig" aufgearbeitet werden, die über
+Email-Notification ausgeliefert werden.

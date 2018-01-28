@@ -4,74 +4,107 @@ include_once("helper.php");
 
 function displayChanges() {
     $a=array();
+    $nr=10000;
     foreach (preg_split("/\n/",getData()) as $row) {
         if (preg_match("/Akteur deaktiviert/", $row)) {
-                $a[]=akteurDeaktiviert($row);
+            $a[]=akteurDeaktiviert($row,$nr++);
             }
         else if (preg_match("/Akteur hat sich registriert/", $row)) {
-                $a[]=akteurRegistriert($row);
+                $a[]=akteurRegistriert($row,$nr++);
             }
         else if (preg_match("/Neue.*eingetragen/", $row)) {
-                $a[]=neueAktivitaet($row);
+                $a[]=neueAktivitaet($row,$nr++);
             }
-        else { $a[]=processLine($row); }
+        else { $a[]=processLine($row,$nr++); }
     }
-    return join("\n===========",$a);
+    return TurtlePrefix().'
+<http://nachhaltiges-leipzig.de/Data/Changes/> a owl:Ontology ;
+    rdfs:comment "Changes zur Datenbank";
+    rdfs:label "Nachhaltiges Leipzig - Changes" .
+
+'.join("\n\n",$a);
 }
 
-function akteurDeaktiviert($row) {
+function akteurDeaktiviert($row,$nr) {
     preg_match('|Akteur deaktiviert:\s+(.+)\s*\((.*),\s*(.*)\)\s*\s*\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $akteur=$matches[1]; $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
-    $out="
-Akteur: $akteur
-Ort: $ort
-Kontakt: $user
-Action: deactivated
-Date: $date";
-    return $out;
+    $a=array();
+    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='nl:Akteur "'.$akteur.'"';
+    $a[]='nl:Kontakt "'.$user.'"';
+    $a[]='nl:Aktivitaet "deactivated"';
+    $a[]='dct:created "'.$date.'"';
+    return join(" ;\n ",$a)." . ";
 }
 
-function akteurRegistriert($row) {
+function akteurRegistriert($row,$nr) {
     preg_match('/Akteur hat sich registriert. Name:\s+(.+)\s*\.\s*(.+)$/',$row,$matches);
     // print_r($matches);
     $user=$matches[1]; $date=$matches[2];
-    $out="
-Akteur: $user
-Action: registered
-Date: $date";
-    return $out;
+    $a=array();
+    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='nl:Akteur "'.$user.'"';
+    $a[]='nl:Aktivitaet "registered"';
+    $a[]='dct:created "'.$date.'"';
+    return join(" ;\n ",$a)." . ";
 }
 
-function neueAktivitaet($row) {
+function neueAktivitaet($row,$nr) {
     preg_match('|Neue Aktivität von\s*(.*)\s*eingetragen.\s*(.*)\s*(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $akteur=$matches[1]; $rest=$matches[2]; $user=$matches[3]; $action=$matches[4]; $date=$matches[5];
-    $out="
-User: $user
-Akteur: $akteur
-Action: $action
-Date: $date";
-    if (!empty($rest)) { $out.="\nRest: $rest"; }
-    return $out;
+    $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action/A',$action);
+    $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event/E',$action);
+    $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur/A',$user);
+    $a=array();
+    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='nl:User <'.$user.'>';
+    $a[]='nl:Akteur "'.$akteur.'"';
+    $a[]='nl:linksTo <'.$action.'>';
+    $a[]='dct:created "'.$date.'"';
+    if (!empty($rest)) { $a[]='rdfs:comment "'.$rest.'"'; }
+    return join(" ;\n ",$a)." . ";
 }
 
-function processLine($row) {
+function processLine($row,$nr) {
     preg_match('|(.*)(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $rest=$matches[1]; $user=$matches[2]; $action=$matches[3]; $date=$matches[4];
-    $out="
-User: $user
-Action: $action
-Date: $date";
-    if (!empty($rest)) { $out.="\nRest: $rest"; }
-    return $out;
+    $a=array();
+    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='nl:Akteur "'.$user.'"';
+    $a[]='nl:Aktivitaet "'.$action.'"';
+    $a[]='dct:created "'.$date.'"';
+    if (!empty($rest)) { $a[]='rdfs:comment "'.$rest.'"'; }
+    return join(" ;\n ",$a)." . ";
 }
 
 function getData() {
     // Data extracted from email notifications
     return 
-'Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/612. 2018-01-06
+'Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/625. 2018-01-27
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/624. 2018-01-27
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/623. 2018-01-27
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/622. 2018-01-27
+Akteur hat sich registriert. Name: Stadt Leipzig Umweltinformationszentrum . 2018-01-25
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/621. 2018-01-24
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/620. 2018-01-24
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/619. 2018-01-24
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/618. 2018-01-24
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/617. 2018-01-24
+Neue Aktivität von Fanö-Mode eingetragen. admin/users/178. stores/317. 2018-01-22
+Neue Aktivität von Gartenfreunde Süd e.V. eingetragen. admin/users/184. events/616. 2018-01-21
+Akteur hat sich registriert. Name: Gartenfreunde Süd e.V. . 2018-01-21
+Neue Aktivität von Araki Verlag eingetragen. admin/users/86. actions/23. 2018-01-18
+Akteur hat sich registriert. Name: Luise Neugebauer Schmuck . 2018-01-17
+Akteur hat sich registriert. Name: Matthias Schmidt . 2018-01-15
+Akteur hat sich registriert. Name: Orang-Utans in Not . 2018-01-15
+Neue Aktivität von Stefan Härtel eingetragen. admin/users/180. events/615. 2018-01-11
+Neue Aktivität von Stefan Härtel eingetragen. admin/users/180. events/614. 2018-01-11
+Akteur hat sich registriert. Name: Stefan Härtel . 2018-01-11
+Neue Aktivität von Leipzig Grün eingetragen. admin/users/179. events/613. 2018-01-08
+Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/612. 2018-01-06
 Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/611. 2018-01-06
 Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/610. 2018-01-06
 Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/609. 2018-01-06
