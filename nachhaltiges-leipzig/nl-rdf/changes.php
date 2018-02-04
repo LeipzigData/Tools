@@ -83,7 +83,58 @@ function processLine($row,$nr) {
 function getData() {
     // Data extracted from email notifications
     return 
-'Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/625. 2018-01-27
+'Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/682. 2018-02-04
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/681. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/680. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/679. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/678. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/677. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/675. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/670. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/669. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/667. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/665. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/663. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/659. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/655. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/650. 2018-02-04
+Akteur hat sich registriert. Name: erleb-bar . 2018-02-02
+Akteur hat sich registriert. Name: Biomare II GmbH . 2018-02-02
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/195. events/649. 2018-02-02
+Akteur hat sich registriert. Name: Dirk Scheffler . 2018-02-02
+Akteur hat sich registriert. Name: Stadtverband Leipzig der Kleingärtner e.V. . 2018-02-02
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/648. 2018-02-01
+Akteur hat sich registriert. Name: Park- und Stadtführerin Daniela Neumann . 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/647. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/646. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/645. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/644. 2018-02-01
+Neue Aktivität von Winter Catherine eingetragen. admin/users/192. events/643. 2018-02-01
+Neue Aktivität von Winter Catherine eingetragen. admin/users/192. events/642. 2018-02-01
+Neue Aktivität von Winter Catherine eingetragen. admin/users/192. events/641. 2018-02-01
+Akteur hat sich registriert. Name: Winter Catherine . 2018-02-01
+Akteur hat sich registriert. Name: Fabian Sachsenröder . 2018-02-01
+Neue Aktivität von Anja Hümmer eingetragen. admin/users/190. events/640. 2018-02-01
+Akteur hat sich registriert. Name: Anja Hümmer . 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/639. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/638. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/637. 2018-02-01
+Neue Aktivität von Paula Hofmann eingetragen. admin/users/189. events/636. 2018-02-01
+Akteur hat sich registriert. Name: Paula Hofmann . 2018-02-01
+Akteur hat sich registriert. Name: Botanischer Garten der Universität Leipzig . 2018-02-01
+Neue Aktivität von Bürgerverein Sellerhausen-Stünz eingetragen. admin/users/187. events/635. 2018-02-01
+Neue Aktivität von Bürgerverein Sellerhausen-Stünz eingetragen. admin/users/187. events/64. 2018-02-01
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/633. 2018-02-01
+Neue Aktivität von Bürgerverein Sellerhausen-Stünz eingetragen. admin/users/187. events/632. 2018-02-01
+Akteur hat sich registriert. Name: Bürgerverein Sellerhausen-Stünz . 2018-02-01
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/631. 2018-02-01
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/630. 2018-02-01
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/629. 2018-02-01
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/627. 2018-01-30
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/626. 2018-01-29
+Akteur hat sich registriert. Name: Natur- und Wildnisschule Leipzig GbR  . 2018-01-29
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/625. 2018-01-27
 Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/624. 2018-01-27
 Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/623. 2018-01-27
 Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/622. 2018-01-27
