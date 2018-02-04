@@ -83,7 +83,22 @@ function processLine($row,$nr) {
 function getData() {
     // Data extracted from email notifications
     return 
-'Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/682. 2018-02-04
+'Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/697. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/696. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/695. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/694. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/693. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/692. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/691. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/690. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/689. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/688. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/687. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/686. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/685. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/684. 2018-02-04
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/683. 2018-02-04
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/682. 2018-02-04
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/681. 2018-02-04
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/680. 2018-02-04
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/679. 2018-02-04
