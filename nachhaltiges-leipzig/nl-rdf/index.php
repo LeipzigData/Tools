@@ -38,9 +38,9 @@ Plattform <a href="https://daten.nachhaltiges-leipzig.de/"
 >daten.nachhaltiges-leipzig.de</a> verschiedene Informationen im RDF-Format
 extrahieren lassen.  </p>
 
-<p> Zur Installation muss eine Datenbank mit einem Dump der Daten der Plattform
-nachhaltiges-leipzig.de angebunden werden.  Details dazu in der Datei
-<a href="README.md">README.md</a>.</p>
+<p> Details dazu <a href="http://leipzig-data.de/gelbe-seiten/">auf den Seiten
+des Leipzig Data Projekts</a> oder in der <a href="README.md">README.md</a>.
+</p>
 
 </div> 
 ';
