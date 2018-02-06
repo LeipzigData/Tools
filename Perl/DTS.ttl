@@ -1,0 +1,42 @@
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://leipzig-data.de/Data/Event/DTS.2017-12-11>
+    ld:contactPerson ldp:Schroth_Johannes ;
+    ld:hasTag ldtag:DenkTankStelle, ldtag:ZukunftsDiskurs ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/Attac.DenkTankStelle> ;
+    a ld:Event ;
+    rdfs:label "Political Correctness" ;
+    ical:dtstart "2017-12-11T19:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/Cafe.Grundmann> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/Attac.Leipzig> ;
+    ical:summary "Attac DenkTankStelle: Kultur macht Menschen" ;
+    ical:url <http://leipzig-netz.de/index.php5/Attac.DenkTankStelle.2017-12-11> .
+
+<http://leipzig-data.de/Data/Event/DTS.2018-01-08>
+    ld:contactPerson ldp:Schroth_Johannes ;
+    ld:hasTag ldtag:DenkTankStelle, ldtag:ZukunftsDiskurs ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/Attac.DenkTankStelle> ;
+    a ld:Event ;
+    rdfs:label "Neoliberale Strategien zur Herrschaftssicherung" ;
+    ical:dtstart "2018-01-08T19:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/Cafe.Grundmann> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/Attac.Leipzig> ;
+    ical:summary "Attac DenkTankStelle: Kultur macht Menschen" ;
+    ical:url <http://leipzig-netz.de/index.php5/Attac.DenkTankStelle.2018-01-08> .
+
+<http://leipzig-data.de/Data/Event/DTS.2018-02-12>
+    ld:contactPerson ldp:Schroth_Johannes ;
+    ld:hasTag ldtag:DenkTankStelle, ldtag:ZukunftsDiskurs ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/Attac.DenkTankStelle> ;
+    a ld:Event ;
+    rdfs:label "Neoliberale Strategien zur Herrschaftssicherung" ;
+    ical:dtstart "2018-02-12T19:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/MIO> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/Attac.Leipzig> ;
+    ical:summary "Attac DenkTankStelle: Kultur macht Menschen" ;
+    ical:url <http://leipzig-netz.de/index.php5/Attac.DenkTankStelle.2018-02-12> .
+

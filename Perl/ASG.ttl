@@ -1,0 +1,53 @@
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix ldtag: <http://leipzig-data.de/Data/Tag/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://leipzig-data.de/Data/Event/ASG.2017-11-16>
+    ld:hasTag ldtag:ASG, ldtag:MINT ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/ASG.SommerfeldSeminar> ;
+    a ld:Event ;
+    rdfs:label "Die Atombombe - vor 100 Jahren noch Science Fiction, vor 70 Jahren grausame Wirklichkeit" ;
+    ical:dtstart "2017-11-16T17:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/UniLeipzig.Ritterstrasse> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/ASG> ;
+    ical:summary "Die Atombombe - vor 100 Jahren noch Science Fiction, vor 70 Jahren grausame Wirklichkeit. Mit Dr. rer. nat. Dietmar Lehmann, Leipzig." ;
+    ical:url <http://asg.ignt.de/Einladung_17_11_.pdf>, <http://asg.ignt.de/Seminar.htm> .
+
+<http://leipzig-data.de/Data/Event/ASG.2017-12-14>
+    ld:hasTag ldtag:ASG, ldtag:MINT ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/ASG.SommerfeldSeminar> ;
+    a ld:Event ;
+    rdfs:label "Apollo 8: Der große Sprung für die Menschheit" ;
+    ical:dtstart "2017-12-14T17:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/UniLeipzig.Ritterstrasse> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/ASG> ;
+    ical:summary "Apollo 8: Der große Sprung für die Menschheit. Weihnachten im Weltraum. Mit Attila Mattukat, Leipzig." ;
+    ical:url <http://asg.ignt.de/Einladung_17_12_.pdf>, <http://asg.ignt.de/Seminar.htm> .
+
+<http://leipzig-data.de/Data/Event/ASG.2018-01-18>
+    ld:hasTag ldtag:ASG, ldtag:MINT ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/ASG.SommerfeldSeminar> ;
+    a ld:Event ;
+    rdfs:label "Abfallwirtschaft in Togo: ein Besuch in Lomé und Sokodé im August 2017" ;
+    ical:dtstart "2018-01-18T17:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/UniLeipzig.Ritterstrasse> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/ASG> ;
+    ical:summary "Abfallwirtschaft in Togo: ein Besuch in Lomé und Sokodé im August 2017. Mit Dr. rer. pol. Dipl.-Ing. Karl-Michael Meiss, ASG." ;
+    ical:url <http://asg.ignt.de/Einladung_18_01_.pdf>, <http://asg.ignt.de/Seminar.htm> .
+
+<http://leipzig-data.de/Data/Event/ASG.2018-02-15>
+    ld:hasTag ldtag:ASG, ldtag:MINT ;
+    ld:zurReihe <http://leipzig-data.de/Data/Projekt/ASG.SommerfeldSeminar> ;
+    a ld:Event ;
+    rdfs:label "Die Atombombe - sieben Etappen von einer Utopie zum Sündenfall der Physik" ;
+    ical:dtstart "2018-02-15T17:00:00+01:00"^^xsd:dateTime ;
+    ical:location <http://leipzig-data.de/Data/Ort/UniLeipzig.Ritterstrasse> ;
+    ical:organizer <http://leipzig-data.de/Data/Verein/ASG> ;
+    ical:summary "Die Atombombe - sieben Etappen von einer Utopie zum Sündenfall der Physik. Mit Dr. rer. nat. Dietmar Lehmann, Leipzig." ;
+    ical:url <http://asg.ignt.de/Einladung_18_01_.pdf>, <http://asg.ignt.de/Seminar.htm> .
+
+
+
+

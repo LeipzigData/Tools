@@ -12,10 +12,10 @@ include_once("sparten.php");
 function main() {
     $what=$_GET['show'];
     $out='';
-    if ($what=='akteure') { $out=asPlainText(getAkteure()); }
-    else if ($what=='adressen') { $out=asPlainText(getAdressen()); }
-    else if ($what=='events') { $out=asPlainText(getEvents()); }
-    else if ($what=='sparten') { $out=asPlainText(getSparten()); }
+    if ($what=='akteure') { $out=getAkteure(); }
+    else if ($what=='adressen') { $out=getAdressen(); }
+    else if ($what=='events') { $out=getEvents(); }
+    else if ($what=='sparten') { $out=getSparten(); }
     else $out="Aufruf getdata.php?show=akteure";
     if (defined($_GET['embedded'])) { $out=htmlwrap($out); }
     return $out;
@@ -31,7 +31,7 @@ function htmlwrap($out) {
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="LD Leipziger Ecken Standalone Info Page"/>
     <meta name="author" content="Leipzig Data Project"/>
-'. $out. '
+'. asPlainText($out). '
   </body>
 </html>';
 }    
