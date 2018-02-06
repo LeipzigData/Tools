@@ -83,7 +83,82 @@ function processLine($row,$nr) {
 function getData() {
     // Data extracted from email notifications
     return 
-'Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/697. 2018-02-04
+'Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/758. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/757. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/756. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/755. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/754. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/753. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/752. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/751. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/750. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/749. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/748. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/747. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/746. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/745. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/744. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/743. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/742. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/741. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. actions/30. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/740. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/739. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/738. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/737. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/736. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/735. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/734. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/733. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/732. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/731. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/730. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/729. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/728. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/727. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/726. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/725. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/724. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/723. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/722. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/721. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/720. 2018-02-06
+Akteur hat sich registriert. Name: Zentrum für Fermentation  . 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. actions/29. 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. events/719. 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. actions/28. 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. actions/27. 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. events/718. 2018-02-06
+Neue Aktivität von Vier Fährten  eingetragen. admin/users/176. actions/26. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/717. 2018-02-06
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/716. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. actions/25. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. events/715. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. events/714. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. events/713. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. events/712. 2018-02-06
+Neue Aktivität von Gohliser Verein zur Förderungen Kunst und Kultur eingetragen. admin/users/201. actions/24. 2018-02-06
+Akteur hat sich registriert. Name: Gohliser Verein zur Förderungen Kunst und Kultur e.V. . 2018-02-06
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/711. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/710. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/709. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/708. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/707. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/706. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/705. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/704. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. projects/110. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/703. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/702. 2018-02-05
+Neue Aktivität von Stadtverband Leipzig der Kleingärtner eingetragen. admin/users/200. events/701. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/700. 2018-02-05
+Akteur hat sich registriert. Name: Stadtverband Leipzig der Kleingärtner e.V. . 2018-02-05
+Neue Aktivität von Michael Schaaf eingetragen. admin/users/199. events/699. 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. events/698. 2018-02-05
+Akteur hat sich registriert. Name: Michael Schaaf . 2018-02-05
+Neue Aktivität von Dt. Kleingärtnermuseum eingetragen. admin/users/198. projects/109. 2018-02-05
+Akteur hat sich registriert. Name: Dt. Kleingärtnermuseum  . 2018-02-05
+Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/697. 2018-02-04
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/696. 2018-02-04
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/695. 2018-02-04
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/694. 2018-02-04
