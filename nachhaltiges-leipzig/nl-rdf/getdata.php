@@ -16,14 +16,14 @@ include_once("stores.php");
 function main() {
     $what=$_GET['show'];
     $out='';
-    if ($what=='akteure') { $out=asPlainText(getAkteure()); }
-    else if ($what=='aktionen') { $out=asPlainText(getAktionen()); }
-    else if ($what=='adressen') { $out=asPlainText(getAdressen()); }
-    else if ($what=='changes') { $out=asPlainText(displayChanges()); }
-    else if ($what=='events') { $out=asPlainText(getEvents()); }
-    else if ($what=='projekte') { $out=asPlainText(getProjekte()); }
-    else if ($what=='services') { $out=asPlainText(getServices()); }
-    else if ($what=='stores') { $out=asPlainText(getStores()); }
+    if ($what=='akteure') { $out=getAkteure(); }
+    else if ($what=='aktionen') { $out=getAktionen(); }
+    else if ($what=='adressen') { $out=getAdressen(); }
+    else if ($what=='changes') { $out=displayChanges(); }
+    else if ($what=='events') { $out=getEvents(); }
+    else if ($what=='projekte') { $out=getProjekte(); }
+    else if ($what=='services') { $out=getServices(); }
+    else if ($what=='stores') { $out=getStores(); }
     else $out="Aufruf getdata.php?show=akteure";
     if (defined($_GET['embedded'])) { $out=htmlwrap($out); }
     return $out;
@@ -39,7 +39,7 @@ function htmlwrap($out) {
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="LD Nachhaltiges Leipzig Standalone Info Page"/>
     <meta name="author" content="Leipzig Data Project"/>
-'. $out. '
+'. asPlainText($out). '
   </body>
 </html> ';
 }    
