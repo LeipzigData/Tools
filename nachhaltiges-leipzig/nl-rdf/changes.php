@@ -83,7 +83,89 @@ function processLine($row,$nr) {
 function getData() {
     // Data extracted from email notifications
     return 
-'Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/758. 2018-02-06
+'
+
+
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/71. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/70. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/816. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/69. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/68. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/67. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/815. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/814. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/813. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/812. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/811. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/810. 2018-02-13
+Neue Aktivität von Querbeet Leipzig e.V. eingetragen. admin/users/210. events/809. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/808. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/807. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/806. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/805. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/804. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/803. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/802. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/801. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/800. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/799. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/798. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/797. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/796. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/795. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/794. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/793. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/792. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/791. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/790. 2018-02-13
+Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. projects/114. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/789. 2018-02-13
+Akteur hat sich registriert. Name: GRASSI Museum für Angewandte Kunst  . 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/788. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/787. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/786. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/785. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/784. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/783. 2018-02-13
+Neue Aktivität von Querbeet Leipzig e.V. eingetragen. admin/users/210. events/782. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/781. 2018-02-13
+Neue Aktivität von Querbeet Leipzig e.V. eingetragen. admin/users/210. events/780. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/779. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/778. 2018-02-13
+Neue Aktivität von Querbeet Leipzig e.V. eingetragen. admin/users/210. events/777. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/776. 2018-02-13
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/775. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/774. 2018-02-13
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/773. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/772. 2018-02-13
+Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. events/771. 2018-02-13
+Akteur hat sich registriert. Name: Querbeet Leipzig e.V. . 2018-02-13
+Neue Aktivität von Notenspur Leipzig e.V. eingetragen. admin/users/209. events/770. 2018-02-12
+Akteur hat sich registriert. Name: Notenspur Leipzig e.V. . 2018-02-12
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/769. 2018-02-11
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/113. 2018-02-10
+Akteur hat sich registriert. Name: Blütenreich . 2018-02-10
+Neue Aktivität von Der Lindentaler eingetragen. admin/users/23. projects/112. 2018-02-10
+Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/768. 2018-02-09
+Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/767. 2018-02-09
+Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/766. 2018-02-09
+Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/765. 2018-02-09
+Neue Aktivität von Cafe. Restaurant. Symbiose eingetragen. admin/users/207. stores/318. 2018-02-09
+Akteur hat sich registriert. Name: Cafe. Restaurant. Symbiose  . 2018-02-09
+Neue Aktivität von Graeske eingetragen. admin/users/206. projects/111. 2018-02-08
+Akteur hat sich registriert. Name: Graeske . 2018-02-08
+Neue Aktivität von Stadt Delitzsch eingetragen. admin/users/205. events/764. 2018-02-08
+Akteur hat sich registriert. Name: Stadt Delitzsch  . 2018-02-08
+Akteur deaktiviert: Förderverein "Umweltinformationszentrum Leipzig - UiZ" e.V. (Leipzig, Annette Körner) . 2018-02-08
+Akteur hat sich registriert. Name: Wilde Leipziger . 2018-02-07
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. action/31. 2018-02-07
+Neue Aktivität von Anja Hümmer eingetragen. admin/users/190. events/763. 2018-02-07
+Neue Aktivität von Anja Hümmer eingetragen. admin/users/190. events/762. 2018-02-07
+Neue Aktivität von Anja Hümmer eingetragen. admin/users/190. events/761. 2018-02-07
+Neue Aktivität von Anja Hümmer eingetragen. admin/users/190. events/760. 2018-02-07
+Neue Aktivität von Hörspielsommer e.V. eingetragen. admin/users/203. events/759. 2018-02-07
+Akteur hat sich registriert. Name: Hörspielsommer e.V.  . 2018-02-07
+Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/758. 2018-02-06
 Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/757. 2018-02-06
 Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/756. 2018-02-06
 Neue Aktivität von Botanischer Garten Großpösna-Oberholz eingetragen. admin/users/171. events/755. 2018-02-06
