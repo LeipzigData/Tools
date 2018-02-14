@@ -31,8 +31,8 @@ function createProjekt($row) {
   $a=addMLiteral($a,'nl:hasSummary', $row['short_description']);
   $a=addMLiteral($a,'nl:hasPropertyList', $row['property_list']);
   $a=addLiteral($a,'nl:hasImage', $row['image']);
-  $a=addResource($a,'nl:hasVideoURL', "", $row['video_url']);
-  $a=addResource($a,'nl:hasInfoURL', "", $row['info_url']);
+  $a=addResource($a,'nl:hasVideoURL', "", fixURI($row['video_url']));
+  $a=addResource($a,'nl:hasInfoURL', "", fixURI($row['info_url']));
   $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
   $a=addLiteral($a,'nl:hasDistrict', $row['district']);
   $a=addLiteral($a,'nl:isPublished', $row['published']);

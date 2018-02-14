@@ -125,6 +125,6 @@ function getAddressURI($row) {
     $strasse=getStreet($strasse).".".getHouseNumber($strasse);
     $plz=$row["zip"];
     $stadt=$row["location"];
-    $out=fixuRI("$plz.$stadt.$strasse");
+    $out=fixURI("$plz.$stadt.$strasse");
     return $out;
 }

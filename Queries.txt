@@ -747,4 +747,142 @@ WHERE {
 ?u ld:zurReihe ?r .
 } 
 
+--------------------------------
+-- Abgleich mit Nachhaltiges Leipzig
 
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
+SELECT ?u 
+FROM <http://nachhaltiges-leipzig.de/Data/Adressen/> 
+FROM <http://leipzig-data.de/Data/Adressen/> 
+WHERE {  
+?u a nl:Adresse ; ld:hasCity "Leipzig" .
+optional { ?u ld:inOrtsteil ?b . }
+filter (!bound(?b))
+}
+
+http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20
+http://leipzig-data.de/Data/.Leipzig.AmHallischenTor.XX
+http://leipzig-data.de/Data/.Leipzig.Rietschelstrasse.XX
+http://leipzig-data.de/Data/.Leipzig.ZwickauerStrasse.XX
+http://leipzig-data.de/Data/04103.Leipzig.LeipzigCentralStation.XX
+http://leipzig-data.de/Data/04107.Leipzig.Anton-Bruckner-Allee.XX
+http://leipzig-data.de/Data/04107.Leipzig.Wilhelm-Leuschner-Platz.XX
+http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.XX
+http://leipzig-data.de/Data/04109.Leipzig.Kolonnadenstrasse.XX
+http://leipzig-data.de/Data/04109.Leipzig.Markt.XX
+http://leipzig-data.de/Data/04109.Leipzig.Naschmarkt.XX
+http://leipzig-data.de/Data/04109.Leipzig.Nikolaikirchhof.XX
+http://leipzig-data.de/Data/04109.Leipzig.Petersstrasse.XX
+http://leipzig-data.de/Data/04109.Leipzig.Richard-Wagner-Platz.XX
+http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX
+http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.XX
+
+Neu:
+http://leipzig-data.de/Data/04109.Leipzig.AachenerStrasse.7
+http://leipzig-data.de/Data/04159.Leipzig.Marienweg.20
+
+
+http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX
+http://leipzig-data.de/Data/04177.Leipzig.LuetznerStreet.75
+http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.XX
+http://leipzig-data.de/Data/04179.Leipzig.Franz-Flemming-Strasse.43
+http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.XX
+http://leipzig-data.de/Data/04205.Leipzig.Garskestrasse.XX
+http://leipzig-data.de/Data/04205.Leipzig.Jupiterstrasse.46
+http://leipzig-data.de/Data/04207.Leipzig.Seestrasse.15
+http://leipzig-data.de/Data/04207.Leipzig.StrasseamSee.XX
+http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.1
+http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.24
+http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.25
+http://leipzig-data.de/Data/04229.Leipzig.Dammstrasse.1
+http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX
+http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.58
+http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.44
+http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX
+http://leipzig-data.de/Data/04229.Leipzig.Roedelstrasse.31
+http://leipzig-data.de/Data/04249.Leipzig.Anton-Zickmantel-Strasse.XX
+http://leipzig-data.de/Data/04249.Leipzig.Dieskaustrasse.365
+http://leipzig-data.de/Data/04249.Leipzig.Emil-Teich-Strasse.XX
+http://leipzig-data.de/Data/04275.Leipzig.Bernhard-Goering-Strasse.81
+http://leipzig-data.de/Data/04277.Leipzig.Arno-Nitzsche-Strasse.19
+http://leipzig-data.de/Data/04277.Leipzig.Basedowstrasse.XX
+http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX
+http://leipzig-data.de/Data/04277.Leipzig.KohrenerStrasse.XX
+http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111
+http://leipzig-data.de/Data/04277.Leipzig.Wolfgang-Heinze-Strasse.XX
+http://leipzig-data.de/Data/04279.Leipzig.Johannes-R.-Becher-Strasse.12
+http://leipzig-data.de/Data/04279.Leipzig.Johannes-R.-Becher-Strasse.2
+http://leipzig-data.de/Data/04288.Leipzig.Clemens-Thieme-Strasse.1
+http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.71
+http://leipzig-data.de/Data/04288.Leipzig.Kaerrnerstrasse.XX
+http://leipzig-data.de/Data/04288.Leipzig.Kirchstrasse.XX
+http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.17
+http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.XX
+http://leipzig-data.de/Data/04317.Leipzig.JohannaPark.XX
+http://leipzig-data.de/Data/04317.Leipzig.Riebeckstrasse.XX
+http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.69
+http://leipzig-data.de/Data/04328.Leipzig.GeithainerStrasse.60
+http://leipzig-data.de/Data/04328.Leipzig.Permoserstrasse.46
+http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.10
+http://leipzig-data.de/Data/04329.Leipzig.Wiesenstrasse.22
+http://leipzig-data.de/Data/04347.Leipzig.Braunstrasse.9
+http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.XX
+http://leipzig-data.de/Data/04349.Leipzig.Wodanstrasse.32
+http://leipzig-data.de/Data/04356.Leipzig.GoebschelwitzerStrasse.1
+http://leipzig-data.de/Data/04357.Leipzig.EssenerStrasse.123
+
+--------------------------------
+-- Abgleich mit Leipziger Ecken
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX le: <http://leipziger-ecken.de/Data/Model#>
+SELECT ?v ?u ?a ?b
+FROM <http://leipziger-ecken.de/Data/Akteure/> 
+FROM <http://leipziger-ecken.de/Data/Adressen/> 
+FROM <http://leipzig-data.de/Data/Adressen/> 
+WHERE {
+?v a le:Akteur; le:hatAdresse ?u .
+?u a le:Adresse; le:proposedAddress ?a .
+optional { ?a a ?b . }
+}
+
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX le: <http://leipziger-ecken.de/Data/Model#>
+SELECT ?u ?a ?b
+FROM <http://leipziger-ecken.de/Data/Adressen/> 
+FROM <http://leipzig-data.de/Data/Adressen/> 
+WHERE {  
+?u a le:Adresse; le:proposedAddress ?a .
+optional { ?a a ?b . }
+filter (!bound(?b))
+}
+
+
+
+ u 	a 	b
+
+Treffpunkte:
+http://leipziger-ecken.de/Data/Adresse/A101 	http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz. 	
+http://leipziger-ecken.de/Data/Adresse/A114 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 		
+http://leipziger-ecken.de/Data/Adresse/A124 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A142 	http://leipzig-data.de/Data/04315.Leipzig.VolkmarsdorferMarkt. 	
+http://leipziger-ecken.de/Data/Adresse/A144 	http://leipzig-data.de/Data/.Leipzig.Bennigsenstrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A156 	http://leipzig-data.de/Data/04317.Leipzig.Reichspietzstrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A161 	http://leipzig-data.de/Data/04315.Leipzig.NeustaedterMarkt. 	
+http://leipziger-ecken.de/Data/Adresse/A168 	http://leipzig-data.de/Data/04315.Leipzig.NeustaedterMarkt. 	
+http://leipziger-ecken.de/Data/Adresse/A169 	http://leipzig-data.de/Data/04315.Leipzig.MeissnerStrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A170 	http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A171 	http://leipzig-data.de/Data/.Leipzig.Eisenbahnstrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A180 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A194 	http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse. 
+http://leipziger-ecken.de/Data/Adresse/A238 	http://leipzig-data.de/Data/04315.Leipzig.NeustaedterMarkt. 	
+http://leipziger-ecken.de/Data/Adresse/A389 	http://leipzig-data.de/Data/.Leipzig.SchulzeDelitzschStrasse. 	
+http://leipziger-ecken.de/Data/Adresse/A394 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A395 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A398 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A399 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A400 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A403 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+http://leipziger-ecken.de/Data/Adresse/A430 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
