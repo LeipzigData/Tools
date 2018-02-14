@@ -38,6 +38,11 @@ function createStore($row) {
   $a=addLiteral($a,'nl:isPublished', $row['published']);
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
   $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
+  $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Store'");
+  foreach ($res as $u) {
+      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur/A", $u["user_id"]);
+      $a=addLiteral($a,'nl:hasEventType', $u["item_type_i18n"]);
+  }  
   return '<http://nachhaltiges-leipzig.de/Data/Store/S'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 

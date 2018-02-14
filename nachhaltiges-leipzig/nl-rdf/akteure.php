@@ -24,29 +24,35 @@ function getAkteure() {
 
 function createAkteur($row) {
   $id=$row['id'];
-  $a=array();
-  $a[]=' a foaf:Person ';
+  $a=array(); $b=array(); $c=array(); 
+  $a[]=' a foaf:Person '; $b[]=' a nl:Akteur '; $c[]=' a org:Membership ';
   $a=addLiteral($a,'nl:hasID', $id);
 //  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
-  $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
+  $b=addLiteral($b,'dct:updated', str_replace(" ", "T", $row['updated_at']));
 //  $a=addLiteral($a,'nl:lastLoginAt', str_replace(" ", "T", $row['last_login_at']));
 //  $a=addLiteral($a,'nl:lastActivityCheckAt', str_replace(" ", "T", $row['activity_check_at']));
 //  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
   $a=addLiteral($a,'foaf:firstName', $row['first_name']);
   $a=addLiteral($a,'foaf:lastName', $row['last_name']);
-  $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
-  $a=addLiteral($a,'foaf:mbox', $row['email']);
+  $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
+  $b=addLiteral($b,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_primary']));
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_secondary']));
-  $a=addLiteral($a,'org:memberOf', $row['organization']);
-  $a=addResource($a,'foaf:homepage', "", $row['organization_url']);
-  $a=addLiteral($a,'nl:orgType', $row['organization_type']);
-  $a=addLiteral($a,'nl:orgPosition', $row['organization_position']);
-  $a=addLiteral($a,'nl:orgLogo', $row['organization_logo']);
-  $a=addLiteral($a,'nl:hasDistrict', $row['district']);
-  $a=addLiteral($a,'nl:isReviewed', $row['reviewed']);
-  $a=addLiteral($a,'nl:isTradeOrganization', $row['trade_organization']);
-  return '<http://nachhaltiges-leipzig.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  $a=addResource($a,'org:memberOf', "http://leipzig-data.de/Data/Akteur/A", $id);
+  $b=addLiteral($b,'rdfs:label', $row['organization']);
+  $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
+  $b=addResource($b,'nl:orgType', "http://leipzig-data.de/Data/OrgType/", $row['organization_type']);
+  $c=addResource($c,'org:member', "http://leipzig-data.de/Data/Person/P", $id);
+  $c=addResource($c,'org:organization', "http://leipzig-data.de/Data/Akteur/A", $id);
+  $c=addLiteral($c,'rdfs:label', $row['organization_position']);
+//  $b=addLiteral($b,'foaf:image', $row['organization_logo']);
+//  $b=addLiteral($b,'nl:hasDistrict', $row['district']);
+//  $b=addLiteral($b,'nl:isReviewed', $row['reviewed']);
+  $b=addLiteral($b,'nl:isTradeOrganization', $row['trade_organization']);
+  return
+      '<http://nachhaltiges-leipzig.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$b) . " . \n" .
+      '<http://nachhaltiges-leipzig.de/Data/Person/P'. $id .'>'. join(" ;\n  ",$a) . " . \n" .
+      '<http://nachhaltiges-leipzig.de/Data/Membership/M'. $id .'>'. join(" ;\n  ",$c) . " . \n\n" ;
 }
 
 // zum Testen

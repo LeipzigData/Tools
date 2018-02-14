@@ -1,0 +1,3031 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix nl: <http://nachhaltiges-leipzig.de/Data/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+
+
+
+<http://nachhaltiges-leipzig.de/Data/Stores/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    rdfs:label "Nachhaltiges Leipzig - Stores" .
+
+<http://nachhaltiges-leipzig.de/Data/Store/S1> a nl:Store  ;
+   nl:hasID "1" ;
+   nl:hasDescription """ Stylish, Öko & Fair: Aktuelle Kollektionen angesagter Fair- und Ökolabels für Groß und Klein. Als inhabergeführtes Ladengeschäft legen wir großen Wert auf persönlichen Service - auch online! """ ;
+   nl:hasSummary """ Faire & grüne Mode für die ganze Familie """ ;
+   nl:hasInfoURL <http://www.gruenschnabel-shop.de> ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-13T08:20:25" ;
+   dct:updated "2015-01-13T08:20:25" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A94> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S2> a nl:Store  ;
+   nl:hasID "2" ;
+   nl:hasDescription """ Second-Hand-Shops, die Gutes tun
+Die Idee ist einfach – was nicht mehr gebraucht wird, bringt man in den Oxfam Shop. Dort wird es von ehrenamtlichen Teams verkauft. Die Überschüsse kommen der entwicklungspolitischen Kampagnen- und Projektarbeit des Oxfam Deutschland e.V. zugute.
+Neben Second-Hand-Waren (Kleidung, Bücher, Hausrat) führen viele Oxfam Shops ein kleines Angebot fair gehandelter Produkte. """ ;
+   nl:hasSummary """ Charity Shop """ ;
+   nl:hasInfoURL <http://www.oxfam-shops.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Hainstrasse.11> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-17T09:24:50" ;
+   dct:updated "2016-08-29T07:56:24" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A99> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S3> a nl:Store  ;
+   nl:hasID "3" ;
+   nl:hasDescription """  Weltladen und Café.
+
+>Öffnungszeiten:
+Mo.-Fr.: 10.00 – 18:30 Uhr
+Sa.: 10.00 – 13.00 Uhr
+
+>Wie kommt man dorthin?
+Strassenbahn: 9, 11 bis Connewitzer Kreuz; 10 bis Wiedebachplatz
+
+Kontakt:
+Tel: 0341 3010143
+Fax: 0341 3919106
+ """ ;
+   nl:hasSummary """ Ein Weltladen mit vielen Produkten und einem kleinen Café """ ;
+   nl:hasImage "drin.JPG" ;
+   nl:hasInfoURL <http://www.einewelt-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.18> ;
+   nl:hasDistrict "Connewitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-19T12:14:47" ;
+   dct:updated "2016-09-12T07:58:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A50> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S4> a nl:Store  ;
+   nl:hasID "4" ;
+   nl:hasDescription """ Der Laden in der Innenstadt (seit 1996) befindet sich in unmittelbarer Nähe zur Thomaskirche und liegt damit sehr zentral. Wir freuen uns natürlich auf einen Besuch. 
+
+Kontakte:
+Tel: 0341 3010143
+Fax: 0341 3919106
+
+Öffnungszeiten:
+Mo.- Do.: 10.00 – 18.30 Uhr
+Fr.: 10.00 – 20.00 Uhr
+Sa.: 10.00 – 18:30 Uhr """ ;
+   nl:hasSummary """ Ein Weltladen mit vielen Produkten und einem kleinen Café """ ;
+   nl:hasImage "Laden_012.JPG" ;
+   nl:hasInfoURL <http://www.einewelt-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Burgstrasse.18> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-19T12:19:00" ;
+   dct:updated "2016-09-12T08:00:16" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A50> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S5> a nl:Store  ;
+   nl:hasID "5" ;
+   nl:hasDescription """ Seit über 20 Jahren engagiert sich die CONTIGO-Gruppe für den Fairen Handel, der für mehr Ausgewogenheit zwischen den Erzeugern in Übersee und unserem Markt sorgen will. 
+
+Beide Seiten sollen davon profitieren: die Produzenten durch verbesserte Marktchancen, bessere und stabilere Einkommen und menschenwürdige Arbeitsbedingungen und auch die Verbraucher, die gute Qualitäten, transparente Handelswege, Originalität und Vielfalt schätzen.
+
+Egal ob Sie vorhaben Ihre Wohnung mit originellen Artikeln aus Übersee zu verschönern, fair gehandelte Köstlichkeiten zu genießen und zu verschenken oder sich selbst ein besonders schönes Schmuckstück zu gönnen, das CONTIGO Sortiment lässt keine Wünsche offen: 
+
+Traditionell gerösteter Kaffee • aromatischer Tee • hangefertigter Schmuck • bequeme Hängematten • handbemalte Kerzen • farbenfrohe Keramik • hochwertige Textilien • ausgefallene Geschenke • niedliche Kinderspielsachen """ ;
+   nl:hasSummary """ Fairer Handel ist, wenn Alle gewinnen: Fairer Handel vom Produzenten bis zum Kunden! """ ;
+   nl:hasImage "Logo_CONTIGOC_hoch.jpg" ;
+   nl:hasInfoURL <http://www.contigo.de> ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-20T13:35:25" ;
+   dct:updated "2017-03-15T15:14:59" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A91> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S6> a nl:Store  ;
+   nl:hasID "6" ;
+   nl:hasSummary """ Verkauf Kunsthandwerk, Lebensmittel """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-21T08:38:59" ;
+   dct:updated "2016-08-29T07:44:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A97> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S7> a nl:Store  ;
+   nl:hasID "7" ;
+   nl:hasSummary """ Lebensmittel, Kunsthandwerk und Souvenirs aus der ganzen Welt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
+   nl:hasDistrict "Zentrum-Nord (Nordvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-21T08:40:21" ;
+   dct:updated "2017-02-10T09:17:46" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A97> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S8> a nl:Store  ;
+   nl:hasID "8" ;
+   nl:hasDescription """ Orchideen, Helikonien, Protea, Rosen, Nelken, Bindegrün u.a. aus Fairem Handel sind im Sortiment. Diese Blumen sind speziell gekennzeichnet. """ ;
+   nl:hasSummary """ Wir handeln Fairtrade Blumen """ ;
+   nl:hasInfoURL <http://www.haediflor.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Johannes-R-Becher-Strasse.12> ;
+   nl:hasDistrict "Lößnig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-01-21T08:43:33" ;
+   dct:updated "2016-01-25T13:49:47" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A90> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S9> a nl:Store  ;
+   nl:hasID "9" ;
+   nl:hasDescription """ In unserer Küche arbeiten wir weitgehend nach den sieben Grundsätzen der vollwertigen Ernährung. 
+Wir verwenden vorwiegend ökologisch erzeugte Lebensmittel, richten uns nach saisonalen Marktangeboten und arbeiten mit regionalen Produzenten zusammen. Dabei wird auch auf umweltverträglich verpackte Produkte geachtet. 
+Die Speisen werden täglich frisch und in unserer Küche zubereitet, gekocht und gebacken. 
+Es wird darauf geachtet, dass die Lebensmittel schonend zubereitet und gut gewürzt werden. 
+
+ """ ;
+   nl:hasSummary """ Täglich frisch zubereitetes Mittagessen im Café und Catering-Angebot """ ;
+   nl:hasPropertyList """ regional, bio, preiswert """ ;
+   nl:hasInfoURL <http://www.hddl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   nl:hasDistrict "Connewitz" ;
+   dct:created "2015-01-22T13:48:48" ;
+   dct:updated "2016-02-26T06:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A101> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S10> a nl:Store  ;
+   nl:hasID "10" ;
+   nl:hasDescription """ Genießen Sie eine entspannte Tasse Tee oder einen frisch gebrühten Kaffee ...
+Mit hochwertigen Kaffeeröstungen von J.J.Darboven und erlesenen Teespezialitäten aus dem Hause EILLES bietet das Hotel Fürstenhof, Leipzig seinen Gästen nicht nur höchsten Genuss, sondern auch das Versprechen, nachhaltig und fair mit seinen Partner und Resourcen zu handeln. Darüber hinaus arbeitet das Hotel bevorzugt mit regional ansässigen Lieferanten zusammen um diesem Versprechen gerecht zu werden. Unterstützen auch Sie uns dabei. Wir freuen uns auf Ihren Besuch! """ ;
+   nl:hasSummary """ Exklusive Produkte für nachhaltiges Handeln """ ;
+   nl:hasPropertyList """ Tee
+Kaffee
+regionale Produkte """ ;
+   nl:hasImage "lux1359ex-114417-Exterior.jpg" ;
+   nl:hasInfoURL <http://www.hotelfuerstenhofleipzig.com/> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Troendlinring.8> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   dct:created "2015-02-05T13:12:06" ;
+   dct:updated "2017-03-23T06:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A103> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S11> a nl:Store  ;
+   nl:hasID "11" ;
+   nl:hasDescription """ Seidentraum vertreibt Naturtextilien aus Seide und richtet seinen Fokus auf nachhaltige und ökologische Produkte. Bevorzugt werden Handelsbeziehungen, bei denen sich die Geschäftspartner fair und gleichberechtigt gegenüberstehen. Der Schwerpunkt unseres Sortiments liegt auf Textilien aus Bio-Seide (organic silk), Ahimsa-Seide (non-violent silk) und FairTrade-Seide
+
+Seidentraum versteht sich als Partner für Designer, Modemacher, Schneider und Hobby-Handwerker im Bereich Eco Fashion und Nachhaltigkeit. 
+
+Im Onlineshop www.seidentraum.biz finden Endverbraucher ein reichhaltiges Angebot an Seidenstoffen, exklusiver Damenoberbekleidung und heilsamer Babywäsche, sowie Naturkosmetik mit Bioseide.
+
+Als Großhändler für Seidenstoffe hält Seidentraum spezielle Konditionen für B2B-Kunden bereit.
+
+Seidentraum wurde 2011 in Leipzig gegründet. Inhaber ist Dr. Matias Langer, langjähriger Geschäftsführer im Bereich Naturtextilien und Naturwaren.  """ ;
+   nl:hasSummary """ Groß- u. Einzelhandel für Stoffe, Tücher, DOB, Babywäsche aus Bioseide und Ahimsaseide """ ;
+   nl:hasPropertyList """ Bioseide 
+Ahimsa-Seide
+FairTrade-Seide
+GOTS-zertifiziert
+Seidentücher
+Babywäsche aus reiner Seide
+Naturkosmetik mit Bioseide
+Garne, Fasern, Kokons """ ;
+   nl:hasImage "logo_pur_500px.png" ;
+   nl:hasInfoURL <http://www.seidentraum.biz> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
+   nl:hasDistrict "Mölkau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-02-09T15:47:24" ;
+   dct:updated "2015-02-09T15:48:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A48> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S12> a nl:Store  ;
+   nl:hasID "12" ;
+   nl:hasDescription """ Exclusivcaterer der Leipziger Messe, Verkauf des Cateringangebotes via Online- oder Telefonanfrage. """ ;
+   nl:hasSummary """ Firmensitz beifndet sich im Congress Cener Leipzig """ ;
+   nl:hasInfoURL <http://www.fairgourmet.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04356.Leipzig.SeehausenerAllee.2> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-02-18T07:24:34" ;
+   dct:updated "2016-08-29T07:58:31" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A102> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S55> a nl:Store  ;
+   nl:hasID "55" ;
+   nl:hasSummary """ Penny-Filiale Auf dem Marktplatz im Paunsdorf Center  """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.1> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:22:27" ;
+   dct:updated "2015-03-11T14:22:27" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S57> a nl:Store  ;
+   nl:hasID "57" ;
+   nl:hasSummary """ Penny-Filiale in der Jupiterstraße 44 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.Jupiterstrasse.44> ;
+   nl:hasDistrict "Grünau-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:33:01" ;
+   dct:updated "2015-03-11T14:33:01" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S59> a nl:Store  ;
+   nl:hasID "59" ;
+   nl:hasSummary """ Penny-Filiale in Waldkerbelstraße 12 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Waldkerbelstrasse.12> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:36:06" ;
+   dct:updated "2015-03-11T14:36:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S60> a nl:Store  ;
+   nl:hasID "60" ;
+   nl:hasSummary """ Penny-Filiale in der Permoser Straße 46 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04328.Leipzig.Permoserstrasse.46> ;
+   nl:hasDistrict "Sellerhausen-Stünz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:38:08" ;
+   dct:updated "2015-03-11T14:38:08" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S61> a nl:Store  ;
+   nl:hasID "61" ;
+   nl:hasSummary """ Penny-Filiale in der Zweinaundorfer Straße 198 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.ZweinaundorferStrasse.198> ;
+   nl:hasDistrict "Mölkau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:40:49" ;
+   dct:updated "2015-03-11T14:40:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S65> a nl:Store  ;
+   nl:hasID "65" ;
+   nl:hasSummary """ Penny-Filiale in der Hermelinstraße 2-4 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Hermelinstrasse.2> ;
+   nl:hasDistrict "Heiterblick" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T14:48:35" ;
+   dct:updated "2017-07-03T14:06:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S68> a nl:Store  ;
+   nl:hasID "68" ;
+   nl:hasSummary """ Penny-Filiale am Täubchenweg 69-73 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.69> ;
+   nl:hasDistrict "Anger-Crottendorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:00:14" ;
+   dct:updated "2015-03-11T15:00:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S69> a nl:Store  ;
+   nl:hasID "69" ;
+   nl:hasSummary """ Netto-Filiale im Ranstädter Steinweg """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.RanstaedterSteinweg.20> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:02:35" ;
+   dct:updated "2016-06-28T13:08:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S70> a nl:Store  ;
+   nl:hasID "70" ;
+   nl:hasSummary """ Penny-Filiale in der Zschochersche Straße 48 in der Elsterpassage  """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.48> ;
+   nl:hasDistrict "Plagwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:03:08" ;
+   dct:updated "2016-06-28T13:08:24" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S71> a nl:Store  ;
+   nl:hasID "71" ;
+   nl:hasSummary """ Netto-Filiale in der Nikolaistraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Nikolaistrasse.6> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:06:01" ;
+   dct:updated "2015-03-11T15:06:01" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S72> a nl:Store  ;
+   nl:hasID "72" ;
+   nl:hasSummary """ Penny-Filiale in der Georg-Schumann-Straße 50 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.Georg-Schumann-Strasse.50> ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:07:39" ;
+   dct:updated "2015-03-11T15:07:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S73> a nl:Store  ;
+   nl:hasID "73" ;
+   nl:hasSummary """ Netto-Filiale in der Inselstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.4> ;
+   nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:10:06" ;
+   dct:updated "2015-03-11T15:10:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S74> a nl:Store  ;
+   nl:hasID "74" ;
+   nl:hasSummary """ Penny-Filiale in der Delitzscher Straße 64 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.DelitzscherStrasse.64> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:10:41" ;
+   dct:updated "2015-03-11T15:10:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S75> a nl:Store  ;
+   nl:hasID "75" ;
+   nl:hasSummary """ Netto-Filiale in der Gutsmuthsstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.GutsMuthsstrasse.4> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:12:21" ;
+   dct:updated "2015-03-11T15:12:21" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S76> a nl:Store  ;
+   nl:hasID "76" ;
+   nl:hasSummary """ Netto-Filiale in der Plautstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.36> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:14:59" ;
+   dct:updated "2015-03-11T15:14:59" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S77> a nl:Store  ;
+   nl:hasID "77" ;
+   nl:hasSummary """ Penny-Filiale in der Waldbaurstraße 4-6 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Waldbaurstrasse.4> ;
+   nl:hasDistrict "Schönefeld-Abtnaundorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:18:08" ;
+   dct:updated "2015-03-11T15:18:08" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S78> a nl:Store  ;
+   nl:hasID "78" ;
+   nl:hasSummary """ Netto-Filiale in der Franz-Flemming-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Franz-Flemming-Strasse.43> ;
+   nl:hasDistrict "Leutzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:19:11" ;
+   dct:updated "2015-03-11T15:19:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S79> a nl:Store  ;
+   nl:hasID "79" ;
+   nl:hasSummary """ Penny-Filiale im Moritzhof Zwickauer Straße 125 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.ZwickauerStrasse.125> ;
+   nl:hasDistrict "Lößnig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:20:18" ;
+   dct:updated "2015-03-11T15:22:34" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S80> a nl:Store  ;
+   nl:hasID "80" ;
+   nl:hasSummary """ Netto-Filiale in der Heinrich-Heine-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.Heinrich-Heine-Strasse.41> ;
+   nl:hasDistrict "Böhlitz-Ehrenberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:21:19" ;
+   dct:updated "2015-03-11T15:21:19" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S81> a nl:Store  ;
+   nl:hasID "81" ;
+   nl:hasSummary """ Penny-Filiale in der Abrahamstraße / Bienerstraße 7  """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Bienerstrasse.7> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:21:58" ;
+   dct:updated "2015-03-11T15:21:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S82> a nl:Store  ;
+   nl:hasID "82" ;
+   nl:hasSummary """ Netto-Filiale in der Heinrich-Heine-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.Heinrich-Heine-Strasse.91> ;
+   nl:hasDistrict "Böhlitz-Ehrenberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:23:19" ;
+   dct:updated "2015-03-11T15:23:19" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S83> a nl:Store  ;
+   nl:hasID "83" ;
+   nl:hasSummary """ Penny-Filiale in der  Georg-Schwarz-Straße 139 """ ;
+   nl:hasInfoURL <http://www.penny.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.139> ;
+   nl:hasDistrict "Leutzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:24:23" ;
+   dct:updated "2015-03-11T15:24:23" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S84> a nl:Store  ;
+   nl:hasID "84" ;
+   nl:hasSummary """ Netto-Filiale in der Arno-Nitzsche-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Arno-Nitzsche-Strasse.19> ;
+   nl:hasDistrict "Marienbrunn" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:31:11" ;
+   dct:updated "2015-03-11T15:31:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S85> a nl:Store  ;
+   nl:hasID "85" ;
+   nl:hasSummary """ Netto-Filiale in der Bernhard-Goering-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Bernhard-Goering-Strasse.81> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:33:01" ;
+   dct:updated "2015-03-11T15:33:01" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S86> a nl:Store  ;
+   nl:hasID "86" ;
+   nl:hasSummary """ Netto-Filiale in der Bornaischen Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.22> ;
+   nl:hasDistrict "Connewitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:36:10" ;
+   dct:updated "2015-03-11T15:36:10" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S87> a nl:Store  ;
+   nl:hasID "87" ;
+   nl:hasSummary """ Lidl-Filiale im Petersbogen in der  Petersstraße 36-44 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Petersstrasse.36> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:37:49" ;
+   dct:updated "2015-04-07T09:20:42" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S88> a nl:Store  ;
+   nl:hasID "88" ;
+   nl:hasSummary """ Netto-Filiale in der Dornberger Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Dornbergerstrasse.8> ;
+   nl:hasDistrict "Volkmarsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:39:02" ;
+   dct:updated "2015-03-11T15:39:02" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S89> a nl:Store  ;
+   nl:hasID "89" ;
+   nl:hasSummary """ Netto-Filiale in der Diamantstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04319.Leipzig.Diamantstrasse.2> ;
+   nl:hasDistrict "Engelsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:41:00" ;
+   dct:updated "2015-03-11T15:41:00" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S90> a nl:Store  ;
+   nl:hasID "90" ;
+   nl:hasSummary """ Netto-Filiale in der Sommerfelder Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.SommerfelderStrasse.80> ;
+   nl:hasDistrict "Mölkau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:42:37" ;
+   dct:updated "2015-03-11T15:42:37" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S91> a nl:Store  ;
+   nl:hasID "91" ;
+   nl:hasSummary """ Netto-Filiale in der Waldbaurstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Waldbaurstrasse.2> ;
+   nl:hasDistrict "Neustadt-Neuschönefeld" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:44:26" ;
+   dct:updated "2015-03-11T15:44:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S92> a nl:Store  ;
+   nl:hasID "92" ;
+   nl:hasSummary """ Netto-Filiale in der Antonienstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Antonienstrasse.57> ;
+   nl:hasDistrict "Plagwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:46:23" ;
+   dct:updated "2015-03-11T15:46:53" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S93> a nl:Store  ;
+   nl:hasID "93" ;
+   nl:hasSummary """ Netto-Filiale in der Rödelstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Roedelstrasse.31> ;
+   nl:hasDistrict "Schleußig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:48:30" ;
+   dct:updated "2015-03-11T15:48:30" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S94> a nl:Store  ;
+   nl:hasID "94" ;
+   nl:hasSummary """ Netto-Filiale in der Dieskaustraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Dieskaustrasse.155> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:50:31" ;
+   dct:updated "2015-03-11T15:50:31" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S95> a nl:Store  ;
+   nl:hasID "95" ;
+   nl:hasSummary """ Lidl-Filiale in der Windscheidstraße 1 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Windscheidstrasse.1> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:52:33" ;
+   dct:updated "2015-04-07T09:22:12" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S96> a nl:Store  ;
+   nl:hasID "96" ;
+   nl:hasSummary """ Netto-Filiale in der  Max-Liebermann-Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Max-Liebermann-Strasse.61> ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:54:53" ;
+   dct:updated "2015-03-11T15:54:53" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S97> a nl:Store  ;
+   nl:hasID "97" ;
+   nl:hasSummary """ Netto-Filiale in der Theresienstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.Theresienstrasse.77> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:58:38" ;
+   dct:updated "2015-03-11T15:58:38" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S98> a nl:Store  ;
+   nl:hasID "98" ;
+   nl:hasSummary """ Lidl-Filiale in der Zwickauer Straße 66  """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.ZwickauerStrasse.66> ;
+   nl:hasDistrict "Marienbrunn" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T15:58:52" ;
+   dct:updated "2015-04-07T09:23:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S99> a nl:Store  ;
+   nl:hasID "99" ;
+   nl:hasSummary """ Netto-Filiale in der Wittenberger Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.WittenbergerStrasse.25> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:01:12" ;
+   dct:updated "2015-03-11T16:01:12" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S100> a nl:Store  ;
+   nl:hasID "100" ;
+   nl:hasSummary """ Lidl-Filiale in Holzhäuser Straße 104 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04299.Leipzig.HolzhaeuserStrasse.104> ;
+   nl:hasDistrict "Stötteritz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:02:10" ;
+   dct:updated "2015-04-07T09:24:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S101> a nl:Store  ;
+   nl:hasID "101" ;
+   nl:hasSummary """ Netto-Filiale in der Braunstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Braunstrasse.1A> ;
+   nl:hasDistrict "Schönefeld-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:05:25" ;
+   dct:updated "2015-03-11T16:05:25" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S102> a nl:Store  ;
+   nl:hasID "102" ;
+   nl:hasSummary """ Netto-Filiale in der Löbauer Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.LoebauerStrasse.68> ;
+   nl:hasDistrict "Schönefeld-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:08:53" ;
+   dct:updated "2015-03-11T16:08:53" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S103> a nl:Store  ;
+   nl:hasID "103" ;
+   nl:hasSummary """ Lidl-Filiale in der Hartzstraße 6 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.Hartzstrasse.6> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:09:33" ;
+   dct:updated "2015-04-07T09:25:08" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S104> a nl:Store  ;
+   nl:hasID "104" ;
+   nl:hasSummary """ Lidl-Filiale in der  Max-Liebermann-Straße 99 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Max-Liebermann-Strasse.99> ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:11:59" ;
+   dct:updated "2015-04-07T09:26:09" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S105> a nl:Store  ;
+   nl:hasID "105" ;
+   nl:hasSummary """ Netto-Filiale Selliner Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.SellinerStrasse.1A> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:12:03" ;
+   dct:updated "2015-03-11T16:12:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S106> a nl:Store  ;
+   nl:hasID "106" ;
+   nl:hasSummary """ Lidl-Filiale in der Torgauer Straße 74 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74> ;
+   nl:hasDistrict "Sellerhausen-Stünz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:13:15" ;
+   dct:updated "2015-04-07T09:27:07" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S107> a nl:Store  ;
+   nl:hasID "107" ;
+   nl:hasSummary """ Netto-Filiale in der Breisgau Straße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.Breisgaustrasse.85> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:14:33" ;
+   dct:updated "2015-03-11T16:14:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S108> a nl:Store  ;
+   nl:hasID "108" ;
+   nl:hasSummary """ Lidl-Filiale in der Riesaer Straße 75 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04328.Leipzig.RiesaerStrasse.75> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:14:56" ;
+   dct:updated "2015-04-07T09:27:36" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S109> a nl:Store  ;
+   nl:hasID "109" ;
+   nl:hasSummary """ Netto-Filiale in der Zschochersche Allee """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.ZschocherscheAllee.68> ;
+   nl:hasDistrict "Lausen-Grünau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:16:54" ;
+   dct:updated "2015-03-11T16:16:54" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S110> a nl:Store  ;
+   nl:hasID "110" ;
+   nl:hasSummary """ Lidl-Filiale in der Wiesenstraße 22 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Wiesenstrasse.22> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:17:07" ;
+   dct:updated "2015-04-07T09:27:53" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S111> a nl:Store  ;
+   nl:hasID "111" ;
+   nl:hasSummary """ Netto-Filiale Zur Lindenhöhe """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04158.Leipzig.ZurLindenhoehe.1> ;
+   nl:hasDistrict "Lindenthal" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:19:26" ;
+   dct:updated "2015-03-11T16:19:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S112> a nl:Store  ;
+   nl:hasID "112" ;
+   nl:hasSummary """ Lidl-Filiale in der Dieskaustraße 175 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Dieskaustrasse.175> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:19:43" ;
+   dct:updated "2015-04-07T09:28:13" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S113> a nl:Store  ;
+   nl:hasID "113" ;
+   nl:hasSummary """ Netto-Filiale in der Hauptstraße """ ;
+   nl:hasInfoURL <http://www.netto-online.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.Hauptstrasse.2> ;
+   nl:hasDistrict "Holzhausen" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:21:02" ;
+   dct:updated "2015-03-11T16:21:02" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S114> a nl:Store  ;
+   nl:hasID "114" ;
+   nl:hasSummary """ Lidl-Filiale in der Rehbacher Straße 7 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.RehbacherStrasse.7> ;
+   nl:hasDistrict "Knautkleeberg-Knauthain" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:23:27" ;
+   dct:updated "2015-04-07T09:28:44" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S116> a nl:Store  ;
+   nl:hasID "116" ;
+   nl:hasSummary """ Lidl-Filiale in der Zschochersche Straße 79 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.79> ;
+   nl:hasDistrict "Plagwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:25:00" ;
+   dct:updated "2015-04-07T09:29:52" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S117> a nl:Store  ;
+   nl:hasID "117" ;
+   nl:hasSummary """ Lidl-Filiale in der Großmiltitzer Straße 45 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.GrossmiltitzerStrasse.45> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:35:34" ;
+   dct:updated "2015-04-07T09:30:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S118> a nl:Store  ;
+   nl:hasID "118" ;
+   nl:hasSummary """ Lidl-Filiale in der Stuttgarter Allee 2 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.2> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:39:16" ;
+   dct:updated "2015-04-07T09:30:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S119> a nl:Store  ;
+   nl:hasID "119" ;
+   nl:hasSummary """ Tchibo-Filiale in der Petersstraße """ ;
+   nl:hasInfoURL <http://www.tchibo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Petersstrasse.36> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:40:33" ;
+   dct:updated "2015-03-11T16:40:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S120> a nl:Store  ;
+   nl:hasID "120" ;
+   nl:hasSummary """ Lidl-Filiale in der Lützner Straße 396 / Garske Straße """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.Garskestrasse.XX> ;
+   nl:hasDistrict "Schönau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:41:41" ;
+   dct:updated "2015-04-07T09:31:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S121> a nl:Store  ;
+   nl:hasID "121" ;
+   nl:hasSummary """ Tchibo-Filiale am Markt """ ;
+   nl:hasInfoURL <http://www.tchibo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Markt.17> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:42:52" ;
+   dct:updated "2015-03-11T16:42:52" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S122> a nl:Store  ;
+   nl:hasID "122" ;
+   nl:hasSummary """ Lidl-Filiale in der Merseburger Straße 255, Rückmarsdorf, 04178 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.MerseburgerStrasse.255> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:43:08" ;
+   dct:updated "2015-04-07T09:31:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S123> a nl:Store  ;
+   nl:hasID "123" ;
+   nl:hasSummary """ Lidl-Filiale in der Hauschildstraße 1 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Hauschildstrasse.1> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:44:19" ;
+   dct:updated "2015-04-07T09:31:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S124> a nl:Store  ;
+   nl:hasID "124" ;
+   nl:hasSummary """ Tchibo-Filiale am Willy-Brandt-Platz 7 """ ;
+   nl:hasInfoURL <http://www.tchibo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Willy-Brandt-Platz.7> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:45:03" ;
+   dct:updated "2015-03-11T16:45:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S125> a nl:Store  ;
+   nl:hasID "125" ;
+   nl:hasSummary """ Lidl-Filiale in der Theklaer Straße 150 """ ;
+   nl:hasInfoURL <http://www.lidl.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.TheklaerStrasse.150> ;
+   nl:hasDistrict "Thekla" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T16:45:59" ;
+   dct:updated "2015-04-07T09:32:22" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S126> a nl:Store  ;
+   nl:hasID "126" ;
+   nl:hasSummary """ Tchibo-Filiale in der Paunsdorfer Allee """ ;
+   nl:hasInfoURL <http://www.tchibo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.1> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T17:16:04" ;
+   dct:updated "2015-03-11T17:16:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S127> a nl:Store  ;
+   nl:hasID "127" ;
+   nl:hasSummary """ Tchibo-Filiale in der Ludwigsburger Straße """ ;
+   nl:hasInfoURL <http://www.tchibo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.LudwigsburgerStrasse.9> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-11T17:19:53" ;
+   dct:updated "2015-03-11T17:19:53" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A108> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S137> a nl:Store  ;
+   nl:hasID "137" ;
+   nl:hasSummary """ Rossmann-Filiale in der Karl-Liebknecht-Straße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Karl-Liebknecht-Strasse.4> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   dct:created "2015-03-12T13:23:20" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S138> a nl:Store  ;
+   nl:hasID "138" ;
+   nl:hasSummary """ Rossmann-Filiale in der  Petersstraße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Petersstrasse.44> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   dct:created "2015-03-12T13:25:02" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S139> a nl:Store  ;
+   nl:hasID "139" ;
+   nl:hasSummary """ Rossmann-Filiale am Willy-Brandt-Platz """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Willy-Brandt-Platz.5> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   dct:created "2015-03-12T13:27:13" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S140> a nl:Store  ;
+   nl:hasID "140" ;
+   nl:hasSummary """ Rossmann-Filiale in der  Lindenthaler Straße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.LindenthalerStrasse.35> ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   dct:created "2015-03-12T13:31:19" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S141> a nl:Store  ;
+   nl:hasID "141" ;
+   nl:hasSummary """ Rossmann-Filiale in der Delitzscher Straße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.DelitzscherStrasse.68> ;
+   nl:hasDistrict "Eutritzsch" ;
+   dct:created "2015-03-12T13:34:03" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S142> a nl:Store  ;
+   nl:hasID "142" ;
+   nl:hasSummary """ Rossmann-Filiale in der Georg-Schwarz-Straße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.139> ;
+   nl:hasDistrict "Leutzsch" ;
+   dct:created "2015-03-12T13:37:37" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S143> a nl:Store  ;
+   nl:hasID "143" ;
+   nl:hasSummary """ Rossmann-Filiale in der Zschocherschen Straße  """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.48> ;
+   nl:hasDistrict "Plagwitz" ;
+   dct:created "2015-03-12T13:39:19" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S144> a nl:Store  ;
+   nl:hasID "144" ;
+   nl:hasSummary """ Rossmann-Filiale in der Stuttgarter Allee """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.1> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   dct:created "2015-03-12T13:42:21" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S145> a nl:Store  ;
+   nl:hasID "145" ;
+   nl:hasSummary """ Rossmann-Filiale in der Dresdener Straße """ ;
+   nl:hasInfoURL <http://www.rossmann.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.78> ;
+   nl:hasDistrict "Anger-Crottendorf" ;
+   dct:created "2015-03-12T13:44:05" ;
+   dct:updated "2016-08-15T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A109> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S146> a nl:Store  ;
+   nl:hasID "146" ;
+   nl:hasSummary """ Subway-Filiale am Neumarkt """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Neumarkt.9> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:01:08" ;
+   dct:updated "2015-03-12T14:01:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S147> a nl:Store  ;
+   nl:hasID "147" ;
+   nl:hasSummary """ Subway-Filiale am Willy-Brandt-Platz """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Willy-Brandt-Platz.5> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:03:40" ;
+   dct:updated "2015-03-12T14:03:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S148> a nl:Store  ;
+   nl:hasID "148" ;
+   nl:hasSummary """ Subway-Filiale in der Jahnallee """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Jahnallee.33> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:05:43" ;
+   dct:updated "2015-03-12T14:05:43" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S149> a nl:Store  ;
+   nl:hasID "149" ;
+   nl:hasSummary """ Subway-Filiale in der Ludwigsburger Straße """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.LudwigsburgerStrasse.9> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:08:40" ;
+   dct:updated "2015-03-12T14:08:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S150> a nl:Store  ;
+   nl:hasID "150" ;
+   nl:hasSummary """ Subway-Filiale am Willy-Brandt-Platz """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Willy-Brandt-Platz.1> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:10:34" ;
+   dct:updated "2015-03-12T14:10:34" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S151> a nl:Store  ;
+   nl:hasID "151" ;
+   nl:hasSummary """ Subway-Filiale in der Merseburger Straße """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.MerseburgerStrasse.200> ;
+   nl:hasDistrict "Leutzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:11:59" ;
+   dct:updated "2015-03-12T14:11:59" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S152> a nl:Store  ;
+   nl:hasID "152" ;
+   nl:hasSummary """ Subway-Filiale in der Karl-Liebknecht-Straße """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.128> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:13:49" ;
+   dct:updated "2015-03-12T14:13:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S153> a nl:Store  ;
+   nl:hasID "153" ;
+   nl:hasSummary """ Subway-Filiale in der Oststraße """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Oststrasse.2> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:15:32" ;
+   dct:updated "2015-03-12T14:15:32" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S154> a nl:Store  ;
+   nl:hasID "154" ;
+   nl:hasSummary """ Subway-Filiale in der Könneritzstraße """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Koenneritzstrasse.46> ;
+   nl:hasDistrict "Plagwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:18:14" ;
+   dct:updated "2015-03-12T14:18:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S155> a nl:Store  ;
+   nl:hasID "155" ;
+   nl:hasSummary """ Subway-Filiale in der Paunsdorfer Allee """ ;
+   nl:hasInfoURL <http://www.subway-leipzig.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.10> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:22:04" ;
+   dct:updated "2015-03-12T14:22:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S156> a nl:Store  ;
+   nl:hasID "156" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Otto-Schill-Straße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Otto-Schill-Strasse.10> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:40:10" ;
+   dct:updated "2015-03-12T14:40:10" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S157> a nl:Store  ;
+   nl:hasID "157" ;
+   nl:hasSummary """ Steinecke Cafe in der Beethoven Straße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Beethovenstrasse.21> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:42:33" ;
+   dct:updated "2015-03-12T14:42:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S158> a nl:Store  ;
+   nl:hasID "158" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Straße des 18. Oktober """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Strassedes18.Oktober.44> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:44:30" ;
+   dct:updated "2015-03-12T14:44:30" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S159> a nl:Store  ;
+   nl:hasID "159" ;
+   nl:hasSummary """ Steinecke Cafe im Barfußgässchen """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Barfussgaesschen.12> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:46:25" ;
+   dct:updated "2015-03-12T14:46:25" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S160> a nl:Store  ;
+   nl:hasID "160" ;
+   nl:hasSummary """ Steinecke Bäckerei am Neumarkt """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Neumarkt.30> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:47:54" ;
+   dct:updated "2015-03-12T14:47:54" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S161> a nl:Store  ;
+   nl:hasID "161" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Dresdner Straße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.XX> ;
+   nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:49:36" ;
+   dct:updated "2015-03-12T14:49:36" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S162> a nl:Store  ;
+   nl:hasID "162" ;
+   nl:hasSummary """ Steinecke Cafe in der Stuttgarter Allee """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.24> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:53:57" ;
+   dct:updated "2015-03-12T14:53:57" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S163> a nl:Store  ;
+   nl:hasID "163" ;
+   nl:hasSummary """ Steinecke Cafe am Ostplatz """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Oststrasse.2> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:56:10" ;
+   dct:updated "2015-03-12T14:56:10" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S164> a nl:Store  ;
+   nl:hasID "164" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Wittenberger Straße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.WittenbergerStrasse.83> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T14:59:35" ;
+   dct:updated "2015-03-12T14:59:35" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S165> a nl:Store  ;
+   nl:hasID "165" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Hartzstraße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.Hartzstrasse.6> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:01:47" ;
+   dct:updated "2015-03-12T15:01:47" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S166> a nl:Store  ;
+   nl:hasID "166" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Miltitzer Straße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.MiltitzerStrasse.13> ;
+   nl:hasDistrict "Burghausen-Rückmarsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:03:46" ;
+   dct:updated "2015-03-12T15:03:46" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S167> a nl:Store  ;
+   nl:hasID "167" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Kreuzstraße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Kreuzstrasse.31> ;
+   nl:hasDistrict "Neustadt-Neuschönefeld" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:05:58" ;
+   dct:updated "2015-03-12T15:05:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S168> a nl:Store  ;
+   nl:hasID "168" ;
+   nl:hasSummary """ Steinecke Bäckerei in der Scheffelstraße """ ;
+   nl:hasInfoURL <http://www.steinecke.info> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Scheffelstrasse.34> ;
+   nl:hasDistrict "Marienbrunn" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:07:43" ;
+   dct:updated "2015-03-12T15:07:43" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A111> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S169> a nl:Store  ;
+   nl:hasID "169" ;
+   nl:hasSummary """ Uni-Mensa und -Cafeteria an den Tierkliniken  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.AndenTierkliniken.5> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:18:50" ;
+   dct:updated "2015-03-12T15:18:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S170> a nl:Store  ;
+   nl:hasID "170" ;
+   nl:hasSummary """ Uni-Cafeteria in der Schönauer Straße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.SchoenauerStrasse.113> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:24:14" ;
+   dct:updated "2015-03-12T15:29:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S171> a nl:Store  ;
+   nl:hasID "171" ;
+   nl:hasSummary """ Uni-Mensa und -Cafeteria in der Liebigstraße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Liebigstrasse.25> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:28:42" ;
+   dct:updated "2015-03-12T15:28:42" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S172> a nl:Store  ;
+   nl:hasID "172" ;
+   nl:hasSummary """ Uni-Cafeteria in der Wächterstraße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Waechterstrasse.13> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:34:33" ;
+   dct:updated "2015-03-12T15:34:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S173> a nl:Store  ;
+   nl:hasID "173" ;
+   nl:hasSummary """ Uni-Cafeteria/-Mensa am Park  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Universitaetsstrasse.5> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:38:40" ;
+   dct:updated "2015-03-12T15:38:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S174> a nl:Store  ;
+   nl:hasID "174" ;
+   nl:hasSummary """ Uni-Cafeteria in der Koburger Straße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04416.Markkleeberg.KoburgerStrasse.62> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:42:39" ;
+   dct:updated "2015-03-12T15:42:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S175> a nl:Store  ;
+   nl:hasID "175" ;
+   nl:hasSummary """ Uni-Cafeteria am Dittrichring  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Dittrichring.21> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:54:57" ;
+   dct:updated "2015-03-12T15:54:57" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S176> a nl:Store  ;
+   nl:hasID "176" ;
+   nl:hasSummary """ Uni-Cafeteria in der Beethovenstraße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Beethovenstrasse.15> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T15:58:34" ;
+   dct:updated "2015-03-12T15:58:34" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S177> a nl:Store  ;
+   nl:hasID "177" ;
+   nl:hasSummary """ Uni-Cafeteria Academica  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Karl-Liebknecht-Strasse.145> ;
+   nl:hasDistrict "Connewitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T16:01:00" ;
+   dct:updated "2015-03-12T16:01:00" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S178> a nl:Store  ;
+   nl:hasID "178" ;
+   nl:hasSummary """ Uni-Cafeteria in der Philipp-Rosenthal-Straße  """ ;
+   nl:hasInfoURL <http://www.studentenwerk-leipzig.de/mensen-und-cafeterien/einrichtungen> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Philipp-Rosenthal-Strasse.33> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T16:03:49" ;
+   dct:updated "2015-03-12T16:03:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S179> a nl:Store  ;
+   nl:hasID "179" ;
+   nl:hasSummary """ Marche-Filiale am Terminalring """ ;
+   nl:hasInfoURL <http://www.marche.moevenpick.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04435.Schkeuditz.Terminalring.13> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T16:20:30" ;
+   dct:updated "2015-03-12T16:21:44" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S180> a nl:Store  ;
+   nl:hasID "180" ;
+   nl:hasSummary """ Marche-Filiale im Gondwanaland (Zoo) """ ;
+   nl:hasInfoURL <http://www.marche.moevenpick.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
+   nl:hasDistrict "Zentrum-Nordwest (Waldstraßenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T16:25:40" ;
+   dct:updated "2015-03-12T16:35:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S181> a nl:Store  ;
+   nl:hasID "181" ;
+   nl:hasSummary """ Marche-Filiale in der Kiwara Lodge (Zoo) """ ;
+   nl:hasInfoURL <http://www.marche.moevenpick.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
+   nl:hasDistrict "Zentrum-Nordwest (Waldstraßenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-12T16:31:48" ;
+   dct:updated "2015-03-12T16:35:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A110> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S182> a nl:Store  ;
+   nl:hasID "182" ;
+   nl:hasDescription """ Bei Nelly Morelly finden Sie ausschließlich ökologisch-fair produzierte und zertifizierte Bio-Stoffe für Ihre einzigartigen DIY-Nähprojekte sowie ausgewählte Kurzwaren - www.biostoffe-meterware.de
+In der angeschlossenen Schneiderei können Sie sich Ihr öko-faires Wunschmodell auf den Leib schneidern lassen - www.nelly-morelly.de """ ;
+   nl:hasSummary """ öko-faire Stoffe und Kurzwaren, Maßanfertigungen """ ;
+   nl:hasImage "Gruen.de.jpg" ;
+   nl:hasInfoURL <http://www.nelly-morelly.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-03-13T12:50:16" ;
+   dct:updated "2017-03-15T20:06:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A112> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S183> a nl:Store  ;
+   nl:hasID "183" ;
+   nl:hasDescription """ Umgeben vom Industriecharme vergangener Zeiten, liegt unsere Kaffeerösterei inmitten eines restaurierten historischen Fabrikgeländes. Verbunden mit modernem, großstädtischen Loftcharakter vereinigt sich Alt und Neu in perfekter Harmonie und bildet dabei ein wichtiges Zeugnis Leipziger Industriegeschichte.
+
+Eine architektonische Besonderheit unserer Manufaktur bildet dabei ein ca. 14 Meter tiefer Brunnen, der ursprünglich zur allgemeinen Wasserversorgung der gesamten Industrieanlage genutzt wurde. Er hat einen inneren Durchmesser von drei Metern und einen Wasserstand von etwa vier Metern. Dieser historische Brunnen ist beleuchtet und über eine große Glasplatte begehbar.
+
+Kommen Sie einfach vorbei und erleben Sie diese besondere Atmosphäre. Wir sind im Innenhof der Anlage zu finden. """ ;
+   nl:hasSummary """ Leipziger Kaffeerösterei """ ;
+   nl:hasPropertyList """ Ökologisch angebaute und fair gehandelte Kaffee- und Espressosorten
+Ökologische angebaute Teesorten
+Regionale Meissner Weine
+Regionale Confiserie
+ """ ;
+   nl:hasImage "image.jpg" ;
+   nl:hasInfoURL <http://www.roeskant.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.HoheStrasse.13> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   dct:created "2015-03-20T18:21:16" ;
+   dct:updated "2017-06-07T07:52:57" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A115> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S184> a nl:Store  ;
+   nl:hasID "184" ;
+   nl:hasDescription """ Wir vermieten wunderschöne Räume in einem ruhigen Hinterhof mitten in der quirligen Südvorstadt. Für Ihre Fachtagung, Firmenevent oder private Feier. Gerne bieten wir Ihnen Produkte aus fairem Handel für Ihre Kaffeepause oder ihr Buffet an.  """ ;
+   nl:hasSummary """ Tagungs- Seminar- und Eventlocation """ ;
+   nl:hasImage "Haus.jpg" ;
+   nl:hasInfoURL <http://www.alte-schlosserei.de> ;
+   dct:created "2015-03-26T10:39:16" ;
+   dct:updated "2016-04-26T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A95> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S185> a nl:Store  ;
+   nl:hasID "185" ;
+   nl:hasDescription """ Bei uns findet Ihr Bio Vollkorn Backwaren und Backwaren aus Dinkelmehl. Desweiteren bieten wir euch aus dem Bio und Reginal Lebensmittel Bereich eine kleine Auswahl an und natürlich könnt Ihr euch auch in unser kleines Café setzen und Vegane Kaffeespezialitäten und milchshakes genießen :) wir freuen uns auf euern Besuch... """ ;
+   nl:hasSummary """ Backwaren Regional & Bio Lebensmittel """ ;
+   nl:hasPropertyList """ Fairtrade
+Bio
+Reginal
+Dinkel
+Vegan
+Glutenfrei
+Sonntags geöffnet """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Martinstrasse.6> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-04-14T08:00:23" ;
+   dct:updated "2015-04-14T08:00:23" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A116> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S186> a nl:Store  ;
+   nl:hasID "186" ;
+   nl:hasDescription """ Christliche Bücher und Geschenke """ ;
+   nl:hasSummary """ Ladengeschäft """ ;
+   nl:hasInfoURL <http://www.vivat.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Stammerstrasse.40> ;
+   nl:hasDistrict "Wahren" ;
+   dct:created "2015-04-14T10:48:32" ;
+   dct:updated "2016-05-13T05:15:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A117> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S187> a nl:Store  ;
+   nl:hasID "187" ;
+   nl:hasDescription """ CAFE CHAVALO ist das Resultat mehrerer Reisen nach Nicaragua. Ich vertreibe fair gehandelten Bio-Kaffee des Kooperativenverbands Tierra Nueva sowie Postkarten und Webwaren aus Nicaragua. Mehr darüber erfahrt Ihr im direkten Gespräch.
+
+Bitte beachten: Es gibt keine regulären Bürozeiten. Bitte ruft an oder schreibt eine Mail, bevor Ihr vorbeikommt.  """ ;
+   nl:hasSummary """ Büro und Direktverkauf / keine regulären Bürozeiten """ ;
+   nl:hasPropertyList """ - Bio-Kaffee
+- Bio-Espresso
+- Webwaren
+- Postkarten """ ;
+   nl:hasImage "screenshot.png" ;
+   nl:hasInfoURL <http://www.cafe-chavalo.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132> ;
+   nl:hasDistrict "Connewitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-04-18T10:47:09" ;
+   dct:updated "2016-08-29T08:11:20" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A120> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S188> a nl:Store  ;
+   nl:hasID "188" ;
+   nl:hasDescription """ Seit vielen jahren arbeiten wir mit Künstlern aus vielen Teilen der Welt zusammen. Wir sind mehr als nur ein Importeur. Viele unserer Schnitzereien, Blech- und Textilarbeiten entstehen in Absprache mit den Künstlern und nach unseren eigenen Entwürfen. 
+
+Durch die jahrelangen Beziehungen mit den Künstlern, können wir faire Bezahlung und Arbeitsbedingungen garantieren. Mehrmals im Jahr können wir uns davon persönlich vor Ort überzeugen und pflegen so neben dem gemeinsamen Vertrauen auch persönliche und freundschaftliche Beziehungen.
+
+Unsere fair gehandelten Kuntshandwerke finden Sie ebenfalls auf unserer unten stehenden Homepage. """ ;
+   nl:hasSummary """ Schätze Fair Trade """ ;
+   nl:hasInfoURL <http://www.der-lindwurm.com> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> ;
+   nl:hasDistrict "anderer Ort" ;
+   dct:created "2015-05-05T09:10:47" ;
+   dct:updated "2016-06-03T05:15:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A123> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S189> a nl:Store  ;
+   nl:hasID "189" ;
+   nl:hasDescription """ In diesem kleinen aber feinen Ladengeschäft gibt es liebevoll ausgewählte Stücke aus verschiedenen Ländern  -  Kleidsames, Praktisches, Schmückendes, Leckeres ... - aus fairem Handel immer Donnerstags und Freitags von 14.oo bis 18.oo Uhr.
+
+Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreunden immer kleine Aufmerksamkeiten und Schönes zum Verschenken (oder behalten).
+
+ """ ;
+   nl:hasSummary """ Kunsthandwerk, Mode und Leckereien aus fairem Handel """ ;
+   nl:isPublished "1" ;
+   dct:created "2015-05-31T21:47:15" ;
+   dct:updated "2015-05-31T22:13:37" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A125> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S190> a nl:Store  ;
+   nl:hasID "190" ;
+   nl:hasSummary """ Konsum - Supermarkt am Zoo """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Nordstrasse.41> ;
+   nl:hasDistrict "Zentrum-Nord (Nordvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-02T14:05:16" ;
+   dct:updated "2017-07-26T05:56:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S191> a nl:Store  ;
+   nl:hasID "191" ;
+   nl:hasSummary """ Supermarkt Bachviertel """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Hauptmannstrasse.6> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T13:59:31" ;
+   dct:updated "2017-07-26T05:58:18" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S192> a nl:Store  ;
+   nl:hasID "192" ;
+   nl:hasSummary """ Supermarkt Moritz-Hof """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Johannes-R-Becher-Strasse.2> ;
+   nl:hasDistrict "Lößnig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:03:16" ;
+   dct:updated "2017-07-26T05:58:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S193> a nl:Store  ;
+   nl:hasID "193" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.Ratzelstrasse.10> ;
+   nl:hasDistrict "Grünau-Siedlung" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:32:17" ;
+   dct:updated "2017-07-26T06:00:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S194> a nl:Store  ;
+   nl:hasID "194" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04442.Zwenkau.LeipzigerStrasse.6> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:35:17" ;
+   dct:updated "2017-07-26T06:00:22" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S195> a nl:Store  ;
+   nl:hasID "195" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.HoferStrasse.31> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:37:22" ;
+   dct:updated "2017-07-26T06:09:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S196> a nl:Store  ;
+   nl:hasID "196" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Waldzieststrasse.1> ;
+   nl:hasDistrict "Paunsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:42:43" ;
+   dct:updated "2017-07-26T06:10:27" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S197> a nl:Store  ;
+   nl:hasID "197" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Gregor-Fuchs-Strasse.31A> ;
+   nl:hasDistrict "Anger-Crottendorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:48:28" ;
+   dct:updated "2017-07-26T06:10:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S198> a nl:Store  ;
+   nl:hasID "198" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.AnderMaerchenwiese.16A> ;
+   nl:hasDistrict "Marienbrunn" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-04T14:51:37" ;
+   dct:updated "2017-07-26T06:11:08" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S199> a nl:Store  ;
+   nl:hasID "199" ;
+   nl:hasSummary """ Supermarkt Grassistraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Grassistrasse.13> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T06:58:59" ;
+   dct:updated "2017-07-26T06:11:22" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S200> a nl:Store  ;
+   nl:hasID "200" ;
+   nl:hasSummary """ Supermarkt Dieskaustraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Dieskaustrasse.365> ;
+   nl:hasDistrict "Knautkleeberg-Knauthain" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:00:55" ;
+   dct:updated "2017-07-26T06:11:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S202> a nl:Store  ;
+   nl:hasID "202" ;
+   nl:hasSummary """ Supermarkt Stuttgarter Allee """ ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:04:16" ;
+   dct:updated "2017-07-26T06:12:08" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S203> a nl:Store  ;
+   nl:hasID "203" ;
+   nl:hasSummary """ Supermarkt Jupiterstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.Jupiterstrasse.46> ;
+   nl:hasDistrict "Grünau-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:05:32" ;
+   dct:updated "2017-07-26T06:12:54" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S205> a nl:Store  ;
+   nl:hasID "205" ;
+   nl:hasSummary """ Supermarkt Viertelsweg """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Viertelsweg.56> ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:08:37" ;
+   dct:updated "2017-07-26T06:16:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S206> a nl:Store  ;
+   nl:hasID "206" ;
+   nl:hasSummary """ Supermarkt Dantestraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Dantestrasse.17> ;
+   nl:hasDistrict "Möckern" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:09:50" ;
+   dct:updated "2017-07-26T06:20:09" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S207> a nl:Store  ;
+   nl:hasID "207" ;
+   nl:hasSummary """ Supermarkt Jörgen-Schmidtchen-Weg 2 """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Joergen-Schmidtchen-Weg.2> ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:11:37" ;
+   dct:updated "2017-07-26T06:20:31" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S209> a nl:Store  ;
+   nl:hasID "209" ;
+   nl:hasSummary """ Supermarkt Delitzsch """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04509.Delitzsch.HallescheStrasse.55> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:14:25" ;
+   dct:updated "2017-07-26T06:23:00" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S210> a nl:Store  ;
+   nl:hasID "210" ;
+   nl:hasSummary """ Supermarkt Zschortau """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04519.Rackwitz.Lindenstrasse.8> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:15:29" ;
+   dct:updated "2017-07-26T06:24:13" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S211> a nl:Store  ;
+   nl:hasID "211" ;
+   nl:hasSummary """ Supermarkt Zwochau """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04509.Zwochau.LeipzigerStrasse.35B> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:20:03" ;
+   dct:updated "2017-07-26T06:24:36" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S212> a nl:Store  ;
+   nl:hasID "212" ;
+   nl:hasSummary """ Supermarkt Löbnitz """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04509.Loebnitz.Zschernweg.4> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:22:19" ;
+   dct:updated "2017-07-26T06:24:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S213> a nl:Store  ;
+   nl:hasID "213" ;
+   nl:hasSummary """ Supermarkt Schkeuditz/ Ortsteil Glesien """ ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:23:54" ;
+   dct:updated "2017-07-26T06:25:20" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S214> a nl:Store  ;
+   nl:hasID "214" ;
+   nl:hasSummary """ Supermarkt Universitätsstraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Universitaetsstrasse.16> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T07:59:48" ;
+   dct:updated "2017-07-26T06:25:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S215> a nl:Store  ;
+   nl:hasID "215" ;
+   nl:hasSummary """ Supermarkt Karl-Liebknecht-Straße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Karl-Liebknecht-Strasse.6B> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:01:54" ;
+   dct:updated "2017-07-26T06:25:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S216> a nl:Store  ;
+   nl:hasID "216" ;
+   nl:hasSummary """ Supermarkt Karl-Liebknecht-Straße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.129> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:05:48" ;
+   dct:updated "2017-07-26T06:26:18" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S217> a nl:Store  ;
+   nl:hasID "217" ;
+   nl:hasSummary """ Supermarkt Eisenbahnstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.75> ;
+   nl:hasDistrict "Neustadt-Neuschönefeld" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:07:38" ;
+   dct:updated "2017-07-26T06:27:18" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S218> a nl:Store  ;
+   nl:hasID "218" ;
+   nl:hasSummary """ Supermarkt Delitzsch Beerendorfer Straße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04509.Delitzsch.BeerendorferStrasse.49> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:09:34" ;
+   dct:updated "2017-07-26T06:27:40" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S219> a nl:Store  ;
+   nl:hasID "219" ;
+   nl:hasSummary """ Supermarkt Biedermannstraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Biedermannstrasse.66> ;
+   nl:hasDistrict "Connewitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:11:31" ;
+   dct:updated "2017-07-26T06:28:17" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S220> a nl:Store  ;
+   nl:hasID "220" ;
+   nl:hasSummary """ Supermarkt Demmeringstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Demmeringstrasse.9> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:14:02" ;
+   dct:updated "2017-07-26T06:28:34" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S221> a nl:Store  ;
+   nl:hasID "221" ;
+   nl:hasSummary """ Supermarkt Demmeringstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Demmeringstrasse.9> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:14:03" ;
+   dct:updated "2017-07-26T06:28:52" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S222> a nl:Store  ;
+   nl:hasID "222" ;
+   nl:hasSummary """ Supermarkt Goyastraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Goyastrasse.2> ;
+   nl:hasDistrict "Zentrum-Nordwest (Waldstraßenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:16:56" ;
+   dct:updated "2017-07-26T06:29:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S223> a nl:Store  ;
+   nl:hasID "223" ;
+   nl:hasSummary """ Supermarkt Saalfelder Straße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.LuetznerStrasse.164> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:17:58" ;
+   dct:updated "2017-07-26T06:29:30" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S224> a nl:Store  ;
+   nl:hasID "224" ;
+   nl:hasSummary """ Supermarkt Martinshöhe """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04158.Leipzig.Birkenring.12> ;
+   nl:hasDistrict "Wiederitzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:19:06" ;
+   dct:updated "2017-07-26T06:29:51" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S225> a nl:Store  ;
+   nl:hasID "225" ;
+   nl:hasSummary """ Supermarkt Bautzmannstraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Bautzmannstrasse.6> ;
+   nl:hasDistrict "Volkmarsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:25:50" ;
+   dct:updated "2017-07-26T06:30:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S226> a nl:Store  ;
+   nl:hasID "226" ;
+   nl:hasSummary """ Supermarkt Fockestraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Fockestrasse.4> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:28:05" ;
+   dct:updated "2017-07-26T06:30:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S227> a nl:Store  ;
+   nl:hasID "227" ;
+   nl:hasSummary """ Supermarkt Fockestraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Fockestrasse.4> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:28:09" ;
+   dct:updated "2017-07-26T06:31:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S228> a nl:Store  ;
+   nl:hasID "228" ;
+   nl:hasSummary """ Supermarkt Radefeld """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04435.Schkeuditz.Birkenweg.1> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:29:36" ;
+   dct:updated "2017-07-26T06:31:54" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S229> a nl:Store  ;
+   nl:hasID "229" ;
+   nl:hasSummary """ Supermarkt Großkugel """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/06184.Kabelsketal.AmMarkt.8> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:30:35" ;
+   dct:updated "2017-07-26T06:32:15" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S230> a nl:Store  ;
+   nl:hasID "230" ;
+   nl:hasSummary """ Supermarkt Dufourstaße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Dufourstrasse.25> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:32:10" ;
+   dct:updated "2017-07-26T06:32:31" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S231> a nl:Store  ;
+   nl:hasID "231" ;
+   nl:hasSummary """ Supermarkt Dufourstaße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Dufourstrasse.25> ;
+   nl:hasDistrict "Südvorstadt" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:32:11" ;
+   dct:updated "2017-07-26T06:32:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S234> a nl:Store  ;
+   nl:hasID "234" ;
+   nl:hasSummary """ Supermarkt Delitzsch Eilenburger Straße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04509.Delitzsch.EilenburgerStrasse.30> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:40:10" ;
+   dct:updated "2017-07-26T06:33:09" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S235> a nl:Store  ;
+   nl:hasID "235" ;
+   nl:hasSummary """ Supermarkt Springerstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Springerstrasse.25> ;
+   nl:hasDistrict "Zentrum-Nord (Nordvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:42:20" ;
+   dct:updated "2017-07-26T06:33:42" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S236> a nl:Store  ;
+   nl:hasID "236" ;
+   nl:hasSummary """ Supermarkt TriGaleria """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04416.Markkleeberg.Arndtstrasse.2> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:43:30" ;
+   dct:updated "2017-07-26T06:34:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S237> a nl:Store  ;
+   nl:hasID "237" ;
+   nl:hasSummary """ Supermarkt Rathausgalerie Markkleeberg """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04416.Markkleeberg.Rathausstrasse.33> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:46:20" ;
+   dct:updated "2017-07-26T06:34:34" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S238> a nl:Store  ;
+   nl:hasID "238" ;
+   nl:hasSummary """ Supermarkt Waldstraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Waldstrasse.42> ;
+   nl:hasDistrict "Zentrum-Nordwest (Waldstraßenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:47:51" ;
+   dct:updated "2017-07-26T06:34:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S239> a nl:Store  ;
+   nl:hasID "239" ;
+   nl:hasSummary """ Supermarkt Coppistraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Coppistrasse.42> ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:49:28" ;
+   dct:updated "2017-07-26T06:35:12" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S240> a nl:Store  ;
+   nl:hasID "240" ;
+   nl:hasSummary """ Supermarkt Jahnallee  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Jahnallee.10> ;
+   nl:hasDistrict "Zentrum-Nordwest (Waldstraßenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T08:56:14" ;
+   dct:updated "2017-07-26T06:35:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S241> a nl:Store  ;
+   nl:hasID "241" ;
+   nl:hasSummary """ Supermarkt Könneritzstraße  """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Koenneritzstrasse.50A> ;
+   nl:hasDistrict "Schleußig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T09:02:57" ;
+   dct:updated "2017-07-26T06:35:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S244> a nl:Store  ;
+   nl:hasID "244" ;
+   nl:hasSummary """ Supermarkt Liebertwolkwitz """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.Kirchstrasse.XX> ;
+   nl:hasDistrict "Liebertwolkwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T09:07:26" ;
+   dct:updated "2017-07-26T06:37:27" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S245> a nl:Store  ;
+   nl:hasID "245" ;
+   nl:hasSummary """ Supermarkt Holzhausen """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.Kaerrnerstrasse.XX> ;
+   nl:hasDistrict "Holzhausen" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T09:08:30" ;
+   dct:updated "2017-07-26T06:37:43" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S246> a nl:Store  ;
+   nl:hasID "246" ;
+   nl:hasSummary """ Supermarkt Rathaus Carree """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04435.Schkeuditz.Rathausplatz.1> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T09:20:49" ;
+   dct:updated "2017-07-26T06:38:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S247> a nl:Store  ;
+   nl:hasID "247" ;
+   nl:hasSummary """ Supermarkt Merseburg """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/06217.Merseburg(Saale).Gotthardstrasse.5> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-08T09:22:07" ;
+   dct:updated "2017-07-26T06:38:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S248> a nl:Store  ;
+   nl:hasID "248" ;
+   nl:hasSummary """ Hit-Filiale in der  Straße des 18 Oktober  """ ;
+   nl:hasInfoURL <http://www.hit.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Strassedes18.Oktober.44> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:07:02" ;
+   dct:updated "2016-08-05T13:59:14" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S249> a nl:Store  ;
+   nl:hasID "249" ;
+   nl:hasSummary """ Kaufland-Filiale in der Kiewer Straße """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.KiewerStrasse.30> ;
+   nl:hasDistrict "Schönau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:07:45" ;
+   dct:updated "2016-08-05T13:59:30" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S250> a nl:Store  ;
+   nl:hasID "250" ;
+   nl:hasSummary """ Kaufland-Filiale in der Georg-Schumann-Straße """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.Georg-Schumann-Strasse.105> ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:12:33" ;
+   dct:updated "2016-08-05T13:59:41" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S251> a nl:Store  ;
+   nl:hasID "251" ;
+   nl:hasSummary """ Karstadt-Warenhaus am Neumarkt  """ ;
+   nl:hasInfoURL <http://www.karstadt.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Neumarkt.30> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:13:24" ;
+   dct:updated "2016-08-05T13:59:50" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S252> a nl:Store  ;
+   nl:hasID "252" ;
+   nl:hasSummary """ Kaufland-Filiale in der Torgauer Straße  """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.TorgauerStrasse.279> ;
+   nl:hasDistrict "Heiterblick" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:15:03" ;
+   dct:updated "2016-08-05T14:00:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S253> a nl:Store  ;
+   nl:hasID "253" ;
+   nl:hasSummary """ Kaufland-Filiale in der Georg-Schumann-Straße 290 """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Georg-Schumann-Strasse.290> ;
+   nl:hasDistrict "Wahren" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:17:03" ;
+   dct:updated "2017-08-07T08:01:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S255> a nl:Store  ;
+   nl:hasID "255" ;
+   nl:hasSummary """ Galeria Kaufhof am Neumarkt """ ;
+   nl:hasInfoURL <http://www.galeria-kaufhof.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Neumarkt.1> ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:19:19" ;
+   dct:updated "2016-08-05T14:00:24" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S256> a nl:Store  ;
+   nl:hasID "256" ;
+   nl:hasSummary """ Kaufland-Filiale in der Anton-Zickmantel-Straße """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Anton-Zickmantel-Strasse.XX> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:20:53" ;
+   dct:updated "2016-08-05T14:00:37" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S257> a nl:Store  ;
+   nl:hasID "257" ;
+   nl:hasSummary """ Kaufland-Filiale in der Dresdner Straße 78-80 """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.78> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:21:47" ;
+   dct:updated "2016-08-05T14:00:47" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S258> a nl:Store  ;
+   nl:hasID "258" ;
+   nl:hasSummary """ REWE-Filiale am Georgiring """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Georgiring.14> ;
+   nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:23:38" ;
+   dct:updated "2016-08-05T14:01:21" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S259> a nl:Store  ;
+   nl:hasID "259" ;
+   nl:hasSummary """ REWE-Filiale an der Kotsche 5  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.AnderKotsche.5> ;
+   nl:hasDistrict "Lausen-Grünau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:26:37" ;
+   dct:updated "2016-08-05T13:38:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S260> a nl:Store  ;
+   nl:hasID "260" ;
+   nl:hasSummary """ REWE-Filiale in der Stuttgarter Allee """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.29> ;
+   nl:hasDistrict "Grünau-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:32:10" ;
+   dct:updated "2016-08-05T14:01:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S261> a nl:Store  ;
+   nl:hasID "261" ;
+   nl:hasSummary """ Rewe-Filiale an der Grünauer Allee  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.GruenauerAllee.38> ;
+   nl:hasDistrict "Grünau-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:35:17" ;
+   dct:updated "2016-08-05T14:01:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S262> a nl:Store  ;
+   nl:hasID "262" ;
+   nl:hasSummary """ REWE-Filiale in der Plovidver Straße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04205.Leipzig.PlovdiverStrasse.50> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:38:54" ;
+   dct:updated "2016-08-05T14:02:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S263> a nl:Store  ;
+   nl:hasID "263" ;
+   nl:hasSummary """ REWE-Filiale in der Straße am See  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.StrasseamSee.XX> ;
+   nl:hasDistrict "Lausen-Grünau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:42:05" ;
+   dct:updated "2016-08-05T14:02:15" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S264> a nl:Store  ;
+   nl:hasID "264" ;
+   nl:hasSummary """ REWE-Filiale in der Antonienstraße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Antonienstrasse.19> ;
+   nl:hasDistrict "Plagwitz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:43:56" ;
+   dct:updated "2016-08-05T14:02:22" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S265> a nl:Store  ;
+   nl:hasID "265" ;
+   nl:hasSummary """ REWE-Filiale in der Bismarckstraße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Bismarckstrasse.20> ;
+   nl:hasDistrict "Lößnig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:46:50" ;
+   dct:updated "2016-08-05T14:02:30" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S266> a nl:Store  ;
+   nl:hasID "266" ;
+   nl:hasSummary """ REWE-Filiale in der Tauchaer Straße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04357.Leipzig.TauchaerStrasse.10> ;
+   nl:hasDistrict "Mockau-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:49:09" ;
+   dct:updated "2016-08-05T14:02:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S267> a nl:Store  ;
+   nl:hasID "267" ;
+   nl:hasSummary """ REWE-Filiale in der Mühlentraße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Muehlenstrasse.2> ;
+   nl:hasDistrict "Lützschena-Stahmeln" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:51:06" ;
+   dct:updated "2016-08-05T14:03:02" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S268> a nl:Store  ;
+   nl:hasID "268" ;
+   nl:hasSummary """ REWE-Filiale in der Georg-Schwarz-Straße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.139> ;
+   nl:hasDistrict "Leutzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:53:06" ;
+   dct:updated "2016-08-05T14:03:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S269> a nl:Store  ;
+   nl:hasID "269" ;
+   nl:hasSummary """ REWE-Filiale in der Rathenaustraße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.5> ;
+   nl:hasDistrict "Leutzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:56:01" ;
+   dct:updated "2016-08-05T14:13:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S270> a nl:Store  ;
+   nl:hasID "270" ;
+   nl:hasSummary """ REWE-Filiale in der Bornaische Straße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.BornaischeStrasse.111> ;
+   nl:hasDistrict "Lößnig" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:58:21" ;
+   dct:updated "2016-08-05T14:13:43" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S271> a nl:Store  ;
+   nl:hasID "271" ;
+   nl:hasSummary """ REWE-Filiale in der Scheffelstraße  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Scheffelstrasse.34> ;
+   nl:hasDistrict "Marienbrunn" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T11:59:32" ;
+   dct:updated "2016-08-05T14:13:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S272> a nl:Store  ;
+   nl:hasID "272" ;
+   nl:hasSummary """ REWE-Filiale in der Tarostraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Tarostrasse.2> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:06:23" ;
+   dct:updated "2016-08-05T14:14:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S273> a nl:Store  ;
+   nl:hasID "273" ;
+   nl:hasSummary """ REWE-Filiale in der Kreuzstraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Kreuzstrasse.31> ;
+   nl:hasDistrict "Neustadt-Neuschönefeld" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:08:43" ;
+   dct:updated "2016-08-05T14:14:13" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S274> a nl:Store  ;
+   nl:hasID "274" ;
+   nl:hasSummary """ REWE-Filiale in der Püchauer Straße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.PuechauerStrasse.6> ;
+   nl:hasDistrict "Sellerhausen-Stünz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:10:52" ;
+   dct:updated "2016-08-05T14:14:21" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S275> a nl:Store  ;
+   nl:hasID "275" ;
+   nl:hasSummary """ REWE-Filiale in der Wittenberger Straße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.WittenbergerStrasse.83> ;
+   nl:hasDistrict "Eutritzsch" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:14:00" ;
+   dct:updated "2016-08-05T14:14:28" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S276> a nl:Store  ;
+   nl:hasID "276" ;
+   nl:hasSummary """ REWE-Filiale in der Breitenfelder Straße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.BreitenfelderStrasse.1> ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:16:44" ;
+   dct:updated "2016-08-05T14:14:37" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S277> a nl:Store  ;
+   nl:hasID "277" ;
+   nl:hasSummary """ REWE-Filiale in der Riebeckstraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Riebeckstrasse.XX> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:18:41" ;
+   dct:updated "2016-08-05T14:14:44" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S278> a nl:Store  ;
+   nl:hasID "278" ;
+   nl:hasSummary """ REWE-Filiale in der Clemens-Thiemestraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.Clemens-Thieme-Strasse.1> ;
+   nl:hasDistrict "Stötteritz" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:20:22" ;
+   dct:updated "2016-08-05T14:15:13" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S279> a nl:Store  ;
+   nl:hasID "279" ;
+   nl:hasSummary """ REWE-Filiale in der Franzosenallee  """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04289.Leipzig.Franzosenallee.10A> ;
+   nl:hasDistrict "Probstheida" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:20:59" ;
+   dct:updated "2016-08-05T14:15:24" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S280> a nl:Store  ;
+   nl:hasID "280" ;
+   nl:hasSummary """ REWE-Filiale in der Löbauer Straße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.LoebauerStrasse.44> ;
+   nl:hasDistrict "Schönefeld-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:24:15" ;
+   dct:updated "2016-08-05T14:15:31" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S281> a nl:Store  ;
+   nl:hasID "281" ;
+   nl:hasSummary """ REWE-Filiale in der Bästleinstraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Baestleinstrasse.4> ;
+   nl:hasDistrict "Schönefeld-Ost" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:26:07" ;
+   dct:updated "2017-03-30T14:33:15" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S282> a nl:Store  ;
+   nl:hasID "282" ;
+   nl:hasSummary """ REWE-Filiale in der Rosenowstraße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04357.Leipzig.Rosenowstrasse.30B> ;
+   nl:hasDistrict "Mockau-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:28:25" ;
+   dct:updated "2016-08-05T14:15:46" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S283> a nl:Store  ;
+   nl:hasID "283" ;
+   nl:hasSummary """ REWE-Filiale in der Essener Straße """ ;
+   nl:hasInfoURL <http://www.rewe.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04357.Leipzig.EssenerStrasse.123> ;
+   nl:hasDistrict "Mockau-Nord" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:30:47" ;
+   dct:updated "2016-08-05T14:15:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S284> a nl:Store  ;
+   nl:hasID "284" ;
+   nl:hasSummary """ Kaufland-Filiale im Paunsdorf Center """ ;
+   nl:hasInfoURL <http://www.kaufland.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.1> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:35:37" ;
+   dct:updated "2016-08-05T14:16:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S285> a nl:Store  ;
+   nl:hasID "285" ;
+   nl:hasSummary """ real-Filiale in der Miltitzer Straße """ ;
+   nl:hasInfoURL <http://www.real.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.MiltitzerStrasse.13> ;
+   nl:hasDistrict "Burghausen-Rückmarsdorf" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:40:18" ;
+   dct:updated "2016-08-05T14:16:19" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S286> a nl:Store  ;
+   nl:hasID "286" ;
+   nl:hasSummary """ real-Filiale in der Ludwigsburger Straße """ ;
+   nl:hasInfoURL <http://www.real.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.LudwigsburgerStrasse.9> ;
+   nl:hasDistrict "Grünau-Mitte" ;
+   nl:isPublished "1" ;
+   dct:created "2015-06-18T12:42:32" ;
+   dct:updated "2016-08-05T14:16:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A131> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S287> a nl:Store  ;
+   nl:hasID "287" ;
+   nl:hasDescription """ Wir bedrucken zertifizierte Textilien wie T-Shirts, Sweater und Kapuzenjacken aus fairer Produktion mit GOTS-Siegel im Handsiebdruck in Kleinauflage. Dabei verwenden wir vegane, wasserbasierte Farben ohne chemische Lösungsmittel. Die Bio-Baumwolle bzw. die Zellulosfasern Tencel und Modal sind langlebig, ebenso das Siebdruckverfahren. """ ;
+   nl:hasSummary """ Öko-Textilien mit GOTS- und Fair-Trade-Zertifikat """ ;
+   nl:hasPropertyList """ - Fair-Trade-Zertifikat
+- GOTS-Zertifikat
+- Ökotex 100-Zertifikat für die Druckfarben
+- Handsiebdruck in Kleinauflage
+- für Frauen, Männer, Kinder """ ;
+   nl:hasImage "laden_innen_klein.jpg" ;
+   nl:hasInfoURL <http://www.little-kiwi.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.27> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2015-09-17T11:46:28" ;
+   dct:updated "2016-09-26T09:38:17" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A135> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S288> a nl:Store  ;
+   nl:hasID "288" ;
+   nl:hasDescription """ Wunderschöne Designs, Topqualität und fair gehandelte Topmarken wie
+CANOAN, FITLI, PNYX, LIVE, MARRIO und CAJUBRASIL kreiert für Frauen, die exklusive
+Sportbekleidung und Bademode wünschen.
+Unsere Fitness-Fashion & Beachwear bieten höchsten Tragekomfort und dank Hightech-
+Polyamid-Garn ist unsere Mode atmungsaktiv, hält Schweiß nicht nur stand, sondern sorgt
+für eine angenehme Körpertemperatur. Ein weiteres Highlight der modernen und sehr gut
+verarbeiteten Materialien ist die Figurformung, sodass jede Frau beim Training und am
+Strand eine gute Figur macht.
+Sport & Fairness: Bei Yellowbrasil erhalten Sie zu 100 % in Brasilien produzierte Mode mit
+exklusivem Charakter, die nur wenige Menschen in Deutschland tragen werden.
+Mit dem Kauf unserer Artikel unterstützen Sie auch einen fairen Handel, bei dem die Näher/-
+Innen von ihren Löhnen auch leben können. Damit erhalten Sie ein Produkt mit exklusivem Charakter. Fairness: Mit dem Kauf unserer Artikel unterstützen Sie auch einen fairen Handel, bei dem der Textilarbeiter/-In von seinem Lohn auch leben kann.
+Keine Massenware, keine Kopien üblicher Marken. 
+Warum denn gerade aus Brasilien? Der Einwand ist berechtigt. Doch fragen Sie sich auch einmal, wo Sie noch Produkte „Made in Germany“ kaufen können? Für uns war wichtig, den Wünschen unserer Kunden folgend, qualitativ sehr ansprechende Marken, welche sich auf beiden amerikanischen Kontinenten großer Beliebtheit erfreuen, hier auf dem deutschen Markt zugänglich zu machen. Daher kaufen wir nur Produkte aus 100 % einheimischer, brasilianischer Produktion. Wir möchten für unsere Kunden ein hochwertiges Produkt, bei dem kein Mitarbeiter unter schlechten Arbeitsbedingungen leiden muss.
+"Sport und Fairness gehören zusammen wie Essen und Trinken!" """ ;
+   nl:hasSummary """ Fitness Fashion-Beachwear & Lifestyle """ ;
+   nl:hasPropertyList """ Einmaliges Konzept (in Leipzig) aus Fairness, Nachhaltigkeit ( für mehr Verständnis zu Natur- und Artenschutz ), Sport und Interieur
+Passform - Figur formend
+Design & Qualität 
+besondere Materialeigenschaften für den Sport (atmungsaktiv)
+fair gehandelt
+Shoppingerlebnis in brasilianischem Flair """ ;
+   nl:hasImage "Logo_dunkelgruen.png" ;
+   nl:hasInfoURL <http://www.yellowbrasil.de> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.4> ;
+   nl:hasDistrict "Zentrum-Nord (Nordvorstadt)" ;
+   dct:created "2016-02-14T19:00:40" ;
+   dct:updated "2017-03-15T06:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A143> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S290> a nl:Store  ;
+   nl:hasID "290" ;
+   nl:hasDescription """ Intranetlösungen und Webplattformen entwickeln wir individuell nach Ihren Vorstellungen. Wir unterstützen Sie bei der Konzeption, entwickeln Ihre Webanwendungen und leisten Support beim fertigen Produkt. Kontaktieren Sie uns mit Ihren Ideen! """ ;
+   nl:hasSummary """ Webagentur """ ;
+   nl:hasPropertyList """ super
+tolle
+leute
+hier """ ;
+   nl:hasImage "wombat1.jpg" ;
+   nl:hasVideoURL <https://www.aboutsource.net/> ;
+   nl:hasInfoURL <https://www.aboutsource.net/> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
+   nl:hasDistrict "anderer Ort" ;
+   dct:created "2016-05-04T09:59:26" ;
+   dct:updated "2016-05-04T09:59:26" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A8> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S291> a nl:Store  ;
+   nl:hasID "291" ;
+   nl:hasDescription """ Wir bieten Bio-Lebensmittel für den täglichen Bedarf an und verzichten auf unnötige Verpackungen. Der Kunde bringt seine eigenen Behälter/Gefäße mit und kauft nur die benötigte Menge. So wird nicht nur Verpackungsmüll eingespart und die Umwelt entlastet, sondern auch der Lebensmittelverschwendung. """ ;
+   nl:hasSummary """ Bio Lebensmittel ohne unnötige Verpackungen """ ;
+   nl:hasInfoURL <http://www.EchtUnverpackt.de> ;
+   dct:created "2016-07-09T12:06:19" ;
+   dct:updated "2017-08-08T05:15:03" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A147> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S292> a nl:Store  ;
+   nl:hasID "292" ;
+   nl:hasDescription """ In unserem Bio Tempel in Leipzig-Reudnitz gibt es eine große Auswahl an Naturkostprodukten wie Lebensmitteln, frischem und regionalem Obst und Gemüse, Backwaren, Naturkosmetik sowie fair gehandelten Produkten (Lebensmittel, Kunsthandwerk, Tücher, Schmuck und Bücher).
+Darüber hinaus können Sie bei uns frisch zubereitete indische Gerichte genießen. Einmal pro Monat veranstalten wir unseren Sunday Brunch mit authentischen Spezialitäten aus der indischen Küche. Gerne versorgen wir Sie mit unserem Catering. Sprechen Sie uns an! """ ;
+   nl:hasSummary """ ... für göttlichen Genuss! """ ;
+   nl:hasPropertyList """ Fair
+Bio
+Naturkost
+indisch
+restaurant
+catering """ ;
+   nl:hasImage "IMG_0410.JPG" ;
+   nl:hasInfoURL <https://www.facebook.com/BioTempelLeipzig/> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.77A> ;
+   nl:hasDistrict "Reudnitz-Thonberg" ;
+   nl:isPublished "1" ;
+   dct:created "2017-01-24T11:29:19" ;
+   dct:updated "2017-01-24T11:29:19" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A155> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S293> a nl:Store  ;
+   nl:hasID "293" ;
+   nl:hasSummary """ Supermarkt Thomasium """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Kaethe-Kollwitz-Strasse.18> ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2017-07-26T06:41:58" ;
+   dct:updated "2017-07-26T06:42:59" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S294> a nl:Store  ;
+   nl:hasID "294" ;
+   nl:hasSummary """ Supermarkt """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Arthur-Hoffmann-Strasse.175> ;
+   nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
+   nl:isPublished "1" ;
+   dct:created "2017-07-26T06:47:06" ;
+   dct:updated "2017-07-26T06:48:27" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S295> a nl:Store  ;
+   nl:hasID "295" ;
+   nl:hasSummary """ Supermarkt Prager Straße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.PragerStrasse.12a> ;
+   nl:hasDistrict "Zentrum-Südost (Seeburgviertel, Messemagistrale)" ;
+   nl:isPublished "1" ;
+   dct:created "2017-07-26T06:50:11" ;
+   dct:updated "2017-07-26T06:50:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S296> a nl:Store  ;
+   nl:hasID "296" ;
+   nl:hasSummary """ Supermarkt Ellernweg """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Ellernweg.1A> ;
+   nl:hasDistrict "Lindenau" ;
+   nl:isPublished "1" ;
+   dct:created "2017-07-26T06:52:05" ;
+   dct:updated "2017-07-26T06:52:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S297> a nl:Store  ;
+   nl:hasID "297" ;
+   nl:hasSummary """ Supermarkt Schönbachstraße """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04299.Leipzig.Schoenbachstrasse.78> ;
+   nl:hasDistrict "Stötteritz" ;
+   nl:isPublished "1" ;
+   dct:created "2017-07-26T06:53:48" ;
+   dct:updated "2017-07-26T06:53:48" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A126> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S298> a nl:Store  ;
+   nl:hasID "298" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Windmuehlenstrasse.31> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:00:24" ;
+   dct:updated "2017-09-05T09:00:24" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S299> a nl:Store  ;
+   nl:hasID "299" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Braustrasse.26> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:02:11" ;
+   dct:updated "2017-09-05T09:02:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S300> a nl:Store  ;
+   nl:hasID "300" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Arthur-Hoffmann-Strasse.113> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:03:05" ;
+   dct:updated "2017-09-05T09:03:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S301> a nl:Store  ;
+   nl:hasID "301" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Willy-Brandt-Platz.7> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:04:05" ;
+   dct:updated "2017-09-05T09:04:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S302> a nl:Store  ;
+   nl:hasID "302" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.EilenburgerStrasse.55> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:04:56" ;
+   dct:updated "2017-09-05T09:04:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S303> a nl:Store  ;
+   nl:hasID "303" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.51> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:05:39" ;
+   dct:updated "2017-09-05T09:05:39" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S304> a nl:Store  ;
+   nl:hasID "304" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Nonnenstrasse.13> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:06:20" ;
+   dct:updated "2017-09-05T09:06:20" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S305> a nl:Store  ;
+   nl:hasID "305" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:07:05" ;
+   dct:updated "2017-09-05T09:07:05" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S306> a nl:Store  ;
+   nl:hasID "306" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04299.Leipzig.HolzhaeuserStrasse.108> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:08:09" ;
+   dct:updated "2017-09-05T09:08:09" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S307> a nl:Store  ;
+   nl:hasID "307" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.Elsbethstrasse.25> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:08:49" ;
+   dct:updated "2017-09-05T09:08:49" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S308> a nl:Store  ;
+   nl:hasID "308" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04289.Leipzig.Bockstrasse.1> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:09:36" ;
+   dct:updated "2017-09-05T09:09:36" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S309> a nl:Store  ;
+   nl:hasID "309" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Friederikenstrasse.25> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:10:20" ;
+   dct:updated "2017-09-05T09:10:20" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S310> a nl:Store  ;
+   nl:hasID "310" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.38> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:11:06" ;
+   dct:updated "2017-09-05T09:11:06" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S311> a nl:Store  ;
+   nl:hasID "311" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04129.Leipzig.DelitzscherStrasse.61> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:11:42" ;
+   dct:updated "2017-09-05T09:11:42" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S312> a nl:Store  ;
+   nl:hasID "312" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.LoebauerStrasse.68> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:12:22" ;
+   dct:updated "2017-09-05T09:12:22" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S313> a nl:Store  ;
+   nl:hasID "313" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.96> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:12:58" ;
+   dct:updated "2017-09-05T09:12:58" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S314> a nl:Store  ;
+   nl:hasID "314" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Gerhard-Ellrodt-Strasse.30> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:13:29" ;
+   dct:updated "2017-09-05T09:13:29" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+
+<http://nachhaltiges-leipzig.de/Data/Store/S315> a nl:Store  ;
+   nl:hasID "315" ;
+   nl:hasSummary """ Discounter """ ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Georg-Schumann-Strasse.363> ;
+   nl:hasDistrict "anderer Ort" ;
+   nl:isPublished "1" ;
+   dct:created "2017-09-05T09:14:10" ;
+   dct:updated "2017-09-05T09:14:10" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A174> ;
+   nl:hasEventType "Filiale" . 
+

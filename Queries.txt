@@ -749,6 +749,8 @@ WHERE {
 ?a rdfs:sameAs ?s .
 } 
 
+
+
 --------------------------------
 -- Abgleich mit Nachhaltiges Leipzig
 
@@ -763,76 +765,75 @@ optional { ?u ld:inOrtsteil ?b . }
 filter (!bound(?b))
 }
 
-http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20
-http://leipzig-data.de/Data/.Leipzig.AmHallischenTor.XX
-http://leipzig-data.de/Data/.Leipzig.Rietschelstrasse.XX
-http://leipzig-data.de/Data/.Leipzig.ZwickauerStrasse.XX
-http://leipzig-data.de/Data/04103.Leipzig.LeipzigCentralStation.XX
-http://leipzig-data.de/Data/04107.Leipzig.Anton-Bruckner-Allee.XX
-http://leipzig-data.de/Data/04107.Leipzig.Wilhelm-Leuschner-Platz.XX
-http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.XX
-http://leipzig-data.de/Data/04109.Leipzig.Kolonnadenstrasse.XX
-http://leipzig-data.de/Data/04109.Leipzig.Markt.XX
-http://leipzig-data.de/Data/04109.Leipzig.Naschmarkt.XX
-http://leipzig-data.de/Data/04109.Leipzig.Nikolaikirchhof.XX
-http://leipzig-data.de/Data/04109.Leipzig.Petersstrasse.XX
-http://leipzig-data.de/Data/04109.Leipzig.Richard-Wagner-Platz.XX
-http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX
-http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.XX
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
+PREFIX org: <http://www.w3.org/ns/org#>
+SELECT ?u ?m ?a ?al
+FROM <http://nachhaltiges-leipzig.de/Data/Akteure/> 
+FROM <http://leipzig-data.de/Data/Adressen/> 
+FROM <http://leipzig-data.de/Data/WeitereAdressen/> 
+WHERE {  
+?u a foaf:Person ; org:memberOf ?m ; ld:proposedAddress ?a . 
+optional { ?a rdfs:label ?al . }
+}
 
-Neu:
-http://leipzig-data.de/Data/04109.Leipzig.AachenerStrasse.7
-http://leipzig-data.de/Data/04159.Leipzig.Marienweg.20
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
+SELECT distinct ?a ?b count(?c) as ?cc
+FROM <http://nachhaltiges-leipzig.de/Data/Changes/> 
+WHERE {  
+?u nl:User ?a; nl:Akteur ?b; nl:linksTo ?c . 
+}
+order by ?cc
+
+ a 	b 	cc
+http://nachhaltiges-leipzig.de/Data/Akteur/A15 	"Auwaldstation " 	75
+http://nachhaltiges-leipzig.de/Data/Akteur/A171 	"Botanischer Garten Großpösna-Oberholz " 	42
+http://nachhaltiges-leipzig.de/Data/Akteur/A188 	"Botanischer garten der Universität Leipzig " 	38
+http://nachhaltiges-leipzig.de/Data/Akteur/A73 	"BUND Leipzig " 	31
+http://nachhaltiges-leipzig.de/Data/Akteur/A197 	"erleb-bar " 	28
+http://nachhaltiges-leipzig.de/Data/Akteur/A26 	"ADFC Leipzig " 	16
+http://nachhaltiges-leipzig.de/Data/Akteur/A193 	"Park- und Stadtführerin Daniela Neumann " 	14
+http://nachhaltiges-leipzig.de/Data/Akteur/A198 	"Dt. Kleingärtnermuseum " 	14
+http://nachhaltiges-leipzig.de/Data/Akteur/A176 	"Vier Fährten " 	12
+http://nachhaltiges-leipzig.de/Data/Akteur/A141 	"Food Assembly Leipzig " 	12
+http://nachhaltiges-leipzig.de/Data/Akteur/A186 	"Natur- und Wildnisschule " 	12
+http://nachhaltiges-leipzig.de/Data/Akteur/A211 	"GRASSI Museum für Angewandte Kunst " 	8
+http://nachhaltiges-leipzig.de/Data/Akteur/A176 	"Vier Fährten " 	6
+http://nachhaltiges-leipzig.de/Data/Akteur/A201 	"Gohliser Verein zur Förderungen Kunst und Kultur " 	6
+http://nachhaltiges-leipzig.de/Data/Akteur/A190 	"Anja Hümmer " 	5
+http://nachhaltiges-leipzig.de/Data/Akteur/A78 	"Lebendige Luppe " 	5
+http://nachhaltiges-leipzig.de/Data/Akteur/A64 	"kunZstoffe " 	5
+http://nachhaltiges-leipzig.de/Data/Akteur/A149 	"Verein der Freunde und Förderer des Wildparks " 	4
+http://nachhaltiges-leipzig.de/Data/Akteur/A210 	"Querbeet Leipzig e.V. " 	4
+http://nachhaltiges-leipzig.de/Data/Akteur/A27 	"Konzeptwerk Neue Ökonomie " 	4
+http://nachhaltiges-leipzig.de/Data/Akteur/A187 	"Bürgerverein Sellerhausen-Stünz " 	3
+http://nachhaltiges-leipzig.de/Data/Akteur/A192 	"Winter Catherine " 	3
+http://nachhaltiges-leipzig.de/Data/Akteur/A178 	"Fanö-Mode " 	2
+http://nachhaltiges-leipzig.de/Data/Akteur/A202 	"Zentrum für Fermentation " 	2
+http://nachhaltiges-leipzig.de/Data/Akteur/A180 	"Stefan Härtel " 	2
+http://nachhaltiges-leipzig.de/Data/Akteur/A214 	"Zoo Leipzig GmbH " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A213 	"GRÜNE LIGA Kohrener Land " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A208 	"Blütenreich " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A200 	"Stadtverband Leipzig der Kleingärtner " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A21 	"oikos Leipzig e.V. " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A177 	"LUXAA " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A209 	"Notenspur Leipzig e.V. " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A23 	"Der Lindentaler " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A207 	"Cafe. Restaurant. Symbiose " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A206 	"Graeske " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A195 	"Park- und Stadtführerin Daniela Neumann " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A184 	"Gartenfreunde Süd e.V. " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A86 	"Araki Verlag " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A212 	"Galerie für Zeitgenössische Kunst " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A205 	"Stadt Delitzsch " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A203 	"Hörspielsommer e.V. " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A199 	"Michael Schaaf " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A189 	"Paula Hofmann " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A179 	"Leipzig Grün " 	1
+http://nachhaltiges-leipzig.de/Data/Akteur/A87 	"Freiwilligen-Agentur Leipzig e. V. " 	1
 
 
-http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX
-http://leipzig-data.de/Data/04177.Leipzig.LuetznerStreet.75
-http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.XX
-http://leipzig-data.de/Data/04179.Leipzig.Franz-Flemming-Strasse.43
-http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.XX
-http://leipzig-data.de/Data/04205.Leipzig.Garskestrasse.XX
-http://leipzig-data.de/Data/04205.Leipzig.Jupiterstrasse.46
-http://leipzig-data.de/Data/04207.Leipzig.Seestrasse.15
-http://leipzig-data.de/Data/04207.Leipzig.StrasseamSee.XX
-http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.1
-http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.24
-http://leipzig-data.de/Data/04209.Leipzig.StuttgarterAllee.25
-http://leipzig-data.de/Data/04229.Leipzig.Dammstrasse.1
-http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX
-http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.58
-http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.44
-http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX
-http://leipzig-data.de/Data/04229.Leipzig.Roedelstrasse.31
-http://leipzig-data.de/Data/04249.Leipzig.Anton-Zickmantel-Strasse.XX
-http://leipzig-data.de/Data/04249.Leipzig.Dieskaustrasse.365
-http://leipzig-data.de/Data/04249.Leipzig.Emil-Teich-Strasse.XX
-http://leipzig-data.de/Data/04275.Leipzig.Bernhard-Goering-Strasse.81
-http://leipzig-data.de/Data/04277.Leipzig.Arno-Nitzsche-Strasse.19
-http://leipzig-data.de/Data/04277.Leipzig.Basedowstrasse.XX
-http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX
-http://leipzig-data.de/Data/04277.Leipzig.KohrenerStrasse.XX
-http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111
-http://leipzig-data.de/Data/04277.Leipzig.Wolfgang-Heinze-Strasse.XX
-http://leipzig-data.de/Data/04279.Leipzig.Johannes-R.-Becher-Strasse.12
-http://leipzig-data.de/Data/04279.Leipzig.Johannes-R.-Becher-Strasse.2
-http://leipzig-data.de/Data/04288.Leipzig.Clemens-Thieme-Strasse.1
-http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.71
-http://leipzig-data.de/Data/04288.Leipzig.Kaerrnerstrasse.XX
-http://leipzig-data.de/Data/04288.Leipzig.Kirchstrasse.XX
-http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.17
-http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.XX
-http://leipzig-data.de/Data/04317.Leipzig.JohannaPark.XX
-http://leipzig-data.de/Data/04317.Leipzig.Riebeckstrasse.XX
-http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.69
-http://leipzig-data.de/Data/04328.Leipzig.GeithainerStrasse.60
-http://leipzig-data.de/Data/04328.Leipzig.Permoserstrasse.46
-http://leipzig-data.de/Data/04329.Leipzig.PaunsdorferAllee.10
-http://leipzig-data.de/Data/04329.Leipzig.Wiesenstrasse.22
-http://leipzig-data.de/Data/04347.Leipzig.Braunstrasse.9
-http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.XX
-http://leipzig-data.de/Data/04349.Leipzig.Wodanstrasse.32
-http://leipzig-data.de/Data/04356.Leipzig.GoebschelwitzerStrasse.1
-http://leipzig-data.de/Data/04357.Leipzig.EssenerStrasse.123
 
 --------------------------------
 -- Abgleich mit Leipziger Ecken

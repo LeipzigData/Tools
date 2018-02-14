@@ -28,7 +28,7 @@ function displayChanges() {
 function akteurDeaktiviert($row,$nr) {
     preg_match('|Akteur deaktiviert:\s+(.+)\s*\((.*),\s*(.*)\)\s*\s*\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixLiteral($matches[1]); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
+    $akteur=fixQuotes(trim($matches[1])); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
     $a[]='nl:Akteur "'.$akteur.'"';
@@ -41,7 +41,7 @@ function akteurDeaktiviert($row,$nr) {
 function akteurRegistriert($row,$nr) {
     preg_match('/Akteur hat sich registriert. Name:\s+(.+)\s*\.\s*(.+)$/',$row,$matches);
     // print_r($matches);
-    $user=fixLiteral($matches[1]); $date=$matches[2];
+    $user=fixQuotes(trim($matches[1])); $date=$matches[2];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
     $a[]='nl:Akteur "'.$user.'"';
@@ -53,7 +53,8 @@ function akteurRegistriert($row,$nr) {
 function neueAktivitaet($row,$nr) {
     preg_match('|Neue Aktivität von\s*(.*)\s*eingetragen.\s*(.*)\s*(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixLiteral($matches[1]); $rest=$matches[2]; $user=$matches[3]; $action=$matches[4]; $date=$matches[5];
+    $akteur=fixQuotes(trim($matches[1])); $rest=$matches[2]; $user=$matches[3];
+    $action=$matches[4]; $date=$matches[5];
     $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action/A',$action);
     $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event/E',$action);
     $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service/S',$action);
@@ -80,12 +81,6 @@ function processLine($row,$nr) {
     $a[]='dct:created "'.$date.'"';
     if (!empty($rest)) { $a[]='rdfs:comment "'.$rest.'"'; }
     return join(" ;\n ",$a)." . ";
-}
-
-function fixLiteral($s) {
-    $s=trim($s);
-    $s=str_replace('"', '\"', $s);
-    return $s;
 }
 
 function getData() {

@@ -28,15 +28,15 @@ function createEvent($row) {
   $a=addLiteral($a,"rdfs:label",$row["name"]);
   $a=addMLiteral($a,"ical:description",$row["description"]);
   $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
-  $a=addLiteral($a,"nl:hasTargetGroup",$row["target_group"]);
+  $a=addLiteral($a,"nl:Zielgruppe",$row["target_group"]);
   $a=addLiteral($a,'ical:dtstart', str_replace(" ", "T", $row['start_at']));
   $a=addLiteral($a,'ical:dtend', str_replace(" ", "T", $row['end_at']));
-  $a=addLiteral($a,'nl:hasCosts', $row["costs"]);
+  $a=addLiteral($a,'nl:Kosten', $row["costs"]);
   $a=addResource($a,'ical:url', "", fixURL($row['info_url']));
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
   $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
-  $a=addLiteral($a,'nl:hasSpeaker', $row["speaker"]);
-  $a=addLiteral($a,'nl:isPublished', $row["published"]);
+  $a=addLiteral($a,'nl:imPodium', $row["speaker"]);
+//  $a=addLiteral($a,'nl:isPublished', $row["published"]);
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Event'");
   foreach ($res as $u) {
       $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur/A", $u["user_id"]);

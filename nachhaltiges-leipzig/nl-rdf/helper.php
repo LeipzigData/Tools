@@ -3,12 +3,12 @@
 // require 'vendor/autoload.php';
 
 function addLiteral($a,$key,$value) {
-    if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes($value).'"'; }
+    if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes(trim($value)).'"'; }
   return $a;
 }
 
 function addMLiteral($a,$key,$value) {
-    if (!empty($value)) { $a[]=" $key ".'""" '.fixBackslash($value).' """'; }
+    if (!empty($value)) { $a[]=" $key ".'"""'.fixBackslash(trim($value)).'"""'; }
   return $a;
 }
 
@@ -58,12 +58,6 @@ function fixBackslash($u) {
   return $u;
 }
 
-function fixImageString($u) {
-  $u=str_replace("/~swp15-aae/drupal", "", $u);
-  $u=str_replace("/sites/default/files/", "", $u);
-  return $u;
-}
-
 function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("str.", "strasse", $u);
   $u=str_replace("Str.", "Strasse", $u);
@@ -95,7 +89,7 @@ function createAdresse($row) {
     $gps_long=$row["longitude"];
     $gps_lat=$row["latitude"];
     $a=array();
-    $a[]=' a nl:Adresse ';
+    $a[]=' a ld:LeipzigerAdresse ';
     $a=addLiteral($a,'rdfs:label', "$stadt, $strasse");
     $a=addLiteral($a,'ld:hasCity', $stadt);
     $a=addLiteral($a,'ld:hasStreet', getStreet($strasse));
@@ -126,5 +120,9 @@ function getAddressURI($row) {
     $plz=$row["zip"];
     $stadt=$row["location"];
     $out=fixURI("$plz.$stadt.$strasse");
+    $out=str_replace("Trebsen/Mulde", "Trebsen", $out);  
+    $out=str_replace("LuetznerStreet", "LuetznerStrasse", $out);  
+    $out=str_replace("Katharinenstrasse.21-23", "Katharinenstrasse.21", $out);  
+    $out=str_replace("R.-Becher", "R-Becher", $out);  
     return $out;
 }

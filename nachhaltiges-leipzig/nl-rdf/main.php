@@ -19,7 +19,7 @@ function main() {
   file_put_contents ("../Daten/Akteure.ttl",toRDFString(getAkteure())); 
   echo "<p>Ausgabe ../Daten/Akteure.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Aktionen.ttl",toRDFString(getAktionen())); 
-  echo "<p>Ausgabe ../Daten/Akteure.ttl erzeugt</p> \n";
+  echo "<p>Ausgabe ../Daten/Aktionen.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Adressen.ttl",toRDFString(getAdressen())); 
   echo "<p>Ausgabe ../Daten/Adressen.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Changes.ttl",toRDFString(displayChanges())); 

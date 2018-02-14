@@ -1,0 +1,134 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix nl: <http://nachhaltiges-leipzig.de/Data/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+
+
+
+<http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    rdfs:label "Nachhaltiges Leipzig - Aktionen" .
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A4> a nl:Aktion  ;
+   nl:hasID "4" ;
+   nl:hasDescription """ Die Idee der KlassischenKartoffelkonzert-Reihe
+
+Der Leipziger Auwald ist seit Frühjahr 2011 in aller Munde: Baumfällungen, Tornadoschutz, Hochwasser, Deiche, Schutzmechanismen, ist weiterer Schutz durch die UNESCO möglich, etc. Die Idee ist, eine neue Konzertreihe für Leipzig zu Gunsten des Auwaldes ins Leben zu rufen. Die Konzertreihe wird den Namen KlassischeKartoffelKonzerte tragen. Der Reinerlös der Konzerte wird zu Gunsten des Auwaldes zur Verfügung gestellt werden, um damit Auwald-Projekte zu unterstützen.
+
+Die Konzertreihe begann am letzten Donnerstag im Januar 2012 und findet seit dem regelmäßig am letzten Donnerstag der Monate März, Mai, September, November und Januar statt. Ab November 2014 findet ein Wechsel der Veranstaltungstage von letzem Donnerstag auf letzten Sonntag, 17.00 Uhr, statt. Um alle Freunde des Leipziger Auwaldes musikalisch anzusprechen, soll die Spannbreite der Konzerte von Barockmusik auf historischen Instrumenten bis zum klassischen Jazz reichen. Der Eintritt kostet Euro 15,00 Studenten/ Schüler/ Rentner ab 65 Jahre und Leipzig Pass Inhaber zahlen  12 Euro. Darin enthalten ist nach dem Konzert ein Gericht rund um die Kartoffel für alle. Zu jedem Konzert werden die Gäste außerdem um Spenden  gebeten. Spendenbescheinigungen werden vom NuKLA e. V. erstellt. Bis € 200 reicht zur Vorlage beim Finanzamt Ihr Kontoauszug.
+
+Ab 2014 wird es jährlich ein bis zwei der Konzerte mit international hochkarätigen MusikerInnen und/oder besonderen Programmen als “NuKLA-Spezial” geben. Vertraglich gebunden sind bereits amacord (30.11.2014), Ensemble Calmus (29.11.2015), Dorothee Oberlinger (27.11.2016) http://www.dorotheeoberlinger.de/ , außerdem der Thüringische Akademische Singkreis und das Leipziger Barockorchester unter der Leitung von Jörg Genslein mit der Missa Votiva von J. D. Zelenka (29.5.2014). Für diese Konzerte werden die Eintrittspreise von den üblichen etwas abweichen (müssen).
+
+Aus der Idee, Naturschutz und Kunst miteinader zu verbinden, entstand nachfolgendes Vereinsziel von NuKLA e. V.: ein umfassender Schutz des Leipziger Auwaldes als Auenökosystem. Dieses Ziel soll über das nachfolgende Konzept erreicht werden.
+
+KlassischeKartoffelKonzerte:
+
+Sie dienen als Kommunikationsplattform. Durch die immer wiederkehrenden, festen Termine werden die Menschen in Stadt und Land auf das Anliegen von NuKLA aufmerksam gemacht, sollen angesprochen, eingebunden sowie beworben werden.
+
+“AULA-Projekt 2030. Das grüne Band der Weißen Elster”:
+
+Außerdem hat NuKLA mit dem Regionalverband des NABU in Leipzig die “Arbeitsgemeinschaft zur Erarbeitung einer möglichen UNESCO-Bewerbung für den Leipziger Auwald und Umgebung” ins Leben gerufen, um mit Fachleuten, Naturschützern und anderen am Auwald Interessierten darüber zu beraten, was notwendig für den weiteren Schutz des Leipziger Auwaldes und angrenzender Auenökosysteme ist und wie sich das realisieren lässt.
+
+UNESCO wurde als Überschrift gewählt, weil die Belange des Naturschutzes und einer auch ökologisch nachhaltigen Entwicklung der Region in Politik und öffentlichem Bewusstsein bis dato keine angemessen zentrale Rolle spielen. Wir möchten, bezogen auf diese, auch für nachfolgende Generationen existentiell wichtige Themen einen Bewusstseinswandel erreichen. Der Schutz des Leipziger Auenökosystems kann dafür der Maßstab werden. Die engagierten Naturschützer haben einige Erfolge vorzuweisen, doch die schleichende ökologische Entwertung des Auwalds konnten wir alle bisher nicht stoppen, manchen dramatischen Eingriff nicht verhindern. Um das Anliegen, Verbesserung des Auwaldschutzes (auf Teilgebieten des Leipziger Auwaldes liegen die höchsten Schutzbestimmungen wie FFH, SPA, NSG, was trotzdem bis dato nicht dafür sorgen konnte, dass immer im Sinn der damit einhergehenden Bestimmungen verfahren wird)  in die Öffentlichkeit zu tragen,  ist eine überzeugende Leitidee für eine  nachhaltige und naturverträgliche Entwicklung der Region notwendig. Derzeit werden Wassertourismus, Motorbootverkehr und Vergnügungsparks als erstrebenswert betrachtet. Der Schutz der Natur wird regelmäßig Wirtschaftsinteressen untergeordnet. Wir wollen das ändern.
+
+Ein neuer, Erfolg versprechender und öffentlichkeitswirksamer Ansatz ist die Idee einer UNESCO-Bewerbung für die Auengebiete von Zeitz bis Halle/ Saale mit dem einzigartigen urbanen Leipziger Auwald als Kern. Damit wollen wir erreichen, dass unsere Ziele zum Schutz der Auenlandschaften breiten Rückhalt finden in Politik, Verwaltung, Wirtschaft, Vereinen und bei den Bürgern. Der UNESCO-Titel ist nicht das Ziel: Der Titel und seine öffentliche Reputation sind das Vehikel, der Weg dorthin ist das Ziel. UNESCO ist am Ende nicht zwingend das Ergebnis, sondern ein von einer breiten Mehrheit mitgetragenes Konzept für einen fachlich fundierten, ökologisch sinnvollen, nachhaltigen Auwaldschutz mit sanftem Tourismus und dessen Umsetzung. Es geht darum, einen Bewusstseinswandel herbei zu führen und mit breitem Rückhalt Positives für die Auwaldnatur zu erreichen. Erst wenn es hier deutliche Fortschritte gibt (die wir alle wollen). Erst wenn der Schutz der sensiblen Auwaldbereiche gesichert ist, erst wenn es beispielhafte Projekte für eine naturverträgliche Touristenlenkung und Umweltbildung gibt, wenn die einmalige Verbindung von kulturellem und natürlichem Erbe deutlich wird und wenn es Konzepte für eine nachhaltige Entwicklung und Bewahrung dieses Schatzes gibt, erst dann könnte es eine UNESCO-Bewerbung geben!
+
+Wir wollen nicht den UNESCO-Titel, weil wir uns davon einen besseren Auwaldschutz erhoffen; stattdessen wollen wir den UNESCO-Titel und seine öffentliche Reputation nutzen, um mit mehr öffentlicher Beteiligung mehr Schutz für den Auwald bei den Verantwortlichen durchzusetzen. Wir wollen dafür sorgen, dass der in weiten Teilen bereits bestehenden Auwaldschutz umgesetzt und kontrolliert wird, dass er ausgeweitet, die touristische Nutzung gesteuert und damit für den Erhalt des Auwaldes verbessert werden, um dann – vielleicht – den UNESCO-Titel zu beantragen und möglicher Weise zu erhalten. Der renommierte Name “UNESCO” ist für dieses Anliegen aus unserer Sicht ein geeignetes Zugpferd, um die Ziele des Natur- und Landschaftsschutzes zu erreichen und um dafür neue Unterstützer zu finden. Unabhängig vom UNESCO-Titel soll den Menschen und allen Verantwortlichen klar werden, dass der Auwald ein Naturerbe ist, das wir anders würdigen und schützen müssen, als es derzeit der Fall ist.
+
+Wir wollen ein breites Bündnis für den Auwaldschutz bilden und würden uns sehr freuen, wenn möglichst viele Vereine, Verbände, Institutionen, Universitäten und Hochschulen, Politische und Kirchliche Vereinigungen, Unternehmen, Firmen, Ämter, Kommunen, Bürger-& Bürgerinnen sich daran beteiligen.
+
+Um diese Ziele zu erreichen, benötigen wir – außer dem umfangreichen ehrenamtlichen Engagement der NuKLA & AULA-Mitglieder – natürlich auch finanzielle Mittel. Einerseits können die erwirtschaftet werden durch ausverkaufte KlassischeKartoffelKonzerte, bei denen Natur (das Anliegen), Kunst (die Konzerte) und Kommunikation (im Preis enthaltenes Kartoffelgericht nach den Konzerten) eine besondere Verbindung eingehen, mit der wir möglichst viele Interessierte zu erreichen hoffen. Andererseits bietet NuKLA auf seiner Homepage http://klassischekartoffelkonzerte.de/wp-content/uploads/2011/10/NuKLA-Werbepakete2013_14.pdf  verschiedene interessante Möglichkeiten für direkte Unterstützung an (Werbung auf den Konzertdrucksachen, Kartenkauf als Präsente für Geschäftskunden, Sponsoring für ein bestimmtes Konzert, Spenden): Nutzen Sie diese Plattform und unterstützen Sie damit unsere ausschließlich ehrenamtliche Arbeit!
+
+Wir freuen uns auf Sie!
+
+Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.
+
+ 
+
+ 
+ """ ;
+   nl:hasImage "NUKLA_LOGO_1.jpg" ;
+   nl:hasInfoURL <http://www.klassischekartoffelkonzerte.de> ;
+   dct:created "2013-09-14T10:14:50" ;
+   dct:updated "2015-11-12T13:30:11" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A10> ;
+   nl:hasEventType "Aktion" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A5> a nl:Aktion  ;
+   nl:hasID "5" ;
+   nl:hasDescription """ sedruck engagiert sich für saubere Energie.
+Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne Atomstrom. Der Online-Druckshop mit Buchmanufaktur "sedruck.de", nutzt die Energie einer großflächigen Solaranlage auf dem Ludwig-Hupfeld-Center in Böhlitz-Ehrenberg. Außerdem wird aussschließlich Papier verwendet, welches das FSC-Zertifikat trägt und somit nachhaltig erwirtschaftet wurde. Auch die Verpackung der Drucksachen ist sehr umweltschonend organisiert. Daneben engagiert sich das gesamte sedruck-Unternehmen auch sozial. Siehe sedruck.de --> Umwelt / Soziales """ ;
+   nl:hasImage "sedruck-Leipzig-3mal.png" ;
+   nl:hasInfoURL <http://www.sedruck.de/umwelt-oekodruck-soziales.html> ;
+   nl:isPublished "1" ;
+   dct:created "2013-09-19T08:48:19" ;
+   dct:updated "2015-09-23T06:12:36" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A18> ;
+   nl:hasEventType "Aktion" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A8> a nl:Aktion  ;
+   nl:hasID "8" ;
+   nl:hasDescription """ Mit einer Spende zugunsten der Aktion Baumstarke Stadt ermöglichen Sie die Pflanzung von Bäumen in öffentlichen Parks, an Straßen, auf Plätzen sowie auf städtischen Friedhöfen. Informationen unter: http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml """ ;
+   nl:hasImage "baumstarke_stadt_logo_400x400_196x196.jpg" ;
+   nl:hasInfoURL <http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml> ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX> ;
+   nl:hasDistrict "stadtweite Aktivität" ;
+   dct:created "2013-09-27T09:37:31" ;
+   dct:updated "2015-02-10T08:42:56" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A25> ;
+   nl:hasEventType "Aktion" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A15> a nl:Aktion  ;
+   nl:hasID "15" ;
+   nl:hasDescription """ Was Klimawandel mit dir zu tun hat? – Finde es heraus, dokumentiere deine Erkenntnisse mit einem kurzen Clip und gewinne bis zu 300 Euro! 
+Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendungen sind noch bis zum 31.07.2015 möglich. Mehr Infos auf http://www.zukunftsakademie-leipzig.de/c4c. """ ;
+   nl:hasImage "C4C_2zu3.jpg" ;
+   nl:hasVideoURL <https://vimeo.com/128893469> ;
+   nl:hasInfoURL <http://www.zukunftsakademie-leipzig.de> ;
+   dct:created "2015-07-20T16:25:56" ;
+   dct:updated "2016-08-18T05:15:04" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A5> ;
+   nl:hasEventType "Aktion" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A17> a nl:Aktion  ;
+   nl:hasID "17" ;
+   nl:hasDescription """ Ich betreibe in Leipzig einen Ebayshop für ökologische Wasch- und Reinigungsmittel und möchte damit einen kleinen Beitrag zum nachhaltigen Umgang mit den wertvollen Ressourcen unserer Erde leisten. """ ;
+   nl:hasVideoURL <https://www.youtube.com/watch?v=ozRgThy4gIo> ;
+   nl:hasInfoURL <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
+   dct:created "2015-11-30T10:41:38" ;
+   dct:updated "2017-07-25T14:34:33" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A138> ;
+   nl:hasEventType "Aktion" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A19> a nl:Aktion  ;
+   nl:hasID "19" ;
+   nl:hasDescription """ Wir sind Pierre & Christin und möchten im Frühjahr 2016 in der Leipziger Südvorstadt unseren Laden "EINFACH UNVERPACKT" eröffnen, wo du deine regionalen & nachhaltigen Produkte unverpackt kaufen kannst. Gemeinsam verzichten wir konsequent auf unnötige Plastikverpackungen und tun damit etwas Gutes für unsere Umwelt. Du kannst dir deine gewünschten Lebensmittel sowie Reingigungs- und Hygienemittel und Pflegeprodukte selbst in deine mitgebrachten Behälter abfüllen. Du bestimmst somit selbst wie viel du von etwas kaufst. Da nur nur soviel kaufst wie du auch benötigst, kannst du z. B. unnötige Lebensmittelabfälle vermeiden.
+
+Um unseren Traum vom eigenen Laden realisieren zu können, haben wir ein sog. Crowdfunding bei VisionBakery gestartet, wo wir dir für deine Unterstützung tolle Dankeschöns anbieten. Wie wäre es z. B. mit einer Backmischung im Glas oder einem "EINFACH UNVERPACKT - Kochbeutel" mit Rezept und allen Zutaten für ein vegetarisches 2-Personen-Gericht? Kreativkoch Pierre zaubert dir auf Wunsch auch ein Candelight-Dinner oder einen Kochabend für bis zu 4-6 Personen bei dir zu Hause! :-) Such dir gleich eines unserer Dankeschöns auf www.visionbakery.com/einfach-unverpackt aus.
+
+Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete leisten und unsere Ladeneinrichtung sowie die ersten Lebensmittel und Behälter kaufen. Wenn wir mit eurer Unterstützung über 20.000 € hinaus kommen, können wir eine Kühl- & Kästetheke für unseren Laden anschaffen, in der wir euch dann immer frischen Käse und hausgemachte leckere Snacks anbieten können! """ ;
+   nl:hasImage "IMG_8497.jpg" ;
+   nl:hasInfoURL <http://www.visionbakery.com/einfach-unverpackt> ;
+   nl:hasDistrict "Südvorstadt" ;
+   dct:created "2015-12-16T17:19:41" ;
+   dct:updated "2017-01-16T06:15:03" . 
+
+<http://nachhaltiges-leipzig.de/Data/Aktion/A20> a nl:Aktion  ;
+   nl:hasID "20" ;
+   nl:hasDescription """ Präsentation fairer Mode ab 15.00 Uhr
+Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der gefertigten Stücke, Kauf möglich. """ ;
+   nl:hasImage "IMG_2757.JPG" ;
+   nl:hasInfoURL <http://www.kunstundkatze.de> ;
+   nl:isPublished "1" ;
+   dct:created "2017-06-08T22:32:56" ;
+   dct:updated "2017-06-08T22:33:44" ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A125> ;
+   nl:hasEventType "Aktion" . 
+
