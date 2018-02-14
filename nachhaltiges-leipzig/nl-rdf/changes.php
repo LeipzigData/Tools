@@ -68,6 +68,7 @@ function neueAktivitaet($row,$nr) {
 }
 
 function processLine($row,$nr) {
+    if (empty($row)) { return; }
     preg_match('|(.*)(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $rest=$matches[1]; $user=$matches[2]; $action=$matches[3]; $date=$matches[4];
@@ -84,8 +85,52 @@ function getData() {
     // Data extracted from email notifications
     return 
 '
-
-
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/858. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/857. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/856. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/855. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/854. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/853. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/852. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/851. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/850. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/849. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/848. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/847. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/846. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/845. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/844. 2018-02-14
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/843. 2018-02-14
+Neue Aktivität von Zoo Leipzig GmbH eingetragen. admin/users/214. events/842. 2018-02-14
+Akteur hat sich registriert. Name: Zoo Leipzig GmbH  . 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/841. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/840. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/839. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/838. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/837. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/836. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/835. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/834. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/833. 2018-02-14
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/832. 2018-02-13
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/831. 2018-02-13
+Neue Aktivität von Food Assembly Leipzig eingetragen. admin/users/141. events/830. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/829. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/828. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/827. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/826. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/825. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/824. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/823. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/822. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/821. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/820. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/819. 2018-02-13
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/818. 2018-02-13
+Neue Aktivität von GRÜNE LIGA Kohrener Land eingetragen. admin/users/213. actopns/32. 2018-02-13
+Akteur hat sich registriert. Name: GRÜNE LIGA Kohrener Land . 2018-02-13
+Neue Aktivität von Galerie für Zeitgenössische Kunst eingetragen. admin/users/212. events/817. 2018-02-13
+Akteur hat sich registriert. Name: Galerie für Zeitgenössische Kunst . 2018-02-13
 Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/71. 2018-02-13
 Neue Aktivität von Botanischer garten der Universität Leipzig eingetragen. admin/users/188. services/70. 2018-02-13
 Neue Aktivität von GRASSI Museum für Angewandte Kunst eingetragen. admin/users/211. events/816. 2018-02-13
