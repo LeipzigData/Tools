@@ -738,13 +738,15 @@ filter (!bound(?al))
 } 
 
 --------------------------------
--- Reihen, Projekte und Angebote
+-- Referenzen auflösen
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/> 
-SELECT ?u ?r
-FROM <http://leipzig-data.de/Data/Events/> 
+construct { ?u owl:sameAs ?a . } 
+FROM <http://leipzig-data.de/Data/Referenzen/> 
+FROM <http://leipzig-data.de/Data/AdministrativeGliederung/> 
 WHERE {  
-?u ld:zurReihe ?r .
+?u a ld:Ortsteil; ld:hasStadtRef ?s .
+?a rdfs:sameAs ?s .
 } 
 
 --------------------------------
