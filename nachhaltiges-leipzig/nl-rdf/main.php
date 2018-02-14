@@ -5,8 +5,9 @@
  */
 
 include_once("actions.php");
-include_once("adressen.php");
+include_once("ld-adressen.php");
 include_once("akteure.php");
+include_once("ld-akteure.php");
 include_once("changes.php");
 include_once("events.php");
 include_once("projects.php");
@@ -18,10 +19,12 @@ main();
 function main() {
   file_put_contents ("../Daten/Akteure.ttl",toRDFString(getAkteure())); 
   echo "<p>Ausgabe ../Daten/Akteure.ttl erzeugt</p> \n";
+  file_put_contents ("../Daten/LD-Akteure.ttl",toRDFString(getLDAkteure())); 
+  echo "<p>Ausgabe ../Daten/LD-Akteure.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Aktionen.ttl",toRDFString(getAktionen())); 
   echo "<p>Ausgabe ../Daten/Aktionen.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Adressen.ttl",toRDFString(getAdressen())); 
-  echo "<p>Ausgabe ../Daten/Adressen.ttl erzeugt</p> \n";
+  file_put_contents ("../Daten/LD-Adressen.ttl",toRDFString(getAdressen())); 
+  echo "<p>Ausgabe ../Daten/LD-Adressen.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Changes.ttl",toRDFString(displayChanges())); 
   echo "<p>Ausgabe ../Daten/Changes.ttl erzeugt</p> \n";
   file_put_contents ("../Daten/Events.ttl",toRDFString(getEvents()));  

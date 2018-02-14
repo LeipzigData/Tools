@@ -18,7 +18,7 @@
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A4> a nl:Aktion  ;
    nl:hasID "4" ;
-   nl:hasDescription """ Die Idee der KlassischenKartoffelkonzert-Reihe
+   nl:hasDescription """Die Idee der KlassischenKartoffelkonzert-Reihe
 
 Der Leipziger Auwald ist seit Frühjahr 2011 in aller Munde: Baumfällungen, Tornadoschutz, Hochwasser, Deiche, Schutzmechanismen, ist weiterer Schutz durch die UNESCO möglich, etc. Die Idee ist, eine neue Konzertreihe für Leipzig zu Gunsten des Auwaldes ins Leben zu rufen. Die Konzertreihe wird den Namen KlassischeKartoffelKonzerte tragen. Der Reinerlös der Konzerte wird zu Gunsten des Auwaldes zur Verfügung gestellt werden, um damit Auwald-Projekte zu unterstützen.
 
@@ -48,12 +48,7 @@ Um diese Ziele zu erreichen, benötigen wir – außer dem umfangreichen ehrenam
 
 Wir freuen uns auf Sie!
 
-Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.
-
- 
-
- 
- """ ;
+Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.""" ;
    nl:hasImage "NUKLA_LOGO_1.jpg" ;
    nl:hasInfoURL <http://www.klassischekartoffelkonzerte.de> ;
    dct:created "2013-09-14T10:14:50" ;
@@ -63,8 +58,8 @@ Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A5> a nl:Aktion  ;
    nl:hasID "5" ;
-   nl:hasDescription """ sedruck engagiert sich für saubere Energie.
-Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne Atomstrom. Der Online-Druckshop mit Buchmanufaktur "sedruck.de", nutzt die Energie einer großflächigen Solaranlage auf dem Ludwig-Hupfeld-Center in Böhlitz-Ehrenberg. Außerdem wird aussschließlich Papier verwendet, welches das FSC-Zertifikat trägt und somit nachhaltig erwirtschaftet wurde. Auch die Verpackung der Drucksachen ist sehr umweltschonend organisiert. Daneben engagiert sich das gesamte sedruck-Unternehmen auch sozial. Siehe sedruck.de --> Umwelt / Soziales """ ;
+   nl:hasDescription """sedruck engagiert sich für saubere Energie.
+Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne Atomstrom. Der Online-Druckshop mit Buchmanufaktur "sedruck.de", nutzt die Energie einer großflächigen Solaranlage auf dem Ludwig-Hupfeld-Center in Böhlitz-Ehrenberg. Außerdem wird aussschließlich Papier verwendet, welches das FSC-Zertifikat trägt und somit nachhaltig erwirtschaftet wurde. Auch die Verpackung der Drucksachen ist sehr umweltschonend organisiert. Daneben engagiert sich das gesamte sedruck-Unternehmen auch sozial. Siehe sedruck.de --> Umwelt / Soziales""" ;
    nl:hasImage "sedruck-Leipzig-3mal.png" ;
    nl:hasInfoURL <http://www.sedruck.de/umwelt-oekodruck-soziales.html> ;
    nl:isPublished "1" ;
@@ -75,7 +70,7 @@ Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne A
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A8> a nl:Aktion  ;
    nl:hasID "8" ;
-   nl:hasDescription """ Mit einer Spende zugunsten der Aktion Baumstarke Stadt ermöglichen Sie die Pflanzung von Bäumen in öffentlichen Parks, an Straßen, auf Plätzen sowie auf städtischen Friedhöfen. Informationen unter: http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml """ ;
+   nl:hasDescription """Mit einer Spende zugunsten der Aktion Baumstarke Stadt ermöglichen Sie die Pflanzung von Bäumen in öffentlichen Parks, an Straßen, auf Plätzen sowie auf städtischen Friedhöfen. Informationen unter: http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml""" ;
    nl:hasImage "baumstarke_stadt_logo_400x400_196x196.jpg" ;
    nl:hasInfoURL <http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX> ;
@@ -85,10 +80,19 @@ Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne A
    nl:hasProvider <http://leipzig-data.de/Data/Akteur/A25> ;
    nl:hasEventType "Aktion" . 
 
+<http://nachhaltiges-leipzig.de/Data/Aktion/A11> a nl:Aktion  ;
+   nl:hasID "11" ;
+   nl:hasDescription """Grün ist wieder in. Alle Teilnehmer tragen andiesem Tag grüns Kleidung, um der Veranstltung die besondere Note zu geben.""" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04451.Borsdorf.Lindenweg.12> ;
+   nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
+   nl:isPublished "1" ;
+   dct:created "2014-03-14T11:56:04" ;
+   dct:updated "2014-03-14T11:56:04" . 
+
 <http://nachhaltiges-leipzig.de/Data/Aktion/A15> a nl:Aktion  ;
    nl:hasID "15" ;
-   nl:hasDescription """ Was Klimawandel mit dir zu tun hat? – Finde es heraus, dokumentiere deine Erkenntnisse mit einem kurzen Clip und gewinne bis zu 300 Euro! 
-Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendungen sind noch bis zum 31.07.2015 möglich. Mehr Infos auf http://www.zukunftsakademie-leipzig.de/c4c. """ ;
+   nl:hasDescription """Was Klimawandel mit dir zu tun hat? – Finde es heraus, dokumentiere deine Erkenntnisse mit einem kurzen Clip und gewinne bis zu 300 Euro! 
+Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendungen sind noch bis zum 31.07.2015 möglich. Mehr Infos auf http://www.zukunftsakademie-leipzig.de/c4c.""" ;
    nl:hasImage "C4C_2zu3.jpg" ;
    nl:hasVideoURL <https://vimeo.com/128893469> ;
    nl:hasInfoURL <http://www.zukunftsakademie-leipzig.de> ;
@@ -99,7 +103,7 @@ Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendun
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A17> a nl:Aktion  ;
    nl:hasID "17" ;
-   nl:hasDescription """ Ich betreibe in Leipzig einen Ebayshop für ökologische Wasch- und Reinigungsmittel und möchte damit einen kleinen Beitrag zum nachhaltigen Umgang mit den wertvollen Ressourcen unserer Erde leisten. """ ;
+   nl:hasDescription """Ich betreibe in Leipzig einen Ebayshop für ökologische Wasch- und Reinigungsmittel und möchte damit einen kleinen Beitrag zum nachhaltigen Umgang mit den wertvollen Ressourcen unserer Erde leisten.""" ;
    nl:hasVideoURL <https://www.youtube.com/watch?v=ozRgThy4gIo> ;
    nl:hasInfoURL <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
    dct:created "2015-11-30T10:41:38" ;
@@ -109,11 +113,11 @@ Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendun
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A19> a nl:Aktion  ;
    nl:hasID "19" ;
-   nl:hasDescription """ Wir sind Pierre & Christin und möchten im Frühjahr 2016 in der Leipziger Südvorstadt unseren Laden "EINFACH UNVERPACKT" eröffnen, wo du deine regionalen & nachhaltigen Produkte unverpackt kaufen kannst. Gemeinsam verzichten wir konsequent auf unnötige Plastikverpackungen und tun damit etwas Gutes für unsere Umwelt. Du kannst dir deine gewünschten Lebensmittel sowie Reingigungs- und Hygienemittel und Pflegeprodukte selbst in deine mitgebrachten Behälter abfüllen. Du bestimmst somit selbst wie viel du von etwas kaufst. Da nur nur soviel kaufst wie du auch benötigst, kannst du z. B. unnötige Lebensmittelabfälle vermeiden.
+   nl:hasDescription """Wir sind Pierre & Christin und möchten im Frühjahr 2016 in der Leipziger Südvorstadt unseren Laden "EINFACH UNVERPACKT" eröffnen, wo du deine regionalen & nachhaltigen Produkte unverpackt kaufen kannst. Gemeinsam verzichten wir konsequent auf unnötige Plastikverpackungen und tun damit etwas Gutes für unsere Umwelt. Du kannst dir deine gewünschten Lebensmittel sowie Reingigungs- und Hygienemittel und Pflegeprodukte selbst in deine mitgebrachten Behälter abfüllen. Du bestimmst somit selbst wie viel du von etwas kaufst. Da nur nur soviel kaufst wie du auch benötigst, kannst du z. B. unnötige Lebensmittelabfälle vermeiden.
 
 Um unseren Traum vom eigenen Laden realisieren zu können, haben wir ein sog. Crowdfunding bei VisionBakery gestartet, wo wir dir für deine Unterstützung tolle Dankeschöns anbieten. Wie wäre es z. B. mit einer Backmischung im Glas oder einem "EINFACH UNVERPACKT - Kochbeutel" mit Rezept und allen Zutaten für ein vegetarisches 2-Personen-Gericht? Kreativkoch Pierre zaubert dir auf Wunsch auch ein Candelight-Dinner oder einen Kochabend für bis zu 4-6 Personen bei dir zu Hause! :-) Such dir gleich eines unserer Dankeschöns auf www.visionbakery.com/einfach-unverpackt aus.
 
-Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete leisten und unsere Ladeneinrichtung sowie die ersten Lebensmittel und Behälter kaufen. Wenn wir mit eurer Unterstützung über 20.000 € hinaus kommen, können wir eine Kühl- & Kästetheke für unseren Laden anschaffen, in der wir euch dann immer frischen Käse und hausgemachte leckere Snacks anbieten können! """ ;
+Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete leisten und unsere Ladeneinrichtung sowie die ersten Lebensmittel und Behälter kaufen. Wenn wir mit eurer Unterstützung über 20.000 € hinaus kommen, können wir eine Kühl- & Kästetheke für unseren Laden anschaffen, in der wir euch dann immer frischen Käse und hausgemachte leckere Snacks anbieten können!""" ;
    nl:hasImage "IMG_8497.jpg" ;
    nl:hasInfoURL <http://www.visionbakery.com/einfach-unverpackt> ;
    nl:hasDistrict "Südvorstadt" ;
@@ -122,8 +126,8 @@ Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete le
 
 <http://nachhaltiges-leipzig.de/Data/Aktion/A20> a nl:Aktion  ;
    nl:hasID "20" ;
-   nl:hasDescription """ Präsentation fairer Mode ab 15.00 Uhr
-Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der gefertigten Stücke, Kauf möglich. """ ;
+   nl:hasDescription """Präsentation fairer Mode ab 15.00 Uhr
+Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der gefertigten Stücke, Kauf möglich.""" ;
    nl:hasImage "IMG_2757.JPG" ;
    nl:hasInfoURL <http://www.kunstundkatze.de> ;
    nl:isPublished "1" ;

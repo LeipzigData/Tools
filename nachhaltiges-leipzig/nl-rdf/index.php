@@ -50,7 +50,6 @@ function applicationList() {
   return '
 <div class="container">
 <ul>
-<li> <a href="./getdata.php?show=adressen&embedded=true">Die Adressen</a></li>
 <li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
 <li> <a href="./getdata.php?show=aktionen&embedded=true">Die Aktionen</a></li>
 <li> <a href="./getdata.php?show=changes&embedded=true">Die Changes</a></li>

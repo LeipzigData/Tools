@@ -18,8 +18,8 @@
 
 <http://nachhaltiges-leipzig.de/Data/Service/S3> a nl:Service  ;
    nl:hasID "3" ;
-   nl:hasDescription """ Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min. Zum Schluss gibt es noch Gelegenheit zum Gespräch bei einer Tasse Tee. Ein Einstieg ist jederzeit möglich. Kommen Sie aber bitte beim ersten Mal 15 Minuten vorher zu einer kurzen Einweisung. """ ;
-   nl:hasSummary """ Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min """ ;
+   nl:hasDescription """Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min. Zum Schluss gibt es noch Gelegenheit zum Gespräch bei einer Tasse Tee. Ein Einstieg ist jederzeit möglich. Kommen Sie aber bitte beim ersten Mal 15 Minuten vorher zu einer kurzen Einweisung.""" ;
+   nl:hasSummary """Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min""" ;
    nl:hasTargetGroup "Interessierte, auch ohne Vorkenntnisse" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "90min" ;
@@ -34,13 +34,13 @@
 
 <http://nachhaltiges-leipzig.de/Data/Service/S4> a nl:Service  ;
    nl:hasID "4" ;
-   nl:hasDescription """ Die themenzentrierte Interaktion (TZI) nach Ruth Cohn ist eine professionelle Handlungskonzeption für institutionelle Leitung, Arbeit mit Teams, Unterricht und Bildung. Das Ziel ist, einen wertschätzenden Umgang miteinander zu fördern und lebendige Lern- und Arbeitsprozesse zu gestalten. TZI stellt ein Instrumentarium bereit, mit dem zugleich sachlich und lebendig gearbeitet werden kann, mit dem Ziele erreicht werden und gleichzeitig Kooperation gefördert wird. """ ;
-   nl:hasSummary """ Professionell lehren und leiten mit TZI (I 50 001M) """ ;
+   nl:hasDescription """Die themenzentrierte Interaktion (TZI) nach Ruth Cohn ist eine professionelle Handlungskonzeption für institutionelle Leitung, Arbeit mit Teams, Unterricht und Bildung. Das Ziel ist, einen wertschätzenden Umgang miteinander zu fördern und lebendige Lern- und Arbeitsprozesse zu gestalten. TZI stellt ein Instrumentarium bereit, mit dem zugleich sachlich und lebendig gearbeitet werden kann, mit dem Ziele erreicht werden und gleichzeitig Kooperation gefördert wird.""" ;
+   nl:hasSummary """Professionell lehren und leiten mit TZI (I 50 001M)""" ;
    nl:hasTargetGroup "Menschen, die lehren und leiten" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "5 Abende" ;
    nl:hasCosts "ca. 90,- €" ;
-   nl:hasRequirements """ Teilnehme nur an allen 5 Abenden """ ;
+   nl:hasRequirements """Teilnehme nur an allen 5 Abenden""" ;
    nl:hasServiceType "Workshop" ;
    dct:created "2013-09-17T10:50:05" ;
    dct:updated "2014-10-16T05:15:31" ;
@@ -49,9 +49,8 @@
 
 <http://nachhaltiges-leipzig.de/Data/Service/S5> a nl:Service  ;
    nl:hasID "5" ;
-   nl:hasDescription """ Lastenräder und Transporträder werden zum Mieten, Probefahren und zum Kauf angeboten.
- """ ;
-   nl:hasSummary """ Transporträder für Familie, Freizeit und Beruf """ ;
+   nl:hasDescription """Lastenräder und Transporträder werden zum Mieten, Probefahren und zum Kauf angeboten.""" ;
+   nl:hasSummary """Transporträder für Familie, Freizeit und Beruf""" ;
    nl:hasServiceType "Beratungsangebot" ;
    nl:hasInfoURL <http://rad3.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
@@ -64,7 +63,7 @@
 
 <http://nachhaltiges-leipzig.de/Data/Service/S6> a nl:Service  ;
    nl:hasID "6" ;
-   nl:hasDescription """ Mit unserer Bildungsarbeit wollen wir bei Schüler_innen und jungen Erwachsenen wieder mehr Interesse für wirtschaftliche Themen wecken. Wir wollen ökonomische Probleme unserer Zeit kritisch diskutieren und zugleich zeigen, dass alternative Wirtschaftsformen auch heute schon existieren, praktiziert werden und funktionieren:
+   nl:hasDescription """Mit unserer Bildungsarbeit wollen wir bei Schüler_innen und jungen Erwachsenen wieder mehr Interesse für wirtschaftliche Themen wecken. Wir wollen ökonomische Probleme unserer Zeit kritisch diskutieren und zugleich zeigen, dass alternative Wirtschaftsformen auch heute schon existieren, praktiziert werden und funktionieren:
 
 Wie funktioniert die Solidarische Ökonomie? Muss Wirtschaften immer Tausch bedeuten? Was ist ein Umsonstladen? Wie produzieren und wirtschaften wir ressourcenschonender? Wird die Wirtschaft immer weiter wachsen? Wie können wir Arbeit anders verteilen? Was bedeutet das alles für meinen persönlichen Lebensstil?
 
@@ -72,8 +71,8 @@ Wir bieten Workshops, Projekttage und Exkursionen zu spannenden Projekten in Lei
 
 Eine Übersicht über unsere Schwerpunkte für Projekttage und Exkursionen finden Sie hier:
 http://www.konzeptwerk-neue-oekonomie.org/unsere_projekttage/
-Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooperationspartner_innen.  """ ;
-   nl:hasSummary """ Bildung für die sozial-ökologische Transformation """ ;
+Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooperationspartner_innen.""" ;
+   nl:hasSummary """Bildung für die sozial-ökologische Transformation""" ;
    nl:hasTargetGroup "Schüler_innen der Klassen 9 bis 12; Außerschulische Gruppen" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1 Tag - Mehrere Tage" ;
@@ -87,15 +86,21 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasProvider <http://leipzig-data.de/Data/Akteur/A27> ;
    nl:hasEventType "Angebot" . 
 
+<http://nachhaltiges-leipzig.de/Data/Service/S7> a nl:Service  ;
+   nl:hasID "7" ;
+   nl:hasDescription """Wir testen""" ;
+   nl:hasSummary """Testen""" ;
+   dct:created "2013-10-16T10:45:42" ;
+   dct:updated "2013-10-16T11:04:47" . 
+
 <http://nachhaltiges-leipzig.de/Data/Service/S8> a nl:Service  ;
    nl:hasID "8" ;
-   nl:hasDescription """ Wir nähern uns dem Thema Wasser auf vielfältige Weise, nicht nur spielerisch. Auf unserem Gelände sind verschiedene wasser-technische Anlagen im Einsatz, die wir in einem kleinen Rundgang den Kindern zeigen. Besonders beeindruckend sind natürlich unser Wasserrad und unser eigens kleines "Klärwerk". Im Anschluss werden wir gemeinsam basteln oder kleine Experimente durchführen. Bei schönem Wetter können die Kinder mit unserer Wasserbahn spielen und an der Gartenpumpe matschen.
- """ ;
-   nl:hasSummary """ Wasser ist kostbar. Wir "tauchen ein" in die Themen Wasserkreislauf und Wasser als Lebensgrundlage, beschauen das Wasserrad und basteln. """ ;
+   nl:hasDescription """Wir nähern uns dem Thema Wasser auf vielfältige Weise, nicht nur spielerisch. Auf unserem Gelände sind verschiedene wasser-technische Anlagen im Einsatz, die wir in einem kleinen Rundgang den Kindern zeigen. Besonders beeindruckend sind natürlich unser Wasserrad und unser eigens kleines "Klärwerk". Im Anschluss werden wir gemeinsam basteln oder kleine Experimente durchführen. Bei schönem Wetter können die Kinder mit unserer Wasserbahn spielen und an der Gartenpumpe matschen.""" ;
+   nl:hasSummary """Wasser ist kostbar. Wir "tauchen ein" in die Themen Wasserkreislauf und Wasser als Lebensgrundlage, beschauen das Wasserrad und basteln.""" ;
    nl:hasTargetGroupSelection "Kindergarten" ;
    nl:hasDuration "2,5 Stunden" ;
    nl:hasCosts "2,50 EUR pro Kind" ;
-   nl:hasRequirements """ Matschsachen bzw. Wechselsachen sind von Vorteil. """ ;
+   nl:hasRequirements """Matschsachen bzw. Wechselsachen sind von Vorteil.""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasImage "CIMG0174.JPG" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
@@ -107,9 +112,8 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
 
 <http://nachhaltiges-leipzig.de/Data/Service/S9> a nl:Service  ;
    nl:hasID "9" ;
-   nl:hasDescription """ Seit mehr als 50 Mio. Jahren gibt es Fledermäuse auf der Erde, die einzige Säugetierart, die fliegen kann. Bei uns in Sachsen leben ca. 20 Arten von Fledermäusen, sie vertilgen große Mengen an Mücken, Motten und Faltern und werden damit zu wichtigen „biologischen Schädlingsbekämpfern“. Leider gehören sie zu den bedrohten Tierarten.  Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind, vor denen man Angst haben muss. Mit vielen Fotos, einer echte Fledermaus und einem tollen Film können sich die Kinder mit diesen Tieren vertraut machen und lernen sie schätzen. Anschließend basteln wir eine kleine Fledermaus aus Papier, die mit nach Hause genomme werden kann. 
- """ ;
-   nl:hasSummary """ Fledermäuse gehöhren zu den bedrohten Tierarten. Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind. """ ;
+   nl:hasDescription """Seit mehr als 50 Mio. Jahren gibt es Fledermäuse auf der Erde, die einzige Säugetierart, die fliegen kann. Bei uns in Sachsen leben ca. 20 Arten von Fledermäusen, sie vertilgen große Mengen an Mücken, Motten und Faltern und werden damit zu wichtigen „biologischen Schädlingsbekämpfern“. Leider gehören sie zu den bedrohten Tierarten.  Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind, vor denen man Angst haben muss. Mit vielen Fotos, einer echte Fledermaus und einem tollen Film können sich die Kinder mit diesen Tieren vertraut machen und lernen sie schätzen. Anschließend basteln wir eine kleine Fledermaus aus Papier, die mit nach Hause genomme werden kann.""" ;
+   nl:hasSummary """Fledermäuse gehöhren zu den bedrohten Tierarten. Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind.""" ;
    nl:hasTargetGroupSelection "Kindergarten" ;
    nl:hasDuration "2,0" ;
    nl:hasCosts "2,00" ;
@@ -123,14 +127,13 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
 
 <http://nachhaltiges-leipzig.de/Data/Service/S10> a nl:Service  ;
    nl:hasID "10" ;
-   nl:hasDescription """ Bei unserer Mühlen-Wald-Rallye geht es darum, Spaß zu haben, die Natur zu entdecken und verschiedene Bäume kennenzulermen.  Wir sammeln unterwegs Naturmaterialien für ein kleines Mitbringsel und besuchen den Spielplatz Kinderreich.
-Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kindern Pizza und erfrischen uns mit einem selbstgebrautem Mühlentrunk. Zum Abschluss gibt es für alle noch eine Überraschung.
- """ ;
-   nl:hasSummary """ Eine abwechslungsreiche Tour durch den agra-Park mit vielen Stationen rund das Thema Bäume """ ;
+   nl:hasDescription """Bei unserer Mühlen-Wald-Rallye geht es darum, Spaß zu haben, die Natur zu entdecken und verschiedene Bäume kennenzulermen.  Wir sammeln unterwegs Naturmaterialien für ein kleines Mitbringsel und besuchen den Spielplatz Kinderreich.
+Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kindern Pizza und erfrischen uns mit einem selbstgebrautem Mühlentrunk. Zum Abschluss gibt es für alle noch eine Überraschung.""" ;
+   nl:hasSummary """Eine abwechslungsreiche Tour durch den agra-Park mit vielen Stationen rund das Thema Bäume""" ;
    nl:hasTargetGroupSelection "Kindergarten" ;
    nl:hasDuration "4 - 5 Std." ;
    nl:hasCosts "5,00 EUR (inkl. Pizza backen)" ;
-   nl:hasRequirements """  Bitte wetterfeste Kleidung und feste Schuhe tragen. """ ;
+   nl:hasRequirements """Bitte wetterfeste Kleidung und feste Schuhe tragen.""" ;
    nl:hasServiceType "Exkursion" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
    nl:hasDistrict "Dölitz-Dösen" ;
@@ -141,10 +144,9 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
 
 <http://nachhaltiges-leipzig.de/Data/Service/S11> a nl:Service  ;
    nl:hasID "11" ;
-   nl:hasDescription """ "Wir und die Welt" bietet Informationen und Bildungsangebote rund um die Themen Globalisierung und Konsum an. Mit Hilfe von Stadtrundgängen und Projekttagen werden die weltweiten Verknüpfungen lokal erlebbar gemacht. Dieses Angebot richtet sich an Kinder und Jugendliche, aber auch an interessierte Erwachsene. Die Homepage www.globalisiert.de informiert zudem über aktuelle globale Entwicklungen und lokale Ereignisse, wie Workshops und Seminare.
-"Wir und die Welt" ist ein Projekt des WeltOffen e.V.
- """ ;
-   nl:hasSummary """ Stadtrundgänge und Projekttage zu Globalisierung und Konsumverhalten """ ;
+   nl:hasDescription """"Wir und die Welt" bietet Informationen und Bildungsangebote rund um die Themen Globalisierung und Konsum an. Mit Hilfe von Stadtrundgängen und Projekttagen werden die weltweiten Verknüpfungen lokal erlebbar gemacht. Dieses Angebot richtet sich an Kinder und Jugendliche, aber auch an interessierte Erwachsene. Die Homepage www.globalisiert.de informiert zudem über aktuelle globale Entwicklungen und lokale Ereignisse, wie Workshops und Seminare.
+"Wir und die Welt" ist ein Projekt des WeltOffen e.V.""" ;
+   nl:hasSummary """Stadtrundgänge und Projekttage zu Globalisierung und Konsumverhalten""" ;
    nl:hasTargetGroup "Kinder und Jugendliche aber auch Erwachsene" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "2 Stunden" ;
@@ -160,13 +162,13 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
 
 <http://nachhaltiges-leipzig.de/Data/Service/S12> a nl:Service  ;
    nl:hasID "12" ;
-   nl:hasDescription """ Die Leipziger Bildungsberatung berät kostenlos, neutral, individuell und anbieterübergreifend zum persönlichen oder beruflichen Fortkommen und vermittelt bei Bedarf an spezialisierte Beratungsstellen weiter. Jeder Erwachsene (nach verlassen der Schule) kann die Bildungsberatung in einem persönlichen Gespräch, per Telefon oder E-Mail in Anspruch nehmen.  """ ;
-   nl:hasSummary """ Die Leipziger Bildungsberatung hilft bei Fragen der Qualifizierung und bei der Orientierung im Dschungel der Bildungsanbieter """ ;
+   nl:hasDescription """Die Leipziger Bildungsberatung berät kostenlos, neutral, individuell und anbieterübergreifend zum persönlichen oder beruflichen Fortkommen und vermittelt bei Bedarf an spezialisierte Beratungsstellen weiter. Jeder Erwachsene (nach verlassen der Schule) kann die Bildungsberatung in einem persönlichen Gespräch, per Telefon oder E-Mail in Anspruch nehmen.""" ;
+   nl:hasSummary """Die Leipziger Bildungsberatung hilft bei Fragen der Qualifizierung und bei der Orientierung im Dschungel der Bildungsanbieter""" ;
    nl:hasTargetGroup "Alle Erwachsene nach Verlassen der Schule" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "je nach Beratungsbedarf" ;
    nl:hasCosts "keine" ;
-   nl:hasRequirements """ Die Leipziger Bildungsberatung berät jeden Dienstag von 10 bis 13 Uhr und von 14 bis 19 Uhr ohne vorherige Terminvereinbarung in der Leipziger Stadtbibliothek im Zentrum.  """ ;
+   nl:hasRequirements """Die Leipziger Bildungsberatung berät jeden Dienstag von 10 bis 13 Uhr und von 14 bis 19 Uhr ohne vorherige Terminvereinbarung in der Leipziger Stadtbibliothek im Zentrum.""" ;
    nl:hasImage "110103_Logo_Bildungsberatung_.png" ;
    nl:hasInfoURL <http://www.leipzig.de/bildungsmanagement> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Wilhelm-Leuschner-Platz.10> ;
@@ -178,8 +180,8 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
 
 <http://nachhaltiges-leipzig.de/Data/Service/S13> a nl:Service  ;
    nl:hasID "13" ;
-   nl:hasDescription """ interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels; Klimaschutz """ ;
-   nl:hasSummary """ interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels """ ;
+   nl:hasDescription """interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels; Klimaschutz""" ;
+   nl:hasSummary """interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels""" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "2-3 Stunden" ;
    nl:hasCosts "kostenlos" ;
@@ -191,10 +193,10 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
 
 <http://nachhaltiges-leipzig.de/Data/Service/S14> a nl:Service  ;
    nl:hasID "14" ;
-   nl:hasDescription """ Die Referenten der Bildungsagenten sind selber junge Menschen, die ganz frisch zurückgekehrt sind, von einem sozialen Freiwilligendienst im Ausland. Die meisten waren in sog. Entwicklungsländern und daher geht es in den Workshops um Fragen, wie wir ein globales Zusammenleben aller Menschen auf friedliche Weise gestalten können. 
+   nl:hasDescription """Die Referenten der Bildungsagenten sind selber junge Menschen, die ganz frisch zurückgekehrt sind, von einem sozialen Freiwilligendienst im Ausland. Die meisten waren in sog. Entwicklungsländern und daher geht es in den Workshops um Fragen, wie wir ein globales Zusammenleben aller Menschen auf friedliche Weise gestalten können. 
 Wir tauchen auch tief in wirtschaftspolitische Fragen ein und überlegen uns, wie wir eine Faire welt hier und jetzt beginnen können. 
-Zum Abschluss erzählen wir auch gerne mit ein paar Bildern von unseren Reiseerfahrungen! """ ;
-   nl:hasSummary """ Spielerisch und anhand spannender Fragen unserer Globalisierung auf den Grund kommen und herausfinden, was man selber tun kann. """ ;
+Zum Abschluss erzählen wir auch gerne mit ein paar Bildern von unseren Reiseerfahrungen!""" ;
+   nl:hasSummary """Spielerisch und anhand spannender Fragen unserer Globalisierung auf den Grund kommen und herausfinden, was man selber tun kann.""" ;
    nl:hasTargetGroup "Schüler, Jugendliche und junge Studenten" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "gerne ein halber Tag" ;
@@ -208,24 +210,24 @@ Zum Abschluss erzählen wir auch gerne mit ein paar Bildern von unseren Reiseerf
 
 <http://nachhaltiges-leipzig.de/Data/Service/S15> a nl:Service  ;
    nl:hasID "15" ;
-   nl:hasDescription """ Die Handywerkstatt
+   nl:hasDescription """Die Handywerkstatt
 Wahrscheinlich nutzen Sie auch ein Mobiltelefon oder Smartphone? Und ist es nicht erstaunlich, wie schnell und folgenreich sich diese neue, praktische Technologie in unserem Alltag durchgesetzt hat? Aber was wissen Sie über Ihr Telefon? 
 Erfahren Sie in unserer Handywerkstatt, was in einem Handy so alles drinsteckt: Aus welchen Bestandteilen und Stoffen besteht Ihr Telefon eigentlich? Wo kommen diese her und wo werden die Einzelteile gefertigt? Wer baut das Gerät zusammen? Und wo landet es nach unserer Benutzung? 
 Wir bringen Hintergrundwissen zur Produktion, Nutzung und Verschrottung von Mobiltelefonen mit, decken soziale und Umweltprobleme in den Prozessen auf und diskutieren mit Ihnen darüber, welche konkreten Veränderungsmöglichkeiten es in weltweiten Strukturen, aber auch hier für uns vor Ort gibt.
 
 → Zusatzinfo für Lehrer*innen: In der Handywerkstatt und dem Jeans-Workshop werden fächer-
 übergreifend Inhalte und Kompetenzen des globalen Lernens bzw. der Bildung für nachhaltige 
-Entwicklung (BNE) vermittelt, die anschlussfähig an den Lehrplan in Chemie, Geographie, Gemeinschaftskunde und Ethik sind. Das Angebot trägt auch zur Berufsorientierung bei.  """ ;
-   nl:hasSummary """ Interaktiver Workshop für Jung und Alt in denen wir uns kritisch und ganz praktisch mit den Bestandteilen des Handys und deren Geschichte beschäftigen """ ;
+Entwicklung (BNE) vermittelt, die anschlussfähig an den Lehrplan in Chemie, Geographie, Gemeinschaftskunde und Ethik sind. Das Angebot trägt auch zur Berufsorientierung bei.""" ;
+   nl:hasSummary """Interaktiver Workshop für Jung und Alt in denen wir uns kritisch und ganz praktisch mit den Bestandteilen des Handys und deren Geschichte beschäftigen""" ;
    nl:hasTargetGroup "Altersspanne 10 bis 100 Jahre, wir passen die Inhalte, Methoden, Zeitrahmen,... an." ;
    nl:hasDuration "2-6h" ;
    nl:hasCosts "3,00 Euro pro Person (Verhandlungsbasis)" ;
-   nl:hasRequirements """ Für Gruppen von 10 bis 30 Personen. 
+   nl:hasRequirements """Für Gruppen von 10 bis 30 Personen. 
 Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen. 
 
 → Zusatzinfo für Lehrer*innen: In der Handywerkstatt und dem Jeans-Workshop werden fächerübergreifend Inhalte und Kompetenzen des globalen Lernens bzw. der Bildung für nachhaltige Entwicklung (BNE) vermittelt, die anschlussfähig an den Lehrplan in Chemie, Geographie, Gemeinschaftskunde und Ethik sind. Das Angebot trägt auch zur Berufsorientierung bei. 
 
-→ Aktuelle Termine zum mitmachen finden sich auf unserer Webseite! """ ;
+→ Aktuelle Termine zum mitmachen finden sich auf unserer Webseite!""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasImage "Scan_2.jpg" ;
    nl:hasInfoURL <http://lebenlernenleipzig.de/aktuelle-projekte/cafe-kaputt-bildungsworkshops/> ;
@@ -238,21 +240,21 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
 
 <http://nachhaltiges-leipzig.de/Data/Service/S16> a nl:Service  ;
    nl:hasID "16" ;
-   nl:hasDescription """ Jeans, Jeans, Jeans
+   nl:hasDescription """Jeans, Jeans, Jeans
 Bestimmt tragen auch Sie Jeans – Hose, Jacke, Tasche – blau, schwarz, weinrot.... . Jeans haben sich seit ihrer Erfindung im Goldrausch Kaliforniens erstaunlich schnell erstaunlich langfristig und erstaunlich weit durchgesetzt. Weit? Also bei erstaunlich vielen Menschen. Ob die Jeans selbst weit oder eng sein soll, hängt von der Mode ab. So oder so umweht sie bis heute ein Gefühl des locker-lässigen Abenteuers.
 Die Hose, gemacht um Arbeitern das Leben zu erleichtern, macht heute weltweit vielen Arbeiter*innen das Leben schwer – im Baumwollanbau, in der Stoffproduktion und -färberei, beim Nähen der Kleidung. Außerdem wird sie zur Umweltbelastung. 
 Wir informieren Sie in unserem Workshop ganz genau zu diesen Problemen. Gut aussehen ohne die Welt zu ruinieren? Wie das gehen könnte diskutieren und erproben wir gemeinsam.
- Lieblings-Jeans-Kleidung bitte mitbringen! """ ;
-   nl:hasSummary """ Interaktiver Workshop für Jung und Alt in dem wir uns kritisch und ganz praktisch mit Jeans beschäftigen """ ;
+ Lieblings-Jeans-Kleidung bitte mitbringen!""" ;
+   nl:hasSummary """Interaktiver Workshop für Jung und Alt in dem wir uns kritisch und ganz praktisch mit Jeans beschäftigen""" ;
    nl:hasTargetGroup "Altersspanne 10 bis 100 Jahre, wir passen die Inhalte, Methoden, Zeitrahmen,... an." ;
    nl:hasDuration "2-6h" ;
    nl:hasCosts "3,00 Euro pro Person (Verhandlungsbasis)" ;
-   nl:hasRequirements """ Für Gruppen von 10 bis 30 Personen.
+   nl:hasRequirements """Für Gruppen von 10 bis 30 Personen.
 Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen. 
 
 → Zusatzinfo für Lehrer*innen: In der Handywerkstatt und dem Jeans-Workshop werden fächerübergreifend Inhalte und Kompetenzen des globalen Lernens bzw. der Bildung für nachhaltige Entwicklung (BNE) vermittelt, die anschlussfähig an den Lehrplan in Chemie, Geographie, Gemeinschaftskunde und Ethik sind. Das Angebot trägt auch zur Berufsorientierung bei. 
 
-→ Aktuelle offene Workshop-Termine finden sich über unsere Webseite! """ ;
+→ Aktuelle offene Workshop-Termine finden sich über unsere Webseite!""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasImage "Scan.jpg" ;
    nl:hasInfoURL <http://lebenlernenleipzig.de/aktuelle-projekte/cafe-kaputt-bildungsworkshops/> ;
@@ -265,7 +267,7 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
 
 <http://nachhaltiges-leipzig.de/Data/Service/S17> a nl:Service  ;
    nl:hasID "17" ;
-   nl:hasDescription """ Dragon Dreaming ist ein systematischer und ganzheitlicher Projektmanagement-Ansatz für die Verwirklichung von gemeinschaftlichen und nachhaltigen Projekten. Dragon Dreaming bietet eine Reihe innovativer Techniken und Methoden, die für die Entwicklung von Visionen, für die Planung und erfolgreiche Durchführung von Projekten hilfreich sind. Im Mittelpunkt stehen Methoden, die ihren Schwerpunkt auf Schwarmintelligenz – die Intelligenz der Vielen, Crowdsourcing – das gemeinsame Entwickeln von Ideen und Wissen, und Intuition legen.
+   nl:hasDescription """Dragon Dreaming ist ein systematischer und ganzheitlicher Projektmanagement-Ansatz für die Verwirklichung von gemeinschaftlichen und nachhaltigen Projekten. Dragon Dreaming bietet eine Reihe innovativer Techniken und Methoden, die für die Entwicklung von Visionen, für die Planung und erfolgreiche Durchführung von Projekten hilfreich sind. Im Mittelpunkt stehen Methoden, die ihren Schwerpunkt auf Schwarmintelligenz – die Intelligenz der Vielen, Crowdsourcing – das gemeinsame Entwickeln von Ideen und Wissen, und Intuition legen.
 
 Gleichzeitig fördert Dragon Dreaming als Methode die persönliche Motivation, Offenheit und Kooperationsbereitschaft aller Beteiligten. Projekte werden partizipativ geplant und so durchgeführt, dass die unterschiedlichen Qualitäten der Beteiligten eingebracht werden können. Der Werkzeugkoffer des Dragon Dreaming beinhaltet daher auch Methoden für eine konstruktive Kommunikation, die Teamentwicklung sowie die kontinuierliche und konstruktive Reflexion, Auswertung und Umsetzung von Erfahrungen.
 
@@ -285,8 +287,8 @@ Für wen:
 - Unternehmen und Organisationen als Grundlage für neue Inspirationen
 - Stadtentwicklung und Politik als Unterstützung im Bereich Bürgeraktivierung und Bürgerbeteiligung
 - Vereine & Grasswurzelbewegungen erhalten Hilfe bei der Umsetzung ihrer Ideen
-- Kreative & Künstler finden Methoden, die ihrer Arbeitsweise entgegen kommen """ ;
-   nl:hasSummary """ Werkzeuge und Tools für die praktische Umsetzung von nachhaltigen Projekten """ ;
+- Kreative & Künstler finden Methoden, die ihrer Arbeitsweise entgegen kommen""" ;
+   nl:hasSummary """Werkzeuge und Tools für die praktische Umsetzung von nachhaltigen Projekten""" ;
    nl:hasCosts "Nach Absprache der jeweiligen Bedürfnisse, buchbar als Einzelworkshop oder im Rahmen eines Trainings" ;
    nl:hasImage "Dragon_Dreaming.jpg" ;
    nl:hasVideoURL <http://www.youtube.com/watch?v=byw3KTrfOUI> ;
@@ -298,10 +300,10 @@ Für wen:
 
 <http://nachhaltiges-leipzig.de/Data/Service/S18> a nl:Service  ;
    nl:hasID "18" ;
-   nl:hasDescription """ Der an der Stanford University entwickelte Prozess besteht aus sechs Schritten (verstehen, forschen, definieren, entwerfen, prototypen, testen) und kombiniert Methoden aus qualitativer Forschung, Design und Management mit möglichst interdisziplinären Teams und einer iterativen Arbeitsweise. Der Anwender steht dabei im Mittelpunkt der Lösung, dennoch spielt die Ganzheitlichkeit der entwickelten Ideen eine große Rolle.
+   nl:hasDescription """Der an der Stanford University entwickelte Prozess besteht aus sechs Schritten (verstehen, forschen, definieren, entwerfen, prototypen, testen) und kombiniert Methoden aus qualitativer Forschung, Design und Management mit möglichst interdisziplinären Teams und einer iterativen Arbeitsweise. Der Anwender steht dabei im Mittelpunkt der Lösung, dennoch spielt die Ganzheitlichkeit der entwickelten Ideen eine große Rolle.
 
-Preis: nach Absprache der jeweiligen Bedürfnisse, buchbar als Design Thinking Jam!, Einzelworkshop oder im Rahmen eines Trainings. """ ;
-   nl:hasSummary """ Design Thinking ist eine systematische Vorgehensweise für die Entwicklung innovativer Ideen und Problemlösungen innerhalb kurzer Zeitspannen, mit der  """ ;
+Preis: nach Absprache der jeweiligen Bedürfnisse, buchbar als Design Thinking Jam!, Einzelworkshop oder im Rahmen eines Trainings.""" ;
+   nl:hasSummary """Design Thinking ist eine systematische Vorgehensweise für die Entwicklung innovativer Ideen und Problemlösungen innerhalb kurzer Zeitspannen, mit der""" ;
    nl:hasImage "Design_Thinking_2.jpg" ;
    nl:hasInfoURL <http://www.projektup.org/methoden/design-thinking/> ;
    dct:created "2014-04-09T08:37:47" ;
@@ -311,7 +313,7 @@ Preis: nach Absprache der jeweiligen Bedürfnisse, buchbar als Design Thinking J
 
 <http://nachhaltiges-leipzig.de/Data/Service/S22> a nl:Service  ;
    nl:hasID "22" ;
-   nl:hasDescription """ Der Eine Welt e.V führt entwicklungspolitische Bildungsarbeit im außerschulischen Bereich durch.
+   nl:hasDescription """Der Eine Welt e.V führt entwicklungspolitische Bildungsarbeit im außerschulischen Bereich durch.
 Wir arbeiten mit erlebnis- und handlungsorentierten Methoden, die viele Sinne ansprechen.
 Unser Verein bietet verschiede Bildungsarbeitsmöglichkeiten an:
 > Bibliothek, wo man Bücher über Themen wie Kinder- und Menschenrechte, Globales, Ernärung, Frauen, Asylpolitik, Umwelt, Rassismus und viele andere finden kann
@@ -322,8 +324,8 @@ Unser Verein bietet verschiede Bildungsarbeitsmöglichkeiten an:
 Kontakt:
 Telefon: +49 341 3010143
 Telefax: +49 341 3919106
-E-Mail: info@einewelt-leipzig.de """ ;
-   nl:hasSummary """ Entwicklungspolitische Bildungsarbeit """ ;
+E-Mail: info@einewelt-leipzig.de""" ;
+   nl:hasSummary """Entwicklungspolitische Bildungsarbeit""" ;
    nl:hasInfoURL <http://einewelt-leipzig.de/de/bildung/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.18> ;
    nl:hasDistrict "Connewitz" ;
@@ -335,7 +337,7 @@ E-Mail: info@einewelt-leipzig.de """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S23> a nl:Service  ;
    nl:hasID "23" ;
-   nl:hasDescription """ Fehler:
+   nl:hasDescription """Fehler:
 Die Aufgabe der Realwirtschaft ist es, dem Gemeinwohl zu dienen. Die Finanzwirtschaft verfolgt hingegen das Ziel, aus Geld mehr Geld zu machen. Geld wird verzinst und die Zinsen werden wieder verzinst (Zinseszinseffekt). So wachsen die Guthaben exponentiell und koppeln sich mehr und mehr von der Realwirtschaft ab. Exponentielles Wachstum ist nur zeitlich begrenzt möglich. Deshalb bricht unser Geldsystem immer wieder zusammen und zieht die Realwirtschaft mit in den Abgrund. Im nationalen Rahmen hat es das in der Vergangenheit wiederholt gegeben. Durch die Globalisierung besteht nun die Gefahr eines globalen Zusammenbruchs. 
 
 Lösung:
@@ -345,9 +347,8 @@ Bereits heute ist der Beweis vollbracht, dass alternative Lösungsansätze funkt
 
 Auch beim Euro oder jedem anderen gesetzlichen Zahlungsmittel würde eine kleine „Änderung“ Wunder wirken: Statt Geld mit Zinsen in den Wirtschaftskreislauf zu locken, wird eine kleine Nutzungsgebühr (Umlaufimpuls) erhoben. Sie fällt nur an, wenn das Geld nicht weitergegeben oder investiert wird. Ziel dieser Gebühr ist es, ein System ohne exponentiellen Wachstumszwang und Umverteilung zu schaffen. Reich werden kann man dann allein durch Arbeit. Ökologische Projekte werden nun finanzierbar. Die Umverteilung zugunsten einer kleinen Minderheit hört auf und die Realwirtschaft wird aus der Geiselhaft der Finanzwirtschaft befreit. Anstatt dass Geld die Welt regiert, kann es den Menschen dienen. Dafür setzen wir uns ein.
 
-An den Zinsen verdienen nur 10 % der Bevölkerung. 90 % der Menschen verlieren über die Zinsen, die in allen Preisen und Steuern enthalten sind. Das sorgt für eine massive Umverteilung von unten nach oben. Daraus entstehen extreme Kapitalkonzentrationen. Diese stellen eine Gefahr für unsere demokratische Grundordnung dar. Politiker, Banker und Wirtschaftswissenschaftler diskutieren auf gesellschaftlicher Ebene (noch) nicht die Alternative zu diesem System: fließendes Geld. Geld kann nicht „arbeiten“, nur Menschen, Maschinen und die Natur können das.
- """ ;
-   nl:hasSummary """ Vortrag mit Diskussionsrunde zum Fehler im Finanzsystem und Lösungsansatz """ ;
+An den Zinsen verdienen nur 10 % der Bevölkerung. 90 % der Menschen verlieren über die Zinsen, die in allen Preisen und Steuern enthalten sind. Das sorgt für eine massive Umverteilung von unten nach oben. Daraus entstehen extreme Kapitalkonzentrationen. Diese stellen eine Gefahr für unsere demokratische Grundordnung dar. Politiker, Banker und Wirtschaftswissenschaftler diskutieren auf gesellschaftlicher Ebene (noch) nicht die Alternative zu diesem System: fließendes Geld. Geld kann nicht „arbeiten“, nur Menschen, Maschinen und die Natur können das.""" ;
+   nl:hasSummary """Vortrag mit Diskussionsrunde zum Fehler im Finanzsystem und Lösungsansatz""" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1 Stunde" ;
    nl:hasCosts "Anreisekosten / Kostenlos" ;
@@ -363,16 +364,15 @@ An den Zinsen verdienen nur 10 % der Bevölkerung. 90 % der Menschen verlieren �
 
 <http://nachhaltiges-leipzig.de/Data/Service/S24> a nl:Service  ;
    nl:hasID "24" ;
-   nl:hasDescription """ Bei dieser 2 – 3 stündigen Unterrichtseinheit lernen die Schüler:
+   nl:hasDescription """Bei dieser 2 – 3 stündigen Unterrichtseinheit lernen die Schüler:
 - wie Boden entsteht
 - welche Lebewesen sind bei der Bodenbildung beteiligt
 - welche Funktionen der Boden erfüllt
 - wie Boden zusammengesetzt ist
 - welche Gefahren für den Boden bestehen
 - uvm.
-Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experimente, der Arbeit im Gelände und am Bodenprofil.
- """ ;
-   nl:hasSummary """ Bodenentstehung, Bodenuntersuchung, Boden als Lebensraum, Boden als Lebensgrundlage """ ;
+Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experimente, der Arbeit im Gelände und am Bodenprofil.""" ;
+   nl:hasSummary """Bodenentstehung, Bodenuntersuchung, Boden als Lebensraum, Boden als Lebensgrundlage""" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "rund 3 Stunden" ;
    nl:hasServiceType "Unterrichtseinheit" ;
@@ -386,8 +386,8 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
 
 <http://nachhaltiges-leipzig.de/Data/Service/S25> a nl:Service  ;
    nl:hasID "25" ;
-   nl:hasDescription """ Bei dieser rund 3 stündigen Unterrichtseinheit lernen die Schüler Still- und Fließgewässer näher kennen. Der Lebensraum Wasser mit seinen angrenzenden Biotopen wird hierbei durch verschiedene Experimente und Untersuchungen im Gelände (biologisch und chemisch) aufs Genaueste unter die Lupe genommen. """ ;
-   nl:hasSummary """ Kennenlernen von Still– und Fließgewässern; Lebensraum Wasser; Keschern und Bestimmen von Wasserlebewesen; Lebensgrundlage Wasser; chemische Analyse """ ;
+   nl:hasDescription """Bei dieser rund 3 stündigen Unterrichtseinheit lernen die Schüler Still- und Fließgewässer näher kennen. Der Lebensraum Wasser mit seinen angrenzenden Biotopen wird hierbei durch verschiedene Experimente und Untersuchungen im Gelände (biologisch und chemisch) aufs Genaueste unter die Lupe genommen.""" ;
+   nl:hasSummary """Kennenlernen von Still– und Fließgewässern; Lebensraum Wasser; Keschern und Bestimmen von Wasserlebewesen; Lebensgrundlage Wasser; chemische Analyse""" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "2 - 3 Stunden" ;
    nl:hasServiceType "Unterrichtseinheit" ;
@@ -401,12 +401,12 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
 
 <http://nachhaltiges-leipzig.de/Data/Service/S26> a nl:Service  ;
    nl:hasID "26" ;
-   nl:hasDescription """ Unsere Wohnungen sind noch unsaniert, wenn Sie sie das erste mal sehen - damit Sie sehen was Sie mieten. 
+   nl:hasDescription """Unsere Wohnungen sind noch unsaniert, wenn Sie sie das erste mal sehen - damit Sie sehen was Sie mieten. 
 Unsere Wohnungen modernisieren und gestalten nicht wir für Sie, sondern Sie mit uns.
 Unsere Wohnungen leben mit Ihnen. Sie wachsen, wenn Ihre Familie wächst und werden kleiner, wenn Ihre Kinder die Familie verlassen. Wir passen unsere Grundrisse Ihren Bedürfnissen an.
 Unsere Wohnungen und unsere Häuser leben durch die Menschen, die in Ihnen wohnen.
-Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung. """ ;
-   nl:hasSummary """ Wir vermieten Wohnungen - gesundes Wohnklima und freundliche Nachbarn """ ;
+Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.""" ;
+   nl:hasSummary """Wir vermieten Wohnungen- gesundes Wohnklima und freundliche Nachbarn""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.36> ;
    nl:hasDistrict "Gohlis-Mitte" ;
    dct:created "2014-07-25T13:15:24" ;
@@ -416,8 +416,8 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
 
 <http://nachhaltiges-leipzig.de/Data/Service/S28> a nl:Service  ;
    nl:hasID "28" ;
-   nl:hasDescription """ Mit Anfängern und Fortgeschrittenen entspannt schrauben """ ;
-   nl:hasSummary """ Diesen Herbst wollen wir einen Long-John fertigstellen """ ;
+   nl:hasDescription """Mit Anfängern und Fortgeschrittenen entspannt schrauben""" ;
+   nl:hasSummary """Diesen Herbst wollen wir einen Long-John fertigstellen""" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "2 Tage" ;
    nl:hasCosts "0 (Essen auf Spendenbasis)" ;
@@ -432,11 +432,11 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
 
 <http://nachhaltiges-leipzig.de/Data/Service/S30> a nl:Service  ;
    nl:hasID "30" ;
-   nl:hasDescription """ Die Erlebnisse und Eindrücke meiner Besuche mehrerer Kooperativen in Nicaragua möchte ich gerne mit Euch teilen, um für bewussteren Konsum und mehr internationale Solidarität zu werben. Gerne lasse ich mich deswegen von Euch zu Informationsveranstaltungen und Diskussionsrunden einladen. Wir können uns ausgiebig mit Nicaragua, dem Fairen Handel im Allgemeinen oder auch dem Kaffee-Welthandel beschäftigen.
+   nl:hasDescription """Die Erlebnisse und Eindrücke meiner Besuche mehrerer Kooperativen in Nicaragua möchte ich gerne mit Euch teilen, um für bewussteren Konsum und mehr internationale Solidarität zu werben. Gerne lasse ich mich deswegen von Euch zu Informationsveranstaltungen und Diskussionsrunden einladen. Wir können uns ausgiebig mit Nicaragua, dem Fairen Handel im Allgemeinen oder auch dem Kaffee-Welthandel beschäftigen.
 
 Damit die Veranstaltung zu einem Erlebnis für alle Sinne wird, können wir sie auch gerne
-mit einer Kaffeeverkostung ausklingen lassen. """ ;
-   nl:hasSummary """ Vorträge und Diskussionen über Nicaragua, den Kaffeemarkt und den Fairen Handel """ ;
+mit einer Kaffeeverkostung ausklingen lassen.""" ;
+   nl:hasSummary """Vorträge und Diskussionen über Nicaragua, den Kaffeemarkt und den Fairen Handel""" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "1-2 Stunden" ;
    nl:hasCosts "VB" ;
@@ -451,7 +451,7 @@ mit einer Kaffeeverkostung ausklingen lassen. """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S32> a nl:Service  ;
    nl:hasID "32" ;
-   nl:hasDescription """ Kannst Du dich noch daran erinnern, wann Du das letzte Mal einen handgeschriebenen, liebevoll gestalteten Brief im Briefkasten hatten? Und viel wichtiger, weißt Du noch, welch Glücksgefühl dies auslöst?
+   nl:hasDescription """Kannst Du dich noch daran erinnern, wann Du das letzte Mal einen handgeschriebenen, liebevoll gestalteten Brief im Briefkasten hatten? Und viel wichtiger, weißt Du noch, welch Glücksgefühl dies auslöst?
 Ich möchte diesen verschollenen Brauch wieder beleben und die Glücksmomente in Deinem Leben mehren.
 
 Regelmäßig jeden Monat, über den Zeitraum eines Jahres, erhalten Sie oder eine von Ihnen beschenkte Person herzbeglückende, inspirierende und liebevoll gestaltete Briefe.
@@ -470,14 +470,13 @@ Inhalt der Briefe:
 * Ihr Monatsrückblick, in den Sie schwierige und wertvolle Ereignisse eintragen können und 
   Dinge für die Sie dankbar sind ---> So entsteht ganz nebenbei ein Jahresrückblick.
 
-Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten, schicken Sie mir eine Email (katimagyar@posteo.de) und ich melde mich bei Ihnen. Bei Fragen erreichen Sie mich unter 0341 125 70 465
- """ ;
-   nl:hasSummary """ 2016 jeden Monat herzbeglückende, inspirierende und liebevoll gestaltete Briefe erhalten """ ;
+Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten, schicken Sie mir eine Email (katimagyar@posteo.de) und ich melde mich bei Ihnen. Bei Fragen erreichen Sie mich unter 0341 125 70 465""" ;
+   nl:hasSummary """2016 jeden Monat herzbeglückende, inspirierende und liebevoll gestaltete Briefe erhalten""" ;
    nl:hasTargetGroup "Menschen die ihr Leben aktiv schöner machen möchten" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "1 Jahr" ;
-   nl:hasCosts "Erster Brief 20,- € je Monat, 215 € bei Einmalzahlung, ab dem 2. Brief 10,- Monatlich " ;
-   nl:hasRequirements """ Anmeldungen sind bis zum 24. Dezember  """ ;
+   nl:hasCosts "Erster Brief20,- € je Monat, 215 € bei Einmalzahlung, ab dem 2. Brief 10,- Monatlich" ;
+   nl:hasRequirements """Anmeldungen sind bis zum 24. Dezember""" ;
    nl:hasInfoURL <http://heilpraktikerinkatimagyar.blogspot.de/p/monatsbriefe-jahresrundgang.html> ;
    dct:created "2015-09-18T05:51:33" ;
    dct:updated "2015-09-18T10:08:23" ;
@@ -486,23 +485,35 @@ Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten,
 
 <http://nachhaltiges-leipzig.de/Data/Service/S33> a nl:Service  ;
    nl:hasID "33" ;
-   nl:hasDescription """ Wir haben über 350 DVDs und mehr als 1000 Bücher zu den Themen Gesundheit & Heilung, Bildung & Erziehung, Spiritualität & Religion, Politik & Philosophie, Psychologie etc. , welche gegen eine Spende ausgeliehen werden können. Am 1. Donnerstag im Monat findet ein Vortrag zu einem bestimmten Thema mit wechselnden Referenten statt. """ ;
-   nl:hasSummary """ Ausleihe von Medien (Bücher, DVD) zu verschiedenen (spirituellen) Themen """ ;
+   nl:hasDescription """Wir haben über 350 DVDs und mehr als 1000 Bücher zu den Themen Gesundheit & Heilung, Bildung & Erziehung, Spiritualität & Religion, Politik & Philosophie, Psychologie etc. , welche gegen eine Spende ausgeliehen werden können. Am 1. Donnerstag im Monat findet ein Vortrag zu einem bestimmten Thema mit wechselnden Referenten statt.""" ;
+   nl:hasSummary """Ausleihe von Medien (Bücher, DVD) zu verschiedenen (spirituellen) Themen""" ;
    nl:hasCosts "auf Spendenbasis" ;
-   nl:hasRequirements """ Anmeldung zur Ausleihe mit Personalausweis """ ;
+   nl:hasRequirements """Anmeldung zur Ausleihe mit Personalausweis""" ;
    nl:hasInfoURL <http://www.freigeist-leipzig.de> ;
    dct:created "2015-09-24T11:45:02" ;
    dct:updated "2016-09-29T11:03:46" ;
    nl:hasProvider <http://leipzig-data.de/Data/Akteur/A137> ;
    nl:hasEventType "Angebot" . 
 
+<http://nachhaltiges-leipzig.de/Data/Service/S34> a nl:Service  ;
+   nl:hasID "34" ;
+   nl:hasDescription """Teambuilding.
+Gemüse ernten.
+Geerntetes gemeinsam verkochen.
+„Genussernährung“ kennenlernen.
+Wohlfühlen.""" ;
+   nl:hasSummary """Slow Food Tag im  Gemeinschaftsgarten / Gang 1""" ;
+   nl:hasTargetGroup "Unternehmen" ;
+   dct:created "2015-11-19T14:08:29" ;
+   dct:updated "2016-10-17T05:15:04" . 
+
 <http://nachhaltiges-leipzig.de/Data/Service/S35> a nl:Service  ;
    nl:hasID "35" ;
-   nl:hasDescription """ http://www.nukla.de/veranstaltungen/ """ ;
-   nl:hasSummary """ Bildungsveranstaltungen """ ;
+   nl:hasDescription """http://www.nukla.de/veranstaltungen/""" ;
+   nl:hasSummary """Bildungsveranstaltungen""" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasCosts "divers" ;
-   nl:hasRequirements """ http://www.nukla.de/veranstaltungen/ """ ;
+   nl:hasRequirements """http://www.nukla.de/veranstaltungen/""" ;
    nl:hasServiceType "Exkursion" ;
    nl:isPublished "1" ;
    dct:created "2015-12-15T23:11:22" ;
@@ -512,13 +523,13 @@ Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten,
 
 <http://nachhaltiges-leipzig.de/Data/Service/S38> a nl:Service  ;
    nl:hasID "38" ;
-   nl:hasDescription """ Wir wollen uns kennenlernen! Wer seid ihr und wer sind wir? Und wo sind wir hier eigentlich? Mit Spaß und Spiel erkunden wir unsere Umgebung, die Bäume, den Boden, die Flüsse und ihre Bewohner, sammeln Fundstücke und bauen damit eine „Schuhkarton-Landkarte“ oder „Erinnerungskiste“. Für Kinder von 5 bis 10 Jahren. Anmeldung erbeten.
+   nl:hasDescription """Wir wollen uns kennenlernen! Wer seid ihr und wer sind wir? Und wo sind wir hier eigentlich? Mit Spaß und Spiel erkunden wir unsere Umgebung, die Bäume, den Boden, die Flüsse und ihre Bewohner, sammeln Fundstücke und bauen damit eine „Schuhkarton-Landkarte“ oder „Erinnerungskiste“. Für Kinder von 5 bis 10 Jahren. Anmeldung erbeten.
 
 Bitte mitbringen: Einen leeren Schuhkarton
 
-Treffen: 14.45 Uhr Parkplatz Gustav-Esche-Str. 1a (Ecke Am Ritterschlösschen) """ ;
-   nl:hasSummary """ Die neue Wald-Kindergruppe lernt sich kennen und trifft sich zum ersten Mal. """ ;
-   nl:hasTargetGroup "Alter: 5 bis 10 " ;
+Treffen: 14.45 Uhr Parkplatz Gustav-Esche-Str. 1a (Ecke Am Ritterschlösschen)""" ;
+   nl:hasSummary """Die neue Wald-Kindergruppe lernt sich kennen und trifft sich zum ersten Mal.""" ;
+   nl:hasTargetGroup "Alter: 5 bis 10" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "2 h" ;
    nl:hasCosts "Teilnahmebeitrag: 4 €, ermäßigt 2 €, mit Leipzig-Pass kostenfrei" ;
@@ -533,7 +544,7 @@ Treffen: 14.45 Uhr Parkplatz Gustav-Esche-Str. 1a (Ecke Am Ritterschlösschen) "
 
 <http://nachhaltiges-leipzig.de/Data/Service/S40> a nl:Service  ;
    nl:hasID "40" ;
-   nl:hasDescription """ In unseren Workshops werden mit unterschiedlichen Methoden globale Themen zielgruppengerecht erarbeitet. Wir möchten dabei das Interesse der Schüler*innen an Ländern des Globalen Südens (sog. „Entwicklungsländern“) wecken, globale Zusammenhänge und ihre Einflüsse auf jeden einzelnen Menschen aufzeigen und verständlich machen, die Schüler*innen anregen, ihr Alltagshandeln und ihren Lebensstil kritisch zu hinterfragen sowie das entwicklungspolitische Engagement der Schüler*innen stärken. 
+   nl:hasDescription """In unseren Workshops werden mit unterschiedlichen Methoden globale Themen zielgruppengerecht erarbeitet. Wir möchten dabei das Interesse der Schüler*innen an Ländern des Globalen Südens (sog. „Entwicklungsländern“) wecken, globale Zusammenhänge und ihre Einflüsse auf jeden einzelnen Menschen aufzeigen und verständlich machen, die Schüler*innen anregen, ihr Alltagshandeln und ihren Lebensstil kritisch zu hinterfragen sowie das entwicklungspolitische Engagement der Schüler*innen stärken. 
 
 Unsere Referent*innen haben  Freiwilligendienste im globalen Süden absolviert und dort persönliche Erfahrungen gesammelt, die als Einstieg in verschiedene Themenbereiche dienen sollen. Es gibt die folgenden Workshops zur Auswahl:
 
@@ -543,10 +554,9 @@ Unsere Referent*innen haben  Freiwilligendienste im globalen Süden absolviert u
  - Fairer Handel
  - Klimawandel
  - Schneller, weiter, mehr, größer, weiter… Wachstum kritisch hinterfragen
- - kritische Kartographie
- """ ;
-   nl:hasSummary """ Workshops zu entwicklungspolitischen Themen mit verschiede wählbaren Schwerpunkten  """ ;
-   nl:hasTargetGroup "Je nach Thema ab der 6. Klasse möglich. Wir richten uns explizit auch an Berufs-& Oberschulen " ;
+ - kritische Kartographie""" ;
+   nl:hasSummary """Workshops zu entwicklungspolitischen Themen mit verschiede wählbaren Schwerpunkten""" ;
+   nl:hasTargetGroup "Je nach Thema ab der 6. Klasse möglich. Wir richten uns explizit auch an Berufs-& Oberschulen" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "Flexibel, vom Thema abhängig; Doppelstunde - Projekttag möglich" ;
    nl:hasCosts "An Finanzen soll es nicht scheitern, Aufwandsentschädigung von ca. 50€/90 min" ;
@@ -559,14 +569,14 @@ Unsere Referent*innen haben  Freiwilligendienste im globalen Süden absolviert u
 
 <http://nachhaltiges-leipzig.de/Data/Service/S41> a nl:Service  ;
    nl:hasID "41" ;
-   nl:hasDescription """ Das bis zu 8-monatige SOZIAL & GRÜNDER STIPENDIUM umfasst individuelles und bedarfsorientiertes Coaching, Mentoring, Fachberatung, Arbeitsplatz im Co-Working Space, Community-Events, Netzwerkveranstaltungen und Zugang zur lokalen und deutschlandweiten Community über das Netzwerk der sechs Social Impact Inkubatoren. """ ;
-   nl:hasSummary """ Nutze Deine Chance und bewirb Dich um ein Stipendium des Social Impact Lab Leipzig """ ;
+   nl:hasDescription """Das bis zu 8-monatige SOZIAL & GRÜNDER STIPENDIUM umfasst individuelles und bedarfsorientiertes Coaching, Mentoring, Fachberatung, Arbeitsplatz im Co-Working Space, Community-Events, Netzwerkveranstaltungen und Zugang zur lokalen und deutschlandweiten Community über das Netzwerk der sechs Social Impact Inkubatoren.""" ;
+   nl:hasSummary """Nutze Deine Chance und bewirb Dich um ein Stipendium des Social Impact Lab Leipzig""" ;
    nl:hasTargetGroup "Social Entrepreneurs" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "8 Monate" ;
-   nl:hasRequirements """ Die Voraussetzungen der Teilnahme sind eine erfolgreiche online Bewerbung und ein erfolgreicher Pitch. 
+   nl:hasRequirements """Die Voraussetzungen der Teilnahme sind eine erfolgreiche online Bewerbung und ein erfolgreicher Pitch. 
 Bewerbungsschluss ist der 13.11.2016. 
-Der Pitch findet am 08.12.2016 statt. """ ;
+Der Pitch findet am 08.12.2016 statt.""" ;
    nl:hasImage "Bild1.png" ;
    nl:hasInfoURL <http://leipzig.socialimpactlab.eu/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.WeissenfelserStrasse.65H> ;
@@ -579,19 +589,18 @@ Der Pitch findet am 08.12.2016 statt. """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S42> a nl:Service  ;
    nl:hasID "42" ;
-   nl:hasDescription """ Manche Fragen sind kompliziert – zum Beispiel die Frage, wie eine Welt aussehen kann, in der alle Menschen innerhalb der ökologischen Grenzen der Erde gut leben können. Auch wir haben darauf keine eindeutige Antwort. Mit diesem Webportal wollen wir aber dazu beitragen, gemeinsam nach Wegen und Bausteinen für eine solidarische, ökologische und sozial gerechte Veränderung der Gesellschaft zu suchen.
+   nl:hasDescription """Manche Fragen sind kompliziert – zum Beispiel die Frage, wie eine Welt aussehen kann, in der alle Menschen innerhalb der ökologischen Grenzen der Erde gut leben können. Auch wir haben darauf keine eindeutige Antwort. Mit diesem Webportal wollen wir aber dazu beitragen, gemeinsam nach Wegen und Bausteinen für eine solidarische, ökologische und sozial gerechte Veränderung der Gesellschaft zu suchen.
 Ihr findet hier eine Material- und Methodensammlung für die Bildungsarbeit in verschiedensten Kontexten und insbesondere mit Jugendlichen und (jungen) Erwachsenen. Neben den Inhalten aus dem Heft „Endlich Wachstum“ gibt es weitere Methoden und Materialien, die wir in der Zwischenzeit entwickelt oder weiterentwickelt haben  und dazu das neue Methodenheft „Lebensmittel zum Zweck.“
-Wir wünschen viel Spaß beim Ausprobieren! """ ;
-   nl:hasSummary """ Methoden für die Arbeit zu Wirtschaft, Wachstum und Alternativen mit Jugendlichen und jungen Erwachsenen.  """ ;
+Wir wünschen viel Spaß beim Ausprobieren!""" ;
+   nl:hasSummary """Methoden für die Arbeit zu Wirtschaft, Wachstum und Alternativen mit Jugendlichen und jungen Erwachsenen.""" ;
    nl:hasTargetGroup "Menschen zwischen 15 und 30Jahren in schulischen und außerschulischen Kontexten" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1 Tag - Mehrere Tage" ;
    nl:hasCosts "Alle Methoden kostenlos verfügbar" ;
-   nl:hasRequirements """ Alle Methodenbeschreibungen und Materialien sind frei verfügbar: 
+   nl:hasRequirements """Alle Methodenbeschreibungen und Materialien sind frei verfügbar: 
 www.endlich-wachstum.de
 Das gedruckte Methodenheft kann für 12€ bestellt werden: 
-https://www.endlich-wachstum.de/hefte-bestellen/
- """ ;
+https://www.endlich-wachstum.de/hefte-bestellen/""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasImage "titel05.png" ;
    nl:hasInfoURL <https://www.endlich-wachstum.de/> ;
@@ -603,15 +612,15 @@ https://www.endlich-wachstum.de/hefte-bestellen/
 
 <http://nachhaltiges-leipzig.de/Data/Service/S43> a nl:Service  ;
    nl:hasID "43" ;
-   nl:hasDescription """ Seit Mai 2016 bietet die Servicestelle einen kostenfreien und individuellen Beratungsservice für gemeinnützige Vereine und Initiativen. 
+   nl:hasDescription """Seit Mai 2016 bietet die Servicestelle einen kostenfreien und individuellen Beratungsservice für gemeinnützige Vereine und Initiativen. 
 
 Wir beraten rund um das Thema Ehrenamt: was ist eigentlich Freiwilligenmanagement und wie hoch darf eine Ehrenamtspauschale ausfallen?
 Was passiert, wenn was passiert und wie sind wir dann als Verein versichert? Wie gründe ich überhaupt einen Verein und erlange dann auch noch die Gemeinnützigkeit?
 
 Zudem bieten wir einen Überblick über Fördermöglichkeiten und helfen gerne, die passende Finanzierungsquelle ausfindig zu machen. 
 
-Die Servicestelle der Freiwilligen-Agentur Leipzig unterstützt gemeinnützige Organisationen und Initiativen mit Wissen und gezielter Information bei der Ideenentwicklung und Bewältigung täglicher Herausforderungen.  Sie ist Anlaufstelle für Gemeinwohlorganisationen und fördert mit ihren Angeboten Erfahrungsaustausch, Zusammenarbeit und Vernetzung.  """ ;
-   nl:hasSummary """ Die Servicestelle der Freiwilligen-Agentur Leipzig bietet ein kostenfreies Beratungsangebot zu Themen wie Vereinsgründung, Fördermöglichkeiten uvm. """ ;
+Die Servicestelle der Freiwilligen-Agentur Leipzig unterstützt gemeinnützige Organisationen und Initiativen mit Wissen und gezielter Information bei der Ideenentwicklung und Bewältigung täglicher Herausforderungen.  Sie ist Anlaufstelle für Gemeinwohlorganisationen und fördert mit ihren Angeboten Erfahrungsaustausch, Zusammenarbeit und Vernetzung.""" ;
+   nl:hasSummary """Die Servicestelle der Freiwilligen-Agentur Leipzig bietet ein kostenfreies Beratungsangebot zu Themen wie Vereinsgründung, Fördermöglichkeiten uvm.""" ;
    nl:hasTargetGroup "Akteure der Gemeinwohlarbeit" ;
    nl:hasCosts "kostenfrei" ;
    nl:hasServiceType "Beratungsangebot" ;
@@ -627,17 +636,17 @@ Die Servicestelle der Freiwilligen-Agentur Leipzig unterstützt gemeinnützige O
 
 <http://nachhaltiges-leipzig.de/Data/Service/S45> a nl:Service  ;
    nl:hasID "45" ;
-   nl:hasDescription """ Mathematik ist nur erfolgreich, wenn sie kontextualisiert ist. Dieser Aussage folgt die Vortragsreihe des Max-Planck-Instituts für Mathematik in den Naturwissenschaften indem sie sich den unterschiedlichen Anwendungsgebieten der Mathematik in Form von interessanten und praxisnahen Darbietungen für Schülerinnen nährt. Dabei werden u.a. Vorträge wie "Landkarten im Gehirn" (Prof. Dr. Nihat Ay), "Netzwerke" (Prof. Dr. Jürgen Jost) oder "Warum fliegt man von Frankfurt nach Los Angeles nahe am Nordpol vorbei?" (Prof. Dr. Felix Otto) angeboten und somit Verknüpfungspunkte für die aktuell geführte Diskussion im Bereich der nachhaltigen Entwicklung gestellt.  """ ;
-   nl:hasSummary """ Vortragsreihe für Schüler(-gruppen) über unterschiedliche Anwendungsbereiche der Mathematik """ ;
+   nl:hasDescription """Mathematik ist nur erfolgreich, wenn sie kontextualisiert ist. Dieser Aussage folgt die Vortragsreihe des Max-Planck-Instituts für Mathematik in den Naturwissenschaften indem sie sich den unterschiedlichen Anwendungsgebieten der Mathematik in Form von interessanten und praxisnahen Darbietungen für Schülerinnen nährt. Dabei werden u.a. Vorträge wie "Landkarten im Gehirn" (Prof. Dr. Nihat Ay), "Netzwerke" (Prof. Dr. Jürgen Jost) oder "Warum fliegt man von Frankfurt nach Los Angeles nahe am Nordpol vorbei?" (Prof. Dr. Felix Otto) angeboten und somit Verknüpfungspunkte für die aktuell geführte Diskussion im Bereich der nachhaltigen Entwicklung gestellt.""" ;
+   nl:hasSummary """Vortragsreihe für Schüler(-gruppen) über unterschiedliche Anwendungsbereiche der Mathematik""" ;
    nl:hasTargetGroup "Schülerinnen der Sekundarstufe II" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
-   nl:hasDuration "Tagesexkursion " ;
-   nl:hasRequirements """ Anmeldung: 
+   nl:hasDuration "Tagesexkursion" ;
+   nl:hasRequirements """Anmeldung: 
 Jana Gregor 
 Max-Planck-Institut für Mathematik in den Naturwissenschaften
 Inselstraße 22
 04103 Leipzig
-Telefon: 0341 99 59 650 """ ;
+Telefon: 0341 99 59 650""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <https://www.mis.mpg.de/de/start.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.22> ;
@@ -650,13 +659,13 @@ Telefon: 0341 99 59 650 """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S46> a nl:Service  ;
    nl:hasID "46" ;
-   nl:hasDescription """ Gymnasien mit naturwissenschaftlichen Profil
-Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich sowie inhaltlich mit den Schulen abgestimmt werden. Themenbeispiele: Ressourceneffizienz: das Projekt AQUA und smart water, Automatisierungstechnik, Elektrotechnik/Elektronik, IT, Robotik, Bionik. """ ;
-   nl:hasSummary """ Profilunterricht für Gymnasien Klasse 8 – 10 """ ;
+   nl:hasDescription """Gymnasien mit naturwissenschaftlichen Profil
+Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich sowie inhaltlich mit den Schulen abgestimmt werden. Themenbeispiele: Ressourceneffizienz: das Projekt AQUA und smart water, Automatisierungstechnik, Elektrotechnik/Elektronik, IT, Robotik, Bionik.""" ;
+   nl:hasSummary """Profilunterricht für Gymnasien Klasse 8 – 10""" ;
    nl:hasTargetGroup "Gymnasien Klassenstufe 8 - 10" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "28 UE (14 x 2 UE)" ;
-   nl:hasRequirements """ Gymnasien mit naturwissenschaftlichen Profil """ ;
+   nl:hasRequirements """Gymnasien mit naturwissenschaftlichen Profil""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:isPublished "1" ;
    dct:created "2017-04-25T19:24:55" ;
@@ -666,8 +675,8 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
 
 <http://nachhaltiges-leipzig.de/Data/Service/S47> a nl:Service  ;
    nl:hasID "47" ;
-   nl:hasDescription """ In Abstimmung mit interessierten Schulen können  Neigungskurse in der VDI – GaraGe angeboten werden. Die Kurse finden in der Regel wöchentlich mit einem Zeitumfang von 2 Stunden statt und dienen nicht nur der Orientierung und Vertiefung von Interessensgebieten, sondern stärken auch die soziale Kompetenz. Gesamtumfang im Schuljahr: 60 UE (30 x 2 UE).  Die Beantragung des  Neigungskurses  erfolgt durch die Schule bei der SBAL. Themenbeispiele: MINT-Experimentierwerkstatt ,  Werkstatt GaraGe, Informations- und Kommunikationstechnik, Automatisierungstechnik und Robotik, Umwelt und Ressourcen. """ ;
-   nl:hasSummary """ Angebote für schuljahrbegleitende Unterrichtseinheiten """ ;
+   nl:hasDescription """In Abstimmung mit interessierten Schulen können  Neigungskurse in der VDI – GaraGe angeboten werden. Die Kurse finden in der Regel wöchentlich mit einem Zeitumfang von 2 Stunden statt und dienen nicht nur der Orientierung und Vertiefung von Interessensgebieten, sondern stärken auch die soziale Kompetenz. Gesamtumfang im Schuljahr: 60 UE (30 x 2 UE).  Die Beantragung des  Neigungskurses  erfolgt durch die Schule bei der SBAL. Themenbeispiele: MINT-Experimentierwerkstatt ,  Werkstatt GaraGe, Informations- und Kommunikationstechnik, Automatisierungstechnik und Robotik, Umwelt und Ressourcen.""" ;
+   nl:hasSummary """Angebote für schuljahrbegleitende Unterrichtseinheiten""" ;
    nl:hasTargetGroup "Oberschulen" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "60 UE (30 x 2 UE)" ;
@@ -680,8 +689,8 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
 
 <http://nachhaltiges-leipzig.de/Data/Service/S48> a nl:Service  ;
    nl:hasID "48" ;
-   nl:hasDescription """ Wir bieten für Lehrkräfte von Kindertagesstätten, Oberschule und Gymnasium fachspezifische Lehrerfortbildungen an, die auch in Kooperation mit Experten aus Unternehmen angeboten werden. Stellen Sie sich mit unserer Unterstützung Ihr individuelles Fortbildungsprogramm zusammen. Die einzelnen Module finden mehrmals jährlich statt und können unabhängig voneinander belegt werden. Ihre Vorteile als Teilnehmer sind: fundierte Theorie und praxisorientierte Lerninhalte, interdisziplinäres spezifisches Fachwissen, Referenten und Experten aus Industrie und Hochschulen.  Bitte rufen Sie uns an oder informieren Sie sich über unsere aktuellen Angebote unter dem Praxisthema. """ ;
-   nl:hasSummary """ Lehrerfortbildungen zu unterschiedlichen Themen """ ;
+   nl:hasDescription """Wir bieten für Lehrkräfte von Kindertagesstätten, Oberschule und Gymnasium fachspezifische Lehrerfortbildungen an, die auch in Kooperation mit Experten aus Unternehmen angeboten werden. Stellen Sie sich mit unserer Unterstützung Ihr individuelles Fortbildungsprogramm zusammen. Die einzelnen Module finden mehrmals jährlich statt und können unabhängig voneinander belegt werden. Ihre Vorteile als Teilnehmer sind: fundierte Theorie und praxisorientierte Lerninhalte, interdisziplinäres spezifisches Fachwissen, Referenten und Experten aus Industrie und Hochschulen.  Bitte rufen Sie uns an oder informieren Sie sich über unsere aktuellen Angebote unter dem Praxisthema.""" ;
+   nl:hasSummary """Lehrerfortbildungen zu unterschiedlichen Themen""" ;
    nl:hasTargetGroup "Lehrkräfte von Kindertagesstätten, Oberschule und Gymnasium" ;
    nl:hasTargetGroupSelection "Erwachsenenbildung" ;
    nl:hasDuration "Unterschiedlich" ;
@@ -694,7 +703,7 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
 
 <http://nachhaltiges-leipzig.de/Data/Service/S49> a nl:Service  ;
    nl:hasID "49" ;
-   nl:hasDescription """ Der ADFC setzt sich für die Stärkung des Umweltverbundes (Rad, Fuß, ÖNVP, CarSharing), die Gleichstellung aller Verkehrsteilnehmer sowie menschengerechte Verkehrsplanung ein.
+   nl:hasDescription """Der ADFC setzt sich für die Stärkung des Umweltverbundes (Rad, Fuß, ÖNVP, CarSharing), die Gleichstellung aller Verkehrsteilnehmer sowie menschengerechte Verkehrsplanung ein.
 Bei uns steht nicht das Auto im Vordergrund der Stadtplanung, sondern der Mensch.
 Wir betrachten den öffentlichen Raum nicht nur als Verkehrsraum, sondern in erster Linie als Lebensraum, welcher entsprechend ausgestattet werden muss.
 Seit vielen Jahren engagiert sich der ADFC Leipzig in vielen verkehrspolitischen und verkehrsplanerischen Themen und Projekten.
@@ -704,8 +713,8 @@ Wir freuen uns auf Sie!
 
 Anbindung an den sächsischen Lehrplan:
 Fächerverbindender Unterricht ->Perspektiven ->Natur und Kultur
-Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt  """ ;
-   nl:hasSummary """  Der ADFC ist verkehrspolitischer Verein, Verkehrsclub und Verbraucherschutzorganisation. """ ;
+Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
+   nl:hasSummary """Der ADFC ist verkehrspolitischer Verein, Verkehrsclub und Verbraucherschutzorganisation.""" ;
    nl:hasTargetGroup "alle" ;
    nl:isPublished "1" ;
    dct:created "2017-04-27T16:13:55" ;
@@ -715,12 +724,12 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt  """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S50> a nl:Service  ;
    nl:hasID "50" ;
-   nl:hasDescription """ Die Regenwälder der Erde haben eine fundamentale Bedeutung für das weltweite Klima. Ihre Artenvielfalt ist bedroht. Die Verbreitung der Regenwälder auf der Erde, die ökologischen Bedingungen in diesem Ökosystem und Anpassungen von Tieren, Pflanzen und Menschen an ihren Lebensraum sind die ebenso Thema dieses Angebotes wie die nachhaltige Nutzung und Handlungsoptionen zum Schutz des faszinierenden Lebensraumes Regenwald.  """ ;
-   nl:hasSummary """ Bedeutung der Regenwälder für unsere Erde """ ;
+   nl:hasDescription """Die Regenwälder der Erde haben eine fundamentale Bedeutung für das weltweite Klima. Ihre Artenvielfalt ist bedroht. Die Verbreitung der Regenwälder auf der Erde, die ökologischen Bedingungen in diesem Ökosystem und Anpassungen von Tieren, Pflanzen und Menschen an ihren Lebensraum sind die ebenso Thema dieses Angebotes wie die nachhaltige Nutzung und Handlungsoptionen zum Schutz des faszinierenden Lebensraumes Regenwald.""" ;
+   nl:hasSummary """Bedeutung der Regenwälder für unsere Erde""" ;
    nl:hasTargetGroup "Schulklassen" ;
    nl:hasDuration "90min" ;
    nl:hasCosts "2,50" ;
-   nl:hasRequirements """ ab 6 Personen """ ;
+   nl:hasRequirements """ab 6 Personen""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:isPublished "1" ;
    dct:created "2017-05-04T09:29:29" ;
@@ -730,13 +739,13 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt  """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S51> a nl:Service  ;
    nl:hasID "51" ;
-   nl:hasDescription """ Die Besucher/-innen lernen anhand ausgewählter Beispiele (wie Gespenst- und Stabschrecken, Vogelspinnen, Schlangen, Baumsteigerfröschen, Brettwurzeln, Bromelie, Kannenpflanze und Helmkasuar) verschiedene Anpassungen im Körperbau oder Verhalten von Tieren und Pflanzen an konkrete Lebensräume kennen. Dabei wird u.a. auf Mimikry und Mimese eigegangen sowie auf verschieden Schutzmechanismen oder das Phänomen Gigantismus/Zwergformen.  """ ;
-   nl:hasSummary """ Kuriositätenkabinett Regenwald """ ;
+   nl:hasDescription """Die Besucher/-innen lernen anhand ausgewählter Beispiele (wie Gespenst- und Stabschrecken, Vogelspinnen, Schlangen, Baumsteigerfröschen, Brettwurzeln, Bromelie, Kannenpflanze und Helmkasuar) verschiedene Anpassungen im Körperbau oder Verhalten von Tieren und Pflanzen an konkrete Lebensräume kennen. Dabei wird u.a. auf Mimikry und Mimese eigegangen sowie auf verschieden Schutzmechanismen oder das Phänomen Gigantismus/Zwergformen.""" ;
+   nl:hasSummary """Kuriositätenkabinett Regenwald""" ;
    nl:hasTargetGroup "Kinder und Jungendliche" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "90min" ;
    nl:hasCosts "2,50" ;
-   nl:hasRequirements """ ab 6 Personen """ ;
+   nl:hasRequirements """ab 6 Personen""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasInfoURL <http://www.phyllodrom.de> ;
    nl:isPublished "1" ;
@@ -747,17 +756,17 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt  """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S52> a nl:Service  ;
    nl:hasID "52" ;
-   nl:hasDescription """ Die im Bergbau-Technik-Park befindlichen Gesteine haben einen langen Weg hinter sich. Woher Sie kamen und was sie uns noch verraten, das erzählt der Geologe euch bei einem Rundgang. Aber nicht nur die Relikte der Eiszeit sind spannende Erzähler. Auch das fossile Holz oder der Knollenquarzit haben in ihrem Leben schon viel gesehen und mitgemacht. Wir versuchen Ihnen ihre Geheimnisse zu entlocken.
+   nl:hasDescription """Die im Bergbau-Technik-Park befindlichen Gesteine haben einen langen Weg hinter sich. Woher Sie kamen und was sie uns noch verraten, das erzählt der Geologe euch bei einem Rundgang. Aber nicht nur die Relikte der Eiszeit sind spannende Erzähler. Auch das fossile Holz oder der Knollenquarzit haben in ihrem Leben schon viel gesehen und mitgemacht. Wir versuchen Ihnen ihre Geheimnisse zu entlocken.
 
 Warum auf Bahngleisen Schotter und kein Feinsand kommt und warum in einer Kippe auch Quarze sind das erfahrt ihr ebenfalls bei unserem Rundgang.
 
-Am Anschluss unseres kleinen Exkurses könnt ihr in vorgefertigten Kiesbettablagerungen kleine Schmucksteine suchen.  """ ;
-   nl:hasSummary """ Ein geologischer Rundgang im Bergbau-Technik-Park """ ;
+Am Anschluss unseres kleinen Exkurses könnt ihr in vorgefertigten Kiesbettablagerungen kleine Schmucksteine suchen.""" ;
+   nl:hasSummary """Ein geologischer Rundgang im Bergbau-Technik-Park""" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "90 Min." ;
    nl:hasCosts "8,00 € pro Person" ;
-   nl:hasRequirements """ - Mindestgebühr 120,00 €
-- ab 16 Kursteilnehmer_innen 8,00 € p.P. (inkl. Edelsteine und Eintritt) """ ;
+   nl:hasRequirements """- Mindestgebühr 120,00 €
+- ab 16 Kursteilnehmer_innen 8,00 € p.P. (inkl. Edelsteine und Eintritt)""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <http://www.bergbau-technik-park.de/angebote/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
@@ -770,16 +779,16 @@ Am Anschluss unseres kleinen Exkurses könnt ihr in vorgefertigten Kiesbettablag
 
 <http://nachhaltiges-leipzig.de/Data/Service/S53> a nl:Service  ;
    nl:hasID "53" ;
-   nl:hasDescription """ Schmuck- oder Zierbriketts sind nicht wie normale Briketts zum verheizen gedacht, sondern als Andenken, Ehrung oder Werbeträger. Früher wurden Sie vorzugsweise von Farbriken und Kombinaten zu besonderen Anlässen wie Feiertagen, Jubiläen, Veranstaltungen, Eröffnungen oder Stilllegungen von Betriebsteilen u. ä. in limitierter Anzahl als Andenken hergestellt. Mit dem zunehmenden Verschwinden der Barunkohlebriketts aus unserem Alltag, verschwindet auch die mehr als hundert Jahre lange Tradition der Schmuckbriketts.
+   nl:hasDescription """Schmuck- oder Zierbriketts sind nicht wie normale Briketts zum verheizen gedacht, sondern als Andenken, Ehrung oder Werbeträger. Früher wurden Sie vorzugsweise von Farbriken und Kombinaten zu besonderen Anlässen wie Feiertagen, Jubiläen, Veranstaltungen, Eröffnungen oder Stilllegungen von Betriebsteilen u. ä. in limitierter Anzahl als Andenken hergestellt. Mit dem zunehmenden Verschwinden der Barunkohlebriketts aus unserem Alltag, verschwindet auch die mehr als hundert Jahre lange Tradition der Schmuckbriketts.
 
-Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüngsten ein Stück Industriekultur. Im Angebot enthaltene Materialien sind: Ein Brikett pro Kind, Leim, Heisskleber, Schulmalfarbe, Pinsel, Ölkreide. """ ;
-   nl:hasSummary """ Bastelstunde im Berbau-Technik-Park """ ;
+Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüngsten ein Stück Industriekultur. Im Angebot enthaltene Materialien sind: Ein Brikett pro Kind, Leim, Heisskleber, Schulmalfarbe, Pinsel, Ölkreide.""" ;
+   nl:hasSummary """Bastelstunde im Berbau-Technik-Park""" ;
    nl:hasTargetGroup "Kita und Vorschule" ;
    nl:hasTargetGroupSelection "Kindergarten" ;
    nl:hasDuration "90 Min." ;
    nl:hasCosts "5,00 € pro Kind" ;
-   nl:hasRequirements """ itte beachten Sie, gegebenenfalls die Kinder mit anzuleiten. Wenn gewünscht, Malkittel und zusätzliche Fundstücke zum Basteln für die Kinder mitbringen. 
-***Kombinierbar mit einer Kurzführung: Kosten 1,00 € pro Kind!*** """ ;
+   nl:hasRequirements """itte beachten Sie, gegebenenfalls die Kinder mit anzuleiten. Wenn gewünscht, Malkittel und zusätzliche Fundstücke zum Basteln für die Kinder mitbringen. 
+***Kombinierbar mit einer Kurzführung: Kosten 1,00 € pro Kind!***""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <http://www.bergbau-technik-park.de/angebote/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
@@ -792,13 +801,13 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
 
 <http://nachhaltiges-leipzig.de/Data/Service/S54> a nl:Service  ;
    nl:hasID "54" ;
-   nl:hasDescription """ Im Mittelpunkt steht die selbständige Tätigkeit der Schüler, das genaue Beobachten, Zuhören und Erkunden in der Ausstellung. Mit dieser aktiven Aneignung von Wissen ist die Wissensrallye eine geeignete Ergänzung zum handlungsorientierten Unterricht. """ ;
-   nl:hasSummary """ Wissensrallye  """ ;
+   nl:hasDescription """Im Mittelpunkt steht die selbständige Tätigkeit der Schüler, das genaue Beobachten, Zuhören und Erkunden in der Ausstellung. Mit dieser aktiven Aneignung von Wissen ist die Wissensrallye eine geeignete Ergänzung zum handlungsorientierten Unterricht.""" ;
+   nl:hasSummary """Wissensrallye""" ;
    nl:hasTargetGroup "Klassenstufen 5 bis 8" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "90 Min." ;
    nl:hasCosts "5,00 € pro Kind, zzgl. Eintritt" ;
-   nl:hasRequirements """ Bei Buchung einer Führung ist die Wissensrallye auf Anfrage kostenfrei! """ ;
+   nl:hasRequirements """Bei Buchung einer Führung ist die Wissensrallye auf Anfrage kostenfrei!""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <http://www.bergbau-technik-park.de/angebote/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
@@ -811,9 +820,9 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
 
 <http://nachhaltiges-leipzig.de/Data/Service/S55> a nl:Service  ;
    nl:hasID "55" ;
-   nl:hasDescription """ ine interaktive Schnitzeljagd, geeignet für Familien, kleinere Gruppen und Kinder ab 12 Jahren. Löse die Rätsel zum Park und erhalte einen echten kleinen Schatz aus dem Braunkohlentagebau. 
-Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching-Tour benötigen Sie die APP google-maps! """ ;
-   nl:hasSummary """ Braunes Gold """ ;
+   nl:hasDescription """ine interaktive Schnitzeljagd, geeignet für Familien, kleinere Gruppen und Kinder ab 12 Jahren. Löse die Rätsel zum Park und erhalte einen echten kleinen Schatz aus dem Braunkohlentagebau. 
+Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching-Tour benötigen Sie die APP google-maps!""" ;
+   nl:hasSummary """Braunes Gold""" ;
    nl:hasTargetGroup "Kinder und Jugendliche ab 12 Jahren" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "90 Min." ;
@@ -830,7 +839,7 @@ Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching
 
 <http://nachhaltiges-leipzig.de/Data/Service/S56> a nl:Service  ;
    nl:hasID "56" ;
-   nl:hasDescription """ Ab September 2015 können über den MÜHLSTRASSE 14 e.V. waldpädagogische Wandertage gebucht werden. Schulen und Schüler die ungern weite Wege in Kauf nehmen, haben die Möglichkeit im Leipziger Osten einen Tag in der Natur zu verbringen. Bei der „Schnipseljagd im Friedenspark“ lernen schon die Kleinsten Tiere und Pflanzen des Parks kennen. Mit vielen Spielen und Wissensaufgaben wird die heimische Natur erklärt und mit viel Spaß erlebt. Ein Kaugummi-Zaubertrank sorgt für Stärkung bei einer kleinen Rast.
+   nl:hasDescription """Ab September 2015 können über den MÜHLSTRASSE 14 e.V. waldpädagogische Wandertage gebucht werden. Schulen und Schüler die ungern weite Wege in Kauf nehmen, haben die Möglichkeit im Leipziger Osten einen Tag in der Natur zu verbringen. Bei der „Schnipseljagd im Friedenspark“ lernen schon die Kleinsten Tiere und Pflanzen des Parks kennen. Mit vielen Spielen und Wissensaufgaben wird die heimische Natur erklärt und mit viel Spaß erlebt. Ein Kaugummi-Zaubertrank sorgt für Stärkung bei einer kleinen Rast.
 
 Waldpädagogik ist ein wichtiges Instrument, um der Öffentlichkeit und besonders jungen Menschen Wissen um den Wald und Verständnis für die Natur nahe zu bringen.
 
@@ -838,13 +847,13 @@ Die „Schnipseljagd im Friedenspark“ dauert drei Stunden und richtet sich an 
 
 Es besteht zudem die Möglichkeit, ein mitgebrachtes Mittagessen im Park oder in der Mühlstraße 14 zu sich zu nehmen. Der Grill im Hof kann ebenso genutzt werden.
 
-Buchung bei Marcel Pruß (Tel.: 0341 9 90 36 00) """ ;
-   nl:hasSummary """ Wandertag ganz nah – Natur erleben im Leipziger Osten """ ;
+Buchung bei Marcel Pruß (Tel.: 0341 9 90 36 00)""" ;
+   nl:hasSummary """Wandertag ganz nah – Natur erleben im Leipziger Osten""" ;
    nl:hasTargetGroup "ab der 1. Klasse" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "3 Std." ;
    nl:hasCosts "99 Euro Festpreis" ;
-   nl:hasRequirements """ zzgl. 20 Euro für Nutzung des Grills/ Geschirr wenn gewünscht """ ;
+   nl:hasRequirements """zzgl. 20 Euro für Nutzung des Grills/ Geschirr wenn gewünscht""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <http://www.muehlstrasse.de/wandertag.html> ;
    nl:isPublished "1" ;
@@ -855,24 +864,22 @@ Buchung bei Marcel Pruß (Tel.: 0341 9 90 36 00) """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S57> a nl:Service  ;
    nl:hasID "57" ;
-   nl:hasDescription """ Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in andere Regionen der Erde? Wie kann ich dieses „unsichtbare Wasser“ sparen?
+   nl:hasDescription """Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in andere Regionen der Erde? Wie kann ich dieses „unsichtbare Wasser“ sparen?
 Inhalte
     - Wasservorkommen und -verteilung
     - Bedeutung von Wasser
     - Eigener Wasserverbrauch und Wasserverbrauch in einer Bergregion in Indonesien
     - Virtuelles/ verstecktes Wasser – Was ist das?
     - Virtuelles Wasser - Folgen
-    - Sparmöglichkeiten von virtuellem Wasser
-
- """ ;
-   nl:hasSummary """ Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in andere Re """ ;
+    - Sparmöglichkeiten von virtuellem Wasser""" ;
+   nl:hasSummary """Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in andere Re""" ;
    nl:hasTargetGroup "3. - 4. Klasse" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "1-2 Projekttage (je 6 Unterrichteinheiten, nach Absprache kürzer)" ;
    nl:hasCosts "50 Euro" ;
-   nl:hasRequirements """ Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
+   nl:hasRequirements """Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
 
-Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
+Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasInfoURL <https://arche-nova.org/node/422> ;
    nl:hasDistrict "anderer Ort" ;
@@ -884,24 +891,22 @@ Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S58> a nl:Service  ;
    nl:hasID "58" ;
-   nl:hasDescription """ Inhalt: 
+   nl:hasDescription """Inhalt: 
 
     - Wasservorkommen und -verteilung
     - Bedeutung von Wasser
     - Eigener Wasserverbrauch
     - Virtuelles Wasser – Was ist das?
     - Virtuelles Wasser - Folgen
-    - Virtuelles Wasser – Handlungsoptionen
-
- """ ;
-   nl:hasSummary """ Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in anderen R """ ;
+    - Virtuelles Wasser – Handlungsoptionen""" ;
+   nl:hasSummary """Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in anderen R""" ;
    nl:hasTargetGroup "Klassenstufen 5-9" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1-2 Projekttage (je 6 Unterrichteinheiten, nach Absprache kürzer)" ;
    nl:hasCosts "50 Euro" ;
-   nl:hasRequirements """ Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
+   nl:hasRequirements """Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
 
-Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
+Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasInfoURL <https://arche-nova.org/node/424> ;
    nl:hasDistrict "anderer Ort" ;
@@ -913,24 +918,22 @@ Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S59> a nl:Service  ;
    nl:hasID "59" ;
-   nl:hasDescription """ Inhalt: 
+   nl:hasDescription """Inhalt: 
 
     - Menschenrecht auf Wasser
     - Zugang zu Wasser weltweit
     - Folgen fehlenden Zuganges zu Wasser
     - Möglichkeiten der Umsetzung des Menschenrechts auf Wasser in Verbindung mit Sanitär   
       und Hygiene       
-    - Handlungsoptionen
-
- """ ;
-   nl:hasSummary """ Was bedeutet ein Menschenrecht auf Wasser und wie kann es umgesetzt werden? Wie wirkt sich ein fehlender Zugang zu Trinkwasser hier und weltweit aus?  """ ;
+    - Handlungsoptionen""" ;
+   nl:hasSummary """Was bedeutet ein Menschenrecht auf Wasser und wie kann es umgesetzt werden? Wie wirkt sich ein fehlender Zugang zu Trinkwasser hier und weltweit aus?""" ;
    nl:hasTargetGroup "Klassenstufen 5-9" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1 Projekttag (6 Unterrichtseinheiten, nach Absprachen kürzer)" ;
    nl:hasCosts "50 Euro" ;
-   nl:hasRequirements """ Für einen Unkostenbeitrag von mind. 50 EUR pro Projekttag / Gruppe für die bereitgestellten Materialien können alle angebotenen Module sachsenweit durchgeführt werden. Dieser Betrag ist für uns wichtig als Eigenanteil für unsere Fördermittelgeber und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar. Bitte wenden Sie sich zur Finanzierung ggf. an den Schulförderverein Ihrer Schule.
+   nl:hasRequirements """Für einen Unkostenbeitrag von mind. 50 EUR pro Projekttag / Gruppe für die bereitgestellten Materialien können alle angebotenen Module sachsenweit durchgeführt werden. Dieser Betrag ist für uns wichtig als Eigenanteil für unsere Fördermittelgeber und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar. Bitte wenden Sie sich zur Finanzierung ggf. an den Schulförderverein Ihrer Schule.
 
-Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
+Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasInfoURL <https://arche-nova.org/node/951> ;
    nl:hasDistrict "anderer Ort" ;
@@ -942,22 +945,22 @@ Unser mobiles Bildungsteam kommt zu Ihnen! """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S60> a nl:Service  ;
    nl:hasID "60" ;
-   nl:hasDescription """ Die Deutschen sind Europameister im Wassersparen. Der tägliche Haushaltswasserbedarf in Deutschland ist auf weniger als 130 l pro Person zurückgegangen. Doch ist dies nur ein sehr geringer Teil unseres tatsächlichen Wasserbedarfs. Der liegt um ein Vielfaches höher – bei mittlerweile ca. 5300 l pro Person und Tag! Neben Trinkwasser aus der Leitung fürs Kochen, Waschen oder Toilettenspülung benötigen wir sog. "virtuelles Wasser", um all die Waren zu produzieren, die wir täglich brauchen - von der Kaffeebohne über den Mikrochip bis zur Jeans. Anhand verschiedener Beispiele wird der reale Wasserverbrauch des Menschen untersucht, es werden die weltweite Auswirkungen und entstehenden Konflikte aufgezeigt und Handlungsalternativen vorgestellt.
+   nl:hasDescription """Die Deutschen sind Europameister im Wassersparen. Der tägliche Haushaltswasserbedarf in Deutschland ist auf weniger als 130 l pro Person zurückgegangen. Doch ist dies nur ein sehr geringer Teil unseres tatsächlichen Wasserbedarfs. Der liegt um ein Vielfaches höher – bei mittlerweile ca. 5300 l pro Person und Tag! Neben Trinkwasser aus der Leitung fürs Kochen, Waschen oder Toilettenspülung benötigen wir sog. "virtuelles Wasser", um all die Waren zu produzieren, die wir täglich brauchen - von der Kaffeebohne über den Mikrochip bis zur Jeans. Anhand verschiedener Beispiele wird der reale Wasserverbrauch des Menschen untersucht, es werden die weltweite Auswirkungen und entstehenden Konflikte aufgezeigt und Handlungsalternativen vorgestellt.
 
 Inhalt: 
     - Wasservorkommen, –verteilung und -verbrauch
     - Virtuelles Wasser – Was ist das?
     - Virtuelles Wasser - Folgen
     - Virtuelles Wasser – Handlungsoptionen
-    - Internationaler Wasserkonflikt: Nil-Konflikt """ ;
-   nl:hasSummary """ Neben Trinkwasser aus der Leitung fürs Kochen, Waschen oder Toilettenspülung benötigen wir sog. "virtuelles Wasser", um all die Waren zu produzieren,  """ ;
+    - Internationaler Wasserkonflikt: Nil-Konflikt""" ;
+   nl:hasSummary """Neben Trinkwasser aus der Leitung fürs Kochen, Waschen oder Toilettenspülung benötigen wir sog. "virtuelles Wasser", um all die Waren zu produzieren,""" ;
    nl:hasTargetGroup "ab 10. Klasse" ;
    nl:hasTargetGroupSelection "Sekundarstufe" ;
    nl:hasDuration "1 Projekttag (6 Unterrichteinheiten, nach Absprache kürzer)" ;
    nl:hasCosts "50 Euro" ;
-   nl:hasRequirements """ Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
+   nl:hasRequirements """Bei Buchung in ganz Sachsen, Brandenburg und Berlin stellen wir 50 Euro in Rechnung. Dieser Betrag deckt  die Kosten für die bereitgestellten Materialien und stellt nur einen Bruchteil der tatsächlichen Projekttagskosten dar, die ganz überwiegend von unseren Fördermittelgebern getragen werden. Bei Exkursionen können zusätzlich geringe Fahrtkosten für die Schüler entstehen. Bitte wenden Sie sich zur Finanzierung ihres Projekttages gegebenenfalls an den Schulförderverein Ihrer Schule.
 
-Unser mobiles Bildungsteam kommt zu Ihnen """ ;
+Unser mobiles Bildungsteam kommt zu Ihnen""" ;
    nl:hasServiceType "Workshop" ;
    nl:hasInfoURL <https://arche-nova.org/node/419> ;
    nl:hasDistrict "anderer Ort" ;
@@ -969,13 +972,11 @@ Unser mobiles Bildungsteam kommt zu Ihnen """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S61> a nl:Service  ;
    nl:hasID "61" ;
-   nl:hasDescription """ Spannende Versuche, verblüffende Experimente, überraschende basteleier-eine lehrreiche Reise durch die Welt der Naturwissenschaften. 
+   nl:hasDescription """Spannende Versuche, verblüffende Experimente, überraschende basteleier-eine lehrreiche Reise durch die Welt der Naturwissenschaften. 
 Anmeldungen:
 info@diehellenkoepfe.de 
-Tel.:  0174-97 606 89
-
- """ ;
-   nl:hasSummary """ Laufenden Kurs """ ;
+Tel.:  0174-97 606 89""" ;
+   nl:hasSummary """Laufenden Kurs""" ;
    nl:hasTargetGroup "Kinder von 6 - 10 Jahren" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "jede Mittwoch 15 - 16:30 Uhr" ;
@@ -991,7 +992,7 @@ Tel.:  0174-97 606 89
 
 <http://nachhaltiges-leipzig.de/Data/Service/S62> a nl:Service  ;
    nl:hasID "62" ;
-   nl:hasDescription """ Neugierige Forscherinnen gehen mit spannenden Versuchen in unserem Entdeckerprogramm den Naturwissenschaften auf den Grund. Wir beantworten dabei viele Fragen wie: Warum fliegt ein Heißluftballon? Wie entstehen die Töne bei verschiedenen Musikinstrumenten? Wieso wird ein angeschnittener Apfel an der Luft braun, aber nicht, wenn er mit Zitronensaft bestrichen wurde? Seid dabei auf der Reise in die Naturwissenschaft.
+   nl:hasDescription """Neugierige Forscherinnen gehen mit spannenden Versuchen in unserem Entdeckerprogramm den Naturwissenschaften auf den Grund. Wir beantworten dabei viele Fragen wie: Warum fliegt ein Heißluftballon? Wie entstehen die Töne bei verschiedenen Musikinstrumenten? Wieso wird ein angeschnittener Apfel an der Luft braun, aber nicht, wenn er mit Zitronensaft bestrichen wurde? Seid dabei auf der Reise in die Naturwissenschaft.
 Mädchen von 6-11 Jahre
 Leitung:  Carina Flores de Looß, Dr. Nadia Nikolaus
 
@@ -1001,13 +1002,13 @@ Kosten: Vollzahler: 5,00 EUR
 
 Anmeldung:
 info@diehellenkoepfe.de
-Tel:0174-97 606 89 """ ;
-   nl:hasSummary """ Experimentierkurs für Mädchen """ ;
+Tel:0174-97 606 89""" ;
+   nl:hasSummary """Experimentierkurs für Mädchen""" ;
    nl:hasTargetGroup "Mädchen von 6-11 Jahre" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "jede Donnerstag" ;
    nl:hasCosts "5 €" ;
-   nl:hasRequirements """ Anmeldung erforderlich, Schnuppern möglich """ ;
+   nl:hasRequirements """Anmeldung erforderlich, Schnuppern möglich""" ;
    nl:hasInfoURL <http://www.diehellenkoepfe.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Wasserstrasse.18> ;
    nl:hasDistrict "anderer Ort" ;
@@ -1019,21 +1020,19 @@ Tel:0174-97 606 89 """ ;
 
 <http://nachhaltiges-leipzig.de/Data/Service/S63> a nl:Service  ;
    nl:hasID "63" ;
-   nl:hasDescription """ Hätten Sie es gedacht: Ein Drittel der weltweit produzierten Lebensmittel wird gar nicht gegessen. Alleine in Deutschland landen jede Minute 19 Tonnen Lebensmittel im Müll. 
+   nl:hasDescription """Hätten Sie es gedacht: Ein Drittel der weltweit produzierten Lebensmittel wird gar nicht gegessen. Alleine in Deutschland landen jede Minute 19 Tonnen Lebensmittel im Müll. 
 Mit unserem bundesweiten Mitmach-Projekt "Wirf mich nicht weg!" wollen wir etwas dagegen unternehmen.
 Sie können das Projekt beispielsweise für den Sachunterricht buchen, wir kommen an einem Tag zu Ihnen in die Schule und arbeiten an verschiedenen Stationen mit den Kindern zum Thema. 
 Großformatige Tisch- und Bodenspiele, wertvolle Tipps und anschauliches Begleitmaterial unterstützt die Aktion. In 2-3 Unterrichtsstunden durchlaufen die Schülerinnen und Schüler handlungsorientierte Stationen rund um das Thema Lebensmittelverschwendung.
 
 Wir freuen uns auf Ihre Anmeldung und kostenfreie Buchung. 
-Ein Mitarbeiter von uns arbeitet von Leipzig aus. """ ;
-   nl:hasSummary """ Mitmachprojekt für 3. und 4. Klassen, dass sich gegen die Verschwendung von Lebensmitteln richtet. """ ;
+Ein Mitarbeiter von uns arbeitet von Leipzig aus.""" ;
+   nl:hasSummary """Mitmachprojekt für 3. und 4. Klassen, dass sich gegen die Verschwendung von Lebensmitteln richtet.""" ;
    nl:hasTargetGroup "3. und 4. Klasse" ;
    nl:hasTargetGroupSelection "Grundschule" ;
    nl:hasDuration "2-3 Unterrichtsstunden" ;
    nl:hasCosts "kostenfrei. Das Projekt wird von Toppits® gefördert" ;
-   nl:hasRequirements """ Das Projekt findet im Klassenraum statt, wir besuchen Sie an der jeweiligen Grundschule.
- 
- """ ;
+   nl:hasRequirements """Das Projekt findet im Klassenraum statt, wir besuchen Sie an der jeweiligen Grundschule.""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasInfoURL <http://www.wirf-mich-nicht-weg.de> ;
    nl:isPublished "1" ;

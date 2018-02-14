@@ -127,12 +127,12 @@
    dct:updated "2016-12-30T13:00:59" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Otto-Adam-Strasse.14> ;
    foaf:mbox "stoiber@nukla.de" ;
-   rdfs:label "Naturschutz und Kunst Leipziger Auwald e. V. " ;
+   rdfs:label "Naturschutz und Kunst Leipziger Auwald e. V." ;
    foaf:homepage <http://www.nukla.de> ;
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P10> a foaf:Person  ;
    nl:hasID "10" ;
-   foaf:firstName "Wolfgang E. A. " ;
+   foaf:firstName "Wolfgang E. A." ;
    foaf:lastName "Stoiber" ;
    foaf:phone "01786662454" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A10> . 
@@ -382,7 +382,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P26> a foaf:Person  ;
    nl:hasID "26" ;
-   foaf:firstName "Juliana " ;
+   foaf:firstName "Juliana" ;
    foaf:lastName "Klengel" ;
    foaf:phone "0341-22540313" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A26> . 
@@ -589,12 +589,12 @@
    dct:updated "2015-01-16T06:15:21" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Gerichtsweg.28> ;
    foaf:mbox "u.wermelt@piepenbrock.de" ;
-   rdfs:label "Piepenbrock Sicherheit GmbH + Co. KG " ;
+   rdfs:label "Piepenbrock Sicherheit GmbH + Co. KG" ;
    foaf:homepage <http://www.piepenbrock.de> ;
    nl:orgType <http://leipzig-data.de/Data/OrgType/corporation> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P39> a foaf:Person  ;
    nl:hasID "39" ;
-   foaf:firstName "Andreas " ;
+   foaf:firstName "Andreas" ;
    foaf:lastName "Schuster" ;
    foaf:phone "03414131-22" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A39> . 
@@ -701,7 +701,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/other> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P46> a foaf:Person  ;
    nl:hasID "46" ;
-   foaf:firstName "Daniel " ;
+   foaf:firstName "Daniel" ;
    foaf:lastName "Reißmann" ;
    foaf:phone "0341-121-3317" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A46> . 
@@ -1169,7 +1169,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P73> a foaf:Person  ;
    nl:hasID "73" ;
-   foaf:firstName "Martin " ;
+   foaf:firstName "Martin" ;
    foaf:lastName "Hilbrecht" ;
    foaf:phone "03413065395" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A73> . 
@@ -1608,7 +1608,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P98> a foaf:Person  ;
    nl:hasID "98" ;
-   foaf:firstName "Janette " ;
+   foaf:firstName "Janette" ;
    foaf:lastName "Lemke" ;
    foaf:phone "017660898823" ;
    foaf:phone "016096243014" ;
@@ -1663,7 +1663,7 @@
    nl:isTradeOrganization "1" . 
 <http://nachhaltiges-leipzig.de/Data/Person/P101> a foaf:Person  ;
    nl:hasID "101" ;
-   foaf:firstName "Rolf " ;
+   foaf:firstName "Rolf" ;
    foaf:lastName "Schumann" ;
    foaf:phone "0341-3065100" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A101> . 
@@ -1682,7 +1682,7 @@
    nl:isTradeOrganization "1" . 
 <http://nachhaltiges-leipzig.de/Data/Person/P102> a foaf:Person  ;
    nl:hasID "102" ;
-   foaf:firstName "Detlef " ;
+   foaf:firstName "Detlef" ;
    foaf:lastName "Knaack" ;
    foaf:phone "03416787000" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A102> . 
@@ -1926,7 +1926,7 @@
    dct:updated "2016-05-13T05:15:04" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Stammerstrasse.40> ;
    foaf:mbox "service@st-benno.de" ;
-   rdfs:label "St. Benno Verlag " ;
+   rdfs:label "St. Benno Verlag" ;
    foaf:homepage <http://www.vivat.de> ;
    nl:orgType <http://leipzig-data.de/Data/OrgType/corporation> ;
    nl:isTradeOrganization "1" . 
@@ -2127,7 +2127,7 @@
    dct:updated "2016-07-18T05:15:03" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX> ;
    foaf:mbox "Superaemerkte@einewelt-Leipzig.de" ;
-   rdfs:label "Einkaufsführer - Supermärkte  " ;
+   rdfs:label "Einkaufsführer - Supermärkte" ;
    nl:orgType <http://leipzig-data.de/Data/OrgType/other> ;
    nl:isTradeOrganization "1" . 
 <http://nachhaltiges-leipzig.de/Data/Person/P130> a foaf:Person  ;
@@ -2169,7 +2169,7 @@
    nl:isTradeOrganization "1" . 
 <http://nachhaltiges-leipzig.de/Data/Person/P133> a foaf:Person  ;
    nl:hasID "133" ;
-   foaf:firstName "Verena " ;
+   foaf:firstName "Verena" ;
    foaf:lastName "Hahmann" ;
    foaf:phone "04319653109" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A133> . 
@@ -2348,7 +2348,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/other> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P144> a foaf:Person  ;
    nl:hasID "144" ;
-   foaf:firstName "Jana " ;
+   foaf:firstName "Jana" ;
    foaf:lastName "Rehwagen" ;
    foaf:phone "01626675500" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A144> . 
@@ -2438,7 +2438,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P149> a foaf:Person  ;
    nl:hasID "149" ;
-   foaf:firstName "Ralf " ;
+   foaf:firstName "Ralf" ;
    foaf:lastName "Herrmann" ;
    foaf:phone "034126496004" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A149> . 
@@ -2526,7 +2526,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/freelancer> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P154> a foaf:Person  ;
    nl:hasID "154" ;
-   foaf:firstName "Carina " ;
+   foaf:firstName "Carina" ;
    foaf:lastName "Flores de Looß" ;
    foaf:phone "01749760689" ;
    foaf:phone "015756424859" ;
@@ -2630,7 +2630,7 @@
    dct:updated "2017-04-27T14:42:42" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.22> ;
    foaf:mbox "josefineotte95@gmail.com" ;
-   rdfs:label "Max Planck Institut für Mathematik " ;
+   rdfs:label "Max Planck Institut für Mathematik" ;
    foaf:homepage <https://www.mis.mpg.de/de/start.html> ;
    nl:orgType <http://leipzig-data.de/Data/OrgType/corporation> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P162> a foaf:Person  ;
@@ -2687,8 +2687,8 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P165> a foaf:Person  ;
    nl:hasID "165" ;
-   foaf:firstName "Thorsten " ;
-   foaf:lastName "Hinz " ;
+   foaf:firstName "Thorsten" ;
+   foaf:lastName "Hinz" ;
    foaf:phone "034297-140127" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A165> . 
 <http://nachhaltiges-leipzig.de/Data/Membership/M165> a org:Membership  ;
@@ -2705,7 +2705,7 @@
    nl:orgType <http://leipzig-data.de/Data/OrgType/club> . 
 <http://nachhaltiges-leipzig.de/Data/Person/P166> a foaf:Person  ;
    nl:hasID "166" ;
-   foaf:firstName "Karin " ;
+   foaf:firstName "Karin" ;
    foaf:lastName "Hörning" ;
    foaf:phone "0341-9903600" ;
    org:memberOf <http://leipzig-data.de/Data/Akteur/A166> . 

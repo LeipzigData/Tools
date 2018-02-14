@@ -68,7 +68,10 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("Ä", "Ae", $u);
   $u=str_replace("Ö", "Oe", $u);
   $u=str_replace("Ü", "Ue", $u);
-  $u=str_replace("ß", "ss", $u);  
+  $u=str_replace("ß", "ss", $u); 
+  $u=str_replace("é", "e", $u);  
+  $u=str_replace("&", "und", $u);
+  $u=str_replace("\"", "", $u);
   return $u;
 }
 
@@ -89,7 +92,8 @@ function createAdresse($row) {
     $gps_long=$row["longitude"];
     $gps_lat=$row["latitude"];
     $a=array();
-    $a[]=' a ld:LeipzigerAdresse ';
+    if ($stadt=="Leipzig") { $a[]=' a ld:LeipzigerAdresse '; }
+    else { $a[]=' a ld:Adresse '; }
     $a=addLiteral($a,'rdfs:label', "$stadt, $strasse");
     $a=addLiteral($a,'ld:hasCity', $stadt);
     $a=addLiteral($a,'ld:hasStreet', getStreet($strasse));

@@ -5,8 +5,9 @@
  */
 
 include_once("actions.php");
-include_once("adressen.php");
+include_once("ld-adressen.php");
 include_once("akteure.php");
+include_once("ld-akteure.php");
 include_once("changes.php");
 include_once("events.php");
 include_once("projects.php");
@@ -17,8 +18,9 @@ function main() {
     $what=$_GET['show'];
     $out='';
     if ($what=='akteure') { $out=getAkteure(); }
+    if ($what=='ld-akteure') { $out=getLDAkteure(); }
     else if ($what=='aktionen') { $out=getAktionen(); }
-    else if ($what=='adressen') { $out=getAdressen(); }
+    else if ($what=='ld-adressen') { $out=getAdressen(); }
     else if ($what=='changes') { $out=displayChanges(); }
     else if ($what=='events') { $out=getEvents(); }
     else if ($what=='projekte') { $out=getProjekte(); }

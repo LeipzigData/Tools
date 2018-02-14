@@ -370,7 +370,7 @@
    ld:hasHouseNumber "108" ;
    gsp:asWKT "Point(12.3248 51.3348)" . 
 
-<http://leipzig-data.de/Data/01099.Dresden.Louisenstrasse.93> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/01099.Dresden.Louisenstrasse.93> a ld:Adresse  ;
    rdfs:label "Dresden, Louisenstraße 93" ;
    ld:hasCity "Dresden" ;
    ld:hasStreet "Louisenstraße" ;
@@ -386,7 +386,7 @@
    ld:hasHouseNumber "11" ;
    gsp:asWKT "Point(12.3206 51.3897)" . 
 
-<http://leipzig-data.de/Data/04451.Borsdorf.LeipzigerStrasse.6> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04451.Borsdorf.LeipzigerStrasse.6> a ld:Adresse  ;
    rdfs:label "Borsdorf, Leipziger Straße 6" ;
    ld:hasCity "Borsdorf" ;
    ld:hasStreet "Leipziger Straße" ;
@@ -730,7 +730,7 @@
    ld:hasHouseNumber "92" ;
    gsp:asWKT "Point(12.3732 51.3185)" . 
 
-<http://leipzig-data.de/Data/10179.Berlin.AmKoellnischenPark.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/10179.Berlin.AmKoellnischenPark.1> a ld:Adresse  ;
    rdfs:label "Berlin, Am Köllnischen Park 1" ;
    ld:hasCity "Berlin" ;
    ld:hasStreet "Am Köllnischen Park" ;
@@ -826,7 +826,7 @@
    ld:hasHouseNumber "111" ;
    gsp:asWKT "Point(12.3797 51.3093)" . 
 
-<http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> a ld:Adresse  ;
    rdfs:label "Landsberg, Droyßiger Straße 9" ;
    ld:hasCity "Landsberg" ;
    ld:hasStreet "Droyßiger Straße" ;
@@ -898,7 +898,7 @@
    ld:hasHouseNumber "49" ;
    gsp:asWKT "Point(12.4072 51.3458)" . 
 
-<http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> a ld:Adresse  ;
    rdfs:label "Trebsen/Mulde, Grimmaer Landstraße 2" ;
    ld:hasCity "Trebsen/Mulde" ;
    ld:hasStreet "Grimmaer Landstraße" ;
@@ -1034,7 +1034,7 @@
    ld:hasHouseNumber "85" ;
    gsp:asWKT "Point(12.331 51.3305)" . 
 
-<http://leipzig-data.de/Data/28203.Bremen.Kreftingstrasse.7> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/28203.Bremen.Kreftingstrasse.7> a ld:Adresse  ;
    rdfs:label "Bremen, Kreftingstraße 7" ;
    ld:hasCity "Bremen" ;
    ld:hasStreet "Kreftingstraße" ;
@@ -1106,7 +1106,7 @@
    ld:hasHouseNumber "107" ;
    gsp:asWKT "Point(12.4122 51.3467)" . 
 
-<http://leipzig-data.de/Data/04435.Schkeuditz.Ringelblumenweg.10> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04435.Schkeuditz.Ringelblumenweg.10> a ld:Adresse  ;
    rdfs:label "Schkeuditz, Ringelblumenweg 10" ;
    ld:hasCity "Schkeuditz" ;
    ld:hasStreet "Ringelblumenweg" ;
@@ -1146,7 +1146,7 @@
    ld:hasHouseNumber "77A" ;
    gsp:asWKT "Point(12.4054 51.3361)" . 
 
-<http://leipzig-data.de/Data/10117.Berlin.Reinhardtstrasse.18> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/10117.Berlin.Reinhardtstrasse.18> a ld:Adresse  ;
    rdfs:label "Berlin, Reinhardtstraße 18" ;
    ld:hasCity "Berlin" ;
    ld:hasStreet "Reinhardtstraße" ;
@@ -1202,7 +1202,7 @@
    ld:hasHouseNumber "33" ;
    gsp:asWKT "Point(12.3638 51.3402)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:Adresse  ;
    rdfs:label "Großpösna, Hauptstraße 19" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Hauptstraße" ;
@@ -1218,7 +1218,7 @@
    ld:hasHouseNumber "14" ;
    gsp:asWKT "Point(12.4008 51.3301)" . 
 
-<http://leipzig-data.de/Data/01067.Dresden.Weisseritzstrasse.3> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/01067.Dresden.Weisseritzstrasse.3> a ld:Adresse  ;
    rdfs:label "Dresden, Weißeritzstraße 3" ;
    ld:hasCity "Dresden" ;
    ld:hasStreet "Weißeritzstraße" ;
@@ -1242,7 +1242,7 @@
    ld:hasHouseNumber "79" ;
    gsp:asWKT "Point(12.4058 51.3464)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.StoermthalerWeg.2> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.StoermthalerWeg.2> a ld:Adresse  ;
    rdfs:label "Großpösna, Störmthaler Weg 2" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Störmthaler Weg" ;
@@ -1266,7 +1266,7 @@
    ld:hasHouseNumber "8" ;
    gsp:asWKT "Point(12.4089 51.3398)" . 
 
-<http://leipzig-data.de/Data/45307.Essen.Eckenbergstrasse.16A> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/45307.Essen.Eckenbergstrasse.16A> a ld:Adresse  ;
    rdfs:label "Essen, Eckenbergstraße 16A" ;
    ld:hasCity "Essen" ;
    ld:hasStreet "Eckenbergstraße" ;
@@ -1284,7 +1284,7 @@
    ld:hasHouseNumber "XX" ;
    gsp:asWKT "Point(12.3794 51.3409)" . 
 
-<http://leipzig-data.de/Data/04451.Borsdorf.Lindenweg.12> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04451.Borsdorf.Lindenweg.12> a ld:Adresse  ;
    rdfs:label "Borsdorf, Lindenweg 12" ;
    ld:hasCity "Borsdorf" ;
    ld:hasStreet "Lindenweg" ;
@@ -1581,7 +1581,7 @@
    ld:hasHouseNumber "19" ;
    gsp:asWKT "Point(12.3208 51.275)" . 
 
-<http://leipzig-data.de/Data/04103.Leipzig.Linnéstrasse.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04103.Leipzig.Linnestrasse.1> a ld:LeipzigerAdresse  ;
    rdfs:label "Leipzig, Linnéstraße 1" ;
    ld:hasCity "Leipzig" ;
    ld:hasStreet "Linnéstraße" ;
@@ -1620,7 +1620,7 @@
    ld:hasHouseNumber "152" ;
    gsp:asWKT "Point(12.3762 51.311)" . 
 
-<http://leipzig-data.de/Data/04103.Leipzig.Linnéstrasse.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04103.Leipzig.Linnestrasse.1> a ld:LeipzigerAdresse  ;
    rdfs:label "Leipzig, Linnéstraße 1" ;
    ld:hasCity "Leipzig" ;
    ld:hasStreet "Linnéstraße" ;
@@ -1852,7 +1852,7 @@
    ld:hasHouseNumber "21" ;
    gsp:asWKT "Point(12.3332 51.3378)" . 
 
-<http://leipzig-data.de/Data/01728.Bannewitz.GolberoderStrasse.4> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/01728.Bannewitz.GolberoderStrasse.4> a ld:Adresse  ;
    rdfs:label "Bannewitz, Golberoder Straße 4" ;
    ld:hasCity "Bannewitz" ;
    ld:hasStreet "Golberoder Straße" ;
@@ -2036,7 +2036,7 @@
    ld:hasHouseNumber "152" ;
    gsp:asWKT "Point(12.3762 51.311)" . 
 
-<http://leipzig-data.de/Data/06237.Leuna.SchwarzerWeg.XX> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06237.Leuna.SchwarzerWeg.XX> a ld:Adresse  ;
    rdfs:label "Leuna, Schwarzer Weg" ;
    ld:hasCity "Leuna" ;
    ld:hasStreet "Schwarzer Weg" ;
@@ -2204,7 +2204,7 @@
    ld:hasHouseNumber "59" ;
    gsp:asWKT "Point(12.403 51.339)" . 
 
-<http://leipzig-data.de/Data/04442.Zwenkau.Georg-Schwarz-Strasse.10> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04442.Zwenkau.Georg-Schwarz-Strasse.10> a ld:Adresse  ;
    rdfs:label "Zwenkau, Georg-Schwarz-Straße 10" ;
    ld:hasCity "Zwenkau" ;
    ld:hasStreet "Georg-Schwarz-Straße" ;
@@ -3492,7 +3492,7 @@
    ld:hasHouseNumber "25" ;
    gsp:asWKT "Point(12.2902 51.3189)" . 
 
-<http://leipzig-data.de/Data/04683.Naunhof.Lutherstrasse.10> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04683.Naunhof.Lutherstrasse.10> a ld:Adresse  ;
    rdfs:label "Naunhof, Lutherstraße 10" ;
    ld:hasCity "Naunhof" ;
    ld:hasStreet "Lutherstraße" ;
@@ -3772,7 +3772,7 @@
    ld:hasHouseNumber "XX" ;
    gsp:asWKT "Point(12.3147 51.3533)" . 
 
-<http://leipzig-data.de/Data/06791.Graefenhainichen.Campingplatz.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06791.Graefenhainichen.Campingplatz.1> a ld:Adresse  ;
    rdfs:label "Gräfenhainichen, Campingplatz 1" ;
    ld:hasCity "Gräfenhainichen" ;
    ld:hasStreet "Campingplatz" ;
@@ -4262,7 +4262,7 @@
    ld:hasHouseNumber "45" ;
    gsp:asWKT "Point(12.4206 51.3363)" . 
 
-<http://leipzig-data.de/Data/04435.Schkeuditz.AmAuenwald.XX> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04435.Schkeuditz.AmAuenwald.XX> a ld:Adresse  ;
    rdfs:label "Schkeuditz, Am Auenwald" ;
    ld:hasCity "Schkeuditz" ;
    ld:hasStreet "Am Auenwald" ;
@@ -4695,7 +4695,7 @@
    ld:hasHouseNumber "22" ;
    gsp:asWKT "Point(12.3909 51.3413)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:Adresse  ;
    rdfs:label "Großpösna, Hauptstraße 19" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Hauptstraße" ;
@@ -4703,7 +4703,7 @@
    ld:hasHouseNumber "19" ;
    gsp:asWKT "Point(12.5032 51.2706)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:Adresse  ;
    rdfs:label "Großpösna, Hauptstraße 19" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Hauptstraße" ;
@@ -4711,7 +4711,7 @@
    ld:hasHouseNumber "19" ;
    gsp:asWKT "Point(12.5032 51.2706)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:Adresse  ;
    rdfs:label "Großpösna, Hauptstraße 19" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Hauptstraße" ;
@@ -4719,7 +4719,7 @@
    ld:hasHouseNumber "19" ;
    gsp:asWKT "Point(12.5032 51.2706)" . 
 
-<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> a ld:Adresse  ;
    rdfs:label "Großpösna, Hauptstraße 19" ;
    ld:hasCity "Großpösna" ;
    ld:hasStreet "Hauptstraße" ;
@@ -5641,7 +5641,7 @@
    ld:hasHouseNumber "5" ;
    gsp:asWKT "Point(12.3778 51.3394)" . 
 
-<http://leipzig-data.de/Data/04416.Markkleeberg.KoburgerStrasse.62> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04416.Markkleeberg.KoburgerStrasse.62> a ld:Adresse  ;
    rdfs:label "Markkleeberg, Koburger Straße 62" ;
    ld:hasCity "Markkleeberg" ;
    ld:hasStreet "Koburger Straße" ;
@@ -5681,7 +5681,7 @@
    ld:hasHouseNumber "33" ;
    gsp:asWKT "Point(12.3904 51.327)" . 
 
-<http://leipzig-data.de/Data/04435.Schkeuditz.Terminalring.13> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04435.Schkeuditz.Terminalring.13> a ld:Adresse  ;
    rdfs:label "Schkeuditz, Terminalring 13" ;
    ld:hasCity "Schkeuditz" ;
    ld:hasStreet "Terminalring" ;
@@ -5705,7 +5705,7 @@
    ld:hasHouseNumber "29" ;
    gsp:asWKT "Point(12.369 51.3517)" . 
 
-<http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> a ld:Adresse  ;
    rdfs:label "Landsberg, Droyßiger Straße 9" ;
    ld:hasCity "Landsberg" ;
    ld:hasStreet "Droyßiger Straße" ;
@@ -5745,7 +5745,7 @@
    ld:hasHouseNumber "132" ;
    gsp:asWKT "Point(12.3724 51.3103)" . 
 
-<http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> a ld:Adresse  ;
    rdfs:label "Trebsen/Mulde, Grimmaer Landstraße 2" ;
    ld:hasCity "Trebsen/Mulde" ;
    ld:hasStreet "Grimmaer Landstraße" ;
@@ -5785,7 +5785,7 @@
    ld:hasHouseNumber "10" ;
    gsp:asWKT "Point(12.3086 51.3154)" . 
 
-<http://leipzig-data.de/Data/04442.Zwenkau.LeipzigerStrasse.6> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04442.Zwenkau.LeipzigerStrasse.6> a ld:Adresse  ;
    rdfs:label "Zwenkau, Leipziger Straße 6" ;
    ld:hasCity "Zwenkau" ;
    ld:hasStreet "Leipziger Straße" ;
@@ -5873,7 +5873,7 @@
    ld:hasHouseNumber "2" ;
    gsp:asWKT "Point(12.3594 51.3798)" . 
 
-<http://leipzig-data.de/Data/04509.Delitzsch.HallescheStrasse.55> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04509.Delitzsch.HallescheStrasse.55> a ld:Adresse  ;
    rdfs:label "Delitzsch, Hallesche Straße 55" ;
    ld:hasCity "Delitzsch" ;
    ld:hasStreet "Hallesche Straße" ;
@@ -5881,7 +5881,7 @@
    ld:hasHouseNumber "55" ;
    gsp:asWKT "Point(12.3248 51.5211)" . 
 
-<http://leipzig-data.de/Data/04519.Rackwitz.Lindenstrasse.8> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04519.Rackwitz.Lindenstrasse.8> a ld:Adresse  ;
    rdfs:label "Rackwitz, Lindenstraße 8" ;
    ld:hasCity "Rackwitz" ;
    ld:hasStreet "Lindenstraße" ;
@@ -5889,7 +5889,7 @@
    ld:hasHouseNumber "8" ;
    gsp:asWKT "Point(12.3603 51.4809)" . 
 
-<http://leipzig-data.de/Data/04509.Zwochau.LeipzigerStrasse.35B> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04509.Zwochau.LeipzigerStrasse.35B> a ld:Adresse  ;
    rdfs:label "Zwochau, Leipziger Straße 35B" ;
    ld:hasCity "Zwochau" ;
    ld:hasStreet "Leipziger Straße" ;
@@ -5897,7 +5897,7 @@
    ld:hasHouseNumber "35B" ;
    gsp:asWKT "Point(12.2709 51.4643)" . 
 
-<http://leipzig-data.de/Data/04509.Loebnitz.Zschernweg.4> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04509.Loebnitz.Zschernweg.4> a ld:Adresse  ;
    rdfs:label "Löbnitz, Zschernweg 4" ;
    ld:hasCity "Löbnitz" ;
    ld:hasStreet "Zschernweg" ;
@@ -5937,7 +5937,7 @@
    ld:hasHouseNumber "75" ;
    gsp:asWKT "Point(12.4054 51.346)" . 
 
-<http://leipzig-data.de/Data/04509.Delitzsch.BeerendorferStrasse.49> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04509.Delitzsch.BeerendorferStrasse.49> a ld:Adresse  ;
    rdfs:label "Delitzsch, Beerendorfer Straße 49" ;
    ld:hasCity "Delitzsch" ;
    ld:hasStreet "Beerendorfer Straße" ;
@@ -6017,7 +6017,7 @@
    ld:hasHouseNumber "4" ;
    gsp:asWKT "Point(12.3654 51.3229)" . 
 
-<http://leipzig-data.de/Data/04435.Schkeuditz.Birkenweg.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04435.Schkeuditz.Birkenweg.1> a ld:Adresse  ;
    rdfs:label "Schkeuditz, Birkenweg 1" ;
    ld:hasCity "Schkeuditz" ;
    ld:hasStreet "Birkenweg" ;
@@ -6025,7 +6025,7 @@
    ld:hasHouseNumber "1" ;
    gsp:asWKT "Point(12.3026 51.4206)" . 
 
-<http://leipzig-data.de/Data/06184.Kabelsketal.AmMarkt.8> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06184.Kabelsketal.AmMarkt.8> a ld:Adresse  ;
    rdfs:label "Kabelsketal, Am Markt 8" ;
    ld:hasCity "Kabelsketal" ;
    ld:hasStreet "Am Markt" ;
@@ -6049,7 +6049,7 @@
    ld:hasHouseNumber "25" ;
    gsp:asWKT "Point(12.3705 51.3263)" . 
 
-<http://leipzig-data.de/Data/04509.Delitzsch.EilenburgerStrasse.30> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04509.Delitzsch.EilenburgerStrasse.30> a ld:Adresse  ;
    rdfs:label "Delitzsch, Eilenburger Straße 30" ;
    ld:hasCity "Delitzsch" ;
    ld:hasStreet "Eilenburger Straße" ;
@@ -6065,7 +6065,7 @@
    ld:hasHouseNumber "25" ;
    gsp:asWKT "Point(12.3729 51.3555)" . 
 
-<http://leipzig-data.de/Data/04416.Markkleeberg.Arndtstrasse.2> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04416.Markkleeberg.Arndtstrasse.2> a ld:Adresse  ;
    rdfs:label "Markkleeberg, Arndtstraße 2" ;
    ld:hasCity "Markkleeberg" ;
    ld:hasStreet "Arndtstraße" ;
@@ -6073,7 +6073,7 @@
    ld:hasHouseNumber "2" ;
    gsp:asWKT "Point(12.3979 51.277)" . 
 
-<http://leipzig-data.de/Data/04416.Markkleeberg.Rathausstrasse.33> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04416.Markkleeberg.Rathausstrasse.33> a ld:Adresse  ;
    rdfs:label "Markkleeberg, Rathausstraße 33" ;
    ld:hasCity "Markkleeberg" ;
    ld:hasStreet "Rathausstraße" ;
@@ -6129,7 +6129,7 @@
    ld:hasHouseNumber "XX" ;
    gsp:asWKT "Point(12.4539 51.3138)" . 
 
-<http://leipzig-data.de/Data/04435.Schkeuditz.Rathausplatz.1> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04435.Schkeuditz.Rathausplatz.1> a ld:Adresse  ;
    rdfs:label "Schkeuditz, Rathausplatz 1" ;
    ld:hasCity "Schkeuditz" ;
    ld:hasStreet "Rathausplatz" ;
@@ -6137,7 +6137,7 @@
    ld:hasHouseNumber "1" ;
    gsp:asWKT "Point(12.2224 51.3964)" . 
 
-<http://leipzig-data.de/Data/06217.Merseburg(Saale).Gotthardstrasse.5> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/06217.Merseburg(Saale).Gotthardstrasse.5> a ld:Adresse  ;
    rdfs:label "Merseburg (Saale), Gotthardstraße 5" ;
    ld:hasCity "Merseburg (Saale)" ;
    ld:hasStreet "Gotthardstraße" ;
