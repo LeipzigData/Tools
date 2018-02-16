@@ -5,7 +5,7 @@ include_once("helper.php");
 function displayChanges() {
     $a=array();
     $nr=10000;
-    foreach (array_reverse(preg_split("/\n/",getData())) as $row) {
+    foreach (array_reverse(preg_split("/\n/",getData2018_01())) as $row) {
         if (preg_match("/Akteur deaktiviert/", $row)) {
             $a[]=akteurDeaktiviert($row,$nr++);
             }
@@ -58,6 +58,7 @@ function neueAktivitaet($row,$nr) {
     $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action/A',$action);
     $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event/E',$action);
     $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service/S',$action);
+    $action=str_replace('stores/','http://nachhaltiges-leipzig.de/Data/Stores/S',$action);
     $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur/A',$user);
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
@@ -87,6 +88,35 @@ function getData() {
     // Data extracted from email notifications
     return 
 '
+
+
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/83. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/82. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/81. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/80. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/79. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/78. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/77. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/76. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1027. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/76. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1026. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1025. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. actions/49. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1024. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1023. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1022. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1021. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/75. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. actions/48. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1020. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1019. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1018. 2018-02-16
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1017. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/47. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/46. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1016. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/45. 2018-02-15
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1015. 2018-02-15
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1014. 2018-02-15
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1013. 2018-02-15
@@ -526,7 +556,13 @@ Akteur hat sich registriert. Name: Bürgerverein Sellerhausen-Stünz . 2018-02-0
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/631. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/630. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/629. 2018-02-01
-Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
+';
+}
+
+function getData2018_01() {
+    // Data extracted from email notifications
+    return 
+'Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/627. 2018-01-30
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/626. 2018-01-29
 Akteur hat sich registriert. Name: Natur- und Wildnisschule Leipzig GbR  . 2018-01-29
@@ -629,8 +665,13 @@ Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/538. 2018-
 Akteur hat sich registriert. Name: DGGL Sachsen . 2018-01-05
 Neue Aktivität von Fanö-Mode eingetragen. admin/users/178. events/537. 2018-01-05
 Neue Aktivität von Vier Fährten eingetragen. Mit Tieren verbunden. admin/users/176. actions/22. 2018-01-05
-Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05
-Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05';
+        }
+
+function getData2017() {
+    // Data extracted from email notifications
+    return 
+'Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
 Akteur hat sich registriert. Name: Fanö-Mode . 2017-12-26
 Akteur deaktiviert: Sylke Nissen (Leipzig, Sylke Nissen) . 2017-12-22
 Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/535. 2017-12-20
@@ -689,7 +730,7 @@ Akteur deaktiviert: kunZstoffe – urbane Ideenwerkstatt e.V. (Leipzig, Christin
 }
 
 // zum Testen
-// echo displayChanges();
+echo displayChanges();
 
 
 ?>

@@ -1,0 +1,634 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix nl: <http://nachhaltiges-leipzig.de/Data/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+
+
+
+<http://nachhaltiges-leipzig.de/Data/Changes/> a owl:Ontology ;
+    rdfs:comment "Changes zur Datenbank";
+    rdfs:label "Nachhaltiges Leipzig - Changes" .
+
+<http://nachhaltiges-leipzig.de/Data/Activity10000> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E536> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10001> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action/A22> ;
+ dct:created "2018-01-05" ;
+ rdfs:comment "Mit Tieren verbunden. " . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10002> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A178> ;
+ nl:Akteur "Fanö-Mode" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E537> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10003> a nl:Activity ;
+ nl:Akteur "DGGL Sachsen" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10004> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E538> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10005> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E539> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10006> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E540> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10007> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E541> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10008> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E542> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10009> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E543> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10010> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E544> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10011> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E545> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10012> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E546> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10013> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E547> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10014> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E548> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10015> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E549> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10016> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E550> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10017> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E551> ;
+ dct:created "2018-01-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10018> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E552> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10019> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E553> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10020> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E554> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10021> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E555> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10022> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E556> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10023> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E557> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10024> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E558> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10025> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E559> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10026> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E560> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10027> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E561> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10028> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E562> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10029> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E563> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10030> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E564> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10031> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E565> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10032> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E566> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10033> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E567> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10034> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E568> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10035> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E569> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10036> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E570> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10037> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E571> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10038> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E572> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10039> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E573> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10040> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E574> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10041> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E575> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10042> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E576> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10043> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E577> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10044> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E578> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10045> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E579> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10046> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E580> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10047> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E581> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10048> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E582> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10049> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E583> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10050> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E584> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10051> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E585> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10052> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E586> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10053> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E587> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10054> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E588> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10055> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E589> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10056> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E590> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10057> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E591> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10058> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E592> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10059> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E593> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10060> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E594> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10061> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E595> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10062> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E596> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10063> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E597> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10064> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E598> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10065> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E599> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10066> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E600> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10067> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E601> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10068> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E602> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10069> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E603> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10070> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E604> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10071> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E605> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10072> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E606> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10073> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E607> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10074> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E608> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10075> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E609> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10076> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E610> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10077> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E611> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10078> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
+ nl:Akteur "Auwaldstation" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E612> ;
+ dct:created "2018-01-06" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10079> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A179> ;
+ nl:Akteur "Leipzig Grün" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E613> ;
+ dct:created "2018-01-08" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10080> a nl:Activity ;
+ nl:Akteur "Stefan Härtel" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-11" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10081> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A180> ;
+ nl:Akteur "Stefan Härtel" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E614> ;
+ dct:created "2018-01-11" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10082> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A180> ;
+ nl:Akteur "Stefan Härtel" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E615> ;
+ dct:created "2018-01-11" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10083> a nl:Activity ;
+ nl:Akteur "Orang-Utans in Not" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-15" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10084> a nl:Activity ;
+ nl:Akteur "Matthias Schmidt" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-15" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10085> a nl:Activity ;
+ nl:Akteur "Luise Neugebauer Schmuck" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-17" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10086> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A86> ;
+ nl:Akteur "Araki Verlag" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action/A23> ;
+ dct:created "2018-01-18" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10087> a nl:Activity ;
+ nl:Akteur "Gartenfreunde Süd e.V." ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10088> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A184> ;
+ nl:Akteur "Gartenfreunde Süd e.V." ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E616> ;
+ dct:created "2018-01-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10089> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A178> ;
+ nl:Akteur "Fanö-Mode" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Stores/S317> ;
+ dct:created "2018-01-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10090> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
+ nl:Akteur "Lebendige Luppe" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E617> ;
+ dct:created "2018-01-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10091> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
+ nl:Akteur "Lebendige Luppe" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E618> ;
+ dct:created "2018-01-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10092> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
+ nl:Akteur "Lebendige Luppe" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E619> ;
+ dct:created "2018-01-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10093> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
+ nl:Akteur "Lebendige Luppe" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E620> ;
+ dct:created "2018-01-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10094> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
+ nl:Akteur "Lebendige Luppe" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E621> ;
+ dct:created "2018-01-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10095> a nl:Activity ;
+ nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10096> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E622> ;
+ dct:created "2018-01-27" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10097> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E623> ;
+ dct:created "2018-01-27" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10098> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E624> ;
+ dct:created "2018-01-27" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10099> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A176> ;
+ nl:Akteur "Vier Fährten" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E625> ;
+ dct:created "2018-01-27" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10100> a nl:Activity ;
+ nl:Akteur "Natur- und Wildnisschule Leipzig GbR" ;
+ nl:Aktivitaet "registered" ;
+ dct:created "2018-01-29" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10101> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A186> ;
+ nl:Akteur "Natur- und Wildnisschule" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E626> ;
+ dct:created "2018-01-29" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10102> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A186> ;
+ nl:Akteur "Natur- und Wildnisschule" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E627> ;
+ dct:created "2018-01-30" . 
+
+<http://nachhaltiges-leipzig.de/Data/Activity10103> a nl:Activity ;
+ nl:User <http://nachhaltiges-leipzig.de/Data/Akteur/A186> ;
+ nl:Akteur "Natur- und Wildnisschule" ;
+ nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event/E628> ;
+ dct:created "2018-01-31" . 
