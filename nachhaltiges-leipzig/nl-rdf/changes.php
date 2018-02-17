@@ -5,7 +5,7 @@ include_once("helper.php");
 function displayChanges() {
     $a=array();
     $nr=10000;
-    foreach (array_reverse(preg_split("/\n/",getData2018_01())) as $row) {
+    foreach (array_reverse(preg_split("/\n/",getData())) as $row) {
         if (preg_match("/Akteur deaktiviert/", $row)) {
             $a[]=akteurDeaktiviert($row,$nr++);
             }
@@ -89,7 +89,50 @@ function getData() {
     return 
 '
 
-
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/63. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1053. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/62. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1052. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/61. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1051. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/60. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/59. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/58. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1050. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/57. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1049. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1048. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1047. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1046. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/56. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1045. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1044. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1043. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/55. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/54. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1042. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1041. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1040. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/53. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1039. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1038. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1037. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1036. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1035. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1034. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1033. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1032. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1031. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1030. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/52. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/51. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1029. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1028. 2018-02-17
+Akteur deaktiviert: Nextleipzig (Leipzig, Peter Hartmann) .  2018-02-17
+Akteur hat sich registriert. Name: Magistralenmanagement Georg-Schumann-Straße . 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/86. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/85. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/84. 2018-02-16
 Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/83. 2018-02-16
 Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/82. 2018-02-16
 Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/81. 2018-02-16
