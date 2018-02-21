@@ -16,15 +16,15 @@
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Nachhaltiges Leipzig - Projekte" .
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P5> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.5> a nl:Projekt  ;
    nl:hasID "5" ;
    nl:hasDescription """Die Kurzbeschreibung erscheint zusammen mit dem Projekttitel in der Listenansicht von Projekten. Bitte wählen Sie eine Kurzbeschreibung, die mit wenig Worten deutlich macht, worum es bei diesem Projekt geht.""" ;
    nl:hasSummary """Dies ist noch ein weiteres Projekt""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.33> ;
-   dct:created "2013-08-09T16:23:05" ;
-   dct:updated "2013-08-09T16:42:02" . 
+   dct:created "2013-08-09" ;
+   dct:modified "2013-08-09" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P6> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.6> a nl:Projekt  ;
    nl:hasID "6" ;
    nl:hasDescription """Der Leipziger Auwald ist seit geraumer Zeit sehr in den öffentlichen Debatten präsent. Gleichfalls steht er im Fokus von Visionen für eine zukünftige wassertouristische Nutzung des Neuseenlandes rund um Leipzig. Eine dieser Visionen ist das "AULA-Projekt2030. Das grüne Band entlang der Weißen Elster". Das Projekt strebt an, die Auenbereiche der Weißen Elster von Zeitz bis Merseburg mit dem Leipziger Auwald als Nukleus, als funktionierendes Auenökosystem den Menschen der Region und ihren Gästen ins Bewusstsein zu bringen. Diesen besonderen Ort für nachfolgende Generationen zu erhalten und  zu schützen, hat sich AULA zum Ziel gesetzt. 
 Deshalb haben der NABU-Regionalverband Leipzig und NuKLA e.V. das AULA-Projekt ins Leben gerufen, das als “Arbeitsgemeinschaft zur Erarbeitung einer möglichen UNESCO Bewerbung für den Leipziger Auwald und Umgebung” Fachleute, Naturschützer und andere am Auwald Interessierten darüber beraten und Vorschläge entwickeln soll, was notwendig für den weiteren Schutz dieser Auenökosysteme ist und wie sich das realisieren lässt. 
@@ -39,12 +39,13 @@ NuKLA  e. V. Vorsitzender, Wolfgang E. A. Stoiber     03.10.2013""" ;
    nl:hasSummary """AULA steht für Arbeitsgemeinschaft UNESCO Leipziger Auwald und Umgebung.""" ;
    nl:hasVideoURL <https://www.youtube.com/watch?v=_8hmvs8QD7U> ;
    nl:hasInfoURL <http://www.LeipzigerAuwald.de> ;
-   dct:created "2013-09-14T10:01:31" ;
-   dct:updated "2016-12-30T12:44:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A10> ;
+   dct:created "2013-09-14" ;
+   dct:modified "2016-12-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.14> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P7> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.7> a nl:Projekt  ;
    nl:hasID "7" ;
    nl:hasDescription """Gemeinsam mit Partnern und Förderern wird die Umweltinformationsarbeit der Stadt fortlaufend seit 2001 mit unterstützt - finanziell und durch persönliches Engagement. 
 Der Förderverein ist auch Ansprechpartner für das Netzwerk Umweltbildung Sachsen, Region Leipzig. 
@@ -55,12 +56,13 @@ Nachfragen  und Anregungen sind willkommen!""" ;
    nl:hasPropertyList """Fortlaufende Förderung von Projekten Umweltbildung 
 Umweltinformation""" ;
    nl:hasInfoURL <http://www.umwelt-leipzig.de> ;
-   dct:created "2013-09-16T07:48:38" ;
-   dct:updated "2015-08-19T09:37:41" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A11> ;
+   dct:created "2013-09-16" ;
+   dct:modified "2015-08-19" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.19> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.11> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P9> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.9> a nl:Projekt  ;
    nl:hasID "9" ;
    nl:hasDescription """Der Leipziger Auwald bietet ideale Voraussetzungen, um die heimische Tier- und Pflanzenwelt genauer kennen zu lernen und ökologische Zusammenhänge unmittelbar nachzuvollziehen. Auch an Gewässern, in Parks und sogar auf Brachflächen mitten in der Stadt lohnt es sich immer, genauer hinzuschauen!
 
@@ -78,12 +80,13 @@ unterrichtsbegleitend (Sachunterricht, Biologie)
 Naturkunde in der pädagogischen Praxis (Weiterbildungsangebot für Lehrer und ErzieherInnen)""" ;
    nl:hasInfoURL <http://www.oekoloewe.de/leipzignaturnah.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-   dct:created "2013-09-18T07:56:18" ;
-   dct:updated "2016-11-25T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A14> ;
+   dct:created "2013-09-18" ;
+   dct:modified "2016-11-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.25> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.14> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P10> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.10> a nl:Projekt  ;
    nl:hasID "10" ;
    nl:hasDescription """"Natur in der Stadt entdecken und erleben" ist seit 1993 das Motto des Stadtgarten Connewitz im Leipziger Süden. Der naturnah gestaltete Schau- und Erlebnisgarten ist ein Ort der Erholung, Wissensvermittlung und Naturerfahrung mitten in der Stadt.
 
@@ -102,46 +105,50 @@ naturnahes Gärtnern""" ;
    nl:hasVideoURL <http://www.oekoloewe.de/video.html> ;
    nl:hasInfoURL <http://www.oekoloewe.de/bildungimstadtgarten.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.KohrenerStrasse.XX> ;
-   dct:created "2013-09-18T08:14:47" ;
-   dct:updated "2016-11-25T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A14> ;
+   dct:created "2013-09-18" ;
+   dct:modified "2016-11-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.26> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.14> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P11> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.11> a nl:Projekt  ;
    nl:hasID "11" ;
    nl:hasDescription """Was für den einen nutzlos ist und weggeworfen werden soll, kann ein anderer vielleicht noch gebrauchen. Oft weiß aber der eine vom anderen nichts.  Um die Interessenten zusammenzubringen, gibt es den nicht kommerziellen Tausch- und Verschenkemarkt. Jeder kann hier kostenlos und einfach privat suchen, tauschen und verschenken.""" ;
    nl:hasSummary """Kostenlose Internetplattform zum Tausch oder kostenlosen Weitergabe gebrauchter Gegenstände""" ;
    nl:hasInfoURL <http://www.leipzig.internet-verschenkmarkt.de/info.asp> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04328.Leipzig.GeithainerStrasse.60> ;
-   dct:created "2013-09-25T14:38:39" ;
-   dct:updated "2017-01-13T13:06:01" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A19> ;
+   dct:created "2013-09-25" ;
+   dct:modified "2017-01-13" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.28> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.19> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P12> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.12> a nl:Projekt  ;
    nl:hasID "12" ;
    nl:hasDescription """Im Sinne des Ehrenamts ist es immer wieder wichtig, auch Jugendliche für freiwilliges Engagement zu sensibilisieren, zu motivieren und sie in diesem Zusammenhang an Werte wie Verständnis, Hilfsbereitschaft, Güte und Vertrauen heranzuführen. Dafür braucht es selbstverständlich konkrete Angebote. Unter dem Motto "Engagement macht Schule" möchten wir deshalb Verbundnetz-Mitglieder und deren Vereine bzw. Initiativen mit Jugendlichen zusammenführen. Dabei ist Eigeninitiative auf beiden Seiten gefragt. Kinder und Jugendliche übernehmen soziale Verantwortung, die Verbundnetz-Mitglieder sorgen für eine sinnvolle Bereicherung von Freizeitangeboten oder Unterrichtsstunden beziehungsweise erhalten direkte Mithilfe bei ihren Projekten und Initiativen. Durch Kooperationsverträge sollen so Partnerschaften zwischen Schulen bzw. einzelnen Klassen und Vereinen des Verbundnetzes entstehen.
 
 Haben Sie eine Idee für ein derartiges Projekt oder arbeiten Sie bereits mit Schulen oder Jugendeinrichtungen zusammen? Dann melden Sie sich bei uns – wir freuen uns auf Ihre Unterstützung!""" ;
    nl:hasSummary """"Engagement macht Schule" - Das Verbundnetz fördert die Zusammenarbeit von ehrenamtlich Aktiven mit Kindern und Jugendlichen.""" ;
    nl:hasInfoURL <http://www.verbundnetz-der-waerme.de/v201208/engagement-macht-schule.html> ;
-   dct:created "2013-09-26T16:24:29" ;
-   dct:updated "2013-09-26T16:24:29" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A22> ;
+   dct:created "2013-09-26" ;
+   dct:modified "2013-09-26" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.31> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.22> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P13> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.13> a nl:Projekt  ;
    nl:hasID "13" ;
    nl:hasDescription """Das "Verbundnetz der Wärme" ist ein deutsches Netzwerk, das im Herbst 2001 auf Initiative der VNG - Verbundnetz Gas Aktiengesellschaft und unter der Schirmherrschaft von Dr. Regine Hildebrandt (†) gegründet wurde. Dieses in Deutschland einmalige Netzwerk hat sich zum Ziel gesetzt, gemeinnütziges Engagement zu fördern. Der derzeitige Schirmherr ist Bundestagsvizepräsident Wolfgang Thierse.""" ;
    nl:hasSummary """Das "Verbundnetz der Wärme" – das Netzwerk der VNG - Verbundnetz Gas AG, Leipzig zur Förderung gemeinnützigen Engagements in Deutschland.""" ;
    nl:hasVideoURL <http://www.youtube.com/user/verbundnetzderwaerme?feature=results_main> ;
    nl:hasInfoURL <http://www.verbundnetz-der-waerme.de> ;
-   dct:created "2013-09-26T16:30:11" ;
-   dct:updated "2016-06-03T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A22> ;
+   dct:created "2013-09-26" ;
+   dct:modified "2016-06-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.32> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.22> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P14> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.14> a nl:Projekt  ;
    nl:hasID "14" ;
    nl:hasDescription """Hier kannst Du Deine eigenen Projekte vorstellen. Du kannst die Plattform nutzen, um andere Menschen in und um Leipzig für deine Ideen/ deine Projekte zu gewinnen und sie so bald Wirklichkeit werden zu lassen.
 
@@ -160,12 +167,13 @@ Soziales
 Handwerk und Technik
 Sonstiges""" ;
    nl:hasInfoURL <http://www.lindentaler.org/index.php?id_kat=125undsprache=deundsektion=52> ;
-   dct:created "2013-09-26T21:59:38" ;
-   dct:updated "2014-08-31T20:25:05" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A23> ;
+   dct:created "2013-09-26" ;
+   dct:modified "2014-08-31" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.34> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P15> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.15> a nl:Projekt  ;
    nl:hasID "15" ;
    nl:hasDescription """Angebote und Gesuche aufgeben, kannst du entweder unter "Dienstleistungen", "Produkte", "Projektbörse" oder unter "Teilen/ Sharing", dort erscheinen dann die weiteren "Unterrubriken". Wähle die Rubrik aus, zu der dein Angebot oder Gesucht am besten passt. Wenn dir keine Rubrik passend erscheint, dann wähle „sonstiges″.
 Wenn Du immer über die neuesten Anzeigen informiert werden möchtest, kannst Du im Mitgliederbereich links unter Anzeigen-Abo die Rubriken anklicken, von denen Du e-Mails erhalten möchtest!
@@ -205,12 +213,13 @@ Produkte:
     Tauschen
     Tiere""" ;
    nl:hasInfoURL <http://www.lindentaler.org> ;
-   dct:created "2013-09-26T22:36:20" ;
-   dct:updated "2014-08-31T20:27:42" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A23> ;
+   dct:created "2013-09-26" ;
+   dct:modified "2014-08-31" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.35> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P16> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.16> a nl:Projekt  ;
    nl:hasID "16" ;
    nl:hasDescription """Der Lindentaler ist ein komplementäres Tauschmittel aus Leipzig, das inzwischen auch im Land Sachsen, Thüringen und Sachsen-Anhalt rege genutzt wird. Das Konzept des Lindentalers ist entstanden aus den Ideen des Bedingungslosen Grundeinkommens,  der Tauschringe  und Regionalwährungen.
 
@@ -229,12 +238,13 @@ Um so mehr wir zu einer bunten, vielfältigen und kreativen Bewegung werden, um 
    nl:hasPropertyList """Komplementärwährung
 Postwachstum""" ;
    nl:hasInfoURL <http://www.lindentaler.org/index.php?id_kat=68undsprache=deundsektion=35> ;
-   dct:created "2013-09-26T22:55:29" ;
-   dct:updated "2013-09-26T23:04:49" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A23> ;
+   dct:created "2013-09-26" ;
+   dct:modified "2013-09-26" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.36> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P17> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.17> a nl:Projekt  ;
    nl:hasID "17" ;
    nl:hasDescription """Das Konzeptwerk Neue Ökonomie ist ein unabhängiger und gemeinnütziger Think Tank. Wir entwickeln und verbreiten Konzepte für eine soziale, ökologische und demokratische Wirtschaft.
 
@@ -253,12 +263,13 @@ Demokratie""" ;
    nl:hasVideoURL <https://www.youtube.com/watch?v=prcuTe6nWP8> ;
    nl:hasInfoURL <http://www.konzeptwerk-neue-oekonomie.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
-   dct:created "2013-09-30T15:32:45" ;
-   dct:updated "2017-01-17T14:35:10" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A27> ;
+   dct:created "2013-09-30" ;
+   dct:modified "2017-01-17" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.40> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P18> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.18> a nl:Projekt  ;
    nl:hasID "18" ;
    nl:hasDescription """Die "Leipziger Hilfepunkte" sind Anlaufstellen im Stadtgebiet, die nicht nur Kindern, sondern allen Hilfebedürftigen bei kleinen Notfällen im Alltag unkompliziert helfen. Dabei soll es sich um Kleinigkeiten und Gesten handeln, die in unserer heutigen Lebensumwelt und Gesellschaft nicht immer selbstverständlich sind.
 Die Aktion „Leipziger Hilfepunkte“ soll alle Bürger der Stadt Leipzig ansprechen – jung und alt, um die Stadt Leipzig noch (familien-)freundlicher und hilfsbereiter werden zu lassen. Denn nicht nur Kinder sind auf Personen und Orte angewiesen, an denen sie unkompliziert Hilfe und Hinweise bekommen können.
@@ -273,12 +284,13 @@ Hilfe
 Vernetzung""" ;
    nl:hasVideoURL <http://www.leipzig-fernsehen.de/Aktuell/Leipzig/Artikel/914545/Leipziger-Hilfepunkte-fuer-besseres-Sicherheitsgefuehl-/> ;
    nl:hasInfoURL <http://www.leipziger-kinderbuero.de/> ;
-   dct:created "2013-10-11T12:01:50" ;
-   dct:updated "2013-10-11T12:04:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A29> ;
+   dct:created "2013-10-11" ;
+   dct:modified "2013-10-11" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.44> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.29> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P19> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.19> a nl:Projekt  ;
    nl:hasID "19" ;
    nl:hasDescription """In Leipzig gibt es viele Bemühungen, die Schulwege vor allem für Grundschulkinder sicherer zu machen. Im September 2012 startete das Ordnungsamt der Stadt Leipzig in Kooperation mit dem Leipziger Kinderbüro das neue Projekt "Schulweg - Safari". 
 Was heißt eigentlich "Schulweg - Safari"? Die Schulweg - Safari setzt sich aus mehreren Bestandteilen zusammen:
@@ -305,12 +317,13 @@ Verkehr
 Kompetenz""" ;
    nl:hasVideoURL <http://www.myvideo.de/watch/8740662/Leipzig_Fit_fuer_Verkehrsdschungel> ;
    nl:hasInfoURL <http://www.schulweg-safari.de/leipzig> ;
-   dct:created "2013-10-24T12:51:36" ;
-   dct:updated "2013-10-24T12:51:36" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A29> ;
+   dct:created "2013-10-24" ;
+   dct:modified "2013-10-24" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.46> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.29> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P20> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.20> a nl:Projekt  ;
    nl:hasID "20" ;
    nl:hasDescription """In Kooperation mit zwei Schulen schaffen wir in Leipzig einen offenen und geselligen Ort für Bastler*innen und die, die es gerne werden möchten:
 Im Café Kaputt können Menschen von jung bis alt ihre Alltagsgegenstände aller Art reparieren lernen. Von MP3-Player über Schaukelstuhl, Küchenmixer bis hin zu Lieblingspulli und Stricksocken ist alles möglich. Ehrenamtliche Expert*innen helfen in ihren regelmäßigen Sprechstunden beim Löten, Leimen, Biegen, Sägen, Nähen, Stopfen… Sie geben Euch Tipps und packen auch mal mit an, wo es knifflig ist. Vor Ort stehen gemeinschaftlich genutzte Werkzeuge und Do-It-Yourself-Ratgeberliteratur zur Verfügung. Außerdem bietet unser Blog einen Überblick über Reparaturangebote in ganz Leipzig und online-Reparaturhilfen im Netz. Kosten soll das ganze nix – es läuft auf Spendenbasis damit Jede*r mitmachen kann. Gemeinsam setzen wir ein Zeichen gegen das Wegwerfen und für eine nachhaltige Konsumkultur in unserer Stadt!""" ;
@@ -318,12 +331,13 @@ Im Café Kaputt können Menschen von jung bis alt ihre Alltagsgegenstände aller
    nl:hasVideoURL <http://vimeo.com/69308829> ;
    nl:hasInfoURL <http://www.cafekaputt.lebenlernenleipzig.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.102> ;
-   dct:created "2013-10-29T13:11:24" ;
-   dct:updated "2015-05-15T05:15:34" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A32> ;
+   dct:created "2013-10-29" ;
+   dct:modified "2015-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.53> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P21> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.21> a nl:Projekt  ;
    nl:hasID "21" ;
    nl:hasDescription """Was wächst eigentlich vor unserer Haustür? Und können wir mit heimischen Lebensmittelprodukten die Welt retten?
 
@@ -338,12 +352,13 @@ Wir nehmen „die Tomate“ theoretisch auseinander und sensibilisieren für die
    nl:hasSummary """Projekttage für Kinder und Jugendliche rund um nachhaltigen Lebensmittelkonsum im Gemeinschaftsgarten Querbeet.""" ;
    nl:hasInfoURL <http://lebenlernenleipzig.wordpress.com/aktuelle-projekte/projekttag-tomate/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.17> ;
-   dct:created "2013-10-29T13:19:46" ;
-   dct:updated "2015-05-15T05:15:35" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A32> ;
+   dct:created "2013-10-29" ;
+   dct:modified "2015-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.54> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P22> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.22> a nl:Projekt  ;
    nl:hasID "22" ;
    nl:hasDescription """Der Stromspar-Check hat mehrere Ziele: zum einen soll der Stromverbrauch in einkommensschwachen Haushalten verringert werden, zum anderen erhalten Langzeitarbeitslose als Stromsparhelfer eine neue Perspektive auf dem Arbeitsmarkt. 
 
@@ -365,12 +380,13 @@ Der Haushalt bekommt eine schriftliche Auswertung der Verbrauchssituation. Im gl
 www.stromspar-check.de""" ;
    nl:hasInfoURL <http://www.stromspar-check.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.AlteSalzstrasse.62> ;
-   dct:created "2013-11-26T15:08:43" ;
-   dct:updated "2014-12-27T06:15:14" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A37> ;
+   dct:created "2013-11-26" ;
+   dct:modified "2014-12-27" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.59> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.37> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P23> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.23> a nl:Projekt  ;
    nl:hasID "23" ;
    nl:hasDescription """Piepenbrock Sicherheit wurde vom Beschäftigungspakt „Jahresringe“ im Jahr 2010 und 2012 ausgezeichnet. 
 Jahresringe ist einer von bundesweit 78 Beschäftigungspakten im Rahmen des vom Bundesministerium für Arbeit und Soziales (BMAS) geförderten Programms "Perspektive 50plus - Beschäftigungspakte für Ältere in den Regionen“ zur Verbesserung der Beschäftigungschancen älterer Langzeitarbeitsloser. 
@@ -379,34 +395,37 @@ In Kooperation mit Jahresringe hat Piepenbrock in den vergangenen Jahren ältere
    nl:hasSummary """Einstellung und Wertschätzung von Mitarbeitern über 50 Lebensjahren""" ;
    nl:hasVideoURL <http://www.jahresringe-halle.de/2011w/index.php?W=0undU=9undP=0> ;
    nl:hasInfoURL <http://www.piepenbrock.de/de/presse/pressemitteilungen/piepenbrock-ist-unternehmen-mit-weitblick.html> ;
-   dct:created "2013-12-13T10:35:02" ;
-   dct:updated "2015-01-16T06:15:22" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A39> ;
+   dct:created "2013-12-13" ;
+   dct:modified "2015-01-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.64> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.39> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P24> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.24> a nl:Projekt  ;
    nl:hasID "24" ;
    nl:hasDescription """Das Projektteam hat sich  intensiv mit der Funktionsweise eine Photovoltaikanlage beschäftigt. Die SchülerInnen setzten sich mit den technischen und wirtschaftlichen Voraussetzungen und Bedingungen auseinander, die den Einsatz einer Photovoltaikanlage an der Gustav-Hertz-Schule maßgeblich beeinflussen. Sie ermittelten den aktuellen Stromverbrauch an der Schule und erarbeiteten Energieeinsparmöglichkeiten an. Sie kooperierten mit externen PartnerInnen und suchten Sponsoren und Unterstützer. Die SchülerInnen wurden mit einem konkreten Projekt an ökologisch-wirtschaftliches und unternehmerisches Handeln herangeführt.
 Ergebnis: Inbetriebnahme einer 32 kWp PV-Anlage am 30.3.2012""" ;
    nl:hasSummary """Schüler verschiedener Klassenstufen erarbeiteten eine Projektkonzeption mit dem Ziel eine PV-Anlage auf dem Dach der Schule zu installieren""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Dachsstrasse.5> ;
-   dct:created "2013-12-18T10:18:40" ;
-   dct:updated "2015-02-09T09:59:31" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A41> ;
+   dct:created "2013-12-18" ;
+   dct:modified "2015-02-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.66> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.41> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P25> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.25> a nl:Projekt  ;
    nl:hasID "25" ;
    nl:hasDescription """Seit 6.12.2012 werden mittels Datenlogger und Display die Daten der auf dem Dach installierten 32 KWp PV-Anlage analysiert und dargestellt.  Die Schirmerinnen des Schülerprojektes "PV-Anlage auf dem Gustav-Hertz-Gymnasium", die Leipziger Bundestagsabgeordneten Daniela Kolbe (SPD) und Monika Lazar (Bündnis90/Die Grünen), waren beim Start der Datenauswertung dabei. Display und Datenlogger wurde vom BMU im Rahmen der Klimaschutzinitiative gefördert.""" ;
    nl:hasSummary """Gustav-Hertz-Gymnasium ist als erste Leipziger Schule beim deutschen Klimaschutzschulenatlas dabei""" ;
    nl:hasInfoURL <http://www.klimaschutzschulenatlas.de/Gustav-Hertz-GymnasiumLeipzig> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Dachsstrasse.5> ;
-   dct:created "2013-12-18T10:42:24" ;
-   dct:updated "2015-02-09T09:59:48" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A41> ;
+   dct:created "2013-12-18" ;
+   dct:modified "2015-02-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.67> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.41> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P26> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.26> a nl:Projekt  ;
    nl:hasID "26" ;
    nl:hasDescription """Querbeet ist ein urbaner Gemeinschaftsgarten im Leipziger Osten. Wir verbinden ökologisches und gemeinschaftliches Gärtnern mit einer Reihe sozio-kultureller Aktivitäten wie z.B. das Flimmergarten Filmfestival.
 
@@ -414,12 +433,13 @@ Eine Genaue Projektbeschreibung findet sich auf dem Blog der Initiative www.quer
    nl:hasSummary """Querbeet ist ein offener urbaner Gemeinschaftsgarten.""" ;
    nl:hasInfoURL <http://www.querbeet-leipzig.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20> ;
-   dct:created "2014-02-06T10:53:52" ;
-   dct:updated "2015-03-09T06:15:37" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A42> ;
+   dct:created "2014-02-06" ;
+   dct:modified "2015-03-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.71> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.42> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P27> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.27> a nl:Projekt  ;
    nl:hasID "27" ;
    nl:hasDescription """Eine verwilderte Parzelle im Verein wurde 2012 durch die gemeinsame Arbeit zu einem intergenerativen Ort der Begegnung umgestaltet. Junge Familien, die sich für das Thema Garten interessieren, aber bei der Anschaffung noch unschlüssig sind, kommen mit Gärtnern ins Gespräch und können erste Erfahrungen sammeln. Den Garten nutzen Jung und Alt aber auch zum Verweilen und Plaudern oder für ein gemeinsames Essen an der frischen Luft.""" ;
    nl:hasSummary """Mitglieder des Kleingartenvereins "Frohe Stunde" e.V. und Mitarbeiterinnen und Mitarbeiter der VLW eG realisierten einen "Garten der Begegnung"""" ;
@@ -430,12 +450,13 @@ Treffen der Generationen""" ;
    nl:hasVideoURL <http://www.genossenschaften.de/garten-der-begegnung> ;
    nl:hasInfoURL <http://www.vlw-eg.de/naturnahe-lebensraeume/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Slevogtstrasse.41> ;
-   dct:created "2014-03-17T13:59:20" ;
-   dct:updated "2015-04-16T05:15:38" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A45> ;
+   dct:created "2014-03-17" ;
+   dct:modified "2015-04-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.74> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P28> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.28> a nl:Projekt  ;
    nl:hasID "28" ;
    nl:hasDescription """Seit Juni 2013 zeigt „Nimm 4 - Stadthühner auf Tour“, wie einfach Selbstversorgung sein kann. Durch das Projekt werden soziale Netze und Zusammenhalt in den Nachbarschaften generationenübergreifend gefördert. „Urban Farming“ in der Stadt.
 
@@ -452,12 +473,13 @@ Nachbarschaften stärken
 Treffen der Generationen""" ;
    nl:hasInfoURL <https://www.facebook.com/Nimm4?ref=tsundfref=ts> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Balzacstrasse.19> ;
-   dct:created "2014-03-17T14:35:52" ;
-   dct:updated "2015-04-16T05:15:38" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A45> ;
+   dct:created "2014-03-17" ;
+   dct:modified "2015-04-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.75> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P29> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.29> a nl:Projekt  ;
    nl:hasID "29" ;
    nl:hasDescription """Nicht jeder verfügt über einen eigenen Balkon oder Garten, möchte aber trotzdem gerne Obst und Gemüse anbauen. Mit dem Projekt „Hofgeflüster – Gute Nachbarschaft ist pflanzbar“ war und ist das mit wenig Aufwand möglich. Für das 2012 gestartete Projekt wurde ein Modulsystem für Hochbeete entwickelt, die aus Recyclingmaterial gebaut werden. Gemeinsam mit den Bewohnern unterschiedlicher Generationen werden Konzepte erarbeitet, wie die Beete bewirtschaftet werden. Auf kleinster Anbaufläche wird gemeinsam gegärtnert. Dabei kommen die Bewohner ins Gespräch. Die Höfe gewinnen an Attraktivität und werden zum Treffpunkt für Jung und Alt der Hausgemeinschaft. Eine Form der gemeinschaftlich gestalteten Nachbarschaft. Auf einfache und schnell realisierbare Weise werden die Höfe zu Orten gelebter Nachbarschaft. Grünflächen werden nachhaltig genutzt. Das Bewusstsein für biologisch einwandfreie Lebensmittel wird intergenerativ geschärft, denn vom Kind bis zum Senior sind alle mit Begeisterung dabei.
 Das Projekt bringt die Ansätze von „Urban Gardening“ in die Innenhöfe von Leipziger Wohnanlagen.""" ;
@@ -471,12 +493,13 @@ Treffen der Generationen""" ;
    nl:hasVideoURL <http://www.youtube.com/watch?v=GwhSd5uWI8g> ;
    nl:hasInfoURL <http://www.stadtpflanzer.de/portfolio/hofgefluester-gute-nachbarschaft-ist-pflanzbar/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Balzacstrasse.19> ;
-   dct:created "2014-03-17T15:13:07" ;
-   dct:updated "2015-04-16T05:15:38" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A45> ;
+   dct:created "2014-03-17" ;
+   dct:modified "2015-04-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.76> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P30> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.30> a nl:Projekt  ;
    nl:hasID "30" ;
    nl:hasDescription """Seidentraum versteht sich als kompetenter Partner für Textilschaffende, Designer, Schneider und Endverbraucher bei der Herstellung und der Beschaffung von Seidenstoffen, Seidengarnen und Konfektionsware (DOB, Herrenmode, Babykleidung) aus biologischer Seidenzucht (kbt, non-violent) und fairer Produktion.""" ;
    nl:hasSummary """Projekt zur Herstellung und Vermarktung gesunder, nachhaltiger und sozialer Textilien aus Seide""" ;
@@ -487,12 +510,13 @@ Eigene Produkte kbT
 Gewaltfreie Seide (non-violent silk)""" ;
    nl:hasInfoURL <http://www.seidentraum.biz> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
-   dct:created "2014-03-31T16:17:05" ;
-   dct:updated "2015-02-09T15:28:34" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A48> ;
+   dct:created "2014-03-31" ;
+   dct:modified "2015-02-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.79> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.48> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P32> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.32> a nl:Projekt  ;
    nl:hasID "32" ;
    nl:hasDescription """Der ANNALINDE Gemeinschaftsgarten ist ein soziales urbanes Landwirtschaftsprojekt im Leipziger Westen. Seit 2011 gestalten und bespielen wir mit Nachbarn, Freiwilligen und Freunden eine 2.000 m² große Brachfläche hinter der Georg Maurer Bibliothek. In über 50 Hochbeeten und mehreren Gewächshäusern bauen wir nach den maßstäben des ökologischen Landbaus überwiegend Gemüse an.
 
@@ -505,12 +529,13 @@ Hauptziel unserer Arbeit sind niederschwellige Bildungs- und Beteiligungsmöglic
 urban""" ;
    nl:hasInfoURL <http://annalinde-leipzig.de/projects/gemeinschaftsgarten/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.12> ;
-   dct:created "2014-04-30T14:26:26" ;
-   dct:updated "2015-03-09T10:24:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A51> ;
+   dct:created "2014-04-30" ;
+   dct:modified "2015-03-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.85> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.51> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P33> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.33> a nl:Projekt  ;
    nl:hasID "33" ;
    nl:hasDescription """Sukuma arts e.V. - Sukuma Award
 
@@ -547,12 +572,13 @@ Workshopangebot mit entwicklungspolitischem und medienpädagogischem Fokus zu de
 Mitmach-Aktionen
 Kinospots zu "Global Nachhaltigem Konsum"""" ;
    nl:hasInfoURL <http://www.sukuma-award.de> ;
-   dct:created "2014-06-16T11:15:57" ;
-   dct:updated "2017-09-04T10:11:49" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A52> ;
+   dct:created "2014-06-16" ;
+   dct:modified "2017-09-04" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.92> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.52> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P34> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.34> a nl:Projekt  ;
    nl:hasID "34" ;
    nl:hasDescription """Unsere Wohnungen sind noch unsaniert, wenn Sie sie das erste mal sehen- damit Sie sehen was Sie mieten.
 Unsere Wohnungen modernisieren und gestalten nicht wir für Sie, sondern Sie mit uns.
@@ -561,12 +587,13 @@ Unsere Wohnungen und unsere Häuser leben durch die Menschen, die in ihnen wohne
 Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.""" ;
    nl:hasSummary """Wir vermieten Wohnungen- gesundes Wohnklima und freundliche Nachbarn""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.XX> ;
-   dct:created "2014-07-28T10:56:58" ;
-   dct:updated "2015-03-09T10:25:19" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A56> ;
+   dct:created "2014-07-28" ;
+   dct:modified "2015-03-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.100> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.56> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P35> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.35> a nl:Projekt  ;
    nl:hasID "35" ;
    nl:hasDescription """„fundamentale – Die junge Akademie“ ist eine unabhängige Akademie. Zur Verankerung von "Bildung für nachhaltige Entwicklung (BNE)" entwickeln wir theoretische und inhaltliche Grundlagen und Handlungsempfehlungen. „fundamentale – Die junge Akademie“ wurde 2014 zum dritten Mal in Folge als „Offizielles UN-Projekt“ zur BNE ausgezeichnet. 
 Wir sind Mitglied im "Global Compact" und im Akteursnetzwerk "FONA Forschung für nachhaltige Entwicklung" und Unterzeichner der "Charta der Vielfalt".""" ;
@@ -576,36 +603,39 @@ Aus- und Weiterbildung für Multiplikatoren "Bildung für nachhaltige Entwicklun
 Serviceangebote für Multiplikatoren für die Durchführung nachhaltig orientierter Veranstaltungen, Projekte und Veröffentlichungen""" ;
    nl:hasInfoURL <http://www.fundamentale.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Reiskestrasse.2> ;
-   dct:created "2014-08-12T11:36:53" ;
-   dct:updated "2015-09-27T05:15:38" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A47> ;
+   dct:created "2014-08-12" ;
+   dct:modified "2015-09-27" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.101> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.47> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P36> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.36> a nl:Projekt  ;
    nl:hasID "36" ;
    nl:hasDescription """Eine Givebox ist ein regengeschütztes Häuschen, zu dem jeder jederzeit Zugang hat. Jeder kann etwas hineintun, das er nicht mehr braucht, was aber noch gut und schön ist, und jeder kann etwas herausnehmen. Alle Nachbarn sind für Ordnung und Schönheit der Givebox gemeinsam verantwortlich.""" ;
    nl:hasSummary """Verschenkehäuschen in Schleußig""" ;
    nl:hasPropertyList """Verschenken Schenkökonomie Leben ohne Geld Bürger""" ;
    nl:hasInfoURL <http://www.werkstatt-des-lichts.de/givebox/index.htm> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Brockhausstrasse.31> ;
-   dct:created "2014-08-30T12:23:36" ;
-   dct:updated "2017-02-24T19:03:57" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A61> ;
+   dct:created "2014-08-30" ;
+   dct:modified "2017-02-24" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.102> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.61> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P37> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.37> a nl:Projekt  ;
    nl:hasID "37" ;
    nl:hasDescription """Verleih von Bierzeltgarnituren an gemeinnützige Organisationen im Leipziger Westen""" ;
    nl:hasSummary """Verleih von Bierzeltgarnituren""" ;
    nl:hasPropertyList """Bitte Kontaktaufnahme per Mail:
 baenke@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/baenke.html> ;
-   dct:created "2014-08-31T19:28:34" ;
-   dct:updated "2015-09-30T05:53:32" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-08-31" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.104> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P38> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.38> a nl:Projekt  ;
    nl:hasID "38" ;
    nl:hasDescription """Vorbereitung des Umzuges des Bauspielplatzes Wilder Westen in der Klingenstraße auf den künftigen Bürgerbahnhof Plagwitz, inkl. Planung/Bau eines Strohballenhauses. Planungsgruppe trifft sich nach Vereinbarung.""" ;
    nl:hasSummary """Vorbereitung des Umzuges des Bauspielplatzes Wilder Westen""" ;
@@ -613,12 +643,13 @@ baenke@buergerbahnhof-plagwitz.de""" ;
 wilder-westen@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/wilder-westen.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
-   dct:created "2014-08-31T19:34:58" ;
-   dct:updated "2015-09-30T05:55:49" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-08-31" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.105> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P39> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.39> a nl:Projekt  ;
    nl:hasID "39" ;
    nl:hasDescription """Auf dem Nordkopf des Bürgerbahnhofs Plagwitz wurden mit Unterstützgung des westwand e.V. und der Mibrag drei große Findlinge zum Klettern aufgestellt.""" ;
    nl:hasSummary """Klettern auf dem Bürgerbahnhof""" ;
@@ -626,12 +657,13 @@ wilder-westen@buergerbahnhof-plagwitz.de""" ;
 klettern@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/klettern.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.58> ;
-   dct:created "2014-09-01T06:14:24" ;
-   dct:updated "2015-09-30T05:56:09" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.106> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P40> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.40> a nl:Projekt  ;
    nl:hasID "40" ;
    nl:hasDescription """Vorbereitung von Nachbarschaftsgärten und urbaner Landwirtschaft (Annalinde) auf dem künftigen Bürgerbahnhof Plagwitz""" ;
    nl:hasSummary """Gärtnern auf dem Bürgerbahnhof""" ;
@@ -639,12 +671,13 @@ klettern@buergerbahnhof-plagwitz.de""" ;
 buergergaerten@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/buergergaerten.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
-   dct:created "2014-09-01T06:17:58" ;
-   dct:updated "2015-09-30T05:56:56" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.107> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P41> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.41> a nl:Projekt  ;
    nl:hasID "41" ;
    nl:hasDescription """Ein nicht mehr aktiver Gleisfinger kann für verschiedene Aktionen/Veranstaltungen genutzt werden, z.B. für den Bau einer kleinen Draisine (Schienenweg vorhanden).""" ;
    nl:hasSummary """Freiraum für diverse Projekte""" ;
@@ -652,12 +685,13 @@ buergergaerten@buergerbahnhof-plagwitz.de""" ;
 gleis3@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/gleis3.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.15> ;
-   dct:created "2014-09-01T06:29:48" ;
-   dct:updated "2015-09-30T05:58:17" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.108> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P42> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.42> a nl:Projekt  ;
    nl:hasID "42" ;
    nl:hasDescription """Vorbereitung einer Pfadfinderfläche des Stamm Leo auf dem künftigen Bürgerbahnhof Plagwitz""" ;
    nl:hasSummary """Pfadfinder auf dem Bürgerbahnhof""" ;
@@ -665,12 +699,13 @@ gleis3@buergerbahnhof-plagwitz.de""" ;
 pfadfinder@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/pfadfinder.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
-   dct:created "2014-09-01T06:36:45" ;
-   dct:updated "2015-09-30T05:58:56" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A62> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-09-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.109> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P43> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.43> a nl:Projekt  ;
    nl:hasID "43" ;
    nl:hasDescription """Unweit des Gemeinschaftsgartens liegt die Gärtnerei eingebettet zwischen alter Trikotage, Lützner- und Demmeringstraße auf dem ehemaligen Gelände der Gärtnerei Toepel. Neben dieser wunderschön gelegenen, fast 150 Jahre alten Gärtnerei, haben wir 2013 begonnen einen Acker anzulegen, zwei Foliegewächshäuser aufzubauen und die historische Glasgewächshäuser zu sanieren. Über siebzig Gemüsesorten werden derzeit ihren Platz hier.
 
@@ -681,80 +716,87 @@ Die neue Fläche soll für uns als Entwicklungs- und Experimentierraum für öko
 urban""" ;
    nl:hasInfoURL <http://annalinde-leipzig.de/projects/gaertnerei/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.108> ;
-   dct:created "2014-09-01T09:16:35" ;
-   dct:updated "2015-03-09T10:30:48" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A51> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-03-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.110> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.51> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P44> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.44> a nl:Projekt  ;
    nl:hasID "44" ;
    nl:hasDescription """Mauersegler sind anpassungsfähige Kulturfolger, die aber heute durch Umweltveränderungen, Nahrungs- und Nistplatzmangel bedroht sind. Der NABU Leipzig möchte die Menschen über die Bedürfnisse dieser Vögel besser aufklären, um ihre Brutstätten besser zu schützen oder neue anzubieten. Deshalb veranstaltet der NABU Leipzig alljährlich einen Mauersegler-Aktionstag in Leipzig, und zwar immer am 7.7. Zu dieser Zeit im Juli sind die Tiere besonders gut zu beobachten. Der NABU organisiert eine stadtweite Zählung von Mauerseglern und Schwalben, bei der alle Leipziger mitmachen können. Der erste Mauerseglertag fand am 7.7.2014 statt und war ein großer Erfolg für den Vogelschutz in unserer Stadt.
 Außerdem kümmert sich der NABU um rund 1.000 Mauersegler-Nisthilfen und um verunglückte Mauersegler oder hilfsbedürftige Jungvögel.""" ;
    nl:hasSummary """Schutz von Mauerseglern und Schwalben, Betreuung von Nisthilfen, Beratung von Bauvorhaben, Stadtweite Vogelzählung für Jedermann, Wildvogelhilfe""" ;
    nl:hasInfoURL <http://www.NABU-Leipzig.de/Mauersegler> ;
-   dct:created "2014-09-01T21:52:14" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.111> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P45> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.45> a nl:Projekt  ;
    nl:hasID "45" ;
    nl:hasDescription """Der Naturschutzbund NABU und der Landesbund für Vogelschutz in Bayern (LBV) haben den Grünspecht (Picus viridis) zum Vogel des Jahres 2014 gewählt. Damit wird ein Vogel gewürdigt, der auch in Leipzig nahezu im gesamten Stadtgebiet sowie im Umland anzutreffen ist.
 Der NABU-Regionalverband Leipzig möchte sich 2014 besonders intensiv für den Schutz des Grünspechts und seines Lebensraums einsetzen und bittet alle Naturfreunde um Unterstützung. Der Bestand der Grünspechte im gesamten Stadtgebiet soll erfasst und auf einer Karte im Internet dargestellt werden. Der Arbeitskreis Vogelschutz in der Stadt kartiert außerdem wertvolle Höhlenbäume und meldet Bruthöhlen der Naturschutzbehörde.""" ;
    nl:hasSummary """Erfassung der  Grünspechte in Leipzig, Höhlenbaumkartierung, giftfrei Gärtnern, naturnahe Grünflächen""" ;
    nl:hasInfoURL <http://goo.gl/7rDMxE> ;
-   dct:created "2014-09-01T22:00:56" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.112> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P46> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.46> a nl:Projekt  ;
    nl:hasID "46" ;
    nl:hasDescription """Das Projekt "Naturtäter" hat das Ziel, Menschen für ein ehrenamtliches Engagement im sächsischen Naturschutz zu gewinnen. Dabei sollen auch soziale Netzwerke wie Faceebook und Twitter sowie Smartphones oder GPS-Geräte intensiv genutzt werden.
 Für dieses Pilotprojekt arbeiten das Sächsische Staatsministerium für Umwelt und Landwirtschaft (SMUL), die Sächsische Landesstiftung Natur und Umwelt (LaNU) sowie der Naturschutzbund Sachsen (NABU) zusammen.
 Die Menschen sind eingeladen, bei Amphibienschutzprojekten des NABU in Sachsen mitzumachen, die sich für einen Einstieg besonders gut eignen und die auf ehrenamtliche Helfer angewiesen sind. Ansprechpartner und Projektmitarbeiter vor Ort sind die Naturschutzjugend Dresden, der NABU-Regionalverband Leipzig sowie der NABU-Kreisverband Freiberg.""" ;
    nl:hasSummary """Nachwuchsgewinnung für den ehrenamtlichen Naturschutz mithilfe Sozialer Netzwerke, Amphibienschutz""" ;
    nl:hasInfoURL <http://www.NABU-Leipzig.de/Amphibienschutz> ;
-   dct:created "2014-09-01T22:07:17" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.113> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P47> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.47> a nl:Projekt  ;
    nl:hasID "47" ;
    nl:hasDescription """Neuer Lebensraum und Rückzugsorte für Insekten, Vögel, Reptilien, Spinnen, Amphibien und viele andere Tiere soll geschaffen werden. Durch gezielte Gestaltung und tatkräftigen Einsatz können wir die Artenvielfalt auf dieser kleinen Fläche deutlich erhöhen. Vom artenarmen Garten zum Kleinbiotop in nur wenigen Monaten. Und du bist hautnah dabei. Es gibt viel zu entdecken und zu erforschen. Aber es wartet auch Einiges an Arbeit auf dem Weg dahin.
 Am Ende wollen wir natürlich anderen zeigen, wie man einen Garten sehr schön und gleichzeitig naturfreundlich gestalten und nutzen kann, um so weitere MitstreiterInnen in anderen Gärten zu finden. Dazu werden wir die Veränderungen dokumentieren, Tipps und Ratschläge geben und den Garten der Öffentlichkeit präsentieren. Mach mit und sei dabei, wenn sich unser Naturgarten Stück für Stück mit Leben füllt.""" ;
    nl:hasSummary """Umgestaltung eines Gartens, Schaffung von Kleinbiotopen""" ;
    nl:hasInfoURL <http://www.Leipzig.NAJU-Sachsen.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Theodor-Neubauer-Strasse.45> ;
-   dct:created "2014-09-01T22:20:05" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.114> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P48> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.48> a nl:Projekt  ;
    nl:hasID "48" ;
    nl:hasDescription """Vögel, die eigentlich in Felsnischen oder Baumhöhlen brüten, haben sich in der Welt der Menschen umorientiert. Sie nutzen unsere Gebäude, um ihre Nester zu bauen. Diese gebäudebewohnenden Vogelarten sind dem Menschen in die Städte gefolgt, sie nutzen seine Bauwerke; diese Vogelarten sind seit Jahrhunderten unsere Nachbarn.
 Doch bei modernen Gebäudesanierungen nimmt man oftmals keine Rücksicht auf die Bedürfnisse der tierischen Mitbewohner. So werden zum Beispiel Einfluglöcher und Brutnischen verschlossen oder vergittert.
 Deshalb ist Hilfe für Gebäudebrüter ein wichtiges Arbeitsfeld des Artenschutzes geworden. Mit Nisthilfen versucht man, den Vögeln zusätzliche Unterschlupfmöglichkeiten an Gebäuden zu schaffen, Plätze, an denen sie brüten können. Hervorragend geeignet dafür sind beispielsweise Kirchtürme. Der NABU unterstützt daher Kirchgemeinden, die sich aktiv für den Artenschutz einsetzen und Nisthilfen für Vögel im Kirchturm unterbringen. Mit der Aktion „Lebensraum Kirchturm“ wirbt der Naturschutzbund dafür, Nistplätze bedrohter gebäudebewohnender Vogelarten zu sichern. Besonders engagierte Kirchgemeinden werden dafür mit einer Plakette geehrt.""" ;
    nl:hasSummary """Der NABU Leipzig unterstützt Kirchgemeinden bei Vogelschutzmaßnahmen""" ;
    nl:hasInfoURL <http://goo.gl/0QdAEg> ;
-   dct:created "2014-09-01T22:25:14" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.115> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P49> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.49> a nl:Projekt  ;
    nl:hasID "49" ;
    nl:hasDescription """Friedhöfe sind nicht nur Orte der Stille und des Todes, sondern auch Naturoasen in der Stadt, Lebensraum für zahlreiche Tiere und Pflanzen. Entscheidend dafür ist aber, dass es naturnahe Ecken auf den Friedhöfen gibt oder verschiedene Nisthilfen für Vögel oder auch für Insekten. Der NABU-Regionalverband Leipzig engagiert sich für eine naturnahe Gestaltung von Friedhofsanlagen und kümmert sich um Artenschutzmaßnahmen.""" ;
    nl:hasSummary """Artenschutz zwischen den Gräbern""" ;
    nl:hasInfoURL <http://goo.gl/A3ddqp> ;
-   dct:created "2014-09-01T22:31:26" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.116> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P50> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.50> a nl:Projekt  ;
    nl:hasID "50" ;
    nl:hasDescription """Der NABU-Regionalverband Leipzig hat sich mit anderen Naturschutzorganisationen, ­-institutionen und -fachleuten zusammengetan, um gemeinsam an einer Leitidee für die ökologische Entwicklung der Region Leipzig zu arbeiten.
 Im Zentrum des Projektes steht das Auenökosystem mit dem Leipziger Auwald, seinen Gewässern und seinen Wiesen. Seit tausenden Jahren wurde es von Menschen gestaltet und verändert sowie für die Braunkohleförderung in großen Teilen vernichtet. Es leidet unter einer schleichenden Entwertung. Dennoch beherbergt es heute – auch als Folge vielfältiger Bemühungen von Naturschützern – eine beachtliche Vielfalt schützenswerter, zum Teil vom Aussterben bedrohter Tier- und Pflanzenarten. Es handelt sich um ein in dieser Art einzigartiges Auenökosystem, das mitten in einer Großstadt liegt.
@@ -762,12 +804,13 @@ Es als Lebensraum, grüne Lunge und als Erholungsgebiet zu erhalten, ist Ziel de
 Es geht darum, eine Leitidee für die Region zu entwickeln, die Ökologie, Ökonomie und kulturelle Vielfalt berücksichtigt und in Einklang bringt und für ein nachhaltiges Zukunftskonzept miteinander verbindet. Die Notwendigkeit des Auenlandschaftsschutzes soll im Bewusstsein der Menschen verankert werden.""" ;
    nl:hasSummary """Projekt zum schutz des Auenökosystems und für eine naturverträgliche wirtschaftliche und touristische Entwicklung""" ;
    nl:hasInfoURL <http://goo.gl/DMc7xn> ;
-   dct:created "2014-09-01T22:43:21" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.117> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P51> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.51> a nl:Projekt  ;
    nl:hasID "51" ;
    nl:hasDescription """Die Papitzer Lehmlachen in der Nähe von Schkeuditz sind ein besonderes Naturjuwel in der Leipziger Auenlandschaft. Entstanden sind diese flachen Gewässer einst durch Lehmabbau, und sie wurden zu einem wertvollen Lebensraum, vor allem für Amphibien. In den 1970er-Jahren gab es Pläne, die Lachen zu verfüllen, um Ackerland zu schaffen. Doch engagierten Naturschützern ist es damals gelungen, eine Zerstörung der Lachen zu verhindern. Heute gehören sie zum Naturschutzgebiet „Luppeaue“ und sind auch einer der letzten Lebensräume der stark gefährdeten Rotbauchunke (Bombina bombina), die sich hier jedes Jahr erfolgreich fortpflanzt.
 Mitte der 1980er-Jahre war der Bestand auf etwa 20 Paare geschrumpft, doch durch Gewässerpflege und Wiederbewässerung hat der NABU erreicht, dass sich der Bestand der Rotbauchunken gut erholt hat. Um die Entwicklung des Gebietes im Sinne des Naturschutzes zu sicher, hat der NABU einige Flächen im Naturschutzgebiet „Luppeaue“ gekauft. Mit arbeitsintensiven Biotoppflegeeinsätzen versuchen die Naturschützer die ökologisch wertvollen Lebensräume zu erhalten. 
@@ -775,12 +818,13 @@ Eine Verbesserung der Bewässerung des Gebietes, eine teilweise Wiederherstellun
    nl:hasSummary """Ein Naturjuwel am Rande der Großstadt soll erhalten bleiben durch Biotoppflege und ökologische Bewässerung""" ;
    nl:hasInfoURL <http://goo.gl/hJjgRd> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04435.Schkeuditz.AmAuenwald.XX> ;
-   dct:created "2014-09-01T23:01:28" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-01" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.118> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P52> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.52> a nl:Projekt  ;
    nl:hasID "52" ;
    nl:hasDescription """Wir sind eine Materialsammlung für weiterverwertbare Dinge oder Stoffe.  Zu den Öffnungszeiten können Materialspenden abgegeben und Materialien auf Spendenbasis mitgenommen werden. Wir bieten neben unserer offenen Werkstatt im Laden auch Re- und Upcycling-Workshops an. 
 
@@ -795,23 +839,25 @@ viele Materialien zum Verbauen vor Ort: Pappe, Papier, Stoffe, Kurzwaren, Knöpf
    nl:hasVideoURL <https://www.youtube.com/watch?v=lwKbLqNEvBw> ;
    nl:hasInfoURL <http://facebook.com/kunzstoffe> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.7> ;
-   dct:created "2014-09-02T10:15:27" ;
-   dct:updated "2016-09-05T11:35:40" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A64> ;
+   dct:created "2014-09-02" ;
+   dct:modified "2016-09-05" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.121> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.64> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P53> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.53> a nl:Projekt  ;
    nl:hasID "53" ;
    nl:hasDescription """Im September 2012 hatten sich im Leipziger Nordosten einige engagierte NABU-Mitglieder zusammengefunden; sie gründeten im NABU-Regionalverband Leipzig e. V. die neue Ortsgruppe Plaußig-Portitz, um Naturschutzarbeit und Umweltbildung in der Region zu intensivieren. Gleichzeitig konnte so die lange Tradition der Kindergruppe Parthefrösche weitergeführt werden. Sie ist eine der aktivsten Gruppen der Naturschutzjugend Sachsen mit einem vielfältigen Veranstaltungsprogramm, das jeden Monat Spannendes für Kinder und Grundschüler zu bieten hat. Mit Vogelzählungen, Exkursionen und insbesondere mit einer erfolgreichen Baumpflanzaktion hat der NABU Plaußig-Portitz in den vergangenen Jahren schon viel erreicht.""" ;
    nl:hasSummary """Natur- und Umweltschutz im Leipziger Nordosten, zahlreiche Veranstaltungen, NAJU-Kindergruppe "Parthefrösche"""" ;
    nl:hasInfoURL <http://www.NABU-Leipzig.de/Plaussig-Portitz> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.XX> ;
-   dct:created "2014-09-02T10:37:18" ;
-   dct:updated "2015-10-25T06:15:27" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A60> ;
+   dct:created "2014-09-02" ;
+   dct:modified "2015-10-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.122> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P54> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.54> a nl:Projekt  ;
    nl:hasID "54" ;
    nl:hasDescription """Der Ökolöwe betreibt seit seiner Gründung 1989 mit der Umweltbibliothek Leipzig die heute größte öffentliche Einrichtung dieser Art eines freien Trägers in Deutschland. SchülerInnen, StudentInnen, LehrerInnen, Privatpersonen, Planungsbüros und Behörden sind einige der jährlich über 7.300 registrierten NutzerInnen, die das breite Angebot und den Service der Umweltbibliothek zu schätzen wissen. 
 
@@ -823,12 +869,13 @@ http://ökolöwe.de/umweltbibliothek.html""" ;
    nl:hasSummary """Die Umweltbibliothek bietet etwa 22.000  Medien zu Natur- und Artenschutz, globalen Umweltthemen und Stadtentwicklung zur kostenfreien Ausleihe""" ;
    nl:hasInfoURL <http://www.umweltbibliothek-leipzig.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-   dct:created "2014-09-02T11:13:55" ;
-   dct:updated "2015-10-14T11:43:00" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A69> ;
+   dct:created "2014-09-02" ;
+   dct:modified "2015-10-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.124> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.69> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P55> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.55> a nl:Projekt  ;
    nl:hasID "55" ;
    nl:hasDescription """Ökolöwe - Umweltbund Leipzig e.V.
 Der Ökolöwe - Umweltbund Leipzig e.V. ist ein gemeinnütziger Verein, der im Interesse des Natur- und Umweltschutzes arbeitet. Wir setzen uns für eine umweltgerechte und ökologisch nachhaltige Entwicklung der Region Leipzig ein.
@@ -864,35 +911,38 @@ Stadtgarten
 Naturschutz""" ;
    nl:hasInfoURL <http://www.oekoloewe.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-   dct:created "2014-09-02T11:21:51" ;
-   dct:updated "2016-10-28T08:04:18" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A69> ;
+   dct:created "2014-09-02" ;
+   dct:modified "2016-10-28" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.125> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.69> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P57> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.57> a nl:Projekt  ;
    nl:hasID "57" ;
    nl:hasDescription """Klimagerechtigkeit Leipzig ist eine linke, aktionsorientierte und basisdemokratische Gruppe, die sich mit Energie- und Klimathemen aus einer kritischen, sozial-ökologischen Perspektive beschäftigt. Uns gibt es seit 2008, wir haben u. a. Klimacamps unterstützt, zu den Protesten anlässlich der COP15 in Kopenhagen mobilisiert, eine Demo gegen CCS und Emissionshandel in Leipzig sowie die Abschluss-Aktionsdemo zur Degrowth-Konferenz in Leipzig organisiert.
 Wenn du mit uns die nächsten Projekte planen möchtest, bist du herzlich eingeladen, mitzumachen. Schreib an klimagerechtigkeit_le@riseup.net""" ;
    nl:hasSummary """Klimagerechtigkeit Leipzig beschäftigt sich mit Energie- und Klimathemen aus einer kritischen, sozial-ökologischen Perspektive""" ;
    nl:hasInfoURL <http://klimagerechtigkeit.blogsport.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
-   dct:created "2014-09-02T13:50:23" ;
-   dct:updated "2015-10-23T05:15:41" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A70> ;
+   dct:created "2014-09-02" ;
+   dct:modified "2015-10-23" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.127> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.70> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P58> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.58> a nl:Projekt  ;
    nl:hasID "58" ;
    nl:hasDescription """Bei uns findet man regionale Waren, Helfer aus der Nachbarschaft, Second-Hand-Artikel, und ganz wichtig: Gleichgesinnte. Für Studenten, für Leipziger, seit 1996!""" ;
    nl:hasSummary """Lokaler Online-Marktplatz für Second-Hand, Sprachtandems, WGs, und vieles mehr.""" ;
    nl:hasInfoURL <http://www.dsble.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10> ;
-   dct:created "2014-09-03T07:42:39" ;
-   dct:updated "2015-10-02T05:15:44" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A71> ;
+   dct:created "2014-09-03" ;
+   dct:modified "2015-10-02" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.128> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.71> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P59> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.59> a nl:Projekt  ;
    nl:hasID "59" ;
    nl:hasDescription """Zwischen Joseph- und Siemeringstraße haben wir Zwischennutzungsverträge mit den Besitzern der Brachflächen von über 6000qm vereinbaren können und gärtnern hier in Gemeinschaft seit 2004. Die Arbeit im Verein erfolgt ehrenamtlich und wir sind offen für Interessenten mit konkreten Projektideen. Wir sind zurzeit ungefähr 80 erwachsene Gärtner mit vielen Kindern. Es gibt »private« und Gemeinschaftsflächen, sowie das erste Strohballenhaus Leipzigs, eine Holz- und Fahrradwerkstatt und Schweine, Hühner und Kaninchen. In der voll eingerichteten Küche wird vor allem im Sommer international gekocht und der Garten wird zum Treffpunkt in der Nachbarschaft.
 
@@ -900,12 +950,13 @@ Ohne Zäune, mit wenigen Regeln und viel Raum für Mitgestaltung: wild bunt und 
    nl:hasSummary """Urbanes Gärtnern, Brachflächenzwischennutzung und Stadtentwicklung im Leipziger Westen.""" ;
    nl:hasInfoURL <http://www.nachbarschaftsgaerten.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
-   dct:created "2014-09-03T10:12:51" ;
-   dct:updated "2015-10-02T05:15:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A72> ;
+   dct:created "2014-09-03" ;
+   dct:modified "2015-10-02" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.129> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.72> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P61> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.61> a nl:Projekt  ;
    nl:hasID "61" ;
    nl:hasDescription """Worum geht es in diesem Projekt?
 
@@ -970,24 +1021,26 @@ Warum sollten wir also noch länger ein fehlerhaftes Finanzsystem benutzen, dass
    nl:hasSummary """Das Crowdfunding-Projekt für ein neues Geldsystem!""" ;
    nl:hasVideoURL <http://youtu.be/spCVjaB-1uY> ;
    nl:hasInfoURL <http://www.startnext.de/songs-fuer-neues-geld> ;
-   dct:created "2014-09-14T12:03:19" ;
-   dct:updated "2015-10-14T05:15:43" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A53> ;
+   dct:created "2014-09-14" ;
+   dct:modified "2015-10-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.133> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.53> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P64> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.64> a nl:Projekt  ;
    nl:hasID "64" ;
    nl:hasDescription """Transition Town Leipzig plant Aktionen, macht Projekte sichtbar, gestaltet Vortrags- und Filmabende, schafft Raum für Austausch und Begegnung, und vieles mehr was den nachhaltigen Wandel in Leipzig unterstützt.""" ;
    nl:hasSummary """Wir gestalten Leipzig im Wandel mit Kopf, Herz und Hand weiter.""" ;
    nl:hasVideoURL <http://vimeo.com/104929718> ;
    nl:hasInfoURL <http://www.transitiontown-leipzig.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
-   dct:created "2014-09-17T07:42:04" ;
-   dct:updated "2016-09-28T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A58> ;
+   dct:created "2014-09-17" ;
+   dct:modified "2016-09-28" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.139> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.58> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P65> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.65> a nl:Projekt  ;
    nl:hasID "65" ;
    nl:hasDescription """Ein Ziel des Ackerwinde Gemüsegartens ist es, möglichst vielen Menschen die Selbstversorgung mit eigenem, ökologisch angebautem Gemüse zu ermöglichen. 
 Dafür übernimmt der Landwirtschaftsbetrieb die Planung und Vorbereitung von kreisrunden Gemüsefeldern und die erste Aussaat/Pflanzung mit Gemüse, Kräutern und Blumen. Anfang Mai können aus den Gemüsekreisen fertig bepflanzte Stücke zur eigenständigen Bewirtschaftung bis Ende Oktober übernommen werden. Zahlreiche Workshops vor Ort behandeln Anbaubasics und  andere Themen zum ökologischen Anbau, zusätzlich gibt es viele Informationen und direkte Tipps von der Öko-Landwirtin. 
@@ -999,12 +1052,13 @@ Anbauworkshops und professionelle Unterstützung
 Ökologische Bewirtschaftung""" ;
    nl:hasInfoURL <http://www.ackerwinde.net> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Emil-Teich-Strasse.XX> ;
-   dct:created "2014-09-19T19:58:29" ;
-   dct:updated "2016-10-20T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A76> ;
+   dct:created "2014-09-19" ;
+   dct:modified "2016-10-20" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.140> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.76> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P66> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.66> a nl:Projekt  ;
    nl:hasID "66" ;
    nl:hasDescription """Verkehrswende
 Transporträder sind ein Beitrag dazu, den Herausforderungen unserer Zeit zu begegnen: weniger Energieverbrauch, geringere Kosten, mehr Bewegung.
@@ -1015,12 +1069,13 @@ Mobilität ist neben Heizung einer der größten Energieverbraucher in unserem A
    nl:hasSummary """Lastenräder und Transporträder werden zum Mieten, Probefahren und zum Kauf angeboten.""" ;
    nl:hasInfoURL <http://rad3.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
-   dct:created "2014-10-13T08:59:58" ;
-   dct:updated "2017-01-10T18:18:50" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A24> ;
+   dct:created "2014-10-13" ;
+   dct:modified "2017-01-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.143> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.24> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P67> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.67> a nl:Projekt  ;
    nl:hasID "67" ;
    nl:hasDescription """Vision & Anliegen
 EDUVENTIS – Bildung erleben e.V. arbeitet kreativ mit Kindern, Jugendlichen, Sozialarbeitern und Lehrern an Schulen und in Einrichtungen der Kinder- und Jugendarbeit. EDUVENTIS-Bildung erleben e.V. möchte Menschen Lebensräume bieten, in denen sie ihre angelegten Potenziale im lustvollen Tun entfalten können. Eine Gesellschaft, in der Kinder zu starken und selbstbestimmten Gestaltern heranwachsen können, ist die Vision, die uns antreibt zu tun, was wir tun.
@@ -1039,12 +1094,13 @@ Fortbildungen & Seminare
 Vorträge""" ;
    nl:hasInfoURL <http://www.eduventis.org> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.4> ;
-   dct:created "2014-10-13T09:58:46" ;
-   dct:updated "2015-11-12T06:15:41" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A79> ;
+   dct:created "2014-10-13" ;
+   dct:modified "2015-11-12" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.144> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.79> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P68> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.68> a nl:Projekt  ;
    nl:hasID "68" ;
    nl:hasDescription """In diesem Blog geht es ums Kochen und die Verarbeitung von Lebensmitteln in seiner kulturellen, gesellschaftlichen aber auch wissenschaftlichen Dimension vor dem Hintergrund einer industrialisierten Lebensmittelproduktion.
 
@@ -1052,12 +1108,13 @@ Insbesondere möchte ich mich kritisch aber nicht reißerisch mit der industriel
    nl:hasSummary """Kochkultur-Leipzig ist ein blog der sich kritisch mit dem Thema Ernährung und Lebensmitteln auseinandersetzt""" ;
    nl:hasInfoURL <http://kochkultur-leipzig.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.17> ;
-   dct:created "2014-12-17T15:37:29" ;
-   dct:updated "2016-03-22T06:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A84> ;
+   dct:created "2014-12-17" ;
+   dct:modified "2016-03-22" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.152> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.84> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P69> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.69> a nl:Projekt  ;
    nl:hasID "69" ;
    nl:hasDescription """Unsere Autoren hinterfragen ihr Gebiet und schreiben aus eigener Erfahrung, die nachvollziehbar ist. Wer ein Manuskript einreicht, muss sich fragen lassen, ob er eine persönliche Botschaft hat.
 
@@ -1068,23 +1125,25 @@ NEU: unser Antiquariat. Kein Ramsch, sondern die Knüller an bibliophilen Büche
 oder unsere Angebote bei Abebooks: https://www.abebooks.de/servlet/SearchResults?sortby=0&vci=61828479""" ;
    nl:hasSummary """Wir sind ein Leipziger Independent-Verlag und bieten Analyse, konstruktive Gesellschaftskritik und Entwürfe, NEU: unser Antiquariat""" ;
    nl:hasInfoURL <https://araki.de/> ;
-   dct:created "2014-12-18T10:45:34" ;
-   dct:updated "2017-01-14T07:35:19" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A86> ;
+   dct:created "2014-12-18" ;
+   dct:modified "2017-01-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.153> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.86> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P70> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.70> a nl:Projekt  ;
    nl:hasID "70" ;
    nl:hasDescription """Ehrenamtliche können von ihrem Träger für den EhrenamtsPass der Freiwilligen-Agentur Leipzig nominiert werden, wenn sie sich 200 Stunden im Jahr engagieren. Berufstätige mit mindestens 20 Stunden Arbeitszeit pro Woche können sich bereits mit einem ehrenamtlichen Engagement von 100 Stunden im Jahr nominieren lassen. Bei Vorlage des EhrenamtsPasses erhalten die Inhaberinnen bei 40 Sponsoren in Leipzig Rabatte auf Eintrittsgelder, Dienstleistungen oder Produkte. Die attraktiven Angebote reichen von Kultur über Sport bis zu Gastronomie, Gesundheit und Einkauf. Den EhrenamtsPass gibt es 2017 zum 14. Mal. 2016 wurden 3761 EhrenamtsPässe für Engagierte  ausgestellt.""" ;
    nl:hasSummary """Ehrenamtlich Tätige erhalten bei 40 Sponsoren in der Stadt Leipzig Vergünstigungen""" ;
    nl:hasInfoURL <http://www.freiwilligen-agentur-leipzig.de/fuer-organisationen/ehrenamtspass> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
-   dct:created "2014-12-18T14:41:29" ;
-   dct:updated "2016-12-21T13:50:00" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A87> ;
+   dct:created "2014-12-18" ;
+   dct:modified "2016-12-21" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.154> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.87> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P73> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.73> a nl:Projekt  ;
    nl:hasID "73" ;
    nl:hasDescription """Haben Sie Lust spielerisch die Welt zu verändert, Wissen zu vermitteln und einen sozialen Nutzen zu erzielen? 
 Dann würden wir uns sehr freuen Sie am 13. Januar 2015 in der Wisamar Bildungsgesellschaft begrüßen zu dürfen zu unserem zweiteiligen Workshop Transition Game Leipzig. 
@@ -1105,23 +1164,25 @@ kooperatives Lernen und Gestalten
 Autodidaktische Bildung""" ;
    nl:hasInfoURL <http://www.wisamar.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Heinrichstrasse.5> ;
-   dct:created "2014-12-19T10:24:45" ;
-   dct:updated "2016-02-04T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A88> ;
+   dct:created "2014-12-19" ;
+   dct:modified "2016-02-04" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.157> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.88> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P74> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.74> a nl:Projekt  ;
    nl:hasID "74" ;
    nl:hasDescription """Wir handeln mit FAIRTRADE BLUMEN. 
 In unserem Sortiment befinden sich ständig zahlreiche Schnittblumen ( z.B.Orchidee, Protea, Nelken, Rosen und verschiedene Schnittgrün). Die FAIRTRADE BLUMEN sind gekennzeichnet.""" ;
    nl:hasSummary """Angebot von FAIRTRADE BLUMEN""" ;
    nl:hasInfoURL <http://www.haediflor.de> ;
-   dct:created "2014-12-22T14:06:26" ;
-   dct:updated "2016-01-22T06:15:02" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A90> ;
+   dct:created "2014-12-22" ;
+   dct:modified "2016-01-22" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.158> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.90> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P75> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.75> a nl:Projekt  ;
    nl:hasID "75" ;
    nl:hasDescription """oikos ist eine internationale Studierendenorganisation, die sich für die Förderung einer nachhaltigen Gesellschaft im Spannungsfeld zwischen Ökonomie, Ökologie und Sozialem einsetzt. Insbesondere soll das Bewusstsein der Studierenden, Wissenschaftler und Unternehmen für Themen der Nachhaltigkeit gestärkt werden.
 
@@ -1130,12 +1191,13 @@ oikos Leipzig ist eine von vielen Lokalgruppen des Netzwerks und wurde im März 
    nl:hasVideoURL <http://www.oikos-international.org/leipzig> ;
    nl:hasInfoURL <http://www.oikos-international.org/leipzig> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.12> ;
-   dct:created "2015-01-09T14:09:11" ;
-   dct:updated "2017-01-06T06:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A21> ;
+   dct:created "2015-01-09" ;
+   dct:modified "2017-01-06" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.159> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.21> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P76> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.76> a nl:Projekt  ;
    nl:hasID "76" ;
    nl:hasDescription """Der Verein hat sich 2013 mit dem Ziel gegründet, Menschen, die sich für die Gewaltfreie Kommunikation (GFK) nach Marshall B. Rosenberg interessieren, miteinander zu vernetzen. Gleichzeitig möchten wir die Anwendung der GFK fördern. Dies tun wir durch Öffentlichkeitsarbeit und die Organisation und Durchführung von Veranstaltungen und Bildungsmaßnahmen, in denen die GFK und/oder Ihre Anwendung in bestimmten Bereichen - bspw.  konstruktive Konfliktlösung, Gewaltprävention oder globale Verständigung - gelehrt wird.
 
@@ -1143,24 +1205,26 @@ Wer mehr wissen, sich austauschen oder sich aktiv an unserer Arbeit beteiligen m
    nl:hasSummary """Förderung der Anwendung der Gewaltfreien Kommunikation (GFK) und Vernetzung GFK-interessierter Menschen in und um Leipzig""" ;
    nl:hasInfoURL <http://www.gfk-leipzig.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.92> ;
-   dct:created "2015-01-17T10:38:59" ;
-   dct:updated "2016-02-15T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A98> ;
+   dct:created "2015-01-17" ;
+   dct:modified "2016-02-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.164> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.98> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P77> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.77> a nl:Projekt  ;
    nl:hasID "77" ;
    nl:hasDescription """"Wir und die Welt" bietet Informationen und Bildungsangebote rund um die Themen Globalisierung und Konsum an. Mit Hilfe von Stadtrundgängen und Projekttagen werden die weltweiten Verknüpfungen lokal erlebbar gemacht. Dieses Angebot richtet sich an Kinder und Jugendliche, aber auch an interessierte Erwachsene. Die Homepage www.globalisiert.de informiert zudem über aktuelle globale Entwicklungen und lokale Ereignisse, wie Workshops und Seminare.
 "Wir und die Welt" ist ein Projekt des WeltOffen e.V.""" ;
    nl:hasSummary """Stadtrundgänge und Projekttage zu Globalisierung und Konsumverhalten""" ;
    nl:hasInfoURL <http://www.globalisiert.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.1> ;
-   dct:created "2015-01-26T12:12:14" ;
-   dct:updated "2016-06-20T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A33> ;
+   dct:created "2015-01-26" ;
+   dct:modified "2016-06-20" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.172> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.33> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P78> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.78> a nl:Projekt  ;
    nl:hasID "78" ;
    nl:hasDescription """Teilnehmen
 
@@ -1177,12 +1241,13 @@ Jeden Dienstag, Mittwoch und Donnerstag von 15 bis 18 Uhr""" ;
    nl:hasPropertyList """fairtrade Produkte""" ;
    nl:hasInfoURL <http://www.dresdner59.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
-   dct:created "2015-02-04T10:25:48" ;
-   dct:updated "2017-05-15T17:40:39" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A104> ;
+   dct:created "2015-02-04" ;
+   dct:modified "2017-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.173> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.104> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P79> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.79> a nl:Projekt  ;
    nl:hasID "79" ;
    nl:hasDescription """Wir sind ein offener Lernraum, der Dienstag bis Freitags von 11-17 Uhr geöffnet hat.
 Bei uns sind alle willkommen, die ihre eigenen Lernziele verfolgen möchten, sich über eigene Projektideen oder politische &  philosophische gern Austauschen möchten. Man kann auch gern auf einen Tee vorbeikommen und andere Leute im Viertel kennenlernen.
@@ -1192,22 +1257,24 @@ Mehr INFOS über uns und unsere Veranstaltungen außerhalb der Öffnungszeiten f
    nl:hasPropertyList """DI-FR 11-17 Uhr
 kostenlos/Spende""" ;
    nl:hasInfoURL <http://adi-leipzig.net> ;
-   dct:created "2015-02-04T18:34:38" ;
-   dct:updated "2016-05-03T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A105> ;
+   dct:created "2015-02-04" ;
+   dct:modified "2016-05-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.176> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.105> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P80> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.80> a nl:Projekt  ;
    nl:hasID "80" ;
    nl:hasDescription """Die Leipziger KulturPaten vermitteln seit 2008 praktische Patenschaften zwischen Wirtschaft und Kultur. Ein Kulturpate engagiert sich mit Knowhow, Dienstleistung, Arbeitseinsatz, strategischer Unterstützung, Vitamin B oder professioneller Beratung. Die Vermittlung ist kostenlos und gemeinnützig und  läuft über eine gemeinnützige Unternehmergesellschaft, die selbst eine gelungene "BusinessCulturePartnership" ist.""" ;
    nl:hasSummary """Vermittlung von Volunteering und Beratung für Freie Szene und Kulturschaffende""" ;
    nl:hasInfoURL <http://www.leipzigerkulturpaten.de> ;
-   dct:created "2015-02-18T12:25:09" ;
-   dct:updated "2016-06-06T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A30> ;
+   dct:created "2015-02-18" ;
+   dct:modified "2016-06-06" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.181> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.30> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P81> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.81> a nl:Projekt  ;
    nl:hasID "81" ;
    nl:hasDescription """Unser Ziel ist es eine 3-Raum-Wohnung am Stannebeinplatz im Leipziger Osten kulturell neu zu beleben und im Bedienen unterschiedlicher Handlungsfelder ein kreatives Zusammenspiel verschiedener Disziplinen, wie zum Beispiel Fotografie, Neue Medien, Grafik, Aktionskunst, Theater und Musik zu ermöglichen.
 
@@ -1227,12 +1294,13 @@ Lucie Chwaszcza// Theresa Doß// Theresa Kroemer""" ;
    nl:hasVideoURL <https://vimeo.com/101546363> ;
    nl:hasInfoURL <https://www.facebook.com/pages/Projektwohnung-krudebude/617099368382416> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz.13> ;
-   dct:created "2015-02-24T21:56:54" ;
-   dct:updated "2016-03-30T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A80> ;
+   dct:created "2015-02-24" ;
+   dct:modified "2016-03-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.186> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.80> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P83> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.83> a nl:Projekt  ;
    nl:hasID "83" ;
    nl:hasDescription """Viele Menschen, Initiativen und Organisationen aus dem Nachhaltigkeitsbereich sehnen sich nach mehr Vernetzung. Ihnen ist bewusst, dass durch schnelleren Informationsaustausch kein Rad zweimal erfunden werden muss.
 
@@ -1242,12 +1310,13 @@ Unsere Angebote sollen auf lokaler, überregionaler, landesweiter und globaler E
    nl:hasSummary """Globale Vernetzung aller Nachhaltigkeitsinitiativen offline / online""" ;
    nl:hasVideoURL <http://youtu.be/qhwnfW7_cs0> ;
    nl:hasInfoURL <http://greennetproject.org> ;
-   dct:created "2015-03-20T14:32:18" ;
-   dct:updated "2015-04-13T10:46:16" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A114> ;
+   dct:created "2015-03-20" ;
+   dct:modified "2015-04-13" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.366> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.114> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P84> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.84> a nl:Projekt  ;
    nl:hasID "84" ;
    nl:hasDescription """Mit der Veröffentlichung des Solardachkatasters stellt die Stadt Leipzig eine Internet-Anwendung zur Potenzialanalyse von Solarthermie- und Photovoltaik-Anlagen zur Verfügung, mit der sich Leipziger Bürger eine erste Information über die Eignung des eigenen Gebäudes für Solarenergieanlagen verschaffen können.
 
@@ -1256,29 +1325,30 @@ Grundlage für die Ersteinschätzung ist ein 3-dimensionales Geländemodell, das
 Ansprechpartner: Johann Simowitsch,  Tel.: 0341/123-1649, Email: solardachkataster@leipzig.de""" ;
    nl:hasSummary """Entdecke das Solardachpotential Leipzigs""" ;
    nl:hasInfoURL <http://www.solardachkataster.leipzig.de> ;
-   dct:created "2015-03-30T12:21:26" ;
-   dct:updated "2017-04-29T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A106> ;
+   dct:created "2015-03-30" ;
+   dct:modified "2017-04-29" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.372> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.106> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P85> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.85> a nl:Projekt  ;
    nl:hasID "85" ;
    nl:hasDescription """vor knapp 10 jahren aus der not heraus geboren, dass alle angefragten NGOs die existenz von fairen textil-alternativen verneinten, hat sich die weissliste als ältester deutschsprachiger fair-shopping-guide im netz etabliert. zentrales anliegen ist die hilfe bei der suche nach textilien, die in der produktion und dem vertrieb möglichst keinen schaden bei mensch und umwelt hinterlässt. die weissliste ist ein projekt des instituts für sinnbildung leipzig, das sich der sinnzentrierten und nachhaltigen bildung und beratung widmet.""" ;
    nl:hasSummary """fair-trade-einkaufsführer für textilien""" ;
    nl:hasInfoURL <http://www.weissliste.de> ;
-   dct:created "2015-04-16T10:54:11" ;
-   dct:updated "2015-04-16T10:54:11" . 
+   dct:created "2015-04-16" ;
+   dct:modified "2015-04-16" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P86> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.86> a nl:Projekt  ;
    nl:hasID "86" ;
    nl:hasDescription """Das Internet ist unser soziales Netzwerk ! Was wäre, wenn soziale Netzwerke so einfach wie Email funktionieren würden ? Was, wenn alle Netzwerke miteinander verbunden wären und du dir einfach die Software oder den Anbieter aussuchen könntest, der dir am besten gefällt oder dem du am meissten vertraust ? Das funktioniert bereits sehr gut ! Friendica bringt alles zusammen ! Du brauchst deine bereits in anderen Netzwerken vorhandenen Freunde nicht aufgeben. Nutze mit Friendica doch einfach eine Software, die bessere Sicherheits- und Featuremöglichkeiten hat. Alle Beiträge deiner Kontakte sind in einem "Social-Stream" sichtbar. Diese kannst du nach Belieben in verschiedene Gruppen separieren, um z.B. Posts an Arbeitskollegen und Familie zu trennen. So wird sichergestellt, dass nur jeder das sieht, was er sehen soll ! Achja, und Friendica ist kostenlos, frei und unabhängig ! Dieses "unabhängig" kann nicht genug betont werden ! Hinter Friendica steckt kein Konzern, keine Firma ! Installiere einfach deinen eigenen Knoten, oder teste Friendica auf einem der offenen Server. Dies ist einfach nur mein kleiner eigener Friendica-Knoten. Einer von hunderten oder tausenden !""" ;
    nl:hasSummary """Der Friendica-Server in Zwenkau ist einer von weltweit vielen hundert Servern für ein freies soziales Netzwerk. Sei Kunde, nicht die Ware !""" ;
    nl:hasVideoURL <https://www.youtube.com/results?search_type=search_videosundsearch_sort=relevanceundsearch_query=friendicaundsearch=Search> ;
    nl:hasInfoURL <http://friendica.com/> ;
-   dct:created "2015-04-21T08:53:06" ;
-   dct:updated "2016-05-20T05:15:03" . 
+   dct:created "2015-04-21" ;
+   dct:modified "2016-05-20" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P87> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.87> a nl:Projekt  ;
    nl:hasID "87" ;
    nl:hasDescription """Die Stiftung Bürger für Leipzig organisiert das Patenprojekt "Die Wunderfinder" und sucht dafür ehrenamtliche Paten. 
 Pate sein heißt: Sie gehen mit Grundschulkindern auf Exkursionen. Sie entdecken gemeinsam interessante Unternehmen, Initiativen und  Orte in der Stadt. 
@@ -1286,23 +1356,25 @@ Die Exkursionsteams bestehen aus  je einer Patin / einem Pate und zwei Patenkind
 Projektziel ist die Unterstützung und Förderung der informellen Bildung und Kompetenzentwicklung von Grundschulkindern.""" ;
    nl:hasSummary """Exkursionsprogramm für Hortkinder""" ;
    nl:hasInfoURL <http://www.diewunderfinder.de> ;
-   dct:created "2015-05-04T09:38:09" ;
-   dct:updated "2016-11-01T10:12:06" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A100> ;
+   dct:created "2015-05-04" ;
+   dct:modified "2016-11-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.382> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P88> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.88> a nl:Projekt  ;
    nl:hasID "88" ;
    nl:hasDescription """Volkslieder sind etwas Besonderes. Sie erzählen Geschichten, die auch nach 100 Jahren noch lebendig sind und jeder kennt ihre Melodien. Ob „Alle Vöglein sind schon da“ oder „Bruder Jacob“ – wir können gar nicht anders, als mitzusummen, einzustimmen, mitzusingen. Schon immer finden sich deshalb auf der ganzen Welt junge wie alte Menschen zusammen um die Freude am Singen dieser Lieder zu teilen. Überall spüren wir schon als Kinder: Gemeinsam singen macht glücklich! Das können alle bestätigen, die 2015 bereits dabei waren.""" ;
    nl:hasSummary """Gemeinsames Singen für jedermann im Grünen""" ;
    nl:hasInfoURL <http://www.buergerfuerleipzig.de/buergersingen> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.JohannaPark.XX> ;
-   dct:created "2015-05-04T09:42:49" ;
-   dct:updated "2016-11-01T10:00:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A100> ;
+   dct:created "2015-05-04" ;
+   dct:modified "2016-11-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.383> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P89> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.89> a nl:Projekt  ;
    nl:hasID "89" ;
    nl:hasDescription """Die Vision der Mitglieder des Vereins ist es junge Menschen frühzeitig für Wissenschaft und Technologie zu begeistern und ihnen die Berührungsängste vor komplexer Technik zu nehmen. Sie sollen lernen, Herausforderungen kreativ, fantasievoll und mit Teamgeist anzugehen und eine positive Grundeinstellung zu Wissenschaft und Technologie aufzubauen. HANDS on TECHNOLOGY veranstaltet verschiedene internationale Bildungsprogramme, um Jugendlichen den Zugang zu naturwissenschaftlichen Fächern zu erleichtern und sie frühzeitig für einen Ingenieurs- oder IT-Beruf zu motivieren.
 
@@ -1318,12 +1390,13 @@ Jedes Team benötigt einen erwachsenen Coach, der das Team anmeldet, generell or
    nl:hasVideoURL <https://www.youtube.com/watch?v=ivRQL23ojawundlist=PLwGsS-G5itGL-qZEuLYDgq9gjX3JyeigB> ;
    nl:hasInfoURL <http://www.first-lego-league.org/de/allgemeines/was-ist-fll.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Hillerstrasse.7> ;
-   dct:created "2015-06-04T10:14:29" ;
-   dct:updated "2017-05-03T21:19:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A127> ;
+   dct:created "2015-06-04" ;
+   dct:modified "2017-05-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.392> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P90> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.90> a nl:Projekt  ;
    nl:hasID "90" ;
    nl:hasDescription """In stilvollem Ambiente in der ersten Etage des Leipzig Marriott Hotels befindet sich das Restaurant „Creme BRÜHLé.“ Unter dem Motto „frisch und saisonal“ erwartet Sie eine feine, reichhaltige Speisekarte mit frischen, saisonalen Gerichten aus regionalen Produkten.
 
@@ -1332,12 +1405,13 @@ Kommen Sie vorbei und überzeugen Sie sich von unserer Küche.""" ;
    nl:hasPropertyList """Brot und Brötchen aus Leipzig - Mockau
 Sächsischer Käse mit  über 100 jährige Erfahrung eigener Käseherstellung
 "FEERSISCH Rind" aus der Norddeutschen Natur""" ;
-   dct:created "2015-07-15T09:39:57" ;
-   dct:updated "2016-08-21T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A133> ;
+   dct:created "2015-07-15" ;
+   dct:modified "2016-08-21" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.513> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.133> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P91> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.91> a nl:Projekt  ;
    nl:hasID "91" ;
    nl:hasDescription """Ein Stück Honolulu in Leipzig.
 Eine sichere Bucht. Das Wort Honolulu bringt alle in eine gute Schwingung & so ist der Ort gemeint. 
@@ -1355,12 +1429,13 @@ vielfältig
 offen""" ;
    nl:hasInfoURL <http://honolululeipzig.blogspot.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
-   dct:created "2015-09-18T06:16:29" ;
-   dct:updated "2015-09-18T06:16:29" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A136> ;
+   dct:created "2015-09-18" ;
+   dct:modified "2015-09-18" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.534> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.136> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P92> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.92> a nl:Projekt  ;
    nl:hasID "92" ;
    nl:hasDescription """Auf dem Dach des Ludwig-Hupfeld-Centers wurde durch die Energiegenossenschaft Leipzig eine großflächige Solaranlage installiert. Die Online-Druckerei und Buchbinderei sedruck.de nutzt einen Teil der Solarenergie für Ihre Druckmaschinen und den Betrieb der Buchbinderei.""" ;
    nl:hasSummary """Der Online-Copyshop seruck.de nutzt Solarenergie""" ;
@@ -1369,12 +1444,13 @@ Druck
 Buchbinung""" ;
    nl:hasInfoURL <https://www.sedruck.de/umwelt-oekodruck-soziales.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.Ludwig-Hupfeld-Strasse.16> ;
-   dct:created "2015-10-07T06:11:16" ;
-   dct:updated "2016-05-31T06:21:20" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A18> ;
+   dct:created "2015-10-07" ;
+   dct:modified "2016-05-31" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.552> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.18> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P93> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.93> a nl:Projekt  ;
    nl:hasID "93" ;
    nl:hasDescription """Gemeinsam Kochen / Gemeinsam Genießen / Gemeinsam Sein
 
@@ -1387,10 +1463,10 @@ herzlich
 lecker""" ;
    nl:hasInfoURL <http://heldenkueche.net/#/zu-hause> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
-   dct:created "2015-11-19T14:04:03" ;
-   dct:updated "2016-10-17T05:15:04" . 
+   dct:created "2015-11-19" ;
+   dct:modified "2016-10-17" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P94> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.94> a nl:Projekt  ;
    nl:hasID "94" ;
    nl:hasDescription """Ernte-mich ist ein landwirtschaftliches Einzelunternehmen, das individuellen Gemüseanbau mit einer Streuobstwiese kombiniert und den Menschen so Erholung und Freizeitgestaltung an der frischen Luft ermöglicht.
 
@@ -1408,22 +1484,24 @@ Gemeinschaft""" ;
    nl:hasVideoURL <https://youtu.be/0aGH9MI32mM> ;
    nl:hasInfoURL <http://www.erntemich.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.78> ;
-   dct:created "2015-12-10T16:21:32" ;
-   dct:updated "2017-01-03T09:43:13" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A77> ;
+   dct:created "2015-12-10" ;
+   dct:modified "2017-01-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.575> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P95> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.95> a nl:Projekt  ;
    nl:hasID "95" ;
    nl:hasDescription """Während der Adventszeit präsentiert die Initiative NextLeipzig auf der Webseite http://www.nextleipzig.de jeden Tag eine Idee für Leipzig.""" ;
    nl:hasSummary """24 Ideen für Leipzig""" ;
    nl:hasInfoURL <http://www.nextleipzig.de> ;
-   dct:created "2015-12-14T15:32:45" ;
-   dct:updated "2015-12-14T15:32:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A139> ;
+   dct:created "2015-12-14" ;
+   dct:modified "2015-12-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.577> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.139> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P96> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.96> a nl:Projekt  ;
    nl:hasID "96" ;
    nl:hasDescription """Unser Konzept setzt auf das Prinzip beim Einkaufen konsequent Plastikmüll zu vermeiden.
 
@@ -1439,10 +1517,10 @@ regionale & nachhaltige Produkte
 Lebensmittel & Getränke, Hygiene- & Reinigungsmittel, Pflegeprodukte""" ;
    nl:hasVideoURL <http://www.visionbakery.com/einfach-unverpackt> ;
    nl:hasInfoURL <http://www.visionbakery.com/einfach-unverpackt> ;
-   dct:created "2015-12-16T16:52:33" ;
-   dct:updated "2017-01-16T06:15:03" . 
+   dct:created "2015-12-16" ;
+   dct:modified "2017-01-16" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P98> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.98> a nl:Projekt  ;
    nl:hasID "98" ;
    nl:hasDescription """Wir wollen mit euch gemeinsam in Leipzig die Bibliothek der Dinge gründen und im April 2016 eröffnen. Die Leihbibliothek für guterhaltene Gegenstände soll ein Sammelort werden, an dem wir in der Gemeinschaft miteinander teilen. Du hast guterhaltene Gegenstände zu Hause, die du nicht immer oder nur zu bestimmten Anlässen brauchst? Dann teile Sie mit anderen und befreie Dich von deinem Besitz!
 
@@ -1462,12 +1540,13 @@ Sport""" ;
    nl:hasVideoURL <http://www.visionbakery.com/leila-leipzig> ;
    nl:hasInfoURL <http://www.leila-leipzig.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.49> ;
-   dct:created "2016-02-29T17:45:55" ;
-   dct:updated "2017-03-29T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A144> ;
+   dct:created "2016-02-29" ;
+   dct:modified "2017-03-29" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.608> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.144> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P99> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.99> a nl:Projekt  ;
    nl:hasID "99" ;
    nl:hasDescription """Die Menschen in Meghalaya brauchen neue Einkommensquellen
 
@@ -1502,12 +1581,13 @@ email@seidentraum.eu
 Tel. 0341-3314052""" ;
    nl:hasSummary """Aufgrund der veränderten klimatischen Verhältnisse in Meghalaya werden neue und nachhaltige Projekte in der fairen Produktion von Seidentextilien aufg""" ;
    nl:hasPropertyList """textil,seide,fair,bio,organic,silk,handwerk,weben,seidenzucht,peace silk,""" ;
-   dct:created "2016-04-02T08:26:47" ;
-   dct:updated "2016-04-29T06:34:26" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A48> ;
+   dct:created "2016-04-02" ;
+   dct:modified "2016-04-29" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.614> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.48> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P100> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.100> a nl:Projekt  ;
    nl:hasID "100" ;
    nl:hasDescription """Schaffung eines zentralen Ausbildungsortes im Eigentum der DLRG Bezirk Leipzig e.V.
 Dadurch können wir unser Angebot für Mitglieder und Nichtmitglieder durch folgendes erweitern
@@ -1524,23 +1604,25 @@ Auf Grund der wachsenden Einwohnerzahl Leipzigs und die Wasserrettungstechnische
    nl:hasSummary """Energetische Schwimmhalle, Bildungswerk mit Bettenkapazität und Fahrzeughalle für die Wasserrettung""" ;
    nl:hasInfoURL <http://bez-leipzig.dlrg.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/.Leipzig.ZwickauerStrasse.XX> ;
-   dct:created "2016-07-18T05:43:39" ;
-   dct:updated "2017-08-16T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A148> ;
+   dct:created "2016-07-18" ;
+   dct:modified "2017-08-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.651> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.148> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P101> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.101> a nl:Projekt  ;
    nl:hasID "101" ;
    nl:hasDescription """Begleiten Sie als Sehende/r einen blinden Gast des Schauspiel Leipzig. Und umgekehrt: Äußern Sie als Blinde/r den Wunsch, bei Ihrem nächsten Theaterbesuch von einem sehenden Inklusionspaten begleitet zu werden. Verabreden Sie sich zu einem eindrücklichen Theatererlebnis – vom gemeinsamen Weg bis zum Austausch über den Vorstellungsbesuch mit Live-Audiodeskription.""" ;
    nl:hasSummary """Bei den Inklusionspatenschaften verabreden sich Sehende und Blinde zum gemeinsamen Theaterbesuch mit Audiodeskription im Schauspiel Leipzig.""" ;
    nl:hasInfoURL <https://www.buergerfuerleipzig.de/inklusionspatenschaft> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Bosestrasse.1> ;
-   dct:created "2016-11-01T10:02:37" ;
-   dct:updated "2016-11-01T10:10:40" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A100> ;
+   dct:created "2016-11-01" ;
+   dct:modified "2016-11-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.695> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P102> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.102> a nl:Projekt  ;
    nl:hasID "102" ;
    nl:hasDescription """Ernte-mich ist ein landwirtschaftliches Einzelunternehmen, das individuellen Gemüseanbau mit einer Streuobstwiese kombiniert und den Menschen so Erholung und Freizeitgestaltung an der frischen Luft ermöglicht.
 Interessierte können selbst ein Mischkulturbeet Online erstellen und vor Ort anlegen. So kann man innerhalb einer Saison selbst sein Biogemüse anbauen.
@@ -1554,12 +1636,13 @@ Gemeinschaft""" ;
    nl:hasVideoURL <https://youtu.be/0aGH9MI32mM> ;
    nl:hasInfoURL <http://www.erntemich.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.Wodanstrasse.32> ;
-   dct:created "2017-01-03T09:41:59" ;
-   dct:updated "2017-01-03T09:43:21" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A77> ;
+   dct:created "2017-01-03" ;
+   dct:modified "2017-01-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.730> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P103> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.103> a nl:Projekt  ;
    nl:hasID "103" ;
    nl:hasDescription """Ernte-mich ist ein landwirtschaftliches Einzelunternehmen, das individuellen Gemüseanbau mit einer Streuobstwiese kombiniert und den Menschen so Erholung und Freizeitgestaltung an der frischen Luft ermöglicht. 
 Interessierte können selbst ein Mischkulturbeet Online erstellen und vor Ort anlegen. So kann man innerhalb einer Saison selbst sein Biogemüse anbauen. 
@@ -1573,12 +1656,13 @@ Gemeinschaft""" ;
    nl:hasVideoURL <https://youtu.be/0aGH9MI32mM> ;
    nl:hasInfoURL <http://www.erntemich.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.Seestrasse.15> ;
-   dct:created "2017-01-03T09:46:49" ;
-   dct:updated "2017-01-03T09:46:49" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A77> ;
+   dct:created "2017-01-03" ;
+   dct:modified "2017-01-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.731> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P104> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.104> a nl:Projekt  ;
    nl:hasID "104" ;
    nl:hasDescription """Die Vision der Mitglieder des Vereins ist es junge Menschen frühzeitig für Wissenschaft und Technologie zu begeistern und ihnen die Berührungsängste vor komplexer Technik zu nehmen. Sie sollen lernen, Herausforderungen kreativ, fantasievoll und mit Teamgeist anzugehen und eine positive Grundeinstellung zu Wissenschaft und Technologie aufzubauen. HANDS on TECHNOLOGY veranstaltet verschiedene internationale Bildungsprogramme, um Jugendlichen den Zugang zu naturwissenschaftlichen Fächern zu erleichtern und sie frühzeitig für einen Ingenieurs- oder IT-Beruf zu motivieren.
 
@@ -1592,12 +1676,13 @@ Jedes Team benötigt einen erwachsenen Coach, der das Team anmeldet, generell or
    nl:hasSummary """Roboterwettbewerb für 6 bis 10 Jährige, der mit einem spielerischen Ansatz Kinder für Technologie und Wissenschaft begeistert.""" ;
    nl:hasInfoURL <https://www.first-lego-league.org/de/fll-junior/id-2017-18.html> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
-   dct:created "2017-05-03T21:19:00" ;
-   dct:updated "2017-05-03T21:19:00" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A127> ;
+   dct:created "2017-05-03" ;
+   dct:modified "2017-05-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.848> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P105> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.105> a nl:Projekt  ;
    nl:hasID "105" ;
    nl:hasDescription """Die Vision der Mitglieder des Vereins ist es junge Menschen frühzeitig für Wissenschaft und Technologie zu begeistern und ihnen die Berührungsängste vor komplexer Technik zu nehmen. Sie sollen lernen, Herausforderungen kreativ, fantasievoll und mit Teamgeist anzugehen und eine positive Grundeinstellung zu Wissenschaft und Technologie aufzubauen. HANDS on TECHNOLOGY veranstaltet verschiedene internationale Bildungsprogramme, um Jugendlichen den Zugang zu naturwissenschaftlichen Fächern zu erleichtern und sie frühzeitig für einen Ingenieurs- oder IT-Beruf zu motivieren.
 
@@ -1612,12 +1697,13 @@ Jedes Team benötigt einen erwachsenen Betreuer.  In der Regel läuft die jeweil
    nl:hasSummary """RCJ ist der Schülerwettbewerb des internationalen RoboCup.""" ;
    nl:hasInfoURL <http://www.robocup-junior.org/de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
-   dct:created "2017-05-03T21:24:36" ;
-   dct:updated "2017-05-03T21:24:36" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A127> ;
+   dct:created "2017-05-03" ;
+   dct:modified "2017-05-03" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.849> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P106> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.106> a nl:Projekt  ;
    nl:hasID "106" ;
    nl:hasDescription """In unserem Garten für die Nachbarschaft kann sich JedeR einbringen. 
 Wir lernen gemeinsam wie wir nachhaltig Gärtnern mit möglichst wenig gekauften Ressourcen.
@@ -1625,22 +1711,24 @@ Für Kinder entsteht eine tolle Spielfläche, denn wir wollen ihnen ein Wohnzimm
    nl:hasSummary """gemeinsam Werken, Gärtnern, Café trinken""" ;
    nl:hasInfoURL <http://www.dresdner59.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
-   dct:created "2017-05-15T17:46:08" ;
-   dct:updated "2017-05-15T17:46:08" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A104> ;
+   dct:created "2017-05-15" ;
+   dct:modified "2017-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.906> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.104> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P107> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.107> a nl:Projekt  ;
    nl:hasID "107" ;
    nl:hasDescription """Das Ziel unseres Projektes ist es, zum einen im stark versiegelten, städtischen Raum mehr bzw. neuen Lebensraum für verschiedene Insekten- und vor allem Bienenarten zu schaffen. Die typischen Lebensräume für verschiedene mehr oder weniger bedrohte Arten sind in den letzten Jahrzehnten besonders stark geschrumpft. Zum anderen sollen durch die begleitenden Umweltbildungsmaßnahmen Kinder und Erwachsene für das Thema stärker sensibilisiert werden. Die gemeinsame Umsetzung (Bau der "Hotels") hat vor allem für Kinder/Schüler einen zusätzlichen pädagogischen Wert.""" ;
    nl:hasSummary """Das Ziel unseres Projektes ist es,  im stark versiegelten, städtischen Raum mehr bzw. neuen Lebensraum für verschiedene Insekten zu schaffen.""" ;
    nl:hasInfoURL <http://www.geowerkstatt.com/?page_id=1852> ;
-   dct:created "2017-05-17T18:48:24" ;
-   dct:updated "2017-05-17T18:48:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A168> ;
+   dct:created "2017-05-17" ;
+   dct:modified "2017-05-17" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.909> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.168> ;
    nl:hasEventType "Projekt" . 
 
-<http://nachhaltiges-leipzig.de/Data/Projekt/P108> a nl:Projekt  ;
+<http://nachhaltiges-leipzig.de/Data/Projekt.108> a nl:Projekt  ;
    nl:hasID "108" ;
    nl:hasDescription """Ob Commons, Repaircafé oder Sharing Economy - in unserem Arbeitskreis beschäftigen wir uns mit den Themen der Zukunft. Ist ein Obstbaum in der Stadt zielführend? Wie wirken sich autofreie Stadtteile auf die Zufriedenheit der Bürger*innen aus?
 Wenn Sie sich gern mit diesen und anderen Fragen auseinander setzen, sind Sie herzlich zu unserem Arbeitskreis eingeladen.""" ;
@@ -1648,8 +1736,9 @@ Wenn Sie sich gern mit diesen und anderen Fragen auseinander setzen, sind Sie he
    nl:hasPropertyList """Arbeitskreis Postwachstum""" ;
    nl:hasInfoURL <http://www.bund-leipzig.de/themen_und_projekte/postwachstum/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-   dct:created "2017-05-23T11:25:38" ;
-   dct:updated "2017-05-23T11:25:38" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A73> ;
+   dct:created "2017-05-23" ;
+   dct:modified "2017-05-23" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.911> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.73> ;
    nl:hasEventType "Projekt" . 
 

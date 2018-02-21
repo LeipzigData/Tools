@@ -4,7 +4,7 @@ include_once("helper.php");
 
 function displayChanges() {
     $a=array();
-    $nr=10000;
+    $nr=2000;
     foreach (array_reverse(preg_split("/\n/",getData())) as $row) {
         if (preg_match("/Akteur deaktiviert/", $row)) {
             $a[]=akteurDeaktiviert($row,$nr++);
@@ -57,6 +57,7 @@ function neueAktivitaet($row,$nr) {
     $action=$matches[4]; $date=$matches[5];
     $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action.',$action);
     $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event.',$action);
+    $action=str_replace('projects/','http://nachhaltiges-leipzig.de/Data/Projekt.',$action);
     $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service.',$action);
     $action=str_replace('stores/','http://nachhaltiges-leipzig.de/Data/Store.',$action);
     $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur.',$user);
@@ -66,7 +67,7 @@ function neueAktivitaet($row,$nr) {
     $a[]='nl:Akteur "'.$akteur.'"';
     $a[]='nl:linksTo <'.$action.'>';
     $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.$rest.'"'; }
+    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -80,7 +81,7 @@ function processLine($row,$nr) {
     $a[]='nl:Akteur "'.$user.'"';
     $a[]='nl:Aktivitaet "'.$action.'"';
     $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.$rest.'"'; }
+    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -91,7 +92,7 @@ function getData() {
 
 
 
-Akteur deaktiviert: Carina Flores de Looß .  2018-02-19
+Akteur deaktiviert: Carina Flores de Looß  (Leipzig, Carina Flores de Looß) .  2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1076. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1075. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1074. 2018-02-19
@@ -99,7 +100,13 @@ Akteur hat sich registriert. Name: Delitzscher Land e.V  . 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1073. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1072. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1071. 2018-02-19
-Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/117. 2018-02-18
+';
+}
+
+function getData_01() {
+    // Data extracted from email notifications
+    return 
+'Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/117. 2018-02-18
 Akteur hat sich registriert. Name: heldenküche . 2018-02-18
 Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/116. 2018-02-18
 Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/115. 2018-02-18
@@ -634,13 +641,7 @@ Akteur hat sich registriert. Name: Bürgerverein Sellerhausen-Stünz . 2018-02-0
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/631. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/630. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/629. 2018-02-01
-';
-}
-
-function getData2018_01() {
-    // Data extracted from email notifications
-    return 
-'Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
+Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/627. 2018-01-30
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/626. 2018-01-29
 Akteur hat sich registriert. Name: Natur- und Wildnisschule Leipzig GbR  . 2018-01-29
@@ -743,13 +744,8 @@ Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/538. 2018-
 Akteur hat sich registriert. Name: DGGL Sachsen . 2018-01-05
 Neue Aktivität von Fanö-Mode eingetragen. admin/users/178. events/537. 2018-01-05
 Neue Aktivität von Vier Fährten eingetragen. Mit Tieren verbunden. admin/users/176. actions/22. 2018-01-05
-Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05';
-        }
-
-function getData2017() {
-    // Data extracted from email notifications
-    return 
-'Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05
+Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
 Akteur hat sich registriert. Name: Fanö-Mode . 2017-12-26
 Akteur deaktiviert: Sylke Nissen (Leipzig, Sylke Nissen) . 2017-12-22
 Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/535. 2017-12-20
@@ -808,7 +804,7 @@ Akteur deaktiviert: kunZstoffe – urbane Ideenwerkstatt e.V. (Leipzig, Christin
 }
 
 // zum Testen
-// echo displayChanges();
+echo displayChanges();
 
 
 ?>

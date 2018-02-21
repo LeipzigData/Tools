@@ -36,8 +36,8 @@ function createProjekt($row) {
   $a=addResource($a,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
 //  $a=addLiteral($a,'nl:hasDistrict', $row['district']);
 //  $a=addLiteral($a,'nl:isPublished', $row['published']);
-  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
-  $a=addLiteral($a,'dct:modified', str_replace(" ", "T", $row['updated_at']));
+  $a=addLiteral($a,'dct:created', fixDate($row['created_at']));
+  $a=addLiteral($a,'dct:modified', fixDate($row['updated_at']));
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Project'");
   foreach ($res as $u) {
       $a=addResource($a,'nl:relatedActivity', "http://leipzig-data.de/Data/Aktivitaet.", $u["id"]);

@@ -1,3 +1,4 @@
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,1520 +10,1420 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 
-<http://leipzig-data.de/Data/Person/Simowitsch_Johann>
-    ld:contactPerson "Johann Simowitsch" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX> ;
-    a foaf:Person ;
-    rdfs:label "Johann Simowitsch" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A6> ;
-    foaf:mbox "johann.simowitsch@leipzig.de" ;
-    foaf:phone "0341-3089751" .
 
-<http://leipzig-data.de/Data/StadtLeipzig/AmtfuerStadtgruenundGewaesser>
-    ld:contactPerson "Sebastian Fried" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.118> ;
-    a org:Organization ;
-    rdfs:label "Stadt Leipzig, Amt für Stadtgrün und Gewässer" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A25> ;
-    foaf:homepage <http://www.leipzig.de/de/buerger/freizeit/leipzig/> ;
-    foaf:mbox "sebastian.fried@leipzig.de" ;
-    foaf:phone "03411236146" .
 
-<http://leipzig-data.de/Data/Verein/ADFCLeipzig>
-    ld:contactPerson "Juliana  Klengel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Peterssteinweg.18> ;
-    a org:Organization ;
-    rdfs:label "ADFC Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A26> ;
-    foaf:homepage <http://www.adfc-leipzig.de> ;
-    foaf:mbox "info@adfc-leipzig.de" ;
-    foaf:phone "0341-22540313" .
-
-<http://leipzig-data.de/Data/Verein/ALDIEinkauf>
-    ld:contactPerson "Philipp-Daniel Fischer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/45307.Essen.Eckenbergstrasse.16A> ;
-    a org:Organization ;
-    rdfs:label "ALDI Einkauf GmbH & Co. oHG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A174> ;
-    foaf:mbox "cr-food@aldi-nord.de" ;
-    foaf:phone "02018593438" .
-
-<http://leipzig-data.de/Data/Verein/ANNALINDE>
-    ld:contactPerson "Dominik Renner" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.108> ;
-    a org:Organization ;
-    rdfs:label "ANNALINDE gGmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A51> ;
-    foaf:homepage <http://www.annalinde-leipzig.de> ;
-    foaf:mbox "info@annalinde-leipzig.de" ;
-    foaf:phone "015221655436" .
-
-<http://leipzig-data.de/Data/Verein/AURELMarketing>
-    ld:contactPerson "Kerstin Weißgerber" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04329.Leipzig.SommerfelderWeg.94> ;
-    a org:Organization ;
-    rdfs:label "AUREL Marketing" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A41> ;
-    foaf:mbox "kontakt@aurel-marketing.de" ;
-    foaf:phone "0341-2520421" .
-
-<http://leipzig-data.de/Data/Verein/AckerwindeGemuesegarten>
-    ld:contactPerson "Daisy Kratz" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX> ;
-    a org:Organization ;
-    rdfs:label "Ackerwinde Gemüsegarten" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A76> ;
-    foaf:homepage <http://www.ackerwinde.net> ;
-    foaf:mbox "mail@ackerwinde.net" ;
-    foaf:phone "0341-60463906" .
-
-<http://leipzig-data.de/Data/Verein/Alltagsinstitut>
-    ld:contactPerson "Anja Büchting" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.LangeStrasse.15> ;
-    a org:Organization ;
-    rdfs:label "Anja Büchting" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A129> ;
-    foaf:homepage <http://www.alltagsinstitut.de> ;
-    foaf:mbox "info@alltagsinstitut.de" ;
-    foaf:phone "017681092584" .
-
-<http://leipzig-data.de/Data/Verein/AlteSchlosserei>
-    ld:contactPerson "Kornelius Unckell" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Kurt-Eisner-Strasse.66> ;
-    a org:Organization ;
-    rdfs:label "Alte Schlosserei" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A95> ;
-    foaf:homepage <http://www.alte-schlosserei.de> ;
-    foaf:mbox "mail@alte-schlosserei.de" ;
-    foaf:phone "03413069996" .
-
-<http://leipzig-data.de/Data/Verein/AmtfuerUmweltschutzderStadtLeipzig>
-    ld:contactPerson "Cyrill Rasch" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.136> ;
-    a org:Organization ;
-    rdfs:label "Amt für Umweltschutz der Stadt Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A106> ;
-    foaf:mbox "umweltschutz@leipzig.de" ;
-    foaf:phone "+493411233409" .
-
-<http://leipzig-data.de/Data/Verein/ArakiVerlag>
-    ld:contactPerson "Georg Dehn" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.Theresienstrasse.35> ;
-    a org:Organization ;
-    rdfs:label "Araki Verlag" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A86> ;
-    foaf:homepage <https://araki.de/> ;
-    foaf:mbox "redaktion@araki.de" ;
-    foaf:phone "015735792998", "03413919966" .
-
-<http://leipzig-data.de/Data/Verein/AutodidaktischeInitiative>
-    ld:contactPerson "Nadine McNeil" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.19> ;
-    a org:Organization ;
-    rdfs:label "Autodidaktische Initiative e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A105> ;
-    foaf:homepage <http://adi-leipzig.net> ;
-    foaf:mbox "autodidaktenleipzig@riseup.net" ;
-    foaf:phone "0157-56355331" .
-
-<http://leipzig-data.de/Data/Verein/Auwaldstation>
-    ld:contactPerson "Franka Seidel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Schlossweg.11> ;
-    a org:Organization ;
-    rdfs:label "Auwaldstation" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A15> ;
-    foaf:homepage <http://www.auwaldstation.de> ;
-    foaf:mbox "auwaldstation@t-online.de" ;
-    foaf:phone "03414621895" .
-
-<http://leipzig-data.de/Data/Verein/BUNDLeipzig>
-    ld:contactPerson "Martin  Hilbrecht" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-    a org:Organization ;
-    rdfs:label "BUND Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A73> ;
-    foaf:homepage <http://www.bund-leipzig.de> ;
-    foaf:mbox "presse@bund-leipzig.de" ;
-    foaf:phone "03413065395" .
-
-<http://leipzig-data.de/Data/Verein/Batzen-Tauschring>
-    ld:contactPerson "Batzen- Tauschring" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.ZumKleingartenpark.41> ;
-    a org:Organization ;
-    rdfs:label "Batzen-Tauschring Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A85> ;
-    foaf:homepage <http://www.batzen.de> ;
-    foaf:mbox "peggy77@gmx.net" ;
-    foaf:phone "0341000" .
-
-<http://leipzig-data.de/Data/Verein/Batzentauschring>
-    ld:contactPerson "Jürgen Weidemann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04435.Schkeuditz.Ringelblumenweg.10> ;
-    a org:Organization ;
-    rdfs:label "Batzentauschring e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A151> ;
-    foaf:homepage <http://www.batzen.de> ;
-    foaf:mbox "leipzigrikscha@gmail.com" ;
-    foaf:phone "0177-2672145" .
-
-<http://leipzig-data.de/Data/Verein/Bergbau-Technik-Park>
-    ld:contactPerson "Thorsten  Hinz" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
-    a org:Organization ;
-    rdfs:label "Bergbau-Technik-Park e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A165> ;
-    foaf:homepage <http://www.bergbau-technik-park.de/park/> ;
-    foaf:mbox "info@bergbau-technik-park.de" ;
-    foaf:phone "034297-140127" .
-
-<http://leipzig-data.de/Data/Verein/BildungsvereinParcours>
-    ld:contactPerson "Johannes Hohaus" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.79> ;
-    a org:Organization ;
-    rdfs:label "Bildungsverein Parcours e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A170> ;
-    foaf:homepage <http://parcours-bildung.org> ;
-    foaf:mbox "info@parcours-bildung.org" ;
-    foaf:phone "034126580091" .
-
-<http://leipzig-data.de/Data/Verein/BioTempel>
-    ld:contactPerson "Christel Wust" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.77A> ;
-    a org:Organization ;
-    rdfs:label "Bio Tempel" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A155> ;
-    foaf:homepage <https://www.facebook.com/BioTempelLeipzig/> ;
-    foaf:mbox "biotempel@posteo.de" ;
-    foaf:phone "0341-24765472" .
-
-<http://leipzig-data.de/Data/Verein/Bolte_Sabine>
-    ld:contactPerson "Sabine Bolte" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.37> ;
-    a org:Organization ;
-    rdfs:label "Sabine Bolte" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A34> ;
-    foaf:mbox "bildungsberatung@leipzig.de" ;
-    foaf:phone "03411234779" .
-
-<http://leipzig-data.de/Data/Verein/BotanischerGartenGrosspoesna>
-    ld:contactPerson "Heike Schüürmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04463.Grosspoesna.StoermthalerWeg.2> ;
-    a org:Organization ;
-    rdfs:label "Botanischer Garten für Arznei- und Gewürzpflanzen Großpösna-Oberholz" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A171> ;
-    foaf:homepage <http://www.botanischer-garten-oberholz.de> ;
-    foaf:mbox "botanischer-garten-oberholz@gmx.de" ;
-    foaf:phone "03429741249" .
-
-<http://leipzig-data.de/Data/Verein/BuergerfuerLeipzig>
-    ld:contactPerson "Angelika Kell" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
-    a org:Organization ;
-    rdfs:label "Stiftung Bürger für Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A100> ;
-    foaf:homepage <http://www.buergerfuerleipzig.de> ;
-    foaf:mbox "post@buergerfuerleipzig.de" ;
-    foaf:phone "9601530" .
-
-<http://leipzig-data.de/Data/Verein/CONTIGO>
-    ld:contactPerson "Anica Deckert" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Nikolaistrasse.6> ;
-    a org:Organization ;
-    rdfs:label "CONTIGO Fairtrade Shop" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A91> ;
-    foaf:homepage <http://leipzig.contigo.de> ;
-    foaf:mbox "leipzig@contigo.de" ;
-    foaf:phone "0341-23102973" .
-
-<http://leipzig-data.de/Data/Verein/CafeChavalo>
-    ld:contactPerson "Jens Klein" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132> ;
-    a org:Organization ;
-    rdfs:label "Café Chavalo" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A120> ;
-    foaf:homepage <http://www.cafe-chavalo.de> ;
-    foaf:mbox "jens@cafe-chavalo.de" ;
-    foaf:phone "0175-9490562" .
-
-<http://leipzig-data.de/Data/Verein/Caritas>
-    ld:contactPerson "Marcus Zschornack" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.15> ;
-    a org:Organization ;
-    rdfs:label "Caritasverband Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A37> ;
-    foaf:homepage <http://www.caritas-leipzig.de> ;
-    foaf:mbox "presse@caritas-leipzig.de" ;
-    foaf:phone "034196361-30" .
-
-<http://leipzig-data.de/Data/Verein/CremeBRUeHLe>
-    ld:contactPerson "Verena  Hahmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.AmHallischenTor.1> ;
-    a org:Organization ;
-    rdfs:label "Creme BRÜHLé" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A133> ;
-    foaf:homepage <http://www.restaurant-creme-bruehle.de> ;
-    foaf:mbox "verena.hahmann@marriott.com" ;
-    foaf:phone "04319653109" .
-
-<http://leipzig-data.de/Data/Verein/DLRGBezirkLeipzig>
-    ld:contactPerson "Mike Strauß" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.Theresienstrasse.2A> ;
-    a org:Organization ;
-    rdfs:label "DLRG Bezirk Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A148> ;
-    foaf:homepage <http://bez-leipzig.dlrg.de/> ;
-    foaf:mbox "info@dlrg-leipzig.de" ;
-    foaf:phone "0341-2008188" .
-
-<http://leipzig-data.de/Data/Verein/DasJapanischeHaus>
-    ld:contactPerson "Noriko Minkus" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.113B> ;
-    a org:Organization ;
-    rdfs:label "Das Japanische Haus e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A92> ;
-    foaf:homepage <http://www.djh-leipzig.de> ;
-    foaf:mbox "mail@djh-leipzig.de" ;
-    foaf:phone "034192722261" .
-
-<http://leipzig-data.de/Data/Verein/DasSchwarzeBrett>
-    ld:contactPerson "Thomas Efer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10> ;
-    a org:Organization ;
-    rdfs:label "Das Schwarze Brett" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A71> ;
-    foaf:homepage <http://www.dsble.de/> ;
-    foaf:mbox "info@dsble.de" ;
-    foaf:phone "+49-3212-1394300" .
-
-<http://leipzig-data.de/Data/Verein/DerLindentaler>
-    ld:contactPerson "Rainer Kühn" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Gustav-Freytag-Strasse.18A> ;
-    a org:Organization ;
-    rdfs:label "Der Lindentaler" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A23> ;
-    foaf:homepage <http://www.lindentaler.org> ;
-    foaf:mbox "lindentaler@gmx.de" ;
-    foaf:phone "0341-26340031" .
-
-<http://leipzig-data.de/Data/Verein/DerLindwurm>
-    ld:contactPerson "Mathias Haase" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> ;
-    a org:Organization ;
-    rdfs:label "Der Lindwurm Handelsgesellschaft mbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A123> ;
-    foaf:homepage <http://www.derlindwurm.com> ;
-    foaf:mbox "der_lindwurm@t-online.de" ;
-    foaf:phone "034383041325" .
-
-<http://leipzig-data.de/Data/Verein/DiejungeAkademie>
-    ld:contactPerson "Jörg Asshoff" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Reiskestrasse.2> ;
-    a org:Organization ;
-    rdfs:label "Fundamentale - Die junge Akademie" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A47> ;
-    foaf:homepage <http://www.fundamentale.de> ;
-    foaf:mbox "ja@fundamentale.de" ;
-    foaf:phone "4934186722056" .
-
-<http://leipzig-data.de/Data/Verein/Dresdner59>
-    ld:contactPerson "Johanna Pahl" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
-    a org:Organization ;
-    rdfs:label "Dresdner59" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A104> ;
-    foaf:homepage <http://www.dresdner59.de> ;
-    foaf:mbox "johannapahl@googlemail.com" ;
-    foaf:phone "0341-3067174" .
-
-<http://leipzig-data.de/Data/Verein/EDUVENTIS>
-    ld:contactPerson "Manja Mühl" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.4> ;
-    a org:Organization ;
-    rdfs:label "EDUVENTIS-Bildung erleben e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A79> ;
-    foaf:homepage <http://www.eduventis.org> ;
-    foaf:mbox "manja.muehl@eduventis.org" ;
-    foaf:phone "034126562279" .
-
-<http://leipzig-data.de/Data/Verein/ENEDAS>
-    ld:contactPerson "Enedas Verein" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.33> ;
-    a org:Organization ;
-    rdfs:label "ENEDAS e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A164> ;
-    foaf:homepage <http://www.enedas.de/> ;
-    foaf:mbox "info@enedas.de" ;
-    foaf:phone "015771822192" .
-
-<http://leipzig-data.de/Data/Verein/EchtUnverpackt>
-    ld:contactPerson "Stefan Heller" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Koenneritzstrasse.88> ;
-    a org:Organization ;
-    rdfs:label "EchtUnverpackt" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A147> ;
-    foaf:homepage <http://www.EchtUnverpackt.de> ;
-    foaf:mbox "info@echtunverpackt.de" ;
-    foaf:phone "01797563762" .
-
-<http://leipzig-data.de/Data/Verein/EineWeltLaden>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.18> ;
-    a org:Organization ;
-    rdfs:label "Eine Welt Laden" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A50> ;
-    foaf:homepage <http://einewelt-leipzig.de> ;
-    foaf:mbox "info@einewelt-leipzig.de" ;
-    foaf:phone "+493413010143" .
-
-<http://leipzig-data.de/Data/Verein/Einkaufsfuehrer-Supermaerkte>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX> ;
-    a org:Organization ;
-    rdfs:label "Einkaufsführer - Supermärkte" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A130> ;
-    foaf:mbox "Superaemerkte@einewelt-Leipzig.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/Einkaufsfuehrer-Supermarkt>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX> ;
-    a org:Organization ;
-    rdfs:label "Einkaufsführer - Supermarkt" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A131> ;
-    foaf:mbox "supermaerkte@einewelt-leipzig.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/EnergiegenossenschaftLeipzig>
-    ld:contactPerson "André Wüste", "Sebastian Koch" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.DelitzscherStrasse.3>, <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-    a org:Organization ;
-    rdfs:label "Energiegenossenschaft Leipzig EGL eG", "Energiegenossenschaft Leipzig eG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A157>, <http://nachhaltiges-leipzig.de/Data/Akteur/A36> ;
-    foaf:homepage <http://www.energiegenossenschaft-leipzig.de/> ;
-    foaf:mbox "a.wueste@eg-leipzig.de", "info@eg-leipzig.de" ;
-    foaf:phone "015159223227", "01603365593" .
-
-<http://leipzig-data.de/Data/Verein/FairerEinkaufsfuehrer-BaeckereiCafe>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111> ;
-    a org:Organization ;
-    rdfs:label "Fairer Einkaufsführer - Bäckerei/Cafe" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A111> ;
-    foaf:mbox "einkaufsfuehrer.baeckerei.cafe@einewelt-leipzig.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/FairerEinkaufsfuehrer-Discounter>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
-    a org:Organization ;
-    rdfs:label "Fairer Einkaufsführer - Discounter" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A108> ;
-    foaf:mbox "info@fairtrade-leipzig.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/FairerEinkaufsfuehrer-RestaurantCafe>
-    ld:contactPerson "Martin Finke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
-    a org:Organization ;
-    rdfs:label "Fairer Einkaufsführer - Restaurant/Cafe" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A110> ;
-    foaf:mbox "einkaufsfuehrer.restaurant.cafe@einewelt-leipzig.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/FamilienbueroLeipzig>
-    ld:contactPerson "Thomas Kujawa" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Katharinenstrasse.21> ;
-    a org:Organization ;
-    rdfs:label "Familienbüro Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A57> ;
-    foaf:homepage <http://www.familienbuero-leipzig.de> ;
-    foaf:mbox "info@familienbuero-leipzig.de" ;
-    foaf:phone "+4934135540810" .
-
-<http://leipzig-data.de/Data/Verein/FloresdeLooss_Carina>
-    ld:contactPerson "Carina  Flores de Looß" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.42> ;
-    a org:Organization ;
-    rdfs:label "Carina Flores de Looß" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A154> ;
-    foaf:homepage <http://diehellenkoepfe.de> ;
-    foaf:mbox "carina.flores@diehellenkoepfe.de" ;
-    foaf:phone "015756424859", "01749760689" .
-
-<http://leipzig-data.de/Data/Verein/FoerdervereinUmweltinformationszentrumLeipzig>
-    ld:contactPerson "Annette Körner" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.136> ;
-    a org:Organization ;
-    rdfs:label "Förderverein \"Umweltinformationszentrum Leipzig - UiZ\" e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A11> ;
-    foaf:homepage <http://www.umwelt-leipzig.de> ;
-    foaf:mbox "fvumweltinformationszentrum@web.de" ;
-    foaf:phone "03411236830" .
-
-<http://leipzig-data.de/Data/Verein/FoodAssemblyLeipzig>
-    ld:contactPerson "Urte Grauwinkel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.85> ;
-    a org:Organization ;
-    rdfs:label "Food Assembly Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A141> ;
-    foaf:homepage <http://www.foodassembly.de> ;
-    foaf:mbox "urte.grauwinkel@web.de" ;
-    foaf:phone "0341-3081269" .
-
-<http://leipzig-data.de/Data/Verein/FreieKommunikationundNachhaltigerLebensstil>
-    ld:contactPerson "Markus Kollotzek" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04155.Leipzig.Marbachstrasse.2A> ;
-    a org:Organization ;
-    rdfs:label "Freie Kommunikation und Nachhaltiger Lebensstil e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A114> ;
-    foaf:homepage <https://greennetproject.org/de/content/downloads> ;
-    foaf:mbox "markus.kollotzek@greennetproject.org" ;
-    foaf:phone "0160-2574782" .
-
-<http://leipzig-data.de/Data/Verein/Freiwilligen-AgenturLeipzig>
-    ld:contactPerson "Birgit Höppner-Böhme" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
-    a org:Organization ;
-    rdfs:label "Freiwilligen-Agentur Leipzig e. V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A87> ;
-    foaf:homepage <http://www.freiwilligen-agentur-leipzig.de> ;
-    foaf:mbox "info@fwal.de" ;
-    foaf:phone "0341-1494728" .
-
-<http://leipzig-data.de/Data/Verein/GAZ-Leipzig>
-    ld:contactPerson "Katrin Reschke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
-    a org:Organization ;
-    rdfs:label "Grün-Alternatives Zentrum Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A16> ;
-    foaf:homepage <http://www.doelitzer-wassermuehle.de> ;
-    foaf:mbox "GAZ-Leipzig@t-online.de" ;
-    foaf:phone "03413389353" .
-
-<http://leipzig-data.de/Data/Verein/GRUeNSCHNABEL>
-    ld:contactPerson "Christiane Pfundt" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Nikolaistrasse.20> ;
-    a org:Organization ;
-    rdfs:label "GRÜNSCHNABEL" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A94> ;
-    foaf:homepage <http://www.gruenschnabel-shop.de> ;
-    foaf:mbox "c.pfundt@gruenschnabel-shop.de" ;
-    foaf:phone "0341-9808022" .
-
-<http://leipzig-data.de/Data/Verein/GeoWerkstattLeipzig>
-    ld:contactPerson "Ronny Schmidt" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Johannisallee.19> ;
-    a org:Organization ;
-    rdfs:label "GeoWerkstatt Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A168> ;
-    foaf:homepage <http://www.geowerkstatt.com> ;
-    foaf:mbox "vorstand@geowerkstatt.com" ;
-    foaf:phone "0179-4590873" .
-
-<http://leipzig-data.de/Data/Verein/GruenerRingLeipzig>
-    ld:contactPerson "Heike König" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04451.Borsdorf.LeipzigerStrasse.6> ;
-    a org:Organization ;
-    rdfs:label "Grüner Ring Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A54> ;
-    foaf:homepage <http://www.gruenerring-leipzig.de> ;
-    foaf:mbox "geschaeftsstelle@gruenerring-leipzig.de" ;
-    foaf:phone "01622807860", "03429120412" .
-
-<http://leipzig-data.de/Data/Verein/HANDSonTECHNOLOGY>
-    ld:contactPerson "Stefanie Hauffe" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
-    a org:Organization ;
-    rdfs:label "HANDS on TECHNOLOGY e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A127> ;
-    foaf:homepage <http://www.hands-on-technology.org> ;
-    foaf:mbox "info@hands-on-technology.org" ;
-    foaf:phone "03412461583" .
-
-<http://leipzig-data.de/Data/Verein/Haedi-Flor>
-    ld:contactPerson "Michael Haedicke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04279.Leipzig.Johannes-R-Becher-Strasse.12> ;
-    a org:Organization ;
-    rdfs:label "Haedi-Flor Meisterbetrieb" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A90> ;
-    foaf:homepage <http://www.haediflor.de> ;
-    foaf:mbox "info@haediflor.de" ;
-    foaf:phone "0341-3304411" .
-
-<http://leipzig-data.de/Data/Verein/HausderDemokratie>
-    ld:contactPerson "Rolf  Schumann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-    a org:Organization ;
-    rdfs:label "Haus der Demokratie Leipzig e.v." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A101> ;
-    foaf:homepage <http://www.hddl.de> ;
-    foaf:mbox "info@hddl.de" ;
-    foaf:phone "0341-3065100" .
-
-<http://leipzig-data.de/Data/Verein/HotelFuerstenhof>
-    ld:contactPerson "Phillipp Jahnich" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.Troendlinring.8> ;
-    a org:Organization ;
-    rdfs:label "Hotel Fürstenhof" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A103> ;
-    foaf:homepage <http://www.hotelfuerstenhofleipzig.com/> ;
-    foaf:mbox "Philipp.Jahnich@luxurycollection.com" ;
-    foaf:phone "+49(0)3411404901" .
-
-<http://leipzig-data.de/Data/Verein/IdeenwerkstattBildungsagenten>
-    ld:contactPerson "Helmut Wolman" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
-    a org:Organization ;
-    rdfs:label "Ideenwerkstatt Bildungsagenten" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A40> ;
-    foaf:homepage <http://www.konzeptwerk-neue-oekonomie.org> ;
-    foaf:mbox "Helmut@bildungsagenten.com" ;
-    foaf:phone "015734448245", "03067969040" .
-
-<http://leipzig-data.de/Data/Verein/InitiativeBuergerbahnhofPlagwitz>
-    ld:contactPerson "Stiftung \"Ecken wecken\" Thorsten Mehnert" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.MarkranstaedterStrasse.29B> ;
-    a org:Organization ;
-    rdfs:label "Initiative Bürgerbahnhof Plagwitz (IBBP)" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A62> ;
-    foaf:homepage <http://www.buergerbahnhof-plagwitz.de> ;
-    foaf:mbox "info@buergerbahnhof-plagwitz.de" ;
-    foaf:phone "0341-123456789" .
-
-<http://leipzig-data.de/Data/Verein/InitiativeGrundeinkommenLeipzig>
-    ld:contactPerson "Volkmar Kreiß" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.154> ;
-    a org:Organization ;
-    rdfs:label "Initiative Grundeinkommen Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A35> ;
-    foaf:homepage <http://bge-initiative-leipzig.blogspot.de> ;
-    foaf:mbox "volkmarkreiss@gmail.com" ;
-    foaf:phone "03414248474" .
-
-<http://leipzig-data.de/Data/Verein/JeepneyCafe>
-    ld:contactPerson "Janellsa Giel Ludwig" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04155.Leipzig.Georg-Schumann-Strasse.78> ;
-    a org:Organization ;
-    rdfs:label "Jeepney Café" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A172> ;
-    foaf:homepage <http://jeepney-cafe.de> ;
-    foaf:mbox "office@jeepney-cafe.de" ;
-    foaf:phone "+49(341)69866680" .
-
-<http://leipzig-data.de/Data/Verein/KatiMagyar>
-    ld:contactPerson "Kati Magyar" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
-    a org:Organization ;
-    rdfs:label "Kati Magyar" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A136> ;
-    foaf:homepage <http://www.katimagyar.de> ;
-    foaf:mbox "post@katimagyar.de" ;
-    foaf:phone "034112570465" .
-
-<http://leipzig-data.de/Data/Verein/KlimagerechtigkeitLeipzig>
-    ld:contactPerson "Rafaela Müller" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
-    a org:Organization ;
-    rdfs:label "Klimagerechtigkeit Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A70> ;
-    foaf:homepage <http://klimagerechtigkeit.blogsport.de/> ;
-    foaf:mbox "rafaela.mueller@posteo.de" ;
-    foaf:phone "017631184974" .
-
-<http://leipzig-data.de/Data/Verein/KollektivLastenradLeipzig>
-    ld:contactPerson "Juliana Klengel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
-    a org:Organization ;
-    rdfs:label "Kollektiv Lastenrad Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A63> ;
-    foaf:homepage <https://kolara.wordpress.com/> ;
-    foaf:mbox "analui@posteo.de" ;
-    foaf:phone "01577-1598241" .
-
-<http://leipzig-data.de/Data/Verein/KonsumLeipzig>
-    ld:contactPerson "Petra Seelbach" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Industriestrasse.85> ;
-    a org:Organization ;
-    rdfs:label "Konsum Leipzig eG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A126> ;
-    foaf:homepage <http://www.konsum-leipzig.de> ;
-    foaf:mbox "petra.seelbach@konsum-leipzig.de" ;
-    foaf:phone "03414984284" .
-
-<http://leipzig-data.de/Data/Verein/KontaktstelleOrientierung>
-    ld:contactPerson "Hermann Kügler" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Hainstrasse.12> ;
-    a org:Organization ;
-    rdfs:label "Kontaktstelle Orientierung" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A13> ;
-    foaf:homepage <http://www.orientierung-leipzig.de> ;
-    foaf:mbox "orientierung.leipzig@jesuiten.org" ;
-    foaf:phone "03412125704" .
-
-<http://leipzig-data.de/Data/Verein/KonzeptwerkNeueOekonomie>
-    ld:contactPerson "Kai Kuhnhenn", "Susanne Brehm" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
-    a org:Organization ;
-    rdfs:label "Konzeptwerk Neue Ökonomie" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A145>, <http://nachhaltiges-leipzig.de/Data/Akteur/A27> ;
-    foaf:homepage <http://www.knoe.org>, <http://www.konzeptwerk-neue-oekonomie.org> ;
-    foaf:mbox "K.Kuhnhenn@knoe.org", "s.brehm@knoe.org" ;
-    foaf:phone "0341-39281686" .
-
-<http://leipzig-data.de/Data/Verein/KuchenhimmelundBrotfein>
-    ld:contactPerson "Ronny Vogel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Martinstrasse.6> ;
-    a org:Organization ;
-    rdfs:label "Kuchenhimmel & Brotfein" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A116> ;
-    foaf:mbox "kuchenhimmel.brotfein@gmail.com" ;
-    foaf:phone "01637813245" .
-
-<http://leipzig-data.de/Data/Verein/KunstundKatze>
-    ld:contactPerson "Christina Naumann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.MerseburgerStrasse.7> ;
-    a org:Organization ;
-    rdfs:label "Kunst und Katze" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A125> ;
-    foaf:homepage <http://www.kunstundkatze.de> ;
-    foaf:mbox "info@kunstundkatze.de" ;
-    foaf:phone "0178-7178789" .
-
-<http://leipzig-data.de/Data/Verein/KurtHinkefuss>
-    ld:contactPerson "Kurt Hinkefuß" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Wiebelstrasse.8> ;
-    a org:Organization ;
-    rdfs:label "Kurt Hinkefuß" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A173> ;
-    foaf:homepage <http://konsumglobal-leipzig.de/> ;
-    foaf:mbox "kauerte@gmx.net" ;
-    foaf:phone "01631736473" .
-
-<http://leipzig-data.de/Data/Verein/LOstFood>
-    ld:contactPerson "Food Coop" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.WurznerStrasse.2> ;
-    a org:Organization ;
-    rdfs:label "LOst Food" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A124> ;
-    foaf:homepage <http://lost-food.de> ;
-    foaf:mbox "info@lost-food.de" ;
-    foaf:phone "12345" .
-
-<http://leipzig-data.de/Data/Verein/LaTortita>
-    ld:contactPerson "Vanessa Rothe de Henriquez" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
-    a org:Organization ;
-    rdfs:label "Veganes Catering \"La Tortita\"" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A122> ;
-    foaf:homepage <http://www.la-tortita.de> ;
-    foaf:mbox "vanessarothe@gmx.de" ;
-    foaf:phone "0172-5749712" .
-
-<http://leipzig-data.de/Data/Verein/Langer_Matias>
-    ld:contactPerson "Matias Langer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
-    a org:Organization ;
-    rdfs:label "Dr. Matias Langer" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A48> ;
-    foaf:homepage <http://www.seidentraum.eu> ;
-    foaf:mbox "email@seidentraum.eu" ;
-    foaf:phone "03413314052" .
-
-<http://leipzig-data.de/Data/Verein/Lehmolandia>
-    ld:contactPerson "Jan Barnick" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.39> ;
-    a org:Organization ;
-    rdfs:label "Lehmolandia Lehmatelier" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A83> ;
-    foaf:homepage <http://www.lehmolandia.de> ;
-    foaf:mbox "kontakt@lehmolandia.de" ;
-    foaf:phone "015737651644" .
-
-<http://leipzig-data.de/Data/Verein/Leila>
-    ld:contactPerson "Jana  Rehwagen" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.49> ;
-    a org:Organization ;
-    rdfs:label "Leila e.V. iG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A144> ;
-    foaf:homepage <http://www.leila-leipzig.de> ;
-    foaf:mbox "kontakt@leila-leipzig.de" ;
-    foaf:phone "01626675500" .
-
-<http://leipzig-data.de/Data/Verein/LeipzigerAgenda21>
-    ld:contactPerson "Ralf Elsässer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Pestalozzistrasse.70> ;
-    a org:Organization ;
-    rdfs:label "Leipziger Agenda 21" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A3> ;
-    foaf:homepage <http://www.leipzigeragenda21.de> ;
-    foaf:mbox "post@civixx.de" ;
-    foaf:phone "0163-3978289", "0341-44259900" .
-
-<http://leipzig-data.de/Data/Verein/LeipzigerKinderbuero>
-    ld:contactPerson "Christian Gundlach" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Rietschelstrasse.2> ;
-    a org:Organization ;
-    rdfs:label "Leipziger Kinderbüro des Deutschen Kinderschutzbundes" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A29> ;
-    foaf:homepage <http://www.leipziger-kinderbuero.de/> ;
-    foaf:mbox "info@leipziger-kinderbuero.de" ;
-    foaf:phone "0341-3375666" .
-
-<http://leipzig-data.de/Data/Verein/LeipzigerKulturPaten>
-    ld:contactPerson "Gudula Kienemund" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.27> ;
-    a org:Organization ;
-    rdfs:label "Leipziger KulturPaten" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A30> ;
-    foaf:homepage <http://www.leipzigerkulturpaten.de> ;
-    foaf:mbox "gk@ideenquartier.org" ;
-    foaf:phone "+49(0)341-86729050" .
-
-<http://leipzig-data.de/Data/Verein/LeipzigerMesse>
-    ld:contactPerson "Ekkehard Trümper" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.Messe-Allee.1> ;
-    a org:Organization ;
-    rdfs:label "Leipziger Messe GmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A81> ;
-    foaf:homepage <http://www.leipziger-messe.de> ;
-    foaf:mbox "E.Truemper@leipziger-messe.de" ;
-    foaf:phone "03416788210" .
-
-<http://leipzig-data.de/Data/Verein/Lipsia-e-motion>
-    ld:contactPerson "Lutz Förster" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Toskastrasse.36> ;
-    a org:Organization ;
-    rdfs:label "Lipsia-e-motion" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A55> ;
-    foaf:homepage <http://www.Lipsia-e-motion.com> ;
-    foaf:mbox "info@lipsia-e-motion.com" ;
-    foaf:phone "0179-2933671", "0341-9012193" .
-
-<http://leipzig-data.de/Data/Verein/LustaufneuesGeld>
-    ld:contactPerson "Steffen Henke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04158.Leipzig.Rosestrasse.11> ;
-    a org:Organization ;
-    rdfs:label "Lust auf neues Geld" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A53> ;
-    foaf:homepage <http://www.lust-auf-neues-geld.de> ;
-    foaf:mbox "info@lust-auf-neues-geld-leipzig.de" ;
-    foaf:phone "034123159818" .
-
-<http://leipzig-data.de/Data/Verein/MUeHLSTRASSE14>
-    ld:contactPerson "Karin  Hörning" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
-    a org:Organization ;
-    rdfs:label "MÜHLSTRASSE 14 e. V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A166> ;
-    foaf:homepage <http://www.muehlstrasse.de/> ;
-    foaf:mbox "kontakt@muehlstrasse.de" ;
-    foaf:phone "0341-9903600" .
-
-<http://leipzig-data.de/Data/Verein/MakerspaceLeipzig>
-    ld:contactPerson "Andre' Przybilla" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.BitterfelderStrasse.5> ;
-    a org:Organization ;
-    rdfs:label "Makerspace Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A93> ;
-    foaf:homepage <http://www.Makerspace-Leipzig.de> ;
-    foaf:mbox "info@makerspace-leipzig.de" ;
-    foaf:phone "03413552040" .
-
-<http://leipzig-data.de/Data/Verein/MaxPlanckInstitutfuerMathematik>
-    ld:contactPerson "Jürgen Jost" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.22> ;
-    a org:Organization ;
-    rdfs:label "Max Planck Institut für Mathematik" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A162> ;
-    foaf:homepage <https://www.mis.mpg.de/de/start.html> ;
-    foaf:mbox "josefineotte95@gmail.com" ;
-    foaf:phone "+49(0)341-9959-50" .
-
-<http://leipzig-data.de/Data/Verein/Morelly_Nelly>
-    ld:contactPerson "Sandra Wolf" ;
-    ld:hasAddress <http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> ;
-    a org:Organization ;
-    rdfs:label "Nelly Morelly" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A112> ;
-    foaf:homepage <http://www.nelly-morelly.de> ;
-    foaf:mbox "info@nelly-morelly.de" ;
-    foaf:phone "0174-9270597" .
-
-<http://leipzig-data.de/Data/Verein/Mrs.Hippie>
-    ld:contactPerson "Karsten Reichmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Karl-Liebknecht-Strasse.36> ;
-    a org:Organization ;
-    rdfs:label "Mrs. Hippie" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A128> ;
-    foaf:homepage <http://www.mrs.hippie.de> ;
-    foaf:mbox "karsten_reichmann@dibomedia.de" ;
-    foaf:phone "0341-9613033" .
-
-<http://leipzig-data.de/Data/Verein/NABU-RegionalverbandLeipzig>
-    ld:contactPerson "René Sievert" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
-    a org:Organization ;
-    rdfs:label "NABU-Regionalverband Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A60> ;
-    foaf:homepage <http://www.NABU-Leipzig.de> ;
-    foaf:mbox "info@nabu-leipzig.de" ;
-    foaf:phone "03416884477" .
-
-<http://leipzig-data.de/Data/Verein/NEU>
-    ld:contactPerson "Daniel  Reißmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Martin-Luther-Ring.4> ;
-    a org:Organization ;
-    rdfs:label "Netzwerk Energie & Umwelt e. V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A46> ;
-    foaf:homepage <http://www.energiemetropole-leipzig.de> ;
-    foaf:mbox "reissmann@energiemetropole-leipzig.de" ;
-    foaf:phone "0341-121-3317" .
-
-<http://leipzig-data.de/Data/Verein/Nachbarschaftsgaerten>
-    ld:contactPerson "Tino Neufert" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
-    a org:Organization ;
-    rdfs:label "Nachbarschaftsgärten e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A72> ;
-    foaf:homepage <http://www.nachbarschaftsgaerten.de/> ;
-    foaf:mbox "info@nachbarschaftsgaerten.de" ;
-    foaf:phone "0341000000" .
-
-<http://leipzig-data.de/Data/Verein/NetzwerkGewaltfreieKommunikation>
-    ld:contactPerson "Janette  Lemke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.92> ;
-    a org:Organization ;
-    rdfs:label "Netzwerk Gewaltfreie Kommunikation Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A98> ;
-    foaf:homepage <http://www.gfk-leipzig.de> ;
-    foaf:mbox "kontakt@gfk-leipzig.de" ;
-    foaf:phone "016096243014", "017660898823" .
-
-<http://leipzig-data.de/Data/Verein/NextLeipzig>
-    ld:contactPerson "Steffen Peschel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.ZschocherscheStrasse.2A> ;
-    a org:Organization ;
-    rdfs:label "NextLeipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A139> ;
-    foaf:homepage <http://www.nextleipzig.de> ;
-    foaf:mbox "steffen.peschel@konzeptfreun.de" ;
-    foaf:phone "015788484285" .
-
-<http://leipzig-data.de/Data/Verein/Nextleipzig>
-    ld:contactPerson "Peter Hartmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.ZschocherscheStrasse.2A> ;
-    a org:Organization ;
-    rdfs:label "Nextleipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A153> ;
-    foaf:homepage <http://www.nextleipzig.de/> ;
-    foaf:mbox "phartmann6@t-online.de" ;
-    foaf:phone "01634607183" .
-
-<http://leipzig-data.de/Data/Verein/Nissen_Sylke>
-    ld:contactPerson "Sylke Nissen" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Beethovenstrasse.15> ;
-    a org:Organization ;
-    rdfs:label "Sylke Nissen" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A152> ;
-    foaf:mbox "nissen@uni-leipzig.de" ;
-    foaf:phone "03419735665" .
-
-<http://leipzig-data.de/Data/Verein/NuKLA>
-    ld:contactPerson "Wolfgang E. A. Stoiber" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Otto-Adam-Strasse.14> ;
-    a org:Organization ;
-    rdfs:label "Naturschutz und Kunst Leipziger Auwald e. V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A10> ;
-    foaf:homepage <http://www.nukla.de> ;
-    foaf:mbox "stoiber@nukla.de" ;
-    foaf:phone "01786662454" .
-
-<http://leipzig-data.de/Data/Verein/OeDPSachsen>
-    ld:contactPerson "Rahel Wehemeyer-Blum" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.GoebschelwitzerStrasse.1> ;
-    a org:Organization ;
-    rdfs:label "ÖDP Sachsen" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A146> ;
-    foaf:homepage <http://www.oedp-sachsen.de> ;
-    foaf:mbox "rahwehbl@aikq.de" ;
-    foaf:phone "0341-3513835" .
-
-<http://leipzig-data.de/Data/Verein/Oekoloewe>
-    ld:contactPerson "Nico Singer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-    a org:Organization ;
-    rdfs:label "Ökolöwe - Umweltbund Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A14>, <http://nachhaltiges-leipzig.de/Data/Akteur/A69> ;
-    foaf:homepage <http://www.oekoloewe.de>, <http://ökolöwe.de/> ;
-    foaf:mbox "loewenmaul@oekoloewe.de", "oeffentlichkeitsarbeit@oekoloewe.de" ;
-    foaf:phone "0341-3065-185", "03413065185" .
-
-<http://leipzig-data.de/Data/Verein/OxfamDeutschlandShops>
-    ld:contactPerson "Astrid Kleitke" ;
-    ld:hasAddress <http://leipzig-data.de/Data/10179.Berlin.AmKoellnischenPark.1> ;
-    a org:Organization ;
-    rdfs:label "Oxfam Deutschland Shops gGmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A99> ;
-    foaf:homepage <http://www.oxfam-shops.de> ;
-    foaf:mbox "akleitke@oxfam.de" ;
-    foaf:phone "030-45306910" .
-
-<http://leipzig-data.de/Data/Verein/PermakulturForum>
-    ld:contactPerson "Kirsten Elborg" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
-    a org:Organization ;
-    rdfs:label "Permakultur Forum" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A59> ;
-    foaf:homepage <http://www.transitiontown-leipzig.de/?page_id=456> ;
-    foaf:mbox "k.elborg@permakultur-institut.de" ;
-    foaf:phone "0163-9897864" .
-
-<http://leipzig-data.de/Data/Verein/Phyllodrom>
-    ld:contactPerson "Bettina Grallert" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04158.Leipzig.DelitzscherLandstrasse.38> ;
-    a org:Organization ;
-    rdfs:label "Phyllodrom e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A160> ;
-    foaf:homepage <http://phyllodrom.de/> ;
-    foaf:mbox "info@phyllodrom.de" ;
-    foaf:phone "03415257757" .
-
-<http://leipzig-data.de/Data/Verein/PiepenbrockSicherheit>
-    ld:contactPerson "Andreas  Schuster" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Gerichtsweg.28> ;
-    a org:Organization ;
-    rdfs:label "Piepenbrock Sicherheit GmbH + Co. KG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A39> ;
-    foaf:homepage <http://www.piepenbrock.de> ;
-    foaf:mbox "u.wermelt@piepenbrock.de" ;
-    foaf:phone "03414131-22" .
-
-<http://leipzig-data.de/Data/Verein/ProjektLebendigeLuppe>
-    ld:contactPerson "Maria Vitzthum" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Michael-Kazmierczak-Strasse.25> ;
-    a org:Organization ;
-    rdfs:label "Projekt \"Lebendige Luppe\"" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A78> ;
-    foaf:homepage <http://www.Lebendige-Luppe.de> ;
-    foaf:mbox "info@lebendige-luppe.de" ;
-    foaf:phone "034186967550" .
-
-<http://leipzig-data.de/Data/Verein/ProjektwohnungKrudebude>
-    ld:contactPerson "Theresa Doss" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz.13> ;
-    a org:Organization ;
-    rdfs:label "Projektwohnung \"krudebude\"" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A80> ;
-    foaf:homepage <https://www.facebook.com/pages/Projektwohnung-krudebude/617099368382416?fref=ts> ;
-    foaf:mbox "projektraum.leipzig@gmail.com" ;
-    foaf:phone "4917672949640" .
-
-<http://leipzig-data.de/Data/Verein/Pulita2016>
-    ld:contactPerson "Michael Heuer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Priessnitzstrasse.32> ;
-    a org:Organization ;
-    rdfs:label "Pulita2016" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A138> ;
-    foaf:homepage <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
-    foaf:mbox "pulita@gmx.info" ;
-    foaf:phone "015123329702" .
-
-<http://leipzig-data.de/Data/Verein/Querbeet>
-    ld:contactPerson "Johannes Timaeus", "Marius Brauer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Bernhardstrasse.11>, <http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20> ;
-    a org:Organization ;
-    rdfs:label "Querbeet" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A42>, <http://nachhaltiges-leipzig.de/Data/Akteur/A67> ;
-    foaf:homepage <http://www.querbeet-leipzig.de> ;
-    foaf:mbox "info@querbeet-leipzig.de", "t.johannes@arcor.de" ;
-    foaf:phone "00000000000", "01781815797" .
-
-<http://leipzig-data.de/Data/Verein/RadbarVelocibar>
-    ld:contactPerson "Karsten Wolf" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Alfred-Frank-Strasse.15> ;
-    a org:Organization ;
-    rdfs:label "Radbar \"Velocibar\"" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A61> ;
-    foaf:homepage <http://www.velocibar.de> ;
-    foaf:mbox "zumkarsten@gmx.de" ;
-    foaf:phone "01778506951", "03412232817" .
-
-<http://leipzig-data.de/Data/Verein/Ratskeller>
-    ld:contactPerson "Ingo Winkler" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Lotterstrasse.1> ;
-    a org:Organization ;
-    rdfs:label "Ratskeller der Stadt Leipzig GmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A89> ;
-    foaf:homepage <http://www.ratskeller-leipzig.de> ;
-    foaf:mbox "info@ratskeller-leipzig.de" ;
-    foaf:phone "0341-1234567" .
-
-<http://leipzig-data.de/Data/Verein/Rehability>
-    ld:contactPerson "Rehability Reha-Fachhandel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.AlterAmtshof.2> ;
-    a org:Organization ;
-    rdfs:label "Rehability" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A134> ;
-    foaf:homepage <http://www.rehability.de> ;
-    foaf:mbox "presse@rehability.de" ;
-    foaf:phone "0622170540" .
-
-<http://leipzig-data.de/Data/Verein/Rockzipfel>
-    ld:contactPerson "Johanna Gundermann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.10> ;
-    a org:Organization ;
-    rdfs:label "Rockzipfel Eltern-Kind-Büro" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A43> ;
-    foaf:homepage <http://www.rockzipfel-leipzig.de> ;
-    foaf:mbox "buero@rockzipfel-leipzig.de" ;
-    foaf:phone "03412482740" .
-
-<http://leipzig-data.de/Data/Verein/Rossmann>
-    ld:contactPerson "Sarah Nagel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
-    a org:Organization ;
-    rdfs:label "Rossmann" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A109> ;
-    foaf:mbox "sarah.nagel@rossmann.de" ;
-    foaf:phone "03413010143" .
-
-<http://leipzig-data.de/Data/Verein/SCILeipzig>
-    ld:contactPerson "Simon Jakob" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Mariannenstrasse.107> ;
-    a org:Organization ;
-    rdfs:label "SCI Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A150> ;
-    foaf:homepage <http://sci-d.de/lokalgruppe-leipzig> ;
-    foaf:mbox "leipzig.lg@sci-d.de" ;
-    foaf:phone "015739263765" .
-
-<http://leipzig-data.de/Data/Verein/SchaeferundBreuss>
-    ld:contactPerson "Dorothee Schäfer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/28203.Bremen.Kreftingstrasse.7> ;
-    a org:Organization ;
-    rdfs:label "Schäfer & Breuss GbR" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A142> ;
-    foaf:homepage <http://www.schaeferbreuss.org> ;
-    foaf:mbox "dorothee.schaefer@schaeferbreuss.org" ;
-    foaf:phone "+4915779585508" .
-
-<http://leipzig-data.de/Data/Verein/SocialImpactLab>
-    ld:contactPerson "Jennifer Pauli" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.WeissenfelserStrasse.65H> ;
-    a org:Organization ;
-    rdfs:label "Social Impact Lab" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A96> ;
-    foaf:homepage <http://leipzig.socialimpactlab.eu> ;
-    foaf:mbox "leipzig@socialimpactlab.eu" ;
-    foaf:phone "034149566660" .
-
-<http://leipzig-data.de/Data/Verein/St.BennoVerlag>
-    ld:contactPerson "Christiane Völkel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Stammerstrasse.40> ;
-    a org:Organization ;
-    rdfs:label "St. Benno Verlag" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A117> ;
-    foaf:homepage <http://www.vivat.de> ;
-    foaf:mbox "service@st-benno.de" ;
-    foaf:phone "0341-467770" .
-
-<http://leipzig-data.de/Data/Verein/StadtLeipzig>
-    ld:contactPerson "Rudolf Pohl" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Martin-Luther-Ring.4> ;
-    a org:Organization ;
-    rdfs:label "Stadt Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A19> ;
-    foaf:mbox "rudolf.pohl@leipzig.de" ;
-    foaf:phone "03411233516" .
-
-<http://leipzig-data.de/Data/Verein/Stadtpflanzer>
-    ld:contactPerson "Sandra Grimm" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
-    a org:Organization ;
-    rdfs:label "Stadtpflanzer e. V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A66> ;
-    foaf:homepage <http://www.stadtpflanzer.de> ;
-    foaf:mbox "sandra@stadtpflanzer.de" ;
-    foaf:phone "01777886010" .
-
-<http://leipzig-data.de/Data/Verein/StadtteilbibliothekPlagwitz>
-    ld:contactPerson "Kerstin Andruschow" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.14> ;
-    a org:Organization ;
-    rdfs:label "Stadtteilbibliothek Plagwitz" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A113> ;
-    foaf:homepage <http://www.leipzig.de/stadtbib> ;
-    foaf:mbox "bibliothek.plagwitz@leipzig.de" ;
-    foaf:phone "0341-4804375" .
-
-<http://leipzig-data.de/Data/Verein/SukumaArts>
-    ld:contactPerson "Nadja Müller" ;
-    ld:hasAddress <http://leipzig-data.de/Data/01099.Dresden.Louisenstrasse.93> ;
-    a org:Organization ;
-    rdfs:label "Sukuma arts e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A52> ;
-    foaf:homepage <http://www.sukuma-award.de> ;
-    foaf:mbox "award@sukuma.net" ;
-    foaf:phone "0351-7928767" .
-
-<http://leipzig-data.de/Data/Verein/Tanzzentrale>
-    ld:contactPerson "Konstantin Tsakalidis" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Erich-Zeigner-Allee.64> ;
-    a org:Organization ;
-    rdfs:label "Tanz zentrale" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A75> ;
-    foaf:homepage <http://www.tanz-zentrale.de> ;
-    foaf:mbox "mail@tanz-zentrale.de" ;
-    foaf:phone "4915229563862" .
-
-<http://leipzig-data.de/Data/Verein/Timaeus_Johannes>
-    ld:contactPerson "Johannes Timaeus" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.17> ;
-    a org:Organization ;
-    rdfs:label "Johannes Timaeus" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A84> ;
-    foaf:homepage <http://kochkultur-leipzig.de> ;
-    foaf:mbox "johannes.timaeus@posteo.de" ;
-    foaf:phone "01781815797" .
-
-<http://leipzig-data.de/Data/Verein/TransitionTownLeipzig>
-    ld:contactPerson "Kirsten Elborg" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
-    a org:Organization ;
-    rdfs:label "Transition Town Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A58> ;
-    foaf:homepage <http://www.transitiontown-leipzig.de/> ;
-    foaf:mbox "kirstenelborg@yahoo.de" ;
-    foaf:phone "0163-9897864" .
-
-<http://leipzig-data.de/Data/Verein/UFZ>
-    ld:contactPerson "Torsten Lange" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Permoserstrasse.15> ;
-    a org:Organization ;
-    rdfs:label "Helmholtz-Zentrum für Umweltforschung GmbH - UFZ" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A12> ;
-    foaf:homepage <http://www.ufz-schuelerlabor.de> ;
-    foaf:mbox "schuelerlabor@ufz.de" ;
-    foaf:phone "03412351845" .
-
-<http://leipzig-data.de/Data/Verein/UmweltbibliothekLeipzig>
-    ld:contactPerson "Roland Quester" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
-    a org:Organization ;
-    rdfs:label "Umweltbibliothek Leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A4> ;
-    foaf:homepage <http://www.umweltbibliothek-leipzig.de> ;
-    foaf:mbox "info@umweltbibliothek-leipzig.de" ;
-    foaf:phone "0341-3065180" .
-
-<http://leipzig-data.de/Data/Verein/VDI-GaraGe>
-    ld:contactPerson "Dr. Konstanze Schellenberger" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.97> ;
-    a org:Organization ;
-    rdfs:label "VDI - GaraGe gGmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A163> ;
-    foaf:homepage <http://www.g-a-r-a-g-e.com/> ;
-    foaf:mbox "r.moreno95@web.de" ;
-    foaf:phone "+49341870860" .
-
-<http://leipzig-data.de/Data/Verein/VLW>
-    ld:contactPerson "Silvia Maria Richter" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.Hartzstrasse.2> ;
-    a org:Organization ;
-    rdfs:label "Vereinigte Leipziger Wohnungsgenossenschaft eG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A45> ;
-    foaf:homepage <http://www.vlw-eg.de/> ;
-    foaf:mbox "smrichter@vlw-eg.de" ;
-    foaf:phone "03419184127" .
-
-<http://leipzig-data.de/Data/Verein/VerbundnetzderWaerme>
-    ld:contactPerson "Lutz Lange" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Braunstrasse.9> ;
-    a org:Organization ;
-    rdfs:label "Verbundnetz der Wärme" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A22> ;
-    foaf:homepage <http://www.verbundnetz-der-waerme.de> ;
-    foaf:mbox "info@verbundnetz-der-waerme.de" ;
-    foaf:phone "034206-754-61" .
-
-<http://leipzig-data.de/Data/Verein/VereinderFreundeundFoerdererdesWildparksLeipzig>
-    ld:contactPerson "Ralf  Herrmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.161> ;
-    a org:Organization ;
-    rdfs:label "Verein der Freunde und Förderer des Wildparks Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A149> ;
-    foaf:homepage <http://www.wildparkverein-leipzig.de> ;
-    foaf:mbox "info@wildparkverein-leipzig.de" ;
-    foaf:phone "034126496004" .
-
-<http://leipzig-data.de/Data/Verein/WEGE>
-    ld:contactPerson "Torsten Krause" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.75> ;
-    a org:Organization ;
-    rdfs:label "WEGE e.V. - für Angehörige und Freunde psychisch Kranker" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A28> ;
-    foaf:homepage <http://www.wege-ev.de> ;
-    foaf:mbox "oeffentlichkeitsarbeit@wege-ev.de" ;
-    foaf:phone "0341-24689093", "0341-9128317" .
-
-<http://leipzig-data.de/Data/Verein/WOLLZIRKEL>
-    ld:contactPerson "Kristin Häuser" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
-    a org:Organization ;
-    rdfs:label "WOLLZIRKEL" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A74> ;
-    foaf:homepage <http://wollzirkel.blogspot.de/> ;
-    foaf:mbox "wollzirkel@posteo.de" ;
-    foaf:phone "034164063810" .
-
-<http://leipzig-data.de/Data/Verein/WVGRabe>
-    ld:contactPerson "Christian Rabe" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.BeuchaerStrasse.7> ;
-    a org:Organization ;
-    rdfs:label "WVG Rabe" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A56> ;
-    foaf:mbox "ch@wvg-rabe.de" ;
-    foaf:phone "0341-6992117" .
-
-<http://leipzig-data.de/Data/Verein/WWFJugend>
-    ld:contactPerson "Franziska Losse" ;
-    ld:hasAddress <http://leipzig-data.de/Data/10117.Berlin.Reinhardtstrasse.18> ;
-    a org:Organization ;
-    rdfs:label "WWF Jugend" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A156> ;
-    foaf:homepage <https://www.wwf-jugend.de/> ;
-    foaf:mbox "franziska.losse@posteo.de" ;
-    foaf:phone "0157-75209633" .
-
-<http://leipzig-data.de/Data/Verein/Wasser-Stadt-Leipzig>
-    ld:contactPerson "Dr. Sabine Heymann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Industriestrasse.72> ;
-    a org:Organization ;
-    rdfs:label "Wasser-Stadt-Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A2> ;
-    foaf:homepage <http://www.wasser-stadt-leipzig.de> ;
-    foaf:mbox "mail@leipzig-heymann.de" ;
-    foaf:phone "0172-7935986", "0341-4924024" .
-
-<http://leipzig-data.de/Data/Verein/WeltOffen>
-    ld:contactPerson "Christian Dr. Räsack" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Schnorrstrasse.3B> ;
-    a org:Organization ;
-    rdfs:label "WeltOffen e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A33> ;
-    foaf:mbox "WeltOffenEvau@gmx.de" ;
-    foaf:phone "0341-3040617" .
-
-<http://leipzig-data.de/Data/Verein/Westbesuch>
-    ld:contactPerson "Steffen Balmer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.93> ;
-    a org:Organization ;
-    rdfs:label "Westbesuch e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A38> ;
-    foaf:homepage <http://www.westbesuch.com> ;
-    foaf:mbox "info@westbesuch.com" ;
-    foaf:phone "015787800654" .
-
-<http://leipzig-data.de/Data/Verein/WisamarBildungsgesellschaft>
-    ld:contactPerson "Gregor Assfalg" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Heinrichstrasse.5> ;
-    a org:Organization ;
-    rdfs:label "Wisamar Bildungsgesellschaft" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A88> ;
-    foaf:homepage <http://www.wisamar.de> ;
-    foaf:mbox "gregor.assfalg@wisamar.de" ;
-    foaf:phone "0341999559" .
-
-<http://leipzig-data.de/Data/Verein/Yellowbrasil>
-    ld:contactPerson "Siiri Stumpe" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.4> ;
-    a org:Organization ;
-    rdfs:label "Yellowbrasil" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A143> ;
-    foaf:homepage <http://www.yellowbrasil.de> ;
-    foaf:mbox "fitundvital1@freenet.de" ;
-    foaf:phone "0341-33730866" .
-
-<http://leipzig-data.de/Data/Verein/ZooLeipzig>
-    ld:contactPerson "Maik Haupt" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
-    a org:Organization ;
-    rdfs:label "Zoo Leipzig GmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A97> ;
-    foaf:homepage <http://www.zoo-leipzig.de> ;
-    foaf:mbox "mhaupt@zoo-leipzig.de" ;
-    foaf:phone "03415933364" .
-
-<http://leipzig-data.de/Data/Verein/ZukunftsakademieLeipzig>
-    ld:contactPerson "Matthias Schirmer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
-    a org:Organization ;
-    rdfs:label "Zukunftsakademie Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A5> ;
-    foaf:homepage <http://www.zukunftsakademie-leipzig.de> ;
-    foaf:mbox "schirmer@civixx.de" ;
-    foaf:phone "0341-35137913" .
-
-<http://leipzig-data.de/Data/Verein/aboutsource>
-    ld:contactPerson "Maria Hunger" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
-    a org:Organization ;
-    rdfs:label "about source UG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A8> ;
-    foaf:homepage <http://www.aboutsource.net> ;
-    foaf:phone "0341-94693825" .
-
-<http://leipzig-data.de/Data/Verein/archenoVa>
-    ld:contactPerson "Mara Kayser" ;
-    ld:hasAddress <http://leipzig-data.de/Data/01067.Dresden.Weisseritzstrasse.3> ;
-    a org:Organization ;
-    rdfs:label "arche noVa - Initiative für Menschen in Not e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A167> ;
-    foaf:homepage <https://arche-nova.org/de> ;
-    foaf:mbox "info@arche-nova.org" ;
-    foaf:phone "035148198421" .
-
-<http://leipzig-data.de/Data/Verein/ernte-mich>
-    ld:contactPerson "Richard Hagedorn" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.71> ;
-    a org:Organization ;
-    rdfs:label "ernte-mich" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A77> ;
-    foaf:homepage <http://www.erntemich.de> ;
-    foaf:mbox "Richard.Hagedorn@erntemich.de" ;
-    foaf:phone "01773273278" .
-
-<http://leipzig-data.de/Data/Verein/fairgourmet>
-    ld:contactPerson "Detlef  Knaack" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.SeehausenerAllee.2> ;
-    a org:Organization ;
-    rdfs:label "fairgourmet GmbH" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A102> ;
-    foaf:homepage <http://www.fairgourmet.de> ;
-    foaf:mbox "detlef.knaack@fairgourmet.de" ;
-    foaf:phone "03416787000" .
-
-<http://leipzig-data.de/Data/Verein/freigeist-BibliothekimShakunda>
-    ld:contactPerson "Ina Hötzel" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.102> ;
-    a org:Organization ;
-    rdfs:label "freigeist-Bibliothek im Shakunda" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A137> ;
-    foaf:homepage <http://www.freigeist-leipzig.de> ;
-    foaf:mbox "info@freigeist-leipzig.de" ;
-    foaf:phone "0341-2338177" .
-
-<http://leipzig-data.de/Data/Verein/heldenkueche>
-    ld:contactPerson "Claudia Friedrich" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
-    a org:Organization ;
-    rdfs:label "heldenküche" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A118> ;
-    foaf:homepage <http://www.heldenküche.net> ;
-    foaf:mbox "kontakt@heldenküche.net" ;
-    foaf:phone "0176-61264172" .
-
-<http://leipzig-data.de/Data/Verein/kidscode>
-    ld:contactPerson "Uwe Koch" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Erdmannstrasse.16> ;
-    a org:Organization ;
-    rdfs:label "kidscode e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A159> ;
-    foaf:mbox "andreaskoch030@gmail.com" ;
-    foaf:phone "01743160863" .
-
-<http://leipzig-data.de/Data/Verein/kunZstoffe>
-    ld:contactPerson "Christin Bauer" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.7> ;
-    a org:Organization ;
-    rdfs:label "kunZstoffe – urbane Ideenwerkstatt e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A64> ;
-    foaf:homepage <http://www.kunzstoffe.de> ;
-    foaf:mbox "buero@kunzstoffe.de" ;
-    foaf:phone "01634846916" .
-
-<http://leipzig-data.de/Data/Verein/leben.lernen.leipzig>
-    ld:contactPerson "Anne Neumann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.68> ;
-    a org:Organization ;
-    rdfs:label "leben.lernen.leipzig" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A32> ;
-    foaf:homepage <http://www.lebenlernenleipzig.de> ;
-    foaf:mbox "info@lebenlernenleipzig.de" ;
-    foaf:phone "015781870122" .
-
-<http://leipzig-data.de/Data/Verein/littlekiwi>
-    ld:contactPerson "Olga Kassner" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.27> ;
-    a org:Organization ;
-    rdfs:label "little kiwi" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A135> ;
-    foaf:homepage <http://www.little-kiwi.de> ;
-    foaf:mbox "info@little-kiwi.de" ;
-    foaf:phone "03414811978" .
-
-<http://leipzig-data.de/Data/Verein/oikosLeipzig>
-    ld:contactPerson "Leonie Fremgen" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.12> ;
-    a org:Organization ;
-    rdfs:label "oikos Leipzig e.V." ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A21> ;
-    foaf:homepage <http://leipzig.oikos-international.org/> ;
-    foaf:mbox "info@oikos-leipzig.org" ;
-    foaf:phone "01622950053" .
-
-<http://leipzig-data.de/Data/Verein/projektUP>
-    ld:contactPerson "Florian Müller" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Stefan-Zweig-Strasse.21> ;
-    a org:Organization ;
-    rdfs:label "projektUP!" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A49> ;
-    foaf:homepage <http://www.projektup.org> ;
-    foaf:mbox "fm@projektup.org" ;
-    foaf:phone "0176-23563972", "0341-44928504" .
-
-<http://leipzig-data.de/Data/Verein/rad3.de>
-    ld:contactPerson "Matthias Höppner" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
-    a org:Organization ;
-    rdfs:label "rad3.de" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A24> ;
-    foaf:homepage <http://rad3.de> ;
-    foaf:mbox "dialog@rad3.de" ;
-    foaf:phone "+493413928739" .
-
-<http://leipzig-data.de/Data/Verein/roeskant>
-    ld:contactPerson "Franko Lehmann" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.HoheStrasse.9> ;
-    a org:Organization ;
-    rdfs:label "röskant DIE MANUFAKTUR" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A115> ;
-    foaf:homepage <http://www.roeskant.de> ;
-    foaf:mbox "info@roeskant.com" ;
-    foaf:phone "0341-58069091" .
-
-<http://leipzig-data.de/Data/Verein/sedruck>
-    ld:contactPerson "Julius Schröder" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Ludwig-Hupfeld-Strasse.16> ;
-    a org:Organization ;
-    rdfs:label "sedruck KG" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A18> ;
-    foaf:homepage <https://www.sedruck.de> ;
-    foaf:mbox "schroeder@sedruck.de" ;
-    foaf:phone "03414425090" .
-
-<http://leipzig-data.de/Data/Verein/zackigaufkurs>
-    ld:contactPerson "Katja Haberkorn" ;
-    ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.2> ;
-    a org:Organization ;
-    rdfs:label "zackig auf kurs - die offene Nähwerkstatt für Upcycling" ;
-    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur/A68> ;
-    foaf:homepage <http://www.zackig-auf-kurs.de> ;
-    foaf:mbox "kontakt@zackig-auf-kurs.de" ;
-    foaf:phone "0341-58150057" .
-
-<http://nachhaltiges-leipzig.de/Data/LD-Akteure/>
-    a owl:Ontology ;
-    rdfs:comment "Dump aus der Datenbank" ;
+<http://nachhaltiges-leipzig.de/Data/LD-Akteure/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
+
+<http://leipzig-data.de/Data/Akteur/Wasser-Stadt-Leipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.2> ;
+   ld:contactPerson "Sabine Dr. Heymann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Industriestrasse.72> ;
+   foaf:mbox "mail@leipzig-heymann.de" ;
+   foaf:phone "0341-4924024" ;
+   foaf:phone "0172-7935986" ;
+   rdfs:label "Wasser-Stadt-Leipzig e.V." ;
+   foaf:homepage <http://www.wasser-stadt-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/BueroderLeipzigerAgenda21> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.3> ;
+   ld:contactPerson "Ralf Elsässer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Pestalozzistrasse.70> ;
+   foaf:mbox "post@civixx.de" ;
+   foaf:phone "034144259900" ;
+   foaf:phone "01633978289" ;
+   rdfs:label "Büro der Leipziger Agenda 21" ;
+   foaf:homepage <http://www.leipzigeragenda21.de> . 
+
+<http://leipzig-data.de/Data/Akteur/UmweltbibliothekLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.4> ;
+   ld:contactPerson "Roland Quester" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "info@umweltbibliothek-leipzig.de" ;
+   foaf:phone "3065180" ;
+   rdfs:label "Umweltbibliothek Leipzig" ;
+   foaf:homepage <http://www.umweltbibliothek-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/ZukunftsakademieLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.5> ;
+   ld:contactPerson "Matthias Schirmer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   foaf:mbox "schirmer@civixx.de" ;
+   foaf:phone "034135137913" ;
+   rdfs:label "Zukunftsakademie Leipzig e.V." ;
+   foaf:homepage <http://www.zukunftsakademie-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/JohannSimowitsch> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.6> ;
+   ld:contactPerson "Johann Simowitsch" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX> ;
+   foaf:mbox "johann.simowitsch@leipzig.de" ;
+   foaf:phone "03413089751" ;
+   rdfs:label "Johann Simowitsch" . 
+
+<http://leipzig-data.de/Data/Akteur/aboutsourceUG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.8> ;
+   ld:contactPerson "Maria Hunger" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
+   foaf:mbox "maria.hunger+zak-db@aboutsource.net" ;
+   foaf:phone "0341-94693825" ;
+   rdfs:label "about source UG" ;
+   foaf:homepage <http://www.aboutsource.net> . 
+
+<http://leipzig-data.de/Data/Akteur/NaturschutzundKunstLeipzigerAuwalde.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.10> ;
+   ld:contactPerson "Wolfgang E. A.  Stoiber" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Otto-Adam-Strasse.14> ;
+   foaf:mbox "stoiber@nukla.de" ;
+   foaf:phone "01786662454" ;
+   rdfs:label "Naturschutz und Kunst Leipziger Auwald e. V." ;
+   foaf:homepage <http://www.nukla.de> . 
+
+<http://leipzig-data.de/Data/Akteur/FoerdervereinUmweltinformationszentrumLeipzig-UiZe.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.11> ;
+   ld:contactPerson "Annette Körner" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.136> ;
+   foaf:mbox "fvumweltinformationszentrum@web.de" ;
+   foaf:phone "03411236830" ;
+   rdfs:label "Förderverein \"Umweltinformationszentrum Leipzig - UiZ\" e.V." ;
+   foaf:homepage <http://www.umwelt-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Helmholtz-ZentrumfuerUmweltforschungGmbH-UFZ> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.12> ;
+   ld:contactPerson "Torsten Lange" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Permoserstrasse.15> ;
+   foaf:mbox "schuelerlabor@ufz.de" ;
+   foaf:phone "03412351845" ;
+   rdfs:label "Helmholtz-Zentrum für Umweltforschung GmbH - UFZ" ;
+   foaf:homepage <http://www.ufz-schuelerlabor.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KontaktstelleOrientierung> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.13> ;
+   ld:contactPerson "Hermann Kügler" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Hainstrasse.12> ;
+   foaf:mbox "orientierung.leipzig@jesuiten.org" ;
+   foaf:phone "03412125704" ;
+   rdfs:label "Kontaktstelle Orientierung" ;
+   foaf:homepage <http://www.orientierung-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Oekoloewe-UmweltbundLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.14> ;
+   ld:contactPerson "Nico Singer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "oeffentlichkeitsarbeit@oekoloewe.de" ;
+   foaf:phone "0341-3065-185" ;
+   rdfs:label "Ökolöwe - Umweltbund Leipzig e.V." ;
+   foaf:homepage <http://www.oekoloewe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Auwaldstation> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.15> ;
+   ld:contactPerson "Franka Seidel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Schlossweg.11> ;
+   foaf:mbox "auwaldstation@t-online.de" ;
+   foaf:phone "03414621895" ;
+   rdfs:label "Auwaldstation" ;
+   foaf:homepage <http://www.auwaldstation.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Gruen-AlternativesZentrumLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.16> ;
+   ld:contactPerson "Katrin Reschke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
+   foaf:mbox "GAZ-Leipzig@t-online.de" ;
+   foaf:phone "03413389353" ;
+   rdfs:label "Grün-Alternatives Zentrum Leipzig e.V." ;
+   foaf:homepage <http://www.doelitzer-wassermuehle.de> . 
+
+<http://leipzig-data.de/Data/Akteur/sedruckKG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.18> ;
+   ld:contactPerson "Julius Schröder" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Ludwig-Hupfeld-Strasse.16> ;
+   foaf:mbox "schroeder@sedruck.de" ;
+   foaf:phone "03414425090" ;
+   rdfs:label "sedruck KG" ;
+   foaf:homepage <https://www.sedruck.de> . 
+
+<http://leipzig-data.de/Data/Akteur/StadtLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.19> ;
+   ld:contactPerson "Rudolf Pohl" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Martin-Luther-Ring.4> ;
+   foaf:mbox "rudolf.pohl@leipzig.de" ;
+   foaf:phone "03411233516" ;
+   rdfs:label "Stadt Leipzig" . 
+
+<http://leipzig-data.de/Data/Akteur/oikosLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.21> ;
+   ld:contactPerson "Leonie Fremgen" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.12> ;
+   foaf:mbox "info@oikos-leipzig.org" ;
+   foaf:phone "01622950053" ;
+   rdfs:label "oikos Leipzig e.V." ;
+   foaf:homepage <http://leipzig.oikos-international.org/> . 
+
+<http://leipzig-data.de/Data/Akteur/VerbundnetzderWaerme> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.22> ;
+   ld:contactPerson "Lutz Lange" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Braunstrasse.9> ;
+   foaf:mbox "info@verbundnetz-der-waerme.de" ;
+   foaf:phone "034206-754-61" ;
+   rdfs:label "Verbundnetz der Wärme" ;
+   foaf:homepage <http://www.verbundnetz-der-waerme.de> . 
+
+<http://leipzig-data.de/Data/Akteur/DerLindentaler> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
+   ld:contactPerson "Rainer Kühn" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Gustav-Freytag-Strasse.18A> ;
+   foaf:mbox "lindentaler@gmx.de" ;
+   foaf:phone "0341-26340031" ;
+   rdfs:label "Der Lindentaler" ;
+   foaf:homepage <http://www.lindentaler.org> . 
+
+<http://leipzig-data.de/Data/Akteur/rad3.de> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.24> ;
+   ld:contactPerson "Matthias Höppner" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
+   foaf:mbox "dialog@rad3.de" ;
+   foaf:phone "+493413928739" ;
+   rdfs:label "rad3.de" ;
+   foaf:homepage <http://rad3.de> . 
+
+<http://leipzig-data.de/Data/Akteur/StadtLeipzig,AmtfuerStadtgruenundGewaesser> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.25> ;
+   ld:contactPerson "Sebastian Fried" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.118> ;
+   foaf:mbox "sebastian.fried@leipzig.de" ;
+   foaf:phone "03411236146" ;
+   rdfs:label "Stadt Leipzig, Amt für Stadtgrün und Gewässer" ;
+   foaf:homepage <http://www.leipzig.de/de/buerger/freizeit/leipzig/> . 
+
+<http://leipzig-data.de/Data/Akteur/ADFCLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
+   ld:contactPerson "Juliana  Klengel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Peterssteinweg.18> ;
+   foaf:mbox "info@adfc-leipzig.de" ;
+   foaf:phone "0341-22540313" ;
+   rdfs:label "ADFC Leipzig" ;
+   foaf:homepage <http://www.adfc-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KonzeptwerkNeueOekonomie> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
+   ld:contactPerson "Susanne Brehm" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
+   foaf:mbox "s.brehm@knoe.org" ;
+   foaf:phone "0341-39281686" ;
+   rdfs:label "Konzeptwerk Neue Ökonomie" ;
+   foaf:homepage <http://www.konzeptwerk-neue-oekonomie.org> . 
+
+<http://leipzig-data.de/Data/Akteur/WEGEe.V.-fuerAngehoerigeundFreundepsychischKranker> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.28> ;
+   ld:contactPerson "Torsten Krause" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.75> ;
+   foaf:mbox "oeffentlichkeitsarbeit@wege-ev.de" ;
+   foaf:phone "0341-24689093" ;
+   foaf:phone "0341-9128317" ;
+   rdfs:label "WEGE e.V. - für Angehörige und Freunde psychisch Kranker" ;
+   foaf:homepage <http://www.wege-ev.de> . 
+
+<http://leipzig-data.de/Data/Akteur/LeipzigerKinderbuerodesDeutschenKinderschutzbundes> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.29> ;
+   ld:contactPerson "Christian Gundlach" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Rietschelstrasse.2> ;
+   foaf:mbox "info@leipziger-kinderbuero.de" ;
+   foaf:phone "0341-3375666" ;
+   rdfs:label "Leipziger Kinderbüro des Deutschen Kinderschutzbundes" ;
+   foaf:homepage <http://www.leipziger-kinderbuero.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/LeipzigerKulturPaten> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.30> ;
+   ld:contactPerson "Gudula Kienemund" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.27> ;
+   foaf:mbox "gk@ideenquartier.org" ;
+   foaf:phone "+49(0)341-86729050" ;
+   rdfs:label "Leipziger KulturPaten" ;
+   foaf:homepage <http://www.leipzigerkulturpaten.de> . 
+
+<http://leipzig-data.de/Data/Akteur/leben.lernen.leipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.32> ;
+   ld:contactPerson "Anne Neumann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.68> ;
+   foaf:mbox "info@lebenlernenleipzig.de" ;
+   foaf:phone "015781870122" ;
+   rdfs:label "leben.lernen.leipzig" ;
+   foaf:homepage <http://www.lebenlernenleipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Welt­Of­fene.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.33> ;
+   ld:contactPerson "Christian Dr. Räsack" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Schnorrstrasse.3B> ;
+   foaf:mbox "WeltOffenEvau@gmx.de" ;
+   foaf:phone "0341-3040617" ;
+   rdfs:label "Welt­Of­fen e.V." . 
+
+<http://leipzig-data.de/Data/Akteur/SabineBolte> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.34> ;
+   ld:contactPerson "Sabine Bolte" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.37> ;
+   foaf:mbox "bildungsberatung@leipzig.de" ;
+   foaf:phone "03411234779" ;
+   rdfs:label "Sabine Bolte" . 
+
+<http://leipzig-data.de/Data/Akteur/InitiativeGrundeinkommenLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.35> ;
+   ld:contactPerson "Volkmar Kreiß´" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.154> ;
+   foaf:mbox "volkmarkreiss@gmail.com" ;
+   foaf:phone "03414248474" ;
+   rdfs:label "Initiative Grundeinkommen Leipzig" ;
+   foaf:homepage <http://bge-initiative-leipzig.blogspot.de> . 
+
+<http://leipzig-data.de/Data/Akteur/EnergiegenossenschaftLeipzigEGLeG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.36> ;
+   ld:contactPerson "Sebastian Koch" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.DelitzscherStrasse.3> ;
+   foaf:mbox "info@eg-leipzig.de" ;
+   foaf:phone "01603365593" ;
+   rdfs:label "Energiegenossenschaft Leipzig EGL eG" ;
+   foaf:homepage <http://www.energiegenossenschaft-leipzig.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/CaritasverbandLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.37> ;
+   ld:contactPerson "Marcus Zschornack" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.15> ;
+   foaf:mbox "presse@caritas-leipzig.de" ;
+   foaf:phone "034196361-30" ;
+   rdfs:label "Caritasverband Leipzig e. V." ;
+   foaf:homepage <http://www.caritas-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Westbesuche.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.38> ;
+   ld:contactPerson "Steffen Balmer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.93> ;
+   foaf:mbox "info@westbesuch.com" ;
+   foaf:phone "015787800654" ;
+   rdfs:label "Westbesuch e.V." ;
+   foaf:homepage <http://www.westbesuch.com> . 
+
+<http://leipzig-data.de/Data/Akteur/PiepenbrockSicherheitGmbH+Co.KG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.39> ;
+   ld:contactPerson "Andreas  Schuster" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Gerichtsweg.28> ;
+   foaf:mbox "u.wermelt@piepenbrock.de" ;
+   foaf:phone "03414131-22" ;
+   rdfs:label "Piepenbrock Sicherheit GmbH + Co. KG" ;
+   foaf:homepage <http://www.piepenbrock.de> . 
+
+<http://leipzig-data.de/Data/Akteur/IdeenwerkstattBildungsagenten> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.40> ;
+   ld:contactPerson "Helmut Wolman" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
+   foaf:mbox "Helmut@bildungsagenten.com" ;
+   foaf:phone "015734448245" ;
+   foaf:phone "03067969040" ;
+   rdfs:label "Ideenwerkstatt Bildungsagenten" ;
+   foaf:homepage <http://www.konzeptwerk-neue-oekonomie.org> . 
+
+<http://leipzig-data.de/Data/Akteur/AURELMarketing> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.41> ;
+   ld:contactPerson "Kerstin Weißgerber" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04329.Leipzig.SommerfelderWeg.94> ;
+   foaf:mbox "kontakt@aurel-marketing.de" ;
+   foaf:phone "0341-2520421" ;
+   rdfs:label "AUREL Marketing" . 
+
+<http://leipzig-data.de/Data/Akteur/Querbeet> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.42> ;
+   ld:contactPerson "Johannes Timaeus" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20> ;
+   foaf:mbox "t.johannes@arcor.de" ;
+   foaf:phone "01781815797" ;
+   rdfs:label "Querbeet" ;
+   foaf:homepage <http://www.querbeet-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/RockzipfelEltern-Kind-Buero> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.43> ;
+   ld:contactPerson "Johanna Gundermann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.10> ;
+   foaf:mbox "buero@rockzipfel-leipzig.de" ;
+   foaf:phone "03412482740" ;
+   rdfs:label "Rockzipfel Eltern-Kind-Büro" ;
+   foaf:homepage <http://www.rockzipfel-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/VereinigteLeipzigerWohnungsgenossenschafteG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.45> ;
+   ld:contactPerson "Silvia Maria Richter" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.Hartzstrasse.2> ;
+   foaf:mbox "smrichter@vlw-eg.de" ;
+   foaf:phone "03419184127" ;
+   rdfs:label "Vereinigte Leipziger Wohnungsgenossenschaft eG" ;
+   foaf:homepage <http://www.vlw-eg.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/NetzwerkEnergieundUmwelte.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.46> ;
+   ld:contactPerson "Daniel  Reißmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Martin-Luther-Ring.4> ;
+   foaf:mbox "reissmann@energiemetropole-leipzig.de" ;
+   foaf:phone "0341-121-3317" ;
+   rdfs:label "Netzwerk Energie & Umwelt e. V." ;
+   foaf:homepage <http://www.energiemetropole-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Fundamentale-DiejungeAkademie> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.47> ;
+   ld:contactPerson "Jörg Asshoff" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Reiskestrasse.2> ;
+   foaf:mbox "ja@fundamentale.de" ;
+   foaf:phone "4934186722056" ;
+   foaf:phone "4934186722056" ;
+   rdfs:label "Fundamentale - Die junge Akademie" ;
+   foaf:homepage <http://www.fundamentale.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Dr..MatiasLanger> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.48> ;
+   ld:contactPerson "Matias Langer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
+   foaf:mbox "email@seidentraum.eu" ;
+   foaf:phone "03413314052" ;
+   rdfs:label "Dr.. Matias Langer" ;
+   foaf:homepage <http://www.seidentraum.eu> . 
+
+<http://leipzig-data.de/Data/Akteur/projektUP!> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.49> ;
+   ld:contactPerson "Florian Müller" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04178.Leipzig.Stefan-Zweig-Strasse.21> ;
+   foaf:mbox "fm@projektup.org" ;
+   foaf:phone "0341-44928504" ;
+   foaf:phone "0176-23563972" ;
+   rdfs:label "projektUP!" ;
+   foaf:homepage <http://www.projektup.org> . 
+
+<http://leipzig-data.de/Data/Akteur/EineWeltLaden> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.50> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.18> ;
+   foaf:mbox "info@einewelt-leipzig.de" ;
+   foaf:phone "+493413010143" ;
+   rdfs:label "Eine Welt Laden" ;
+   foaf:homepage <http://einewelt-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/ANNALINDEgGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+   ld:contactPerson "Dominik Renner" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.108> ;
+   foaf:mbox "info@annalinde-leipzig.de" ;
+   foaf:phone "015221655436" ;
+   rdfs:label "ANNALINDE gGmbH" ;
+   foaf:homepage <http://www.annalinde-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Sukumaartse.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.52> ;
+   ld:contactPerson "Nadja Müller" ;
+   ld:hasAddress <http://leipzig-data.de/Data/01099.Dresden.Louisenstrasse.93> ;
+   foaf:mbox "award@sukuma.net" ;
+   foaf:phone "0351-7928767" ;
+   rdfs:label "Sukuma arts e.V." ;
+   foaf:homepage <http://www.sukuma-award.de> . 
+
+<http://leipzig-data.de/Data/Akteur/LustaufneuesGeld> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.53> ;
+   ld:contactPerson "Steffen Henke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04158.Leipzig.Rosestrasse.11> ;
+   foaf:mbox "info@lust-auf-neues-geld-leipzig.de" ;
+   foaf:phone "034123159818" ;
+   rdfs:label "Lust auf neues Geld" ;
+   foaf:homepage <http://www.lust-auf-neues-geld.de> . 
+
+<http://leipzig-data.de/Data/Akteur/GruenerRingLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.54> ;
+   ld:contactPerson "Heike König" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04451.Borsdorf.LeipzigerStrasse.6> ;
+   foaf:mbox "geschaeftsstelle@gruenerring-leipzig.de" ;
+   foaf:phone "03429120412" ;
+   foaf:phone "01622807860" ;
+   rdfs:label "Grüner Ring Leipzig" ;
+   foaf:homepage <http://www.gruenerring-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Lipsia-e-motion> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.55> ;
+   ld:contactPerson "Lutz Förster" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Toskastrasse.36> ;
+   foaf:mbox "info@lipsia-e-motion.com" ;
+   foaf:phone "0341-9012193" ;
+   foaf:phone "0179-2933671" ;
+   rdfs:label "Lipsia-e-motion" ;
+   foaf:homepage <http://www.Lipsia-e-motion.com> . 
+
+<http://leipzig-data.de/Data/Akteur/WVGRabe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.56> ;
+   ld:contactPerson "Christian Rabe" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.BeuchaerStrasse.7> ;
+   foaf:mbox "ch@wvg-rabe.de" ;
+   foaf:phone "0341-6992117" ;
+   rdfs:label "WVG Rabe" . 
+
+<http://leipzig-data.de/Data/Akteur/FamilienbueroLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.57> ;
+   ld:contactPerson "Thomas Kujawa" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Katharinenstrasse.21> ;
+   foaf:mbox "info@familienbuero-leipzig.de" ;
+   foaf:phone "+4934135540810" ;
+   rdfs:label "Familienbüro Leipzig" ;
+   foaf:homepage <http://www.familienbuero-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/TransitionTownLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.58> ;
+   ld:contactPerson "Kirsten Elborg" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
+   foaf:mbox "kirstenelborg@yahoo.de" ;
+   foaf:phone "0163-9897864" ;
+   rdfs:label "Transition Town Leipzig" ;
+   foaf:homepage <http://www.transitiontown-leipzig.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/PermakulturForum> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.59> ;
+   ld:contactPerson "Kirsten Elborg" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
+   foaf:mbox "k.elborg@permakultur-institut.de" ;
+   foaf:phone "0163-9897864" ;
+   rdfs:label "Permakultur Forum" ;
+   foaf:homepage <http://www.transitiontown-leipzig.de/?page_id=456> . 
+
+<http://leipzig-data.de/Data/Akteur/NABU-RegionalverbandLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   ld:contactPerson "René Sievert" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   foaf:mbox "info@nabu-leipzig.de" ;
+   foaf:phone "03416884477" ;
+   rdfs:label "NABU-Regionalverband Leipzig" ;
+   foaf:homepage <http://www.NABU-Leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/RadbarVelocibar> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.61> ;
+   ld:contactPerson "Karsten Wolf" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Alfred-Frank-Strasse.15> ;
+   foaf:mbox "zumkarsten@gmx.de" ;
+   foaf:phone "01778506951" ;
+   foaf:phone "03412232817" ;
+   rdfs:label "Radbar \"Velocibar\"" ;
+   foaf:homepage <http://www.velocibar.de> . 
+
+<http://leipzig-data.de/Data/Akteur/InitiativeBuergerbahnhofPlagwitz(IBBP)> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
+   ld:contactPerson "Stiftung \"Ecken wecken\" Thorsten Mehnert" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.MarkranstaedterStrasse.29B> ;
+   foaf:mbox "info@buergerbahnhof-plagwitz.de" ;
+   foaf:phone "0341-123456789" ;
+   rdfs:label "Initiative Bürgerbahnhof Plagwitz (IBBP)" ;
+   foaf:homepage <http://www.buergerbahnhof-plagwitz.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KollektivLastenradLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.63> ;
+   ld:contactPerson "Juliana Klengel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
+   foaf:mbox "analui@posteo.de" ;
+   foaf:phone "01577-1598241" ;
+   rdfs:label "Kollektiv Lastenrad Leipzig" ;
+   foaf:homepage <https://kolara.wordpress.com/> . 
+
+<http://leipzig-data.de/Data/Akteur/kunZstoffe–urbaneIdeenwerkstatte.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.64> ;
+   ld:contactPerson "Christin Bauer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.7> ;
+   foaf:mbox "buero@kunzstoffe.de" ;
+   foaf:phone "01634846916" ;
+   rdfs:label "kunZstoffe – urbane Ideenwerkstatt e.V." ;
+   foaf:homepage <http://www.kunzstoffe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Stadtpflanzere.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.66> ;
+   ld:contactPerson "Sandra Grimm" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   foaf:mbox "sandra@stadtpflanzer.de" ;
+   foaf:phone "01777886010" ;
+   rdfs:label "Stadtpflanzer e. V." ;
+   foaf:homepage <http://www.stadtpflanzer.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Querbeet> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.67> ;
+   ld:contactPerson "Marius Brauer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Bernhardstrasse.11> ;
+   foaf:mbox "info@querbeet-leipzig.de" ;
+   foaf:phone "00000000000" ;
+   rdfs:label "Querbeet" ;
+   foaf:homepage <http://www.querbeet-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/zackigaufkurs-dieoffeneNaehwerkstattfuerUpcycling> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.68> ;
+   ld:contactPerson "Katja Haberkorn" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.2> ;
+   foaf:mbox "kontakt@zackig-auf-kurs.de" ;
+   foaf:phone "0341-58150057" ;
+   rdfs:label "zackig auf kurs - die offene Nähwerkstatt für Upcycling" ;
+   foaf:homepage <http://www.zackig-auf-kurs.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Oekoloewe-UmweltbundLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.69> ;
+   ld:contactPerson "Nico Singer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "loewenmaul@oekoloewe.de" ;
+   foaf:phone "03413065185" ;
+   rdfs:label "Ökolöwe - Umweltbund Leipzig e.V." ;
+   foaf:homepage <http://ökolöwe.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/KlimagerechtigkeitLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.70> ;
+   ld:contactPerson "Rafaela Müller" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
+   foaf:mbox "rafaela.mueller@posteo.de" ;
+   foaf:phone "017631184974" ;
+   rdfs:label "Klimagerechtigkeit Leipzig" ;
+   foaf:homepage <http://klimagerechtigkeit.blogsport.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/DasSchwarzeBrett> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.71> ;
+   ld:contactPerson "Thomas Efer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10> ;
+   foaf:mbox "info@dsble.de" ;
+   foaf:phone "+49-3212-1394300" ;
+   rdfs:label "Das Schwarze Brett" ;
+   foaf:homepage <http://www.dsble.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/Nachbarschaftsgaertene.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.72> ;
+   ld:contactPerson "Tino Neufert" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
+   foaf:mbox "info@nachbarschaftsgaerten.de" ;
+   foaf:phone "0341000000" ;
+   rdfs:label "Nachbarschaftsgärten e.V." ;
+   foaf:homepage <http://www.nachbarschaftsgaerten.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/BUNDLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
+   ld:contactPerson "Martin  Hilbrecht" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "presse@bund-leipzig.de" ;
+   foaf:phone "03413065395" ;
+   rdfs:label "BUND Leipzig" ;
+   foaf:homepage <http://www.bund-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/WOLLZIRKEL> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.74> ;
+   ld:contactPerson "Kristin Häuser" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
+   foaf:mbox "wollzirkel@posteo.de" ;
+   foaf:phone "034164063810" ;
+   rdfs:label "WOLLZIRKEL" ;
+   foaf:homepage <http://wollzirkel.blogspot.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/Tanzzentrale> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.75> ;
+   ld:contactPerson "Konstantin Tsakalidis" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Erich-Zeigner-Allee.64> ;
+   foaf:mbox "mail@tanz-zentrale.de" ;
+   foaf:phone "4915229563862" ;
+   foaf:phone "4915229563862" ;
+   rdfs:label "Tanz zentrale" ;
+   foaf:homepage <http://www.tanz-zentrale.de> . 
+
+<http://leipzig-data.de/Data/Akteur/AckerwindeGemuesegarten> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.76> ;
+   ld:contactPerson "Daisy Kratz" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX> ;
+   foaf:mbox "mail@ackerwinde.net" ;
+   foaf:phone "0341-60463906" ;
+   rdfs:label "Ackerwinde Gemüsegarten" ;
+   foaf:homepage <http://www.ackerwinde.net> . 
+
+<http://leipzig-data.de/Data/Akteur/ernte-mich> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+   ld:contactPerson "Richard Hagedorn" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.71> ;
+   foaf:mbox "Richard.Hagedorn@erntemich.de" ;
+   foaf:phone "01773273278" ;
+   rdfs:label "ernte-mich" ;
+   foaf:homepage <http://www.erntemich.de> . 
+
+<http://leipzig-data.de/Data/Akteur/ProjektLebendigeLuppe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.78> ;
+   ld:contactPerson "Maria Vitzthum" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04157.Leipzig.Michael-Kazmierczak-Strasse.25> ;
+   foaf:mbox "info@lebendige-luppe.de" ;
+   foaf:phone "034186967550" ;
+   rdfs:label "Projekt \"Lebendige Luppe\"" ;
+   foaf:homepage <http://www.Lebendige-Luppe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/EDUVENTIS-Bildungerlebene.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.79> ;
+   ld:contactPerson "Manja Mühl" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.4> ;
+   foaf:mbox "manja.muehl@eduventis.org" ;
+   foaf:phone "034126562279" ;
+   rdfs:label "EDUVENTIS-Bildung erleben e.V." ;
+   foaf:homepage <http://www.eduventis.org> . 
+
+<http://leipzig-data.de/Data/Akteur/Projektwohnungkrudebude> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.80> ;
+   ld:contactPerson "Theresa Doss" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz.13> ;
+   foaf:mbox "projektraum.leipzig@gmail.com" ;
+   foaf:phone "4917672949640" ;
+   foaf:phone "4917672949640" ;
+   rdfs:label "Projektwohnung \"krudebude\"" ;
+   foaf:homepage <https://www.facebook.com/pages/Projektwohnung-krudebude/617099368382416?fref=ts> . 
+
+<http://leipzig-data.de/Data/Akteur/LeipzigerMesseGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.81> ;
+   ld:contactPerson "Ekkehard Trümper" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.Messe-Allee.1> ;
+   foaf:mbox "E.Truemper@leipziger-messe.de" ;
+   foaf:phone "03416788210" ;
+   rdfs:label "Leipziger Messe GmbH" ;
+   foaf:homepage <http://www.leipziger-messe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/LehmolandiaLehmatelier> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.83> ;
+   ld:contactPerson "Jan Barnick" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.39> ;
+   foaf:mbox "kontakt@lehmolandia.de" ;
+   foaf:phone "015737651644" ;
+   rdfs:label "Lehmolandia Lehmatelier" ;
+   foaf:homepage <http://www.lehmolandia.de> . 
+
+<http://leipzig-data.de/Data/Akteur/JohannesTimaeus> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.84> ;
+   ld:contactPerson "Johannes Timaeus" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.17> ;
+   foaf:mbox "johannes.timaeus@posteo.de" ;
+   foaf:phone "01781815797" ;
+   rdfs:label "Johannes Timaeus" ;
+   foaf:homepage <http://kochkultur-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Batzen-TauschringLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.85> ;
+   ld:contactPerson "Batzen- Tauschring" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.ZumKleingartenpark.41> ;
+   foaf:mbox "peggy77@gmx.net" ;
+   foaf:phone "0341000" ;
+   rdfs:label "Batzen-Tauschring Leipzig e.V." ;
+   foaf:homepage <http://www.batzen.de> . 
+
+<http://leipzig-data.de/Data/Akteur/ArakiVerlag> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.86> ;
+   ld:contactPerson "Georg Dehn" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.Theresienstrasse.35> ;
+   foaf:mbox "redaktion@araki.de" ;
+   foaf:phone "03413919966" ;
+   foaf:phone "015735792998" ;
+   rdfs:label "Araki Verlag" ;
+   foaf:homepage <https://araki.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/Freiwilligen-AgenturLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.87> ;
+   ld:contactPerson "Birgit Höppner-Böhme" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
+   foaf:mbox "info@fwal.de" ;
+   foaf:phone "0341-1494728" ;
+   rdfs:label "Freiwilligen-Agentur Leipzig e. V." ;
+   foaf:homepage <http://www.freiwilligen-agentur-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/WisamarBildungsgesellschaft> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.88> ;
+   ld:contactPerson "Gregor Assfalg" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Heinrichstrasse.5> ;
+   foaf:mbox "gregor.assfalg@wisamar.de" ;
+   foaf:phone "0341999559" ;
+   rdfs:label "Wisamar Bildungsgesellschaft" ;
+   foaf:homepage <http://www.wisamar.de> . 
+
+<http://leipzig-data.de/Data/Akteur/RatskellerderStadtLeipzigGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.89> ;
+   ld:contactPerson "Ingo Winkler" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Lotterstrasse.1> ;
+   foaf:mbox "info@ratskeller-leipzig.de" ;
+   foaf:phone "0341-1234567" ;
+   rdfs:label "Ratskeller der Stadt Leipzig GmbH" ;
+   foaf:homepage <http://www.ratskeller-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Haedi-FlorMeisterbetrieb> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.90> ;
+   ld:contactPerson "Michael Haedicke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04279.Leipzig.Johannes-R-Becher-Strasse.12> ;
+   foaf:mbox "info@haediflor.de" ;
+   foaf:phone "0341-3304411" ;
+   rdfs:label "Haedi-Flor Meisterbetrieb" ;
+   foaf:homepage <http://www.haediflor.de> . 
+
+<http://leipzig-data.de/Data/Akteur/CONTIGOFairtradeShop> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.91> ;
+   ld:contactPerson "Anica Deckert" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Nikolaistrasse.6> ;
+   foaf:mbox "leipzig@contigo.de" ;
+   foaf:phone "0341-23102973" ;
+   rdfs:label "CONTIGO Fairtrade Shop" ;
+   foaf:homepage <http://leipzig.contigo.de> . 
+
+<http://leipzig-data.de/Data/Akteur/DasJapanischeHause.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.92> ;
+   ld:contactPerson "Noriko Minkus" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.113B> ;
+   foaf:mbox "mail@djh-leipzig.de" ;
+   foaf:phone "034192722261" ;
+   rdfs:label "Das Japanische Haus e.V." ;
+   foaf:homepage <http://www.djh-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/MakerspaceLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.93> ;
+   ld:contactPerson "Andre' Przybilla" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04129.Leipzig.BitterfelderStrasse.5> ;
+   foaf:mbox "info@makerspace-leipzig.de" ;
+   foaf:phone "03413552040" ;
+   rdfs:label "Makerspace Leipzig" ;
+   foaf:homepage <http://www.Makerspace-Leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/GRUeNSCHNABEL> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.94> ;
+   ld:contactPerson "Christiane Pfundt" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Nikolaistrasse.20> ;
+   foaf:mbox "c.pfundt@gruenschnabel-shop.de" ;
+   foaf:phone "0341-9808022" ;
+   rdfs:label "GRÜNSCHNABEL" ;
+   foaf:homepage <http://www.gruenschnabel-shop.de> . 
+
+<http://leipzig-data.de/Data/Akteur/AlteSchlosserei> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.95> ;
+   ld:contactPerson "Kornelius Unckell" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Kurt-Eisner-Strasse.66> ;
+   foaf:mbox "mail@alte-schlosserei.de" ;
+   foaf:phone "03413069996" ;
+   rdfs:label "Alte Schlosserei" ;
+   foaf:homepage <http://www.alte-schlosserei.de> . 
+
+<http://leipzig-data.de/Data/Akteur/SocialImpactLab> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.96> ;
+   ld:contactPerson "Jennifer Pauli" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.WeissenfelserStrasse.65H> ;
+   foaf:mbox "leipzig@socialimpactlab.eu" ;
+   foaf:phone "034149566660" ;
+   rdfs:label "Social Impact Lab" ;
+   foaf:homepage <http://leipzig.socialimpactlab.eu> . 
+
+<http://leipzig-data.de/Data/Akteur/ZooLeipzigGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.97> ;
+   ld:contactPerson "Maik Haupt" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.29> ;
+   foaf:mbox "mhaupt@zoo-leipzig.de" ;
+   foaf:phone "03415933364" ;
+   rdfs:label "Zoo Leipzig GmbH" ;
+   foaf:homepage <http://www.zoo-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/NetzwerkGewaltfreieKommunikationLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.98> ;
+   ld:contactPerson "Janette  Lemke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.92> ;
+   foaf:mbox "kontakt@gfk-leipzig.de" ;
+   foaf:phone "017660898823" ;
+   foaf:phone "016096243014" ;
+   rdfs:label "Netzwerk Gewaltfreie Kommunikation Leipzig e.V." ;
+   foaf:homepage <http://www.gfk-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/OxfamDeutschlandShopsgGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.99> ;
+   ld:contactPerson "Astrid Kleitke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/10179.Berlin.AmKoellnischenPark.1> ;
+   foaf:mbox "akleitke@oxfam.de" ;
+   foaf:phone "030-45306910" ;
+   rdfs:label "Oxfam Deutschland Shops gGmbH" ;
+   foaf:homepage <http://www.oxfam-shops.de> . 
+
+<http://leipzig-data.de/Data/Akteur/StiftungBuergerfuerLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.100> ;
+   ld:contactPerson "Angelika Kell" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
+   foaf:mbox "post@buergerfuerleipzig.de" ;
+   foaf:phone "9601530" ;
+   rdfs:label "Stiftung Bürger für Leipzig" ;
+   foaf:homepage <http://www.buergerfuerleipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/HausderDemokratieLeipzige.v.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.101> ;
+   ld:contactPerson "Rolf  Schumann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "info@hddl.de" ;
+   foaf:phone "0341-3065100" ;
+   rdfs:label "Haus der Demokratie Leipzig e.v." ;
+   foaf:homepage <http://www.hddl.de> . 
+
+<http://leipzig-data.de/Data/Akteur/fairgourmetGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.102> ;
+   ld:contactPerson "Detlef  Knaack" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.SeehausenerAllee.2> ;
+   foaf:mbox "detlef.knaack@fairgourmet.de" ;
+   foaf:phone "03416787000" ;
+   rdfs:label "fairgourmet GmbH" ;
+   foaf:homepage <http://www.fairgourmet.de> . 
+
+<http://leipzig-data.de/Data/Akteur/HotelFuerstenhof> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.103> ;
+   ld:contactPerson "Phillipp Jahnich" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.Troendlinring.8> ;
+   foaf:mbox "Philipp.Jahnich@luxurycollection.com" ;
+   foaf:phone "+49(0)3411404901" ;
+   rdfs:label "Hotel Fürstenhof" ;
+   foaf:homepage <http://www.hotelfuerstenhofleipzig.com/> . 
+
+<http://leipzig-data.de/Data/Akteur/Dresdner59> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.104> ;
+   ld:contactPerson "Johanna Pahl" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
+   foaf:mbox "johannapahl@googlemail.com" ;
+   foaf:phone "0341-3067174" ;
+   rdfs:label "Dresdner59" ;
+   foaf:homepage <http://www.dresdner59.de> . 
+
+<http://leipzig-data.de/Data/Akteur/AutodidaktischeInitiativee.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.105> ;
+   ld:contactPerson "Nadine McNeil" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.19> ;
+   foaf:mbox "autodidaktenleipzig@riseup.net" ;
+   foaf:phone "0157-56355331" ;
+   rdfs:label "Autodidaktische Initiative e.V." ;
+   foaf:homepage <http://adi-leipzig.net> . 
+
+<http://leipzig-data.de/Data/Akteur/AmtfuerUmweltschutzderStadtLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.106> ;
+   ld:contactPerson "Cyrill Rasch" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.136> ;
+   foaf:mbox "umweltschutz@leipzig.de" ;
+   foaf:phone "+493411233409" ;
+   rdfs:label "Amt für Umweltschutz der Stadt Leipzig" . 
+
+<http://leipzig-data.de/Data/Akteur/FairerEinkaufsfuehrer-Discounter> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
+   foaf:mbox "info@fairtrade-leipzig.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Fairer Einkaufsführer - Discounter" . 
+
+<http://leipzig-data.de/Data/Akteur/Rossmann> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
+   ld:contactPerson "Sarah Nagel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
+   foaf:mbox "sarah.nagel@rossmann.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Rossmann" . 
+
+<http://leipzig-data.de/Data/Akteur/FairerEinkaufsfuehrer-Restaurant/Cafe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
+   foaf:mbox "einkaufsfuehrer.restaurant.cafe@einewelt-leipzig.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Fairer Einkaufsführer - Restaurant/Cafe" . 
+
+<http://leipzig-data.de/Data/Akteur/FairerEinkaufsfuehrer-Baeckerei/Cafe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111> ;
+   foaf:mbox "einkaufsfuehrer.baeckerei.cafe@einewelt-leipzig.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Fairer Einkaufsführer - Bäckerei/Cafe" . 
+
+<http://leipzig-data.de/Data/Akteur/NellyMorelly> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.112> ;
+   ld:contactPerson "Sandra Wolf" ;
+   ld:hasAddress <http://leipzig-data.de/Data/06188.Landsberg.DroyssigerStrasse.9> ;
+   foaf:mbox "info@nelly-morelly.de" ;
+   foaf:phone "0174-9270597" ;
+   rdfs:label "Nelly Morelly" ;
+   foaf:homepage <http://www.nelly-morelly.de> . 
+
+<http://leipzig-data.de/Data/Akteur/StadtteilbibliothekPlagwitz> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.113> ;
+   ld:contactPerson "Kerstin Andruschow" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.14> ;
+   foaf:mbox "bibliothek.plagwitz@leipzig.de" ;
+   foaf:phone "0341-4804375" ;
+   rdfs:label "Stadtteilbibliothek Plagwitz" ;
+   foaf:homepage <http://www.leipzig.de/stadtbib> . 
+
+<http://leipzig-data.de/Data/Akteur/FreieKommunikationundNachhaltigerLebensstile.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.114> ;
+   ld:contactPerson "Markus Kollotzek" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04155.Leipzig.Marbachstrasse.2A> ;
+   foaf:mbox "markus.kollotzek@greennetproject.org" ;
+   foaf:phone "0160-2574782" ;
+   rdfs:label "Freie Kommunikation und Nachhaltiger Lebensstil e.V." ;
+   foaf:homepage <https://greennetproject.org/de/content/downloads> . 
+
+<http://leipzig-data.de/Data/Akteur/roeskantDIEMANUFAKTUR> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.115> ;
+   ld:contactPerson "Franko Lehmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.HoheStrasse.9> ;
+   foaf:mbox "info@roeskant.com" ;
+   foaf:phone "0341-58069091" ;
+   rdfs:label "röskant DIE MANUFAKTUR" ;
+   foaf:homepage <http://www.roeskant.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KuchenhimmelundBrotfein> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.116> ;
+   ld:contactPerson "Ronny Vogel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04318.Leipzig.Martinstrasse.6> ;
+   foaf:mbox "kuchenhimmel.brotfein@gmail.com" ;
+   foaf:phone "01637813245" ;
+   rdfs:label "Kuchenhimmel & Brotfein" . 
+
+<http://leipzig-data.de/Data/Akteur/St.BennoVerlag> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.117> ;
+   ld:contactPerson "Christiane Völkel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04159.Leipzig.Stammerstrasse.40> ;
+   foaf:mbox "service@st-benno.de" ;
+   foaf:phone "0341-467770" ;
+   rdfs:label "St. Benno Verlag" ;
+   foaf:homepage <http://www.vivat.de> . 
+
+<http://leipzig-data.de/Data/Akteur/heldenkueche> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.118> ;
+   ld:contactPerson "Claudia Friedrich" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
+   foaf:mbox "kontakt@heldenküche.net" ;
+   foaf:phone "0176-61264172" ;
+   rdfs:label "heldenküche" ;
+   foaf:homepage <http://www.heldenküche.net> . 
+
+<http://leipzig-data.de/Data/Akteur/CafeChavalo> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.120> ;
+   ld:contactPerson "Jens Klein" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132> ;
+   foaf:mbox "jens@cafe-chavalo.de" ;
+   foaf:phone "0175-9490562" ;
+   rdfs:label "Café Chavalo" ;
+   foaf:homepage <http://www.cafe-chavalo.de> . 
+
+<http://leipzig-data.de/Data/Akteur/VeganesCateringLaTortita> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.122> ;
+   ld:contactPerson "Vanessa Rothe de Henriquez" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49> ;
+   foaf:mbox "vanessarothe@gmx.de" ;
+   foaf:phone "0172-5749712" ;
+   rdfs:label "Veganes Catering \"La Tortita\"" ;
+   foaf:homepage <http://www.la-tortita.de> . 
+
+<http://leipzig-data.de/Data/Akteur/DerLindwurmHandelsgesellschaftmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.123> ;
+   ld:contactPerson "Mathias Haase" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04687.Trebsen.GrimmaerLandstrasse.2> ;
+   foaf:mbox "der_lindwurm@t-online.de" ;
+   foaf:phone "034383041325" ;
+   rdfs:label "Der Lindwurm Handelsgesellschaft mbH" ;
+   foaf:homepage <http://www.derlindwurm.com> . 
+
+<http://leipzig-data.de/Data/Akteur/LOstFood> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.124> ;
+   ld:contactPerson "Food Coop" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.WurznerStrasse.2> ;
+   foaf:mbox "info@lost-food.de" ;
+   foaf:phone "12345" ;
+   rdfs:label "LOst Food" ;
+   foaf:homepage <http://lost-food.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KunstundKatze> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.125> ;
+   ld:contactPerson "Christina Naumann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.MerseburgerStrasse.7> ;
+   foaf:mbox "info@kunstundkatze.de" ;
+   foaf:phone "0178-7178789" ;
+   rdfs:label "Kunst und Katze" ;
+   foaf:homepage <http://www.kunstundkatze.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KonsumLeipzigeG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
+   ld:contactPerson "Petra Seelbach" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Industriestrasse.85> ;
+   foaf:mbox "petra.seelbach@konsum-leipzig.de" ;
+   foaf:phone "03414984284" ;
+   rdfs:label "Konsum Leipzig eG" ;
+   foaf:homepage <http://www.konsum-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/HANDSonTECHNOLOGYe.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.127> ;
+   ld:contactPerson "Stefanie Hauffe" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
+   foaf:mbox "info@hands-on-technology.org" ;
+   foaf:phone "03412461583" ;
+   rdfs:label "HANDS on TECHNOLOGY e.V." ;
+   foaf:homepage <http://www.hands-on-technology.org> . 
+
+<http://leipzig-data.de/Data/Akteur/Mrs.Hippie> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.128> ;
+   ld:contactPerson "Karsten Reichmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Karl-Liebknecht-Strasse.36> ;
+   foaf:mbox "karsten_reichmann@dibomedia.de" ;
+   foaf:phone "0341-9613033" ;
+   rdfs:label "Mrs. Hippie" ;
+   foaf:homepage <http://www.mrs.hippie.de> . 
+
+<http://leipzig-data.de/Data/Akteur/AnjaBuechting> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.129> ;
+   ld:contactPerson "Anja Büchting" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.LangeStrasse.15> ;
+   foaf:mbox "info@alltagsinstitut.de" ;
+   foaf:phone "017681092584" ;
+   rdfs:label "Anja Büchting" ;
+   foaf:homepage <http://www.alltagsinstitut.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Einkaufsfuehrer-Supermaerkte> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.130> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX> ;
+   foaf:mbox "Superaemerkte@einewelt-Leipzig.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Einkaufsführer - Supermärkte" . 
+
+<http://leipzig-data.de/Data/Akteur/Einkaufsfuehrer-Supermarkt> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
+   ld:contactPerson "Martin Finke" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.XX> ;
+   foaf:mbox "supermaerkte@einewelt-leipzig.de" ;
+   foaf:phone "03413010143" ;
+   rdfs:label "Einkaufsführer - Supermarkt" . 
+
+<http://leipzig-data.de/Data/Akteur/CremeBRUeHLe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.133> ;
+   ld:contactPerson "Verena  Hahmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.AmHallischenTor.1> ;
+   foaf:mbox "verena.hahmann@marriott.com" ;
+   foaf:phone "04319653109" ;
+   rdfs:label "Creme BRÜHLé" ;
+   foaf:homepage <http://www.restaurant-creme-bruehle.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Rehability> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.134> ;
+   ld:contactPerson "Rehability Reha-Fachhandel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.AlterAmtshof.2> ;
+   foaf:mbox "presse@rehability.de" ;
+   foaf:phone "0622170540" ;
+   rdfs:label "Rehability" ;
+   foaf:homepage <http://www.rehability.de> . 
+
+<http://leipzig-data.de/Data/Akteur/littlekiwi> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.135> ;
+   ld:contactPerson "Olga Kassner" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.27> ;
+   foaf:mbox "info@little-kiwi.de" ;
+   foaf:phone "03414811978" ;
+   rdfs:label "little kiwi" ;
+   foaf:homepage <http://www.little-kiwi.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KatiMagyar> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.136> ;
+   ld:contactPerson "Kati Magyar" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
+   foaf:mbox "post@katimagyar.de" ;
+   foaf:phone "034112570465" ;
+   rdfs:label "Kati Magyar" ;
+   foaf:homepage <http://www.katimagyar.de> . 
+
+<http://leipzig-data.de/Data/Akteur/freigeist-BibliothekimShakunda> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.137> ;
+   ld:contactPerson "Ina Hötzel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.102> ;
+   foaf:mbox "info@freigeist-leipzig.de" ;
+   foaf:phone "0341-2338177" ;
+   rdfs:label "freigeist-Bibliothek im Shakunda" ;
+   foaf:homepage <http://www.freigeist-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Pulita2016> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.138> ;
+   ld:contactPerson "Michael Heuer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Priessnitzstrasse.32> ;
+   foaf:mbox "pulita@gmx.info" ;
+   foaf:phone "015123329702" ;
+   rdfs:label "Pulita2016" ;
+   foaf:homepage <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> . 
+
+<http://leipzig-data.de/Data/Akteur/NextLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.139> ;
+   ld:contactPerson "Steffen Peschel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.ZschocherscheStrasse.2A> ;
+   foaf:mbox "steffen.peschel@konzeptfreun.de" ;
+   foaf:phone "015788484285" ;
+   rdfs:label "NextLeipzig" ;
+   foaf:homepage <http://www.nextleipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/FoodAssemblyLeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
+   ld:contactPerson "Urte Grauwinkel" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.85> ;
+   foaf:mbox "urte.grauwinkel@web.de" ;
+   foaf:phone "0341-3081269" ;
+   rdfs:label "Food Assembly Leipzig" ;
+   foaf:homepage <http://www.foodassembly.de> . 
+
+<http://leipzig-data.de/Data/Akteur/SchaeferundBreussGbR> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.142> ;
+   ld:contactPerson "Dorothee Schäfer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/28203.Bremen.Kreftingstrasse.7> ;
+   foaf:mbox "dorothee.schaefer@schaeferbreuss.org" ;
+   foaf:phone "+4915779585508" ;
+   rdfs:label "Schäfer & Breuss GbR" ;
+   foaf:homepage <http://www.schaeferbreuss.org> . 
+
+<http://leipzig-data.de/Data/Akteur/Yellowbrasil> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.143> ;
+   ld:contactPerson "Siiri Stumpe" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.PfaffendorferStrasse.4> ;
+   foaf:mbox "fitundvital1@freenet.de" ;
+   foaf:phone "0341-33730866" ;
+   rdfs:label "Yellowbrasil" ;
+   foaf:homepage <http://www.yellowbrasil.de> . 
+
+<http://leipzig-data.de/Data/Akteur/Leilae.V.iG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.144> ;
+   ld:contactPerson "Jana  Rehwagen" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.49> ;
+   foaf:mbox "kontakt@leila-leipzig.de" ;
+   foaf:phone "01626675500" ;
+   rdfs:label "Leila e.V. iG" ;
+   foaf:homepage <http://www.leila-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KonzeptwerkNeueOekonomie> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.145> ;
+   ld:contactPerson "Kai Kuhnhenn" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
+   foaf:mbox "K.Kuhnhenn@knoe.org" ;
+   foaf:phone "0341-39281686" ;
+   rdfs:label "Konzeptwerk Neue Ökonomie" ;
+   foaf:homepage <http://www.knoe.org> . 
+
+<http://leipzig-data.de/Data/Akteur/OeDPSachsen> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.146> ;
+   ld:contactPerson "Rahel Wehemeyer-Blum" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04356.Leipzig.GoebschelwitzerStrasse.1> ;
+   foaf:mbox "rahwehbl@aikq.de" ;
+   foaf:phone "0341-3513835" ;
+   rdfs:label "ÖDP Sachsen" ;
+   foaf:homepage <http://www.oedp-sachsen.de> . 
+
+<http://leipzig-data.de/Data/Akteur/EchtUnverpackt> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.147> ;
+   ld:contactPerson "Stefan Heller" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Koenneritzstrasse.88> ;
+   foaf:mbox "info@echtunverpackt.de" ;
+   foaf:phone "01797563762" ;
+   rdfs:label "EchtUnverpackt" ;
+   foaf:homepage <http://www.EchtUnverpackt.de> . 
+
+<http://leipzig-data.de/Data/Akteur/DLRGBezirkLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.148> ;
+   ld:contactPerson "Mike Strauß" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04105.Leipzig.Theresienstrasse.2A> ;
+   foaf:mbox "info@dlrg-leipzig.de" ;
+   foaf:phone "0341-2008188" ;
+   rdfs:label "DLRG Bezirk Leipzig e.V." ;
+   foaf:homepage <http://bez-leipzig.dlrg.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/VereinderFreundeundFoerdererdesWildparksLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
+   ld:contactPerson "Ralf  Herrmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.161> ;
+   foaf:mbox "info@wildparkverein-leipzig.de" ;
+   foaf:phone "034126496004" ;
+   rdfs:label "Verein der Freunde und Förderer des Wildparks Leipzige.V." ;
+   foaf:homepage <http://www.wildparkverein-leipzig.de> . 
+
+<http://leipzig-data.de/Data/Akteur/SCILeipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.150> ;
+   ld:contactPerson "Simon Jakob" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Mariannenstrasse.107> ;
+   foaf:mbox "leipzig.lg@sci-d.de" ;
+   foaf:phone "015739263765" ;
+   rdfs:label "SCI Leipzig" ;
+   foaf:homepage <http://sci-d.de/lokalgruppe-leipzig> . 
+
+<http://leipzig-data.de/Data/Akteur/Batzentauschringe.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.151> ;
+   ld:contactPerson "Jürgen Weidemann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04435.Schkeuditz.Ringelblumenweg.10> ;
+   foaf:mbox "leipzigrikscha@gmail.com" ;
+   foaf:phone "0177-2672145" ;
+   rdfs:label "Batzentauschring e.V." ;
+   foaf:homepage <http://www.batzen.de> . 
+
+<http://leipzig-data.de/Data/Akteur/SylkeNissen> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.152> ;
+   ld:contactPerson "Sylke Nissen" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04107.Leipzig.Beethovenstrasse.15> ;
+   foaf:mbox "nissen@uni-leipzig.de" ;
+   foaf:phone "03419735665" ;
+   rdfs:label "Sylke Nissen" . 
+
+<http://leipzig-data.de/Data/Akteur/Nextleipzig> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.153> ;
+   ld:contactPerson "Peter Hartmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04177.Leipzig.ZschocherscheStrasse.2A> ;
+   foaf:mbox "phartmann6@t-online.de" ;
+   foaf:phone "01634607183" ;
+   rdfs:label "Nextleipzig" ;
+   foaf:homepage <http://www.nextleipzig.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/CarinaFloresdeLooss> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.154> ;
+   ld:contactPerson "Carina  Flores de Looß" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.42> ;
+   foaf:mbox "carina.flores@diehellenkoepfe.de" ;
+   foaf:phone "01749760689" ;
+   foaf:phone "015756424859" ;
+   rdfs:label "Carina Flores de Looß" ;
+   foaf:homepage <http://diehellenkoepfe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/BioTempel> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.155> ;
+   ld:contactPerson "Christel Wust" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Taeubchenweg.77A> ;
+   foaf:mbox "biotempel@posteo.de" ;
+   foaf:phone "0341-24765472" ;
+   rdfs:label "Bio Tempel" ;
+   foaf:homepage <https://www.facebook.com/BioTempelLeipzig/> . 
+
+<http://leipzig-data.de/Data/Akteur/WWFJugend> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.156> ;
+   ld:contactPerson "Franziska Losse" ;
+   ld:hasAddress <http://leipzig-data.de/Data/10117.Berlin.Reinhardtstrasse.18> ;
+   foaf:mbox "franziska.losse@posteo.de" ;
+   foaf:phone "0157-75209633" ;
+   rdfs:label "WWF Jugend" ;
+   foaf:homepage <https://www.wwf-jugend.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/EnergiegenossenschaftLeipzigeG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.157> ;
+   ld:contactPerson "André Wüste" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
+   foaf:mbox "a.wueste@eg-leipzig.de" ;
+   foaf:phone "01603365593" ;
+   foaf:phone "015159223227" ;
+   rdfs:label "Energiegenossenschaft Leipzig eG" ;
+   foaf:homepage <http://www.energiegenossenschaft-leipzig.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/kidscodee.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.159> ;
+   ld:contactPerson "Uwe Koch" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Erdmannstrasse.16> ;
+   foaf:mbox "andreaskoch030@gmail.com" ;
+   foaf:phone "01743160863" ;
+   rdfs:label "kidscode e.V." . 
+
+<http://leipzig-data.de/Data/Akteur/Phyllodrome.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.160> ;
+   ld:contactPerson "Bettina Grallert" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04158.Leipzig.DelitzscherLandstrasse.38> ;
+   foaf:mbox "info@phyllodrom.de" ;
+   foaf:phone "03415257757" ;
+   rdfs:label "Phyllodrom e.V." ;
+   foaf:homepage <http://phyllodrom.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/MaxPlanckInstitutfuerMathematik> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.162> ;
+   ld:contactPerson "Jürgen Jost" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.22> ;
+   foaf:mbox "josefineotte95@gmail.com" ;
+   foaf:phone "+49(0)341-9959-50" ;
+   rdfs:label "Max Planck Institut für Mathematik" ;
+   foaf:homepage <https://www.mis.mpg.de/de/start.html> . 
+
+<http://leipzig-data.de/Data/Akteur/VDI-GaraGegGmbH> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.163> ;
+   ld:contactPerson "Dr. Konstanze Schellenberger" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.97> ;
+   foaf:mbox "r.moreno95@web.de" ;
+   foaf:phone "+49341870860" ;
+   rdfs:label "VDI - GaraGe gGmbH" ;
+   foaf:homepage <http://www.g-a-r-a-g-e.com/> . 
+
+<http://leipzig-data.de/Data/Akteur/ENEDASe.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.164> ;
+   ld:contactPerson "Enedas Verein" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.33> ;
+   foaf:mbox "info@enedas.de" ;
+   foaf:phone "015771822192" ;
+   rdfs:label "ENEDAS e.V." ;
+   foaf:homepage <http://www.enedas.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/Bergbau-Technik-Parke.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.165> ;
+   ld:contactPerson "Thorsten  Hinz" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
+   foaf:mbox "info@bergbau-technik-park.de" ;
+   foaf:phone "034297-140127" ;
+   rdfs:label "Bergbau-Technik-Park e.V." ;
+   foaf:homepage <http://www.bergbau-technik-park.de/park/> . 
+
+<http://leipzig-data.de/Data/Akteur/MUeHLSTRASSE14e.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.166> ;
+   ld:contactPerson "Karin  Hörning" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   foaf:mbox "kontakt@muehlstrasse.de" ;
+   foaf:phone "0341-9903600" ;
+   rdfs:label "MÜHLSTRASSE 14 e. V." ;
+   foaf:homepage <http://www.muehlstrasse.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/archenoVa-InitiativefuerMenscheninNote.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.167> ;
+   ld:contactPerson "Mara Kayser" ;
+   ld:hasAddress <http://leipzig-data.de/Data/01067.Dresden.Weisseritzstrasse.3> ;
+   foaf:mbox "info@arche-nova.org" ;
+   foaf:phone "035148198421" ;
+   rdfs:label "arche noVa - Initiative für Menschen in Not e.V." ;
+   foaf:homepage <https://arche-nova.org/de> . 
+
+<http://leipzig-data.de/Data/Akteur/GeoWerkstattLeipzige.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.168> ;
+   ld:contactPerson "Ronny Schmidt" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04103.Leipzig.Johannisallee.19> ;
+   foaf:mbox "vorstand@geowerkstatt.com" ;
+   foaf:phone "0179-4590873" ;
+   rdfs:label "GeoWerkstatt Leipzig e.V." ;
+   foaf:homepage <http://www.geowerkstatt.com> . 
+
+<http://leipzig-data.de/Data/Akteur/BildungsvereinParcourse.V.> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.170> ;
+   ld:contactPerson "Johannes Hohaus" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.79> ;
+   foaf:mbox "info@parcours-bildung.org" ;
+   foaf:phone "034126580091" ;
+   rdfs:label "Bildungsverein Parcours e.V." ;
+   foaf:homepage <http://parcours-bildung.org> . 
+
+<http://leipzig-data.de/Data/Akteur/BotanischerGartenfuerArznei-undGewuerzpflanzenGrosspoesna-Oberholz> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
+   ld:contactPerson "Heike Schüürmann" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04463.Grosspoesna.StoermthalerWeg.2> ;
+   foaf:mbox "botanischer-garten-oberholz@gmx.de" ;
+   foaf:phone "03429741249" ;
+   rdfs:label "Botanischer Garten für Arznei- und Gewürzpflanzen Großpösna-Oberholz" ;
+   foaf:homepage <http://www.botanischer-garten-oberholz.de> . 
+
+<http://leipzig-data.de/Data/Akteur/JeepneyCafe> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.172> ;
+   ld:contactPerson "Janellsa Giel Ludwig" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04155.Leipzig.Georg-Schumann-Strasse.78> ;
+   foaf:mbox "office@jeepney-cafe.de" ;
+   foaf:phone "+49(341)69866680" ;
+   rdfs:label "Jeepney Café" ;
+   foaf:homepage <http://jeepney-cafe.de> . 
+
+<http://leipzig-data.de/Data/Akteur/KurtHinkefuss> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.173> ;
+   ld:contactPerson "Kurt Hinkefuß" ;
+   ld:hasAddress <http://leipzig-data.de/Data/04315.Leipzig.Wiebelstrasse.8> ;
+   foaf:mbox "kauerte@gmx.net" ;
+   foaf:phone "01631736473" ;
+   rdfs:label "Kurt Hinkefuß" ;
+   foaf:homepage <http://konsumglobal-leipzig.de/> . 
+
+<http://leipzig-data.de/Data/Akteur/ALDIEinkaufGmbHundCo.oHG> a org:Organization  ;
+   owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
+   ld:contactPerson "Philipp-Daniel Fischer" ;
+   ld:hasAddress <http://leipzig-data.de/Data/45307.Essen.Eckenbergstrasse.16A> ;
+   foaf:mbox "cr-food@aldi-nord.de" ;
+   foaf:phone "02018593438" ;
+   rdfs:label "ALDI Einkauf GmbH & Co. oHG" . 
 

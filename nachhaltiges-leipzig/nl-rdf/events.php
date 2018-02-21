@@ -33,8 +33,8 @@ function createEvent($row) {
   $a=addLiteral($a,'ical:dtend', str_replace(" ", "T", $row['end_at']));
   $a=addLiteral($a,'nl:Kosten', $row["costs"]);
   $a=addResource($a,'ical:url', "", fixURL($row['info_url']));
-  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
-  $a=addLiteral($a,'dct:modified', str_replace(" ", "T", $row['updated_at']));
+  $a=addLiteral($a,'dct:created', fixDate($row['created_at']));
+  $a=addLiteral($a,'dct:modified', fixDate($row['updated_at']));
   $a=addLiteral($a,'nl:imPodium', $row["speaker"]);
 //  $a=addLiteral($a,'nl:isPublished', $row["published"]);
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Event'");

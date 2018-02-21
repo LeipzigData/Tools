@@ -27,19 +27,21 @@ function createAkteur($row) {
   $a=array(); $b=array(); $c=array(); 
   $a[]=' a foaf:Person '; $b[]=' a nl:Akteur '; $c[]=' a org:Membership ';
   $a=addLiteral($a,'nl:hasID', $id);
-//  $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
-  $b=addLiteral($b,'dct:modified', str_replace(" ", "T", $row['updated_at']));
-//  $a=addLiteral($a,'nl:lastLoginAt', str_replace(" ", "T", $row['last_login_at']));
-//  $a=addLiteral($a,'nl:lastActivityCheckAt', str_replace(" ", "T", $row['activity_check_at']));
+//  $a=addLiteral($a,'dct:created', fixDate($row['created_at']));
+  $b=addLiteral($b,'dct:modified', fixDate($row['updated_at']));
+//  $a=addLiteral($a,'nl:lastLoginAt', fixDate($row['last_login_at']));
+//  $a=addLiteral($a,'nl:lastActivityCheckAt', fixDate($row['activity_check_at']));
 //  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
   $a=addLiteral($a,'foaf:firstName', $row['first_name']);
   $a=addLiteral($a,'foaf:lastName', $row['last_name']);
+  $a=addLiteral($a,'nl:proposedURI', fixNameURI($row['last_name']."_".$row['first_name']));
   $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
   $b=addLiteral($b,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_primary']));
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_secondary']));
   $b=addResource($b,'nl:contactPerson', "http://leipzig-data.de/Data/Person.", $id);
   $b=addLiteral($b,'rdfs:label', $row['organization']);
+  $b=addLiteral($b,'nl:proposedURI', fixOrgURI($row['organization']));
   $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
   $b=addLiteral($b,'nl:orgType', $row['organization_type']);
   $c=addResource($c,'org:member', "http://leipzig-data.de/Data/Person.", $id);
@@ -56,6 +58,6 @@ function createAkteur($row) {
 }
 
 // zum Testen
-// echo getAkteure();
+echo getAkteure();
 
 ?>

@@ -16,7 +16,7 @@
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Nachhaltiges Leipzig - Aktionen" .
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A4> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.4> a nl:Aktion  ;
    nl:hasID "4" ;
    nl:hasDescription """Die Idee der KlassischenKartoffelkonzert-Reihe
 
@@ -51,67 +51,72 @@ Wir freuen uns auf Sie!
 Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.""" ;
    nl:hasImage "NUKLA_LOGO_1.jpg" ;
    nl:hasInfoURL <http://www.klassischekartoffelkonzerte.de> ;
-   dct:created "2013-09-14T10:14:50" ;
-   dct:updated "2015-11-12T13:30:11" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A10> ;
+   dct:created "2013-09-14" ;
+   dct:modified "2015-11-12" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.15> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
    nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A5> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.5> a nl:Aktion  ;
    nl:hasID "5" ;
    nl:hasDescription """sedruck engagiert sich für saubere Energie.
 Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne Atomstrom. Der Online-Druckshop mit Buchmanufaktur "sedruck.de", nutzt die Energie einer großflächigen Solaranlage auf dem Ludwig-Hupfeld-Center in Böhlitz-Ehrenberg. Außerdem wird aussschließlich Papier verwendet, welches das FSC-Zertifikat trägt und somit nachhaltig erwirtschaftet wurde. Auch die Verpackung der Drucksachen ist sehr umweltschonend organisiert. Daneben engagiert sich das gesamte sedruck-Unternehmen auch sozial. Siehe sedruck.de --> Umwelt / Soziales""" ;
    nl:hasImage "sedruck-Leipzig-3mal.png" ;
    nl:hasInfoURL <http://www.sedruck.de/umwelt-oekodruck-soziales.html> ;
    nl:isPublished "1" ;
-   dct:created "2013-09-19T08:48:19" ;
-   dct:updated "2015-09-23T06:12:36" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A18> ;
+   dct:created "2013-09-19" ;
+   dct:modified "2015-09-23" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.27> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.18> ;
    nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A8> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.8> a nl:Aktion  ;
    nl:hasID "8" ;
    nl:hasDescription """Mit einer Spende zugunsten der Aktion Baumstarke Stadt ermöglichen Sie die Pflanzung von Bäumen in öffentlichen Parks, an Straßen, auf Plätzen sowie auf städtischen Friedhöfen. Informationen unter: http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml""" ;
    nl:hasImage "baumstarke_stadt_logo_400x400_196x196.jpg" ;
    nl:hasInfoURL <http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX> ;
    nl:hasDistrict "stadtweite Aktivität" ;
-   dct:created "2013-09-27T09:37:31" ;
-   dct:updated "2015-02-10T08:42:56" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A25> ;
+   dct:created "2013-09-27" ;
+   dct:modified "2015-02-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.37> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.25> ;
    nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A11> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.11> a nl:Aktion  ;
    nl:hasID "11" ;
    nl:hasDescription """Grün ist wieder in. Alle Teilnehmer tragen andiesem Tag grüns Kleidung, um der Veranstltung die besondere Note zu geben.""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04451.Borsdorf.Lindenweg.12> ;
    nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
    nl:isPublished "1" ;
-   dct:created "2014-03-14T11:56:04" ;
-   dct:updated "2014-03-14T11:56:04" . 
+   dct:created "2014-03-14" ;
+   dct:modified "2014-03-14" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A15> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.15> a nl:Aktion  ;
    nl:hasID "15" ;
    nl:hasDescription """Was Klimawandel mit dir zu tun hat? – Finde es heraus, dokumentiere deine Erkenntnisse mit einem kurzen Clip und gewinne bis zu 300 Euro! 
 Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendungen sind noch bis zum 31.07.2015 möglich. Mehr Infos auf http://www.zukunftsakademie-leipzig.de/c4c.""" ;
    nl:hasImage "C4C_2zu3.jpg" ;
    nl:hasVideoURL <https://vimeo.com/128893469> ;
    nl:hasInfoURL <http://www.zukunftsakademie-leipzig.de> ;
-   dct:created "2015-07-20T16:25:56" ;
-   dct:updated "2016-08-18T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A5> ;
+   dct:created "2015-07-20" ;
+   dct:modified "2016-08-18" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.515> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.5> ;
    nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A17> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.17> a nl:Aktion  ;
    nl:hasID "17" ;
    nl:hasDescription """Ich betreibe in Leipzig einen Ebayshop für ökologische Wasch- und Reinigungsmittel und möchte damit einen kleinen Beitrag zum nachhaltigen Umgang mit den wertvollen Ressourcen unserer Erde leisten.""" ;
    nl:hasVideoURL <https://www.youtube.com/watch?v=ozRgThy4gIo> ;
    nl:hasInfoURL <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
-   dct:created "2015-11-30T10:41:38" ;
-   dct:updated "2017-07-25T14:34:33" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A138> ;
+   dct:created "2015-11-30" ;
+   dct:modified "2017-07-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.572> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.138> ;
    nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A19> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.19> a nl:Aktion  ;
    nl:hasID "19" ;
    nl:hasDescription """Wir sind Pierre & Christin und möchten im Frühjahr 2016 in der Leipziger Südvorstadt unseren Laden "EINFACH UNVERPACKT" eröffnen, wo du deine regionalen & nachhaltigen Produkte unverpackt kaufen kannst. Gemeinsam verzichten wir konsequent auf unnötige Plastikverpackungen und tun damit etwas Gutes für unsere Umwelt. Du kannst dir deine gewünschten Lebensmittel sowie Reingigungs- und Hygienemittel und Pflegeprodukte selbst in deine mitgebrachten Behälter abfüllen. Du bestimmst somit selbst wie viel du von etwas kaufst. Da nur nur soviel kaufst wie du auch benötigst, kannst du z. B. unnötige Lebensmittelabfälle vermeiden.
 
@@ -121,18 +126,19 @@ Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete le
    nl:hasImage "IMG_8497.jpg" ;
    nl:hasInfoURL <http://www.visionbakery.com/einfach-unverpackt> ;
    nl:hasDistrict "Südvorstadt" ;
-   dct:created "2015-12-16T17:19:41" ;
-   dct:updated "2017-01-16T06:15:03" . 
+   dct:created "2015-12-16" ;
+   dct:modified "2017-01-16" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion/A20> a nl:Aktion  ;
+<http://nachhaltiges-leipzig.de/Data/Aktion.20> a nl:Aktion  ;
    nl:hasID "20" ;
    nl:hasDescription """Präsentation fairer Mode ab 15.00 Uhr
 Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der gefertigten Stücke, Kauf möglich.""" ;
    nl:hasImage "IMG_2757.JPG" ;
    nl:hasInfoURL <http://www.kunstundkatze.de> ;
    nl:isPublished "1" ;
-   dct:created "2017-06-08T22:32:56" ;
-   dct:updated "2017-06-08T22:33:44" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A125> ;
+   dct:created "2017-06-08" ;
+   dct:modified "2017-06-08" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.913> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.125> ;
    nl:hasEventType "Aktion" . 
 

@@ -47,6 +47,11 @@ function fixURL($u) {
   return $u;
 }
 
+function fixDate($u) {
+    $u=preg_replace('/\s.*/', '', $u);
+  return $u;
+}
+
 function fixQuotes($u) {
   $u=str_replace("\"", "\\\"", $u);
   // $u=str_replace("\n", " <br/> ", $u);
@@ -72,6 +77,20 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("é", "e", $u);  
   $u=str_replace("&", "und", $u);
   $u=str_replace("\"", "", $u);
+  return $u;
+}
+
+function fixNameURI($u) { // Weitere Transformation für Namen
+  $u=fixURI($u);
+  $u=str_replace("-", "", $u);
+  return $u;
+}
+
+function fixOrgURI($u) { // Weitere Transformation für Organisationen
+  $u=fixURI($u);
+  $u=str_replace("e.V.", "", $u);
+  $u=str_replace("GmbH", "", $u);
+  $u=str_replace("undCo.oHG", "", $u);
   return $u;
 }
 

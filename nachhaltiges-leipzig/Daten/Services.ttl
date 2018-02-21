@@ -16,7 +16,7 @@
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Nachhaltiges Leipzig - Services" .
 
-<http://nachhaltiges-leipzig.de/Data/Service/S3> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.3> a nl:Service  ;
    nl:hasID "3" ;
    nl:hasDescription """Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min. Zum Schluss gibt es noch Gelegenheit zum Gespräch bei einer Tasse Tee. Ein Einstieg ist jederzeit möglich. Kommen Sie aber bitte beim ersten Mal 15 Minuten vorher zu einer kurzen Einweisung.""" ;
    nl:hasSummary """Jede Einheit beginnt mit einem Impuls und etwa einer knappen Stunde Hatha-Yoga. Dann meditieren wir 30 min""" ;
@@ -27,12 +27,13 @@
    nl:hasServiceType "Workshop" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Hainstrasse.12> ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
-   dct:created "2013-09-17T10:46:36" ;
-   dct:updated "2015-02-10T08:45:39" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A13> ;
+   dct:created "2013-09-17" ;
+   dct:modified "2015-02-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.21> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.13> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S4> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.4> a nl:Service  ;
    nl:hasID "4" ;
    nl:hasDescription """Die themenzentrierte Interaktion (TZI) nach Ruth Cohn ist eine professionelle Handlungskonzeption für institutionelle Leitung, Arbeit mit Teams, Unterricht und Bildung. Das Ziel ist, einen wertschätzenden Umgang miteinander zu fördern und lebendige Lern- und Arbeitsprozesse zu gestalten. TZI stellt ein Instrumentarium bereit, mit dem zugleich sachlich und lebendig gearbeitet werden kann, mit dem Ziele erreicht werden und gleichzeitig Kooperation gefördert wird.""" ;
    nl:hasSummary """Professionell lehren und leiten mit TZI (I 50 001M)""" ;
@@ -42,12 +43,13 @@
    nl:hasCosts "ca. 90,- €" ;
    nl:hasRequirements """Teilnehme nur an allen 5 Abenden""" ;
    nl:hasServiceType "Workshop" ;
-   dct:created "2013-09-17T10:50:05" ;
-   dct:updated "2014-10-16T05:15:31" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A13> ;
+   dct:created "2013-09-17" ;
+   dct:modified "2014-10-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.22> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.13> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S5> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.5> a nl:Service  ;
    nl:hasID "5" ;
    nl:hasDescription """Lastenräder und Transporträder werden zum Mieten, Probefahren und zum Kauf angeboten.""" ;
    nl:hasSummary """Transporträder für Familie, Freizeit und Beruf""" ;
@@ -56,12 +58,13 @@
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
    nl:hasDistrict "Altlindenau" ;
    nl:isPublished "1" ;
-   dct:created "2013-09-27T10:25:55" ;
-   dct:updated "2017-06-07T13:42:13" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A24> ;
+   dct:created "2013-09-27" ;
+   dct:modified "2017-06-07" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.38> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.24> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S6> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.6> a nl:Service  ;
    nl:hasID "6" ;
    nl:hasDescription """Mit unserer Bildungsarbeit wollen wir bei Schüler_innen und jungen Erwachsenen wieder mehr Interesse für wirtschaftliche Themen wecken. Wir wollen ökonomische Probleme unserer Zeit kritisch diskutieren und zugleich zeigen, dass alternative Wirtschaftsformen auch heute schon existieren, praktiziert werden und funktionieren:
 
@@ -81,19 +84,20 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasImage "projekttage.jpg" ;
    nl:hasInfoURL <http://www.konzeptwerk-neue-oekonomie.org/projekttage-und-workshops/> ;
    nl:isPublished "1" ;
-   dct:created "2013-09-30T15:54:52" ;
-   dct:updated "2017-01-17T14:40:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A27> ;
+   dct:created "2013-09-30" ;
+   dct:modified "2017-01-17" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.41> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S7> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.7> a nl:Service  ;
    nl:hasID "7" ;
    nl:hasDescription """Wir testen""" ;
    nl:hasSummary """Testen""" ;
-   dct:created "2013-10-16T10:45:42" ;
-   dct:updated "2013-10-16T11:04:47" . 
+   dct:created "2013-10-16" ;
+   dct:modified "2013-10-16" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S8> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.8> a nl:Service  ;
    nl:hasID "8" ;
    nl:hasDescription """Wir nähern uns dem Thema Wasser auf vielfältige Weise, nicht nur spielerisch. Auf unserem Gelände sind verschiedene wasser-technische Anlagen im Einsatz, die wir in einem kleinen Rundgang den Kindern zeigen. Besonders beeindruckend sind natürlich unser Wasserrad und unser eigens kleines "Klärwerk". Im Anschluss werden wir gemeinsam basteln oder kleine Experimente durchführen. Bei schönem Wetter können die Kinder mit unserer Wasserbahn spielen und an der Gartenpumpe matschen.""" ;
    nl:hasSummary """Wasser ist kostbar. Wir "tauchen ein" in die Themen Wasserkreislauf und Wasser als Lebensgrundlage, beschauen das Wasserrad und basteln.""" ;
@@ -105,12 +109,13 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasImage "CIMG0174.JPG" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
    nl:hasDistrict "Dölitz-Dösen" ;
-   dct:created "2013-10-25T12:14:27" ;
-   dct:updated "2015-07-24T05:15:34" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A16> ;
+   dct:created "2013-10-25" ;
+   dct:modified "2015-07-24" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.47> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S9> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.9> a nl:Service  ;
    nl:hasID "9" ;
    nl:hasDescription """Seit mehr als 50 Mio. Jahren gibt es Fledermäuse auf der Erde, die einzige Säugetierart, die fliegen kann. Bei uns in Sachsen leben ca. 20 Arten von Fledermäusen, sie vertilgen große Mengen an Mücken, Motten und Faltern und werden damit zu wichtigen „biologischen Schädlingsbekämpfern“. Leider gehören sie zu den bedrohten Tierarten.  Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind, vor denen man Angst haben muss. Mit vielen Fotos, einer echte Fledermaus und einem tollen Film können sich die Kinder mit diesen Tieren vertraut machen und lernen sie schätzen. Anschließend basteln wir eine kleine Fledermaus aus Papier, die mit nach Hause genomme werden kann.""" ;
    nl:hasSummary """Fledermäuse gehöhren zu den bedrohten Tierarten. Wir bringen den Kindern nahe, dass Fledermäuse keine unheimlichen Wesen sind.""" ;
@@ -120,12 +125,13 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasServiceType "Unterrichtseinheit" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
    nl:hasDistrict "Dölitz-Dösen" ;
-   dct:created "2013-10-25T12:27:08" ;
-   dct:updated "2015-07-24T05:15:34" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A16> ;
+   dct:created "2013-10-25" ;
+   dct:modified "2015-07-24" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.48> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S10> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.10> a nl:Service  ;
    nl:hasID "10" ;
    nl:hasDescription """Bei unserer Mühlen-Wald-Rallye geht es darum, Spaß zu haben, die Natur zu entdecken und verschiedene Bäume kennenzulermen.  Wir sammeln unterwegs Naturmaterialien für ein kleines Mitbringsel und besuchen den Spielplatz Kinderreich.
 Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kindern Pizza und erfrischen uns mit einem selbstgebrautem Mühlentrunk. Zum Abschluss gibt es für alle noch eine Überraschung.""" ;
@@ -137,12 +143,13 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasServiceType "Exkursion" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04279.Leipzig.Vollhardtstrasse.16> ;
    nl:hasDistrict "Dölitz-Dösen" ;
-   dct:created "2013-10-25T12:53:11" ;
-   dct:updated "2015-07-24T05:15:34" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A16> ;
+   dct:created "2013-10-25" ;
+   dct:modified "2015-07-24" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.49> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S11> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.11> a nl:Service  ;
    nl:hasID "11" ;
    nl:hasDescription """"Wir und die Welt" bietet Informationen und Bildungsangebote rund um die Themen Globalisierung und Konsum an. Mit Hilfe von Stadtrundgängen und Projekttagen werden die weltweiten Verknüpfungen lokal erlebbar gemacht. Dieses Angebot richtet sich an Kinder und Jugendliche, aber auch an interessierte Erwachsene. Die Homepage www.globalisiert.de informiert zudem über aktuelle globale Entwicklungen und lokale Ereignisse, wie Workshops und Seminare.
 "Wir und die Welt" ist ein Projekt des WeltOffen e.V.""" ;
@@ -155,12 +162,13 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasInfoURL <http://www.globalisiert.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.XX> ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
-   dct:created "2013-11-05T12:02:37" ;
-   dct:updated "2016-06-20T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A33> ;
+   dct:created "2013-11-05" ;
+   dct:modified "2016-06-20" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.55> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.33> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S12> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.12> a nl:Service  ;
    nl:hasID "12" ;
    nl:hasDescription """Die Leipziger Bildungsberatung berät kostenlos, neutral, individuell und anbieterübergreifend zum persönlichen oder beruflichen Fortkommen und vermittelt bei Bedarf an spezialisierte Beratungsstellen weiter. Jeder Erwachsene (nach verlassen der Schule) kann die Bildungsberatung in einem persönlichen Gespräch, per Telefon oder E-Mail in Anspruch nehmen.""" ;
    nl:hasSummary """Die Leipziger Bildungsberatung hilft bei Fragen der Qualifizierung und bei der Orientierung im Dschungel der Bildungsanbieter""" ;
@@ -173,12 +181,13 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasInfoURL <http://www.leipzig.de/bildungsmanagement> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Wilhelm-Leuschner-Platz.10> ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
-   dct:created "2013-11-13T10:18:23" ;
-   dct:updated "2015-03-18T09:59:12" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A34> ;
+   dct:created "2013-11-13" ;
+   dct:modified "2015-03-18" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.56> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.34> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S13> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.13> a nl:Service  ;
    nl:hasID "13" ;
    nl:hasDescription """interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels; Klimaschutz""" ;
    nl:hasSummary """interaktiver Workshop vor Ort in der Schule zu folgenden Inhalten: Klimageschichte; Klimafaktoren; Szenarien; Auswirkungen und Folgen des Klimawandels""" ;
@@ -186,12 +195,13 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasDuration "2-3 Stunden" ;
    nl:hasCosts "kostenlos" ;
    nl:hasServiceType "Unterrichtseinheit" ;
-   dct:created "2013-12-05T10:21:08" ;
-   dct:updated "2016-11-09T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A15> ;
+   dct:created "2013-12-05" ;
+   dct:modified "2016-11-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.60> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S14> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.14> a nl:Service  ;
    nl:hasID "14" ;
    nl:hasDescription """Die Referenten der Bildungsagenten sind selber junge Menschen, die ganz frisch zurückgekehrt sind, von einem sozialen Freiwilligendienst im Ausland. Die meisten waren in sog. Entwicklungsländern und daher geht es in den Workshops um Fragen, wie wir ein globales Zusammenleben aller Menschen auf friedliche Weise gestalten können. 
 Wir tauchen auch tief in wirtschaftspolitische Fragen ein und überlegen uns, wie wir eine Faire welt hier und jetzt beginnen können. 
@@ -203,12 +213,13 @@ Zum Abschluss erzählen wir auch gerne mit ein paar Bildern von unseren Reiseerf
    nl:hasCosts "Eine Spende ist erbeten, um unsere Unkosten zu decken." ;
    nl:hasServiceType "Workshop" ;
    nl:hasInfoURL <http://bildungsagenten.com/category/bildungskoffer/welthandel-und-fairtrade/> ;
-   dct:created "2013-12-16T19:54:56" ;
-   dct:updated "2016-01-17T06:15:02" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A40> ;
+   dct:created "2013-12-16" ;
+   dct:modified "2016-01-17" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.65> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.40> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S15> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.15> a nl:Service  ;
    nl:hasID "15" ;
    nl:hasDescription """Die Handywerkstatt
 Wahrscheinlich nutzen Sie auch ein Mobiltelefon oder Smartphone? Und ist es nicht erstaunlich, wie schnell und folgenreich sich diese neue, praktische Technologie in unserem Alltag durchgesetzt hat? Aber was wissen Sie über Ihr Telefon? 
@@ -233,12 +244,13 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
    nl:hasInfoURL <http://lebenlernenleipzig.de/aktuelle-projekte/cafe-kaputt-bildungsworkshops/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.XX> ;
    nl:hasDistrict "Lindenau" ;
-   dct:created "2013-12-19T14:06:30" ;
-   dct:updated "2015-05-15T05:15:35" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A32> ;
+   dct:created "2013-12-19" ;
+   dct:modified "2015-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.69> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S16> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.16> a nl:Service  ;
    nl:hasID "16" ;
    nl:hasDescription """Jeans, Jeans, Jeans
 Bestimmt tragen auch Sie Jeans – Hose, Jacke, Tasche – blau, schwarz, weinrot.... . Jeans haben sich seit ihrer Erfindung im Goldrausch Kaliforniens erstaunlich schnell erstaunlich langfristig und erstaunlich weit durchgesetzt. Weit? Also bei erstaunlich vielen Menschen. Ob die Jeans selbst weit oder eng sein soll, hängt von der Mode ab. So oder so umweht sie bis heute ein Gefühl des locker-lässigen Abenteuers.
@@ -260,12 +272,13 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
    nl:hasInfoURL <http://lebenlernenleipzig.de/aktuelle-projekte/cafe-kaputt-bildungsworkshops/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.102> ;
    nl:hasDistrict "Lindenau" ;
-   dct:created "2013-12-19T14:14:43" ;
-   dct:updated "2015-05-15T05:15:35" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A32> ;
+   dct:created "2013-12-19" ;
+   dct:modified "2015-05-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.70> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S17> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.17> a nl:Service  ;
    nl:hasID "17" ;
    nl:hasDescription """Dragon Dreaming ist ein systematischer und ganzheitlicher Projektmanagement-Ansatz für die Verwirklichung von gemeinschaftlichen und nachhaltigen Projekten. Dragon Dreaming bietet eine Reihe innovativer Techniken und Methoden, die für die Entwicklung von Visionen, für die Planung und erfolgreiche Durchführung von Projekten hilfreich sind. Im Mittelpunkt stehen Methoden, die ihren Schwerpunkt auf Schwarmintelligenz – die Intelligenz der Vielen, Crowdsourcing – das gemeinsame Entwickeln von Ideen und Wissen, und Intuition legen.
 
@@ -293,12 +306,13 @@ Für wen:
    nl:hasImage "Dragon_Dreaming.jpg" ;
    nl:hasVideoURL <http://www.youtube.com/watch?v=byw3KTrfOUI> ;
    nl:hasInfoURL <http://www.projektup.org/methoden/dragon-dreaming/> ;
-   dct:created "2014-04-09T08:34:25" ;
-   dct:updated "2016-05-10T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A49> ;
+   dct:created "2014-04-09" ;
+   dct:modified "2016-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.82> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.49> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S18> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.18> a nl:Service  ;
    nl:hasID "18" ;
    nl:hasDescription """Der an der Stanford University entwickelte Prozess besteht aus sechs Schritten (verstehen, forschen, definieren, entwerfen, prototypen, testen) und kombiniert Methoden aus qualitativer Forschung, Design und Management mit möglichst interdisziplinären Teams und einer iterativen Arbeitsweise. Der Anwender steht dabei im Mittelpunkt der Lösung, dennoch spielt die Ganzheitlichkeit der entwickelten Ideen eine große Rolle.
 
@@ -306,12 +320,13 @@ Preis: nach Absprache der jeweiligen Bedürfnisse, buchbar als Design Thinking J
    nl:hasSummary """Design Thinking ist eine systematische Vorgehensweise für die Entwicklung innovativer Ideen und Problemlösungen innerhalb kurzer Zeitspannen, mit der""" ;
    nl:hasImage "Design_Thinking_2.jpg" ;
    nl:hasInfoURL <http://www.projektup.org/methoden/design-thinking/> ;
-   dct:created "2014-04-09T08:37:47" ;
-   dct:updated "2016-05-10T05:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A49> ;
+   dct:created "2014-04-09" ;
+   dct:modified "2016-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.83> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.49> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S22> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.22> a nl:Service  ;
    nl:hasID "22" ;
    nl:hasDescription """Der Eine Welt e.V führt entwicklungspolitische Bildungsarbeit im außerschulischen Bereich durch.
 Wir arbeiten mit erlebnis- und handlungsorentierten Methoden, die viele Sinne ansprechen.
@@ -330,12 +345,13 @@ E-Mail: info@einewelt-leipzig.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.BornaischeStrasse.18> ;
    nl:hasDistrict "Connewitz" ;
    nl:isPublished "1" ;
-   dct:created "2014-05-09T12:02:15" ;
-   dct:updated "2016-09-12T07:58:29" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A50> ;
+   dct:created "2014-05-09" ;
+   dct:modified "2016-09-12" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.89> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.50> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S23> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.23> a nl:Service  ;
    nl:hasID "23" ;
    nl:hasDescription """Fehler:
 Die Aufgabe der Realwirtschaft ist es, dem Gemeinwohl zu dienen. Die Finanzwirtschaft verfolgt hingegen das Ziel, aus Geld mehr Geld zu machen. Geld wird verzinst und die Zinsen werden wieder verzinst (Zinseszinseffekt). So wachsen die Guthaben exponentiell und koppeln sich mehr und mehr von der Realwirtschaft ab. Exponentielles Wachstum ist nur zeitlich begrenzt möglich. Deshalb bricht unser Geldsystem immer wieder zusammen und zieht die Realwirtschaft mit in den Abgrund. Im nationalen Rahmen hat es das in der Vergangenheit wiederholt gegeben. Durch die Globalisierung besteht nun die Gefahr eines globalen Zusammenbruchs. 
@@ -357,12 +373,13 @@ An den Zinsen verdienen nur 10 % der Bevölkerung. 90 % der Menschen verlieren �
    nl:hasVideoURL <http://www.youtube.com/watch?v=d_TPUH2_HqE> ;
    nl:hasInfoURL <http://www.lust-auf-neues-geld.de> ;
    nl:hasDistrict "stadtweite Aktivität" ;
-   dct:created "2014-06-16T21:36:10" ;
-   dct:updated "2015-10-14T05:15:43" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A53> ;
+   dct:created "2014-06-16" ;
+   dct:modified "2015-10-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.93> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.53> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S24> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.24> a nl:Service  ;
    nl:hasID "24" ;
    nl:hasDescription """Bei dieser 2 – 3 stündigen Unterrichtseinheit lernen die Schüler:
 - wie Boden entsteht
@@ -379,12 +396,13 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
    nl:hasInfoURL <http://www.auwaldstation.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Schlossweg.11> ;
    nl:hasDistrict "Lützschena-Stahmeln" ;
-   dct:created "2014-06-24T08:03:17" ;
-   dct:updated "2016-11-09T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A15> ;
+   dct:created "2014-06-24" ;
+   dct:modified "2016-11-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.94> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S25> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.25> a nl:Service  ;
    nl:hasID "25" ;
    nl:hasDescription """Bei dieser rund 3 stündigen Unterrichtseinheit lernen die Schüler Still- und Fließgewässer näher kennen. Der Lebensraum Wasser mit seinen angrenzenden Biotopen wird hierbei durch verschiedene Experimente und Untersuchungen im Gelände (biologisch und chemisch) aufs Genaueste unter die Lupe genommen.""" ;
    nl:hasSummary """Kennenlernen von Still– und Fließgewässern; Lebensraum Wasser; Keschern und Bestimmen von Wasserlebewesen; Lebensgrundlage Wasser; chemische Analyse""" ;
@@ -394,12 +412,13 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
    nl:hasInfoURL <http://www.auwaldstation.de/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Schlossweg.11> ;
    nl:hasDistrict "Lützschena-Stahmeln" ;
-   dct:created "2014-06-24T08:23:44" ;
-   dct:updated "2016-11-09T06:15:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A15> ;
+   dct:created "2014-06-24" ;
+   dct:modified "2016-11-09" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.95> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S26> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.26> a nl:Service  ;
    nl:hasID "26" ;
    nl:hasDescription """Unsere Wohnungen sind noch unsaniert, wenn Sie sie das erste mal sehen - damit Sie sehen was Sie mieten. 
 Unsere Wohnungen modernisieren und gestalten nicht wir für Sie, sondern Sie mit uns.
@@ -409,12 +428,13 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
    nl:hasSummary """Wir vermieten Wohnungen- gesundes Wohnklima und freundliche Nachbarn""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.36> ;
    nl:hasDistrict "Gohlis-Mitte" ;
-   dct:created "2014-07-25T13:15:24" ;
-   dct:updated "2017-08-26T08:26:56" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A56> ;
+   dct:created "2014-07-25" ;
+   dct:modified "2017-08-26" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.99> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.56> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S28> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.28> a nl:Service  ;
    nl:hasID "28" ;
    nl:hasDescription """Mit Anfängern und Fortgeschrittenen entspannt schrauben""" ;
    nl:hasSummary """Diesen Herbst wollen wir einen Long-John fertigstellen""" ;
@@ -425,12 +445,13 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
    nl:hasInfoURL <https://kolara.wordpress.com/> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
    nl:hasDistrict "Lindenau" ;
-   dct:created "2014-09-10T19:19:47" ;
-   dct:updated "2016-11-30T06:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A63> ;
+   dct:created "2014-09-10" ;
+   dct:modified "2016-11-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.130> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.63> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S30> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.30> a nl:Service  ;
    nl:hasID "30" ;
    nl:hasDescription """Die Erlebnisse und Eindrücke meiner Besuche mehrerer Kooperativen in Nicaragua möchte ich gerne mit Euch teilen, um für bewussteren Konsum und mehr internationale Solidarität zu werben. Gerne lasse ich mich deswegen von Euch zu Informationsveranstaltungen und Diskussionsrunden einladen. Wir können uns ausgiebig mit Nicaragua, dem Fairen Handel im Allgemeinen oder auch dem Kaffee-Welthandel beschäftigen.
 
@@ -444,12 +465,13 @@ mit einer Kaffeeverkostung ausklingen lassen.""" ;
    nl:hasInfoURL <http://www.cafe-chavalo.de> ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132> ;
    nl:hasDistrict "Connewitz" ;
-   dct:created "2015-04-18T10:35:50" ;
-   dct:updated "2016-05-18T05:15:04" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A120> ;
+   dct:created "2015-04-18" ;
+   dct:modified "2016-05-18" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.378> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.120> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S32> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.32> a nl:Service  ;
    nl:hasID "32" ;
    nl:hasDescription """Kannst Du dich noch daran erinnern, wann Du das letzte Mal einen handgeschriebenen, liebevoll gestalteten Brief im Briefkasten hatten? Und viel wichtiger, weißt Du noch, welch Glücksgefühl dies auslöst?
 Ich möchte diesen verschollenen Brauch wieder beleben und die Glücksmomente in Deinem Leben mehren.
@@ -478,24 +500,26 @@ Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten,
    nl:hasCosts "Erster Brief20,- € je Monat, 215 € bei Einmalzahlung, ab dem 2. Brief 10,- Monatlich" ;
    nl:hasRequirements """Anmeldungen sind bis zum 24. Dezember""" ;
    nl:hasInfoURL <http://heilpraktikerinkatimagyar.blogspot.de/p/monatsbriefe-jahresrundgang.html> ;
-   dct:created "2015-09-18T05:51:33" ;
-   dct:updated "2015-09-18T10:08:23" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A136> ;
+   dct:created "2015-09-18" ;
+   dct:modified "2015-09-18" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.532> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.136> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S33> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.33> a nl:Service  ;
    nl:hasID "33" ;
    nl:hasDescription """Wir haben über 350 DVDs und mehr als 1000 Bücher zu den Themen Gesundheit & Heilung, Bildung & Erziehung, Spiritualität & Religion, Politik & Philosophie, Psychologie etc. , welche gegen eine Spende ausgeliehen werden können. Am 1. Donnerstag im Monat findet ein Vortrag zu einem bestimmten Thema mit wechselnden Referenten statt.""" ;
    nl:hasSummary """Ausleihe von Medien (Bücher, DVD) zu verschiedenen (spirituellen) Themen""" ;
    nl:hasCosts "auf Spendenbasis" ;
    nl:hasRequirements """Anmeldung zur Ausleihe mit Personalausweis""" ;
    nl:hasInfoURL <http://www.freigeist-leipzig.de> ;
-   dct:created "2015-09-24T11:45:02" ;
-   dct:updated "2016-09-29T11:03:46" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A137> ;
+   dct:created "2015-09-24" ;
+   dct:modified "2016-09-29" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.535> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.137> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S34> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.34> a nl:Service  ;
    nl:hasID "34" ;
    nl:hasDescription """Teambuilding.
 Gemüse ernten.
@@ -504,10 +528,10 @@ Geerntetes gemeinsam verkochen.
 Wohlfühlen.""" ;
    nl:hasSummary """Slow Food Tag im  Gemeinschaftsgarten / Gang 1""" ;
    nl:hasTargetGroup "Unternehmen" ;
-   dct:created "2015-11-19T14:08:29" ;
-   dct:updated "2016-10-17T05:15:04" . 
+   dct:created "2015-11-19" ;
+   dct:modified "2016-10-17" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S35> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.35> a nl:Service  ;
    nl:hasID "35" ;
    nl:hasDescription """http://www.nukla.de/veranstaltungen/""" ;
    nl:hasSummary """Bildungsveranstaltungen""" ;
@@ -516,12 +540,13 @@ Wohlfühlen.""" ;
    nl:hasRequirements """http://www.nukla.de/veranstaltungen/""" ;
    nl:hasServiceType "Exkursion" ;
    nl:isPublished "1" ;
-   dct:created "2015-12-15T23:11:22" ;
-   dct:updated "2015-12-15T23:11:22" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A10> ;
+   dct:created "2015-12-15" ;
+   dct:modified "2015-12-15" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.580> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S38> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.38> a nl:Service  ;
    nl:hasID "38" ;
    nl:hasDescription """Wir wollen uns kennenlernen! Wer seid ihr und wer sind wir? Und wo sind wir hier eigentlich? Mit Spaß und Spiel erkunden wir unsere Umgebung, die Bäume, den Boden, die Flüsse und ihre Bewohner, sammeln Fundstücke und bauen damit eine „Schuhkarton-Landkarte“ oder „Erinnerungskiste“. Für Kinder von 5 bis 10 Jahren. Anmeldung erbeten.
 
@@ -537,12 +562,13 @@ Treffen: 14.45 Uhr Parkplatz Gustav-Esche-Str. 1a (Ecke Am Ritterschlösschen)""
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Gustav-Esche-Strasse.1A> ;
    nl:hasDistrict "Leutzsch" ;
    nl:isPublished "1" ;
-   dct:created "2016-06-01T13:49:16" ;
-   dct:updated "2016-06-01T13:49:16" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A73> ;
+   dct:created "2016-06-01" ;
+   dct:modified "2016-06-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.634> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.73> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S40> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.40> a nl:Service  ;
    nl:hasID "40" ;
    nl:hasDescription """In unseren Workshops werden mit unterschiedlichen Methoden globale Themen zielgruppengerecht erarbeitet. Wir möchten dabei das Interesse der Schüler*innen an Ländern des Globalen Südens (sog. „Entwicklungsländern“) wecken, globale Zusammenhänge und ihre Einflüsse auf jeden einzelnen Menschen aufzeigen und verständlich machen, die Schüler*innen anregen, ihr Alltagshandeln und ihren Lebensstil kritisch zu hinterfragen sowie das entwicklungspolitische Engagement der Schüler*innen stärken. 
 
@@ -562,12 +588,13 @@ Unsere Referent*innen haben  Freiwilligendienste im globalen Süden absolviert u
    nl:hasCosts "An Finanzen soll es nicht scheitern, Aufwandsentschädigung von ca. 50€/90 min" ;
    nl:hasServiceType "Workshop" ;
    nl:isPublished "1" ;
-   dct:created "2016-08-05T12:13:20" ;
-   dct:updated "2016-08-05T12:13:20" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A150> ;
+   dct:created "2016-08-05" ;
+   dct:modified "2016-08-05" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.656> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.150> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S41> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.41> a nl:Service  ;
    nl:hasID "41" ;
    nl:hasDescription """Das bis zu 8-monatige SOZIAL & GRÜNDER STIPENDIUM umfasst individuelles und bedarfsorientiertes Coaching, Mentoring, Fachberatung, Arbeitsplatz im Co-Working Space, Community-Events, Netzwerkveranstaltungen und Zugang zur lokalen und deutschlandweiten Community über das Netzwerk der sechs Social Impact Inkubatoren.""" ;
    nl:hasSummary """Nutze Deine Chance und bewirb Dich um ein Stipendium des Social Impact Lab Leipzig""" ;
@@ -582,12 +609,13 @@ Der Pitch findet am 08.12.2016 statt.""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.WeissenfelserStrasse.65H> ;
    nl:hasDistrict "Plagwitz" ;
    nl:isPublished "1" ;
-   dct:created "2016-09-14T13:30:07" ;
-   dct:updated "2016-09-14T13:30:07" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A96> ;
+   dct:created "2016-09-14" ;
+   dct:modified "2016-09-14" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.673> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.96> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S42> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.42> a nl:Service  ;
    nl:hasID "42" ;
    nl:hasDescription """Manche Fragen sind kompliziert – zum Beispiel die Frage, wie eine Welt aussehen kann, in der alle Menschen innerhalb der ökologischen Grenzen der Erde gut leben können. Auch wir haben darauf keine eindeutige Antwort. Mit diesem Webportal wollen wir aber dazu beitragen, gemeinsam nach Wegen und Bausteinen für eine solidarische, ökologische und sozial gerechte Veränderung der Gesellschaft zu suchen.
 Ihr findet hier eine Material- und Methodensammlung für die Bildungsarbeit in verschiedensten Kontexten und insbesondere mit Jugendlichen und (jungen) Erwachsenen. Neben den Inhalten aus dem Heft „Endlich Wachstum“ gibt es weitere Methoden und Materialien, die wir in der Zwischenzeit entwickelt oder weiterentwickelt haben  und dazu das neue Methodenheft „Lebensmittel zum Zweck.“
@@ -605,12 +633,13 @@ https://www.endlich-wachstum.de/hefte-bestellen/""" ;
    nl:hasImage "titel05.png" ;
    nl:hasInfoURL <https://www.endlich-wachstum.de/> ;
    nl:isPublished "1" ;
-   dct:created "2017-01-17T15:00:11" ;
-   dct:updated "2017-01-17T15:00:11" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A27> ;
+   dct:created "2017-01-17" ;
+   dct:modified "2017-01-17" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.811> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S43> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.43> a nl:Service  ;
    nl:hasID "43" ;
    nl:hasDescription """Seit Mai 2016 bietet die Servicestelle einen kostenfreien und individuellen Beratungsservice für gemeinnützige Vereine und Initiativen. 
 
@@ -629,12 +658,13 @@ Die Servicestelle der Freiwilligen-Agentur Leipzig unterstützt gemeinnützige O
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
    nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
    nl:isPublished "1" ;
-   dct:created "2017-02-07T12:09:29" ;
-   dct:updated "2017-02-07T12:09:29" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A87> ;
+   dct:created "2017-02-07" ;
+   dct:modified "2017-02-07" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.816> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.87> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S45> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.45> a nl:Service  ;
    nl:hasID "45" ;
    nl:hasDescription """Mathematik ist nur erfolgreich, wenn sie kontextualisiert ist. Dieser Aussage folgt die Vortragsreihe des Max-Planck-Instituts für Mathematik in den Naturwissenschaften indem sie sich den unterschiedlichen Anwendungsgebieten der Mathematik in Form von interessanten und praxisnahen Darbietungen für Schülerinnen nährt. Dabei werden u.a. Vorträge wie "Landkarten im Gehirn" (Prof. Dr. Nihat Ay), "Netzwerke" (Prof. Dr. Jürgen Jost) oder "Warum fliegt man von Frankfurt nach Los Angeles nahe am Nordpol vorbei?" (Prof. Dr. Felix Otto) angeboten und somit Verknüpfungspunkte für die aktuell geführte Diskussion im Bereich der nachhaltigen Entwicklung gestellt.""" ;
    nl:hasSummary """Vortragsreihe für Schüler(-gruppen) über unterschiedliche Anwendungsbereiche der Mathematik""" ;
@@ -652,12 +682,13 @@ Telefon: 0341 99 59 650""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04103.Leipzig.Inselstrasse.22> ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    nl:isPublished "1" ;
-   dct:created "2017-04-25T12:37:18" ;
-   dct:updated "2017-04-25T12:39:54" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A162> ;
+   dct:created "2017-04-25" ;
+   dct:modified "2017-04-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.843> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.162> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S46> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.46> a nl:Service  ;
    nl:hasID "46" ;
    nl:hasDescription """Gymnasien mit naturwissenschaftlichen Profil
 Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich sowie inhaltlich mit den Schulen abgestimmt werden. Themenbeispiele: Ressourceneffizienz: das Projekt AQUA und smart water, Automatisierungstechnik, Elektrotechnik/Elektronik, IT, Robotik, Bionik.""" ;
@@ -668,12 +699,13 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:hasRequirements """Gymnasien mit naturwissenschaftlichen Profil""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:isPublished "1" ;
-   dct:created "2017-04-25T19:24:55" ;
-   dct:updated "2017-04-25T19:26:35" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A163> ;
+   dct:created "2017-04-25" ;
+   dct:modified "2017-04-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.844> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S47> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.47> a nl:Service  ;
    nl:hasID "47" ;
    nl:hasDescription """In Abstimmung mit interessierten Schulen können  Neigungskurse in der VDI – GaraGe angeboten werden. Die Kurse finden in der Regel wöchentlich mit einem Zeitumfang von 2 Stunden statt und dienen nicht nur der Orientierung und Vertiefung von Interessensgebieten, sondern stärken auch die soziale Kompetenz. Gesamtumfang im Schuljahr: 60 UE (30 x 2 UE).  Die Beantragung des  Neigungskurses  erfolgt durch die Schule bei der SBAL. Themenbeispiele: MINT-Experimentierwerkstatt ,  Werkstatt GaraGe, Informations- und Kommunikationstechnik, Automatisierungstechnik und Robotik, Umwelt und Ressourcen.""" ;
    nl:hasSummary """Angebote für schuljahrbegleitende Unterrichtseinheiten""" ;
@@ -682,12 +714,13 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:hasDuration "60 UE (30 x 2 UE)" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:isPublished "1" ;
-   dct:created "2017-04-25T19:36:24" ;
-   dct:updated "2017-04-25T19:36:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A163> ;
+   dct:created "2017-04-25" ;
+   dct:modified "2017-04-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.845> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S48> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.48> a nl:Service  ;
    nl:hasID "48" ;
    nl:hasDescription """Wir bieten für Lehrkräfte von Kindertagesstätten, Oberschule und Gymnasium fachspezifische Lehrerfortbildungen an, die auch in Kooperation mit Experten aus Unternehmen angeboten werden. Stellen Sie sich mit unserer Unterstützung Ihr individuelles Fortbildungsprogramm zusammen. Die einzelnen Module finden mehrmals jährlich statt und können unabhängig voneinander belegt werden. Ihre Vorteile als Teilnehmer sind: fundierte Theorie und praxisorientierte Lerninhalte, interdisziplinäres spezifisches Fachwissen, Referenten und Experten aus Industrie und Hochschulen.  Bitte rufen Sie uns an oder informieren Sie sich über unsere aktuellen Angebote unter dem Praxisthema.""" ;
    nl:hasSummary """Lehrerfortbildungen zu unterschiedlichen Themen""" ;
@@ -696,12 +729,13 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:hasDuration "Unterschiedlich" ;
    nl:hasServiceType "Vortrag" ;
    nl:isPublished "1" ;
-   dct:created "2017-04-25T19:46:06" ;
-   dct:updated "2017-04-25T19:46:06" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A163> ;
+   dct:created "2017-04-25" ;
+   dct:modified "2017-04-25" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.846> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S49> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.49> a nl:Service  ;
    nl:hasID "49" ;
    nl:hasDescription """Der ADFC setzt sich für die Stärkung des Umweltverbundes (Rad, Fuß, ÖNVP, CarSharing), die Gleichstellung aller Verkehrsteilnehmer sowie menschengerechte Verkehrsplanung ein.
 Bei uns steht nicht das Auto im Vordergrund der Stadtplanung, sondern der Mensch.
@@ -717,12 +751,13 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:hasSummary """Der ADFC ist verkehrspolitischer Verein, Verkehrsclub und Verbraucherschutzorganisation.""" ;
    nl:hasTargetGroup "alle" ;
    nl:isPublished "1" ;
-   dct:created "2017-04-27T16:13:55" ;
-   dct:updated "2017-04-27T16:18:12" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A26> ;
+   dct:created "2017-04-27" ;
+   dct:modified "2017-04-27" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.847> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.26> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S50> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.50> a nl:Service  ;
    nl:hasID "50" ;
    nl:hasDescription """Die Regenwälder der Erde haben eine fundamentale Bedeutung für das weltweite Klima. Ihre Artenvielfalt ist bedroht. Die Verbreitung der Regenwälder auf der Erde, die ökologischen Bedingungen in diesem Ökosystem und Anpassungen von Tieren, Pflanzen und Menschen an ihren Lebensraum sind die ebenso Thema dieses Angebotes wie die nachhaltige Nutzung und Handlungsoptionen zum Schutz des faszinierenden Lebensraumes Regenwald.""" ;
    nl:hasSummary """Bedeutung der Regenwälder für unsere Erde""" ;
@@ -732,12 +767,13 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:hasRequirements """ab 6 Personen""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-04T09:29:29" ;
-   dct:updated "2017-05-30T11:31:59" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A160> ;
+   dct:created "2017-05-04" ;
+   dct:modified "2017-05-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.850> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.160> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S51> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.51> a nl:Service  ;
    nl:hasID "51" ;
    nl:hasDescription """Die Besucher/-innen lernen anhand ausgewählter Beispiele (wie Gespenst- und Stabschrecken, Vogelspinnen, Schlangen, Baumsteigerfröschen, Brettwurzeln, Bromelie, Kannenpflanze und Helmkasuar) verschiedene Anpassungen im Körperbau oder Verhalten von Tieren und Pflanzen an konkrete Lebensräume kennen. Dabei wird u.a. auf Mimikry und Mimese eigegangen sowie auf verschieden Schutzmechanismen oder das Phänomen Gigantismus/Zwergformen.""" ;
    nl:hasSummary """Kuriositätenkabinett Regenwald""" ;
@@ -749,12 +785,13 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasInfoURL <http://www.phyllodrom.de> ;
    nl:isPublished "1" ;
-   dct:created "2017-05-04T10:01:56" ;
-   dct:updated "2017-05-30T11:51:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A160> ;
+   dct:created "2017-05-04" ;
+   dct:modified "2017-05-30" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.851> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.160> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S52> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.52> a nl:Service  ;
    nl:hasID "52" ;
    nl:hasDescription """Die im Bergbau-Technik-Park befindlichen Gesteine haben einen langen Weg hinter sich. Woher Sie kamen und was sie uns noch verraten, das erzählt der Geologe euch bei einem Rundgang. Aber nicht nur die Relikte der Eiszeit sind spannende Erzähler. Auch das fossile Holz oder der Knollenquarzit haben in ihrem Leben schon viel gesehen und mitgemacht. Wir versuchen Ihnen ihre Geheimnisse zu entlocken.
 
@@ -772,12 +809,13 @@ Am Anschluss unseres kleinen Exkurses könnt ihr in vorgefertigten Kiesbettablag
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T08:35:57" ;
-   dct:updated "2017-05-10T08:35:57" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A165> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.897> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S53> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.53> a nl:Service  ;
    nl:hasID "53" ;
    nl:hasDescription """Schmuck- oder Zierbriketts sind nicht wie normale Briketts zum verheizen gedacht, sondern als Andenken, Ehrung oder Werbeträger. Früher wurden Sie vorzugsweise von Farbriken und Kombinaten zu besonderen Anlässen wie Feiertagen, Jubiläen, Veranstaltungen, Eröffnungen oder Stilllegungen von Betriebsteilen u. ä. in limitierter Anzahl als Andenken hergestellt. Mit dem zunehmenden Verschwinden der Barunkohlebriketts aus unserem Alltag, verschwindet auch die mehr als hundert Jahre lange Tradition der Schmuckbriketts.
 
@@ -794,12 +832,13 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T08:42:31" ;
-   dct:updated "2017-05-10T08:42:31" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A165> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.898> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S54> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.54> a nl:Service  ;
    nl:hasID "54" ;
    nl:hasDescription """Im Mittelpunkt steht die selbständige Tätigkeit der Schüler, das genaue Beobachten, Zuhören und Erkunden in der Ausstellung. Mit dieser aktiven Aneignung von Wissen ist die Wissensrallye eine geeignete Ergänzung zum handlungsorientierten Unterricht.""" ;
    nl:hasSummary """Wissensrallye""" ;
@@ -813,12 +852,13 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T08:46:15" ;
-   dct:updated "2017-05-10T08:46:15" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A165> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.899> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S55> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.55> a nl:Service  ;
    nl:hasID "55" ;
    nl:hasDescription """ine interaktive Schnitzeljagd, geeignet für Familien, kleinere Gruppen und Kinder ab 12 Jahren. Löse die Rätsel zum Park und erhalte einen echten kleinen Schatz aus dem Braunkohlentagebau. 
 Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching-Tour benötigen Sie die APP google-maps!""" ;
@@ -832,12 +872,13 @@ Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching
    ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.Hauptstrasse.19> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T08:49:47" ;
-   dct:updated "2017-05-10T08:50:18" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A165> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.900> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S56> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.56> a nl:Service  ;
    nl:hasID "56" ;
    nl:hasDescription """Ab September 2015 können über den MÜHLSTRASSE 14 e.V. waldpädagogische Wandertage gebucht werden. Schulen und Schüler die ungern weite Wege in Kauf nehmen, haben die Möglichkeit im Leipziger Osten einen Tag in der Natur zu verbringen. Bei der „Schnipseljagd im Friedenspark“ lernen schon die Kleinsten Tiere und Pflanzen des Parks kennen. Mit vielen Spielen und Wissensaufgaben wird die heimische Natur erklärt und mit viel Spaß erlebt. Ein Kaugummi-Zaubertrank sorgt für Stärkung bei einer kleinen Rast.
 
@@ -857,12 +898,13 @@ Buchung bei Marcel Pruß (Tel.: 0341 9 90 36 00)""" ;
    nl:hasServiceType "Exkursion" ;
    nl:hasInfoURL <http://www.muehlstrasse.de/wandertag.html> ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T09:11:36" ;
-   dct:updated "2017-05-10T09:11:36" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A166> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-05-10" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.901> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.166> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S57> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.57> a nl:Service  ;
    nl:hasID "57" ;
    nl:hasDescription """Wie viel Wasser steckt in meinem Essen, meiner Kleidung, im Handy oder im Computer? Welche Folgen hat das für die Umwelt und für Menschen in andere Regionen der Erde? Wie kann ich dieses „unsichtbare Wasser“ sparen?
 Inhalte
@@ -884,12 +926,13 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasInfoURL <https://arche-nova.org/node/422> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T09:55:20" ;
-   dct:updated "2017-06-01T14:07:37" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A167> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-06-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.902> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S58> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.58> a nl:Service  ;
    nl:hasID "58" ;
    nl:hasDescription """Inhalt: 
 
@@ -911,12 +954,13 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasInfoURL <https://arche-nova.org/node/424> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T10:03:26" ;
-   dct:updated "2017-06-01T14:09:03" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A167> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-06-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.903> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S59> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.59> a nl:Service  ;
    nl:hasID "59" ;
    nl:hasDescription """Inhalt: 
 
@@ -938,12 +982,13 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:hasInfoURL <https://arche-nova.org/node/951> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T10:07:41" ;
-   dct:updated "2017-06-01T14:09:24" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A167> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-06-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.904> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S60> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.60> a nl:Service  ;
    nl:hasID "60" ;
    nl:hasDescription """Die Deutschen sind Europameister im Wassersparen. Der tägliche Haushaltswasserbedarf in Deutschland ist auf weniger als 130 l pro Person zurückgegangen. Doch ist dies nur ein sehr geringer Teil unseres tatsächlichen Wasserbedarfs. Der liegt um ein Vielfaches höher – bei mittlerweile ca. 5300 l pro Person und Tag! Neben Trinkwasser aus der Leitung fürs Kochen, Waschen oder Toilettenspülung benötigen wir sog. "virtuelles Wasser", um all die Waren zu produzieren, die wir täglich brauchen - von der Kaffeebohne über den Mikrochip bis zur Jeans. Anhand verschiedener Beispiele wird der reale Wasserverbrauch des Menschen untersucht, es werden die weltweite Auswirkungen und entstehenden Konflikte aufgezeigt und Handlungsalternativen vorgestellt.
 
@@ -965,12 +1010,13 @@ Unser mobiles Bildungsteam kommt zu Ihnen""" ;
    nl:hasInfoURL <https://arche-nova.org/node/419> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-10T10:14:50" ;
-   dct:updated "2017-06-01T14:09:51" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A167> ;
+   dct:created "2017-05-10" ;
+   dct:modified "2017-06-01" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.905> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S61> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.61> a nl:Service  ;
    nl:hasID "61" ;
    nl:hasDescription """Spannende Versuche, verblüffende Experimente, überraschende basteleier-eine lehrreiche Reise durch die Welt der Naturwissenschaften. 
 Anmeldungen:
@@ -985,12 +1031,13 @@ Tel.:  0174-97 606 89""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Luetzowstrasse.19> ;
    nl:hasDistrict "Gohlis-Mitte" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-16T17:49:06" ;
-   dct:updated "2017-05-16T17:49:06" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A154> ;
+   dct:created "2017-05-16" ;
+   dct:modified "2017-05-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.907> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.154> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S62> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.62> a nl:Service  ;
    nl:hasID "62" ;
    nl:hasDescription """Neugierige Forscherinnen gehen mit spannenden Versuchen in unserem Entdeckerprogramm den Naturwissenschaften auf den Grund. Wir beantworten dabei viele Fragen wie: Warum fliegt ein Heißluftballon? Wie entstehen die Töne bei verschiedenen Musikinstrumenten? Wieso wird ein angeschnittener Apfel an der Luft braun, aber nicht, wenn er mit Zitronensaft bestrichen wurde? Seid dabei auf der Reise in die Naturwissenschaft.
 Mädchen von 6-11 Jahre
@@ -1013,12 +1060,13 @@ Tel:0174-97 606 89""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Wasserstrasse.18> ;
    nl:hasDistrict "anderer Ort" ;
    nl:isPublished "1" ;
-   dct:created "2017-05-16T18:05:45" ;
-   dct:updated "2017-05-16T18:05:45" ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur/A154> ;
+   dct:created "2017-05-16" ;
+   dct:modified "2017-05-16" ;
+   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.908> ;
+   nl:hasProvider <http://leipzig-data.de/Data/Akteur.154> ;
    nl:hasEventType "Angebot" . 
 
-<http://nachhaltiges-leipzig.de/Data/Service/S63> a nl:Service  ;
+<http://nachhaltiges-leipzig.de/Data/Service.63> a nl:Service  ;
    nl:hasID "63" ;
    nl:hasDescription """Hätten Sie es gedacht: Ein Drittel der weltweit produzierten Lebensmittel wird gar nicht gegessen. Alleine in Deutschland landen jede Minute 19 Tonnen Lebensmittel im Müll. 
 Mit unserem bundesweiten Mitmach-Projekt "Wirf mich nicht weg!" wollen wir etwas dagegen unternehmen.
@@ -1036,6 +1084,6 @@ Ein Mitarbeiter von uns arbeitet von Leipzig aus.""" ;
    nl:hasServiceType "Unterrichtseinheit" ;
    nl:hasInfoURL <http://www.wirf-mich-nicht-weg.de> ;
    nl:isPublished "1" ;
-   dct:created "2017-05-23T13:39:07" ;
-   dct:updated "2017-05-23T13:39:07" . 
+   dct:created "2017-05-23" ;
+   dct:modified "2017-05-23" . 
 
