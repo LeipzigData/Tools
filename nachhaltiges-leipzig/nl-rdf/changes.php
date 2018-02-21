@@ -30,7 +30,7 @@ function akteurDeaktiviert($row,$nr) {
     // print_r($matches);
     $akteur=fixQuotes(trim($matches[1])); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$akteur.'"';
     $a[]='nl:Kontakt "'.$user.'"';
     $a[]='nl:Aktivitaet "deactivated"';
@@ -43,7 +43,7 @@ function akteurRegistriert($row,$nr) {
     // print_r($matches);
     $user=fixQuotes(trim($matches[1])); $date=$matches[2];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$user.'"';
     $a[]='nl:Aktivitaet "registered"';
     $a[]='dct:created "'.$date.'"';
@@ -55,12 +55,13 @@ function neueAktivitaet($row,$nr) {
     // print_r($matches);
     $akteur=fixQuotes(trim($matches[1])); $rest=$matches[2]; $user=$matches[3];
     $action=$matches[4]; $date=$matches[5];
-    $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action/A',$action);
-    $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event/E',$action);
-    $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service/S',$action);
-    $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur/A',$user);
+    $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action.',$action);
+    $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event.',$action);
+    $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service.',$action);
+    $action=str_replace('stores/','http://nachhaltiges-leipzig.de/Data/Store.',$action);
+    $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur.',$user);
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:User <'.$user.'>';
     $a[]='nl:Akteur "'.$akteur.'"';
     $a[]='nl:linksTo <'.$action.'>';
@@ -70,12 +71,12 @@ function neueAktivitaet($row,$nr) {
 }
 
 function processLine($row,$nr) {
-    if (empty($row)) { return; }
+    if (empty(trim($row))) { return; }
     preg_match('|(.*)(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $rest=$matches[1]; $user=fixLiteral($matches[2]); $action=$matches[3]; $date=$matches[4];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$user.'"';
     $a[]='nl:Aktivitaet "'.$action.'"';
     $a[]='dct:created "'.$date.'"';
@@ -87,6 +88,290 @@ function getData() {
     // Data extracted from email notifications
     return 
 '
+
+
+
+Akteur deaktiviert: Carina Flores de Looß .  2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1076. 2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1075. 2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1074. 2018-02-19
+Akteur hat sich registriert. Name: Delitzscher Land e.V  . 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1073. 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1072. 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1071. 2018-02-19
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/117. 2018-02-18
+Akteur hat sich registriert. Name: heldenküche . 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/116. 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/115. 2018-02-18
+Neue Aktivität von  Gemeinsam Wandeln eingetragen. admin/users/23. services/87. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/66. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/65. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1070. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/64. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1069. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1068. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1067. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1066. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1065. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1064. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1063. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1062. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1061. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1060. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1059. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1058. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1057. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1056. 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. events/1055. 2018-02-18
+Neue Aktivität von Der Lindentaler eingetragen. admin/users/23. events/1054. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/63. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1053. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/62. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1052. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/61. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1051. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/60. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/59. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/58. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1050. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/57. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1049. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1048. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1047. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1046. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/56. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1045. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1044. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1043. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/55. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/54. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1042. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1041. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1040. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/53. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1039. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1038. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1037. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1036. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1035. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1034. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1033. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1032. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1031. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1030. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/52. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/51. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1029. 2018-02-17
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1028. 2018-02-17
+Akteur deaktiviert: Nextleipzig (Leipzig, Peter Hartmann) .  2018-02-17
+Akteur hat sich registriert. Name: Magistralenmanagement Georg-Schumann-Straße . 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/86. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/85. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/84. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/83. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/82. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/81. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/80. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/79. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/78. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/77. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/76. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1027. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/76. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1026. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1025. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. actions/49. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1024. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1023. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1022. 2018-02-16
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1021. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. services/75. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. actions/48. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1020. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1019. 2018-02-16
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/1018. 2018-02-16
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1017. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/47. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/46. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1016. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/45. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1015. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1014. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1013. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1012. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1011. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1010. 2018-02-15
+Neue Aktivität von Solidarische Feldwirtschaft eingetragen. admin/users/219. events/1009. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1008. 2018-02-15
+Akteur hat sich registriert. Name: Solidarische Feldwirtschaft . 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/44. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1007. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1006. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1005. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1004. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/43. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1003. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/42. 2018-02-15
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1002. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/1001. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/1000. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/999. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/998. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/997. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/996. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/995. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/994. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/993. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/992. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/991. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/990. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/989. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/988. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/987. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/986. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/985. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/984. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/983. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/982. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/981. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/980. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/979. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/978. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/977. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/976. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/975. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/974. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/973. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/972. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/971. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/970. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/969. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/968. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/967. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/966. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/965. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/964. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/963. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/962. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/961. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/960. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/959. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/958. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/957. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/956. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/955. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/954. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/953. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/952. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/951. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/950. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/949. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/948. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/947. 2018-02-15
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/946. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/945. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/944. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/943. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/942. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/941. 2018-02-15
+Neue Aktivität von Stadt Leipzig Umweltinformationszentrum eingetragen. admin/users/185. events/940. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/939. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/938. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/937. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/936. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/935. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/934. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/933. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/932. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/931. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/930. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/929. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/928. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/927. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/926. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/925. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/924. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/923. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/922. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/921. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/920. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/919. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/918. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/917. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/916. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/915. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/914. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/913. 2018-02-15
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/912. 2018-02-15
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/911. 2018-02-15
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/910. 2018-02-15
+Neue Aktivität von Zentrum für Fermentation eingetragen. admin/users/202. events/909. 2018-02-15
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/908. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/907. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/906. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/905. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/904. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/903. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/902. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/901. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/900. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/899. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/898. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/897. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/896. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/895. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/894. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/893. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/892. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/891. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/890. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/889. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/888. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/887. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/886. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/885. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/884. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/883. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/882. 2018-02-15
+Akteur hat sich registriert. Name: mobile- apfelquetsche . 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/881. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/880. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/879. 2018-02-15
+Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/878. 2018-02-15
+Neue Aktivität von agra-Park eingetragen. admin/users/217. events/877. 2018-02-15
+Akteur hat sich registriert. Name: agra-Park . 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. services/74. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. services/73. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. services/72. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/876. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/875. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/874. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/873. 2018-02-15
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/872. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/871. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/870. 2018-02-15
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/869. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/868. 2018-02-15
+Neue Aktivität von Verein der Freunde und Förderer des Wildparks  eingetragen. admin/users/149. events/867. 2018-02-15
+Akteur deaktiviert: Konzeptwerk Neue Ökonomie (Leipzig, Susanne Brehm) . 2018-02-15
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/40. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/39. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/38. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/37. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/36. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/35. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/34. 2018-02-14
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. action/33. 2018-02-14
+Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/866. 2018-02-14
+Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/865. 2018-02-14
+Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/864. 2018-02-14
+Neue Aktivität von Wilde Leipziger  eingetragen. admin/users/204. events/863. 2018-02-14
+Neue Aktivität von Marktschwärmer  eingetragen. admin/users/141. events/862. 2018-02-14
+Akteur hat sich registriert. Name: Ölmühle Leipzig  . 2018-02-14
+Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/861. 2018-02-14
+Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/860. 2018-02-14
+Neue Aktivität von Cammerspiele Leipzig eingetragen. admin/users/215. events/859. 2018-02-14
+Akteur hat sich registriert. Name: Cammerspiele Leipzig  . 2018-02-14
 Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/858. 2018-02-14
 Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/857. 2018-02-14
 Neue Aktivität von ADFC Leipzig eingetragen. admin/users/26. events/856. 2018-02-14
@@ -349,7 +634,13 @@ Akteur hat sich registriert. Name: Bürgerverein Sellerhausen-Stünz . 2018-02-0
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/631. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/630. 2018-02-01
 Neue Aktivität von Verein der Freunde und Förderer des Wildparks eingetragen. admin/users/149. events/629. 2018-02-01
-Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
+';
+}
+
+function getData2018_01() {
+    // Data extracted from email notifications
+    return 
+'Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/628. 2018-01-31
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/627. 2018-01-30
 Neue Aktivität von Natur- und Wildnisschule eingetragen. admin/users/186. events/626. 2018-01-29
 Akteur hat sich registriert. Name: Natur- und Wildnisschule Leipzig GbR  . 2018-01-29
@@ -452,8 +743,13 @@ Neue Aktivität von Auwaldstation eingetragen. admin/users/15. events/538. 2018-
 Akteur hat sich registriert. Name: DGGL Sachsen . 2018-01-05
 Neue Aktivität von Fanö-Mode eingetragen. admin/users/178. events/537. 2018-01-05
 Neue Aktivität von Vier Fährten eingetragen. Mit Tieren verbunden. admin/users/176. actions/22. 2018-01-05
-Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05
-Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/536. 2018-01-05';
+        }
+
+function getData2017() {
+    // Data extracted from email notifications
+    return 
+'Akteur deaktiviert: Kollektiv Lastenrad Leipzig (Leipzig, Juliana Klengel) . 2017-12-30
 Akteur hat sich registriert. Name: Fanö-Mode . 2017-12-26
 Akteur deaktiviert: Sylke Nissen (Leipzig, Sylke Nissen) . 2017-12-22
 Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/535. 2017-12-20
