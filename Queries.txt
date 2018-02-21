@@ -786,54 +786,12 @@ WHERE {
 }
 order by ?cc
 
- a 	b 	cc
-http://nachhaltiges-leipzig.de/Data/Akteur/A15 	"Auwaldstation " 	75
-http://nachhaltiges-leipzig.de/Data/Akteur/A171 	"Botanischer Garten Großpösna-Oberholz " 	42
-http://nachhaltiges-leipzig.de/Data/Akteur/A188 	"Botanischer garten der Universität Leipzig " 	38
-http://nachhaltiges-leipzig.de/Data/Akteur/A73 	"BUND Leipzig " 	31
-http://nachhaltiges-leipzig.de/Data/Akteur/A197 	"erleb-bar " 	28
-http://nachhaltiges-leipzig.de/Data/Akteur/A26 	"ADFC Leipzig " 	16
-http://nachhaltiges-leipzig.de/Data/Akteur/A193 	"Park- und Stadtführerin Daniela Neumann " 	14
-http://nachhaltiges-leipzig.de/Data/Akteur/A198 	"Dt. Kleingärtnermuseum " 	14
-http://nachhaltiges-leipzig.de/Data/Akteur/A176 	"Vier Fährten " 	12
-http://nachhaltiges-leipzig.de/Data/Akteur/A141 	"Food Assembly Leipzig " 	12
-http://nachhaltiges-leipzig.de/Data/Akteur/A186 	"Natur- und Wildnisschule " 	12
-http://nachhaltiges-leipzig.de/Data/Akteur/A211 	"GRASSI Museum für Angewandte Kunst " 	8
-http://nachhaltiges-leipzig.de/Data/Akteur/A176 	"Vier Fährten " 	6
-http://nachhaltiges-leipzig.de/Data/Akteur/A201 	"Gohliser Verein zur Förderungen Kunst und Kultur " 	6
-http://nachhaltiges-leipzig.de/Data/Akteur/A190 	"Anja Hümmer " 	5
-http://nachhaltiges-leipzig.de/Data/Akteur/A78 	"Lebendige Luppe " 	5
-http://nachhaltiges-leipzig.de/Data/Akteur/A64 	"kunZstoffe " 	5
-http://nachhaltiges-leipzig.de/Data/Akteur/A149 	"Verein der Freunde und Förderer des Wildparks " 	4
-http://nachhaltiges-leipzig.de/Data/Akteur/A210 	"Querbeet Leipzig e.V. " 	4
-http://nachhaltiges-leipzig.de/Data/Akteur/A27 	"Konzeptwerk Neue Ökonomie " 	4
-http://nachhaltiges-leipzig.de/Data/Akteur/A187 	"Bürgerverein Sellerhausen-Stünz " 	3
-http://nachhaltiges-leipzig.de/Data/Akteur/A192 	"Winter Catherine " 	3
-http://nachhaltiges-leipzig.de/Data/Akteur/A178 	"Fanö-Mode " 	2
-http://nachhaltiges-leipzig.de/Data/Akteur/A202 	"Zentrum für Fermentation " 	2
-http://nachhaltiges-leipzig.de/Data/Akteur/A180 	"Stefan Härtel " 	2
-http://nachhaltiges-leipzig.de/Data/Akteur/A214 	"Zoo Leipzig GmbH " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A213 	"GRÜNE LIGA Kohrener Land " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A208 	"Blütenreich " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A200 	"Stadtverband Leipzig der Kleingärtner " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A21 	"oikos Leipzig e.V. " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A177 	"LUXAA " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A209 	"Notenspur Leipzig e.V. " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A23 	"Der Lindentaler " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A207 	"Cafe. Restaurant. Symbiose " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A206 	"Graeske " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A195 	"Park- und Stadtführerin Daniela Neumann " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A184 	"Gartenfreunde Süd e.V. " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A86 	"Araki Verlag " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A212 	"Galerie für Zeitgenössische Kunst " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A205 	"Stadt Delitzsch " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A203 	"Hörspielsommer e.V. " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A199 	"Michael Schaaf " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A189 	"Paula Hofmann " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A179 	"Leipzig Grün " 	1
-http://nachhaltiges-leipzig.de/Data/Akteur/A87 	"Freiwilligen-Agentur Leipzig e. V. " 	1
-
-
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?a ?b 
+WHERE {  
+?a rdfs:label ?b .
+filter regex(?b, "ÖkoLöwe", "i")
+}
 
 --------------------------------
 -- Abgleich mit Leipziger Ecken
