@@ -34,15 +34,16 @@ function createEvent($row) {
   $a=addLiteral($a,'nl:Kosten', $row["costs"]);
   $a=addResource($a,'ical:url', "", fixURL($row['info_url']));
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created_at']));
-  $a=addLiteral($a,'dct:updated', str_replace(" ", "T", $row['updated_at']));
+  $a=addLiteral($a,'dct:modified', str_replace(" ", "T", $row['updated_at']));
   $a=addLiteral($a,'nl:imPodium', $row["speaker"]);
 //  $a=addLiteral($a,'nl:isPublished', $row["published"]);
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Event'");
   foreach ($res as $u) {
-      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur/A", $u["user_id"]);
+      $a=addResource($a,'nl:relatedActivity', "http://leipzig-data.de/Data/Aktivitaet.", $u["id"]);
+      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur.", $u["user_id"]);
       $a=addLiteral($a,'nl:hasEventType', $u["item_type_i18n"]);
   }  
-  return '<http://nachhaltiges-leipzig.de/Data/Event/E'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  return '<http://nachhaltiges-leipzig.de/Data/Event.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen

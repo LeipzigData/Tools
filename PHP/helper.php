@@ -63,6 +63,10 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("Ö", "Oe", $u);
   $u=str_replace("Ü", "Ue", $u);
   $u=str_replace("ß", "ss", $u);  
+  $u=str_replace("é", "e", $u);  
+  $u=str_replace("è", "e", $u);  
+  $u=str_replace("ó", "o", $u);  
+  $u=str_replace("í", "i", $u);  
   return $u;
 }
 

@@ -30,7 +30,7 @@ function akteurDeaktiviert($row,$nr) {
     // print_r($matches);
     $akteur=fixQuotes(trim($matches[1])); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$akteur.'"';
     $a[]='nl:Kontakt "'.$user.'"';
     $a[]='nl:Aktivitaet "deactivated"';
@@ -43,7 +43,7 @@ function akteurRegistriert($row,$nr) {
     // print_r($matches);
     $user=fixQuotes(trim($matches[1])); $date=$matches[2];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$user.'"';
     $a[]='nl:Aktivitaet "registered"';
     $a[]='dct:created "'.$date.'"';
@@ -55,13 +55,13 @@ function neueAktivitaet($row,$nr) {
     // print_r($matches);
     $akteur=fixQuotes(trim($matches[1])); $rest=$matches[2]; $user=$matches[3];
     $action=$matches[4]; $date=$matches[5];
-    $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action/A',$action);
-    $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event/E',$action);
-    $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service/S',$action);
-    $action=str_replace('stores/','http://nachhaltiges-leipzig.de/Data/Stores/S',$action);
-    $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur/A',$user);
+    $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action.',$action);
+    $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event.',$action);
+    $action=str_replace('services/','http://nachhaltiges-leipzig.de/Data/Service.',$action);
+    $action=str_replace('stores/','http://nachhaltiges-leipzig.de/Data/Store.',$action);
+    $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur.',$user);
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:User <'.$user.'>';
     $a[]='nl:Akteur "'.$akteur.'"';
     $a[]='nl:linksTo <'.$action.'>';
@@ -71,12 +71,12 @@ function neueAktivitaet($row,$nr) {
 }
 
 function processLine($row,$nr) {
-    if (empty($row)) { return; }
+    if (empty(trim($row))) { return; }
     preg_match('|(.*)(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
     $rest=$matches[1]; $user=fixLiteral($matches[2]); $action=$matches[3]; $date=$matches[4];
     $a=array();
-    $a[]='<http://nachhaltiges-leipzig.de/Data/Activity'.$nr.'> a nl:Activity';
+    $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
     $a[]='nl:Akteur "'.$user.'"';
     $a[]='nl:Aktivitaet "'.$action.'"';
     $a[]='dct:created "'.$date.'"';
@@ -89,6 +89,41 @@ function getData() {
     return 
 '
 
+
+
+Akteur deaktiviert: Carina Flores de Looß .  2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1076. 2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1075. 2018-02-19
+Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1074. 2018-02-19
+Akteur hat sich registriert. Name: Delitzscher Land e.V  . 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1073. 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1072. 2018-02-19
+Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1071. 2018-02-19
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/117. 2018-02-18
+Akteur hat sich registriert. Name: heldenküche . 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/116. 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. projects/115. 2018-02-18
+Neue Aktivität von  Gemeinsam Wandeln eingetragen. admin/users/23. services/87. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/66. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/65. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1070. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/64. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1069. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1068. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1067. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1066. 2018-02-18
+Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1065. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1064. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1063. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1062. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1061. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1060. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1059. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1058. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1057. 2018-02-18
+Neue Aktivität von Ölmühle Leipzig eingetragen. admin/users/216. events/1056. 2018-02-18
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. events/1055. 2018-02-18
+Neue Aktivität von Der Lindentaler eingetragen. admin/users/23. events/1054. 2018-02-18
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/63. 2018-02-17
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. events/1053. 2018-02-17
 Neue Aktivität von NABU-Regionalverband Leipzig eingetragen. admin/users/60. actions/62. 2018-02-17
@@ -773,7 +808,7 @@ Akteur deaktiviert: kunZstoffe – urbane Ideenwerkstatt e.V. (Leipzig, Christin
 }
 
 // zum Testen
-echo displayChanges();
+// echo displayChanges();
 
 
 ?>

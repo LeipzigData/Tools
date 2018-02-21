@@ -749,8 +749,6 @@ WHERE {
 ?a rdfs:sameAs ?s .
 } 
 
-
-
 --------------------------------
 -- Abgleich mit Nachhaltiges Leipzig
 
@@ -889,3 +887,23 @@ http://leipziger-ecken.de/Data/Adresse/A399 	http://leipzig-data.de/Data/04317.L
 http://leipziger-ecken.de/Data/Adresse/A400 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
 http://leipziger-ecken.de/Data/Adresse/A403 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
 http://leipziger-ecken.de/Data/Adresse/A430 	http://leipzig-data.de/Data/04317.Leipzig.Lene-Voigt-Park. 	
+
+---------------------------------------
+Anfrage an Data/Zukunftspass
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?u ?l
+FROM <http://leipziger-ecken.de/Data/Zukunftspass/>
+WHERE {
+?u a ld:Event; rdfs:label ?l .
+}
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?u ?l
+WHERE {
+?u owl:sameAs ?a .
+optional { ?u rdfs:label ?l .}
+optional { ?u foaf:name ?l .}
+filter (!bound(?l))
+}
+	

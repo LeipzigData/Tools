@@ -26,7 +26,7 @@ function createLDAkteur($row) {
   $id=$row['id'];
   $a=array(); 
   $a[]=' a org:Organization '; 
-  $a=addResource($a,'owl:sameAs', 'http://nachhaltiges-leipzig.de/Data/Akteur/A', $id);
+  $a=addResource($a,'owl:sameAs', 'http://nachhaltiges-leipzig.de/Data/Akteur.', $id);
   $a=addLiteral($a,'ld:contactPerson', $row['first_name']." ".$row['last_name']);
   $a=addResource($a,'ld:hasAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
   $a=addLiteral($a,'foaf:mbox', $row['email']);
@@ -36,7 +36,7 @@ function createLDAkteur($row) {
   $a=addResource($a,'foaf:homepage', "", $row['organization_url']);
   $name=fixURI($row['organization']);
   return
-      '<http://leipzig-data.de/Data/Verein/'. $name .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+      '<http://leipzig-data.de/Data/Akteur/'. $name .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen
