@@ -39,8 +39,8 @@ function createEvent($row) {
 //  $a=addLiteral($a,'nl:isPublished', $row["published"]);
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Event'");
   foreach ($res as $u) {
-      $a=addResource($a,'nl:relatedActivity', "http://leipzig-data.de/Data/Aktivitaet.", $u["id"]);
-      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur.", $u["user_id"]);
+      $a=addResource($a,'nl:relatedActivity', "http://nachhaltiges-leipzig.de/Data/Aktivitaet.", $u["id"]);
+      $a=addResource($a,'nl:hasProvider', "http://nachhaltiges-leipzig.de/Data/Akteur.", $u["user_id"]);
       $a=addLiteral($a,'nl:hasEventType', $u["item_type_i18n"]);
   }  
   return '<http://nachhaltiges-leipzig.de/Data/Event.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;

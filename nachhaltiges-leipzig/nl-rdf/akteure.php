@@ -39,13 +39,13 @@ function createAkteur($row) {
   $b=addLiteral($b,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_primary']));
   $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_secondary']));
-  $b=addResource($b,'nl:contactPerson', "http://leipzig-data.de/Data/Person.", $id);
+  $b=addResource($b,'nl:contactPerson', "http://nachhaltiges-leipzig.de/Data/Person.", $id);
   $b=addLiteral($b,'rdfs:label', $row['organization']);
   $b=addLiteral($b,'nl:proposedURI', fixOrgURI($row['organization']));
   $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
   $b=addLiteral($b,'nl:orgType', $row['organization_type']);
-  $c=addResource($c,'org:member', "http://leipzig-data.de/Data/Person.", $id);
-  $c=addResource($c,'org:organization', "http://leipzig-data.de/Data/Akteur.", $id);
+  $c=addResource($c,'org:member', "http://nachhaltiges-leipzig.de/Data/Person.", $id);
+  $c=addResource($c,'org:organization', "http://nachhaltiges-leipzig.de/Data/Akteur.", $id);
   $c=addLiteral($c,'nl:hasPosition', $row['organization_position']);
 //  $b=addLiteral($b,'foaf:image', $row['organization_logo']);
 //  $b=addLiteral($b,'nl:hasDistrict', $row['district']);

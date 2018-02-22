@@ -38,8 +38,8 @@ function createAktion($row) {
   $a=addLiteral($a,'dct:modified', fixDate($row['updated_at']));
   $res = db_query("SELECT * FROM activities where item_id=$id and item_type='Action'");
   foreach ($res as $u) {
-      $a=addResource($a,'nl:relatedActivity', "http://leipzig-data.de/Data/Aktivitaet.", $u["id"]);
-      $a=addResource($a,'nl:hasProvider', "http://leipzig-data.de/Data/Akteur.", $u["user_id"]);
+      $a=addResource($a,'nl:relatedActivity', "http://nachhaltiges-leipzig.de/Data/Aktivitaet.", $u["id"]);
+      $a=addResource($a,'nl:hasProvider', "http://nachhaltiges-leipzig.de/Data/Akteur.", $u["user_id"]);
       $a=addLiteral($a,'nl:hasEventType', $u["item_type_i18n"]);
   }  
   foreach ($res as $row) {

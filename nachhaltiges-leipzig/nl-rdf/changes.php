@@ -28,13 +28,14 @@ function displayChanges() {
 function akteurDeaktiviert($row,$nr) {
     preg_match('|Akteur deaktiviert:\s+(.+)\s*\((.*),\s*(.*)\)\s*\s*\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixQuotes(trim($matches[1])); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
+    $akteur=trim($matches[1]); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$akteur.'"';
-    $a[]='nl:Kontakt "'.$user.'"';
-    $a[]='nl:Aktivitaet "deactivated"';
-    $a[]='dct:created "'.$date.'"';
+    $a=addLiteral($a,'nl:Akteur',$akteur);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($akteur));
+    $a=addLiteral($a,'nl:Kontakt',$user);
+    $a=addLiteral($a,'nl:Aktivitaet', 'deactivated');
+    $a=addLiteral($a,'dct:created', $date);
     return join(" ;\n ",$a)." . ";
 }
 
@@ -44,16 +45,17 @@ function akteurRegistriert($row,$nr) {
     $user=fixQuotes(trim($matches[1])); $date=$matches[2];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$user.'"';
-    $a[]='nl:Aktivitaet "registered"';
-    $a[]='dct:created "'.$date.'"';
+    $a=addLiteral($a,'nl:Akteur',$user);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($user));
+    $a=addLiteral($a,'nl:Aktivitaet', 'registered');
+    $a=addLiteral($a,'dct:created', $date);
     return join(" ;\n ",$a)." . ";
 }
 
 function neueAktivitaet($row,$nr) {
     preg_match('|Neue Aktivität von\s*(.*)\s*eingetragen.\s*(.*)\s*(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixQuotes(trim($matches[1])); $rest=$matches[2]; $user=$matches[3];
+    $akteur=trim($matches[1]); $rest=$matches[2]; $user=$matches[3];
     $action=$matches[4]; $date=$matches[5];
     $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action.',$action);
     $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event.',$action);
@@ -63,11 +65,12 @@ function neueAktivitaet($row,$nr) {
     $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur.',$user);
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:User <'.$user.'>';
-    $a[]='nl:Akteur "'.$akteur.'"';
-    $a[]='nl:linksTo <'.$action.'>';
-    $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
+    $a=addResource($a,'nl:User', '',$user);
+    $a=addLiteral($a,'nl:Akteur',$akteur);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($akteur));
+    $a=addResource($a,'nl:linksTo', '', $action);
+    $a=addLiteral($a,'dct:created', $date);
+    if (!empty($rest)) { $a=addLiteral($a,'rdfs:comment',trim($rest)); }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -78,10 +81,11 @@ function processLine($row,$nr) {
     $rest=$matches[1]; $user=fixLiteral($matches[2]); $action=$matches[3]; $date=$matches[4];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$user.'"';
-    $a[]='nl:Aktivitaet "'.$action.'"';
-    $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
+    $a=addLiteral($a,'nl:Akteur',$user);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($user));
+    $a=addLiteral($a,'nl:Aktivitaet', $action);
+    $a=addLiteral($a,'dct:created', $date);
+    if (!empty($rest)) { $a=addLiteral($a,'rdfs:comment',trim($rest)); }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -92,11 +96,40 @@ function getData() {
 
 
 
-Akteur deaktiviert: Carina Flores de Looß  (Leipzig, Carina Flores de Looß) .  2018-02-19
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1102. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1101. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1100. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1099. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1098. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1097. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1096. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1095. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1094. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1093. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1092. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1091. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1090. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1089. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1088. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1087. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1086. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1085. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1084. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1083. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1082. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1081. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1080. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1079. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1078. 2018-02-21
+Neue Aktivität von Projekt "Lebendige Luppe" eingetragen. admin/users/78. events/1078. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1077. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. projects/118. 2018-02-21
+Akteur hat sich registriert. Name: ANNALINDE Akademie  . 2018-02-21
+Akteur deaktiviert: Carina Flores de Looß  (Leipzig, Carina Flores de Looß) .  2018-02-21
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1076. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1075. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1074. 2018-02-19
-Akteur hat sich registriert. Name: Delitzscher Land e.V  . 2018-02-19
+Akteur hat sich registriert. Name: Delitzscher Land e.V.  . 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1073. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1072. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1071. 2018-02-19
@@ -373,7 +406,6 @@ Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/866. 
 Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/865. 2018-02-14
 Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/864. 2018-02-14
 Neue Aktivität von Wilde Leipziger  eingetragen. admin/users/204. events/863. 2018-02-14
-Neue Aktivität von Marktschwärmer  eingetragen. admin/users/141. events/862. 2018-02-14
 Akteur hat sich registriert. Name: Ölmühle Leipzig  . 2018-02-14
 Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/861. 2018-02-14
 Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/860. 2018-02-14
@@ -491,8 +523,6 @@ Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. even
 Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/765. 2018-02-09
 Neue Aktivität von Cafe. Restaurant. Symbiose eingetragen. admin/users/207. stores/318. 2018-02-09
 Akteur hat sich registriert. Name: Cafe. Restaurant. Symbiose  . 2018-02-09
-Neue Aktivität von Graeske eingetragen. admin/users/206. projects/111. 2018-02-08
-Akteur hat sich registriert. Name: Graeske . 2018-02-08
 Neue Aktivität von Stadt Delitzsch eingetragen. admin/users/205. events/764. 2018-02-08
 Akteur hat sich registriert. Name: Stadt Delitzsch  . 2018-02-08
 Akteur deaktiviert: Förderverein "Umweltinformationszentrum Leipzig - UiZ" e.V. (Leipzig, Annette Körner) . 2018-02-08
@@ -611,7 +641,7 @@ Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/655. 2018-02-
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/650. 2018-02-04
 Akteur hat sich registriert. Name: erleb-bar . 2018-02-02
 Akteur hat sich registriert. Name: Biomare II GmbH . 2018-02-02
-Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/195. events/649. 2018-02-02
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/649. 2018-02-02
 Akteur hat sich registriert. Name: Dirk Scheffler . 2018-02-02
 Akteur hat sich registriert. Name: Stadtverband Leipzig der Kleingärtner e.V. . 2018-02-02
 Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/648. 2018-02-01

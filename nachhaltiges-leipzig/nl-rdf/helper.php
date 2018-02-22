@@ -88,6 +88,7 @@ function fixNameURI($u) { // Weitere Transformation für Namen
 
 function fixOrgURI($u) { // Weitere Transformation für Organisationen
   $u=fixURI($u);
+  $u=str_replace("-", "", $u);
   $u=str_replace("e.V.", "", $u);
   $u=str_replace("GmbH", "", $u);
   $u=str_replace("undCo.oHG", "", $u);
@@ -147,5 +148,6 @@ function getAddressURI($row) {
     $out=str_replace("LuetznerStreet", "LuetznerStrasse", $out);  
     $out=str_replace("Katharinenstrasse.21-23", "Katharinenstrasse.21", $out);  
     $out=str_replace("R.-Becher", "R-Becher", $out);  
+    $out=str_replace("Stockartstrasse.111", "Stockartstrasse.11", $out);  
     return $out;
 }
