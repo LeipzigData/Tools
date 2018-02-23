@@ -17,23 +17,23 @@ function getAkteure() {
 
   $res = db_query("SELECT * FROM aae_data_akteur_hat_user");
   foreach ($res as $row) {
-    $out.='<http://leipziger-ecken.de/Data/Akteur/A'. $row['hat_AID'] .'> '
+    $out.='<http://leipziger-ecken.de/Data/Akteur.'. $row['hat_AID'] .'> '
       .'org:hasMember '
-      .'<http://leipziger-ecken.de/Data/Person/P'. $row['hat_UID'] ."> . \n\n" ;
+      .'<http://leipziger-ecken.de/Data/Person.'. $row['hat_UID'] ."> . \n\n" ;
   }
 
   // Platzhalter für die Extraktion von foaf:Person Einträgen aus der User-Tabelle 
   $res = db_query("SELECT * FROM aae_data_akteur where ersteller>0");
   foreach ($res as $row) {
-    $out.='<http://leipziger-ecken.de/Data/Person/P'. $row['ersteller'] .'> '
+    $out.='<http://leipziger-ecken.de/Data/Person.'. $row['ersteller'] .'> '
       .'a foaf:Person; foaf:name "to be added" ' ." . \n\n" ;
   }
 
   $res = db_query("SELECT * FROM aae_data_akteur_hat_sparte");
   foreach ($res as $row) {
-    $out.='<http://leipziger-ecken.de/Data/Ort/O'. $row['hat_AID'] .'> '
+    $out.='<http://leipziger-ecken.de/Data/Ort.'. $row['hat_AID'] .'> '
       .'le:zurSparte '
-      .'<http://leipziger-ecken.de/Data/Sparte/S'. $row['hat_KID'] ."> . \n\n" ;
+      .'<http://leipziger-ecken.de/Data/Sparte.'. $row['hat_KID'] ."> . \n\n" ;
   }
   
   return TurtlePrefix().'
@@ -54,8 +54,8 @@ function createAkteur($row) {
   $a=addLiteral($a,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['telefon']));
   $a=addResource($a,'foaf:homepage', "", fixURL($row['url']));
-  $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse/A",$row['adresse']);
-  return '<http://leipziger-ecken.de/Data/Akteur/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse.",$row['adresse']);
+  return '<http://leipziger-ecken.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 function createOrt($row) {
@@ -63,7 +63,7 @@ function createOrt($row) {
   $a=array();
   $a[]=' a le:Ort ';
   $a=addLiteral($a,'le:hasAID', $row['AID']);
-  $a=addResource($a,'ld:hasSupplier', 'http://leipziger-ecken.de/Data/Akteur/A', $row['AID']);
+  $a=addResource($a,'ld:hasSupplier', 'http://leipziger-ecken.de/Data/Akteur.', $row['AID']);
   $a=addLiteral($a,'foaf:name', $row['name']);
   $a=addLiteral($a,'foaf:mbox', $row['email']);
   $a=addLiteral($a,'foaf:phone', fixPhone($row['telefon']));
@@ -71,10 +71,10 @@ function createOrt($row) {
   $a=addLiteral($a,'foaf:Image', str_replace("/sites/default/files/", "",$row['bild']));
   $a=addMLiteral($a,'foaf:description', $row['beschreibung']);
   $a=addMLiteral($a,'le:hatOeffungszeiten', $row['oeffnungszeiten']);
-  $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse/A",$row['adresse']);
+  $a=addResource($a,'le:hatAdresse', "http://leipziger-ecken.de/Data/Adresse.",$row['adresse']);
   $a=addLiteral($a,'le:hatAdresszusatz', $row['adresszusatz']); // obsolet
   $a=addLiteral($a,'le:barrierefrei', $row['barrierefrei']); 
-  $a=addResource($a,'dct:creator',"http://leipziger-ecken.de/Data/Person/P", $row['ersteller']);
+  $a=addResource($a,'dct:creator',"http://leipziger-ecken.de/Data/Person.", $row['ersteller']);
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created']));
   $a=addLiteral($a,'dct:lastModified', str_replace(" ", "T", $row['modified']));
   return '<http://leipziger-ecken.de/Data/Ort/O'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
@@ -85,9 +85,9 @@ function createMembership($row) {
   $a=array();
   $a[]=' a org:Membership ';
   $a=addLiteral($a,'org:member', $row['ansprechpartner']);
-  $a=addResource($a,'org:organization', "http://leipziger-ecken.de/Data/Akteur/A",$id);
+  $a=addResource($a,'org:organization', "http://leipziger-ecken.de/Data/Akteur.",$id);
   $a=addLiteral($a,'org:role', $row['funktion']);
-  return '<http://leipziger-ecken.de/Data/Membership/M'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  return '<http://leipziger-ecken.de/Data/Membership.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 

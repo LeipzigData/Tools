@@ -14,16 +14,16 @@ function getEvents() {
 
   $res = db_query("SELECT * FROM aae_data_akteur_hat_event where EID>0");
   foreach ($res as $row) {
-    $out.='<http://leipziger-ecken.de/Data/Event/E'. $row['EID'] .'> '
+    $out.='<http://leipziger-ecken.de/Data/Event.'. $row['EID'] .'> '
       .'le:hatAkteur '
-      .'<http://leipziger-ecken.de/Data/Akteur/A'. $row['AID'] ."> . \n\n" ;
+      .'<http://leipziger-ecken.de/Data/Akteur.'. $row['AID'] ."> . \n\n" ;
   }
 
   $res = db_query("SELECT * FROM aae_data_event_hat_sparte where hat_EID>0");
   foreach ($res as $row) {
-    $out.='<http://leipziger-ecken.de/Data/Event/E'. $row['hat_EID'] .'> '
+    $out.='<http://leipziger-ecken.de/Data/Event.'. $row['hat_EID'] .'> '
       .'le:zurSparte '
-      .'<http://leipziger-ecken.de/Data/Sparte/S'. $row['hat_KID'] ."> . \n\n" ;
+      .'<http://leipziger-ecken.de/Data/Sparte.'. $row['hat_KID'] ."> . \n\n" ;
   }
 
   return TurtlePrefix().'
@@ -42,14 +42,14 @@ function createEvent($row) {
   $a=addLiteral($a,'rdfs:label', $row['name']);
   $a=addMLiteral($a,'ical:summary', $row['kurzbeschreibung']);
   $a=addLiteral($a,'foaf:Image', fixImageString($row['bild']));
-  $a=addResource($a,'ical:location', "http://leipziger-ecken.de/Data/Adresse/A",$row['ort']);
+  $a=addResource($a,'ical:location', "http://leipziger-ecken.de/Data/Adresse.",$row['ort']);
   $a=addResource($a,'ical:url', "", fixURL($row['url']));
-  $a=addResource($a,'ical:creator', "http://leipziger-ecken.de/Data/Person/P",$row['ersteller']);
+  $a=addResource($a,'ical:creator', "http://leipziger-ecken.de/Data/Person.",$row['ersteller']);
   $a=addLiteral($a,'ical:dtstart', str_replace(" ", "T", $row['start_ts']));
   $a=addLiteral($a,'ical:dtend', str_replace(" ", "T", $row['ende_ts']));
   $a=addLiteral($a,'dct:created', str_replace(" ", "T", $row['created']));
   $a=addLiteral($a,'dct:lastModified', str_replace(" ", "T", $row['modified']));
-  return '<http://leipziger-ecken.de/Data/Event/E'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  return '<http://leipziger-ecken.de/Data/Event.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen

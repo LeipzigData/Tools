@@ -1,4 +1,4 @@
-<?php
+#<?php
 
 /* Copy inc_sample.php to inc.php and fill in your credentials */
 
@@ -41,7 +41,7 @@ function createAdresse($row) {
   if (!empty($gps_lat)) { 
       $a=addLiteral($a,'gsp:asWKT', "Point($gps_long $gps_lat)"); 
   }
-  return '<http://leipziger-ecken.de/Data/Adresse/A'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  return '<http://leipziger-ecken.de/Data/Adresse.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 function geo($s) {

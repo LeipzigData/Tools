@@ -94,8 +94,21 @@ function getData() {
     return 
 '
 
-
-
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1116. 2018-02-23
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1115. 2018-02-23
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1114. 2018-02-23
+Akteur deaktiviert: Bio Tempel (Leipzig, Christel Wust) .  2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1113. 2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1112. 2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1111. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1110. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1109. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1108. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1107. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1106. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1105. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1104. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1103. 2018-02-22
 Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1102. 2018-02-22
 Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1101. 2018-02-22
 Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1100. 2018-02-22

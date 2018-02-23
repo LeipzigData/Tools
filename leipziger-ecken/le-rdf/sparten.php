@@ -26,7 +26,7 @@ function createSparte($row) {
   $a[]=' a le:Sparte ';
   $a=addLiteral($a,'le:hasKID', $id);
   $a=addLiteral($a,'rdfs:label', $row['kategorie']);
-  return '<http://leipziger-ecken.de/Data/Sparte/S'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
+  return '<http://leipziger-ecken.de/Data/Sparte.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
 // zum Testen
