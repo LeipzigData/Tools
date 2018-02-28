@@ -93,7 +93,17 @@ function getData() {
     // Data extracted from email notifications
     return 
 '
-
+Neue Aktivität von Ackerdemia e.V. eingetragen. admin/users/224. services/88. 2018-02-27
+Akteur hat sich registriert. Name: Ackerdemia e.V. . 2018-02-26
+Neue Aktivität von Delitzscher Land e.V eingetragen. admin/users/222. actions/67. 2018-02-26
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1124. 2018-02-25
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1123. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1122. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1121. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1120. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1119. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1118. 2018-02-25
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1117. 2018-02-24
 Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1116. 2018-02-23
 Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1115. 2018-02-23
 Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1114. 2018-02-23
