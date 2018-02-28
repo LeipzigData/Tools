@@ -90,7 +90,6 @@ function createMembership($row) {
   return '<http://leipziger-ecken.de/Data/Membership.'. $id .'>'. join(" ;\n  ",$a) . " . \n\n" ;
 }
 
-
 // zum Testen
 // echo getAkteure();
 

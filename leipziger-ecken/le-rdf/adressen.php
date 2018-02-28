@@ -51,6 +51,5 @@ function geo($s) {
 
 // zum Testen
 // echo getAdressen();
-// echo OldtoRDFString(getAdressen()); // works only with easyrdf 0.9.1 
 
 ?>
