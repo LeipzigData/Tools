@@ -201,13 +201,13 @@
    foaf:mbox "kontakt@meinholzhandwerk.de" ;
    foaf:phone "01733160186" ;
    foaf:homepage <http://www.meinholzhandwerk.de/kunstvermittlung/kursangebot/> ;
-   foaf:Image "pictures/aae/7f63e6953273ff0d01.jpg" ;
-   foaf:description """<p>Kursangebote im Bereich der Bildenden Kunst, Bildhauerei, offene Grafikwerkstatt. Workshopangebot an Samstagen und zu speziellen Veranstaltungen des P&ouml;ge-Haus e.V. Gern Kursangebot in Kooperation mit Akteuren des Leipziger Ostens, wie z.B. Freien Tr&auml;gern, Schulen oder Vereinen. K&uuml;nstlerische Kindergeburtstage ... und vieles mehr. Sprechen Sie mich an!</p>""" ;
+   foaf:Image "pictures/aae/36dbe19b87676121d1.jpg" ;
+   foaf:description """<p>Offene Grafikwerkstatt zum Ausprobieren von Linol- und Holzschnitt, einfachen Hochdruckverfahren und kleinen Buchbindeprojekten, Collagieren, Temperamalerei, Naturstudium und vieles mehr!. F&uuml;r Gro&szlig; &amp; Klein, Jung &amp; jung Gebliebene.Kosten: Werkstattpauschale von 15 &euro; pro Samstag (3 Stunden), damit die Werkstatt jeden dritten Samstag eines Monats &quot;rund&quot; laufen kann. Vereinsmitglieder des P&Ouml;GE-Haus e. V. zahlen nur die H&auml;lfte.</p><p>Workshopangebot an Samstagen und zu speziellen Veranstaltungen des P&ouml;ge-Haus e.V. Gern Kursangebot in Kooperation mit Akteuren des Leipziger Ostens, wie z.B. Freien Tr&auml;gern, Schulen oder Vereinen. K&uuml;nstlerische Kindergeburtstage ... und vieles mehr. Sprechen Sie mich an!</p>""" ;
    le:hatOeffungszeiten """ab März 2016 auf Anfrage und an Samstagen""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A65> ;
    le:hatAdresszusatz "Atelieretage" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P63> ;
-   dct:lastModified "2016-04-06T19:16:12" . 
+   dct:lastModified "2018-02-21T09:26:34" . 
 
 <http://leipziger-ecken.de/Data/Membership/M39> a org:Membership  ;
    org:member "Kerstin Köppen" ;
@@ -784,16 +784,16 @@ Besch&auml;ftigung durch F&ouml;rderung der Besch&auml;ftigungsf&auml;higkeit, d
    foaf:phone "0341-64029420" ;
    foaf:homepage <http://www.verein-fairbund.de/projekte/beratungsstelle> ;
    foaf:Image "pictures/aae/ddb0a6c6fdb9872944.jpg" ;
-   foaf:description """<p><strong>Alles Familie!</strong></p><p>Wir beraten und unterst&uuml;tzen Eltern und weitere an der Erziehung Beteiligte sowie Kinder und Jugendliche, um neue Perspektiven zu entwickeln und Ressourcen zu erschlie&szlig;en.</p><p>Insbesondere bei:</p><p>- allen Fragen zur Erziehung und Beziehung</p><p>- der Bew&auml;ltigung pers&ouml;nlicher und famili&auml;rer Konflikte</p><p>- Fragen zu Verhalten und Entwicklung von Kindern und Jugendlichen</p><p>- Problemen in Folge von Trennung und Scheidung</p><p>- Fragen zu Adoptiv- und Pflegekindern</p><p>- Konflikten in Schule und Ausbildung</p><p>- Gestaltung von Umg&auml;ngen.</p><p>Die Beratung ist <strong>kostenfrei</strong> und kann auch anonym erfolgen.</p><p>Anmeldung telefonisch oder pers&ouml;nlich.</p><p>Wir beraten in Deutsch und Arabisch; weitere Sprachen auf Anfrage.</p>""" ;
+   foaf:description """<p><strong>Alles Familie!</strong></p><p>Wir beraten und unterst&uuml;tzen Eltern und weitere an der Erziehung Beteiligte sowie Kinder und Jugendliche, um neue Perspektiven zu entwickeln und Ressourcen zu erschlie&szlig;en.</p><p>Insbesondere bei:</p><p>- allen Fragen zur Erziehung und Beziehung</p><p>- der Bew&auml;ltigung pers&ouml;nlicher und famili&auml;rer Konflikte</p><p>- Fragen zu Verhalten und Entwicklung von Kindern und Jugendlichen</p><p>- Problemen in Folge von Trennung und Scheidung</p><p>- Fragen zu Adoptiv- und Pflegekindern</p><p>- Konflikten in Schule und Ausbildung</p><p>- Gestaltung von Umg&auml;ngen.</p><p>Die Beratung ist <strong>kostenfrei</strong> und kann auch anonym erfolgen.</p><p>Anmeldung telefonisch oder pers&ouml;nlich.</p><p>Wir beraten in Deutsch und Arabisch; weitere Sprachen auf Anfrage.</p><p>&nbsp;</p><p>Kindergruppe</p><p><strong>Kinder FAIR st&auml;rken - </strong>Ein ermutigendes Angebot f&uuml;r Kinder mit getrennt lebenden Eltern</p><p>(bitte telefonisch f&uuml;r ein unverbindliches Vorgespr&auml;ch anmelden)</p>""" ;
    le:hatOeffungszeiten """siehe Homepage""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A133> ;
    le:barrierefrei "1" ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P201> ;
    dct:created "2016-05-17T16:46:23" ;
-   dct:lastModified "2016-05-19T16:05:39" . 
+   dct:lastModified "2017-10-26T15:52:22" . 
 
 <http://leipziger-ecken.de/Data/Membership/M69> a org:Membership  ;
-   org:member "Fr. Zimmermann" ;
+   org:member "Fr. Roffler" ;
    org:organization <http://leipziger-ecken.de/Data/Akteur/A69> ;
    org:role "Teamassistentin" . 
 
@@ -891,11 +891,11 @@ Jetzt gleich online anmelden: <a href="http://kulturleben-leipzig.de/anmelden" t
    foaf:phone "0341-64029420" ;
    foaf:homepage <http://www.verein-fairbund.de/projekte/familienbildung/elternkurs/> ;
    foaf:Image "pictures/aae/ddb0a6c6fdb9872944.jpg" ;
-   foaf:description """<p><strong>Kinder FAIRstehen, Ein Kurs f&uuml;r Eltern </strong></p><p>Kinder verstehen ist oft nicht einfach. Ihre Welt scheint anders zu funktionieren als die der Erwachsenen. Aber was bedeutet das f&uuml;r Eltern im Familienalltag ?</p><p>Die Erfahrungen zeigen, dass sich Eltern h&auml;ufig kon&shy;kreten Rat bei der Erziehung und Beglei&shy;tung ihrer Kin&shy;der w&uuml;nschen.</p><p>Wie gelingt es, dass mein Kind auf mich h&ouml;rt? Wann kann ich nachgiebig und gro&szlig;z&uuml;gig sein und wann lieber nicht? Wie kann ich noch besser erkennen was mein Kind braucht?</p><p>Welchen Platz d&uuml;rfen meine eige&shy;nen Bed&uuml;rfnissen haben? Und was kann ich tun, wenn mir die Kraft und Ideen in schwierigen Situatio&shy;nen ausgehen?</p><p>Mit Themen wie z.B.</p><p>- Bed&uuml;rfnisse von Kindern und Erwachsenen</p><p>- Grenzen und Konsequenzen</p><p>- Wut, Aggression und &Auml;ngste bei Kindern</p><p>stellen wir im Kurs verl&auml;ssliche<strong> </strong><strong>In&shy;formationen</strong><strong> </strong>und<strong> </strong><strong>Anregungen f&uuml;r Eltern </strong>zur Verf&uuml;&shy;gung. Weil jede Familie besonders ist, orientiert sich &bdquo;Kinder FAIRstehen&ldquo; am Lebensalltag der teilneh&shy;menden Eltern. Der Kurs vermittelt Impulse, mit denen M&uuml;tter und V&auml;ter <strong>an</strong> ihre <strong>St&auml;rken ankn&uuml;pfen</strong> und wei&shy;tere <strong>Ressourcen erschlie&szlig;en</strong> k&ouml;nnen.</p><p>Es ist Platz f&uuml;r Ihre eigenen <strong>Fragen </strong>und<strong> Ideen</strong> sowie f&uuml;r den entlastenden <strong>Austausch mit ande&shy;ren Eltern.</strong></p><p>Wir freuen uns auf Sie.</p><p><strong>Start der n&auml;chsten Kurse: </strong></p><ul><li><strong>25. August</strong></li><li><strong>16. September</strong></li><li><strong>17. November 2016</strong></li></ul>""" ;
+   foaf:description """<p><strong>Kinder FAIRstehen, Ein Kurs f&uuml;r Eltern </strong></p><p>Kinder verstehen ist oft nicht einfach. Ihre Welt scheint anders zu funktionieren als die der Erwachsenen. Aber was bedeutet das f&uuml;r Eltern im Familienalltag ?</p><p>Die Erfahrungen zeigen, dass sich Eltern h&auml;ufig kon&shy;kreten Rat bei der Erziehung und Beglei&shy;tung ihrer Kin&shy;der w&uuml;nschen.</p><p>Wie gelingt es, dass mein Kind auf mich h&ouml;rt? Wann kann ich nachgiebig und gro&szlig;z&uuml;gig sein und wann lieber nicht? Wie kann ich noch besser erkennen was mein Kind braucht?</p><p>Welchen Platz d&uuml;rfen meine eige&shy;nen Bed&uuml;rfnissen haben? Und was kann ich tun, wenn mir die Kraft und Ideen in schwierigen Situatio&shy;nen ausgehen?</p><p>Mit Themen wie z.B.</p><p>- Bed&uuml;rfnisse von Kindern und Erwachsenen</p><p>- Grenzen und Konsequenzen</p><p>- Wut, Aggression und &Auml;ngste bei Kindern</p><p>stellen wir im Kurs verl&auml;ssliche<strong> </strong><strong>In&shy;formationen</strong><strong> </strong>und<strong> </strong><strong>Anregungen f&uuml;r Eltern </strong>zur Verf&uuml;&shy;gung. Weil jede Familie besonders ist, orientiert sich &bdquo;Kinder FAIRstehen&ldquo; am Lebensalltag der teilneh&shy;menden Eltern. Der Kurs vermittelt Impulse, mit denen M&uuml;tter und V&auml;ter <strong>an</strong> ihre <strong>St&auml;rken ankn&uuml;pfen</strong> und wei&shy;tere <strong>Ressourcen erschlie&szlig;en</strong> k&ouml;nnen.</p><p>Es ist Platz f&uuml;r Ihre eigenen <strong>Fragen </strong>und<strong> Ideen</strong> sowie f&uuml;r den entlastenden <strong>Austausch mit ande&shy;ren Eltern.</strong></p><p>Wir freuen uns auf Sie.</p><p><strong>Unsere Kurse 2018 starten: </strong></p><ul><li><strong>01. Februar 2018</strong></li><li><strong>09. M&auml;rz 2018</strong></li><li><strong>30. August 2018</strong></li><li><strong>21. September 2018</strong></li></ul>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A139> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P201> ;
    dct:created "2016-05-19T15:57:30" ;
-   dct:lastModified "2016-07-08T11:55:09" . 
+   dct:lastModified "2017-12-22T12:20:14" . 
 
 <http://leipziger-ecken.de/Data/Membership/M73> a org:Membership  ;
    org:member "Jens Altmann" ;
@@ -1472,12 +1472,12 @@ Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengru
    foaf:name "Müzik-Stüdyo.74" ;
    foaf:mbox "daniel.vargas@villa-leipzig.de" ;
    foaf:homepage <http://facebook.com/MuzikStudyo.74/> ;
-   foaf:Image "pictures/aae/a7a8d01bb36673e9d0.jpg" ;
+   foaf:Image "pictures/aae/e3587dd150f1291b17.jpg" ;
    foaf:description """<p>Das M&uuml;zik-St&uuml;dyo.74 ist entgegen der ersten Erwartung kein Musikstudio, sondern ein Ort an dem Musik erlebt wird.&nbsp;</p><p>Es gibt einen komplett ausgestatteten Bandproberaum mit PA, Schlagzeug, Keyboard, Gitarren und B&auml;sse. Hier unterst&uuml;tzen wir Jugendbands an ihren musikalischen F&auml;higkeiten zu pfeilen und bieten jugendlichen&nbsp;Kleingruppen aus Schulen oder anderen Einrichtungen die M&ouml;glichkeit das Spielen in einer Band zu erleben.&nbsp;</p><p>Jeden Donnerstag &ouml;ffnen wir unsere T&uuml;ren bei der &quot;musikalischen Couch&quot; und am ersten Samstag im Monat gibt es unsere Jam-Session im Haus.<br />&nbsp;</p>""" ;
    le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A385> ;
    dct:creator <http://leipziger-ecken.de/Data/Person/P396> ;
    dct:created "2017-06-28T11:16:35" ;
-   dct:lastModified "2017-10-10T10:45:44" . 
+   dct:lastModified "2017-10-24T11:55:38" . 
 
 <http://leipziger-ecken.de/Data/Membership/M107> a org:Membership  ;
    org:member "Daniel Vargas" ;
@@ -1733,6 +1733,33 @@ Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengru
    org:organization <http://leipziger-ecken.de/Data/Akteur/A121> ;
    org:role "Projektkoordination" . 
 
+<http://leipziger-ecken.de/Data/Akteur/A122> a le:Akteur, org:Organization  ;
+   le:hasID "122" ;
+   foaf:name "offene Holzwerkstatt - Kerstin Köppen" ;
+   foaf:mbox "kontakt@meinholzhandwerk.de" ;
+   foaf:phone "01733160186" ;
+   foaf:homepage <http://www.meinholzhandwerk.de/kurse-geburtstage/kursangebot/> ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A559> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> a le:Ort  ;
+   le:hasAID "122" ;
+   ld:hasSupplier <http://leipziger-ecken.de/Data/Akteur/A122> ;
+   foaf:name "offene Holzwerkstatt - Kerstin Köppen" ;
+   foaf:mbox "kontakt@meinholzhandwerk.de" ;
+   foaf:phone "01733160186" ;
+   foaf:homepage <http://www.meinholzhandwerk.de/kurse-geburtstage/kursangebot/> ;
+   foaf:Image "pictures/aae/04264ff77d58d84c76.jpg" ;
+   foaf:description """<p><strong>Einf&uuml;hrung in das Schnitzen und Bildhauern in Holz - offene Holzwerkstatt</strong></p><p>Jeden Freitag ab 16. Februar 2018 von 18-21 Uhr. Bitte Anmelden, es gibt nur 6 begehrte Arbeitspla&auml;tze!&nbsp; Sie k&ouml;nnen entweder 18 &euro; pro Abend buchen oder ein Monatsabo f&uuml;r 60 &euro; abschlie&szlig;en. Zuz&uuml;glich Materialverbrauch pro Werkst&uuml;ck und zzgl Schnitzwerkzeugpauschale von 5&euro; (pro Monat). F&uuml;r M&auml;dchen und Jungen ab 10 Jahre... und Erwachsene oder Kleingruppen bis zu max 8 Personen!</p><p>&nbsp;</p><p><strong>Holzschnitt und Druck des Druckstocks</strong></p><p>Der&nbsp; Holzschnitt-Kurs hat eine begrenzte Anzahl von Teilnehmern. Intensivkurse und Anf&auml;ngerkurse f&uuml;r alle Altersgruppen von 9 bis 99. Die Kurskosten setzen sich aus gebuchtem Kurs, Materialverbrauch und einer Werkzeugpauschale zusammen.</p><p>&nbsp;</p><p><strong>Kurse f&uuml;r Schrift- und Modelschnitzen (Kerbschnitt) </strong></p><p>Auf Nachfrage. Pro Stunde 10 &euro; zuz&uuml;glich Materialverbrauch pro Werkst&uuml;ck und zzgl Schnitzwerkzeugpauschale von 5 &euro;.</p><p>&nbsp;</p><p><strong>Kurs f&uuml;r Abformverfahren in der Bildhauerei</strong></p><p>Auf Nachfrage. Pro Stunde 10 &euro; zzgl. Materialverbrauch pro Werkst&uuml;ck.</p><p>&nbsp;</p><p>&nbsp;</p>""" ;
+   le:hatAdresse <http://leipziger-ecken.de/Data/Adresse/A559> ;
+   dct:creator <http://leipziger-ecken.de/Data/Person/P63> ;
+   dct:created "2018-02-14T14:56:29" ;
+   dct:lastModified "2018-02-14T15:08:17" . 
+
+<http://leipziger-ecken.de/Data/Membership/M122> a org:Membership  ;
+   org:member "Kerstin Köppen" ;
+   org:organization <http://leipziger-ecken.de/Data/Akteur/A122> ;
+   org:role "Kontakt, Anbieterin" . 
+
 <http://leipziger-ecken.de/Data/Akteur/A5> org:hasMember <http://leipziger-ecken.de/Data/Person/P21> . 
 
 <http://leipziger-ecken.de/Data/Akteur/A6> org:hasMember <http://leipziger-ecken.de/Data/Person/P22> . 
@@ -1873,6 +1900,8 @@ Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengru
 
 <http://leipziger-ecken.de/Data/Akteur/A121> org:hasMember <http://leipziger-ecken.de/Data/Person/P433> . 
 
+<http://leipziger-ecken.de/Data/Akteur/A122> org:hasMember <http://leipziger-ecken.de/Data/Person/P63> . 
+
 <http://leipziger-ecken.de/Data/Person/P31> a foaf:Person; foaf:name "to be added"  . 
 
 <http://leipziger-ecken.de/Data/Person/P32> a foaf:Person; foaf:name "to be added"  . 
@@ -2008,6 +2037,8 @@ Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengru
 <http://leipziger-ecken.de/Data/Person/P421> a foaf:Person; foaf:name "to be added"  . 
 
 <http://leipziger-ecken.de/Data/Person/P433> a foaf:Person; foaf:name "to be added"  . 
+
+<http://leipziger-ecken.de/Data/Person/P63> a foaf:Person; foaf:name "to be added"  . 
 
 <http://leipziger-ecken.de/Data/Ort/O5> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S155> . 
 
@@ -2382,4 +2413,24 @@ Ort f&uuml;r Ideen&amp;Projekte</em></p><p>Neben der Kinder- und Freiwilligengru
 <http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S395> . 
 
 <http://leipziger-ecken.de/Data/Ort/O121> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S493> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S32> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S257> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S397> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S598> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S599> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S600> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S601> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S602> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S603> . 
+
+<http://leipziger-ecken.de/Data/Ort/O122> le:zurSparte <http://leipziger-ecken.de/Data/Sparte/S604> . 
 

@@ -1,76 +1,539 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix ld: <http://leipzig-data.de/Data/Model/> .
-@prefix le: <http://leipziger-ecken.de/Data/Model#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix le: <http://leipziger-ecken.de/Data/Model#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix les: <http://leipziger-ecken.de/Data/Sparte/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://leipziger-ecken.de/Data/LD-Adressen/>
-  a owl:Ontology ;
-  rdfs:comment "Aus LeipzigData extrahierte Adressen und Geodaten" ;
-  rdfs:label "Leipziger Ecken - LD-Adressen" .
+<http://leipziger-ecken.de/Data/Adressen/> a owl:Ontology ;
+    rdfs:comment "Konsolidiert aus einem Dump aus der Datenbank";
+    rdfs:label "Leipziger Ecken - Adressen" .
 
-<http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Kochstraße 132" ;
-   gsp:asWKT "Point(12.3713328476493 51.310057128245)" . 
+<http://leipzig-data.de/Data/.Leipzig.Bennigsenstrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Bennigsenstraße ,  Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.144> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.147>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Eisenbahnstraße 147" ;
-   gsp:asWKT "Point(12.4189593 51.3449446)" . 
+<http://leipzig-data.de/Data/.Leipzig.Eisenbahnstrasse.>
+    ld:hasAddressAddendum "Aldiparkplatz" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße ,  Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.171>, <http://leipziger-ecken.de/Data/Adresse.202> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.157>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Eisenbahnstraße 157" ;
-   gsp:asWKT "Point(12.4207268 51.3448569)" . 
+<http://leipzig-data.de/Data/.Leipzig.Lene-Voigt-Park.>
+    gsp:asWKT "Point(12.401795 51.333425)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Lene-Voigt-Park, Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.114>, <http://leipziger-ecken.de/Data/Adresse.124>, <http://leipziger-ecken.de/Data/Adresse.180>, <http://leipziger-ecken.de/Data/Adresse.394>, <http://leipziger-ecken.de/Data/Adresse.395>, <http://leipziger-ecken.de/Data/Adresse.398>, <http://leipziger-ecken.de/Data/Adresse.399>, <http://leipziger-ecken.de/Data/Adresse.400>, <http://leipziger-ecken.de/Data/Adresse.403>, <http://leipziger-ecken.de/Data/Adresse.430> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Eisenbahnstraße 49" ;
-   gsp:asWKT "Point(12.4023604 51.3458157)" . 
+<http://leipzig-data.de/Data/.Leipzig.Paulinenstrasse/Buelowstrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Paulinenstraße / Bülowstraße ,  Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.331>, <http://leipziger-ecken.de/Data/Adresse.540> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.54>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Eisenbahnstraße 54" ;
-   gsp:asWKT "Point(12.3945081 51.3461353)" . 
+<http://leipzig-data.de/Data/.Leipzig.SchulzeDelitzschStrasse.>
+    gsp:asWKT "Point( 12.411295 51.347519)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Schulze Delitzsch Str. ,  Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.389> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Hedwigstraße 20" ;
-   gsp:asWKT "Point(12.4032093 51.3464121)" . 
+<http://leipzig-data.de/Data/.Leipzig.Sigismundstrasse/EckeReichpietschstrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Sigismundstraße/Ecke Reichpietschstraße ,  Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.411> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Hedwigstraße 7" ;
-   gsp:asWKT "Point(12.4031474 51.3467999)" . 
+<http://leipzig-data.de/Data/03415.Leipzig.Mariannenstrasse.101>
+    gsp:asWKT "Point(12.411834 51.346457)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Mariannenstraße 101, 03415 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.128> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Hildegardstraße 49" ;
-   gsp:asWKT "Point(12.4072117 51.3445224)" . 
+<http://leipzig-data.de/Data/04103.Leipzig.Rosa-Luxemburg-Strasse.19>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Rosa-Luxemburg-Straße 19/21, 04103 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.94> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Hildegardstraße 51" ;
-   gsp:asWKT "Point(12.4072117 51.3445224)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Burgplatz.1>
+    gsp:asWKT "Point(12.373147 51.337021)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Burgplatz 1, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.107> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Kohlgartenstraße 51" ;
-   gsp:asWKT "Point(12.4021349 51.3398044)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2>
+    gsp:asWKT "Point(12.368643 51.338346)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dorotheenplatz 2, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.278>, <http://leipziger-ecken.de/Data/Adresse.476> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Konradstraße 27" ;
-   gsp:asWKT "Point(12.4088463 51.3445096)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Elsterstrasse.15>
+    gsp:asWKT "Point(12.366265 51.339139)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Elsterstraße 15, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.267> .
 
-<http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.2>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Torgauer Platz 2" ;
-   gsp:asWKT "Point(12.4148757 51.3450465)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Lessingstrasse.7>
+    gsp:asWKT "Point(12.366683 51.342066)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Lessingstraße 7, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.136>, <http://leipziger-ecken.de/Data/Adresse.562> .
 
-<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Dresdner Straße 59" ;
-   gsp:asWKT "Point(12.4029673 51.3389024)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Martin-Luther-Ring.4>
+    gsp:asWKT "Point(12.3709 51.337834)", "Point(8.856221 50.196588)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Martin-Luther-Ring 4-6, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.108>, <http://leipziger-ecken.de/Data/Adresse.190>, <http://leipziger-ecken.de/Data/Adresse.192> .
 
-<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.84>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Dresdner Straße 84" ;
-   gsp:asWKT "Point(12.4061516728362 51.3379169390566)" . 
+<http://leipzig-data.de/Data/04109.Leipzig.Otto-Schill-Strasse.7>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Otto-Schill-Straße 7, 04109 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.167> .
 
-<http://leipzig-data.de/Data/04317.Leipzig.Gabelsbergerstrasse.30>  a ld:Adresse  ;
-   rdfs:label "Leipzig, Gabelsbergerstraße 30" ;
-   gsp:asWKT "Point(12.3960962 51.3410685)" . 
+<http://leipzig-data.de/Data/04158.Leipzig.Bahnhofstrasse.10>
+    gsp:asWKT "Point(12.375 51.342)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Bahnhofstraße 10, 04158 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.88> .
+
+<http://leipzig-data.de/Data/04229.Leipzig.WeissenfelserStrasse.65>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Weißenfelser Straße 65, 04229 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.234> .
+
+<http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.59>
+    gsp:asWKT "Point(12.336135 51.327894)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Zschochersche Straße 59, 04229 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.115>, <http://leipziger-ecken.de/Data/Adresse.166> .
+
+<http://leipzig-data.de/Data/04275.Leipzig.Steinstrasse.18>
+    gsp:asWKT "Point(12.37061 51.317657)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Steinstraße 18, 04275 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.352> .
+
+<http://leipzig-data.de/Data/04277.Leipzig.Kochstrasse.132>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Kochstraße 132, 04277 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.28> .
+
+<http://leipzig-data.de/Data/04299.Leipzig.Ferdinand-Jost-Strasse.20>
+    gsp:asWKT "Point(12.416434 51.320827)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ferdinand-Jost-Straße 20, 04299 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.466>, <http://leipziger-ecken.de/Data/Adresse.467>, <http://leipziger-ecken.de/Data/Adresse.468> .
+
+<http://leipzig-data.de/Data/04299.Leipzig.Weissestrasse.13>
+    gsp:asWKT "Point(12.415304 51.321758)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Weißestraße  13, 04299 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.469> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Bernhardstrasse.92>
+    gsp:asWKT "Point(12.422616 51.339822)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Bernhardstraße 92, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.219> .
+
+<http://leipzig-data.de/Data/.Leipzig.Eisenbahnstrasse.>
+    ld:hasAddressAddendum "Aldiparkplatz" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße , Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.170>, <http://leipziger-ecken.de/Data/Adresse.203> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.107>
+    gsp:asWKT "Point(12.399316 51.345989)", "Point(4.877263 52.355618)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 107, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.132>, <http://leipziger-ecken.de/Data/Adresse.188> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.11>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 11, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.140> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.113B>
+    gsp:asWKT "Point(12.412338 51.345294)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 113b, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.83> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.131A>
+    gsp:asWKT "Point(12.415446 51.345132)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 131a, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.213>, <http://leipziger-ecken.de/Data/Adresse.417>, <http://leipziger-ecken.de/Data/Adresse.418> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.143>
+    gsp:asWKT "Point(12.4207699 51.3447892)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 143, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.204> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.147>
+    ld:hasAddressAddendum "Caba - Cafe" ;
+    gsp:asWKT "Point(12.38333 51.33333)", "Point(9.402638 48.719173)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 147, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.212>, <http://leipziger-ecken.de/Data/Adresse.369>, <http://leipziger-ecken.de/Data/Adresse.370>, <http://leipziger-ecken.de/Data/Adresse.371>, <http://leipziger-ecken.de/Data/Adresse.61> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.157>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 157, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.76> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.30>
+    gsp:asWKT "Point(12.398936 51.345799)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 30, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.490> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.45>
+    gsp:asWKT "Point(12.401746 51.345855)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 45, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.320> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49>
+    ld:hasAddressAddendum "IC-E" ;
+    gsp:asWKT "Point(12.375 51.342)", "Point(12.402248 51.345828)", "Point(33.829268 36.667943)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 49, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.335>, <http://leipziger-ecken.de/Data/Adresse.494>, <http://leipziger-ecken.de/Data/Adresse.495>, <http://leipziger-ecken.de/Data/Adresse.536>, <http://leipziger-ecken.de/Data/Adresse.537>, <http://leipziger-ecken.de/Data/Adresse.538>, <http://leipziger-ecken.de/Data/Adresse.539>, <http://leipziger-ecken.de/Data/Adresse.8> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.52>
+    gsp:asWKT "Point(12.375 51.342)", "Point(12.402508 51.345039)", "Point(12.40309 51.34413)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 52, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.111>, <http://leipziger-ecken.de/Data/Adresse.112>, <http://leipziger-ecken.de/Data/Adresse.193>, <http://leipziger-ecken.de/Data/Adresse.344>, <http://leipziger-ecken.de/Data/Adresse.348>, <http://leipziger-ecken.de/Data/Adresse.496> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.54>
+    gsp:asWKT "Point(12.403434 51.344197)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 54, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.127>, <http://leipziger-ecken.de/Data/Adresse.237>, <http://leipziger-ecken.de/Data/Adresse.268>, <http://leipziger-ecken.de/Data/Adresse.41>, <http://leipziger-ecken.de/Data/Adresse.413> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.55>
+    gsp:asWKT "Point(12.375 51.342)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 55, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.176> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.66>
+    gsp:asWKT "Point(12.38333 51.33333)", "Point(12.40394 51.34563)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Eisenbahnstraße 66, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.133>, <http://leipziger-ecken.de/Data/Adresse.138>, <http://leipziger-ecken.de/Data/Adresse.139>, <http://leipziger-ecken.de/Data/Adresse.364>, <http://leipziger-ecken.de/Data/Adresse.365> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20>
+    ld:hasAddressAddendum "Pöge-Haus", "Pöge-Haus, Seminarraum", "Treff: Pöge-Haus" ;
+    gsp:asWKT "Point(12.38333 51.33333)", "Point(12.403096 51.346596)", "Point(12.4032201 51.3464277)", "Point(12.40351 51.347481)", "Point(12.403511 51.347473)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hedwigstraße  20, 04315 Leipzig", "Hedwigstraße 20, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.116>, <http://leipziger-ecken.de/Data/Adresse.126>, <http://leipziger-ecken.de/Data/Adresse.14>, <http://leipziger-ecken.de/Data/Adresse.175>, <http://leipziger-ecken.de/Data/Adresse.177>, <http://leipziger-ecken.de/Data/Adresse.178>, <http://leipziger-ecken.de/Data/Adresse.179>, <http://leipziger-ecken.de/Data/Adresse.196>, <http://leipziger-ecken.de/Data/Adresse.246>, <http://leipziger-ecken.de/Data/Adresse.247>, <http://leipziger-ecken.de/Data/Adresse.269>, <http://leipziger-ecken.de/Data/Adresse.279>, <http://leipziger-ecken.de/Data/Adresse.280>, <http://leipziger-ecken.de/Data/Adresse.281>, <http://leipziger-ecken.de/Data/Adresse.297>, <http://leipziger-ecken.de/Data/Adresse.311>, <http://leipziger-ecken.de/Data/Adresse.312>, <http://leipziger-ecken.de/Data/Adresse.313>, <http://leipziger-ecken.de/Data/Adresse.334>, <http://leipziger-ecken.de/Data/Adresse.343>, <http://leipziger-ecken.de/Data/Adresse.345>, <http://leipziger-ecken.de/Data/Adresse.366>, <http://leipziger-ecken.de/Data/Adresse.368>, <http://leipziger-ecken.de/Data/Adresse.408>, <http://leipziger-ecken.de/Data/Adresse.416>, <http://leipziger-ecken.de/Data/Adresse.497>, <http://leipziger-ecken.de/Data/Adresse.560>, <http://leipziger-ecken.de/Data/Adresse.65>, <http://leipziger-ecken.de/Data/Adresse.84>, <http://leipziger-ecken.de/Data/Adresse.93> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.7>
+    gsp:asWKT "Point(12.375 51.342)", "Point(12.38333 51.33333)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hedwigstraße 7, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.367>, <http://leipziger-ecken.de/Data/Adresse.73>, <http://leipziger-ecken.de/Data/Adresse.75> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.89>
+    gsp:asWKT "Point(12.405958 51.346733)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hermann-Liebmann-Straße 89, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.387>, <http://leipziger-ecken.de/Data/Adresse.388> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.92>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hermann-Liebmann-Straße 92, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.211> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.49>
+    ld:hasAddressAddendum "HAL Atelierhaus", "Stadtraum, Treffpunkt am HAL Atelierhaus" ;
+    gsp:asWKT "Point(12.4060786 51.3459437)", "Point(12.407223 51.345764)", "Point(7.0041335 52.5238158)", "Point(8.0490356 52.161542)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hildegardstraße  49, 04315 Leipzig", "Hildegardstraße 49, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.10>, <http://leipziger-ecken.de/Data/Adresse.103>, <http://leipziger-ecken.de/Data/Adresse.109>, <http://leipziger-ecken.de/Data/Adresse.110>, <http://leipziger-ecken.de/Data/Adresse.149>, <http://leipziger-ecken.de/Data/Adresse.162>, <http://leipziger-ecken.de/Data/Adresse.182>, <http://leipziger-ecken.de/Data/Adresse.184>, <http://leipziger-ecken.de/Data/Adresse.185>, <http://leipziger-ecken.de/Data/Adresse.186>, <http://leipziger-ecken.de/Data/Adresse.195>, <http://leipziger-ecken.de/Data/Adresse.208>, <http://leipziger-ecken.de/Data/Adresse.218>, <http://leipziger-ecken.de/Data/Adresse.27>, <http://leipziger-ecken.de/Data/Adresse.299>, <http://leipziger-ecken.de/Data/Adresse.300>, <http://leipziger-ecken.de/Data/Adresse.316>, <http://leipziger-ecken.de/Data/Adresse.4>, <http://leipziger-ecken.de/Data/Adresse.434>, <http://leipziger-ecken.de/Data/Adresse.435>, <http://leipziger-ecken.de/Data/Adresse.436>, <http://leipziger-ecken.de/Data/Adresse.437>, <http://leipziger-ecken.de/Data/Adresse.438>, <http://leipziger-ecken.de/Data/Adresse.439>, <http://leipziger-ecken.de/Data/Adresse.441>, <http://leipziger-ecken.de/Data/Adresse.444>, <http://leipziger-ecken.de/Data/Adresse.68> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51>
+    gsp:asWKT "Point(12.4070104 51.3431029)", "Point(12.40724 51.345897)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hildegardstraße 51, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.442>, <http://leipziger-ecken.de/Data/Adresse.443>, <http://leipziger-ecken.de/Data/Adresse.448>, <http://leipziger-ecken.de/Data/Adresse.507>, <http://leipziger-ecken.de/Data/Adresse.57> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.56>
+    gsp:asWKT "Point(12.40751 51.345749)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hildegardstraße 56, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.125> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Kohlgartenstrasse.51>
+    ld:hasAddressAddendum "Laden auf Zeit" ;
+    gsp:asWKT "Point(12.3992969 51.3423112)", "Point(12.400996 51.341434)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Kohlgartenstraße 51, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.12>, <http://leipziger-ecken.de/Data/Adresse.13>, <http://leipziger-ecken.de/Data/Adresse.309>, <http://leipziger-ecken.de/Data/Adresse.310> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße , 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.194> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.26>
+    gsp:asWKT "Point(12.404525 51.344705)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße 26, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.414> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.27>
+    gsp:asWKT "Point(12.404642 51.345013)", "Point(8.4380076 52.892949)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße 27, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.210>, <http://leipziger-ecken.de/Data/Adresse.336>, <http://leipziger-ecken.de/Data/Adresse.337>, <http://leipziger-ecken.de/Data/Adresse.7> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.60>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße 60, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.131> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße 62, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.421>, <http://leipziger-ecken.de/Data/Adresse.422>, <http://leipziger-ecken.de/Data/Adresse.423>, <http://leipziger-ecken.de/Data/Adresse.424>, <http://leipziger-ecken.de/Data/Adresse.445>, <http://leipziger-ecken.de/Data/Adresse.464>, <http://leipziger-ecken.de/Data/Adresse.465>, <http://leipziger-ecken.de/Data/Adresse.500>, <http://leipziger-ecken.de/Data/Adresse.501>, <http://leipziger-ecken.de/Data/Adresse.502>, <http://leipziger-ecken.de/Data/Adresse.503>, <http://leipziger-ecken.de/Data/Adresse.504>, <http://leipziger-ecken.de/Data/Adresse.505>, <http://leipziger-ecken.de/Data/Adresse.516>, <http://leipziger-ecken.de/Data/Adresse.517>, <http://leipziger-ecken.de/Data/Adresse.532>, <http://leipziger-ecken.de/Data/Adresse.533>, <http://leipziger-ecken.de/Data/Adresse.534>, <http://leipziger-ecken.de/Data/Adresse.535> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64>
+    gsp:asWKT "Point(12.409998 51.344349)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Konradstraße  64, 04315 Leipzig", "Konradstraße 64, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.248>, <http://leipziger-ecken.de/Data/Adresse.249>, <http://leipziger-ecken.de/Data/Adresse.250>, <http://leipziger-ecken.de/Data/Adresse.419>, <http://leipziger-ecken.de/Data/Adresse.420>, <http://leipziger-ecken.de/Data/Adresse.425>, <http://leipziger-ecken.de/Data/Adresse.426>, <http://leipziger-ecken.de/Data/Adresse.427>, <http://leipziger-ecken.de/Data/Adresse.428>, <http://leipziger-ecken.de/Data/Adresse.455>, <http://leipziger-ecken.de/Data/Adresse.456>, <http://leipziger-ecken.de/Data/Adresse.457>, <http://leipziger-ecken.de/Data/Adresse.458>, <http://leipziger-ecken.de/Data/Adresse.459>, <http://leipziger-ecken.de/Data/Adresse.460>, <http://leipziger-ecken.de/Data/Adresse.461>, <http://leipziger-ecken.de/Data/Adresse.462>, <http://leipziger-ecken.de/Data/Adresse.463>, <http://leipziger-ecken.de/Data/Adresse.508>, <http://leipziger-ecken.de/Data/Adresse.509>, <http://leipziger-ecken.de/Data/Adresse.510>, <http://leipziger-ecken.de/Data/Adresse.511>, <http://leipziger-ecken.de/Data/Adresse.512>, <http://leipziger-ecken.de/Data/Adresse.513>, <http://leipziger-ecken.de/Data/Adresse.514>, <http://leipziger-ecken.de/Data/Adresse.515>, <http://leipziger-ecken.de/Data/Adresse.82> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.42>
+    gsp:asWKT "Point(12.408142 51.344064)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ludwigstraße 42, 04315 Leipzig", "Ludwigstraße 42/44, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.383>, <http://leipziger-ecken.de/Data/Adresse.454> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.70>
+    gsp:asWKT "Point(12.375 51.342)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ludwigstraße 70, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.143>, <http://leipziger-ecken.de/Data/Adresse.163>, <http://leipziger-ecken.de/Data/Adresse.201> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.79>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ludwigstraße 79, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.412> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Ludwigstrasse.99>
+    gsp:asWKT "Point(12.409004 51.346194)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ludwigstraße 99, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.470> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Marcusgasse.7>
+    gsp:asWKT "Point(12.40686 51.340412)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Marcusgasse 7, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.102> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Mariannenstrasse.101>
+    gsp:asWKT "Point(12.411424 51.346662)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Mariannenstraße 101, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.221>, <http://leipziger-ecken.de/Data/Adresse.307>, <http://leipziger-ecken.de/Data/Adresse.321>, <http://leipziger-ecken.de/Data/Adresse.346>, <http://leipziger-ecken.de/Data/Adresse.97> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.MeissnerStrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Meißner Straße , 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.169> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.NeustaedterMarkt.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Neustädter Markt , 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.161>, <http://leipziger-ecken.de/Data/Adresse.168>, <http://leipziger-ecken.de/Data/Adresse.238> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.NeustaedterMarkt.8>
+    gsp:asWKT "Point(12.40374 51.347922)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Neustädter Markt 8, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.173> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20>
+    gsp:asWKT "Point(10.010705 53.55871)", "Point(12.400749 51.348381)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Neustädter Straße 20, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.121>, <http://leipziger-ecken.de/Data/Adresse.347>, <http://leipziger-ecken.de/Data/Adresse.451>, <http://leipziger-ecken.de/Data/Adresse.452>, <http://leipziger-ecken.de/Data/Adresse.453>, <http://leipziger-ecken.de/Data/Adresse.506> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Paulinenstrasse.12>
+    gsp:asWKT "Point(12.420478 51.345532)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Paulinenstraße  12-14, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.446> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Schulze-Delitzsch-Strasse.18>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Schulze-Delitzsch-Straße 18, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.172> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Schulze-Delitzsch-Strasse.19>
+    gsp:asWKT "Point(9.447001 52.505737)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Schulze-Delitzsch-Straße 19, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.90> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.2>
+    gsp:asWKT "Point(12.414628 51.345959)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Torgauer Platz 2, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.120>, <http://leipziger-ecken.de/Data/Adresse.135>, <http://leipziger-ecken.de/Data/Adresse.42>, <http://leipziger-ecken.de/Data/Adresse.429> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.TorgauerPlatz.3>
+    gsp:asWKT "Point(12.414924 51.345742)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Torgauer Platz 3, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.157> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.VolkmarsdorferMarkt.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Volkmarsdorfer Markt , 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.142> .
+
+<http://leipzig-data.de/Data/04315.Leipzig.Zollikoferstrasse.21>
+    gsp:asWKT "Point(12.40925 51.343904)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Zollikoferstraße 21, 04315 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.390> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Dorotheenplatz.2>
+    gsp:asWKT "Point(12.368643 51.338346)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dorotheenplatz 2, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.233> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59>
+    gsp:asWKT "Point(12.402913 51.338952)", "Point(3.054441 50.636883)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dresdner Straße 59, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.113>, <http://leipziger-ecken.de/Data/Adresse.118>, <http://leipziger-ecken.de/Data/Adresse.119>, <http://leipziger-ecken.de/Data/Adresse.164>, <http://leipziger-ecken.de/Data/Adresse.165>, <http://leipziger-ecken.de/Data/Adresse.183>, <http://leipziger-ecken.de/Data/Adresse.189>, <http://leipziger-ecken.de/Data/Adresse.253>, <http://leipziger-ecken.de/Data/Adresse.254>, <http://leipziger-ecken.de/Data/Adresse.255>, <http://leipziger-ecken.de/Data/Adresse.265>, <http://leipziger-ecken.de/Data/Adresse.315>, <http://leipziger-ecken.de/Data/Adresse.349>, <http://leipziger-ecken.de/Data/Adresse.350>, <http://leipziger-ecken.de/Data/Adresse.351>, <http://leipziger-ecken.de/Data/Adresse.353>, <http://leipziger-ecken.de/Data/Adresse.409>, <http://leipziger-ecken.de/Data/Adresse.410>, <http://leipziger-ecken.de/Data/Adresse.80> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.78>
+    gsp:asWKT "Point(12.404715 51.337648)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dresdner Straße 78, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.154> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.84>
+    ld:hasAddressAddendum "Hinterhof" ;
+    gsp:asWKT "Point(12.3988189 51.3391931)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dresdner Straße 84, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.67> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Dresdner Straße 59, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.205> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Gabelsbergerstrasse.30>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Gabelsbergerstraße 30, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.78> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Goeschenstrasse.2>
+    gsp:asWKT "Point(12.396993 51.338304)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Göschenstraße 2-4, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.559>, <http://leipziger-ecken.de/Data/Adresse.561> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Hedwigstrasse.20>
+    gsp:asWKT "Point(12.403096 51.346596)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Hedwigstraße 20, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.123>, <http://leipziger-ecken.de/Data/Adresse.134>, <http://leipziger-ecken.de/Data/Adresse.206>, <http://leipziger-ecken.de/Data/Adresse.66> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Kippenbergstrasse.20>
+    gsp:asWKT "Point(12.406141 51.336115)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Kippenbergstraße 20, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.215> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.1>
+    gsp:asWKT "Point(12.398461 51.330194)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Mühlstraße 1, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.523> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14>
+    gsp:asWKT "Point(12.400762 51.330119)", "Point(12.40078 51.330114)", "Point(12.402986 51.331042)", "Point(12.406495 51.329736)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Mühlstraße  14, 04317 Leipzig", "Mühlstraße 14, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.155>, <http://leipziger-ecken.de/Data/Adresse.187>, <http://leipziger-ecken.de/Data/Adresse.222>, <http://leipziger-ecken.de/Data/Adresse.223>, <http://leipziger-ecken.de/Data/Adresse.224>, <http://leipziger-ecken.de/Data/Adresse.225>, <http://leipziger-ecken.de/Data/Adresse.226>, <http://leipziger-ecken.de/Data/Adresse.227>, <http://leipziger-ecken.de/Data/Adresse.228>, <http://leipziger-ecken.de/Data/Adresse.229>, <http://leipziger-ecken.de/Data/Adresse.230>, <http://leipziger-ecken.de/Data/Adresse.231>, <http://leipziger-ecken.de/Data/Adresse.232>, <http://leipziger-ecken.de/Data/Adresse.242>, <http://leipziger-ecken.de/Data/Adresse.243>, <http://leipziger-ecken.de/Data/Adresse.244>, <http://leipziger-ecken.de/Data/Adresse.245>, <http://leipziger-ecken.de/Data/Adresse.256>, <http://leipziger-ecken.de/Data/Adresse.257>, <http://leipziger-ecken.de/Data/Adresse.258>, <http://leipziger-ecken.de/Data/Adresse.259>, <http://leipziger-ecken.de/Data/Adresse.260>, <http://leipziger-ecken.de/Data/Adresse.261>, <http://leipziger-ecken.de/Data/Adresse.262>, <http://leipziger-ecken.de/Data/Adresse.263>, <http://leipziger-ecken.de/Data/Adresse.264>, <http://leipziger-ecken.de/Data/Adresse.271>, <http://leipziger-ecken.de/Data/Adresse.272>, <http://leipziger-ecken.de/Data/Adresse.273>, <http://leipziger-ecken.de/Data/Adresse.274>, <http://leipziger-ecken.de/Data/Adresse.275>, <http://leipziger-ecken.de/Data/Adresse.277>, <http://leipziger-ecken.de/Data/Adresse.282>, <http://leipziger-ecken.de/Data/Adresse.283>, <http://leipziger-ecken.de/Data/Adresse.284>, <http://leipziger-ecken.de/Data/Adresse.285>, <http://leipziger-ecken.de/Data/Adresse.286>, <http://leipziger-ecken.de/Data/Adresse.287>, <http://leipziger-ecken.de/Data/Adresse.288>, <http://leipziger-ecken.de/Data/Adresse.289>, <http://leipziger-ecken.de/Data/Adresse.290>, <http://leipziger-ecken.de/Data/Adresse.291>, <http://leipziger-ecken.de/Data/Adresse.293>, <http://leipziger-ecken.de/Data/Adresse.294>, <http://leipziger-ecken.de/Data/Adresse.295>, <http://leipziger-ecken.de/Data/Adresse.296>, <http://leipziger-ecken.de/Data/Adresse.322>, <http://leipziger-ecken.de/Data/Adresse.323>, <http://leipziger-ecken.de/Data/Adresse.324>, <http://leipziger-ecken.de/Data/Adresse.325>, <http://leipziger-ecken.de/Data/Adresse.326>, <http://leipziger-ecken.de/Data/Adresse.327>, <http://leipziger-ecken.de/Data/Adresse.328>, <http://leipziger-ecken.de/Data/Adresse.329>, <http://leipziger-ecken.de/Data/Adresse.338>, <http://leipziger-ecken.de/Data/Adresse.339>, <http://leipziger-ecken.de/Data/Adresse.340>, <http://leipziger-ecken.de/Data/Adresse.341>, <http://leipziger-ecken.de/Data/Adresse.342>, <http://leipziger-ecken.de/Data/Adresse.374>, <http://leipziger-ecken.de/Data/Adresse.375>, <http://leipziger-ecken.de/Data/Adresse.376>, <http://leipziger-ecken.de/Data/Adresse.377>, <http://leipziger-ecken.de/Data/Adresse.378>, <http://leipziger-ecken.de/Data/Adresse.379>, <http://leipziger-ecken.de/Data/Adresse.380>, <http://leipziger-ecken.de/Data/Adresse.381>, <http://leipziger-ecken.de/Data/Adresse.382>, <http://leipziger-ecken.de/Data/Adresse.393>, <http://leipziger-ecken.de/Data/Adresse.396>, <http://leipziger-ecken.de/Data/Adresse.397>, <http://leipziger-ecken.de/Data/Adresse.401>, <http://leipziger-ecken.de/Data/Adresse.402>, <http://leipziger-ecken.de/Data/Adresse.404>, <http://leipziger-ecken.de/Data/Adresse.405>, <http://leipziger-ecken.de/Data/Adresse.431>, <http://leipziger-ecken.de/Data/Adresse.471>, <http://leipziger-ecken.de/Data/Adresse.472>, <http://leipziger-ecken.de/Data/Adresse.477>, <http://leipziger-ecken.de/Data/Adresse.478>, <http://leipziger-ecken.de/Data/Adresse.479>, <http://leipziger-ecken.de/Data/Adresse.480>, <http://leipziger-ecken.de/Data/Adresse.481>, <http://leipziger-ecken.de/Data/Adresse.484>, <http://leipziger-ecken.de/Data/Adresse.485>, <http://leipziger-ecken.de/Data/Adresse.486>, <http://leipziger-ecken.de/Data/Adresse.487>, <http://leipziger-ecken.de/Data/Adresse.488>, <http://leipziger-ecken.de/Data/Adresse.489>, <http://leipziger-ecken.de/Data/Adresse.491>, <http://leipziger-ecken.de/Data/Adresse.492>, <http://leipziger-ecken.de/Data/Adresse.518>, <http://leipziger-ecken.de/Data/Adresse.519>, <http://leipziger-ecken.de/Data/Adresse.520>, <http://leipziger-ecken.de/Data/Adresse.521>, <http://leipziger-ecken.de/Data/Adresse.522>, <http://leipziger-ecken.de/Data/Adresse.524>, <http://leipziger-ecken.de/Data/Adresse.525>, <http://leipziger-ecken.de/Data/Adresse.526>, <http://leipziger-ecken.de/Data/Adresse.527>, <http://leipziger-ecken.de/Data/Adresse.528>, <http://leipziger-ecken.de/Data/Adresse.529>, <http://leipziger-ecken.de/Data/Adresse.530>, <http://leipziger-ecken.de/Data/Adresse.531>, <http://leipziger-ecken.de/Data/Adresse.541>, <http://leipziger-ecken.de/Data/Adresse.542>, <http://leipziger-ecken.de/Data/Adresse.543>, <http://leipziger-ecken.de/Data/Adresse.544>, <http://leipziger-ecken.de/Data/Adresse.545>, <http://leipziger-ecken.de/Data/Adresse.546>, <http://leipziger-ecken.de/Data/Adresse.547>, <http://leipziger-ecken.de/Data/Adresse.548>, <http://leipziger-ecken.de/Data/Adresse.549>, <http://leipziger-ecken.de/Data/Adresse.550>, <http://leipziger-ecken.de/Data/Adresse.551>, <http://leipziger-ecken.de/Data/Adresse.552>, <http://leipziger-ecken.de/Data/Adresse.553>, <http://leipziger-ecken.de/Data/Adresse.554>, <http://leipziger-ecken.de/Data/Adresse.555>, <http://leipziger-ecken.de/Data/Adresse.556>, <http://leipziger-ecken.de/Data/Adresse.557>, <http://leipziger-ecken.de/Data/Adresse.558>, <http://leipziger-ecken.de/Data/Adresse.86> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Reichpietschstrasse.>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Reichspietzstraße , 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.156> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Riebeckstrasse.51A>
+    gsp:asWKT "Point(12.402939 51.325975)", "Point(12.403205 51.326458)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Riebeckstraße 51 a, 04317 Leipzig", "Riebeckstraße 51a, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.100>, <http://leipziger-ecken.de/Data/Adresse.216>, <http://leipziger-ecken.de/Data/Adresse.220>, <http://leipziger-ecken.de/Data/Adresse.301>, <http://leipziger-ecken.de/Data/Adresse.302>, <http://leipziger-ecken.de/Data/Adresse.303>, <http://leipziger-ecken.de/Data/Adresse.304>, <http://leipziger-ecken.de/Data/Adresse.305>, <http://leipziger-ecken.de/Data/Adresse.306> .
+
+<http://leipzig-data.de/Data/04317.Leipzig.Stiftsstrasse.7>
+    gsp:asWKT "Point(12.398285 51.330501)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Stiftsstraße 7, 04317 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.214> .
+
+<http://leipzig-data.de/Data/04318.Leipzig.Gregor-Fuchs-Strasse.45>
+    gsp:asWKT "Point(12.418921 51.33645)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Gregor-Fuchs-Straße 45, 04318 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.209> .
+
+<http://leipzig-data.de/Data/04318.Leipzig.PuechauerStrasse.4>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Püchauer Straße 4, 04318 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.450> .
+
+<http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74>
+    gsp:asWKT "Point(12.420344 51.347524)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Torgauer Straße 74, 04318 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.239>, <http://leipziger-ecken.de/Data/Adresse.251>, <http://leipziger-ecken.de/Data/Adresse.252> .
+
+<http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74C>
+    gsp:asWKT "Point(12.420344 51.347524)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Torgauer Straße 74c, 04318 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.317>, <http://leipziger-ecken.de/Data/Adresse.318>, <http://leipziger-ecken.de/Data/Adresse.319>, <http://leipziger-ecken.de/Data/Adresse.330>, <http://leipziger-ecken.de/Data/Adresse.385>, <http://leipziger-ecken.de/Data/Adresse.406>, <http://leipziger-ecken.de/Data/Adresse.407>, <http://leipziger-ecken.de/Data/Adresse.473>, <http://leipziger-ecken.de/Data/Adresse.474>, <http://leipziger-ecken.de/Data/Adresse.475>, <http://leipziger-ecken.de/Data/Adresse.493>, <http://leipziger-ecken.de/Data/Adresse.498>, <http://leipziger-ecken.de/Data/Adresse.499> .
+
+<http://leipzig-data.de/Data/04329.Leipzig.Platanenstrasse.37>
+    gsp:asWKT "Point(12.4622847 51.355497)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Platanenstraße 37, 04329 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.159> .
+
+<http://leipzig-data.de/Data/04347.Leipzig.Ossietzkystrasse.37>
+    ld:hasAddressAddendum "Rathaus Schönefeld" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Ossietzkystraße 37, 04347 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.99> .
+
+<http://leipzig-data.de/Data/04347.Leipzig.Shukowstrasse.56>
+    gsp:asWKT "Point(12.4157 51.353317)" ;
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Shukowstraße 56, 04347 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.158> .
+
+<http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz.1>
+    a ld:LeipzigerAdresse ;
+    rdfs:label "Stannebeinplatz, 04347 Leipzig" ;
+    owl:sameAs <http://leipziger-ecken.de/Data/Adresse.101> .
 

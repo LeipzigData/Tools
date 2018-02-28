@@ -11,8 +11,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 
-
-
 <http://leipziger-ecken.de/Data/Adressen/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Leipziger Ecken - Adressen" .
@@ -79,8 +77,7 @@
 
 <http://leipziger-ecken.de/Data/Adresse/A65> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20> ;
-   rdfs:label "Hedwigstraße 20, 04315 Leipzig" ;
-   gsp:asWKT "Point(12.403096 51.346596)" . 
+   rdfs:label "Hedwigstraße 20, 04315 Leipzig" . 
 
 <http://leipziger-ecken.de/Data/Adresse/A66> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Hedwigstrasse.20> ;
@@ -294,8 +291,7 @@
 
 <http://leipziger-ecken.de/Data/Adresse/A133> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.66> ;
-   rdfs:label "Eisenbahnstraße 66, 04315 Leipzig" ;
-   gsp:asWKT "Point(12.40394 51.34563)" . 
+   rdfs:label "Eisenbahnstraße 66, 04315 Leipzig" . 
 
 <http://leipziger-ecken.de/Data/Adresse/A134> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Hedwigstrasse.20> ;
@@ -318,8 +314,7 @@
 
 <http://leipziger-ecken.de/Data/Adresse/A139> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.66> ;
-   rdfs:label "Eisenbahnstraße 66, 04315 Leipzig" ;
-   gsp:asWKT "Point(12.40394 51.34563)" . 
+   rdfs:label "Eisenbahnstraße 66, 04315 Leipzig" . 
 
 <http://leipziger-ecken.de/Data/Adresse/A140> a le:Adresse  ;
    le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.11> ;
@@ -1741,4 +1736,335 @@
    le:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74c> ;
    rdfs:label "Torgauer Straße 74c, 04318 Leipzig" ;
    gsp:asWKT "Point(12.420344 51.347524)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A494> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße 49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A495> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße  49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A496> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.52> ;
+   rdfs:label "Eisenbahnstraße 52, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402508 51.345039)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A497> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20> ;
+   rdfs:label "Hedwigstraße  20, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.40351 51.347481)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A498> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74C> ;
+   rdfs:label "Torgauer Straße 74C, 04318 Leipzig" ;
+   gsp:asWKT "Point(12.420344 51.347524)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A499> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.TorgauerStrasse.74C> ;
+   rdfs:label "Torgauer Straße 74C, 04318 Leipzig" ;
+   gsp:asWKT "Point(12.420344 51.347524)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A500> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A501> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A502> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A503> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A504> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A505> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A506> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20> ;
+   rdfs:label "Neustädter Straße 20, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.400749 51.348381)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A507> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hildegardstrasse.51> ;
+   rdfs:label "Hildegardstraße 51, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.40724 51.345897)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A508> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße  64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A509> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A510> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A511> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A512> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A513> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A514> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A515> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.64> ;
+   rdfs:label "Konradstraße 64, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.409998 51.344349)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A516> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A517> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A518> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A519> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A520> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A521> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A522> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A523> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.1> ;
+   rdfs:label "Mühlstraße 1, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.398461 51.330194)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A524> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A525> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A526> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A527> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A528> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A529> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A530> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A531> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.400762 51.330119)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A532> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A533> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A534> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A535> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Konradstrasse.62> ;
+   rdfs:label "Konradstraße 62, 04315 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A536> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße 49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A537> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße  49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A538> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße  49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A539> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Eisenbahnstrasse.49> ;
+   rdfs:label "Eisenbahnstraße 49, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.402248 51.345828)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A540> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/.Leipzig.Paulinenstrasse/Buelowstrasse.> ;
+   rdfs:label "Paulinenstraße / Bülowstraße ,  Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A541> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A542> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A543> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A544> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A545> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A546> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A547> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A548> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A549> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A550> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A551> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A552> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A553> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A554> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A555> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A556> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A557> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A558> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Muehlstrasse.14> ;
+   rdfs:label "Mühlstraße 14, 04317 Leipzig" ;
+   gsp:asWKT "Point(12.40078 51.330114)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A559> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/03417.Leipzig.Goeschenstrasse.2-4> ;
+   rdfs:label "Göschenstraße 2-4, 03417 Leipzig" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A560> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hedwigstrasse.20> ;
+   rdfs:label "Hedwigstraße 20, 04315 Leipzig" ;
+   gsp:asWKT "Point(12.403511 51.347473)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A561> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/03417.Leipzig.Goeschenstrasse.2-4> ;
+   rdfs:label "Göschenstraße 2-4, 03417 Leipzig" ;
+   gsp:asWKT "Point(12.396993 51.338304)" . 
+
+<http://leipziger-ecken.de/Data/Adresse/A562> a le:Adresse  ;
+   le:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Lessingstrasse.7> ;
+   rdfs:label "Lessingstraße  7, 04109 Leipzig" ;
+   gsp:asWKT "Point(12.366683 51.342066)" . 
 
