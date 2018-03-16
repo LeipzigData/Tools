@@ -93,6 +93,16 @@ function getData() {
     // Data extracted from email notifications
     return 
 '
+
+Akteur deaktiviert: WWF Jugend (Berlin, Franziska Losse) .  2018-03-14
+Neue Aktivität von Förderverein UiZ e.V. eingetragen. admin/users/11. events/1126. 2018-03-13
+Neue Aktivität von Ramona Strohwald eingetragen. admin/users/226. services/89. 2018-03-13
+Akteur hat sich registriert. Name: Ramona Strohwald  . 2018-03-13
+Akteur deaktiviert: Zoo Leipzig GmbH (Leipzig, Maik Haupt) .  2018-03-11
+Akteur deaktiviert: Leipziger Messe GmbH (Leipzig, Ekkehard Trümper) .  2018-03-10
+Akteur deaktiviert:  Netzwerk Gewaltfreie Kommunikation Leipzig e.V. (Leipzig, Janette Lemke) .  2018-03-07
+Neue Aktivität von Bildungsverein Parcours e.V. eingetragen. admin/users/170. events/1125. 2018-03-05
+Neue Aktivität von Luise Neugebauer Schmuck eingetragen. admin/users/183. stores/319. 2018-03-01
 Neue Aktivität von Ackerdemia e.V. eingetragen. admin/users/224. services/88. 2018-02-27
 Akteur hat sich registriert. Name: Ackerdemia e.V. . 2018-02-26
 Neue Aktivität von Delitzscher Land e.V eingetragen. admin/users/222. actions/67. 2018-02-26
