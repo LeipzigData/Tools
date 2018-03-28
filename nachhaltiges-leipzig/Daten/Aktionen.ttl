@@ -53,8 +53,8 @@ Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.""" ;
    nl:hasInfoURL <http://www.klassischekartoffelkonzerte.de> ;
    dct:created "2013-09-14" ;
    dct:modified "2015-11-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.15> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.15> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.10> ;
    nl:hasEventType "Aktion" . 
 
 <http://nachhaltiges-leipzig.de/Data/Aktion.5> a nl:Aktion  ;
@@ -66,8 +66,8 @@ Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne A
    nl:isPublished "1" ;
    dct:created "2013-09-19" ;
    dct:modified "2015-09-23" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.27> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.18> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.27> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.18> ;
    nl:hasEventType "Aktion" . 
 
 <http://nachhaltiges-leipzig.de/Data/Aktion.8> a nl:Aktion  ;
@@ -79,8 +79,8 @@ Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne A
    nl:hasDistrict "stadtweite Aktivität" ;
    dct:created "2013-09-27" ;
    dct:modified "2015-02-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.37> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.25> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.37> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.25> ;
    nl:hasEventType "Aktion" . 
 
 <http://nachhaltiges-leipzig.de/Data/Aktion.11> a nl:Aktion  ;
@@ -101,8 +101,8 @@ Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendun
    nl:hasInfoURL <http://www.zukunftsakademie-leipzig.de> ;
    dct:created "2015-07-20" ;
    dct:modified "2016-08-18" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.515> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.5> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.515> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.5> ;
    nl:hasEventType "Aktion" . 
 
 <http://nachhaltiges-leipzig.de/Data/Aktion.17> a nl:Aktion  ;
@@ -112,8 +112,8 @@ Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendun
    nl:hasInfoURL <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
    dct:created "2015-11-30" ;
    dct:modified "2017-07-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.572> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.138> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.572> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.138> ;
    nl:hasEventType "Aktion" . 
 
 <http://nachhaltiges-leipzig.de/Data/Aktion.19> a nl:Aktion  ;
@@ -138,7 +138,7 @@ Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der g
    nl:isPublished "1" ;
    dct:created "2017-06-08" ;
    dct:modified "2017-06-08" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.913> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.125> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.913> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.125> ;
    nl:hasEventType "Aktion" . 
 

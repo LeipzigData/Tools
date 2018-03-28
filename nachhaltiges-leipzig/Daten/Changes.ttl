@@ -18,3231 +18,505 @@
 
 
 
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10001> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.629> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10002> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.630> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10003> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.631> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10004> a nl:ChangeEntry ;
- nl:Akteur "Bürgerverein Sellerhausen-Stünz" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10005> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.187> ;
- nl:Akteur "Bürgerverein Sellerhausen-Stünz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.632> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10006> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.633> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10007> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.187> ;
- nl:Akteur "Bürgerverein Sellerhausen-Stünz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.64> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10008> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.187> ;
- nl:Akteur "Bürgerverein Sellerhausen-Stünz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.635> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10009> a nl:ChangeEntry ;
- nl:Akteur "Botanischer Garten der Universität Leipzig" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10010> a nl:ChangeEntry ;
- nl:Akteur "Paula Hofmann" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10011> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.189> ;
- nl:Akteur "Paula Hofmann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.636> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10012> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.637> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10013> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.638> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10014> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.639> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10015> a nl:ChangeEntry ;
- nl:Akteur "Anja Hümmer" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10016> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.190> ;
- nl:Akteur "Anja Hümmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.640> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10017> a nl:ChangeEntry ;
- nl:Akteur "Fabian Sachsenröder" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10018> a nl:ChangeEntry ;
- nl:Akteur "Winter Catherine" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10019> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.192> ;
- nl:Akteur "Winter Catherine" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.641> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10020> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.192> ;
- nl:Akteur "Winter Catherine" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.642> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10021> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.192> ;
- nl:Akteur "Winter Catherine" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.643> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10022> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.644> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10023> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.645> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10024> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.646> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10025> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.647> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10026> a nl:ChangeEntry ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10027> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.648> ;
- dct:created "2018-02-01" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10028> a nl:ChangeEntry ;
- nl:Akteur "Stadtverband Leipzig der Kleingärtner e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-02" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10029> a nl:ChangeEntry ;
- nl:Akteur "Dirk Scheffler" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-02" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10030> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.195> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.649> ;
- dct:created "2018-02-02" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10031> a nl:ChangeEntry ;
- nl:Akteur "Biomare II GmbH" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-02" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10032> a nl:ChangeEntry ;
- nl:Akteur "erleb-bar" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-02" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10033> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.650> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10034> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.655> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10035> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.659> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10036> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.663> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10037> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.665> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10038> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.667> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10039> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.669> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10040> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.670> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10041> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.675> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10042> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.677> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10043> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.678> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10044> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.679> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10045> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.680> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10046> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.681> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10047> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.186> ;
- nl:Akteur "Natur- und Wildnisschule" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.682> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10048> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.683> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10049> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.684> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10050> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.685> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10051> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.686> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10052> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.687> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10053> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.688> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10054> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.689> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10055> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.690> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10056> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.691> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10057> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.692> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10058> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.693> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10059> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.694> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10060> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.695> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10061> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.696> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10062> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.197> ;
- nl:Akteur "erleb-bar" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.697> ;
- dct:created "2018-02-04" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10063> a nl:ChangeEntry ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10064> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <projects/109> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10065> a nl:ChangeEntry ;
- nl:Akteur "Michael Schaaf" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10066> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.698> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10067> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.199> ;
- nl:Akteur "Michael Schaaf" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.699> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10068> a nl:ChangeEntry ;
- nl:Akteur "Stadtverband Leipzig der Kleingärtner e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10069> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.700> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10070> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.200> ;
- nl:Akteur "Stadtverband Leipzig der Kleingärtner" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.701> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10071> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.702> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10072> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.703> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10073> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <projects/110> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10074> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.704> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10075> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.705> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10076> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.706> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10077> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.707> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10078> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.708> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10079> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.709> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10080> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.710> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10081> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.198> ;
- nl:Akteur "Dt. Kleingärtnermuseum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.711> ;
- dct:created "2018-02-05" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10082> a nl:ChangeEntry ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10083> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.24> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10084> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.712> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10085> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.713> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10086> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.714> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10087> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.715> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10088> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
- nl:Akteur "Gohliser Verein zur Förderungen Kunst und Kultur" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.25> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10089> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.716> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10090> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.717> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10091> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.26> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10092> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.718> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10093> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.27> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10094> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.28> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10095> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.719> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10096> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.29> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10097> a nl:ChangeEntry ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10098> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.720> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10099> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.721> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10100> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.722> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10101> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.723> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10102> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.724> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10103> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.725> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10104> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.726> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10105> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.727> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10106> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.728> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10107> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.729> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10108> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.730> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10109> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.731> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10110> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.732> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10111> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.733> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10112> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.734> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10113> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.735> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10114> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.736> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10115> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.737> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10116> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.738> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10117> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.739> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10118> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.740> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10119> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.30> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10120> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.741> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10121> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.742> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10122> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.743> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10123> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.744> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10124> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.745> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10125> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.746> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10126> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.747> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10127> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.748> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10128> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.749> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10129> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.750> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10130> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.751> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10131> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.752> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10132> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.753> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10133> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.754> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10134> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.755> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10135> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.756> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10136> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.757> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10137> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
- nl:Akteur "Botanischer Garten Großpösna-Oberholz" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.758> ;
- dct:created "2018-02-06" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10138> a nl:ChangeEntry ;
- nl:Akteur "Hörspielsommer e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10139> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.203> ;
- nl:Akteur "Hörspielsommer e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.759> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10140> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.190> ;
- nl:Akteur "Anja Hümmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.760> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10141> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.190> ;
- nl:Akteur "Anja Hümmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.761> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10142> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.190> ;
- nl:Akteur "Anja Hümmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.762> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10143> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.190> ;
- nl:Akteur "Anja Hümmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.763> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10144> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <action/31> ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10145> a nl:ChangeEntry ;
- nl:Akteur "Wilde Leipziger" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-07" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10146> a nl:ChangeEntry ;
- nl:Akteur "Förderverein \"Umweltinformationszentrum Leipzig - UiZ\" e.V." ;
- nl:Kontakt "Annette Körner" ;
- nl:Aktivitaet "deactivated" ;
- dct:created "2018-02-08" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10147> a nl:ChangeEntry ;
- nl:Akteur "Stadt Delitzsch" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-08" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10148> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.205> ;
- nl:Akteur "Stadt Delitzsch" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.764> ;
- dct:created "2018-02-08" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10149> a nl:ChangeEntry ;
- nl:Akteur "Graeske" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-08" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10150> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.206> ;
- nl:Akteur "Graeske" ;
- nl:linksTo <projects/111> ;
- dct:created "2018-02-08" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10151> a nl:ChangeEntry ;
- nl:Akteur "Cafe. Restaurant. Symbiose" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10152> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.207> ;
- nl:Akteur "Cafe. Restaurant. Symbiose" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Store.318> ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10153> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
- nl:Akteur "Konzeptwerk Neue Ökonomie" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.765> ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10154> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
- nl:Akteur "Konzeptwerk Neue Ökonomie" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.766> ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10155> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
- nl:Akteur "Konzeptwerk Neue Ökonomie" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.767> ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10156> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
- nl:Akteur "Konzeptwerk Neue Ökonomie" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.768> ;
- dct:created "2018-02-09" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10157> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
- nl:Akteur "Der Lindentaler" ;
- nl:linksTo <projects/112> ;
- dct:created "2018-02-10" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10158> a nl:ChangeEntry ;
- nl:Akteur "Blütenreich" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-10" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10159> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.208> ;
- nl:Akteur "Blütenreich" ;
- nl:linksTo <projects/113> ;
- dct:created "2018-02-10" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10160> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.769> ;
- dct:created "2018-02-11" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10161> a nl:ChangeEntry ;
- nl:Akteur "Notenspur Leipzig e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-12" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10162> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.209> ;
- nl:Akteur "Notenspur Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.770> ;
- dct:created "2018-02-12" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10163> a nl:ChangeEntry ;
- nl:Akteur "Querbeet Leipzig e.V." ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10164> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.771> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10165> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.772> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10166> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.773> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10167> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.774> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10168> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.775> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10169> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.776> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10170> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.210> ;
- nl:Akteur "Querbeet Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.777> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10171> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.778> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10172> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.779> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10173> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.210> ;
- nl:Akteur "Querbeet Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.780> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10174> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.781> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10175> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.210> ;
- nl:Akteur "Querbeet Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.782> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10176> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.783> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10177> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.784> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10178> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.785> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10179> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.786> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10180> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.787> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10181> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.788> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10182> a nl:ChangeEntry ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10183> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.789> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10184> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <projects/114> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10185> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.790> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10186> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.791> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10187> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.792> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10188> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.793> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10189> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.794> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10190> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.795> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10191> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.796> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10192> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.797> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10193> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.798> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10194> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.799> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10195> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.800> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10196> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.801> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10197> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.802> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10198> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.803> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10199> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.804> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10200> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.805> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10201> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.806> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10202> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.807> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10203> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.808> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10204> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.210> ;
- nl:Akteur "Querbeet Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.809> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10205> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.810> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10206> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.811> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10207> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.812> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10208> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.813> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10209> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.814> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10210> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.815> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10211> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.67> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10212> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.68> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10213> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.69> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10214> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.211> ;
- nl:Akteur "GRASSI Museum für Angewandte Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.816> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10215> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.70> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10216> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.188> ;
- nl:Akteur "Botanischer garten der Universität Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.71> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10217> a nl:ChangeEntry ;
- nl:Akteur "Galerie für Zeitgenössische Kunst" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10218> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.212> ;
- nl:Akteur "Galerie für Zeitgenössische Kunst" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.817> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10219> a nl:ChangeEntry ;
- nl:Akteur "GRÜNE LIGA Kohrener Land" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10220> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.213> ;
- nl:Akteur "GRÜNE LIGA Kohrener Land" ;
- nl:linksTo <actopns/32> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10221> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.818> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10222> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.819> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10223> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.820> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10224> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.821> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10225> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.822> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10226> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.823> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10227> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.824> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10228> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.825> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10229> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.826> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10230> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.827> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10231> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.828> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10232> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.193> ;
- nl:Akteur "Park- und Stadtführerin Daniela Neumann" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.829> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10233> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.830> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10234> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.831> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10235> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.832> ;
- dct:created "2018-02-13" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10236> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.833> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10237> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.834> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10238> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.835> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10239> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.836> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10240> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.837> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10241> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.838> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10242> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.839> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10243> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.840> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10244> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Food Assembly Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.841> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10245> a nl:ChangeEntry ;
- nl:Akteur "Zoo Leipzig GmbH" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10246> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.214> ;
- nl:Akteur "Zoo Leipzig GmbH" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.842> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10247> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.843> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10248> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.844> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10249> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.845> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10250> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.846> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10251> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.847> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10252> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.848> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10253> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.849> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10254> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.850> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10255> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.851> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10256> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.852> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10257> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.853> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10258> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.854> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10259> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.855> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10260> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.856> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10261> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.857> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10262> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.858> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10263> a nl:ChangeEntry ;
- nl:Akteur "Cammerspiele Leipzig" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10264> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.215> ;
- nl:Akteur "Cammerspiele Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.859> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10265> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.69> ;
- nl:Akteur "Ökolöwe - Umweltbund Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.860> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10266> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.69> ;
- nl:Akteur "Ökolöwe - Umweltbund Leipzig e.V." ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.861> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10267> a nl:ChangeEntry ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10268> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.141> ;
- nl:Akteur "Marktschwärmer" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.862> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10269> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.204> ;
- nl:Akteur "Wilde Leipziger" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.863> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10270> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.214> ;
- nl:Akteur "Zoo Leipzig GmbH" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.864> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10271> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.214> ;
- nl:Akteur "Zoo Leipzig GmbH" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.865> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10272> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.214> ;
- nl:Akteur "Zoo Leipzig GmbH" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.866> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10273> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/33> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10274> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/34> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10275> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/35> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10276> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/36> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10277> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/37> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10278> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/38> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10279> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/39> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10280> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <action/40> ;
- dct:created "2018-02-14" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10281> a nl:ChangeEntry ;
- nl:Akteur "Konzeptwerk Neue Ökonomie" ;
- nl:Kontakt "Susanne Brehm" ;
- nl:Aktivitaet "deactivated" ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10282> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.867> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10283> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.868> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10284> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.869> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10285> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.870> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10286> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.871> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10287> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.872> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10288> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.873> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10289> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.874> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10290> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.875> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10291> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.876> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10292> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.72> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10293> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.73> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10294> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.149> ;
- nl:Akteur "Verein der Freunde und Förderer des Wildparks" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.74> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10295> a nl:ChangeEntry ;
- nl:Akteur "agra-Park" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10296> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.877> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10297> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.878> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10298> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.879> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10299> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.880> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10300> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.881> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10301> a nl:ChangeEntry ;
- nl:Akteur "mobile- apfelquetsche" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10302> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.882> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10303> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.883> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10304> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.884> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10305> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.885> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10306> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.886> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10307> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.887> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10308> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.888> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10309> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.889> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10310> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.890> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10311> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.891> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10312> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.892> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10313> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.893> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10314> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.894> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10315> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.895> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10316> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.896> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10317> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.897> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10318> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.898> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10319> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.899> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10320> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.900> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10321> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.901> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10322> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.902> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10323> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.903> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10324> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.904> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10325> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.905> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10326> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.906> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10327> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.907> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10328> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
- nl:Akteur "Vier Fährten" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.908> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10329> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.909> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10330> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.910> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10331> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.911> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10332> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.202> ;
- nl:Akteur "Zentrum für Fermentation" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.912> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10333> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.913> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10334> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.914> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10335> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.915> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10336> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.916> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10337> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.917> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10338> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.918> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10339> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.919> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10340> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.920> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10341> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.921> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10342> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.922> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10343> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.923> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10344> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.924> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10345> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.925> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10346> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.926> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10347> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.927> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10348> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.928> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10349> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.929> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10350> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.930> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10351> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.931> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10352> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.932> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10353> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.933> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10354> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.934> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10355> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.935> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10356> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.936> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10357> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.937> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10358> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.938> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10359> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.939> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10360> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.940> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10361> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.941> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10362> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.942> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10363> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.943> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10364> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.944> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10365> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.945> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10366> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.946> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10367> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.947> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10368> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.948> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10369> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.949> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10370> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.950> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10371> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.951> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10372> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.952> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10373> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.953> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10374> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.954> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10375> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.955> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10376> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.956> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10377> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.957> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10378> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
- nl:Akteur "ADFC Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.958> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10379> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.959> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10380> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.960> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10381> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.961> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10382> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.962> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10383> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.963> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10384> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.964> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10385> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.965> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10386> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.966> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10387> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.967> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10388> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.968> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10389> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.969> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10390> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.970> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10391> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.971> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10392> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.972> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10393> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.973> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10394> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.974> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10395> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.975> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10396> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.976> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10397> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.977> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10398> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.978> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10399> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.979> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10400> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.980> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10401> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.981> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10402> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.982> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10403> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.983> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10404> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.984> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10405> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.985> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10406> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.986> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10407> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.987> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10408> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.988> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10409> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.989> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10410> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.990> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10411> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.991> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10412> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.992> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10413> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.993> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10414> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.994> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10415> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.995> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10416> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.996> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10417> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.997> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10418> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.998> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10419> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.999> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10420> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1000> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10421> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.217> ;
- nl:Akteur "agra-Park" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1001> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10422> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1002> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10423> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.42> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10424> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1003> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10425> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.43> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10426> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1004> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10427> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1005> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10428> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1006> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10429> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1007> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10430> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.44> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10431> a nl:ChangeEntry ;
- nl:Akteur "Solidarische Feldwirtschaft" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10432> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1008> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10433> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.219> ;
- nl:Akteur "Solidarische Feldwirtschaft" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1009> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10434> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1010> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10435> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1011> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10436> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1012> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10437> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1013> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10438> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1014> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10439> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1015> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10440> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.45> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10441> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1016> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10442> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.46> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10443> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.47> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10444> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1017> ;
- dct:created "2018-02-15" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10445> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1018> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10446> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1019> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10447> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1020> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10448> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.48> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10449> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.75> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10450> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1021> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10451> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1022> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10452> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1023> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10453> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1024> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10454> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.49> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10455> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1025> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10456> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1026> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10457> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.76> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10458> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
- nl:Akteur "BUND Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1027> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10459> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.76> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10460> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.77> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10461> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.78> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10462> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.79> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10463> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.80> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10464> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.81> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10465> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.82> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10466> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.83> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10467> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.84> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10468> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.85> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10469> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
- nl:Akteur "Stadt Leipzig Umweltinformationszentrum" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.86> ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10470> a nl:ChangeEntry ;
- nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-16" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10471> a nl:ChangeEntry ;
- nl:Akteur "Nextleipzig" ;
- nl:Kontakt "Peter Hartmann" ;
- nl:Aktivitaet "deactivated" ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10472> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1028> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10473> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1029> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10474> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.51> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10475> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.52> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10476> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1030> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10477> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1031> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10478> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1032> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10479> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1033> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10480> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1034> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10481> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1035> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10482> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1036> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10483> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1037> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10484> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1038> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10485> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1039> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10486> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.53> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10487> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1040> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10488> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1041> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10489> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1042> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10490> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.54> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10491> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.55> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10492> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1043> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10493> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1044> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10494> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1045> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10495> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.56> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10496> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1046> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10497> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1047> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10498> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1048> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10499> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1049> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10500> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.57> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10501> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1050> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10502> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.58> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10503> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.59> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10504> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.60> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10505> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1051> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10506> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.61> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10507> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1052> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10508> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.62> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10509> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1053> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10510> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.63> ;
- dct:created "2018-02-17" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10511> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
- nl:Akteur "Der Lindentaler" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1054> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10512> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.208> ;
- nl:Akteur "Blütenreich" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1055> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10513> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1056> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10514> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1057> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10515> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1058> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10516> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1059> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10517> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1060> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10518> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1061> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10519> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1062> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10520> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1063> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10521> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
- nl:Akteur "Ölmühle Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1064> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10522> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1065> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10523> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1066> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10524> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1067> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10525> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1068> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10526> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1069> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10527> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.64> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10528> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1070> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10529> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.65> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10530> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
- nl:Akteur "NABU-Regionalverband Leipzig" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.66> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10531> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
- nl:Akteur "Gemeinsam Wandeln" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.87> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10532> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.208> ;
- nl:Akteur "Blütenreich" ;
- nl:linksTo <projects/115> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10533> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.208> ;
- nl:Akteur "Blütenreich" ;
- nl:linksTo <projects/116> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10534> a nl:ChangeEntry ;
- nl:Akteur "heldenküche" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10535> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.208> ;
- nl:Akteur "Blütenreich" ;
- nl:linksTo <projects/117> ;
- dct:created "2018-02-18" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10536> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
- nl:Akteur "heldenküche" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1071> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10537> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
- nl:Akteur "heldenküche" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1072> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10538> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
- nl:Akteur "heldenküche" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1073> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10539> a nl:ChangeEntry ;
- nl:Akteur "Delitzscher Land e.V" ;
- nl:Aktivitaet "registered" ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10540> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
- nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1074> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10541> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
- nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1075> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10542> a nl:ChangeEntry ;
- nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
- nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
- nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1076> ;
- dct:created "2018-02-19" . 
-
-<http://nachhaltiges-leipzig.de/Data/ChangeEntry.10543> a nl:ChangeEntry ;
- nl:Akteur "Carina Flores de Looß" ;
- nl:Kontakt "Carina Flores de Looß" ;
- nl:Aktivitaet "deactivated" ;
- dct:created "2018-02-19" . 
-
-
-
-
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2001> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
+  nl:Akteur "heldenküche" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/heldenkueche> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1071> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2002> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
+  nl:Akteur "heldenküche" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/heldenkueche> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1072> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2003> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.221> ;
+  nl:Akteur "heldenküche" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/heldenkueche> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1073> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2004> a nl:ChangeEntry ;
+  nl:Akteur "Delitzscher Land e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DelitzscherLand> ;
+  nl:Aktivitaet "registered" ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2005> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
+  nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/MagistralenmanagementGeorgSchumannStrasse> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1074> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2006> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
+  nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/MagistralenmanagementGeorgSchumannStrasse> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1075> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2007> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.220> ;
+  nl:Akteur "Magistralenmanagement Georg-Schumann-Straße" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/MagistralenmanagementGeorgSchumannStrasse> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1076> ;
+  dct:created "2018-02-19" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2008> a nl:ChangeEntry ;
+  nl:Akteur "Carina Flores de Looß" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/CarinaFloresdeLooss> ;
+  nl:Kontakt "Carina Flores de Looß" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2009> a nl:ChangeEntry ;
+  nl:Akteur "ANNALINDE Akademie" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEAkademie> ;
+  nl:Aktivitaet "registered" ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2010> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Projekt.118> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2011> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1077> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2012> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.78> ;
+  nl:Akteur "Projekt \"Lebendige Luppe\"" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ProjektLebendigeLuppe> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1078> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2013> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1078> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2014> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1079> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2015> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1080> ;
+  dct:created "2018-02-21" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2016> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1081> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2017> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1082> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2018> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1083> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2019> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1084> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2020> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1085> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2021> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1086> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2022> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1087> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2023> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1088> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2024> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1089> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2025> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1090> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2026> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1091> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2027> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1092> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2028> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1093> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2029> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1094> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2030> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1095> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2031> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1096> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2032> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1097> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2033> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1098> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2034> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1099> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2035> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1100> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2036> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1101> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2037> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.179> ;
+  nl:Akteur "DGGL Sachsen" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DGGLSachsen> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1102> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2038> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1103> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2039> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1104> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2040> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1105> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2041> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1106> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2042> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1107> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2043> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1108> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2044> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1109> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2045> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1110> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2046> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1111> ;
+  dct:created "2018-02-22" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2047> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1112> ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2048> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1113> ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2049> a nl:ChangeEntry ;
+  nl:Akteur "Bio Tempel" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/BioTempel> ;
+  nl:Kontakt "Christel Wust" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2050> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.168> ;
+  nl:Akteur "GeoWerkstatt Leipzig e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/GeoWerkstattLeipzig> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1114> ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2051> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.168> ;
+  nl:Akteur "GeoWerkstatt Leipzig e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/GeoWerkstattLeipzig> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1115> ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2052> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.168> ;
+  nl:Akteur "GeoWerkstatt Leipzig e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/GeoWerkstattLeipzig> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1116> ;
+  dct:created "2018-02-23" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2053> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1117> ;
+  dct:created "2018-02-24" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2054> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1118> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2055> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1119> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2056> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1120> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2057> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1121> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2058> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1122> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2059> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
+  nl:Akteur "ANNALINDE gGmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ANNALINDEg> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1123> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2060> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
+  nl:Akteur "ernte-mich" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/erntemich> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1124> ;
+  dct:created "2018-02-25" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2061> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.222> ;
+  nl:Akteur "Delitzscher Land e.V" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/DelitzscherLande.V> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Action.67> ;
+  dct:created "2018-02-26" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2062> a nl:ChangeEntry ;
+  nl:Akteur "Ackerdemia e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/Ackerdemia> ;
+  nl:Aktivitaet "registered" ;
+  dct:created "2018-02-26" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2063> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.224> ;
+  nl:Akteur "Ackerdemia e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/Ackerdemia> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.88> ;
+  dct:created "2018-02-27" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2064> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.183> ;
+  nl:Akteur "Luise Neugebauer Schmuck" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/LuiseNeugebauerSchmuck> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Store.319> ;
+  dct:created "2018-03-01" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2065> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.170> ;
+  nl:Akteur "Bildungsverein Parcours e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/BildungsvereinParcours> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1125> ;
+  dct:created "2018-03-05" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2066> a nl:ChangeEntry ;
+  nl:Akteur "Netzwerk Gewaltfreie Kommunikation Leipzig e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/NetzwerkGewaltfreieKommunikationLeipzig> ;
+  nl:Kontakt "Janette Lemke" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-03-07" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2067> a nl:ChangeEntry ;
+  nl:Akteur "Leipziger Messe GmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/LeipzigerMesse> ;
+  nl:Kontakt "Ekkehard Trümper" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-03-10" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2068> a nl:ChangeEntry ;
+  nl:Akteur "Zoo Leipzig GmbH" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/ZooLeipzig> ;
+  nl:Kontakt "Maik Haupt" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-03-11" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2069> a nl:ChangeEntry ;
+  nl:Akteur "Ramona Strohwald" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/RamonaStrohwald> ;
+  nl:Aktivitaet "registered" ;
+  dct:created "2018-03-13" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2070> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.226> ;
+  nl:Akteur "Ramona Strohwald" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/RamonaStrohwald> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Service.89> ;
+  dct:created "2018-03-13" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2071> a nl:ChangeEntry ;
+  nl:User <http://nachhaltiges-leipzig.de/Data/Akteur.11> ;
+  nl:Akteur "Förderverein UiZ e.V." ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/FoerdervereinUiZ> ;
+  nl:linksTo <http://nachhaltiges-leipzig.de/Data/Event.1126> ;
+  dct:created "2018-03-13" . 
+
+<http://nachhaltiges-leipzig.de/Data/ChangeEntry.2072> a nl:ChangeEntry ;
+  nl:Akteur "WWF Jugend" ;
+  ld:proposedURI <http://leipzig-data.de/Data/Akteur/WWFJugend> ;
+  nl:Kontakt "Franziska Losse" ;
+  nl:Aktivitaet "deactivated" ;
+  dct:created "2018-03-14" . 
 
 
 

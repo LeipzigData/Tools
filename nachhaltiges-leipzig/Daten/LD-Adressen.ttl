@@ -818,7 +818,7 @@
    ld:hasHouseNumber "11" ;
    gsp:asWKT "Point(12.3771 51.3079)" . 
 
-<http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111> a ld:LeipzigerAdresse  ;
+<http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> a ld:LeipzigerAdresse  ;
    rdfs:label "Leipzig, Stockartstraße 111" ;
    ld:hasCity "Leipzig" ;
    ld:hasStreet "Stockartstraße" ;

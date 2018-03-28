@@ -29,8 +29,8 @@
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2013-09-17" ;
    dct:modified "2015-02-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.21> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.13> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.21> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.13> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.4> a nl:Service  ;
@@ -45,8 +45,8 @@
    nl:hasServiceType "Workshop" ;
    dct:created "2013-09-17" ;
    dct:modified "2014-10-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.22> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.13> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.22> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.13> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.5> a nl:Service  ;
@@ -60,8 +60,8 @@
    nl:isPublished "1" ;
    dct:created "2013-09-27" ;
    dct:modified "2017-06-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.38> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.24> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.38> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.24> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.6> a nl:Service  ;
@@ -86,8 +86,8 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:isPublished "1" ;
    dct:created "2013-09-30" ;
    dct:modified "2017-01-17" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.41> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.41> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.7> a nl:Service  ;
@@ -111,8 +111,8 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasDistrict "Dölitz-Dösen" ;
    dct:created "2013-10-25" ;
    dct:modified "2015-07-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.47> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.47> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.9> a nl:Service  ;
@@ -127,8 +127,8 @@ Wir sind aber auch offen für besondere Wünsche oder Themensetzungen von Kooper
    nl:hasDistrict "Dölitz-Dösen" ;
    dct:created "2013-10-25" ;
    dct:modified "2015-07-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.48> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.48> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.10> a nl:Service  ;
@@ -145,8 +145,8 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasDistrict "Dölitz-Dösen" ;
    dct:created "2013-10-25" ;
    dct:modified "2015-07-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.49> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.16> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.49> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.16> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.11> a nl:Service  ;
@@ -164,8 +164,8 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2013-11-05" ;
    dct:modified "2016-06-20" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.55> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.33> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.55> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.33> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.12> a nl:Service  ;
@@ -183,8 +183,8 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2013-11-13" ;
    dct:modified "2015-03-18" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.56> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.34> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.56> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.34> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.13> a nl:Service  ;
@@ -197,8 +197,8 @@ Nach der interessanten und aufregenden Entdeckungstour, backen wir mit den Kinde
    nl:hasServiceType "Unterrichtseinheit" ;
    dct:created "2013-12-05" ;
    dct:modified "2016-11-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.60> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.60> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.14> a nl:Service  ;
@@ -215,8 +215,8 @@ Zum Abschluss erzählen wir auch gerne mit ein paar Bildern von unseren Reiseerf
    nl:hasInfoURL <http://bildungsagenten.com/category/bildungskoffer/welthandel-und-fairtrade/> ;
    dct:created "2013-12-16" ;
    dct:modified "2016-01-17" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.65> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.40> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.65> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.40> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.15> a nl:Service  ;
@@ -246,8 +246,8 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
    nl:hasDistrict "Lindenau" ;
    dct:created "2013-12-19" ;
    dct:modified "2015-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.69> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.69> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.32> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.16> a nl:Service  ;
@@ -274,8 +274,8 @@ Wir kommen gern bei Ihnen vorbei - oder Sie können uns im Café kaputt besuchen
    nl:hasDistrict "Lindenau" ;
    dct:created "2013-12-19" ;
    dct:modified "2015-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.70> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.70> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.32> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.17> a nl:Service  ;
@@ -308,8 +308,8 @@ Für wen:
    nl:hasInfoURL <http://www.projektup.org/methoden/dragon-dreaming/> ;
    dct:created "2014-04-09" ;
    dct:modified "2016-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.82> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.49> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.82> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.49> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.18> a nl:Service  ;
@@ -322,8 +322,8 @@ Preis: nach Absprache der jeweiligen Bedürfnisse, buchbar als Design Thinking J
    nl:hasInfoURL <http://www.projektup.org/methoden/design-thinking/> ;
    dct:created "2014-04-09" ;
    dct:modified "2016-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.83> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.49> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.83> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.49> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.22> a nl:Service  ;
@@ -347,8 +347,8 @@ E-Mail: info@einewelt-leipzig.de""" ;
    nl:isPublished "1" ;
    dct:created "2014-05-09" ;
    dct:modified "2016-09-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.89> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.50> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.89> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.50> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.23> a nl:Service  ;
@@ -375,8 +375,8 @@ An den Zinsen verdienen nur 10 % der Bevölkerung. 90 % der Menschen verlieren �
    nl:hasDistrict "stadtweite Aktivität" ;
    dct:created "2014-06-16" ;
    dct:modified "2015-10-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.93> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.53> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.93> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.53> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.24> a nl:Service  ;
@@ -398,8 +398,8 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
    nl:hasDistrict "Lützschena-Stahmeln" ;
    dct:created "2014-06-24" ;
    dct:modified "2016-11-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.94> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.94> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.25> a nl:Service  ;
@@ -414,8 +414,8 @@ Die Unterrichtseinheit gestaltet sich sehr abwechslungsreich durch viele Experim
    nl:hasDistrict "Lützschena-Stahmeln" ;
    dct:created "2014-06-24" ;
    dct:modified "2016-11-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.95> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.15> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.95> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.15> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.26> a nl:Service  ;
@@ -430,8 +430,8 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
    nl:hasDistrict "Gohlis-Mitte" ;
    dct:created "2014-07-25" ;
    dct:modified "2017-08-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.99> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.56> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.99> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.56> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.28> a nl:Service  ;
@@ -447,8 +447,8 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
    nl:hasDistrict "Lindenau" ;
    dct:created "2014-09-10" ;
    dct:modified "2016-11-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.130> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.63> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.130> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.63> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.30> a nl:Service  ;
@@ -467,8 +467,8 @@ mit einer Kaffeeverkostung ausklingen lassen.""" ;
    nl:hasDistrict "Connewitz" ;
    dct:created "2015-04-18" ;
    dct:modified "2016-05-18" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.378> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.120> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.378> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.120> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.32> a nl:Service  ;
@@ -502,8 +502,8 @@ Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten,
    nl:hasInfoURL <http://heilpraktikerinkatimagyar.blogspot.de/p/monatsbriefe-jahresrundgang.html> ;
    dct:created "2015-09-18" ;
    dct:modified "2015-09-18" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.532> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.136> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.532> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.136> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.33> a nl:Service  ;
@@ -515,8 +515,8 @@ Wenn Sie sich oder eine andere Person für den Jahresrundgang anmelden möchten,
    nl:hasInfoURL <http://www.freigeist-leipzig.de> ;
    dct:created "2015-09-24" ;
    dct:modified "2016-09-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.535> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.137> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.535> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.137> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.34> a nl:Service  ;
@@ -542,8 +542,8 @@ Wohlfühlen.""" ;
    nl:isPublished "1" ;
    dct:created "2015-12-15" ;
    dct:modified "2015-12-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.580> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.580> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.10> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.38> a nl:Service  ;
@@ -564,8 +564,8 @@ Treffen: 14.45 Uhr Parkplatz Gustav-Esche-Str. 1a (Ecke Am Ritterschlösschen)""
    nl:isPublished "1" ;
    dct:created "2016-06-01" ;
    dct:modified "2016-06-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.634> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.73> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.634> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.40> a nl:Service  ;
@@ -590,8 +590,8 @@ Unsere Referent*innen haben  Freiwilligendienste im globalen Süden absolviert u
    nl:isPublished "1" ;
    dct:created "2016-08-05" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.656> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.150> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.656> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.150> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.41> a nl:Service  ;
@@ -611,8 +611,8 @@ Der Pitch findet am 08.12.2016 statt.""" ;
    nl:isPublished "1" ;
    dct:created "2016-09-14" ;
    dct:modified "2016-09-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.673> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.96> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.673> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.96> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.42> a nl:Service  ;
@@ -635,8 +635,8 @@ https://www.endlich-wachstum.de/hefte-bestellen/""" ;
    nl:isPublished "1" ;
    dct:created "2017-01-17" ;
    dct:modified "2017-01-17" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.811> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.811> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.43> a nl:Service  ;
@@ -660,8 +660,8 @@ Die Servicestelle der Freiwilligen-Agentur Leipzig unterstützt gemeinnützige O
    nl:isPublished "1" ;
    dct:created "2017-02-07" ;
    dct:modified "2017-02-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.816> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.87> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.816> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.87> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.45> a nl:Service  ;
@@ -684,8 +684,8 @@ Telefon: 0341 99 59 650""" ;
    nl:isPublished "1" ;
    dct:created "2017-04-25" ;
    dct:modified "2017-04-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.843> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.162> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.843> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.162> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.46> a nl:Service  ;
@@ -701,8 +701,8 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:isPublished "1" ;
    dct:created "2017-04-25" ;
    dct:modified "2017-04-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.844> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.844> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.47> a nl:Service  ;
@@ -716,8 +716,8 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:isPublished "1" ;
    dct:created "2017-04-25" ;
    dct:modified "2017-04-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.845> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.845> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.48> a nl:Service  ;
@@ -731,8 +731,8 @@ Die Kurse haben einen Gesamtumfang von 28 UE (14 x 2 UE) und können zeitlich so
    nl:isPublished "1" ;
    dct:created "2017-04-25" ;
    dct:modified "2017-04-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.846> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.163> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.846> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.163> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.49> a nl:Service  ;
@@ -753,8 +753,8 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:isPublished "1" ;
    dct:created "2017-04-27" ;
    dct:modified "2017-04-27" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.847> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.26> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.847> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.26> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.50> a nl:Service  ;
@@ -769,8 +769,8 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-04" ;
    dct:modified "2017-05-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.850> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.160> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.850> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.160> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.51> a nl:Service  ;
@@ -787,8 +787,8 @@ Fächerverbindender Unterricht ->thematische Bereiche ->Natur, Umwelt""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-04" ;
    dct:modified "2017-05-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.851> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.160> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.851> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.160> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.52> a nl:Service  ;
@@ -811,8 +811,8 @@ Am Anschluss unseres kleinen Exkurses könnt ihr in vorgefertigten Kiesbettablag
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.897> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.897> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.53> a nl:Service  ;
@@ -834,8 +834,8 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.898> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.898> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.54> a nl:Service  ;
@@ -854,8 +854,8 @@ Unser aktives Mitmachangebot vermittelt auf spielerische Weise bereits den jüng
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.899> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.899> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.55> a nl:Service  ;
@@ -874,8 +874,8 @@ Dieses Angebot ist auch mit dem eigenen Smartphone möglich. Für die Geocaching
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.900> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.165> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.900> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.165> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.56> a nl:Service  ;
@@ -900,8 +900,8 @@ Buchung bei Marcel Pruß (Tel.: 0341 9 90 36 00)""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-05-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.901> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.166> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.901> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.166> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.57> a nl:Service  ;
@@ -928,8 +928,8 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-06-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.902> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.902> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.58> a nl:Service  ;
@@ -956,8 +956,8 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-06-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.903> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.903> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.59> a nl:Service  ;
@@ -984,8 +984,8 @@ Unser mobiles Bildungsteam kommt zu Ihnen!""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-06-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.904> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.904> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.60> a nl:Service  ;
@@ -1012,8 +1012,8 @@ Unser mobiles Bildungsteam kommt zu Ihnen""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-10" ;
    dct:modified "2017-06-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.905> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.167> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.905> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.167> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.61> a nl:Service  ;
@@ -1033,8 +1033,8 @@ Tel.:  0174-97 606 89""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-16" ;
    dct:modified "2017-05-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.907> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.154> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.907> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.154> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.62> a nl:Service  ;
@@ -1062,8 +1062,8 @@ Tel:0174-97 606 89""" ;
    nl:isPublished "1" ;
    dct:created "2017-05-16" ;
    dct:modified "2017-05-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.908> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.154> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.908> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.154> ;
    nl:hasEventType "Angebot" . 
 
 <http://nachhaltiges-leipzig.de/Data/Service.63> a nl:Service  ;

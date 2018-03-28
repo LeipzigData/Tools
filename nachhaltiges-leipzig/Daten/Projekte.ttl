@@ -41,8 +41,8 @@ NuKLA  e. V. Vorsitzender, Wolfgang E. A. Stoiber     03.10.2013""" ;
    nl:hasInfoURL <http://www.LeipzigerAuwald.de> ;
    dct:created "2013-09-14" ;
    dct:modified "2016-12-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.14> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.10> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.14> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.10> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.7> a nl:Projekt  ;
@@ -58,8 +58,8 @@ Umweltinformation""" ;
    nl:hasInfoURL <http://www.umwelt-leipzig.de> ;
    dct:created "2013-09-16" ;
    dct:modified "2015-08-19" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.19> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.11> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.19> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.11> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.9> a nl:Projekt  ;
@@ -82,8 +82,8 @@ Naturkunde in der pädagogischen Praxis (Weiterbildungsangebot für Lehrer und E
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
    dct:created "2013-09-18" ;
    dct:modified "2016-11-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.25> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.14> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.25> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.14> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.10> a nl:Projekt  ;
@@ -107,8 +107,8 @@ naturnahes Gärtnern""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.KohrenerStrasse.XX> ;
    dct:created "2013-09-18" ;
    dct:modified "2016-11-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.26> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.14> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.26> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.14> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.11> a nl:Projekt  ;
@@ -119,8 +119,8 @@ naturnahes Gärtnern""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04328.Leipzig.GeithainerStrasse.60> ;
    dct:created "2013-09-25" ;
    dct:modified "2017-01-13" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.28> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.19> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.28> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.19> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.12> a nl:Projekt  ;
@@ -132,8 +132,8 @@ Haben Sie eine Idee für ein derartiges Projekt oder arbeiten Sie bereits mit Sc
    nl:hasInfoURL <http://www.verbundnetz-der-waerme.de/v201208/engagement-macht-schule.html> ;
    dct:created "2013-09-26" ;
    dct:modified "2013-09-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.31> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.22> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.31> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.22> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.13> a nl:Projekt  ;
@@ -144,8 +144,8 @@ Haben Sie eine Idee für ein derartiges Projekt oder arbeiten Sie bereits mit Sc
    nl:hasInfoURL <http://www.verbundnetz-der-waerme.de> ;
    dct:created "2013-09-26" ;
    dct:modified "2016-06-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.32> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.22> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.32> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.22> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.14> a nl:Projekt  ;
@@ -169,8 +169,8 @@ Sonstiges""" ;
    nl:hasInfoURL <http://www.lindentaler.org/index.php?id_kat=125undsprache=deundsektion=52> ;
    dct:created "2013-09-26" ;
    dct:modified "2014-08-31" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.34> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.34> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.15> a nl:Projekt  ;
@@ -215,8 +215,8 @@ Produkte:
    nl:hasInfoURL <http://www.lindentaler.org> ;
    dct:created "2013-09-26" ;
    dct:modified "2014-08-31" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.35> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.35> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.16> a nl:Projekt  ;
@@ -240,8 +240,8 @@ Postwachstum""" ;
    nl:hasInfoURL <http://www.lindentaler.org/index.php?id_kat=68undsprache=deundsektion=35> ;
    dct:created "2013-09-26" ;
    dct:modified "2013-09-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.36> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.23> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.36> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.23> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.17> a nl:Projekt  ;
@@ -265,8 +265,8 @@ Demokratie""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.22> ;
    dct:created "2013-09-30" ;
    dct:modified "2017-01-17" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.40> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.27> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.40> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.27> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.18> a nl:Projekt  ;
@@ -286,8 +286,8 @@ Vernetzung""" ;
    nl:hasInfoURL <http://www.leipziger-kinderbuero.de/> ;
    dct:created "2013-10-11" ;
    dct:modified "2013-10-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.44> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.29> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.44> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.29> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.19> a nl:Projekt  ;
@@ -319,8 +319,8 @@ Kompetenz""" ;
    nl:hasInfoURL <http://www.schulweg-safari.de/leipzig> ;
    dct:created "2013-10-24" ;
    dct:modified "2013-10-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.46> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.29> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.46> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.29> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.20> a nl:Projekt  ;
@@ -333,8 +333,8 @@ Im Café Kaputt können Menschen von jung bis alt ihre Alltagsgegenstände aller
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.MerseburgerStrasse.102> ;
    dct:created "2013-10-29" ;
    dct:modified "2015-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.53> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.53> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.32> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.21> a nl:Projekt  ;
@@ -354,8 +354,8 @@ Wir nehmen „die Tomate“ theoretisch auseinander und sensibilisieren für die
    ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.Hermann-Liebmann-Strasse.17> ;
    dct:created "2013-10-29" ;
    dct:modified "2015-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.54> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.32> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.54> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.32> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.22> a nl:Projekt  ;
@@ -382,8 +382,8 @@ www.stromspar-check.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04209.Leipzig.AlteSalzstrasse.62> ;
    dct:created "2013-11-26" ;
    dct:modified "2014-12-27" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.59> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.37> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.59> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.37> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.23> a nl:Projekt  ;
@@ -397,8 +397,8 @@ In Kooperation mit Jahresringe hat Piepenbrock in den vergangenen Jahren ältere
    nl:hasInfoURL <http://www.piepenbrock.de/de/presse/pressemitteilungen/piepenbrock-ist-unternehmen-mit-weitblick.html> ;
    dct:created "2013-12-13" ;
    dct:modified "2015-01-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.64> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.39> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.64> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.39> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.24> a nl:Projekt  ;
@@ -409,8 +409,8 @@ Ergebnis: Inbetriebnahme einer 32 kWp PV-Anlage am 30.3.2012""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Dachsstrasse.5> ;
    dct:created "2013-12-18" ;
    dct:modified "2015-02-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.66> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.41> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.66> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.41> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.25> a nl:Projekt  ;
@@ -421,8 +421,8 @@ Ergebnis: Inbetriebnahme einer 32 kWp PV-Anlage am 30.3.2012""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04329.Leipzig.Dachsstrasse.5> ;
    dct:created "2013-12-18" ;
    dct:modified "2015-02-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.67> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.41> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.67> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.41> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.26> a nl:Projekt  ;
@@ -435,8 +435,8 @@ Eine Genaue Projektbeschreibung findet sich auf dem Blog der Initiative www.quer
    ld:proposedAddress <http://leipzig-data.de/Data/04315.Leipzig.NeustaedterStrasse.20> ;
    dct:created "2014-02-06" ;
    dct:modified "2015-03-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.71> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.42> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.71> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.42> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.27> a nl:Projekt  ;
@@ -452,8 +452,8 @@ Treffen der Generationen""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Slevogtstrasse.41> ;
    dct:created "2014-03-17" ;
    dct:modified "2015-04-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.74> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.74> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.28> a nl:Projekt  ;
@@ -475,8 +475,8 @@ Treffen der Generationen""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Balzacstrasse.19> ;
    dct:created "2014-03-17" ;
    dct:modified "2015-04-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.75> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.75> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.29> a nl:Projekt  ;
@@ -495,8 +495,8 @@ Treffen der Generationen""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.Balzacstrasse.19> ;
    dct:created "2014-03-17" ;
    dct:modified "2015-04-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.76> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.45> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.76> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.45> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.30> a nl:Projekt  ;
@@ -512,8 +512,8 @@ Gewaltfreie Seide (non-violent silk)""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
    dct:created "2014-03-31" ;
    dct:modified "2015-02-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.79> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.48> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.79> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.48> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.32> a nl:Projekt  ;
@@ -531,8 +531,8 @@ urban""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.ZschocherscheStrasse.12> ;
    dct:created "2014-04-30" ;
    dct:modified "2015-03-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.85> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.51> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.85> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.33> a nl:Projekt  ;
@@ -574,8 +574,8 @@ Kinospots zu "Global Nachhaltigem Konsum"""" ;
    nl:hasInfoURL <http://www.sukuma-award.de> ;
    dct:created "2014-06-16" ;
    dct:modified "2017-09-04" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.92> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.52> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.92> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.52> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.34> a nl:Projekt  ;
@@ -589,8 +589,8 @@ Atmosphäre erzielen wir nicht durch Miethöhe sondern durch behutsame Belegung.
    ld:proposedAddress <http://leipzig-data.de/Data/04155.Leipzig.WiederitzscherStrasse.XX> ;
    dct:created "2014-07-28" ;
    dct:modified "2015-03-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.100> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.56> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.100> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.56> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.35> a nl:Projekt  ;
@@ -605,8 +605,8 @@ Serviceangebote für Multiplikatoren für die Durchführung nachhaltig orientier
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Reiskestrasse.2> ;
    dct:created "2014-08-12" ;
    dct:modified "2015-09-27" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.101> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.47> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.101> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.47> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.36> a nl:Projekt  ;
@@ -618,8 +618,8 @@ Serviceangebote für Multiplikatoren für die Durchführung nachhaltig orientier
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Brockhausstrasse.31> ;
    dct:created "2014-08-30" ;
    dct:modified "2017-02-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.102> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.61> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.102> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.61> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.37> a nl:Projekt  ;
@@ -631,8 +631,8 @@ baenke@buergerbahnhof-plagwitz.de""" ;
    nl:hasInfoURL <http://www.buergerbahnhof-plagwitz.de/baenke.html> ;
    dct:created "2014-08-31" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.104> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.104> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.38> a nl:Projekt  ;
@@ -645,8 +645,8 @@ wilder-westen@buergerbahnhof-plagwitz.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
    dct:created "2014-08-31" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.105> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.105> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.39> a nl:Projekt  ;
@@ -659,8 +659,8 @@ klettern@buergerbahnhof-plagwitz.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.58> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.106> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.106> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.40> a nl:Projekt  ;
@@ -673,8 +673,8 @@ buergergaerten@buergerbahnhof-plagwitz.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.107> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.107> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.41> a nl:Projekt  ;
@@ -687,8 +687,8 @@ gleis3@buergerbahnhof-plagwitz.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.Klingenstrasse.15> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.108> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.108> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.42> a nl:Projekt  ;
@@ -701,8 +701,8 @@ pfadfinder@buergerbahnhof-plagwitz.de""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.RoeckenerStrasse.XX> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-09-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.109> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.62> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.109> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.62> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.43> a nl:Projekt  ;
@@ -718,8 +718,8 @@ urban""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.LuetznerStrasse.108> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-03-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.110> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.51> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.110> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.51> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.44> a nl:Projekt  ;
@@ -730,8 +730,8 @@ Außerdem kümmert sich der NABU um rund 1.000 Mauersegler-Nisthilfen und um ver
    nl:hasInfoURL <http://www.NABU-Leipzig.de/Mauersegler> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.111> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.111> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.45> a nl:Projekt  ;
@@ -742,8 +742,8 @@ Der NABU-Regionalverband Leipzig möchte sich 2014 besonders intensiv für den S
    nl:hasInfoURL <http://goo.gl/7rDMxE> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.112> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.112> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.46> a nl:Projekt  ;
@@ -755,8 +755,8 @@ Die Menschen sind eingeladen, bei Amphibienschutzprojekten des NABU in Sachsen m
    nl:hasInfoURL <http://www.NABU-Leipzig.de/Amphibienschutz> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.113> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.113> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.47> a nl:Projekt  ;
@@ -768,8 +768,8 @@ Am Ende wollen wir natürlich anderen zeigen, wie man einen Garten sehr schön u
    ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Theodor-Neubauer-Strasse.45> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.114> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.114> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.48> a nl:Projekt  ;
@@ -781,8 +781,8 @@ Deshalb ist Hilfe für Gebäudebrüter ein wichtiges Arbeitsfeld des Artenschutz
    nl:hasInfoURL <http://goo.gl/0QdAEg> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.115> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.115> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.49> a nl:Projekt  ;
@@ -792,8 +792,8 @@ Deshalb ist Hilfe für Gebäudebrüter ein wichtiges Arbeitsfeld des Artenschutz
    nl:hasInfoURL <http://goo.gl/A3ddqp> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.116> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.116> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.50> a nl:Projekt  ;
@@ -806,8 +806,8 @@ Es geht darum, eine Leitidee für die Region zu entwickeln, die Ökologie, Ökon
    nl:hasInfoURL <http://goo.gl/DMc7xn> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.117> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.117> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.51> a nl:Projekt  ;
@@ -820,8 +820,8 @@ Eine Verbesserung der Bewässerung des Gebietes, eine teilweise Wiederherstellun
    ld:proposedAddress <http://leipzig-data.de/Data/04435.Schkeuditz.AmAuenwald.XX> ;
    dct:created "2014-09-01" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.118> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.118> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.52> a nl:Projekt  ;
@@ -841,8 +841,8 @@ viele Materialien zum Verbauen vor Ort: Pappe, Papier, Stoffe, Kurzwaren, Knöpf
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Georg-Schwarz-Strasse.7> ;
    dct:created "2014-09-02" ;
    dct:modified "2016-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.121> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.64> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.121> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.64> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.53> a nl:Projekt  ;
@@ -853,8 +853,8 @@ viele Materialien zum Verbauen vor Ort: Pappe, Papier, Stoffe, Kurzwaren, Knöpf
    ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.XX> ;
    dct:created "2014-09-02" ;
    dct:modified "2015-10-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.122> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.60> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.122> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.54> a nl:Projekt  ;
@@ -871,8 +871,8 @@ http://ökolöwe.de/umweltbibliothek.html""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
    dct:created "2014-09-02" ;
    dct:modified "2015-10-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.124> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.69> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.124> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.69> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.55> a nl:Projekt  ;
@@ -913,8 +913,8 @@ Naturschutz""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
    dct:created "2014-09-02" ;
    dct:modified "2016-10-28" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.125> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.69> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.125> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.69> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.57> a nl:Projekt  ;
@@ -926,8 +926,8 @@ Wenn du mit uns die nächsten Projekte planen möchtest, bist du herzlich eingel
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
    dct:created "2014-09-02" ;
    dct:modified "2015-10-23" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.127> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.70> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.127> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.70> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.58> a nl:Projekt  ;
@@ -938,8 +938,8 @@ Wenn du mit uns die nächsten Projekte planen möchtest, bist du herzlich eingel
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.10> ;
    dct:created "2014-09-03" ;
    dct:modified "2015-10-02" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.128> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.71> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.128> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.71> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.59> a nl:Projekt  ;
@@ -952,8 +952,8 @@ Ohne Zäune, mit wenigen Regeln und viel Raum für Mitgestaltung: wild bunt und 
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.27> ;
    dct:created "2014-09-03" ;
    dct:modified "2015-10-02" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.129> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.72> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.129> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.72> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.61> a nl:Projekt  ;
@@ -1023,8 +1023,8 @@ Warum sollten wir also noch länger ein fehlerhaftes Finanzsystem benutzen, dass
    nl:hasInfoURL <http://www.startnext.de/songs-fuer-neues-geld> ;
    dct:created "2014-09-14" ;
    dct:modified "2015-10-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.133> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.53> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.133> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.53> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.64> a nl:Projekt  ;
@@ -1036,8 +1036,8 @@ Warum sollten wir also noch länger ein fehlerhaftes Finanzsystem benutzen, dass
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Josephstrasse.12> ;
    dct:created "2014-09-17" ;
    dct:modified "2016-09-28" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.139> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.58> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.139> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.58> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.65> a nl:Projekt  ;
@@ -1054,8 +1054,8 @@ Anbauworkshops und professionelle Unterstützung
    ld:proposedAddress <http://leipzig-data.de/Data/04249.Leipzig.Emil-Teich-Strasse.XX> ;
    dct:created "2014-09-19" ;
    dct:modified "2016-10-20" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.140> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.76> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.140> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.76> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.66> a nl:Projekt  ;
@@ -1071,8 +1071,8 @@ Mobilität ist neben Heizung einer der größten Energieverbraucher in unserem A
    ld:proposedAddress <http://leipzig-data.de/Data/04177.Leipzig.Erich-Koehn-Strasse.63B> ;
    dct:created "2014-10-13" ;
    dct:modified "2017-01-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.143> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.24> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.143> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.24> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.67> a nl:Projekt  ;
@@ -1096,8 +1096,8 @@ Vorträge""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04107.Leipzig.Haertelstrasse.4> ;
    dct:created "2014-10-13" ;
    dct:modified "2015-11-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.144> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.79> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.144> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.79> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.68> a nl:Projekt  ;
@@ -1110,8 +1110,8 @@ Insbesondere möchte ich mich kritisch aber nicht reißerisch mit der industriel
    ld:proposedAddress <http://leipzig-data.de/Data/04318.Leipzig.Cichoriusstrasse.17> ;
    dct:created "2014-12-17" ;
    dct:modified "2016-03-22" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.152> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.84> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.152> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.84> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.69> a nl:Projekt  ;
@@ -1127,8 +1127,8 @@ oder unsere Angebote bei Abebooks: https://www.abebooks.de/servlet/SearchResults
    nl:hasInfoURL <https://araki.de/> ;
    dct:created "2014-12-18" ;
    dct:modified "2017-01-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.153> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.86> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.153> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.86> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.70> a nl:Projekt  ;
@@ -1139,8 +1139,8 @@ oder unsere Angebote bei Abebooks: https://www.abebooks.de/servlet/SearchResults
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Dorotheenplatz.2> ;
    dct:created "2014-12-18" ;
    dct:modified "2016-12-21" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.154> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.87> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.154> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.87> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.73> a nl:Projekt  ;
@@ -1166,8 +1166,8 @@ Autodidaktische Bildung""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.Heinrichstrasse.5> ;
    dct:created "2014-12-19" ;
    dct:modified "2016-02-04" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.157> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.88> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.157> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.88> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.74> a nl:Projekt  ;
@@ -1178,8 +1178,8 @@ In unserem Sortiment befinden sich ständig zahlreiche Schnittblumen ( z.B.Orchi
    nl:hasInfoURL <http://www.haediflor.de> ;
    dct:created "2014-12-22" ;
    dct:modified "2016-01-22" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.158> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.90> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.158> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.90> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.75> a nl:Projekt  ;
@@ -1193,8 +1193,8 @@ oikos Leipzig ist eine von vielen Lokalgruppen des Netzwerks und wurde im März 
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.12> ;
    dct:created "2015-01-09" ;
    dct:modified "2017-01-06" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.159> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.21> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.159> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.21> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.76> a nl:Projekt  ;
@@ -1207,8 +1207,8 @@ Wer mehr wissen, sich austauschen oder sich aktiv an unserer Arbeit beteiligen m
    ld:proposedAddress <http://leipzig-data.de/Data/04275.Leipzig.Karl-Liebknecht-Strasse.92> ;
    dct:created "2015-01-17" ;
    dct:modified "2016-02-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.164> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.98> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.164> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.98> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.77> a nl:Projekt  ;
@@ -1220,8 +1220,8 @@ Wer mehr wissen, sich austauschen oder sich aktiv an unserer Arbeit beteiligen m
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.GrimmaischeStrasse.1> ;
    dct:created "2015-01-26" ;
    dct:modified "2016-06-20" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.172> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.33> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.172> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.33> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.78> a nl:Projekt  ;
@@ -1243,8 +1243,8 @@ Jeden Dienstag, Mittwoch und Donnerstag von 15 bis 18 Uhr""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
    dct:created "2015-02-04" ;
    dct:modified "2017-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.173> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.104> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.173> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.104> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.79> a nl:Projekt  ;
@@ -1259,8 +1259,8 @@ kostenlos/Spende""" ;
    nl:hasInfoURL <http://adi-leipzig.net> ;
    dct:created "2015-02-04" ;
    dct:modified "2016-05-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.176> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.105> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.176> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.105> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.80> a nl:Projekt  ;
@@ -1270,8 +1270,8 @@ kostenlos/Spende""" ;
    nl:hasInfoURL <http://www.leipzigerkulturpaten.de> ;
    dct:created "2015-02-18" ;
    dct:modified "2016-06-06" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.181> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.30> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.181> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.30> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.81> a nl:Projekt  ;
@@ -1296,8 +1296,8 @@ Lucie Chwaszcza// Theresa Doß// Theresa Kroemer""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04347.Leipzig.Stannebeinplatz.13> ;
    dct:created "2015-02-24" ;
    dct:modified "2016-03-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.186> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.80> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.186> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.80> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.83> a nl:Projekt  ;
@@ -1312,8 +1312,8 @@ Unsere Angebote sollen auf lokaler, überregionaler, landesweiter und globaler E
    nl:hasInfoURL <http://greennetproject.org> ;
    dct:created "2015-03-20" ;
    dct:modified "2015-04-13" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.366> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.114> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.366> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.114> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.84> a nl:Projekt  ;
@@ -1327,8 +1327,8 @@ Ansprechpartner: Johann Simowitsch,  Tel.: 0341/123-1649, Email: solardachkatast
    nl:hasInfoURL <http://www.solardachkataster.leipzig.de> ;
    dct:created "2015-03-30" ;
    dct:modified "2017-04-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.372> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.106> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.372> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.106> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.85> a nl:Projekt  ;
@@ -1358,8 +1358,8 @@ Projektziel ist die Unterstützung und Förderung der informellen Bildung und Ko
    nl:hasInfoURL <http://www.diewunderfinder.de> ;
    dct:created "2015-05-04" ;
    dct:modified "2016-11-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.382> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.382> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.88> a nl:Projekt  ;
@@ -1370,8 +1370,8 @@ Projektziel ist die Unterstützung und Förderung der informellen Bildung und Ko
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.JohannaPark.XX> ;
    dct:created "2015-05-04" ;
    dct:modified "2016-11-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.383> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.383> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.89> a nl:Projekt  ;
@@ -1392,8 +1392,8 @@ Jedes Team benötigt einen erwachsenen Coach, der das Team anmeldet, generell or
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Hillerstrasse.7> ;
    dct:created "2015-06-04" ;
    dct:modified "2017-05-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.392> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.392> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.90> a nl:Projekt  ;
@@ -1407,8 +1407,8 @@ Sächsischer Käse mit  über 100 jährige Erfahrung eigener Käseherstellung
 "FEERSISCH Rind" aus der Norddeutschen Natur""" ;
    dct:created "2015-07-15" ;
    dct:modified "2016-08-21" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.513> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.133> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.513> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.133> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.91> a nl:Projekt  ;
@@ -1431,8 +1431,8 @@ offen""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Georg-Schwarz-Strasse.112> ;
    dct:created "2015-09-18" ;
    dct:modified "2015-09-18" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.534> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.136> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.534> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.136> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.92> a nl:Projekt  ;
@@ -1446,8 +1446,8 @@ Buchbinung""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04178.Leipzig.Ludwig-Hupfeld-Strasse.16> ;
    dct:created "2015-10-07" ;
    dct:modified "2016-05-31" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.552> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.18> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.552> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.18> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.93> a nl:Projekt  ;
@@ -1486,8 +1486,8 @@ Gemeinschaft""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04288.Leipzig.GrosspoesnaerStrasse.78> ;
    dct:created "2015-12-10" ;
    dct:modified "2017-01-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.575> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.575> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.95> a nl:Projekt  ;
@@ -1497,8 +1497,8 @@ Gemeinschaft""" ;
    nl:hasInfoURL <http://www.nextleipzig.de> ;
    dct:created "2015-12-14" ;
    dct:modified "2015-12-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.577> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.139> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.577> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.139> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.96> a nl:Projekt  ;
@@ -1542,8 +1542,8 @@ Sport""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.49> ;
    dct:created "2016-02-29" ;
    dct:modified "2017-03-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.608> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.144> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.608> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.144> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.99> a nl:Projekt  ;
@@ -1583,8 +1583,8 @@ Tel. 0341-3314052""" ;
    nl:hasPropertyList """textil,seide,fair,bio,organic,silk,handwerk,weben,seidenzucht,peace silk,""" ;
    dct:created "2016-04-02" ;
    dct:modified "2016-04-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.614> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.48> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.614> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.48> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.100> a nl:Projekt  ;
@@ -1606,8 +1606,8 @@ Auf Grund der wachsenden Einwohnerzahl Leipzigs und die Wasserrettungstechnische
    ld:proposedAddress <http://leipzig-data.de/Data/.Leipzig.ZwickauerStrasse.XX> ;
    dct:created "2016-07-18" ;
    dct:modified "2017-08-16" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.651> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.148> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.651> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.148> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.101> a nl:Projekt  ;
@@ -1618,8 +1618,8 @@ Auf Grund der wachsenden Einwohnerzahl Leipzigs und die Wasserrettungstechnische
    ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Bosestrasse.1> ;
    dct:created "2016-11-01" ;
    dct:modified "2016-11-01" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.695> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.100> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.695> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.100> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.102> a nl:Projekt  ;
@@ -1638,8 +1638,8 @@ Gemeinschaft""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.Wodanstrasse.32> ;
    dct:created "2017-01-03" ;
    dct:modified "2017-01-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.730> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.730> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.103> a nl:Projekt  ;
@@ -1658,8 +1658,8 @@ Gemeinschaft""" ;
    ld:proposedAddress <http://leipzig-data.de/Data/04207.Leipzig.Seestrasse.15> ;
    dct:created "2017-01-03" ;
    dct:modified "2017-01-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.731> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.77> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.731> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.77> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.104> a nl:Projekt  ;
@@ -1678,8 +1678,8 @@ Jedes Team benötigt einen erwachsenen Coach, der das Team anmeldet, generell or
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
    dct:created "2017-05-03" ;
    dct:modified "2017-05-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.848> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.848> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.105> a nl:Projekt  ;
@@ -1699,8 +1699,8 @@ Jedes Team benötigt einen erwachsenen Betreuer.  In der Regel läuft die jeweil
    ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Plautstrasse.80> ;
    dct:created "2017-05-03" ;
    dct:modified "2017-05-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.849> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.127> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.849> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.127> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.106> a nl:Projekt  ;
@@ -1713,8 +1713,8 @@ Für Kinder entsteht eine tolle Spielfläche, denn wir wollen ihnen ein Wohnzimm
    ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.DresdnerStrasse.59> ;
    dct:created "2017-05-15" ;
    dct:modified "2017-05-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.906> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.104> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.906> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.104> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.107> a nl:Projekt  ;
@@ -1724,8 +1724,8 @@ Für Kinder entsteht eine tolle Spielfläche, denn wir wollen ihnen ein Wohnzimm
    nl:hasInfoURL <http://www.geowerkstatt.com/?page_id=1852> ;
    dct:created "2017-05-17" ;
    dct:modified "2017-05-17" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.909> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.168> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.909> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.168> ;
    nl:hasEventType "Projekt" . 
 
 <http://nachhaltiges-leipzig.de/Data/Projekt.108> a nl:Projekt  ;
@@ -1738,7 +1738,7 @@ Wenn Sie sich gern mit diesen und anderen Fragen auseinander setzen, sind Sie he
    ld:proposedAddress <http://leipzig-data.de/Data/04277.Leipzig.Bernhard-Goering-Strasse.152> ;
    dct:created "2017-05-23" ;
    dct:modified "2017-05-23" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.911> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.73> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.911> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.73> ;
    nl:hasEventType "Projekt" . 
 

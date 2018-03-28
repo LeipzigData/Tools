@@ -83,6 +83,7 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
 function fixNameURI($u) { // Weitere Transformation für Namen
   $u=fixURI($u);
   $u=str_replace("-", "", $u);
+  $u=str_replace("Dr.", "", $u);
   return $u;
 }
 

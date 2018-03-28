@@ -24,8 +24,8 @@
    nl:isPublished "1" ;
    dct:created "2015-01-13" ;
    dct:modified "2015-01-13" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.160> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.94> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.160> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.94> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.2> a nl:Store  ;
@@ -40,8 +40,8 @@ Neben Second-Hand-Waren (Kleidung, Bücher, Hausrat) führen viele Oxfam Shops e
    nl:isPublished "1" ;
    dct:created "2015-01-17" ;
    dct:modified "2016-08-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.163> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.99> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.163> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.99> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.3> a nl:Store  ;
@@ -66,8 +66,8 @@ Fax: 0341 3919106""" ;
    nl:isPublished "1" ;
    dct:created "2015-01-19" ;
    dct:modified "2016-09-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.165> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.50> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.165> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.50> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.4> a nl:Store  ;
@@ -90,8 +90,8 @@ Sa.: 10.00 – 18:30 Uhr""" ;
    nl:isPublished "1" ;
    dct:created "2015-01-19" ;
    dct:modified "2016-09-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.166> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.50> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.166> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.50> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.5> a nl:Store  ;
@@ -109,8 +109,8 @@ Traditionell gerösteter Kaffee • aromatischer Tee • hangefertigter Schmuck 
    nl:isPublished "1" ;
    dct:created "2015-01-20" ;
    dct:modified "2017-03-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.167> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.91> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.167> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.91> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.6> a nl:Store  ;
@@ -121,8 +121,8 @@ Traditionell gerösteter Kaffee • aromatischer Tee • hangefertigter Schmuck 
    nl:isPublished "1" ;
    dct:created "2015-01-21" ;
    dct:modified "2016-08-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.168> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.97> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.168> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.97> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.7> a nl:Store  ;
@@ -133,8 +133,8 @@ Traditionell gerösteter Kaffee • aromatischer Tee • hangefertigter Schmuck 
    nl:isPublished "1" ;
    dct:created "2015-01-21" ;
    dct:modified "2017-02-10" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.169> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.97> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.169> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.97> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.8> a nl:Store  ;
@@ -147,8 +147,8 @@ Traditionell gerösteter Kaffee • aromatischer Tee • hangefertigter Schmuck 
    nl:isPublished "1" ;
    dct:created "2015-01-21" ;
    dct:modified "2016-01-25" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.170> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.90> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.170> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.90> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.9> a nl:Store  ;
@@ -164,8 +164,8 @@ Es wird darauf geachtet, dass die Lebensmittel schonend zubereitet und gut gewü
    nl:hasDistrict "Connewitz" ;
    dct:created "2015-01-22" ;
    dct:modified "2016-02-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.171> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.101> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.171> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.101> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.10> a nl:Store  ;
@@ -182,8 +182,8 @@ regionale Produkte""" ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2015-02-05" ;
    dct:modified "2017-03-23" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.178> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.103> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.178> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.103> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.11> a nl:Store  ;
@@ -213,8 +213,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-02-09" ;
    dct:modified "2015-02-09" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.179> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.48> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.179> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.48> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.12> a nl:Store  ;
@@ -227,8 +227,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-02-18" ;
    dct:modified "2016-08-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.180> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.102> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.180> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.102> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.55> a nl:Store  ;
@@ -240,8 +240,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.233> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.233> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.57> a nl:Store  ;
@@ -253,8 +253,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.235> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.235> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.59> a nl:Store  ;
@@ -266,8 +266,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.237> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.237> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.60> a nl:Store  ;
@@ -279,8 +279,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.238> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.238> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.61> a nl:Store  ;
@@ -292,8 +292,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.239> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.239> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.65> a nl:Store  ;
@@ -305,8 +305,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2017-07-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.243> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.243> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.68> a nl:Store  ;
@@ -318,8 +318,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.246> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.246> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.69> a nl:Store  ;
@@ -331,8 +331,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2016-06-28" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.247> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.247> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.70> a nl:Store  ;
@@ -344,8 +344,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2016-06-28" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.248> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.248> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.71> a nl:Store  ;
@@ -357,8 +357,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.249> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.249> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.72> a nl:Store  ;
@@ -370,8 +370,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.250> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.250> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.73> a nl:Store  ;
@@ -383,8 +383,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.251> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.251> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.74> a nl:Store  ;
@@ -396,8 +396,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.253> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.253> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.75> a nl:Store  ;
@@ -409,8 +409,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.254> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.254> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.76> a nl:Store  ;
@@ -422,8 +422,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.256> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.256> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.77> a nl:Store  ;
@@ -435,8 +435,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.257> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.257> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.78> a nl:Store  ;
@@ -448,8 +448,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.258> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.258> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.79> a nl:Store  ;
@@ -461,8 +461,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.259> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.259> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.80> a nl:Store  ;
@@ -474,8 +474,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.260> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.260> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.81> a nl:Store  ;
@@ -487,8 +487,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.261> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.261> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.82> a nl:Store  ;
@@ -500,8 +500,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.262> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.262> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.83> a nl:Store  ;
@@ -513,8 +513,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.263> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.263> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.84> a nl:Store  ;
@@ -526,8 +526,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.264> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.264> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.85> a nl:Store  ;
@@ -539,8 +539,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.265> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.265> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.86> a nl:Store  ;
@@ -552,8 +552,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.266> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.266> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.87> a nl:Store  ;
@@ -565,8 +565,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.267> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.267> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.88> a nl:Store  ;
@@ -578,8 +578,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.268> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.268> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.89> a nl:Store  ;
@@ -591,8 +591,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.269> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.269> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.90> a nl:Store  ;
@@ -604,8 +604,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.270> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.270> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.91> a nl:Store  ;
@@ -617,8 +617,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.271> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.271> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.92> a nl:Store  ;
@@ -630,8 +630,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.272> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.272> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.93> a nl:Store  ;
@@ -643,8 +643,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.273> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.273> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.94> a nl:Store  ;
@@ -656,8 +656,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.274> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.274> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.95> a nl:Store  ;
@@ -669,8 +669,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.275> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.275> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.96> a nl:Store  ;
@@ -682,8 +682,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.276> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.276> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.97> a nl:Store  ;
@@ -695,8 +695,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.277> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.277> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.98> a nl:Store  ;
@@ -708,8 +708,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.278> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.278> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.99> a nl:Store  ;
@@ -721,8 +721,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.279> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.279> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.100> a nl:Store  ;
@@ -734,8 +734,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.280> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.280> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.101> a nl:Store  ;
@@ -747,8 +747,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.281> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.281> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.102> a nl:Store  ;
@@ -760,8 +760,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.282> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.282> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.103> a nl:Store  ;
@@ -773,8 +773,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.283> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.283> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.104> a nl:Store  ;
@@ -786,8 +786,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.284> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.284> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.105> a nl:Store  ;
@@ -799,8 +799,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.285> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.285> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.106> a nl:Store  ;
@@ -812,8 +812,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.286> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.286> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.107> a nl:Store  ;
@@ -825,8 +825,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.287> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.287> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.108> a nl:Store  ;
@@ -838,8 +838,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.288> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.288> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.109> a nl:Store  ;
@@ -851,8 +851,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.289> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.289> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.110> a nl:Store  ;
@@ -864,8 +864,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.290> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.290> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.111> a nl:Store  ;
@@ -877,8 +877,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.291> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.291> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.112> a nl:Store  ;
@@ -890,8 +890,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.292> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.292> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.113> a nl:Store  ;
@@ -903,8 +903,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.293> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.293> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.114> a nl:Store  ;
@@ -916,8 +916,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.294> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.294> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.116> a nl:Store  ;
@@ -929,8 +929,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.296> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.296> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.117> a nl:Store  ;
@@ -942,8 +942,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.297> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.297> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.118> a nl:Store  ;
@@ -955,8 +955,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.298> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.298> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.119> a nl:Store  ;
@@ -968,8 +968,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.299> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.299> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.120> a nl:Store  ;
@@ -981,8 +981,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.300> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.300> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.121> a nl:Store  ;
@@ -994,8 +994,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.301> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.301> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.122> a nl:Store  ;
@@ -1007,8 +1007,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.302> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.302> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.123> a nl:Store  ;
@@ -1020,8 +1020,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.303> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.303> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.124> a nl:Store  ;
@@ -1033,8 +1033,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.304> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.304> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.125> a nl:Store  ;
@@ -1046,8 +1046,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-04-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.305> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.305> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.126> a nl:Store  ;
@@ -1059,8 +1059,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.306> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.306> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.127> a nl:Store  ;
@@ -1072,8 +1072,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-11" ;
    dct:modified "2015-03-11" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.307> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.108> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.307> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.108> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.137> a nl:Store  ;
@@ -1084,8 +1084,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.317> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.317> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.138> a nl:Store  ;
@@ -1096,8 +1096,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.318> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.318> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.139> a nl:Store  ;
@@ -1108,8 +1108,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Zentrum (Innenstadt)" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.319> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.319> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.140> a nl:Store  ;
@@ -1120,8 +1120,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Gohlis-Süd" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.320> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.320> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.141> a nl:Store  ;
@@ -1132,8 +1132,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Eutritzsch" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.321> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.321> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.142> a nl:Store  ;
@@ -1144,8 +1144,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Leutzsch" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.322> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.322> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.143> a nl:Store  ;
@@ -1156,8 +1156,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Plagwitz" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.323> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.323> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.144> a nl:Store  ;
@@ -1168,8 +1168,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Grünau-Mitte" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.324> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.324> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.145> a nl:Store  ;
@@ -1180,8 +1180,8 @@ Garne, Fasern, Kokons""" ;
    nl:hasDistrict "Anger-Crottendorf" ;
    dct:created "2015-03-12" ;
    dct:modified "2016-08-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.325> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.109> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.325> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.109> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.146> a nl:Store  ;
@@ -1193,8 +1193,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.326> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.326> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.147> a nl:Store  ;
@@ -1206,8 +1206,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.327> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.327> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.148> a nl:Store  ;
@@ -1219,8 +1219,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.328> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.328> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.149> a nl:Store  ;
@@ -1232,8 +1232,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.329> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.329> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.150> a nl:Store  ;
@@ -1245,8 +1245,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.330> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.330> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.151> a nl:Store  ;
@@ -1258,8 +1258,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.331> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.331> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.152> a nl:Store  ;
@@ -1271,8 +1271,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.332> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.332> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.153> a nl:Store  ;
@@ -1284,8 +1284,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.333> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.333> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.154> a nl:Store  ;
@@ -1297,8 +1297,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.334> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.334> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.155> a nl:Store  ;
@@ -1310,8 +1310,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.335> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.335> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.156> a nl:Store  ;
@@ -1323,8 +1323,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.336> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.336> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.157> a nl:Store  ;
@@ -1336,8 +1336,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.337> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.337> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.158> a nl:Store  ;
@@ -1349,8 +1349,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.338> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.338> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.159> a nl:Store  ;
@@ -1362,8 +1362,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.339> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.339> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.160> a nl:Store  ;
@@ -1375,8 +1375,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.340> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.340> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.161> a nl:Store  ;
@@ -1388,8 +1388,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.341> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.341> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.162> a nl:Store  ;
@@ -1401,8 +1401,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.342> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.342> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.163> a nl:Store  ;
@@ -1414,8 +1414,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.343> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.343> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.164> a nl:Store  ;
@@ -1427,8 +1427,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.344> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.344> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.165> a nl:Store  ;
@@ -1440,8 +1440,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.345> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.345> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.166> a nl:Store  ;
@@ -1453,8 +1453,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.346> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.346> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.167> a nl:Store  ;
@@ -1466,8 +1466,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.347> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.347> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.168> a nl:Store  ;
@@ -1479,8 +1479,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.348> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.111> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.348> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.169> a nl:Store  ;
@@ -1492,8 +1492,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.349> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.349> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.170> a nl:Store  ;
@@ -1505,8 +1505,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.350> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.350> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.171> a nl:Store  ;
@@ -1518,8 +1518,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.351> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.351> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.172> a nl:Store  ;
@@ -1531,8 +1531,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.352> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.352> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.173> a nl:Store  ;
@@ -1544,8 +1544,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.353> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.353> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.174> a nl:Store  ;
@@ -1557,8 +1557,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.354> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.354> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.175> a nl:Store  ;
@@ -1570,8 +1570,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.355> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.355> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.176> a nl:Store  ;
@@ -1583,8 +1583,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.356> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.356> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.177> a nl:Store  ;
@@ -1596,8 +1596,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.357> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.357> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.178> a nl:Store  ;
@@ -1609,8 +1609,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.358> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.358> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.179> a nl:Store  ;
@@ -1622,8 +1622,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.359> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.359> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.180> a nl:Store  ;
@@ -1635,8 +1635,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.360> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.360> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.181> a nl:Store  ;
@@ -1648,8 +1648,8 @@ Garne, Fasern, Kokons""" ;
    nl:isPublished "1" ;
    dct:created "2015-03-12" ;
    dct:modified "2015-03-12" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.361> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.110> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.361> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.110> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.182> a nl:Store  ;
@@ -1664,8 +1664,8 @@ In der angeschlossenen Schneiderei können Sie sich Ihr öko-faires Wunschmodell
    nl:isPublished "1" ;
    dct:created "2015-03-13" ;
    dct:modified "2017-03-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.362> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.112> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.362> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.112> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.183> a nl:Store  ;
@@ -1686,8 +1686,8 @@ Regionale Confiserie""" ;
    nl:hasDistrict "Zentrum-Süd (Innere Südvorstadt, Musikviertel)" ;
    dct:created "2015-03-20" ;
    dct:modified "2017-06-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.369> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.115> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.369> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.115> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.184> a nl:Store  ;
@@ -1698,8 +1698,8 @@ Regionale Confiserie""" ;
    nl:hasInfoURL <http://www.alte-schlosserei.de> ;
    dct:created "2015-03-26" ;
    dct:modified "2016-04-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.371> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.95> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.371> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.95> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.185> a nl:Store  ;
@@ -1718,8 +1718,8 @@ Sonntags geöffnet""" ;
    nl:isPublished "1" ;
    dct:created "2015-04-14" ;
    dct:modified "2015-04-14" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.374> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.116> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.374> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.116> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.186> a nl:Store  ;
@@ -1731,8 +1731,8 @@ Sonntags geöffnet""" ;
    nl:hasDistrict "Wahren" ;
    dct:created "2015-04-14" ;
    dct:modified "2016-05-13" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.375> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.117> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.375> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.117> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.187> a nl:Store  ;
@@ -1752,8 +1752,8 @@ Bitte beachten: Es gibt keine regulären Bürozeiten. Bitte ruft an oder schreib
    nl:isPublished "1" ;
    dct:created "2015-04-18" ;
    dct:modified "2016-08-29" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.379> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.120> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.379> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.120> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.188> a nl:Store  ;
@@ -1769,8 +1769,8 @@ Unsere fair gehandelten Kuntshandwerke finden Sie ebenfalls auf unserer unten st
    nl:hasDistrict "anderer Ort" ;
    dct:created "2015-05-05" ;
    dct:modified "2016-06-03" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.384> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.123> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.384> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.123> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.189> a nl:Store  ;
@@ -1782,8 +1782,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-05-31" ;
    dct:modified "2015-05-31" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.390> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.125> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.390> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.125> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.190> a nl:Store  ;
@@ -1794,8 +1794,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-02" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.391> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.391> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.191> a nl:Store  ;
@@ -1806,8 +1806,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.394> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.394> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.192> a nl:Store  ;
@@ -1818,8 +1818,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.395> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.395> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.193> a nl:Store  ;
@@ -1830,8 +1830,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.396> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.396> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.194> a nl:Store  ;
@@ -1842,8 +1842,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.397> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.397> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.195> a nl:Store  ;
@@ -1854,8 +1854,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.398> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.398> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.196> a nl:Store  ;
@@ -1866,8 +1866,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.399> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.399> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.197> a nl:Store  ;
@@ -1878,8 +1878,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.400> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.400> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.198> a nl:Store  ;
@@ -1890,8 +1890,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-04" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.401> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.401> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.199> a nl:Store  ;
@@ -1902,8 +1902,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.402> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.402> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.200> a nl:Store  ;
@@ -1914,8 +1914,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.403> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.403> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.202> a nl:Store  ;
@@ -1924,8 +1924,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.405> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.405> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.203> a nl:Store  ;
@@ -1936,8 +1936,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.406> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.406> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.205> a nl:Store  ;
@@ -1948,8 +1948,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.408> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.408> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.206> a nl:Store  ;
@@ -1960,8 +1960,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.409> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.409> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.207> a nl:Store  ;
@@ -1972,8 +1972,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.410> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.410> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.209> a nl:Store  ;
@@ -1984,8 +1984,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.412> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.412> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.210> a nl:Store  ;
@@ -1996,8 +1996,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.413> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.413> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.211> a nl:Store  ;
@@ -2008,8 +2008,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.414> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.414> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.212> a nl:Store  ;
@@ -2020,8 +2020,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.415> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.415> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.213> a nl:Store  ;
@@ -2030,8 +2030,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.416> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.416> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.214> a nl:Store  ;
@@ -2042,8 +2042,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.417> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.417> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.215> a nl:Store  ;
@@ -2054,8 +2054,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.418> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.418> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.216> a nl:Store  ;
@@ -2066,8 +2066,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.419> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.419> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.217> a nl:Store  ;
@@ -2078,8 +2078,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.420> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.420> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.218> a nl:Store  ;
@@ -2090,8 +2090,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.421> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.421> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.219> a nl:Store  ;
@@ -2102,8 +2102,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.422> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.422> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.220> a nl:Store  ;
@@ -2114,8 +2114,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.423> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.423> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.221> a nl:Store  ;
@@ -2126,8 +2126,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.424> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.424> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.222> a nl:Store  ;
@@ -2138,8 +2138,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.425> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.425> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.223> a nl:Store  ;
@@ -2150,8 +2150,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.426> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.426> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.224> a nl:Store  ;
@@ -2162,8 +2162,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.427> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.427> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.225> a nl:Store  ;
@@ -2174,8 +2174,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.428> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.428> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.226> a nl:Store  ;
@@ -2186,8 +2186,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.429> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.429> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.227> a nl:Store  ;
@@ -2198,8 +2198,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.430> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.430> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.228> a nl:Store  ;
@@ -2210,8 +2210,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.431> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.431> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.229> a nl:Store  ;
@@ -2222,8 +2222,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.432> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.432> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.230> a nl:Store  ;
@@ -2234,8 +2234,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.433> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.433> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.231> a nl:Store  ;
@@ -2246,8 +2246,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.434> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.434> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.234> a nl:Store  ;
@@ -2258,8 +2258,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.437> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.437> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.235> a nl:Store  ;
@@ -2270,8 +2270,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.438> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.438> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.236> a nl:Store  ;
@@ -2282,8 +2282,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.439> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.439> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.237> a nl:Store  ;
@@ -2294,8 +2294,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.440> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.440> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.238> a nl:Store  ;
@@ -2306,8 +2306,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.441> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.441> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.239> a nl:Store  ;
@@ -2318,8 +2318,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.442> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.442> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.240> a nl:Store  ;
@@ -2330,8 +2330,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.443> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.443> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.241> a nl:Store  ;
@@ -2342,8 +2342,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.444> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.444> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.244> a nl:Store  ;
@@ -2354,8 +2354,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.447> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.447> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.245> a nl:Store  ;
@@ -2366,8 +2366,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.448> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.448> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.246> a nl:Store  ;
@@ -2378,8 +2378,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.449> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.449> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.247> a nl:Store  ;
@@ -2390,8 +2390,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-08" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.450> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.450> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.248> a nl:Store  ;
@@ -2403,8 +2403,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.451> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.451> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.249> a nl:Store  ;
@@ -2416,8 +2416,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.452> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.452> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.250> a nl:Store  ;
@@ -2429,8 +2429,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.453> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.453> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.251> a nl:Store  ;
@@ -2442,8 +2442,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.454> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.454> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.252> a nl:Store  ;
@@ -2455,8 +2455,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.455> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.455> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.253> a nl:Store  ;
@@ -2468,8 +2468,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2017-08-07" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.456> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.456> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.255> a nl:Store  ;
@@ -2481,8 +2481,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.458> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.458> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.256> a nl:Store  ;
@@ -2494,8 +2494,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.459> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.459> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.257> a nl:Store  ;
@@ -2507,8 +2507,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.460> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.460> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.258> a nl:Store  ;
@@ -2520,8 +2520,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.461> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.461> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.259> a nl:Store  ;
@@ -2533,8 +2533,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.462> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.462> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.260> a nl:Store  ;
@@ -2546,8 +2546,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.463> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.463> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.261> a nl:Store  ;
@@ -2559,8 +2559,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.464> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.464> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.262> a nl:Store  ;
@@ -2572,8 +2572,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.465> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.465> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.263> a nl:Store  ;
@@ -2585,8 +2585,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.466> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.466> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.264> a nl:Store  ;
@@ -2598,8 +2598,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.467> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.467> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.265> a nl:Store  ;
@@ -2611,8 +2611,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.468> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.468> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.266> a nl:Store  ;
@@ -2624,8 +2624,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.469> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.469> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.267> a nl:Store  ;
@@ -2637,8 +2637,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.470> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.470> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.268> a nl:Store  ;
@@ -2650,8 +2650,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.471> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.471> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.269> a nl:Store  ;
@@ -2663,8 +2663,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.472> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.472> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.270> a nl:Store  ;
@@ -2676,8 +2676,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.473> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.473> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.271> a nl:Store  ;
@@ -2689,8 +2689,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.474> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.474> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.272> a nl:Store  ;
@@ -2702,8 +2702,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.475> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.475> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.273> a nl:Store  ;
@@ -2715,8 +2715,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.476> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.476> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.274> a nl:Store  ;
@@ -2728,8 +2728,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.477> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.477> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.275> a nl:Store  ;
@@ -2741,8 +2741,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.478> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.478> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.276> a nl:Store  ;
@@ -2754,8 +2754,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.479> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.479> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.277> a nl:Store  ;
@@ -2767,8 +2767,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.480> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.480> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.278> a nl:Store  ;
@@ -2780,8 +2780,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.481> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.481> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.279> a nl:Store  ;
@@ -2793,8 +2793,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.482> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.482> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.280> a nl:Store  ;
@@ -2806,8 +2806,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.483> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.483> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.281> a nl:Store  ;
@@ -2819,8 +2819,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2017-03-30" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.484> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.484> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.282> a nl:Store  ;
@@ -2832,8 +2832,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.485> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.485> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.283> a nl:Store  ;
@@ -2845,8 +2845,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.486> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.486> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.284> a nl:Store  ;
@@ -2858,8 +2858,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.487> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.487> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.285> a nl:Store  ;
@@ -2871,8 +2871,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.488> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.488> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.286> a nl:Store  ;
@@ -2884,8 +2884,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-06-18" ;
    dct:modified "2016-08-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.489> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.131> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.489> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.131> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.287> a nl:Store  ;
@@ -2904,8 +2904,8 @@ Das Besondere: hier finden Naschkatzen, Katzenfreunde und Freunde von Katzenfreu
    nl:isPublished "1" ;
    dct:created "2015-09-17" ;
    dct:modified "2016-09-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.527> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.135> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.527> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.135> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.288> a nl:Store  ;
@@ -2938,8 +2938,8 @@ Shoppingerlebnis in brasilianischem Flair""" ;
    nl:hasDistrict "Zentrum-Nord (Nordvorstadt)" ;
    dct:created "2016-02-14" ;
    dct:modified "2017-03-15" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.601> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.143> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.601> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.143> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.290> a nl:Store  ;
@@ -2957,8 +2957,8 @@ hier""" ;
    nl:hasDistrict "anderer Ort" ;
    dct:created "2016-05-04" ;
    dct:modified "2016-05-04" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.629> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.8> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.629> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.8> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.291> a nl:Store  ;
@@ -2968,8 +2968,8 @@ hier""" ;
    nl:hasInfoURL <http://www.EchtUnverpackt.de> ;
    dct:created "2016-07-09" ;
    dct:modified "2017-08-08" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.650> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.147> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.650> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.147> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.292> a nl:Store  ;
@@ -2990,8 +2990,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-01-24" ;
    dct:modified "2017-01-24" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.813> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.155> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.813> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.155> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.293> a nl:Store  ;
@@ -3002,8 +3002,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-07-26" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.950> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.950> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.294> a nl:Store  ;
@@ -3014,8 +3014,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-07-26" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.951> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.951> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.295> a nl:Store  ;
@@ -3026,8 +3026,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-07-26" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.952> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.952> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.296> a nl:Store  ;
@@ -3038,8 +3038,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-07-26" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.953> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.953> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.297> a nl:Store  ;
@@ -3050,8 +3050,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-07-26" ;
    dct:modified "2017-07-26" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.954> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.126> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.954> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.126> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.298> a nl:Store  ;
@@ -3062,8 +3062,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.961> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.961> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.299> a nl:Store  ;
@@ -3074,8 +3074,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.962> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.962> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.300> a nl:Store  ;
@@ -3086,8 +3086,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.963> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.963> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.301> a nl:Store  ;
@@ -3098,8 +3098,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.964> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.964> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.302> a nl:Store  ;
@@ -3110,8 +3110,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.965> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.965> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.303> a nl:Store  ;
@@ -3122,8 +3122,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.966> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.966> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.304> a nl:Store  ;
@@ -3134,8 +3134,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.967> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.967> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.305> a nl:Store  ;
@@ -3146,8 +3146,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.968> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.968> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.306> a nl:Store  ;
@@ -3158,8 +3158,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.969> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.969> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.307> a nl:Store  ;
@@ -3170,8 +3170,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.970> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.970> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.308> a nl:Store  ;
@@ -3182,8 +3182,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.971> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.971> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.309> a nl:Store  ;
@@ -3194,8 +3194,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.972> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.972> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.310> a nl:Store  ;
@@ -3206,8 +3206,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.973> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.973> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.311> a nl:Store  ;
@@ -3218,8 +3218,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.974> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.974> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.312> a nl:Store  ;
@@ -3230,8 +3230,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.975> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.975> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.313> a nl:Store  ;
@@ -3242,8 +3242,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.976> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.976> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.314> a nl:Store  ;
@@ -3254,8 +3254,8 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.977> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.977> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 
 <http://nachhaltiges-leipzig.de/Data/Store.315> a nl:Store  ;
@@ -3266,7 +3266,7 @@ catering""" ;
    nl:isPublished "1" ;
    dct:created "2017-09-05" ;
    dct:modified "2017-09-05" ;
-   nl:relatedActivity <http://leipzig-data.de/Data/Aktivitaet.978> ;
-   nl:hasProvider <http://leipzig-data.de/Data/Akteur.174> ;
+   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.978> ;
+   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.174> ;
    nl:hasEventType "Filiale" . 
 

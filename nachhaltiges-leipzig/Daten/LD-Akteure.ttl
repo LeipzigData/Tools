@@ -922,7 +922,7 @@
 <http://leipzig-data.de/Data/Akteur/FairerEinkaufsfuehrer-Baeckerei/Cafe> a org:Organization  ;
    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Akteur.111> ;
    ld:contactPerson "Martin Finke" ;
-   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.111> ;
+   ld:hasAddress <http://leipzig-data.de/Data/04277.Leipzig.Stockartstrasse.11> ;
    foaf:mbox "einkaufsfuehrer.baeckerei.cafe@einewelt-leipzig.de" ;
    foaf:phone "03413010143" ;
    rdfs:label "Fairer Einkaufsführer - Bäckerei/Cafe" . 
