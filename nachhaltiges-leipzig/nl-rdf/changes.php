@@ -926,7 +926,7 @@ Akteur deaktiviert: kunZstoffe – urbane Ideenwerkstatt e.V. (Leipzig, Christin
 }
 
 // zum Testen
-echo displayChanges();
+// echo displayChanges();
 
 
 ?>

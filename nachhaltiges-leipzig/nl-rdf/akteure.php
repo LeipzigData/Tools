@@ -59,6 +59,6 @@ function createAkteur($row) {
 }
 
 // zum Testen
-echo getAkteure();
+// echo getAkteure();
 
 ?>
