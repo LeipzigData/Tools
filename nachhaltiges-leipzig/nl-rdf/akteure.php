@@ -9,7 +9,7 @@ function getAkteure() {
   $query='SELECT * FROM users';
   $res = db_query($query);
   $out='';
-  foreach (array_reverse($res) as $row) {
+  foreach ($res as $row) {
     $out.=createAkteur($row);
   }
   

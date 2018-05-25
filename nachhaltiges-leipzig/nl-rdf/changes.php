@@ -94,6 +94,59 @@ function getData() {
     return 
 '
 
+Akteur deaktiviert: VDI - GaraGe gGmbH (Leipzig, Dr. Konstanze Schellenberger) . 2018-05-23
+Akteur deaktiviert: Max Planck Institut für Mathematik (Leipzig, Jürgen Jost) . 2018-05-23
+Akteur deaktiviert: kidscode e.V. (Leipzig, Uwe Koch) . 2018-05-23
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1220. 2018-05-22
+Neue Aktivität von Büro der Leipziger Agenda 21 eingetragen. admin/users/3. events/1219. 2018-05-22
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1218. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1217. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1216. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1215. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1214. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1213. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1212. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1211. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1210. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1209. 2018-05-14
+Neue Aktivität von Zoo Leipzig GmbH eingetragen. admin/users/214. projects/121. 2018-05-05
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/1208. 2018-05-04
+Neue Aktivität von KonsumGlobal Leipzig eingetragen. admin/users/233. events/1207. 2018-05-03
+Akteur hat sich registriert. Name: KonsumGlobal Leipzig  . 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1206. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1205. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1204. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1203. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1202. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1201. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1200. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1199. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1198. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1197. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1196. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1195. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1194. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1193. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1192. 2018-05-03
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1191. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1190. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1189. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1188. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1187. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1186. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1185. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1184. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1183. 2018-04-30
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. councelings/2. 2018-04-26
+Akteur hat sich registriert. Name: Stefan Härtel . 2018-04-26
+Neue Aktivität von Gemeinsam Wandeln eingetragen. admin/users/23. councelings/1. 2018-04-26
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. educations/1. 2018-04-26
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. events/1182. 2018-04-26
+Neue Aktivität von Annett Antonia Graeske eingetragen. admin/users/230. events/1181. 2018-04-25
+Akteur hat sich registriert. Name: Annett Antonia Graeske . 2018-04-25
+Akteur deaktiviert: ÖDP Sachsen (Leipzig, Rahel Wehemeyer-Blum) .  2018-03-24
+Neue Aktivität von  eingetragen. admin/users/114. projects/120. 2018-04-20
+Akteur hat sich registriert. Name: Ecofacture . 2018-04-18
 Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1180. 2018-04-11
 Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1179. 2018-04-11
 Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1178. 2018-04-11
