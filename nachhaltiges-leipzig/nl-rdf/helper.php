@@ -1,6 +1,39 @@
 <?php
 
-// require 'vendor/autoload.php';
+include_once("IPS_JSON.php");
+
+/* Quelle: http://www.tdressler.net/ipsymcon/jsonapi.html */
+
+/* == REST-API ==
+
+Basis-URL: daten.nachhaltiges-leipzig.de
+
+API:
+    /api/v1/activities.json
+    /api/v1/activities/[id].json
+    /api/v1/categories.json
+    /api/v1/categories/[id].json
+    /api/v1/products.json
+    /api/v1/products/[id].json
+    /api/v1/trade_types.json
+    /api/v1/trade_categories.json
+    /api/v1/users.json
+    /api/v1/users/[id].json
+
+*/
+
+function apicall($what,$id) {
+    // $id is the id of an FS20-Instance
+    $url="http://daten.nachhaltiges-leipzig.de/api/v1/".$what;
+    $ips = new IPS_JSON($url,'',''); // Die aktuelle API macht keine Passwort-Abfrage
+    $res=$ips->FS20_SwitchMode($id,true); //FS20_SwitchMode ist ein Standard IPS-Befehl
+    // print_r($res);
+    if (!$res) {
+        die ("IPS Request failed:".$ips->getErrorMessage()."\n");
+    } else { return $res; }
+}
+
+// ==== Weitere Hilfsfunktionen
 
 function addLiteral($a,$key,$value) {
     if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes(trim($value)).'"'; }
@@ -13,7 +46,7 @@ function addMLiteral($a,$key,$value) {
 }
 
 function addResource($a,$key,$prefix,$value) {
-    if (!empty($value)) { $a[]=" $key <".$prefix.$value.'>'; }
+    if (!empty($value)) { $a[]=" $key <".$prefix.trim($value).'>'; }
   return $a;
 }
 
@@ -136,6 +169,15 @@ function getHouseNumber($s) {
         return substr($s, strrpos ($s, " ")+1);
     }
     else { return "XX"; }
+}
+
+function getAddressURIfromAPI($s) {
+    $s=iconv("ISO-8859-1", "UTF-8", $s);
+    preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
+    $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
+    $strasse=getStreet($strasse).".".getHouseNumber($strasse);
+    $out=fixURI("$plz.$stadt.$strasse");
+    return $out;
 }
 
 function getAddressURI($row) {
