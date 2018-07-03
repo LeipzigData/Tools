@@ -114,3 +114,10 @@ Skript `ld-adressen.php` eine Turtle-Datei mit Adressen im LD-Format erzeugt,
 mit denen die LD-Adressen nach einer entsprechenden Qualitätssicherung von Zeit
 zu Zeit angereichert werden.
 
+## Nutzung der REST-API
+
+Das ist aktuell in der Diskussion. Das Skript `akteure.php` ist bereits
+umgestellt, allerdings sind die wichtigsten Informationen (insbesondere
+Beschreibungen der einzelnen Akteure usw.) als *activities* hinterlegt. Das
+muss noch genauer ausgelotet werden.
+
