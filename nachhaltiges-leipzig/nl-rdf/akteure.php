@@ -1,35 +1,18 @@
 <?php
 
-/* Copy inc_sample.php to inc.php and fill in your credentials */
-
-include_once("inc.php");
 include_once("helper.php");
 
-function getAkteurefromAPI() {
-    $res = apicall("users.json",25); 
+function getAkteure() {
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    //$src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
     $out=''; // print_r($res);
     foreach ($res as $row) {
         $out.=createAkteur($row);
     }
   
     return TurtlePrefix().'
-<http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
-    rdfs:comment "Dump aus der Datenbank";
-    rdfs:label "Nachhaltiges Leipzig - Akteure" .
-
-'.$out;
-
-}
-
-function getAkteurefromDB() {
-  $query='SELECT * FROM users';
-  $res = db_query($query);
-  $out='';
-  foreach ($res as $row) {
-    $out.=createAkteur($row);
-  }
-  
-  return TurtlePrefix().'
 <http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
@@ -76,7 +59,6 @@ function createAkteur($row) {
 }
 
 // zum Testen
-// echo getAkteurefromDB();
-echo getAkteurefromAPI();
+echo getAkteure();
 
 ?>

@@ -1,9 +1,5 @@
 <?php
 
-include_once("IPS_JSON.php");
-
-/* Quelle: http://www.tdressler.net/ipsymcon/jsonapi.html */
-
 /* == REST-API ==
 
 Basis-URL: daten.nachhaltiges-leipzig.de
@@ -21,17 +17,6 @@ API:
     /api/v1/users/[id].json
 
 */
-
-function apicall($what,$id) {
-    // $id is the id of an FS20-Instance
-    $url="http://daten.nachhaltiges-leipzig.de/api/v1/".$what;
-    $ips = new IPS_JSON($url,'',''); // Die aktuelle API macht keine Passwort-Abfrage
-    $res=$ips->FS20_SwitchMode($id,true); //FS20_SwitchMode ist ein Standard IPS-Befehl
-    // print_r($res);
-    if (!$res) {
-        die ("IPS Request failed:".$ips->getErrorMessage()."\n");
-    } else { return $res; }
-}
 
 // ==== Weitere Hilfsfunktionen
 
@@ -113,6 +98,10 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   return $u;
 }
 
+function getWKT($a) {
+    return "Point($a[1] $a[0])";
+}
+
 function fixNameURI($u) { // Weitere Transformation für Namen
   $u=fixURI($u);
   $u=str_replace("-", "", $u);
@@ -171,8 +160,7 @@ function getHouseNumber($s) {
     else { return "XX"; }
 }
 
-function getAddressURIfromAPI($s) {
-    $s=iconv("ISO-8859-1", "UTF-8", $s);
+function proposeAddressURI($s) {
     preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
     $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
     $strasse=getStreet($strasse).".".getHouseNumber($strasse);
