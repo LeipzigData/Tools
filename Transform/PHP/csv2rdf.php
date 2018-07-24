@@ -11,6 +11,7 @@
  */
 
 // require 'vendor/autoload.php';
+require 'helper.php';
 
 // output settings
 //=========================
@@ -36,11 +37,11 @@ function createGenericRDF($subject,$data) {
   $a=array(); $cnt=100;
   foreach ($data as $key => $value) {
     $fix=trim($value);
-    if (!empty($fix)) $a=addKeyValue($a,"ihr:predicate".$cnt,$fix);
+    if (!empty($fix)) $a=addLiteral($a,"ihr:predicate".$cnt,$fix);
     $cnt++;
   }
   return 
-    '<http://haushaltsrechner.leipzig.de/Data/CSVValue/'.$subject.">\n\t"
+    '<http://leipzig-data.de/Data/CSVValue/'.$subject.">\n\t"
     .join(";\n\t",$a).".\n\n";
 }
 
@@ -56,89 +57,45 @@ function postProcess($string,$feldnamen) {
   return $string;
 }
 
-/* Spezifische Transformationsfunktion für die Bezugliste. Die Label sind schon
-   vorhanden, hier wird nur der Baum extrahiert.  */
+/* Spezifische Transformationsfunktionen */
 
-function createBezugsbaum($subject,$data) {
-  $out='ihr:'.fixString($data[2]).' ihr:hasChild ihr:'.fixString($data[0])." .\n";
-  $out.='ihr:'.fixString($data[3]).' ihr:hasChild ihr:'.fixString($data[2])." .\n";
-  $out.='ihr:'.fixString($data[4]).' ihr:hasChild ihr:'.fixString($data[3])." .\n";
-  return $out;
+function fixHortURI($s) {
+    $s=fixURI($s);
+    $s=str_replace("Hortander", "", $s);
+    $s=str_replace("Hortinder", "", $s);
+    $s=str_replace("Hortder", "", $s);
+    $s=str_replace("Hort", "", $s);
+    return $s;
 }
 
-// ------ helper functions -------
-
-function addKeyValue($a,$key,$value) {
-  $value=fixString($value);
-  if (empty($value)) return $a;
-  if (strpos($value,"http://") !== FALSE ) { // an URI
-    $a[]=$key." <$value>"; 
-  } else if (strpos($value,"ihr:") !== FALSE ){ // a ihr
-    $a[]=$key." $value"; 
-  } else { // a literal
-    $a[]=$key." \"$value\""; 
-  }
-  return $a;
-}
-
-function fixString($string) {
-  $string=trim($string);
-  $string=str_replace("\"","\\\"",$string);
-  return $string;
-}
-
-/* 
-   Geokordinaten sind in den meisten Darstellunge kommaseparierte Paare, was
-   mit der Semantik des Kommas in RDF konfligiert, wenn es mehrere
-   Geokoordinatenangaben zu einem Subjekt gibt.  Deshalb wird die Darstellung
-   von Geokoordinaten als asWKT-String Point(long lat) verwendet. 
-*/
-
-function asWKT($string) { 
-  $string=trim($string);
-  if (empty($string)) return;
-  $a=preg_split("/\s*,\s*/",$string); // lat, long
-  return "Point($a[1] $a[0])";
-}
-
-/* Versuche, eine plausible Adress-URI aus den gegebenen Bestandteilen zu
-   erzeugen */
-
-function createAddress($strasse,$nr,$plz,$ort) {
-  if (empty($ort)) return;
-  $uri=$plz.".".$ort.".".$strasse.".".$nr;
-  // mache eine Reihe sinnvoller Ersetzungen
-  $uri=preg_replace(array("/\s+/"),array(""),$uri);
-  $uri=str_replace(
-    array("ä", "ö", "ü", "ß"),
-    array("ae","oe","ue","ss"),
-    $uri);
-  return "http://haushaltsrechner.leipzig.de/Data/".$uri;
-}
-
-function TurtlePrefix() {
-  return '
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix ld: <http://leipzig-data.de/Data/Model/> .
-
-';
+function createHorte($subject,$data) { // subject is not used
+    $a=array(); // Name|Adresse|PLZ|Ort|Anrede|Leitung|Email|Telefon
+    $name=$data[0];
+    $adresse=createAddress($data[1],"",$data[2],$data[3]);
+    $adresse=preg_replace("/(\d+).$/",".$1",$adresse);
+    $id=fixHortURI($name);
+    $a=addLiteral($a,"rdfs:label",$name);
+    $a=addResource($a,"ld:hasAddress","",$adresse);
+    $a=addLiteral($a,"foaf:mbox",trim($data[6]));
+    $a=addLiteral($a,"foaf:phone",fixPhone($data[7]));
+    return 
+        "<http://leipzig-data.de/Data/Hort/$id>\n\t"
+        .join(";\n\t",$a).".\n\n";
 }
 
 // ---- Transformationen ----
 
+
 function processHorte() {
-  $out=readCSV("horte-leipzig.csv","createGenericRDF","A"); 
-  $feldnamen=array('rdfs:label','ld:hasAddress','ld:Leiter','foaf:mbox','ld:Ansprechpartner','foaf:phone');
-  return postProcess($out,$feldnamen);
+  $datadir="/home/graebe/git/LD/Tools/Transform/Data";
+  $out=readCSV("$datadir/horte-leipzig.csv","createHorte","");
+  $out=str_replace(
+      array('ihr:0','ihr:1','ihr:2','ihr:3','ihr:4','ihr:5','ihr:6','ihr:7'),
+      array('rdfs:label',),
+      $out);
+  return $out;
 }
 
-// echo readCSV("horte-leipzig.csv","createGenericRDF",""); 
 echo processHorte();
 
 ?>
