@@ -15,7 +15,6 @@ API:
     /api/v1/trade_categories.json
     /api/v1/users.json
     /api/v1/users/[id].json
-
 */
 
 // ==== Weitere Hilfsfunktionen
