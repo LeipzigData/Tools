@@ -20,10 +20,10 @@ ini_set('default_charset', 'utf-8');
 /* Generischer Treiber, dem eine Funktion als Parameter übergeben wird, mit der
    ein einzelner Datensatz der CSV-Datei verarbeitet wird. */
 
-function readCSV($filename,$processing,$prefix) {
+function readCSV($filename,$processing,$prefix,$separator) {
   if (($handle = fopen("$filename", "r")) !== FALSE) {
     $out=''; $row=1000;
-    while (($data = fgetcsv($handle, 1000, "|")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, $separator)) !== FALSE) {
       $out.=$processing($prefix.$row++,$data);
     }
     fclose($handle);
@@ -79,24 +79,49 @@ function createHorte($subject,$data) { // subject is not used
     $a=addLiteral($a,"foaf:mbox",trim($data[6]));
     $a=addLiteral($a,"foaf:phone",fixPhone($data[7]));
     return 
-        "<http://leipzig-data.de/Data/Hort/$id>\n\t"
+        "<http://leipzig-data.de/Data/Hort/$id> a ld:Hort;\n\t"
+        .join(";\n\t",$a).".\n\n";
+}
+
+function fixSchulURI($s) {
+    $s=fixURI($s);
+    return $s;
+}
+
+function createGrundschulen($subject,$data) { // subject is not used
+    $a=array(); // Name|Adresse|Ansprechpartner|Email|Webseite|Ortsteil
+    $name=str_replace(" - Grundschule der Stadt Leipzig","",$data[0]);
+    $name=str_replace("Freier Träger - ","",$name);
+    $b=preg_split("/,\s*/",$data[1]);
+    $adresse=createAddress($b[0],"",$b[1],$b[2]);
+    $adresse=preg_replace("/(\d+).$/",".$1",$adresse);
+    $url=trim(str_replace("n/a","",$data[4]));
+    $id=fixSchulURI($name);
+    $a=addLiteral($a,"rdfs:label",$name);
+    $a=addResource($a,"ld:hasAddress","",$adresse);
+    $a=addLiteral($a,"foaf:mbox",trim($data[3]));
+    $a=addResource($a,"foaf:homepage","",fixURL($url));
+    return 
+        "<http://leipzig-data.de/Data/Schule/$id> a ld:Grundschule;\n\t"
         .join(";\n\t",$a).".\n\n";
 }
 
 // ---- Transformationen ----
 
-
 function processHorte() {
   $datadir="/home/graebe/git/LD/Tools/Transform/Data";
-  $out=readCSV("$datadir/horte-leipzig.csv","createHorte","");
-  $out=str_replace(
-      array('ihr:0','ihr:1','ihr:2','ihr:3','ihr:4','ihr:5','ihr:6','ihr:7'),
-      array('rdfs:label',),
-      $out);
+  $out=readCSV("$datadir/horte-leipzig.csv","createHorte","","|");
   return $out;
 }
 
-echo processHorte();
+function processGrundschulen() {
+  $datadir="/home/graebe/git/LD/Tools/Transform/Data";
+  $out=readCSV("$datadir/grundschulen.csv","createGrundschulen","",";");
+  return $out;
+}
+
+// echo processHorte();
+echo processGrundschulen();
 
 ?>
 

@@ -43,8 +43,11 @@ function fixPhone($u) {
 }
 
 function fixURL($u) {
-  if (strpos($u,'http')===false) { $u='http://'.$u; }
-  return $u;
+    if (empty($u)) { return; }
+    if (strpos($u,'http')===false) { $u='http://'.$u; }
+    $u=str_replace("http//","http://",$u);
+    $u=str_replace("https//","https://",$u);
+    return $u;
 }
 
 function fixImageString($u) {
