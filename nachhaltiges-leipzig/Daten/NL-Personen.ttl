@@ -1,0 +1,3314 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix nl: <http://nachhaltiges-leipzig.de/Data/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+
+<http://leipzig-data.de/Data/Person/Andruschow_Kerstin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.113> ;
+    foaf:firstName "Kerstin" ;
+    foaf:lastName "Andruschow" ;
+    foaf:mbox "bibliothek.plagwitz@leipzig.de" ;
+    foaf:phone "0341-4804375" .
+
+<http://leipzig-data.de/Data/Person/Assfalg_Gregor>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.88> ;
+    foaf:firstName "Gregor" ;
+    foaf:lastName "Assfalg" ;
+    foaf:mbox "gregor.assfalg@wisamar.de" ;
+    foaf:phone "0341999559" .
+
+<http://leipzig-data.de/Data/Person/Asshoff_Joerg>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.47> ;
+    foaf:firstName "Jörg" ;
+    foaf:lastName "Asshoff" ;
+    foaf:mbox "ja@fundamentale.de" ;
+    foaf:phone "4934186722056" .
+
+<http://leipzig-data.de/Data/Person/Awe_Christoph>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.215> ;
+    foaf:firstName "Christoph" ;
+    foaf:lastName "Awe" ;
+    foaf:mbox "awe@cammerspiele.de" ;
+    foaf:phone "0341-3067606" .
+
+<http://leipzig-data.de/Data/Person/Balmer_Steffen>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.38> ;
+    foaf:firstName "Steffen" ;
+    foaf:lastName "Balmer" ;
+    foaf:mbox "info@westbesuch.com" ;
+    foaf:phone "015787800654" .
+
+<http://leipzig-data.de/Data/Person/Barnick_Jan>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.83> ;
+    foaf:firstName "Jan" ;
+    foaf:lastName "Barnick" ;
+    foaf:mbox "kontakt@lehmolandia.de" ;
+    foaf:phone "015737651644" .
+
+<http://leipzig-data.de/Data/Person/Bauer_Christin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.64> ;
+    foaf:firstName "Christin" ;
+    foaf:lastName "Bauer" ;
+    foaf:mbox "buero@kunzstoffe.de" ;
+    foaf:phone "01634846916" .
+
+<http://leipzig-data.de/Data/Person/Berninger_Michael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.179> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Berninger" ;
+    foaf:mbox "berninger@culturtraeger.de" ;
+    foaf:phone "+49341141650" .
+
+<http://leipzig-data.de/Data/Person/Biedermann_AnnaAntje>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.227> ;
+    foaf:firstName "Anna Antje" ;
+    foaf:lastName "Biedermann" ;
+    foaf:mbox "kontakt@bunte-gaerten.org" ;
+    foaf:phone "01783439541" .
+
+<http://leipzig-data.de/Data/Person/Bollmann_Sabrina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.175> ;
+    foaf:firstName "Sabrina" ;
+    foaf:lastName "Bollmann" ;
+    foaf:mbox "sabrina.bollmann@teilnehmer.bfw-leipzig.de" ;
+    foaf:phone "0160-7814159" .
+
+<http://leipzig-data.de/Data/Person/Bolte_Sabine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.34> ;
+    foaf:firstName "Sabine" ;
+    foaf:lastName "Bolte" ;
+    foaf:mbox "bildungsberatung@leipzig.de" ;
+    foaf:phone "03411234779" .
+
+<http://leipzig-data.de/Data/Person/Brauer_Marius>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.67> ;
+    foaf:firstName "Marius" ;
+    foaf:lastName "Brauer" ;
+    foaf:mbox "info@querbeet-leipzig.de" ;
+    foaf:phone "00000000000" .
+
+<http://leipzig-data.de/Data/Person/Brehm_Susanne>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.27> ;
+    foaf:firstName "Susanne" ;
+    foaf:lastName "Brehm" ;
+    foaf:mbox "s.brehm@knoe.org" ;
+    foaf:phone "0341-39281686" .
+
+<http://leipzig-data.de/Data/Person/Bronn_Heike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.184> ;
+    foaf:firstName "Heike" ;
+    foaf:lastName "Bronn" ;
+    foaf:mbox "info@gartenfreundesued.de" ;
+    foaf:phone "03413028628" .
+
+<http://leipzig-data.de/Data/Person/Buchterkirchen_Elisa>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.176> ;
+    foaf:firstName "Elisa" ;
+    foaf:lastName "Buchterkirchen" ;
+    foaf:mbox "wildwechsel@vierfaehrten.de" ;
+    foaf:phone "015776088508" .
+
+<http://leipzig-data.de/Data/Person/Buechting_Anja>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.129> ;
+    foaf:firstName "Anja" ;
+    foaf:lastName "Büchting" ;
+    foaf:mbox "info@alltagsinstitut.de" ;
+    foaf:phone "017681092584" .
+
+<http://leipzig-data.de/Data/Person/Coop_Food>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.124> ;
+    foaf:firstName "Food" ;
+    foaf:lastName "Coop" ;
+    foaf:mbox "info@lost-food.de" ;
+    foaf:phone "12345" .
+
+<http://leipzig-data.de/Data/Person/Deckert_Anica>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.91> ;
+    foaf:firstName "Anica" ;
+    foaf:lastName "Deckert" ;
+    foaf:mbox "leipzig@contigo.de" ;
+    foaf:phone "0341-23102973" .
+
+<http://leipzig-data.de/Data/Person/Dehn_Georg>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.86> ;
+    foaf:firstName "Georg" ;
+    foaf:lastName "Dehn" ;
+    foaf:mbox "redaktion@araki.de" ;
+    foaf:phone "015735792998", "03413919966" .
+
+<http://leipzig-data.de/Data/Person/Doss_Theresa>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.80> ;
+    foaf:firstName "Theresa" ;
+    foaf:lastName "Doss" ;
+    foaf:mbox "projektraum.leipzig@gmail.com" ;
+    foaf:phone "4917672949640" .
+
+<http://leipzig-data.de/Data/Person/Efer_Thomas>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.71> ;
+    foaf:firstName "Thomas" ;
+    foaf:lastName "Efer" ;
+    foaf:mbox "info@dsble.de" ;
+    foaf:phone "+49-3212-1394300" .
+
+<http://leipzig-data.de/Data/Person/Eissner_Christel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.210> ;
+    foaf:firstName "Christel" ;
+    foaf:lastName "Eißner" ;
+    foaf:mbox "qb.info@posteo.de" ;
+    foaf:phone "01629778337" .
+
+<http://leipzig-data.de/Data/Person/Elborg_Kirsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.58>, <http://nachhaltiges-leipzig.de/Data/Person.59> ;
+    foaf:firstName "Kirsten" ;
+    foaf:lastName "Elborg" ;
+    foaf:mbox "k.elborg@permakultur-institut.de", "kirstenelborg@yahoo.de" ;
+    foaf:phone "0163-9897864" .
+
+<http://leipzig-data.de/Data/Person/Elsaesser_Ralf>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.3> ;
+    foaf:firstName "Ralf" ;
+    foaf:lastName "Elsässer" ;
+    foaf:mbox "post@civixx.de" ;
+    foaf:phone "015175013065", "034124770146" .
+
+<http://leipzig-data.de/Data/Person/Finke_Martin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.108>, <http://nachhaltiges-leipzig.de/Data/Person.110>, <http://nachhaltiges-leipzig.de/Data/Person.111>, <http://nachhaltiges-leipzig.de/Data/Person.130>, <http://nachhaltiges-leipzig.de/Data/Person.131>, <http://nachhaltiges-leipzig.de/Data/Person.50> ;
+    foaf:firstName "Martin" ;
+    foaf:lastName "Finke" ;
+    foaf:mbox "Superaemerkte@einewelt-Leipzig.de", "einkaufsfuehrer.baeckerei.cafe@einewelt-leipzig.de", "einkaufsfuehrer.restaurant.cafe@einewelt-leipzig.de", "info@einewelt-leipzig.de", "info@fairtrade-leipzig.de", "supermaerkte@einewelt-leipzig.de" ;
+    foaf:phone "+493413010143", "03413010143" .
+
+<http://leipzig-data.de/Data/Person/Fischer_PhilippDaniel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.174> ;
+    foaf:firstName "Philipp-Daniel" ;
+    foaf:lastName "Fischer" ;
+    foaf:mbox "cr-food@aldi-nord.de" ;
+    foaf:phone "02018593438" .
+
+<http://leipzig-data.de/Data/Person/FloresdeLooss_Carina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.154> ;
+    foaf:firstName "Carina" ;
+    foaf:lastName "Flores de Looß" ;
+    foaf:mbox "carina.flores@diehellenkoepfe.de" ;
+    foaf:phone "015756424859", "01749760689" .
+
+<http://leipzig-data.de/Data/Person/Foerster_Lutz>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.55> ;
+    foaf:firstName "Lutz" ;
+    foaf:lastName "Förster" ;
+    foaf:mbox "info@lipsia-e-motion.com" ;
+    foaf:phone "0179-2933671", "0341-9012193" .
+
+<http://leipzig-data.de/Data/Person/Fremgen_Leonie>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.21> ;
+    foaf:firstName "Leonie" ;
+    foaf:lastName "Fremgen" ;
+    foaf:mbox "info@oikos-leipzig.org" ;
+    foaf:phone "01622950053" .
+
+<http://leipzig-data.de/Data/Person/Friebel_Anne>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.177>, <http://nachhaltiges-leipzig.de/Data/Person.228> ;
+    foaf:firstName "Anne" ;
+    foaf:lastName "Friebel" ;
+    foaf:mbox "anne.friebel@luxaa.de", "hallo@theshopsheloves.de" ;
+    foaf:phone "004934124903024", "016097919380" .
+
+<http://leipzig-data.de/Data/Person/Fried_Sebastian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.25> ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Fried" ;
+    foaf:mbox "sebastian.fried@leipzig.de" ;
+    foaf:phone "03411236146" .
+
+<http://leipzig-data.de/Data/Person/Friedrich_Claudia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.118>, <http://nachhaltiges-leipzig.de/Data/Person.221> ;
+    foaf:firstName "Claudia" ;
+    foaf:lastName "Friedrich" ;
+    foaf:mbox "kontakt@heldenkueche.net", "kontakt@heldenküche.net" ;
+    foaf:phone "0176-61264172" .
+
+<http://leipzig-data.de/Data/Person/Fuchs_Nadine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.205> ;
+    foaf:firstName "Nadine" ;
+    foaf:lastName "Fuchs" ;
+    foaf:mbox "nadine.fuchs@delitzsch.de" ;
+    foaf:phone "03420267124" .
+
+<http://leipzig-data.de/Data/Person/Graeske_AnnettAntonia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.206> ;
+    foaf:firstName "Annett Antonia" ;
+    foaf:lastName "Gräske" ;
+    foaf:mbox "angraeske@gmail.com" ;
+    foaf:phone "03437760884" .
+
+<http://leipzig-data.de/Data/Person/Grallert_Bettina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.160> ;
+    foaf:firstName "Bettina" ;
+    foaf:lastName "Grallert" ;
+    foaf:mbox "info@phyllodrom.de" ;
+    foaf:phone "03415257757" .
+
+<http://leipzig-data.de/Data/Person/Graske_AnnettAntonia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.230> ;
+    foaf:firstName "Annett Antonia" ;
+    foaf:lastName "Graske" ;
+    foaf:mbox "info@fitinart.com" ;
+    foaf:phone "+493437915597" .
+
+<http://leipzig-data.de/Data/Person/Grauwinkel_Urte>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.141> ;
+    foaf:firstName "Urte" ;
+    foaf:lastName "Grauwinkel" ;
+    foaf:mbox "urte.grauwinkel@web.de" ;
+    foaf:phone "0341-3081269" .
+
+<http://leipzig-data.de/Data/Person/Grimm_Sandra>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.66> ;
+    foaf:firstName "Sandra" ;
+    foaf:lastName "Grimm" ;
+    foaf:mbox "sandra@stadtpflanzer.de" ;
+    foaf:phone "01777886010" .
+
+<http://leipzig-data.de/Data/Person/Grohall_Norma>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.196> ;
+    foaf:firstName "Norma" ;
+    foaf:lastName "Grohall" ;
+    foaf:mbox "ngrohall@bio-mare.com" ;
+    foaf:phone "0341-30816913" .
+
+<http://leipzig-data.de/Data/Person/Grothe_Hennry>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.237> ;
+    foaf:firstName "Hennry" ;
+    foaf:lastName "Grothe" ;
+    foaf:mbox "grothe@vitera.org" ;
+    foaf:phone "017693149331", "03415611550" .
+
+<http://leipzig-data.de/Data/Person/Gundermann_Johanna>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.43> ;
+    foaf:firstName "Johanna" ;
+    foaf:lastName "Gundermann" ;
+    foaf:mbox "buero@rockzipfel-leipzig.de" ;
+    foaf:phone "03412482740" .
+
+<http://leipzig-data.de/Data/Person/Gundlach_Christian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.29> ;
+    foaf:firstName "Christian" ;
+    foaf:lastName "Gundlach" ;
+    foaf:mbox "kinderbuero@dksb-leipzig.de" ;
+    foaf:phone "0341-7025712" .
+
+<http://leipzig-data.de/Data/Person/Haase_Mathias>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.123> ;
+    foaf:firstName "Mathias" ;
+    foaf:lastName "Haase" ;
+    foaf:mbox "der_lindwurm@t-online.de" ;
+    foaf:phone "034383041325" .
+
+<http://leipzig-data.de/Data/Person/Haberkorn_Katja>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.68> ;
+    foaf:firstName "Katja" ;
+    foaf:lastName "Haberkorn" ;
+    foaf:mbox "kontakt@zackig-auf-kurs.de" ;
+    foaf:phone "0341-58150057" .
+
+<http://leipzig-data.de/Data/Person/Haedicke_Michael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.90> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Haedicke" ;
+    foaf:mbox "info@haediflor.de" ;
+    foaf:phone "0341-3304411" .
+
+<http://leipzig-data.de/Data/Person/Haertel_Stefan>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.231> ;
+    foaf:firstName "Stefan" ;
+    foaf:lastName "Härtel" ;
+    foaf:mbox "haertel@appplant.de" ;
+    foaf:phone "0178-1898391" .
+
+<http://leipzig-data.de/Data/Person/Haeuser_Kristin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.74> ;
+    foaf:firstName "Kristin" ;
+    foaf:lastName "Häuser" ;
+    foaf:mbox "wollzirkel@posteo.de" ;
+    foaf:phone "034164063810" .
+
+<http://leipzig-data.de/Data/Person/Hagedorn_Richard>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.77> ;
+    foaf:firstName "Richard" ;
+    foaf:lastName "Hagedorn" ;
+    foaf:mbox "Richard.Hagedorn@erntemich.de" ;
+    foaf:phone "01773273278" .
+
+<http://leipzig-data.de/Data/Person/Hahmann_Verena>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.133> ;
+    foaf:firstName "Verena" ;
+    foaf:lastName "Hahmann" ;
+    foaf:mbox "verena.hahmann@marriott.com" ;
+    foaf:phone "04319653109" .
+
+<http://leipzig-data.de/Data/Person/Hanisch_Susan>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.235> ;
+    foaf:firstName "Susan" ;
+    foaf:lastName "Hanisch" ;
+    foaf:mbox "susan@globalesd.org" ;
+    foaf:phone "+4934167929580" .
+
+<http://leipzig-data.de/Data/Person/Hanuschke_Julia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.222> ;
+    foaf:firstName "Julia" ;
+    foaf:lastName "Hanuschke" ;
+    foaf:mbox "julia.hanuschke@delitzscherland.de" ;
+    foaf:phone "03420235471" .
+
+<http://leipzig-data.de/Data/Person/Hartmann_Peter>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.153> ;
+    foaf:firstName "Peter" ;
+    foaf:lastName "Hartmann" ;
+    foaf:mbox "phartmann6@t-online.de" ;
+    foaf:phone "01634607183" .
+
+<http://leipzig-data.de/Data/Person/Hauffe_Stefanie>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.127> ;
+    foaf:firstName "Stefanie" ;
+    foaf:lastName "Hauffe" ;
+    foaf:mbox "info@hands-on-technology.org" ;
+    foaf:phone "03412461583" .
+
+<http://leipzig-data.de/Data/Person/Haupt_Maik>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.97> ;
+    foaf:firstName "Maik" ;
+    foaf:lastName "Haupt" ;
+    foaf:mbox "mhaupt@zoo-leipzig.de" ;
+    foaf:phone "03415933364" .
+
+<http://leipzig-data.de/Data/Person/Heinze_Rebecca>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.217> ;
+    foaf:firstName "Rebecca" ;
+    foaf:lastName "Heinze" ;
+    foaf:mbox "rebecca.heinze@markkleeberg.de" ;
+    foaf:phone "03413541419" .
+
+<http://leipzig-data.de/Data/Person/Heller_Stefan>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.147> ;
+    foaf:firstName "Stefan" ;
+    foaf:lastName "Heller" ;
+    foaf:mbox "info@echtunverpackt.de" ;
+    foaf:phone "01797563762" .
+
+<http://leipzig-data.de/Data/Person/Henke_Steffen>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.53> ;
+    foaf:firstName "Steffen" ;
+    foaf:lastName "Henke" ;
+    foaf:mbox "info@lust-auf-neues-geld-leipzig.de" ;
+    foaf:phone "034123159818" .
+
+<http://leipzig-data.de/Data/Person/Herrmann_Ralf>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.149> ;
+    foaf:firstName "Ralf" ;
+    foaf:lastName "Herrmann" ;
+    foaf:mbox "info@wildparkverein-leipzig.de" ;
+    foaf:phone "034126496004" .
+
+<http://leipzig-data.de/Data/Person/Heuer_Michael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.138> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Heuer" ;
+    foaf:mbox "pulita@gmx.info" ;
+    foaf:phone "015123329702" .
+
+<http://leipzig-data.de/Data/Person/Heymann_Sabine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.2> ;
+    foaf:firstName "Sabine" ;
+    foaf:lastName "Dr. Heymann" ;
+    foaf:mbox "mail@leipzig-heymann.de" ;
+    foaf:phone "0172-7935986", "0341-4924024" .
+
+<http://leipzig-data.de/Data/Person/Hilbrecht_Martin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.73> ;
+    foaf:firstName "Martin" ;
+    foaf:lastName "Hilbrecht" ;
+    foaf:mbox "presse@bund-leipzig.de" ;
+    foaf:phone "03413065395" .
+
+<http://leipzig-data.de/Data/Person/Hinkefuss_Kurt>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.173> ;
+    foaf:firstName "Kurt" ;
+    foaf:lastName "Hinkefuß" ;
+    foaf:mbox "kauerte@gmx.net" ;
+    foaf:phone "01631736473" .
+
+<http://leipzig-data.de/Data/Person/Hinz_Thorsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.165> ;
+    foaf:firstName "Thorsten" ;
+    foaf:lastName "Hinz" ;
+    foaf:mbox "info@bergbau-technik-park.de" ;
+    foaf:phone "034297-140127" .
+
+<http://leipzig-data.de/Data/Person/HoeppnerBoehme_Birgit>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.87> ;
+    foaf:firstName "Birgit" ;
+    foaf:lastName "Höppner-Böhme" ;
+    foaf:mbox "info@fwal.de" ;
+    foaf:phone "0341-1494728" .
+
+<http://leipzig-data.de/Data/Person/Hoeppner_Matthias>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.24> ;
+    foaf:firstName "Matthias" ;
+    foaf:lastName "Höppner" ;
+    foaf:mbox "dialog@rad3.de" ;
+    foaf:phone "+493413928739" .
+
+<http://leipzig-data.de/Data/Person/Hoerning_Karin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.166> ;
+    foaf:firstName "Karin" ;
+    foaf:lastName "Hörning" ;
+    foaf:mbox "kontakt@muehlstrasse.de" ;
+    foaf:phone "0341-9903600" .
+
+<http://leipzig-data.de/Data/Person/Hoetzel_Ina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.137> ;
+    foaf:firstName "Ina" ;
+    foaf:lastName "Hötzel" ;
+    foaf:mbox "info@freigeist-leipzig.de" ;
+    foaf:phone "0341-2338177" .
+
+<http://leipzig-data.de/Data/Person/Hofmann_Paula>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.189> ;
+    foaf:firstName "Paula" ;
+    foaf:lastName "Hofmann" ;
+    foaf:mbox "gaerten@buelowviertel.de" ;
+    foaf:phone "03412607509" .
+
+<http://leipzig-data.de/Data/Person/Hohaus_Johannes>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.170> ;
+    foaf:firstName "Johannes" ;
+    foaf:lastName "Hohaus" ;
+    foaf:mbox "info@parcours-bildung.org" ;
+    foaf:phone "034126580091" .
+
+<http://leipzig-data.de/Data/Person/Homburg_Sebastian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.197> ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Homburg" ;
+    foaf:mbox "sebastian@erleb-bar.de" ;
+    foaf:phone "0178-8483323" .
+
+<http://leipzig-data.de/Data/Person/Huemmer_Anja>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.190> ;
+    foaf:firstName "Anja" ;
+    foaf:lastName "Hümmer" ;
+    foaf:mbox "natur.nah@gmx.de" ;
+    foaf:phone "015784801813" .
+
+<http://leipzig-data.de/Data/Person/Jahnich_Phillipp>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.103> ;
+    foaf:firstName "Phillipp" ;
+    foaf:lastName "Jahnich" ;
+    foaf:mbox "Philipp.Jahnich@luxurycollection.com" ;
+    foaf:phone "+49(0)3411404901" .
+
+<http://leipzig-data.de/Data/Person/Jakob_Simon>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.150> ;
+    foaf:firstName "Simon" ;
+    foaf:lastName "Jakob" ;
+    foaf:mbox "leipzig.lg@sci-d.de" ;
+    foaf:phone "015739263765" .
+
+<http://leipzig-data.de/Data/Person/Jost_Juergen>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.162> ;
+    foaf:firstName "Jürgen" ;
+    foaf:lastName "Jost" ;
+    foaf:mbox "josefineotte95@gmail.com" ;
+    foaf:phone "+49(0)341-9959-50" .
+
+<http://leipzig-data.de/Data/Person/Kalteich_Axel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.187> ;
+    foaf:firstName "Axel" ;
+    foaf:lastName "Kalteich" ;
+    foaf:mbox "info@bv-sellerhausen.de" ;
+    foaf:phone "0163-2796291" .
+
+<http://leipzig-data.de/Data/Person/Kassner_Olga>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.135> ;
+    foaf:firstName "Olga" ;
+    foaf:lastName "Kassner" ;
+    foaf:mbox "info@little-kiwi.de" ;
+    foaf:phone "03414811978" .
+
+<http://leipzig-data.de/Data/Person/Kayser_Mara>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.167> ;
+    foaf:firstName "Mara" ;
+    foaf:lastName "Kayser" ;
+    foaf:mbox "info@arche-nova.org" ;
+    foaf:phone "035148198421" .
+
+<http://leipzig-data.de/Data/Person/Kell_Angelika>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.100> ;
+    foaf:firstName "Angelika" ;
+    foaf:lastName "Kell" ;
+    foaf:mbox "post@buergerfuerleipzig.de" ;
+    foaf:phone "9601530" .
+
+<http://leipzig-data.de/Data/Person/Kienemund_Gudula>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.30> ;
+    foaf:firstName "Gudula" ;
+    foaf:lastName "Kienemund" ;
+    foaf:mbox "gk@ideenquartier.org" ;
+    foaf:phone "+49(0)341-86729050" .
+
+<http://leipzig-data.de/Data/Person/Klein_Jens>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.120> ;
+    foaf:firstName "Jens" ;
+    foaf:lastName "Klein" ;
+    foaf:mbox "jens@cafe-chavalo.de" ;
+    foaf:phone "0175-9490562" .
+
+<http://leipzig-data.de/Data/Person/Kleitke_Astrid>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.99> ;
+    foaf:firstName "Astrid" ;
+    foaf:lastName "Kleitke" ;
+    foaf:mbox "akleitke@oxfam.de" ;
+    foaf:phone "030-45306910" .
+
+<http://leipzig-data.de/Data/Person/Klengel_Juliana>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.63> ;
+    foaf:firstName "Juliana" ;
+    foaf:lastName "Klengel" ;
+    foaf:mbox "analui@posteo.de" ;
+    foaf:phone "01577-1598241" .
+
+<http://leipzig-data.de/Data/Person/Knaack_Detlef>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.102> ;
+    foaf:firstName "Detlef" ;
+    foaf:lastName "Knaack" ;
+    foaf:mbox "detlef.knaack@fairgourmet.de" ;
+    foaf:phone "03416787000" .
+
+<http://leipzig-data.de/Data/Person/Koch_Andreas>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.159>, <http://nachhaltiges-leipzig.de/Data/Person.233> ;
+    foaf:firstName "Andreas" ;
+    foaf:lastName "Koch" ;
+    foaf:mbox "andreas.koch@code-it-studio.de", "andreaskoch030@gmail.com" ;
+    foaf:phone "01525-7170432", "01743160863" .
+
+<http://leipzig-data.de/Data/Person/Koch_Sebastian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.36> ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Koch" ;
+    foaf:mbox "info@eg-leipzig.de" ;
+    foaf:phone "01603365593" .
+
+<http://leipzig-data.de/Data/Person/Koehler_Maria>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.220> ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Köhler" ;
+    foaf:mbox "presse@schumann-magistrale.de" ;
+    foaf:phone "017610104544", "034126319060" .
+
+<http://leipzig-data.de/Data/Person/Koenig_Heike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.54> ;
+    foaf:firstName "Heike" ;
+    foaf:lastName "König" ;
+    foaf:mbox "geschaeftsstelle@gruenerring-leipzig.de" ;
+    foaf:phone "01622807860", "03429120412" .
+
+<http://leipzig-data.de/Data/Person/Koerner_Annette>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.11> ;
+    foaf:firstName "Annette" ;
+    foaf:lastName "Körner" ;
+    foaf:mbox "fvumweltinformationszentrum@web.de" ;
+    foaf:phone "034122313469" .
+
+<http://leipzig-data.de/Data/Person/Kollotzek_Markus>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.114> ;
+    foaf:firstName "Markus" ;
+    foaf:lastName "Kollotzek" ;
+    foaf:mbox "markus.kollotzek@greennetproject.org" ;
+    foaf:phone "0160-2574782" .
+
+<http://leipzig-data.de/Data/Person/Kratz_Daisy>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.76> ;
+    foaf:firstName "Daisy" ;
+    foaf:lastName "Kratz" ;
+    foaf:mbox "mail@ackerwinde.net" ;
+    foaf:phone "0341-60463906" .
+
+<http://leipzig-data.de/Data/Person/Krause_Torsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.28> ;
+    foaf:firstName "Torsten" ;
+    foaf:lastName "Krause" ;
+    foaf:mbox "oeffentlichkeitsarbeit@wege-ev.de" ;
+    foaf:phone "0341-24689093", "0341-9128317" .
+
+<http://leipzig-data.de/Data/Person/Kreiss_Volkmar>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.35> ;
+    foaf:firstName "Volkmar" ;
+    foaf:lastName "Kreiß" ;
+    foaf:mbox "volkmarkreiss@gmail.com" ;
+    foaf:phone "03414248474" .
+
+<http://leipzig-data.de/Data/Person/Kuegler_Hermann>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.13> ;
+    foaf:firstName "Hermann" ;
+    foaf:lastName "Kügler" ;
+    foaf:mbox "orientierung.leipzig@jesuiten.org" ;
+    foaf:phone "03412125704" .
+
+<http://leipzig-data.de/Data/Person/Kuehn_Rainer>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.208>, <http://nachhaltiges-leipzig.de/Data/Person.23> ;
+    foaf:firstName "Rainer" ;
+    foaf:lastName "Kühn" ;
+    foaf:mbox "bluetenreich@gmx.net", "lindentaler@gmx.de" ;
+    foaf:phone "0151-23268131", "0341-26340031" .
+
+<http://leipzig-data.de/Data/Person/Kuhnhaeuser_Sabine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.178> ;
+    foaf:firstName "Sabine" ;
+    foaf:lastName "Kuhnhäuser" ;
+    foaf:mbox "kusa@fanoe-mode.de" ;
+    foaf:phone "017670918543", "034146263996" .
+
+<http://leipzig-data.de/Data/Person/Kuhnhenn_Kai>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.145> ;
+    foaf:firstName "Kai" ;
+    foaf:lastName "Kuhnhenn" ;
+    foaf:mbox "K.Kuhnhenn@knoe.org" ;
+    foaf:phone "0341-39281686" .
+
+<http://leipzig-data.de/Data/Person/Kujawa_Thomas>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.57> ;
+    foaf:firstName "Thomas" ;
+    foaf:lastName "Kujawa" ;
+    foaf:mbox "info@familienbuero-leipzig.de" ;
+    foaf:phone "+4934135540810" .
+
+<http://leipzig-data.de/Data/Person/Kurth_Lothar>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.200> ;
+    foaf:firstName "Lothar" ;
+    foaf:lastName "Kurth" ;
+    foaf:mbox "l.kurth@leipziger-kleingaertner.de" ;
+    foaf:phone "0341-4772753", "0341-4772754" .
+
+<http://leipzig-data.de/Data/Person/Kynast_Julia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.212> ;
+    foaf:firstName "Julia" ;
+    foaf:lastName "Kynast" ;
+    foaf:mbox "trainee@gfzk.de" ;
+    foaf:phone "+493411408125" .
+
+<http://leipzig-data.de/Data/Person/Lambert_Ingeborg>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.181> ;
+    foaf:firstName "Ingeborg" ;
+    foaf:lastName "Lambert" ;
+    foaf:mbox "kontakt@ouin.de" ;
+    foaf:phone "+49(0)3413550315" .
+
+<http://leipzig-data.de/Data/Person/Lange_Lutz>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.22> ;
+    foaf:firstName "Lutz" ;
+    foaf:lastName "Lange" ;
+    foaf:mbox "info@verbundnetz-der-waerme.de" ;
+    foaf:phone "034206-754-61" .
+
+<http://leipzig-data.de/Data/Person/Lange_Torsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.12> ;
+    foaf:firstName "Torsten" ;
+    foaf:lastName "Dr. Lange" ;
+    foaf:mbox "schuelerlabor@ufz.de" ;
+    foaf:phone "03412351845", "03412351853" .
+
+<http://leipzig-data.de/Data/Person/Langer_Matias>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.48> ;
+    foaf:firstName "Matias" ;
+    foaf:lastName "Langer" ;
+    foaf:mbox "email@seidentraum.eu" ;
+    foaf:phone "03413314052" .
+
+<http://leipzig-data.de/Data/Person/Lehmann_Franko>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.115> ;
+    foaf:firstName "Franko" ;
+    foaf:lastName "Lehmann" ;
+    foaf:mbox "info@roeskant.com" ;
+    foaf:phone "0341-58069091" .
+
+<http://leipzig-data.de/Data/Person/Leinhoss_Elke>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.209> ;
+    foaf:firstName "Elke" ;
+    foaf:lastName "Leinhoß" ;
+    foaf:mbox "mail@notenspur-leipzig.de" ;
+    foaf:phone "03419733741" .
+
+<http://leipzig-data.de/Data/Person/Lemke_Janette>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.98> ;
+    foaf:firstName "Janette" ;
+    foaf:lastName "Lemke" ;
+    foaf:mbox "kontakt@gfk-leipzig.de" ;
+    foaf:phone "016096243014", "017660898823" .
+
+<http://leipzig-data.de/Data/Person/Leonhardt_Tom>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.219> ;
+    foaf:firstName "Tom" ;
+    foaf:lastName "Leonhardt" ;
+    foaf:mbox "kontakt@solidarischefeldwirtschaft.de" ;
+    foaf:phone "017682601741" .
+
+<http://leipzig-data.de/Data/Person/Losse_Franziska>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.156> ;
+    foaf:firstName "Franziska" ;
+    foaf:lastName "Losse" ;
+    foaf:mbox "franziska.losse@posteo.de" ;
+    foaf:phone "0157-75209633" .
+
+<http://leipzig-data.de/Data/Person/Ludwig_JanellsaGiel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.172> ;
+    foaf:firstName "Janellsa Giel" ;
+    foaf:lastName "Ludwig" ;
+    foaf:mbox "office@jeepney-cafe.de" ;
+    foaf:phone "+49(341)69866680" .
+
+<http://leipzig-data.de/Data/Person/Magyar_Kati>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.136> ;
+    foaf:firstName "Kati" ;
+    foaf:lastName "Magyar" ;
+    foaf:mbox "post@katimagyar.de" ;
+    foaf:phone "034112570465" .
+
+<http://leipzig-data.de/Data/Person/McNeil_Nadine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.105> ;
+    foaf:firstName "Nadine" ;
+    foaf:lastName "McNeil" ;
+    foaf:mbox "autodidaktenleipzig@riseup.net" ;
+    foaf:phone "0157-56355331" .
+
+<http://leipzig-data.de/Data/Person/Mehnert_Thorsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.62> ;
+    foaf:firstName "Thorsten" ;
+    foaf:lastName "Mehnert" ;
+    foaf:mbox "info@stiftung-ecken-wecken.de" ;
+    foaf:phone "0341-2419274" .
+
+<http://leipzig-data.de/Data/Person/Minkus_Noriko>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.92> ;
+    foaf:firstName "Noriko" ;
+    foaf:lastName "Minkus" ;
+    foaf:mbox "mail@djh-leipzig.de" ;
+    foaf:phone "034192722261" .
+
+<http://leipzig-data.de/Data/Person/Muehl_Manja>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.79> ;
+    foaf:firstName "Manja" ;
+    foaf:lastName "Mühl" ;
+    foaf:mbox "manja.muehl@eduventis.org" ;
+    foaf:phone "034126562279" .
+
+<http://leipzig-data.de/Data/Person/Mueller_Florian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.49> ;
+    foaf:firstName "Florian" ;
+    foaf:lastName "Müller" ;
+    foaf:mbox "fm@projektup.org" ;
+    foaf:phone "0176-23563972", "0341-44928504" .
+
+<http://leipzig-data.de/Data/Person/Mueller_Nadja>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.52> ;
+    foaf:firstName "Nadja" ;
+    foaf:lastName "Müller" ;
+    foaf:mbox "award@sukuma.net" ;
+    foaf:phone "0351-7928767" .
+
+<http://leipzig-data.de/Data/Person/Mueller_Rafaela>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.70> ;
+    foaf:firstName "Rafaela" ;
+    foaf:lastName "Müller" ;
+    foaf:mbox "rafaela.mueller@posteo.de" ;
+    foaf:phone "017631184974" .
+
+<http://leipzig-data.de/Data/Person/Mueller_Robby>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.194> ;
+    foaf:firstName "Robby" ;
+    foaf:lastName "Müller" ;
+    foaf:mbox "r.mueller@leipziger-kleingaertner.de" ;
+    foaf:phone "0341-4772754" .
+
+<http://leipzig-data.de/Data/Person/Nagel_Sarah>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.109> ;
+    foaf:firstName "Sarah" ;
+    foaf:lastName "Nagel" ;
+    foaf:mbox "sarah.nagel@rossmann.de" ;
+    foaf:phone "03413010143" .
+
+<http://leipzig-data.de/Data/Person/Naumann_Christina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.125> ;
+    foaf:firstName "Christina" ;
+    foaf:lastName "Naumann" ;
+    foaf:mbox "info@kunstundkatze.de" ;
+    foaf:phone "0178-7178789" .
+
+<http://leipzig-data.de/Data/Person/Neufert_Tino>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.72> ;
+    foaf:firstName "Tino" ;
+    foaf:lastName "Neufert" ;
+    foaf:mbox "info@nachbarschaftsgaerten.de" ;
+    foaf:phone "0341000000" .
+
+<http://leipzig-data.de/Data/Person/Neugebauer_Luise>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.183> ;
+    foaf:firstName "Luise" ;
+    foaf:lastName "Neugebauer" ;
+    foaf:mbox "mail@luiseneugebauer.de" ;
+    foaf:phone "01634772744" .
+
+<http://leipzig-data.de/Data/Person/Neumann_Anne>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.32> ;
+    foaf:firstName "Anne" ;
+    foaf:lastName "Neumann" ;
+    foaf:mbox "info@lebenlernenleipzig.de" ;
+    foaf:phone "015781870122" .
+
+<http://leipzig-data.de/Data/Person/Neumann_Daniela>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.193> ;
+    foaf:firstName "Daniela" ;
+    foaf:lastName "Neumann" ;
+    foaf:mbox "frauneumann@gmx.net" ;
+    foaf:phone "0000-0000000" .
+
+<http://leipzig-data.de/Data/Person/Nissen_Sylke>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.152> ;
+    foaf:firstName "Sylke" ;
+    foaf:lastName "Nissen" ;
+    foaf:mbox "nissen@uni-leipzig.de" ;
+    foaf:phone "03419735665" .
+
+<http://leipzig-data.de/Data/Person/Paetzelt_Caterina>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.198> ;
+    foaf:firstName "Caterina" ;
+    foaf:lastName "Paetzelt" ;
+    foaf:mbox "paetzelt.kleingaertnermuseum@t-online.de" ;
+    foaf:phone "0341-2111194" .
+
+<http://leipzig-data.de/Data/Person/Pahl_Johanna>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.104> ;
+    foaf:firstName "Johanna" ;
+    foaf:lastName "Pahl" ;
+    foaf:mbox "stadtteilprojekt@dresdner59.de" ;
+    foaf:phone "0341-3067174" .
+
+<http://leipzig-data.de/Data/Person/Pauli_Jennifer>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.96> ;
+    foaf:firstName "Jennifer" ;
+    foaf:lastName "Pauli" ;
+    foaf:mbox "leipzig@socialimpactlab.eu" ;
+    foaf:phone "034149566660" .
+
+<http://leipzig-data.de/Data/Person/Peschel_Steffen>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.139> ;
+    foaf:firstName "Steffen" ;
+    foaf:lastName "Peschel" ;
+    foaf:mbox "steffen.peschel@konzeptfreun.de" ;
+    foaf:phone "015788484285" .
+
+<http://leipzig-data.de/Data/Person/Pfundt_Christiane>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.94> ;
+    foaf:firstName "Christiane" ;
+    foaf:lastName "Pfundt" ;
+    foaf:mbox "c.pfundt@gruenschnabel-shop.de" ;
+    foaf:phone "0341-9808022" .
+
+<http://leipzig-data.de/Data/Person/Pilz_Ulrike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.211> ;
+    foaf:firstName "Ulrike" ;
+    foaf:lastName "Pilz" ;
+    foaf:mbox "ulrike.pilz@leipzig.de" ;
+    foaf:phone "03412229848" .
+
+<http://leipzig-data.de/Data/Person/Pohl_Rudolf>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.19> ;
+    foaf:firstName "Rudolf" ;
+    foaf:lastName "Pohl" ;
+    foaf:mbox "rudolf.pohl@leipzig.de" ;
+    foaf:phone "03411233516" .
+
+<http://leipzig-data.de/Data/Person/Polowy_Veit>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.213> ;
+    foaf:firstName "Veit" ;
+    foaf:lastName "Polowy" ;
+    foaf:mbox "kohrenerland@grueneliga.de" ;
+    foaf:phone "0178-1665354" .
+
+<http://leipzig-data.de/Data/Person/Pomm_Sebastian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.223> ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Pomm" ;
+    foaf:mbox "akademie@annalinde-leipzig.de" ;
+    foaf:phone "015221655436", "017663195532" .
+
+<http://leipzig-data.de/Data/Person/Pruss_Marcel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.232> ;
+    foaf:firstName "Marcel" ;
+    foaf:lastName "Pruß" ;
+    foaf:mbox "info@KonsumGlobal-Leipzig.de" ;
+    foaf:phone "01723724576" .
+
+<http://leipzig-data.de/Data/Person/Przybilla_Andre>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.93> ;
+    foaf:firstName "Andre" ;
+    foaf:lastName "Przybilla" ;
+    foaf:mbox "info@makerspace-leipzig.de" ;
+    foaf:phone "03413552040" .
+
+<http://leipzig-data.de/Data/Person/Pulanco_Ulrike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.188> ;
+    foaf:firstName "Ulrike" ;
+    foaf:lastName "Pulanco" ;
+    foaf:mbox "verein-bg@uni-leipzig.de" ;
+    foaf:phone "03419736850" .
+
+<http://leipzig-data.de/Data/Person/Quester_Roland>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.4> ;
+    foaf:firstName "Roland" ;
+    foaf:lastName "Quester" ;
+    foaf:mbox "info@umweltbibliothek-leipzig.de" ;
+    foaf:phone "3065180" .
+
+<http://leipzig-data.de/Data/Person/Rabe_Christian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.56> ;
+    foaf:firstName "Christian" ;
+    foaf:lastName "Rabe" ;
+    foaf:mbox "ch@wvg-rabe.de" ;
+    foaf:phone "0341-6992117" .
+
+<http://leipzig-data.de/Data/Person/Raesack_Christian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.33> ;
+    foaf:firstName "Christian" ;
+    foaf:lastName "Dr. Räsack" ;
+    foaf:mbox "WeltOffenEvau@gmx.de" ;
+    foaf:phone "0341-3040617" .
+
+<http://leipzig-data.de/Data/Person/Rasch_Cyrill>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.106> ;
+    foaf:firstName "Cyrill" ;
+    foaf:lastName "Rasch" ;
+    foaf:mbox "umweltschutz@leipzig.de" ;
+    foaf:phone "+493411233409" .
+
+<http://leipzig-data.de/Data/Person/Rauber_Hermann>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.186> ;
+    foaf:firstName "Hermann" ;
+    foaf:lastName "Rauber" ;
+    foaf:mbox "info@natur-wildnisschule-leipzig.de" ;
+    foaf:phone "01711026993" .
+
+<http://leipzig-data.de/Data/Person/Rehwagen_Jana>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.144> ;
+    foaf:firstName "Jana" ;
+    foaf:lastName "Rehwagen" ;
+    foaf:mbox "kontakt@leila-leipzig.de" ;
+    foaf:phone "01626675500" .
+
+<http://leipzig-data.de/Data/Person/Reichmann_Karsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.128> ;
+    foaf:firstName "Karsten" ;
+    foaf:lastName "Reichmann" ;
+    foaf:mbox "karsten_reichmann@dibomedia.de" ;
+    foaf:phone "0341-9613033" .
+
+<http://leipzig-data.de/Data/Person/Reissmann_Daniel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.46> ;
+    foaf:firstName "Daniel" ;
+    foaf:lastName "Reißmann" ;
+    foaf:mbox "reissmann@energiemetropole-leipzig.de" ;
+    foaf:phone "0341-121-3317" .
+
+<http://leipzig-data.de/Data/Person/Renner_Dominik>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.51> ;
+    foaf:firstName "Dominik" ;
+    foaf:lastName "Renner" ;
+    foaf:mbox "info@annalinde-leipzig.de" ;
+    foaf:phone "015221655436" .
+
+<http://leipzig-data.de/Data/Person/Reschke_Katrin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.16> ;
+    foaf:firstName "Katrin" ;
+    foaf:lastName "Reschke" ;
+    foaf:mbox "GAZ-Leipzig@t-online.de" ;
+    foaf:phone "03413389353" .
+
+<http://leipzig-data.de/Data/Person/Richter_Andreas>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.218> ;
+    foaf:firstName "Andreas" ;
+    foaf:lastName "Richter" ;
+    foaf:mbox "info@mobile-apfelquetsche.de" ;
+    foaf:phone "+491723632154" .
+
+<http://leipzig-data.de/Data/Person/Richter_SilviaMaria>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.45> ;
+    foaf:firstName "Silvia Maria" ;
+    foaf:lastName "Richter" ;
+    foaf:mbox "smrichter@vlw-eg.de" ;
+    foaf:phone "03419184127" .
+
+<http://leipzig-data.de/Data/Person/Riesner_Nora>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.207> ;
+    foaf:firstName "Nora" ;
+    foaf:lastName "Riesner" ;
+    foaf:mbox "kontakt@symbiose-leipzig.de" ;
+    foaf:phone "017699072524" .
+
+<http://leipzig-data.de/Data/Person/Rill_Raphael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.229> ;
+    foaf:firstName "Raphael" ;
+    foaf:lastName "Rill" ;
+    foaf:mbox "Info@ecofacture.de" ;
+    foaf:phone "01749578252" .
+
+<http://leipzig-data.de/Data/Person/RothedeHenriquez_Vanessa>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.122> ;
+    foaf:firstName "Vanessa" ;
+    foaf:lastName "Rothe de Henriquez" ;
+    foaf:mbox "vanessarothe@gmx.de" ;
+    foaf:phone "0172-5749712" .
+
+<http://leipzig-data.de/Data/Person/Sachsenroeder_Fabian>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.191> ;
+    foaf:firstName "Fabian" ;
+    foaf:lastName "Sachsenröder" ;
+    foaf:mbox "fabian@studiobosco.de" ;
+    foaf:phone "034151998424" .
+
+<http://leipzig-data.de/Data/Person/Schaaf_Michael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.199> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Schaaf" ;
+    foaf:mbox "post@leipzigdetails.de" ;
+    foaf:phone "03413039112" .
+
+<http://leipzig-data.de/Data/Person/Schaefer_Dorothee>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.142> ;
+    foaf:firstName "Dorothee" ;
+    foaf:lastName "Schäfer" ;
+    foaf:mbox "dorothee.schaefer@schaeferbreuss.org" ;
+    foaf:phone "+4915779585508" .
+
+<http://leipzig-data.de/Data/Person/Scheffler_Dirk>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.195> ;
+    foaf:firstName "Dirk" ;
+    foaf:lastName "Scheffler" ;
+    foaf:mbox "scheffler@e-fect.de" ;
+    foaf:phone "0341-2698024" .
+
+<http://leipzig-data.de/Data/Person/Schellenberger_Konstanze>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.163> ;
+    foaf:firstName "Dr. Konstanze" ;
+    foaf:lastName "Schellenberger" ;
+    foaf:mbox "r.moreno95@web.de" ;
+    foaf:phone "+49341870860" .
+
+<http://leipzig-data.de/Data/Person/Schirmer_Matthias>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.5> ;
+    foaf:firstName "Matthias" ;
+    foaf:lastName "Schirmer" ;
+    foaf:mbox "schirmer@civixx.de" ;
+    foaf:phone "034135137913" .
+
+<http://leipzig-data.de/Data/Person/Schlenzig_Uta>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.201> ;
+    foaf:firstName "Uta" ;
+    foaf:lastName "Schlenzig" ;
+    foaf:mbox "mail@kuk-gohlis.de" ;
+    foaf:phone "03415831287" .
+
+<http://leipzig-data.de/Data/Person/Schmidt_Matthias>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.182> ;
+    foaf:firstName "Matthias" ;
+    foaf:lastName "Schmidt" ;
+    foaf:mbox "matthias@gold-schmied.com" ;
+    foaf:phone "03413918787" .
+
+<http://leipzig-data.de/Data/Person/Schmidt_Ronny>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.168> ;
+    foaf:firstName "Ronny" ;
+    foaf:lastName "Schmidt" ;
+    foaf:mbox "vorstand@geowerkstatt.com" ;
+    foaf:phone "0179-4590873" .
+
+<http://leipzig-data.de/Data/Person/Schnell_Marco>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.240> ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Schnell" ;
+    foaf:mbox "mschnell@fairmeals.com" ;
+    foaf:phone "034158155608" .
+
+<http://leipzig-data.de/Data/Person/Schnieders_Kora>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.236> ;
+    foaf:firstName "Kora" ;
+    foaf:lastName "Schnieders" ;
+    foaf:mbox "schnieders@naturschule.de" ;
+    foaf:phone "05515314163" .
+
+<http://leipzig-data.de/Data/Person/Schroeder_Julius>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.18> ;
+    foaf:firstName "Julius" ;
+    foaf:lastName "Schröder" ;
+    foaf:mbox "schroeder@sedruck.de" ;
+    foaf:phone "03414425090" .
+
+<http://leipzig-data.de/Data/Person/Schroeter_Michael>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.239> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Schroeter" ;
+    foaf:mbox "bohemiankids.cafe@gmail.com" ;
+    foaf:phone "017697473238" .
+
+<http://leipzig-data.de/Data/Person/Schueuermann_Heike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.171> ;
+    foaf:firstName "Heike" ;
+    foaf:lastName "Schüürmann" ;
+    foaf:mbox "botanischer-garten-oberholz@gmx.de" ;
+    foaf:phone "03429741249" .
+
+<http://leipzig-data.de/Data/Person/Schumann_Rolf>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.101> ;
+    foaf:firstName "Rolf" ;
+    foaf:lastName "Schumann" ;
+    foaf:mbox "info@hddl.de" ;
+    foaf:phone "0341-3065100" .
+
+<http://leipzig-data.de/Data/Person/Schuster_Andreas>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.39> ;
+    foaf:firstName "Andreas" ;
+    foaf:lastName "Schuster" ;
+    foaf:mbox "u.wermelt@piepenbrock.de" ;
+    foaf:phone "03414131-22" .
+
+<http://leipzig-data.de/Data/Person/Seelbach_Petra>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.126> ;
+    foaf:firstName "Petra" ;
+    foaf:lastName "Seelbach" ;
+    foaf:mbox "petra.seelbach@konsum-leipzig.de" ;
+    foaf:phone "03414984284" .
+
+<http://leipzig-data.de/Data/Person/Seidel_Franka>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.15> ;
+    foaf:firstName "Franka" ;
+    foaf:lastName "Seidel" ;
+    foaf:mbox "auwaldstation@t-online.de" ;
+    foaf:phone "03414621895" .
+
+<http://leipzig-data.de/Data/Person/Sievert_Rene>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.60> ;
+    foaf:firstName "René" ;
+    foaf:lastName "Sievert" ;
+    foaf:mbox "info@nabu-leipzig.de" ;
+    foaf:phone "03416884477" .
+
+<http://leipzig-data.de/Data/Person/Simmler_Lutz>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.238> ;
+    foaf:firstName "Lutz" ;
+    foaf:lastName "Simmler" ;
+    foaf:mbox "info@geopark-porphyrland.de" ;
+    foaf:phone "03437707361" .
+
+<http://leipzig-data.de/Data/Person/Simowitsch_Johann>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.6> ;
+    foaf:firstName "Johann" ;
+    foaf:lastName "Simowitsch" ;
+    foaf:mbox "johann.simowitsch@leipzig.de" ;
+    foaf:phone "03413089751" .
+
+<http://leipzig-data.de/Data/Person/Singer_Nico>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.14>, <http://nachhaltiges-leipzig.de/Data/Person.69> ;
+    foaf:firstName "Nico" ;
+    foaf:lastName "Singer" ;
+    foaf:mbox "info@oekoloewe.de", "oeffentlichkeitsarbeit@oekoloewe.de" ;
+    foaf:phone "0341-3065-185", "03413065185" .
+
+<http://leipzig-data.de/Data/Person/Stoiber_Wolfgang>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.10> ;
+    foaf:firstName "Wolfgang" ;
+    foaf:lastName "Stoiber" ;
+    foaf:mbox "stoiber@nukla.de" ;
+    foaf:phone "01786662454" .
+
+<http://leipzig-data.de/Data/Person/Strauss_Mike>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.148> ;
+    foaf:firstName "Mike" ;
+    foaf:lastName "Strauß" ;
+    foaf:mbox "info@dlrg-leipzig.de" ;
+    foaf:phone "0341-2008188" .
+
+<http://leipzig-data.de/Data/Person/Strohwald_Ramona>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.226> ;
+    foaf:firstName "Ramona" ;
+    foaf:lastName "Strohwald" ;
+    foaf:mbox "ramona.strohwald@web.de" ;
+    foaf:phone "015736288299" .
+
+<http://leipzig-data.de/Data/Person/Stumpe_Siiri>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.143> ;
+    foaf:firstName "Siiri" ;
+    foaf:lastName "Stumpe" ;
+    foaf:mbox "fitundvital1@freenet.de" ;
+    foaf:phone "0341-33730866" .
+
+<http://leipzig-data.de/Data/Person/Sturm_Jeannette>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.234> ;
+    foaf:firstName "Jeannette" ;
+    foaf:lastName "Sturm" ;
+    foaf:mbox "info@naturdrogerie-sturm.de" ;
+    foaf:phone "0341-58614894" .
+
+<http://leipzig-data.de/Data/Person/Timaeus_Johannes>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.42>, <http://nachhaltiges-leipzig.de/Data/Person.84> ;
+    foaf:firstName "Johannes" ;
+    foaf:lastName "Timaeus" ;
+    foaf:mbox "johannes.timaeus@posteo.de", "t.johannes@arcor.de" ;
+    foaf:phone "01781815797" .
+
+<http://leipzig-data.de/Data/Person/Truemper_Ekkehard>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.81> ;
+    foaf:firstName "Ekkehard" ;
+    foaf:lastName "Trümper" ;
+    foaf:mbox "E.Truemper@leipziger-messe.de" ;
+    foaf:phone "03416788210" .
+
+<http://leipzig-data.de/Data/Person/Tsakalidis_Konstantin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.75> ;
+    foaf:firstName "Konstantin" ;
+    foaf:lastName "Tsakalidis" ;
+    foaf:mbox "mail@tanz-zentrale.de" ;
+    foaf:phone "4915229563862" .
+
+<http://leipzig-data.de/Data/Person/Umbreit_Volker>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.204> ;
+    foaf:firstName "Volker" ;
+    foaf:lastName "Umbreit" ;
+    foaf:mbox "mail@wilde-leipziger.eu" ;
+    foaf:phone "01755622308" .
+
+<http://leipzig-data.de/Data/Person/Unckell_Kornelius>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.95> ;
+    foaf:firstName "Kornelius" ;
+    foaf:lastName "Unckell" ;
+    foaf:mbox "mail@alte-schlosserei.de" ;
+    foaf:phone "03413069996" .
+
+<http://leipzig-data.de/Data/Person/Vitzthum_Maria>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.78> ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Vitzthum" ;
+    foaf:mbox "info@lebendige-luppe.de" ;
+    foaf:phone "034186967550" .
+
+<http://leipzig-data.de/Data/Person/Voelkel_Christiane>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.117> ;
+    foaf:firstName "Christiane" ;
+    foaf:lastName "Völkel" ;
+    foaf:mbox "service@st-benno.de" ;
+    foaf:phone "0341-467770" .
+
+<http://leipzig-data.de/Data/Person/Vogel_Ronny>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.116> ;
+    foaf:firstName "Ronny" ;
+    foaf:lastName "Vogel" ;
+    foaf:mbox "kuchenhimmel.brotfein@gmail.com" ;
+    foaf:phone "01637813245" .
+
+<http://leipzig-data.de/Data/Person/Vondran_Bjoern>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.202> ;
+    foaf:firstName "Björn" ;
+    foaf:lastName "Vondran" ;
+    foaf:mbox "zff@posteo.de" ;
+    foaf:phone "017631010077" .
+
+<http://leipzig-data.de/Data/Person/Waack_Christoph>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.26> ;
+    foaf:firstName "Christoph" ;
+    foaf:lastName "Waack" ;
+    foaf:mbox "info@adfc-leipzig.de" ;
+    foaf:phone "0341-22540313" .
+
+<http://leipzig-data.de/Data/Person/WehemeyerBlum_Rahel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.146> ;
+    foaf:firstName "Rahel" ;
+    foaf:lastName "Wehemeyer-Blum" ;
+    foaf:mbox "rahwehbl@aikq.de" ;
+    foaf:phone "0341-3513835" .
+
+<http://leipzig-data.de/Data/Person/Weidemann_Juergen>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.151> ;
+    foaf:firstName "Jürgen" ;
+    foaf:lastName "Weidemann" ;
+    foaf:mbox "leipzigrikscha@gmail.com" ;
+    foaf:phone "0177-2672145" .
+
+<http://leipzig-data.de/Data/Person/Weissgerber_Kerstin>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.41> ;
+    foaf:firstName "Kerstin" ;
+    foaf:lastName "Weißgerber" ;
+    foaf:mbox "kontakt@aurel-marketing.de" ;
+    foaf:phone "0341-2520421" .
+
+<http://leipzig-data.de/Data/Person/Winkler_Ingo>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.89> ;
+    foaf:firstName "Ingo" ;
+    foaf:lastName "Winkler" ;
+    foaf:mbox "info@ratskeller-leipzig.de" ;
+    foaf:phone "0341-1234567" .
+
+<http://leipzig-data.de/Data/Person/Winter_Catherine>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.192> ;
+    foaf:firstName "Catherine" ;
+    foaf:lastName "Winter" ;
+    foaf:mbox "leipzig-halle@slowfood.de" ;
+    foaf:phone "015125715542" .
+
+<http://leipzig-data.de/Data/Person/Wockenfuss_Johannes>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.224> ;
+    foaf:firstName "Johannes" ;
+    foaf:lastName "Wockenfuß" ;
+    foaf:mbox "j.wockenfuss@ackerdemia.de" ;
+    foaf:phone "030-75765279" .
+
+<http://leipzig-data.de/Data/Person/Wolf_Karsten>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.61> ;
+    foaf:firstName "Karsten" ;
+    foaf:lastName "Wolf" ;
+    foaf:mbox "zumkarsten@gmx.de" ;
+    foaf:phone "01778506951", "03412232817" .
+
+<http://leipzig-data.de/Data/Person/Wolf_Sandra>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.112> ;
+    foaf:firstName "Sandra" ;
+    foaf:lastName "Wolf" ;
+    foaf:mbox "info@nelly-morelly.de" ;
+    foaf:phone "0174-9270597" .
+
+<http://leipzig-data.de/Data/Person/Wolff_Marie>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.203> ;
+    foaf:firstName "Marie" ;
+    foaf:lastName "Wolff" ;
+    foaf:mbox "kommunikation@hoerspielsommer.de" ;
+    foaf:phone "0341-47849962" .
+
+<http://leipzig-data.de/Data/Person/Wolger_Patrice>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.216> ;
+    foaf:firstName "Patrice" ;
+    foaf:lastName "Wolger" ;
+    foaf:mbox "info@leipspeis.de" ;
+    foaf:phone "01772342348" .
+
+<http://leipzig-data.de/Data/Person/Wolman_Helmut>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.40> ;
+    foaf:firstName "Helmut" ;
+    foaf:lastName "Wolman" ;
+    foaf:mbox "Helmut@bildungsagenten.com" ;
+    foaf:phone "015734448245", "03067969040" .
+
+<http://leipzig-data.de/Data/Person/Wueste_Andre>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.157> ;
+    foaf:firstName "André" ;
+    foaf:lastName "Wüste" ;
+    foaf:mbox "a.wueste@eg-leipzig.de" ;
+    foaf:phone "015159223227", "01603365593" .
+
+<http://leipzig-data.de/Data/Person/Wust_Christel>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.155> ;
+    foaf:firstName "Christel" ;
+    foaf:lastName "Wust" ;
+    foaf:mbox "biotempel@posteo.de" ;
+    foaf:phone "0341-24765472" .
+
+<http://leipzig-data.de/Data/Person/Zimmerhaekel_Julia>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.185> ;
+    foaf:firstName "Julia" ;
+    foaf:lastName "Zimmerhäkel" ;
+    foaf:mbox "uiz@leipzig.de" ;
+    foaf:phone "03411236711" .
+
+<http://leipzig-data.de/Data/Person/Zschornack_Marcus>
+    dct:modified "2018-08-04" ;
+    a foaf:Person ;
+    owl:sameAs <http://nachhaltiges-leipzig.de/Data/Person.37> ;
+    foaf:firstName "Marcus" ;
+    foaf:lastName "Zschornack" ;
+    foaf:mbox "presse@caritas-leipzig.de" ;
+    foaf:phone "034196361-30" .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.10>
+    nl:hasPosition "Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Stoiber_Wolfgang> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.10> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.100>
+    nl:hasPosition "Geschäftsführerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kell_Angelika> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.100> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.101>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schumann_Rolf> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.101> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.102>
+    nl:hasPosition "Geschäftsführender Direktor" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Knaack_Detlef> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.102> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.103>
+    nl:hasPosition "Marketing &amp; PR Coordinator" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Jahnich_Phillipp> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.103> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.104>
+    nl:hasPosition "Projektkoordination" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pahl_Johanna> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.104> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.105>
+    nl:hasPosition "Mitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/McNeil_Nadine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.105> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.106>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Rasch_Cyrill> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.106> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.108>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.108> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.109>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Nagel_Sarah> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.109> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.11>
+    nl:hasPosition "Geschäftsführung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koerner_Annette> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.11> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.110>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.110> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.111>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.111> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.112>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wolf_Sandra> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.112> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.113>
+    nl:hasPosition "Dipl.-Bibliothekarin, verantwortlich für Öffentlichkeitsarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Andruschow_Kerstin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.113> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.114>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kollotzek_Markus> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.114> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.115>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Lehmann_Franko> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.115> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.116>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Vogel_Ronny> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.116> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.117>
+    nl:hasPosition "Geschäftsführerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Voelkel_Christiane> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.117> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.118>
+    nl:hasPosition "Gründerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Friedrich_Claudia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.118> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.12>
+    nl:hasPosition "Leiter (komm.) Umweltbildung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Lange_Torsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.12> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.120>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Klein_Jens> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.120> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.122>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/RothedeHenriquez_Vanessa> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.122> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.123>
+    nl:hasPosition "Bürofachkraft" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haase_Mathias> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.123> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.124>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Coop_Food> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.124> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.125>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Naumann_Christina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.125> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.126>
+    nl:hasPosition "MA Einkauf" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Seelbach_Petra> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.126> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.127>
+    nl:hasPosition "Geschäftsführung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hauffe_Stefanie> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.127> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.128>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Reichmann_Karsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.128> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.129>
+    nl:hasPosition "Leiterin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Buechting_Anja> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.129> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.13>
+    nl:hasPosition "Leiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kuegler_Hermann> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.13> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.130>
+    nl:hasPosition "Eine Welt e.V. Leipzig" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.130> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.131>
+    nl:hasPosition "Eine Welt e.V. Leipzig" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.131> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.133>
+    nl:hasPosition "Sales Executive" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hahmann_Verena> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.133> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.135>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kassner_Olga> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.135> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.136>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Magyar_Kati> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.136> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.137>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hoetzel_Ina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.137> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.138>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Heuer_Michael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.138> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.139>
+    nl:hasPosition "Mitglied der Initiative" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Peschel_Steffen> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.139> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.14>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Singer_Nico> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.14> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.141>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Grauwinkel_Urte> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.141> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.142>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schaefer_Dorothee> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.142> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.143>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Stumpe_Siiri> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.143> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.144>
+    nl:hasPosition "Gründungsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Rehwagen_Jana> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.144> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.145>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kuhnhenn_Kai> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.145> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.146>
+    nl:hasPosition "Beisitzerin des Landesvorstandes" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/WehemeyerBlum_Rahel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.146> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.147>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Heller_Stefan> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.147> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.148>
+    nl:hasPosition "Technischer Leiter Einsatz" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Strauss_Mike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.148> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.149>
+    nl:hasPosition "Stellvertreteener Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Herrmann_Ralf> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.149> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.15>
+    nl:hasPosition "Leiterin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Seidel_Franka> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.15> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.150>
+    nl:hasPosition "Koordination" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Jakob_Simon> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.150> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.151>
+    nl:hasPosition "Vorstandsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Weidemann_Juergen> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.151> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.152>
+    nl:hasPosition "Professorin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Nissen_Sylke> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.152> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.153>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hartmann_Peter> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.153> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.154>
+    nl:hasPosition "Projektleitung / Öffentlichkeitsarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/FloresdeLooss_Carina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.154> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.155>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wust_Christel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.155> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.156>
+    nl:hasPosition "Ehrenamtlich Engagierte" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Losse_Franziska> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.156> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.157>
+    nl:hasPosition "Vorstandsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wueste_Andre> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.157> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.159>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koch_Andreas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.159> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.16>
+    nl:hasPosition "Projektleiterin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Reschke_Katrin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.16> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.160>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Grallert_Bettina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.160> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.162>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Jost_Juergen> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.162> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.163>
+    nl:hasPosition "Projektleiterin, Wissenschaftliche Mitarbeiterin, Dozentin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schellenberger_Konstanze> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.163> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.165>
+    nl:hasPosition "Parkleiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hinz_Thorsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.165> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.166>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hoerning_Karin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.166> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.167>
+    nl:hasPosition "Fachstelle Globales Lernen" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kayser_Mara> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.167> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.168>
+    nl:hasPosition "Vorstandsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schmidt_Ronny> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.168> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.170>
+    nl:hasPosition "Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hohaus_Johannes> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.170> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.171>
+    nl:hasPosition "organisatorische Gartenleitung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schueuermann_Heike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.171> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.172>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Ludwig_JanellsaGiel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.172> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.173>
+    nl:hasPosition "Mitverantwortlicher" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hinkefuss_Kurt> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.173> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.174>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Fischer_PhilippDaniel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.174> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.175>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Bollmann_Sabrina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.175> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.176>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Buchterkirchen_Elisa> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.176> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.177>
+    nl:hasPosition "Marketing &amp; Vertrieb" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Friebel_Anne> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.177> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.178>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kuhnhaeuser_Sabine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.178> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.179>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Berninger_Michael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.179> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.18>
+    nl:hasPosition "sedruck.de - Online Copyshop für Druck und Buchbindung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schroeder_Julius> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.18> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.181>
+    nl:hasPosition "Umweltbildung und Administration" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Lambert_Ingeborg> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.181> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.182>
+    nl:hasPosition "Einzelunternehmer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schmidt_Matthias> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.182> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.183>
+    nl:hasPosition "Eigentümerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Neugebauer_Luise> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.183> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.184>
+    nl:hasPosition "Mitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Bronn_Heike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.184> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.185>
+    nl:hasPosition "Stadt Leipzig Umweltinformationszentrum" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Zimmerhaekel_Julia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.185> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.186>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Rauber_Hermann> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.186> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.187>
+    nl:hasPosition "Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kalteich_Axel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.187> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.188>
+    nl:hasPosition "Öffentlichkeitsarbeit/Kommunikation" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pulanco_Ulrike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.188> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.189>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hofmann_Paula> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.189> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.19>
+    nl:hasPosition "Dezernat Umwelt, Ordnung Sport" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pohl_Rudolf> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.19> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.190>
+    nl:hasPosition "Einzelunternehmerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Huemmer_Anja> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.190> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.191>
+    nl:hasPosition "Gründer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Sachsenroeder_Fabian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.191> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.192>
+    nl:hasPosition "Leiterin Convivium Leipzig-Halle" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Winter_Catherine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.192> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.193>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Neumann_Daniela> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.193> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.194>
+    nl:hasPosition "Vorsitzender/Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Mueller_Robby> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.194> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.195>
+    nl:hasPosition "Bereichsleitung Evaluation, Büro Leipzig" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Scheffler_Dirk> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.195> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.196>
+    nl:hasPosition "Assistenz der Geschäftsführung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Grohall_Norma> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.196> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.197>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Homburg_Sebastian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.197> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.198>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Paetzelt_Caterina> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.198> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.199>
+    nl:hasPosition "GF" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schaaf_Michael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.199> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.2>
+    nl:hasPosition "Vorstandsvorsitzende" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Heymann_Sabine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.2> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.200>
+    nl:hasPosition "Mitarbeiter Öffentlichkeitsarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kurth_Lothar> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.200> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.201>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schlenzig_Uta> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.201> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.202>
+    nl:hasPosition "Gründer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Vondran_Bjoern> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.202> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.203>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wolff_Marie> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.203> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.204>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Umbreit_Volker> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.204> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.205>
+    nl:hasPosition "Refetratsleiterin Öffentlichkeitsarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Fuchs_Nadine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.205> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.206>
+    nl:hasPosition "Initiatorin offene Gartenpforte Muldental" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Graeske_AnnettAntonia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.206> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.207>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Riesner_Nora> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.207> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.208>
+    nl:hasPosition "Unternehmer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kuehn_Rainer> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.208> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.209>
+    nl:hasPosition "Geschäftsstellenleiterin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Leinhoss_Elke> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.209> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.21>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Fremgen_Leonie> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.21> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.210>
+    nl:hasPosition "Vorstandsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Eissner_Christel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.210> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.211>
+    nl:hasPosition "Marketing" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pilz_Ulrike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.211> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.212>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kynast_Julia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.212> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.213>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Polowy_Veit> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.213> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.215>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Awe_Christoph> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.215> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.216>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wolger_Patrice> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.216> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.217>
+    nl:hasPosition "Stadtverwaltung Markkleeberg, Amt für Kultur und Tourismus" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Heinze_Rebecca> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.217> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.218>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Richter_Andreas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.218> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.219>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Leonhardt_Tom> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.219> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.22>
+    nl:hasPosition "Projektleitung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Lange_Lutz> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.22> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.220>
+    nl:hasPosition "Öffentlichkeitsarbeit &amp; Projektmanagement" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koehler_Maria> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.220> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.221>
+    nl:hasPosition "Leiterin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Friedrich_Claudia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.221> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.222>
+    nl:hasPosition "Projektmanagerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hanuschke_Julia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.222> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.223>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pomm_Sebastian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.223> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.224>
+    nl:hasPosition "Regionalmanager Sachsen, Sachsen-Anhalt, Thüringen &amp; Mecklenburg-Vorpommern" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wockenfuss_Johannes> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.224> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.226>
+    nl:hasPosition "Kommunikationswirtin und angehende Kultur- und Mediepädagogin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Strohwald_Ramona> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.226> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.227>
+    nl:hasPosition "Vorsitzende" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Biedermann_AnnaAntje> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.227> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.228>
+    nl:hasPosition "Gründerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Friebel_Anne> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.228> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.229>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Rill_Raphael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.229> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.23>
+    nl:hasPosition "Organisator" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kuehn_Rainer> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.23> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.230>
+    nl:hasPosition "Ansprechpartner" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Graske_AnnettAntonia> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.230> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.231>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haertel_Stefan> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.231> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.232>
+    nl:hasPosition "c/o Weltoffen e.V." ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pruss_Marcel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.232> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.233>
+    nl:hasPosition "Gründer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koch_Andreas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.233> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.234>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Sturm_Jeannette> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.234> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.235>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hanisch_Susan> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.235> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.236>
+    nl:hasPosition "Büroleitung des Büro Göttingn, Leitung Kurs Leipzig" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schnieders_Kora> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.236> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.237>
+    nl:hasPosition "Senior Consultant" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Grothe_Hennry> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.237> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.238>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Simmler_Lutz> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.238> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.239>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schroeter_Michael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.239> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.24>
+    nl:hasPosition "Gründer &amp; Prokurist" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hoeppner_Matthias> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.24> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.240>
+    nl:hasPosition "Marketing&amp;Communications Manager" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schnell_Marco> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.240> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.25>
+    nl:hasPosition "Baumbestandsentwicklung / Aktion baumstarke Stadt" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Fried_Sebastian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.25> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.26>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Waack_Christoph> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.26> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.27>
+    nl:hasPosition "Bildungsreferentin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Brehm_Susanne> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.27> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.28>
+    nl:hasPosition "Öffentlichkeits- und Projektarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Krause_Torsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.28> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.29>
+    nl:hasPosition "Projektmitarbeiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Gundlach_Christian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.29> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.3>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Elsaesser_Ralf> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.3> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.30>
+    nl:hasPosition "Geschäftsführerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kienemund_Gudula> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.30> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.32>
+    nl:hasPosition "Vereinsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Neumann_Anne> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.32> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.33>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Raesack_Christian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.33> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.34>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Bolte_Sabine> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.34> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.35>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kreiss_Volkmar> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.35> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.36>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koch_Sebastian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.36> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.37>
+    nl:hasPosition "Fachbereichsleiter Hilfe in besonderen Lebenslagen" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Zschornack_Marcus> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.37> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.38>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Balmer_Steffen> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.38> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.39>
+    nl:hasPosition "Kundenbetreuer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schuster_Andreas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.39> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.4>
+    nl:hasPosition "Leiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Quester_Roland> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.4> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.40>
+    nl:hasPosition "Initiator" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wolman_Helmut> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.40> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.41>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Weissgerber_Kerstin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.41> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.42>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Timaeus_Johannes> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.42> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.43>
+    nl:hasPosition "Projektleitung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Gundermann_Johanna> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.43> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.45>
+    nl:hasPosition "Stadtteil- und Sozialmanagerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Richter_SilviaMaria> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.45> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.46>
+    nl:hasPosition "Geschäftsstellenleiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Reissmann_Daniel> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.46> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.47>
+    nl:hasPosition "Leiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Asshoff_Joerg> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.47> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.48>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Langer_Matias> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.48> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.49>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Mueller_Florian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.49> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.5>
+    nl:hasPosition "Unterstützung bei der Geschäftsführung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Schirmer_Matthias> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.5> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.50>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Finke_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.50> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.51>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Renner_Dominik> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.51> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.52>
+    nl:hasPosition "Projektkoordinatorin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Mueller_Nadja> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.52> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.53>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Henke_Steffen> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.53> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.54>
+    nl:hasPosition "Leiterin der Geschäftsstelle" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Koenig_Heike> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.54> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.55>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Foerster_Lutz> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.55> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.56>
+    nl:hasPosition "Gesellschafter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Rabe_Christian> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.56> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.57>
+    nl:hasPosition "Mitinitiator" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kujawa_Thomas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.57> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.58>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Elborg_Kirsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.58> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.59>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Elborg_Kirsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.59> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.6>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Simowitsch_Johann> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.6> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.60>
+    nl:hasPosition "Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Sievert_Rene> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.60> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.61>
+    nl:hasPosition "Barchef" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Wolf_Karsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.61> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.62>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Mehnert_Thorsten> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.62> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.63>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Klengel_Juliana> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.63> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.64>
+    nl:hasPosition "Vereinsmitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Bauer_Christin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.64> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.66>
+    nl:hasPosition "Vorstandvorsitzende" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Grimm_Sandra> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.66> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.67>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Brauer_Marius> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.67> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.68>
+    nl:hasPosition "Unternehmerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haberkorn_Katja> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.68> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.69>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Singer_Nico> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.69> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.70>
+    nl:hasPosition "Mitglied" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Mueller_Rafaela> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.70> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.71>
+    nl:hasPosition "Support-Mitarbeiter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Efer_Thomas> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.71> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.72>
+    nl:hasPosition "Vorstandstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Neufert_Tino> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.72> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.73>
+    nl:hasPosition "Vorsitzender" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hilbrecht_Martin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.73> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.74>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haeuser_Kristin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.74> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.75>
+    nl:hasPosition "Leitung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Tsakalidis_Konstantin> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.75> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.76>
+    nl:hasPosition "Inhaberin, Bio-Landwirtin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kratz_Daisy> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.76> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.77>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Hagedorn_Richard> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.77> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.78>
+    nl:hasPosition "Presse- und Öffentlichkeitsarbeit" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Vitzthum_Maria> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.78> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.79>
+    nl:hasPosition "Projektkoordination" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Muehl_Manja> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.79> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.80>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Doss_Theresa> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.80> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.81>
+    nl:hasPosition "Projektdirektor" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Truemper_Ekkehard> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.81> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.83>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Barnick_Jan> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.83> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.84>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Timaeus_Johannes> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.84> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.86>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Dehn_Georg> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.86> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.87>
+    nl:hasPosition "Geschäftsführerin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/HoeppnerBoehme_Birgit> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.87> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.88>
+    nl:hasPosition "Projektkoordinator" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Assfalg_Gregor> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.88> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.89>
+    nl:hasPosition "Geschäftsführender Gesellschafter" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Winkler_Ingo> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.89> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.90>
+    nl:hasPosition "Inhaber" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haedicke_Michael> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.90> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.91>
+    nl:hasPosition "Filialleitung" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Deckert_Anica> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.91> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.92>
+    nl:hasPosition "Vorstand" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Minkus_Noriko> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.92> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.93>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Przybilla_Andre> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.93> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.94>
+    nl:hasPosition "Inhaberin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pfundt_Christiane> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.94> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.95>
+    nl:hasPosition "Geschäftsführer" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Unckell_Kornelius> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.95> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.96>
+    nl:hasPosition "Hosting" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Pauli_Jennifer> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.96> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.97>
+    nl:hasPosition "Teamleiter Zooshop Bereich Marketing" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Haupt_Maik> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.97> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.98>
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Lemke_Janette> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.98> .
+
+<http://nachhaltiges-leipzig.de/Data/Membership.99>
+    nl:hasPosition "Shop-Referentin" ;
+    dct:modified "2018-08-04" ;
+    a org:Membership ;
+    org:member <http://leipzig-data.de/Data/Person/Kleitke_Astrid> ;
+    org:organization <http://nachhaltiges-leipzig.de/Data/Akteur.99> .
+
+<http://nachhaltiges-leipzig.de/Data/Personen/>
+    dct:created "2018-08-03" ;
+    a owl:Ontology ;
+    rdfs:comment "Extrahiert aus der REST-Schnittstelle" ;
+    rdfs:label "Nachhaltiges Leipzig - Personen" .
+

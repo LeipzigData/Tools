@@ -2,6 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Datum: 07.06.2015
+ * Last Update: 03.08.2018
 
  * Generisches Werkzeug, um RDF aus einer CSV-Datei zu erzeugen.
 
@@ -78,6 +79,7 @@ function createHorte($subject,$data) { // subject is not used
     $a=addResource($a,"ld:hasAddress","",$adresse);
     $a=addLiteral($a,"foaf:mbox",trim($data[6]));
     $a=addLiteral($a,"foaf:phone",fixPhone($data[7]));
+    $a=addLiteral($a,"dct:modified","2018-08-04");
     return 
         "<http://leipzig-data.de/Data/Hort/$id> a ld:Hort;\n\t"
         .join(";\n\t",$a).".\n\n";
@@ -101,9 +103,31 @@ function createGrundschulen($subject,$data) { // subject is not used
     $a=addResource($a,"ld:hasAddress","",$adresse);
     $a=addLiteral($a,"foaf:mbox",trim($data[3]));
     $a=addResource($a,"foaf:homepage","",fixURL($url));
+    $a=addLiteral($a,"dct:modified","2018-08-04");
     return 
         "<http://leipzig-data.de/Data/Schule/$id> a ld:Grundschule;\n\t"
-        .join(";\n\t",$a).".\n\n";
+        .join(";\n\t",$a)." .\n\n";
+}
+
+function createBerufsschulen($subject,$data) { // subject is not used
+    $a=array(); // Name|Adresse|Ansprechpartner|Email|Webseite|Ortsteil
+    $name=str_replace(" - Berufliches Schulzentrum der Stadt Leipzig","",$data[0]);
+    $name=str_replace("Berufliches Schulzentrum","BSZ",$name);
+    $name=str_replace("Beruflich - ","",$name);
+    $name=str_replace("der Stadt Leipzig","",$name);
+    $name=str_replace("Freier Träger - ","",$name);
+    $b=preg_split("/,\s*/",$data[1]);
+    $adresse=createAddress($b[0],"",$b[1],$b[2]);
+    $adresse=preg_replace("/(\d+).$/",".$1",$adresse);
+    $url=trim(str_replace("n/a","",$data[4]));
+    $id=fixSchulURI($name);
+    $a=addLiteral($a,"rdfs:label",$name);
+    $a=addResource($a,"ld:hasAddress","",$adresse);
+    $a=addLiteral($a,"foaf:mbox",trim($data[3]));
+    $a=addResource($a,"foaf:homepage","",fixURL($url));
+    return 
+        "<http://leipzig-data.de/Data/Schule/$id> a ld:Berufsschule;\n\t"
+        .join(";\n\t",$a)." .\n\n";
 }
 
 // ---- Transformationen ----
@@ -120,8 +144,15 @@ function processGrundschulen() {
   return $out;
 }
 
+function processBerufsschulen() {
+  $datadir="/home/graebe/git/LD/Tools/Transform/Data";
+  $out=readCSV("$datadir/berufsschulen.csv","createBerufsschulen","",";");
+  return $out;
+}
+
 // echo processHorte();
-echo processGrundschulen();
+// echo processGrundschulen();
+echo processBerufsschulen();
 
 ?>
 

@@ -98,6 +98,7 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
 }
 
 function getWKT($a) {
+    if (empty($a)) { return ; }
     return "Point($a[1] $a[0])";
 }
 
@@ -111,7 +112,9 @@ function fixNameURI($u) { // Weitere Transformation für Namen
 function fixOrgURI($u) { // Weitere Transformation für Organisationen
   $u=fixURI($u);
   $u=str_replace("-", "", $u);
+  $u=str_replace("!", "", $u);
   $u=str_replace("e.V.", "", $u);
+  $u=str_replace("e.V", "", $u);
   $u=str_replace("GmbH", "", $u);
   $u=str_replace("undCo.oHG", "", $u);
   return $u;
@@ -160,6 +163,7 @@ function getHouseNumber($s) {
 }
 
 function proposeAddressURI($s) {
+    if (empty($s)) { return ; }
     preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
     $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
     $strasse=getStreet($strasse).".".getHouseNumber($strasse);

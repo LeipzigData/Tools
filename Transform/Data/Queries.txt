@@ -1,0 +1,43 @@
+PREFIX ldo: <http://leipzig-data.de/Data/Ort/>
+PREFIX ldp: <http://leipzig-data.de/Data/Person/>
+PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+---------------------------------------------------
+Horte. Validierung der Adressen. 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT *
+from  <http://leipzig-data.de/Data/Horte/> 
+from  <http://leipzig-data.de/Data/Adressen/> 
+WHERE {
+  ?p a ld:Hort; ld:hasAddress ?a; rdfs:label ?l .
+optional{ ?a rdfs:label ?al . }
+filter (!bound(?al))
+} order by ?p
+
+---------------------------------------------------
+Schulen. Vergleich. 
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT *
+from  <http://leipzig-data.de/Data/Schulen/> 
+WHERE {
+  ?p a ld:Berufsschule; ld:hasAddress ?a; rdfs:label ?l .
+optional{ ?p  foaf:mbox ?m . }
+optional{ ?p  foaf:homepage ?h . }
+} order by ?p
+
+QS. Suche mehrfach belegte Prädikate heraus
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT ?p
+from  <http://leipzig-data.de/Data/Schulen/> 
+WHERE {
+  ?p foaf:mbox ?l .
+} group by ?p
+having ( count(?l)>1)
+	

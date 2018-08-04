@@ -58,6 +58,8 @@ function fixImageString($u) {
 
 function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   $u=str_replace("str.", "strasse", $u);
+  $u=str_replace("\"", "", $u);
+  $u=str_replace("\\", "", $u);
   $u=str_replace(" ", "", $u);
   $u=str_replace("ä", "ae", $u);
   $u=str_replace("ö", "oe", $u);

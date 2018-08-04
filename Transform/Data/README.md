@@ -18,5 +18,6 @@ Quellen für Datentransformationen
   https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/grundschulen/
 
 * berufsschulen.csv - Berufsschulen in Leipzig. Extrahiert von Tobias Mann im
-  Rahmen des Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018.
+  Rahmen des Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018. In
+  Schulen.ttl eingearbeitet.
   https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/berufliche-schulen/
