@@ -140,6 +140,6 @@ function fixInfoURL($s) {
 }
 
 // zum Testen
-echo getAllActivities();
+// echo getAllActivities();
 
 ?>
