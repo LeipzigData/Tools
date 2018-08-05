@@ -2,40 +2,22 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2018-01-07
+ * LastUpdate: 2018-08-05
  */
 
-include_once("actions.php");
-include_once("ld-adressen.php");
 include_once("akteure.php");
-include_once("ld-akteure.php");
-include_once("changes.php");
-include_once("events.php");
-include_once("projects.php");
-include_once("services.php");
-include_once("stores.php");
+include_once("personen.php");
+include_once("activities.php");
 
-main();
-
+function save($method,$file) {
+    file_put_contents ("../Daten/$file",toRDFString($method())); 
+    echo "<p>Ausgabe ../Daten/$file erzeugt</p> \n";
+}
+   
 function main() {
-  file_put_contents ("../Daten/Akteure.ttl",toRDFString(getAkteure())); 
-  echo "<p>Ausgabe ../Daten/Akteure.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/LD-Akteure.ttl",toRDFString(getLDAkteure())); 
-  echo "<p>Ausgabe ../Daten/LD-Akteure.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Aktionen.ttl",toRDFString(getAktionen())); 
-  echo "<p>Ausgabe ../Daten/Aktionen.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/LD-Adressen.ttl",toRDFString(getAdressen())); 
-  echo "<p>Ausgabe ../Daten/LD-Adressen.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Changes.ttl",toRDFString(displayChanges())); 
-  echo "<p>Ausgabe ../Daten/Changes.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Events.ttl",toRDFString(getEvents()));  
-  echo "<p>Ausgabe ../Daten/Events.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Projekte.ttl",toRDFString(getProjekte())); 
-  echo "<p>Ausgabe ../Daten/Projekte.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Services.ttl",toRDFString(getServices())); 
-  echo "<p>Ausgabe ../Daten/Services.ttl erzeugt</p> \n";
-  file_put_contents ("../Daten/Stores.ttl",toRDFString(getStores())); 
-  echo "<p>Ausgabe ../Daten/Stores.ttl erzeugt</p> \n";
-
-
+    save("getAkteure","Akteure.ttl"); 
+    save("getPersonen","Personen.ttl"); 
+    save("getAllActivities","Activities.ttl"); 
 }
 
+main();

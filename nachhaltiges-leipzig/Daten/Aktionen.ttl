@@ -11,134 +11,812 @@
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 
 
-
-<http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
+<http://nachhaltiges-leipzig.de/Data/Actions/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
-    rdfs:label "Nachhaltiges Leipzig - Aktionen" .
+    dct:created "2018-08-05" ; 
+    rdfs:label "Nachhaltiges Leipzig - Actions" .
+    
+<http://nachhaltiges-leipzig.de/Data/Activity.1775> a nl:Activity  ;
+   nl:hasID "1775" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.48> ;
+   rdfs:label "Digitaldruck ohne Wasser!" ;
+   gsp:asWKT "Point(12.4542 51.3237)" ;
+   nl:hasDescription """Wir bieten Ihnen nachhaltigen Druck ohne Abwasser mit zertifizierten Druckfarben
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.4> a nl:Aktion  ;
-   nl:hasID "4" ;
-   nl:hasDescription """Die Idee der KlassischenKartoffelkonzert-Reihe
+Die Druckmaschine ALLEGRO von Kornit bedruckt in einem einzigen Arbeitsgang ohne Vor- oder Nachbehandlung alle Seidenstoffe aus unserem Sortiment.
+Durch diese One-Step-Technologie verbraucht der Drucker keinen einzigen Tropfen Wasser. Der hohe Wasserverbrauch und das entstehende Abwasser sind die umweltrelevanten Faktoren beim Druck mit üblichen Inkjet-Druckern. Die Tinte ist GOTS zugelassen und OEKOTEX100 zertifiziert.
+Unser Partner BLUR in Portugal druckt ab 5 m jedes Design anhand Ihrer Datei (JPG, PDF oder TIF). Die Vorlagen können für den Schnitt vorbereitet oder vollflächig angelegt sein. Die Druckpreise bewegen sich bei ca. 9 bis 10 € pro Meter Stoff bei einer Breite von ca. 120 cm.""" ;
+   nl:hasDistrict "Mölkau" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.Karl-Friedrich-Strasse.1> ;
+   nl:hasInfoURL <http://www.seidentraum.eu/pdf/Information%20zum%20Digitaldruck.pdf> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000068/IMG2017-11-23_0719.JPG> ;
+   nl:hasCategories "133" ;
+   nl:hasFirstRootCategory "52" . 
 
-Der Leipziger Auwald ist seit Frühjahr 2011 in aller Munde: Baumfällungen, Tornadoschutz, Hochwasser, Deiche, Schutzmechanismen, ist weiterer Schutz durch die UNESCO möglich, etc. Die Idee ist, eine neue Konzertreihe für Leipzig zu Gunsten des Auwaldes ins Leben zu rufen. Die Konzertreihe wird den Namen KlassischeKartoffelKonzerte tragen. Der Reinerlös der Konzerte wird zu Gunsten des Auwaldes zur Verfügung gestellt werden, um damit Auwald-Projekte zu unterstützen.
 
-Die Konzertreihe begann am letzten Donnerstag im Januar 2012 und findet seit dem regelmäßig am letzten Donnerstag der Monate März, Mai, September, November und Januar statt. Ab November 2014 findet ein Wechsel der Veranstaltungstage von letzem Donnerstag auf letzten Sonntag, 17.00 Uhr, statt. Um alle Freunde des Leipziger Auwaldes musikalisch anzusprechen, soll die Spannbreite der Konzerte von Barockmusik auf historischen Instrumenten bis zum klassischen Jazz reichen. Der Eintritt kostet Euro 15,00 Studenten/ Schüler/ Rentner ab 65 Jahre und Leipzig Pass Inhaber zahlen  12 Euro. Darin enthalten ist nach dem Konzert ein Gericht rund um die Kartoffel für alle. Zu jedem Konzert werden die Gäste außerdem um Spenden  gebeten. Spendenbescheinigungen werden vom NuKLA e. V. erstellt. Bis € 200 reicht zur Vorlage beim Finanzamt Ihr Kontoauszug.
+<http://nachhaltiges-leipzig.de/Data/Activity.1663> a nl:Activity  ;
+   nl:hasID "1663" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Arbeitseinsatz zur Nistkastenreinigung und -reparatur im Zweinaundorfer Gutspark" ;
+   gsp:asWKT "Point(12.4524 51.3266)" ;
+   nl:hasDescription """Nistkästen bieten immer wieder Überraschungen. Durch Spuren und Nester können wir feststellen, welche Vögel die Nistkästen angenommen haben. Für Gäste gibt es viele Informationen über Nistkästen und heimische Vögel. Anmeldung erforderlich.
+Treffpunkt: Parkplatz am Gut, Kelbestraße""" ;
+   nl:hasDistrict "Mölkau" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04316.Leipzig.Kelbestrasse.XX> ;
+   ical:dtstart "24.11.2018, 10:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-Ab 2014 wird es jährlich ein bis zwei der Konzerte mit international hochkarätigen MusikerInnen und/oder besonderen Programmen als “NuKLA-Spezial” geben. Vertraglich gebunden sind bereits amacord (30.11.2014), Ensemble Calmus (29.11.2015), Dorothee Oberlinger (27.11.2016) http://www.dorotheeoberlinger.de/ , außerdem der Thüringische Akademische Singkreis und das Leipziger Barockorchester unter der Leitung von Jörg Genslein mit der Missa Votiva von J. D. Zelenka (29.5.2014). Für diese Konzerte werden die Eintrittspreise von den üblichen etwas abweichen (müssen).
 
-Aus der Idee, Naturschutz und Kunst miteinader zu verbinden, entstand nachfolgendes Vereinsziel von NuKLA e. V.: ein umfassender Schutz des Leipziger Auwaldes als Auenökosystem. Dieses Ziel soll über das nachfolgende Konzept erreicht werden.
+<http://nachhaltiges-leipzig.de/Data/Activity.1662> a nl:Activity  ;
+   nl:hasID "1662" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "EuroBirdWatch" ;
+   gsp:asWKT "Point(12.2955 51.3248)" ;
+   nl:hasDescription """Zum Höhepunkt des Vogelzugs über Deutschland ruft der NABU jedes Jahr zur Vogelbeobachtung auf. Der NABU Leipzig beteiligt sich an der Aktion und sucht Zugvögel an den Schönauer Lachen. Läßt sich der Vogel des Jahres 2018 beobachten? Falls vorhanden, bitte Fernglas mitbringen. Treffpunkt: Straßenbahnhaltestelle &quot;Parkallee&quot; ( Linie 8, 15)""" ;
+   nl:hasDistrict "Schönau" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/...XX> ;
+   ical:dtstart "07.10.2018, 9:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-KlassischeKartoffelKonzerte:
 
-Sie dienen als Kommunikationsplattform. Durch die immer wiederkehrenden, festen Termine werden die Menschen in Stadt und Land auf das Anliegen von NuKLA aufmerksam gemacht, sollen angesprochen, eingebunden sowie beworben werden.
+<http://nachhaltiges-leipzig.de/Data/Activity.1660> a nl:Activity  ;
+   nl:hasID "1660" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Aktionstag am Burgauenbach" ;
+   gsp:asWKT "Point(12.3136 51.3638)" ;
+   nl:hasDescription """Im Rahmen der Bachpatenschaft wird der Zustand des Fließgewässers überprüft, die Durchflüsse werden kontrolliert, bei Bedarf wird Müll eingesammelt. 
+Treffpunkt: Parkplatz an der Nahlebrücke, Gustav-Esche Str/ Ecke Reitweg""" ;
+   nl:hasDistrict "Leutzsch" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04159.Leipzig.Gustav-Esche-Strasse.XX> ;
+   ical:dtstart "11.09.2018, 15:00 Uhr" ;
+   nl:hasCategories "153" ;
+   nl:hasFirstRootCategory "51" . 
 
-“AULA-Projekt 2030. Das grüne Band der Weißen Elster”:
 
-Außerdem hat NuKLA mit dem Regionalverband des NABU in Leipzig die “Arbeitsgemeinschaft zur Erarbeitung einer möglichen UNESCO-Bewerbung für den Leipziger Auwald und Umgebung” ins Leben gerufen, um mit Fachleuten, Naturschützern und anderen am Auwald Interessierten darüber zu beraten, was notwendig für den weiteren Schutz des Leipziger Auwaldes und angrenzender Auenökosysteme ist und wie sich das realisieren lässt.
+<http://nachhaltiges-leipzig.de/Data/Activity.1643> a nl:Activity  ;
+   nl:hasID "1643" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Arbeitseinsatz und Nistkastenreinigung auf dem Friedhof Gohlis" ;
+   gsp:asWKT "Point(12.3672 51.372)" ;
+   nl:hasDescription """Nistkästen bieten immer wieder Überraschungen. Durch Spuren und Nester können wir feststellen, welche Vögel die Nisthilfen angenommen haben. Für Gäste gibt es viele Informationen über Nistkästen und heimische Vögel. Anmeldung erforderlich
+Treffpunkt: Viertelsweg 44""" ;
+   nl:hasDistrict "Gohlis-Nord" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Viertelsweg.44> ;
+   ical:dtstart "11.12.2018, 14:00" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-UNESCO wurde als Überschrift gewählt, weil die Belange des Naturschutzes und einer auch ökologisch nachhaltigen Entwicklung der Region in Politik und öffentlichem Bewusstsein bis dato keine angemessen zentrale Rolle spielen. Wir möchten, bezogen auf diese, auch für nachfolgende Generationen existentiell wichtige Themen einen Bewusstseinswandel erreichen. Der Schutz des Leipziger Auenökosystems kann dafür der Maßstab werden. Die engagierten Naturschützer haben einige Erfolge vorzuweisen, doch die schleichende ökologische Entwertung des Auwalds konnten wir alle bisher nicht stoppen, manchen dramatischen Eingriff nicht verhindern. Um das Anliegen, Verbesserung des Auwaldschutzes (auf Teilgebieten des Leipziger Auwaldes liegen die höchsten Schutzbestimmungen wie FFH, SPA, NSG, was trotzdem bis dato nicht dafür sorgen konnte, dass immer im Sinn der damit einhergehenden Bestimmungen verfahren wird)  in die Öffentlichkeit zu tragen,  ist eine überzeugende Leitidee für eine  nachhaltige und naturverträgliche Entwicklung der Region notwendig. Derzeit werden Wassertourismus, Motorbootverkehr und Vergnügungsparks als erstrebenswert betrachtet. Der Schutz der Natur wird regelmäßig Wirtschaftsinteressen untergeordnet. Wir wollen das ändern.
 
-Ein neuer, Erfolg versprechender und öffentlichkeitswirksamer Ansatz ist die Idee einer UNESCO-Bewerbung für die Auengebiete von Zeitz bis Halle/ Saale mit dem einzigartigen urbanen Leipziger Auwald als Kern. Damit wollen wir erreichen, dass unsere Ziele zum Schutz der Auenlandschaften breiten Rückhalt finden in Politik, Verwaltung, Wirtschaft, Vereinen und bei den Bürgern. Der UNESCO-Titel ist nicht das Ziel: Der Titel und seine öffentliche Reputation sind das Vehikel, der Weg dorthin ist das Ziel. UNESCO ist am Ende nicht zwingend das Ergebnis, sondern ein von einer breiten Mehrheit mitgetragenes Konzept für einen fachlich fundierten, ökologisch sinnvollen, nachhaltigen Auwaldschutz mit sanftem Tourismus und dessen Umsetzung. Es geht darum, einen Bewusstseinswandel herbei zu führen und mit breitem Rückhalt Positives für die Auwaldnatur zu erreichen. Erst wenn es hier deutliche Fortschritte gibt (die wir alle wollen). Erst wenn der Schutz der sensiblen Auwaldbereiche gesichert ist, erst wenn es beispielhafte Projekte für eine naturverträgliche Touristenlenkung und Umweltbildung gibt, wenn die einmalige Verbindung von kulturellem und natürlichem Erbe deutlich wird und wenn es Konzepte für eine nachhaltige Entwicklung und Bewahrung dieses Schatzes gibt, erst dann könnte es eine UNESCO-Bewerbung geben!
+<http://nachhaltiges-leipzig.de/Data/Activity.1641> a nl:Activity  ;
+   nl:hasID "1641" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Vogelfutterküche" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Basteln von Futterhäuschen, Herstellung eigener Futtermischung und Futterglocken zum Mitnehmen für den eigenen Garten. Viele Infos rund um die richtige Vogelfütterung.
+Anmeldung erforderlich, NABU-Naturschutzbüro, Corinthstraße 14""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "01.12.2018, 15:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-Wir wollen nicht den UNESCO-Titel, weil wir uns davon einen besseren Auwaldschutz erhoffen; stattdessen wollen wir den UNESCO-Titel und seine öffentliche Reputation nutzen, um mit mehr öffentlicher Beteiligung mehr Schutz für den Auwald bei den Verantwortlichen durchzusetzen. Wir wollen dafür sorgen, dass der in weiten Teilen bereits bestehenden Auwaldschutz umgesetzt und kontrolliert wird, dass er ausgeweitet, die touristische Nutzung gesteuert und damit für den Erhalt des Auwaldes verbessert werden, um dann – vielleicht – den UNESCO-Titel zu beantragen und möglicher Weise zu erhalten. Der renommierte Name “UNESCO” ist für dieses Anliegen aus unserer Sicht ein geeignetes Zugpferd, um die Ziele des Natur- und Landschaftsschutzes zu erreichen und um dafür neue Unterstützer zu finden. Unabhängig vom UNESCO-Titel soll den Menschen und allen Verantwortlichen klar werden, dass der Auwald ein Naturerbe ist, das wir anders würdigen und schützen müssen, als es derzeit der Fall ist.
 
-Wir wollen ein breites Bündnis für den Auwaldschutz bilden und würden uns sehr freuen, wenn möglichst viele Vereine, Verbände, Institutionen, Universitäten und Hochschulen, Politische und Kirchliche Vereinigungen, Unternehmen, Firmen, Ämter, Kommunen, Bürger-& Bürgerinnen sich daran beteiligen.
+<http://nachhaltiges-leipzig.de/Data/Activity.1639> a nl:Activity  ;
+   nl:hasID "1639" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Vogelschutz-Workshop  im Kleingärtnermuseum" ;
+   gsp:asWKT "Point(12.3569 51.3394)" ;
+   nl:hasDescription """Vogelschutzberatung und Nistkastenbau für Gartenvögel. Die Nisthilfen können gegen den Materialpreis von 10 Euro mitgenommen werden.
+Anmeldung erforderlich
+Deutsches Kleingärtnermuseum, Aachener Straße 7""" ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.AachenerStrasse.7> ;
+   ical:dtstart "09.11.2018, 15:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-Um diese Ziele zu erreichen, benötigen wir – außer dem umfangreichen ehrenamtlichen Engagement der NuKLA & AULA-Mitglieder – natürlich auch finanzielle Mittel. Einerseits können die erwirtschaftet werden durch ausverkaufte KlassischeKartoffelKonzerte, bei denen Natur (das Anliegen), Kunst (die Konzerte) und Kommunikation (im Preis enthaltenes Kartoffelgericht nach den Konzerten) eine besondere Verbindung eingehen, mit der wir möglichst viele Interessierte zu erreichen hoffen. Andererseits bietet NuKLA auf seiner Homepage http://klassischekartoffelkonzerte.de/wp-content/uploads/2011/10/NuKLA-Werbepakete2013_14.pdf  verschiedene interessante Möglichkeiten für direkte Unterstützung an (Werbung auf den Konzertdrucksachen, Kartenkauf als Präsente für Geschäftskunden, Sponsoring für ein bestimmtes Konzert, Spenden): Nutzen Sie diese Plattform und unterstützen Sie damit unsere ausschließlich ehrenamtliche Arbeit!
 
-Wir freuen uns auf Sie!
+<http://nachhaltiges-leipzig.de/Data/Activity.1637> a nl:Activity  ;
+   nl:hasID "1637" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "&quot;Mehr Grün am Wegesrand&quot;" ;
+   gsp:asWKT "Point(12.4593 51.3962)" ;
+   nl:hasDescription """Pflanzaktion für die ganze Familie am Ortsausgang Plaußig/Ecke Winzerweg. Wenn vorhanden, bitte Arbeitshandschuhe, Harke und Spaten mitbringen. Geldspenden für Pflanzmaterial willkommen. Spendenbescheinigungen werden erteilt.
+Einzelheiten werden rechtzeitig bekannt gegeben:
+www.NABU-Leipzig.de/Plaussig-Portitz""" ;
+   nl:hasDistrict "Plaußig-Portitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.Winzerweg.XX> ;
+   ical:dtstart "03.11.2018, 9:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-Vielleicht sind Sie schon bei einem der nächsten Konzerte mit dabei.""" ;
-   nl:hasImage "NUKLA_LOGO_1.jpg" ;
-   nl:hasInfoURL <http://www.klassischekartoffelkonzerte.de> ;
-   dct:created "2013-09-14" ;
-   dct:modified "2015-11-12" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.15> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.10> ;
-   nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.5> a nl:Aktion  ;
-   nl:hasID "5" ;
-   nl:hasDescription """sedruck engagiert sich für saubere Energie.
-Die drei leipziger Copy-Shop-Filialen in Leipzig arbeiten ausschließlich ohne Atomstrom. Der Online-Druckshop mit Buchmanufaktur "sedruck.de", nutzt die Energie einer großflächigen Solaranlage auf dem Ludwig-Hupfeld-Center in Böhlitz-Ehrenberg. Außerdem wird aussschließlich Papier verwendet, welches das FSC-Zertifikat trägt und somit nachhaltig erwirtschaftet wurde. Auch die Verpackung der Drucksachen ist sehr umweltschonend organisiert. Daneben engagiert sich das gesamte sedruck-Unternehmen auch sozial. Siehe sedruck.de --> Umwelt / Soziales""" ;
-   nl:hasImage "sedruck-Leipzig-3mal.png" ;
-   nl:hasInfoURL <http://www.sedruck.de/umwelt-oekodruck-soziales.html> ;
-   nl:isPublished "1" ;
-   dct:created "2013-09-19" ;
-   dct:modified "2015-09-23" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.27> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.18> ;
-   nl:hasEventType "Aktion" . 
+<http://nachhaltiges-leipzig.de/Data/Activity.1636> a nl:Activity  ;
+   nl:hasID "1636" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Wiesenmahd an den Papitzer Lachen" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Pflege einer ökologisch wertvollen Feuchtwiese,
+Anmeldung erforderlich,
+Einzelheiten werden bei der Anmeldung bekannt gegeben""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "21.10.2018, 10:15 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.8> a nl:Aktion  ;
-   nl:hasID "8" ;
-   nl:hasDescription """Mit einer Spende zugunsten der Aktion Baumstarke Stadt ermöglichen Sie die Pflanzung von Bäumen in öffentlichen Parks, an Straßen, auf Plätzen sowie auf städtischen Friedhöfen. Informationen unter: http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml""" ;
-   nl:hasImage "baumstarke_stadt_logo_400x400_196x196.jpg" ;
-   nl:hasInfoURL <http://www.leipzig.de/de/buerger/freizeit/leipzig/aktuell/pflanzaktion/index.shtml> ;
-   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Ritterstrasse.XX> ;
-   nl:hasDistrict "stadtweite Aktivität" ;
-   dct:created "2013-09-27" ;
-   dct:modified "2015-02-10" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.37> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.25> ;
-   nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.11> a nl:Aktion  ;
-   nl:hasID "11" ;
-   nl:hasDescription """Grün ist wieder in. Alle Teilnehmer tragen andiesem Tag grüns Kleidung, um der Veranstltung die besondere Note zu geben.""" ;
-   ld:proposedAddress <http://leipzig-data.de/Data/04451.Borsdorf.Lindenweg.12> ;
-   nl:hasDistrict "Zentrum-Ost (Ostvorstadt)" ;
-   nl:isPublished "1" ;
-   dct:created "2014-03-14" ;
-   dct:modified "2014-03-14" . 
+<http://nachhaltiges-leipzig.de/Data/Activity.1635> a nl:Activity  ;
+   nl:hasID "1635" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Wiesenmahd an den Papitzer Lachen" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Pflege einer ökologisch wertvollen Feuchtwiese.
+Anmeldung erforderlich, Einzelheiten werden bei der Anmeldung bekannt gegeben.""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "20.10.2018, 10:15 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.15> a nl:Aktion  ;
-   nl:hasID "15" ;
-   nl:hasDescription """Was Klimawandel mit dir zu tun hat? – Finde es heraus, dokumentiere deine Erkenntnisse mit einem kurzen Clip und gewinne bis zu 300 Euro! 
-Ein Wettbewerb für Jugendliche zwischen 10 und 16 Jahren aus Leipzig. Einsendungen sind noch bis zum 31.07.2015 möglich. Mehr Infos auf http://www.zukunftsakademie-leipzig.de/c4c.""" ;
-   nl:hasImage "C4C_2zu3.jpg" ;
-   nl:hasVideoURL <https://vimeo.com/128893469> ;
-   nl:hasInfoURL <http://www.zukunftsakademie-leipzig.de> ;
-   dct:created "2015-07-20" ;
-   dct:modified "2016-08-18" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.515> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.5> ;
-   nl:hasEventType "Aktion" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.17> a nl:Aktion  ;
-   nl:hasID "17" ;
-   nl:hasDescription """Ich betreibe in Leipzig einen Ebayshop für ökologische Wasch- und Reinigungsmittel und möchte damit einen kleinen Beitrag zum nachhaltigen Umgang mit den wertvollen Ressourcen unserer Erde leisten.""" ;
-   nl:hasVideoURL <https://www.youtube.com/watch?v=ozRgThy4gIo> ;
-   nl:hasInfoURL <http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563> ;
-   dct:created "2015-11-30" ;
-   dct:modified "2017-07-25" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.572> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.138> ;
-   nl:hasEventType "Aktion" . 
+<http://nachhaltiges-leipzig.de/Data/Activity.1633> a nl:Activity  ;
+   nl:hasID "1633" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Kraniche in der Dübener Heide" ;
+   gsp:asWKT "Point(12.4556 51.3924)" ;
+   nl:hasDescription """PKW-Fahrt zu einem Kranichsammelplatz in der Dübener Heide. Bernd Hoffmann zeigt am Wildenhainer Bruch  das abendliche Einfliegen der Vögel in ihre Schlafquartiere. Anschließende Gaststätteneinkehr ist möglich.
+Treffpunkt: Naturschutzstation, Plaußiger Dorfstraße 23
+Anmeldung unter: 034298 35764""" ;
+   nl:hasDistrict "Plaußig-Portitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.23> ;
+   ical:dtstart "06.10.2018, 16:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.19> a nl:Aktion  ;
-   nl:hasID "19" ;
-   nl:hasDescription """Wir sind Pierre & Christin und möchten im Frühjahr 2016 in der Leipziger Südvorstadt unseren Laden "EINFACH UNVERPACKT" eröffnen, wo du deine regionalen & nachhaltigen Produkte unverpackt kaufen kannst. Gemeinsam verzichten wir konsequent auf unnötige Plastikverpackungen und tun damit etwas Gutes für unsere Umwelt. Du kannst dir deine gewünschten Lebensmittel sowie Reingigungs- und Hygienemittel und Pflegeprodukte selbst in deine mitgebrachten Behälter abfüllen. Du bestimmst somit selbst wie viel du von etwas kaufst. Da nur nur soviel kaufst wie du auch benötigst, kannst du z. B. unnötige Lebensmittelabfälle vermeiden.
 
-Um unseren Traum vom eigenen Laden realisieren zu können, haben wir ein sog. Crowdfunding bei VisionBakery gestartet, wo wir dir für deine Unterstützung tolle Dankeschöns anbieten. Wie wäre es z. B. mit einer Backmischung im Glas oder einem "EINFACH UNVERPACKT - Kochbeutel" mit Rezept und allen Zutaten für ein vegetarisches 2-Personen-Gericht? Kreativkoch Pierre zaubert dir auf Wunsch auch ein Candelight-Dinner oder einen Kochabend für bis zu 4-6 Personen bei dir zu Hause! :-) Such dir gleich eines unserer Dankeschöns auf www.visionbakery.com/einfach-unverpackt aus.
+<http://nachhaltiges-leipzig.de/Data/Activity.1628> a nl:Activity  ;
+   nl:hasID "1628" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Internationaler Küstenreinigungstag" ;
+   gsp:asWKT "Point(12.3501 51.3403)" ;
+   nl:hasDescription """Auch der NABU macht mit und organisiert Müllsammelaktionen. Wir reinigen die Flußufer am Elsterbecken, Treffpunkt: Straßenbahnhaltestelle &quot;Sportforum&quot; (Linie 7,8,15)""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/...XX> ;
+   ical:dtstart "15.09.2018, 16:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
 
-Mit eurer Unterstützung können wir endlich starten und die erste Ladenmiete leisten und unsere Ladeneinrichtung sowie die ersten Lebensmittel und Behälter kaufen. Wenn wir mit eurer Unterstützung über 20.000 € hinaus kommen, können wir eine Kühl- & Kästetheke für unseren Laden anschaffen, in der wir euch dann immer frischen Käse und hausgemachte leckere Snacks anbieten können!""" ;
-   nl:hasImage "IMG_8497.jpg" ;
-   nl:hasInfoURL <http://www.visionbakery.com/einfach-unverpackt> ;
-   nl:hasDistrict "Südvorstadt" ;
-   dct:created "2015-12-16" ;
-   dct:modified "2017-01-16" . 
 
-<http://nachhaltiges-leipzig.de/Data/Aktion.20> a nl:Aktion  ;
-   nl:hasID "20" ;
+<http://nachhaltiges-leipzig.de/Data/Activity.1624> a nl:Activity  ;
+   nl:hasID "1624" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Fledermausnacht" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Der NABU Leipzig beteiligt sich an der Internationalen Batnight. Dabei gibt es für die Teilnehmer viel Wissenswertes über die kleinen nachtaktiven Jäger. Nach einem Einführungs-Vortrag geht es hinaus in die Nacht, um die Fledermäuse zu beobachten und mit einem Detektor zu belauschen.
+Einzelheiten werden rechtzeitig bekanntgegeben
+www.NABU-Leipzig.de/Fledermausschutz""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "25.08.2018" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1623> a nl:Activity  ;
+   nl:hasID "1623" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Baum- und Strauchschnittseminar" ;
+   gsp:asWKT "Point(12.4446 51.4205)" ;
+   nl:hasDescription """Anmeldung erforderlich
+Treffpunkt: Kita &quot;Tierhäuschen&quot;, An der Hauptstraße 40A, Leipzig Hohenheida""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04356.Leipzig.AnderHauptstrasse.40A> ;
+   ical:dtstart "25.08.2018, 10:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1619> a nl:Activity  ;
+   nl:hasID "1619" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Der 5. Leipziger Mauerseglertag" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Aktionstag rund um den Schutz der Gebäudebrüter
+10:00 Uhr: Besuch einer Pflegestelle für in Not geratene Mauersegler, Beratung zu Schutzmaßnahmen
+19:00 Uhr: Mauerseglerexkursion mit Besichtigung einer Brutkolonie
+Anmeldung erforderlich, Treffpunkt wird bei Anmeldung bekannt gegeben""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "07.07.2018, 10:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1608> a nl:Activity  ;
+   nl:hasID "1608" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Stunde der Gartenvögel in der Innenstadt" ;
+   gsp:asWKT "Point(12.3809 51.339)" ;
+   nl:hasDescription """bundesweite Vogelzählung zum Mitmachen für Kinder und Erwachsene,
+falls vorhanden, bitte Fernglas mitbringen,
+Treffpunkt: Augustusplatz, Mendebrunnen""" ;
+   nl:hasDistrict "Zentrum (Innenstadt)" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.Augustusplatz.XX> ;
+   ical:dtstart "13.05.2018, 9:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1607> a nl:Activity  ;
+   nl:hasID "1607" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Stunde der Gartenvögel im Gartenverein Dr. Schreber" ;
+   gsp:asWKT "Point(12.3569 51.3394)" ;
+   nl:hasDescription """bundesweite Vogelzählung zum Mitmachen für Kinder und Erwachsene,
+falls vorhanden, bitte Fernglas mitbringen,
+im Anschluss Vogelschutzberatung im Kleingärtnermuseum""" ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.AachenerStrasse.7> ;
+   ical:dtstart "12.05.2018, 9:00 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1606> a nl:Activity  ;
+   nl:hasID "1606" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "&quot;Puppenstuben gesucht&quot;" ;
+   gsp:asWKT "Point(12.3569 51.3394)" ;
+   nl:hasDescription """Projektstart und Informationstag zur Blühwiese für nützliche Insekten 
+im Gartenverein Dr. Schreber, Deutsches Kleingärtnermuseum""" ;
+   nl:hasDistrict "Zentrum-West (Bachviertel, Kolonnadenviertel)" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04109.Leipzig.AachenerStrasse.7> ;
+   ical:dtstart "09.05.2018, 15 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1583> a nl:Activity  ;
+   nl:hasID "1583" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.185> ;
+   rdfs:label "Fotowettbewerb &quot;Bunte Wiesen&quot;" ;
+   gsp:asWKT "Point(12.4016 51.3244)" ;
+   nl:hasDescription """Anlässlich der 62. Leipziger Naturschutzwoche suchen wir nach spannenden und bunten Fotoeindrücken von Wiesen und Wiesen- oder Artendetails (wie z.B. Insekten, Vögel, Blüten) aus Leipzig und der Leipziger Umgebung. Teilnehmen können Kinder und Jugendliche bis 18 Jahre. Fotoeinreichungen gehen bis 31. März an uiz@leipzig.de. Die schönsten Aufnahmen werden in der Ausstellung &quot;Bunte Wiesen&quot; vom 24. bis 31. Mai gezeigt und prämiert.""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04317.Leipzig.PragerStrasse.136> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000048/DSC02607.JPG> ;
+   ical:dtstart "01.01. - 31.03.2018" ;
+   nl:hasCategories "55" ;
+   nl:hasFirstRootCategory "55" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1578> a nl:Activity  ;
+   nl:hasID "1578" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Müllaufsammeln für Groß und Klein im Birken- und im Plaußiger Wäldchen sowie an der Parthe" ;
+   gsp:asWKT "Point(12.4556 51.3924)" ;
+   nl:hasDescription """Der NABU beteiligt sich an der Frühjahrsputzaktion der Stadt Leipzig.""" ;
+   nl:hasDistrict "Plaußig-Portitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.23> ;
+   ical:dtstart "28.04.2018, 14:30 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1577> a nl:Activity  ;
+   nl:hasID "1577" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Müllaufsammeln für Groß und Klein in der Portitzer Siedlung" ;
+   gsp:asWKT "Point(12.4688 51.3819)" ;
+   nl:hasDescription """Der NABU beteiligt sich an der Frühjahrsputzaktion der Stadt Leipzig.
+Treffpunkt: Ecke Melker Weg / Eferdinger Straße""" ;
+   nl:hasDistrict "Plaußig-Portitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.MelkerWeg.XX> ;
+   ical:dtstart "28.04.2018, 10 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1575> a nl:Activity  ;
+   nl:hasID "1575" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Ein Heim für Insekten" ;
+   gsp:asWKT "Point(12.3717 51.3682)" ;
+   nl:hasDescription """Die Parthefrosch-Jugend baut ein Inseltenhotel für die NABU-Streupbstwiese Plaußig. Auftakt der Projektreihe von der Planung bis zum fertigen Insekten-Nützlingshaus. Treffpunkt wird bei Anmeldung bekanntgegeben. Weitere Termine nach Bedarf""" ;
+   nl:hasDistrict "Gohlis-Mitte" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Corinthstrasse.14> ;
+   ical:dtstart "21.04.2018, 14:30 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1566> a nl:Activity  ;
+   nl:hasID "1566" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Aktionstag am Burgauenbach" ;
+   gsp:asWKT "Point(12.3141 51.3575)" ;
+   nl:hasDescription """Im Rahmen der Bachpatenschaft wird der Zustand des Fließgewässers überprüft, die Durchflüsse werden kontrolliert, bei Bedarf wird Müll eingesammelt.
+Treffpunkt: Villa Hasenholz, Gustav-Esche-Str.1""" ;
+   nl:hasDistrict "Leutzsch" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Gustav-Esche-Strasse.1> ;
+   ical:dtstart "Samstag, 24.3.2018, 11 Uhr" ;
+   nl:hasCategories "153" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1561> a nl:Activity  ;
+   nl:hasID "1561" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Kopfweidenschnitt auf Plaußiger Wiesen" ;
+   gsp:asWKT "Point(12.4556 51.3924)" ;
+   nl:hasDescription """Mithelfende können nach Absprache vor Ort angefallene Weidenruten mitnehmen.""" ;
+   nl:hasDistrict "Plaußig-Portitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04349.Leipzig.PlaussigerDorfstrasse.23> ;
+   ical:dtstart "24.02.2018, 9:30 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1559> a nl:Activity  ;
+   nl:hasID "1559" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.60> ;
+   rdfs:label "Nistkastenreinigung und -reparatur auf dem Nordfriedhof" ;
+   gsp:asWKT "Point(12.3969 51.362)" ;
+   nl:hasDescription """Arbeitseinsatz im Rahmen des Projekts Lebendige Friedhöfe
+Durch Spuren und Nester können wir feststellen, welche Vögel die Nisthilfen angenommen haben. Für Gäste gibt es viele Informationen über Nistkästen und heimische Vögel.""" ;
+   nl:hasDistrict "Eutritzsch" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04105.Leipzig.BerlinerStrasse.125-127> ;
+   ical:dtstart "Sonntag, 18.02.2018, 10-12 Uhr" ;
+   nl:hasCategories "92" ;
+   nl:hasFirstRootCategory "51" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1419> a nl:Activity  ;
+   nl:hasID "1419" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "07.12.2018" ;
+   nl:hasCategories "162" ;
+   nl:hasFirstRootCategory "52" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1418> a nl:Activity  ;
+   nl:hasID "1418" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "02.11.2018" ;
+   nl:hasCategories "149" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1417> a nl:Activity  ;
+   nl:hasID "1417" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "05.10.2018" ;
+   nl:hasCategories "149" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1416> a nl:Activity  ;
+   nl:hasID "1416" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "07.09.2018" ;
+   nl:hasCategories "149" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1415> a nl:Activity  ;
+   nl:hasID "1415" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "03.08.2018" ;
+   nl:hasCategories "149" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1414> a nl:Activity  ;
+   nl:hasID "1414" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "06.07.2018" ;
+   nl:hasCategories "149" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1413> a nl:Activity  ;
+   nl:hasID "1413" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "01.06.2018" ;
+   nl:hasCategories "149", "162" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1412> a nl:Activity  ;
+   nl:hasID "1412" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <http://leipspeis.de/> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "05.05.2018" ;
+   nl:hasCategories "162", "149" ;
+   nl:hasFirstRootCategory "52" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1411> a nl:Activity  ;
+   nl:hasID "1411" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.216> ;
+   rdfs:label "O F F E N E   Ö L M Ü H L E - Zapftag" ;
+   gsp:asWKT "Point(12.3334 51.3263)" ;
+   nl:hasDescription """Jeden 1. Freitag im Monat laden wir herzlich &amp; fröhlich in die Ölmühle Leipzig ein. 
+Zwischen 15 Uhr und 19 Uhr: 
+* Verkostung unserer Öle der Region #Hanföl #Leinöl #Senföl #Leindotteröl #Rapsöl 
+* Öle selbst zapfen und etikettieren und kaufen (gerne eigene Flaschen mitbringen) 
+* Mühlenführungen 16, 17, 18 Uhr
+
+Liebst - eure Ölmüllerin Claudia und euer Ölmüller Patrice""" ;
+   nl:hasDistrict "Plagwitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.NaumburgerStrasse.10> ;
+   nl:hasInfoURL <https://ölmühle-leipzig.de> ;
+   nl:hasVideoURL <https://vimeo.com/user79306516> ;
+   ical:dtstart "06.04.2018" ;
+   nl:hasCategories "133", "114" ;
+   nl:hasFirstRootCategory "52" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1361> a nl:Activity  ;
+   nl:hasID "1361" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.213> ;
+   rdfs:label "Gemeinschaftliches Apfelernte-Wochenende im Kohrener Land" ;
+   gsp:asWKT "Point(12.5994 51.0091)" ;
+   nl:hasDescription """Lasst uns zusammen wieder ausgiebig die Äpfel von den Bäumen schütteln und ein Wochenende im schönen, streuobstwiesigen Kohrener Land verbringen! Übernachtung ist im gemütlichen Pfarrhaus und optional Anreise schon ab 28.09.2018 möglich. 
+Anmeldung an: kohrenerland@grueneliga.de
+
+Vereinshaus Grüne Liga Kohrener Land
+Rüdigsdorf Nr. 29, 04665 Kohren-Sahlis""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04655.Kohren-Sahlis.Ruedigsdorf.29> ;
+   nl:hasInfoURL <http://www.apfelkola.de> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000032/img-6461_orig.jpg> ;
+   ical:dtstart "29.09.2018, 10 Uhr bis 30.09.2018, 17 Uhr" ;
+   nl:hasCategories "149", "145", "114" ;
+   nl:hasFirstRootCategory "50" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1272> a nl:Activity  ;
+   nl:hasID "1272" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.171> ;
+   rdfs:label "NaturErlebnisDorf im Botanischen Garten Oberholz" ;
+   gsp:asWKT "Point(12.5003 51.2605)" ;
+   nl:hasDescription """ein Projekt des KinderZeit e.V. 
+Kooperationspartner: KuHstall e.V., FK BGO, Jugendclub No Name, Sachsenforst 
+
+In diesem Sommerferienprojekt soll in den Kindern mit nicht alltäglichen Herausforderungen wie Feuermachen, Möbelbau und Schnitzen von Gebrauchsgegenständen die „Abenteuerlust“ entfacht werden: sie erleben ihre Natur und Umgebung hautnah und mit allen Sinnen, und sie haben die Zeit und Muße Dinge in Ruhe und konsequent zu Ende zu bringen. 
+Kosten: 60 € /Kind für die Woche 
+Die Buchung einzelner Tage ist nicht möglich. 
+
+Anmeldung unter www.kinderzeit.jimdo.com, heike.schuurmann@web.de oder 0177-7575425""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04463.Grosspoesna.StoermthalerWeg.2> ;
+   nl:hasInfoURL <http://www.botanischer-garten-oberholz.de> ;
+   ical:dtstart "9. bis 14.7.2018    von    9 bis 15.30 Uhr" ;
+   nl:hasCategories "55" ;
+   nl:hasFirstRootCategory "55" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1248> a nl:Activity  ;
+   nl:hasID "1248" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
+   rdfs:label "Die Waldwandler im Frühling - Erwachsenenwaldgruppe" ;
+   gsp:asWKT "Point(12.3146 51.353)" ;
+   nl:hasDescription """Als Waldwandler erweitern wir unsere Sinne: Wir lernen zu sehen wie eine Eule, zu hören wie ein Hase, zu riechen wie ein Bär und wach zu sein wie ein Wolf. So kann es uns gelingen, mit dem Wald zu verschmelzen und seine spannenden Geschichten zu erleben.
+
+Im Frühling lauschen wir nach oben in die Baumkronen und erlernen die faszinierende Sprache der Vögel. Unsere gefiederten Freunde erzählen uns eine Menge über die Bewohner und Gäste des Waldes. Den Blick richten wir nach unten in die Erde, aus der sich die Frühblüher erhoben haben und von Heilkräften und Giften berichten.
+
+Die Waldwanlder lernen auf besondere Weise das Leutzscher Holz kennen und halten dabei die Balance zwischen aufmerksamen, stillen Beobachten und praktischen Wissen.
+
+Zum Schnuppern anmelden unter wildwechsel@vierfaehrten.de
+
+Wann: freitags zweiwöchentlich, 17-19 Uhr, Start: 9. März 2018
+Wo: ehemaliger Waldspielplatz Wilder Mann im Leutzscher Holz
+Kosten: Die Waldwandler-Karte kostet 78 € und umfasst 6 Veranstaltungen. Sie ist 14 Wochen gültig und nicht übertragbar. Schnuppern ist kostenfrei.""" ;
+   nl:hasDistrict "Leutzsch" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04179.Leipzig.Rathenaustrasse.XX> ;
+   nl:hasInfoURL <http://www.vierfaehrten.de/naturverbindung-erwachsene/#waldwandler> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000028/balance.jpg> ;
+   ical:dtstart "9. März 2018 bis 18. Mai 2018, freitags zweiwöchentlich 17-19 Uhr" ;
+   nl:hasCategories "54" ;
+   nl:hasFirstRootCategory "54" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1245> a nl:Activity  ;
+   nl:hasID "1245" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
+   rdfs:label "Die Baumkinder im Frühling" ;
+   gsp:asWKT "Point(12.3731 51.3397)" ;
+   nl:hasDescription """Als Baumkinder sind wir aufgeweckte Naturexperten: Wir können sichere Feuer entfachen, Schnüre aus Pflanzenfasern drehen, giftige von essbaren Pflanzen unterscheiden, einfache Unterschlupfe bauen, uns orientieren, tarnen und verstecken.
+
+Im Frühling lernen wir unseren frisch bezogenen Waldplatz im Rosental kennen: Welche Baumriesen passen auf uns auf? Welche Tiere leben hier, wenn wir gerade nicht da sind? Vor welchen Frühblühern müssen wir uns in Acht nehmen und welche können wir als Wildnischips auf dem Feuer rösten?
+
+Mit Naturspielen, Rätselrallyes und Wahrnehmungsübungen erobern wir uns den Wald und fühlen uns dort pudel- äh, wildhundwohl!
+
+Eltern und jüngere Geschwister unter fünf Jahren dürfen die Gruppe gern begleiten.
+
+
+Zum Schnuppern anmelden: wildwechsel@vierfahrten.de
+
+
+Frühlingstreffen vom 8. März 2018 bis 26. April 2018, wöchentlich donnerstags 15.30-17.30 Uhr
+
+Kosten: Die Baumkinderkarte kostet 91 € und umfasst 7 Veranstaltungen. Sie ist 9 Wochen gültig und nur auf Geschwister übertragbar. Schnuppern ist kostenfrei.
+
+Weitere Infos: http://www.vierfaehrten.de/waldfreizeit-kinder/#baumkinderfruehling""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/...XX> ;
+   nl:hasInfoURL <http://www.vierfaehrten.de/waldfreizeit-kinder/#baumkinderfruehling> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000026/waldmaus.jpg> ;
+   ical:dtstart "8. März 2018 bis 26. April 2018" ;
+   nl:hasCategories "157" ;
+   nl:hasFirstRootCategory "54" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1242> a nl:Activity  ;
+   nl:hasID "1242" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
+   rdfs:label "Skulpturengarten Gohlis" ;
+   gsp:asWKT "Point(12.3738 51.3638)" ;
+   nl:hasDescription """Der Skulpturengarten am Budde-Haus wird seit 2013 jedes Jahr vom Gohliser Verein zur Förderung von Kunst und Kultur e.V. unter Mitwirkung von regionalen und internationalen Bildhauern gemeinsam neu gestaltet.
+Unter dem Eindruck des frühlingshaften Gartens und aus den Assoziationen zwischen Künstlern, Thema und Umgebung entstehen im Mai Skulpturen, die in spielerischer Spannung zueinander, in Wechselwirkung zum Garten und zum Betrachter stehen. Bis in den Herbst hinein kann man zwischen den Skulpturen ausruhen und entspannen, aber auch Inspiration und Anregung finden.
+ 
+Das Zusammenspiel von Skulptur, Tanz, Theater, Fotografie und Musik ist eine Besonderheit des Skulpturengartens. So finden hier auch der Gohliser Kunstsommer und die Nacht der Kunst statt. Jedes Jahr aufs Neue entsteht daraus ein Gesamtkunstwerk, das einer ständigen Wandlung unterliegt.
+
+Der Skulpturengarten ist von Mai bis Ende Oktober tagsüber frei zugänglich.
+Er befindet sich im hinteren Teil des Budde-Hauses, Lützostraße 19, in Leipzig-Gohlis.""" ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Luetzowstrasse.19> ;
+   nl:hasInfoURL <http://kuk-gohlis.de/skulpturengarten/> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000025/Skulpturengarten3.jpg> ;
+   ical:dtstart "Mai bis September" ;
+   nl:hasCategories "55", "37" ;
+   nl:hasFirstRootCategory "55" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1237> a nl:Activity  ;
+   nl:hasID "1237" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.201> ;
+   rdfs:label "6. Leipziger Bildhauer Pleinair 2018" ;
+   gsp:asWKT "Point(12.3738 51.3638)" ;
+   nl:hasDescription """Unter dem Eindruck des frühlingshaften Gartens und aus den Assoziationen zwischen Künstlern, Thema und Umgebung entstehen beim 6. Leipziger Bildhauer Pleinair im Mai Skulpturen, die in spielerischer Spannung zueinander, in Wechselwirkung zum Garten und zum Betrachter stehen. Hier nimmt die Skulpturenausstellung 2018 Gestalt an. 
+Täglich von 10 - 18 Uhr
+Vernissage des Skulpturengartens 2018 ist am 26. Mai um 18 Uhr.""" ;
+   nl:hasDistrict "Gohlis-Süd" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04157.Leipzig.Luetzowstrasse.19> ;
+   nl:hasInfoURL <http://kuk-gohlis.de/skulpturengarten/> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000024/DSCF1129.JPG> ;
+   nl:hasVideoURL <http://youtu.be/SlYVORFTvGg> ;
+   ical:dtstart "17. - 26. Mai 2018" ;
+   nl:hasCategories "55" ;
+   nl:hasFirstRootCategory "55" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1137> a nl:Activity  ;
+   nl:hasID "1137" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.86> ;
+   rdfs:label "Buchmesse Leipzig 2018" ;
+   gsp:asWKT "Point(12.3988 51.3955)" ;
+   nl:hasDescription """Halle 5, F 206. Kommen wir ins Gespräch!""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04356.Leipzig.Messe-Allee.1> ;
+   nl:hasInfoURL <https://www.araki.de/ueber-uns/> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000023/10190003.JPG> ;
+   nl:hasCategories "55", "54" ;
+   nl:hasFirstRootCategory "55" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1057> a nl:Activity  ;
+   nl:hasID "1057" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
+   rdfs:label "Mit Tieren verbunden" ;
+   gsp:asWKT "Point(12.3319 51.348)" ;
+   nl:hasDescription """An diesen vier Tagen vertiefen wir uns in das Leben unserer tierischen Nachbarn und begeben uns auf die Suche nach Trittsiegeln, Fährten.
+
+In diesem Kurs aktivieren wir unsere Fantasie: Wer ist hier vorbei gekommen und wann war das? Warum kam das Tier hier vorbei? Was trieb es an? Wo ging es hin und wo kam es her? Fragen über Fragen und wir versuchen sie Schritt für Schritt zu beantworten.
+
+Kurs buchen unter wildwechsel@vierfaehrten.de
+
+Wo: Grillplatz Altlindenau, Friesenstraße (https://goo.gl/maps/QZxDbdd7Wa52) 
+Wetter: Sonne, Regen, Schnee. Ausfall nur bei Unwetterwarnung der Stufen 3 und 4.
+
+Bitte mitbringen:
+Isolierende, wasserabweisende Sitzunterlage, ausreichend warme Kleidung und Schreibzeug. 
+Tee ist empfehlenswert.
+
+Kursgebühr: 76 € pro Person (4 Termine)""" ;
+   nl:hasDistrict "Altlindenau" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/...XX> ;
+   nl:hasInfoURL <http://www.vierfaehrten.de/naturverbindung-erwachsene/#mittierenverbunden> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000022/fuchs-schnee.jpg> ;
+   ical:dtstart "Termine: So, 04.|11.|18.|25. Februar 2018, 14-17 Uhr" ;
+   nl:hasCategories "157" ;
+   nl:hasFirstRootCategory "54" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.1021> a nl:Activity  ;
+   nl:hasID "1021" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.176> ;
+   rdfs:label "Die Baumkinder im Winter" ;
+   gsp:asWKT "Point(12.3731 51.3397)" ;
+   nl:hasDescription """Feuer, Wasser, Wind und Schlamm, Fertigkeiten und Gemeinschaft, Geschichten und Legenden – all das gibts für deine Kleinen in der Baumkinder-Waldgruppe. Denn Wald macht glücklich und gesund!
+
+Baumkinder lernen sichere Feuer zu entfachen, Schnüre aus Pflanzenfasern zu drehen, Unterschlupfe zu bauen, essbare von giftigen Pflanzen zu unterscheiden. 
+Sie können sich orientieren, Fährten folgen, sich tarnen und verstecken.
+Sie lieben es still und laut, wild und neugierig zu sein. 
+
+Baumkinder fühlen sich im Wald einfach pudel- eh, wildhundwohl! :)
+
+Einstieg jederzeit möglich, bitte Bescheid geben.
+Schnuppern kostenfrei. Danach mit Baumkinderkarte (91 € für 7 Veranstaltungen. Sie ist 9 Wochen gültig und nur auf Geschwister übertragbar).
+
+Die Gruppe findet wöchentlich donnerstags das ganze Jahr über statt.""" ;
+   nl:hasDistrict "anderer Ort" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/...XX> ;
+   nl:hasInfoURL <http://www.vierfaehrten.de/waldfreizeit-kinder/#baumkinder> ;
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000021/Baumkinder_Winter_NUS_DSC03699.jpg> ;
+   ical:dtstart "11.01.18 - 22.02.18" ;
+   nl:hasCategories "157" ;
+   nl:hasFirstRootCategory "54" . 
+
+
+<http://nachhaltiges-leipzig.de/Data/Activity.913> a nl:Activity  ;
+   nl:hasID "913" ;
+   nl:hasType <http://nachhaltiges-leipzig.de/Data/Model#Action> ;
+   nl:hasAkteur <http://nachhaltiges-leipzig.de/Data/Akteur.125> ;
+   rdfs:label "Faire Mode in Plagwitz/Nähen in Plagwitz" ;
+   gsp:asWKT "Point(12.3343 51.3295)" ;
    nl:hasDescription """Präsentation fairer Mode ab 15.00 Uhr
 Vortrag zum ehrenamtlichen Engagement in Paraguayab 19.00 Uhr, Vorstellung der gefertigten Stücke, Kauf möglich.""" ;
-   nl:hasImage "IMG_2757.JPG" ;
+   nl:hasDistrict "Plagwitz" ;
+   ld:proposedAddress <http://leipzig-data.de/Data/04229.Leipzig.MerseburgerStrasse.7> ;
    nl:hasInfoURL <http://www.kunstundkatze.de> ;
-   nl:isPublished "1" ;
-   dct:created "2017-06-08" ;
-   dct:modified "2017-06-08" ;
-   nl:relatedActivity <http://nachhaltiges-leipzig.de/Data/Aktivitaet.913> ;
-   nl:hasProvider <http://nachhaltiges-leipzig.de/Data/Akteur.125> ;
-   nl:hasEventType "Aktion" . 
+   nl:hasImageURL <http://daten.nachhaltiges-leipzig.de/system/action/image/00000020/IMG_2757.JPG> ;
+   ical:dtstart "16.06.2017, ab 15.00 Uhr" ;
+   nl:hasCategories "133" ;
+   nl:hasFirstRootCategory "52" . 
 

@@ -6,25 +6,25 @@ In diesem Verzeichnis sind verschiedene PHP-Transformationsroutinen
 zusammengestellt, die über die verfügbare REST-API (siehe die Beschreibung in
 der Datei *helper.php*) die Instanzen der Klassen *org:Organization* (Akteure),
 *foaf:Person* und *org:Membership* (Person, Rolle dieser Person beim Akteur)
-aus users.json und *nl:Activity* (Aktivitäten) aus activities.json mit URIs im
-Namensraum-Präfix <http://nachhaltiges-leipzig.de/Data/> erzeugen und in
-verschiedenen RDF-Graphen zusammenfassen.
+aus users.json sowie *nl:Activity* (Aktivitäten) und die Unterklassen
+**nl:Event**, **nl:Action**, **nl:Project**, **nl:Service**, **nl:Store** aus
+activities.json mit URIs im Namensraum-Präfix
+<http://nachhaltiges-leipzig.de/Data/> erzeugen und in verschiedenen
+RDF-Graphen zusammenfassen.
 
 Die entsprechenden Transformationen werden von den Scripten `activities.php`,
-und `akteure.php` (Dump unter Daten/NL-Akteure.ttl) und `personen.php` (Dump
-unter Daten/NL-Personen.ttl) ausgeführt und durch die gemeinsame Datei
-`helper.php` unterstützt, in der vor allem verschiedenen Routinen zum
+`akteure.php` und `personen.php` ausgeführt und durch die gemeinsame Datei
+`helper.php` unterstützt, in der vor allem verschiedene Routinen zum
 Adjustieren von Strings sowie zum Erstellen von Einträgen zusammengefasst sind,
-die immer wieder benötigt werden.
+die immer wieder benötigt werden. `test.php` enthält einige Routinen zur
+Analyse der json-Dateien, die von der REST-API zurückgegeben werden.
 
-Die weiteren Scripte sind obsolet.
-
-Nicht aktuell: Die Dateien `main.php` und `index.php` können verwendet werden,
-um die Transformationen auszuführen, wobei `index.php` das Ergebnis auf einer
-Webseite anzeigt, `main.php` dagegen die Transformationen als Turtle-Dateien in
-das Unterverzeichnis `Daten` schreibt (Aufruf `php main.php` von der
-Kommandozeile aus).  `getdata.php` stellt diese Funktionalität als einfachen
-Webservice zur Verfügung der etwa als `getdata.php?show=akteure` aufgerufen
+Die Dateien `main.php` und `index.php` können verwendet werden, um die
+Transformationen auszuführen, wobei `index.php` das Ergebnis auf einer Webseite
+anzeigt, `main.php` dagegen die Transformationen als Turtle-Dateien in das
+Unterverzeichnis `Daten` schreibt (Aufruf `php main.php` von der Kommandozeile
+aus).  `getdata.php` stellt diese Funktionalität als einfachen Webservice zur
+Verfügung, der etwa als `getdata.php?show=akteure` auch direkt aufgerufen
 werden kann.
 
 ## Namensschemata für lokale URIs
@@ -33,7 +33,7 @@ Lokale URIs werden direkt aus den Primärschlüsseln (der Id) des entsprechenden
 Datensatzes erzeugt. Diese haben (bis auf Personen, deren Daten dem
 Namensschema von leipzig-data.de folgen, die Informationen werden auch
 Datenschutzgründen nur intern verwendet) grundsätzlich die Struktur
-`<Präfix>/<Typ>.<Id>`.
+`<Präfix>/<Typ>.<Id>`, wobei <Typ> \in {Person, Akteur, Activity} gilt.
 
 Dabei werden die Namensraumpräfixe
 
@@ -52,18 +52,20 @@ verbreitete Ontologien wie
 
 eingesetzt.
 
-## Datenmodell und dessen Transformation
+## Datenmodell und dessen Transformation. Die Grundklassen.
 
 *activities* ist ein Obertyp zu verschiedenen Arten von Aktivitäten (Aktionen,
 Events, Projekte, Services, Stores), die mit dem Prädikat *nl:hasType* näher
-spezifiziert werden.
+spezifiziert werden. *activities.php* stellt Routinen für gesonderte Dumps der
+einzelnen Typen zur Verfügung.
 
 In der Collection *users* (Akteure) sind Informationen über Akteure
 zusammengefasst, wobei nicht zwischen den juristischen Personen und den für
 diese agierenden personellen Verantwortlichen unterschieden wird. Das wir im
 Transformationsprozess über das Konzept org:Membership getrennt und über die
 RDF-Klassen nl:Akteur und foaf:Person auch in verschiedenen RDF-Graphen
-erfasst.
+erfasst.  *akteure.php* stellt Routinen für gesonderte Dumps der Akteure und
+der Personen zur Verfügung.
 
 Prädikate in users.json:
 
@@ -83,7 +85,9 @@ Prädikate in users.json:
 * phone_secondary => String
 
 In der Collection *activities* (Aktivitäten) sind Informationen über die
-verschiedenen Typen von Aktivitäten zusammengefasst.
+verschiedenen Typen von Aktivitäten zusammengefasst, wobei nicht alle Prädikate
+bei allen Untertypen verwendet werden. Das ist noch genauer zu analysieren.
+Leere Prädikate werden bei den RDF-Dumps nicht berücksichtigt.
 
 Prädikate in activities.json:
 
@@ -126,28 +130,34 @@ Transformationen:
 
 Jede Instanz wird über eine ID referenziert.
 
-Die weiteren Informationen beziehen sich auf frühere Untersuchungen, die direkt
-auf der datenbank ausgeführt wurden.
+## Datenmodell und dessen Transformation. Weitere Klassen.
 
-Über die Tabelle *activities* werden *[id user_id item_id item_type]* mit
-*item_type* in *[Projekt, Action, Service, Store, Event]* zugeordnet. *id* ist
-eine eigene ID der activity, *item_id* verweist auf die ID in der Tabelle des
-jeweiligen *item_type*; eine *item_id* kann also mehrfach auftreten.
+Die folgenden Teile der Modellierung sind noch wenig ausgearbeitet und
+enthalten oft nur wenige Instanzen pro Klasse. Die entsprechenden JSON-Dateien
+sind zu Referenzzwecken im Verzeichnis Daten gespeichert.
 
 *categories* repräsentiert eine baumartige Struktur verschiedener Tags, die
-einzelnen Aktivitäten über die Tabelle *activity_categories* zugewiesen sind
-als Quadrupel *[id activity_id activity_type category_id]*.
+einzelnen Aktivitäten zugewiesen sind.
+
+* id => String
+* name => String
+* depth => String
+* parent_id => String
+* children => Array
+* goal_cloud => Array
 
 *goals* repräsentiert eine geordnete Liste verschiedener Tags, die einzelnen
-Aktivitäten über die Tabelle *activity_goals* zugewiesen sind als Quadrupel
-*[id activity_id activity_type goal_id]*.
+Aktivitäten zugewiesen sind.
 
 *products* repräsentiert eine Liste verschiedener Produktkategorien, die
-einzelnen Stores über die Tabelle *products_stores* zugewiesen sind als Paare
-*[product_id store_id]*.
+einzelnen Stores zugewiesen sind.
+
+* id => String
+* name => String
 
 *trade_types* und *trade_categories* repräsentieren zwei geordnete Listen
 verschiedener Tags, die einzelnen Akteuren über die Tabellen
-*trade_categories_users* und *trade_types_users* zugewiesen sind jeweils als
-Tripel *[id trade_id user_id]*.
+*trade_categories_users* und *trade_types_users* zugewiesen sind.
 
+* id => String
+* name => String

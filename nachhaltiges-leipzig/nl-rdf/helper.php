@@ -34,6 +34,11 @@ function addResource($a,$key,$prefix,$value) {
   return $a;
 }
 
+function addLiteralGroup($a,$key,$value) {
+    if (!empty($value)) {
+        $a[]=" $key ".'"'.join('", "', $value).'"'; }
+    return $a;
+}
 
 function TurtlePrefix() {
 return '

@@ -1,8 +1,8 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Datum: 03.08.2018
- * Last Update: 
+ * Created: 2018-08-03
+ * Last Update: 2018-08-05
 
  * Extrahiere Personeninformationen aus der REST-Schnittstelle users.json
  * Diese sind aus datenschutzrechtlichen Gründen separiert von den
@@ -73,6 +73,6 @@ function createPerson($row) {
 }
 
 // zum Testen
-echo getPersonen();
+// echo getPersonen();
 
 ?>
