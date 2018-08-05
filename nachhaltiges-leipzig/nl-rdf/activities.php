@@ -105,6 +105,7 @@ function createActivity($u,$row) {
   $a=addLiteral($a,'gsp:asWKT', getWKT($row['latlng']));
   $a=addMLiteral($a,'nl:hasDescription', $row['description']);
   $a=addLiteral($a,'nl:hasDistrict', $row['district']);
+  $a=addLiteral($a,'nl:hasFullAddress', $row['full_address']);
   $a=addResource($a, 'ld:proposedAddress', "http://leipzig-data.de/Data/",
       proposeAddressURI($row['full_address']));
   // $a=addLiteral($a,'nl:hasFallbackAddress', $row['is_fallback_address']); Wert ggf=1

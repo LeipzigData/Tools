@@ -162,19 +162,80 @@ function getStreet($s) {
 
 function getHouseNumber($s) {
     if(preg_match('/\d+/',$s)) { 
-        return substr($s, strrpos ($s, " ")+1);
+        return strtoupper(substr($s, strrpos ($s, " ")+1));
     }
     else { return "XX"; }
 }
 
 function proposeAddressURI($s) {
     if (empty($s)) { return ; }
+    if ($s=="Marienweg, Leipzig") { return "04105.Leipzig.Marienweg.56"; }
     preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
     $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
     $strasse=getStreet($strasse).".".getHouseNumber($strasse);
     $out=fixURI("$plz.$stadt.$strasse");
+    $out=str_replace("01455","04155",$out);
+    $out=str_replace("Strassedes17.Juni","Strassedes17Juni",$out);
+    $out=str_replace("Karl-Tauchnitz-Strasse.9-11","Karl-Tauchnitz-Strasse.9",$out);
+    $out=str_replace("Angerstrasse.40-42","Angerstrasse.40",$out);
+    $out=str_replace("04277.Leipzig.BornaischeStrasse.XX","04277.Leipzig.BornaischeStrasse.18",$out);
+    $out=str_replace("04277.Leipzig.Stockartstrasse.111","04277.Leipzig.Stockartstrasse.11",$out);
+    $out=str_replace("Dorotheenplatz.2-4","Dorotheenplatz.2",$out);
+    $out=str_replace("Johannes-R.-Becher-Strasse","Johannes-R-Becher-Strasse",$out);
+    $out=str_replace("Katharinenstrasse.21-23","Katharinenstrasse.21",$out);
+    $out=str_replace(".LuetznerStreet.75",".LuetznerStrasse.75",$out);
+    $out=str_replace("GrimmaischeStrasse.6-16","GrimmaischeStrasse.6",$out);
+    $out=str_replace("04155.Leipzig.GrillplatzMarienweg.XX","04105.Leipzig.Marienweg.56",$out);
+    $out=str_replace("04105.Leipzig.GrillplatzMarienweg.XX","04105.Leipzig.Marienweg.56",$out);
+    $out=str_replace("04668.Grimma.Taeubchenweg2,GutKoetz,inder.„RANGERSTATIONundQUOT;","04668.Grimma.Taeubchenweg.2",$out);
+    $out=str_replace("04107.Leipzig.StadtbibliothekamWilhelm-Leuschner-Platz.10/11","04107.Leipzig.Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("Wilhelm-Leuschner-Platz.10-11","Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("Martin-Luther-Ring.4-6","Martin-Luther-Ring.4",$out);
+    $out=str_replace("Richard-Wagner-Platz.XX","Richard-Wagner-Platz.1",$out);
+    $out=str_replace("04179.Leipzig.Rathenaustrasse.XX","04179.Leipzig.Rathenaustrasse.50",$out);
+    $out=str_replace("MarkranstaedterStrasse29.B","MarkranstaedterStrasse.29B",$out);
+    $out=str_replace("Wolfgang-Heinze-Strasse.XX","Wolfgang-Heinze-Strasse.34",$out);
+    $out=str_replace("Nikolaikirchhof.XX","Nikolaikirchhof.1",$out);
+    $out=str_replace("Markt.XX","Markt.1",$out);
+    $out=str_replace("Kolonnadenstrasse.XX","Kolonnadenstrasse.19",$out);
+    $out=str_replace("Basedowstrasse.XX","Wolfgang-Heinze-Strasse.34",$out);
+    $out=str_replace("Anton-Bruckner-Allee.XX","Anton-Bruckner-Allee.1",$out);
+    $out=str_replace("Naschmarkt.XX","Naschmarkt.1",$out);
+    $out=str_replace("Wilhelm-Leuschner-Platz.XX","Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("09648.MittweidaOTRingethal.Hauptstrasse.18","09648.Ringethal.Hauptstrasse.18",$out);
+    $out=str_replace("","",$out);
+    $out=str_replace("","",$out);
+    $out=str_replace("","",$out);
+    $out=str_replace("","",$out);
+    $out=str_replace("","",$out);
+
     return $out;
 }
+
+/* Weitere Probleme:
+
+   04177.Leipzig.Helmholtzstrasse.XX
+   Karl-Heine-Strasse.XX
+   04668.Grimma,OrtsteilKoessern.Treffpunkt:WaldparkplatzanderStrasseGrimma/OTKoessern–Boehlen.XX
+   04683.Belgershain,OrtteilRohrbach.anderKircheinRohrbach.XX
+   http://leipzig-data.de/Data/...XX
+   04668.Otterwisch.OtterwischamMuehlteich,linksderStrassevonOtterwischnachRohrbachanderScheune.XX
+   04821.Polenz.PlanitzwaldanderAltenFoersterei,Zufahrt:WegueberPolenzamPferdehof.XX
+   04668.Grimma.Flossplatz,ParkplatzanderHaengebrueckeinGrimma.XX
+   04177.Leipzig.GrillplatzFriesenstrasse.XX
+   04277.Leipzig.NeueLinie,Wildschweingehege.XX
+   04178.Leipzig.ZumBahnhof.XX
+   04277.Leipzig.Mathildenstrasse.XX
+   04317.Leipzig.EilenburgerStrasse.XX
+   04277.Leipzig.KohrenerStrasse.XX
+   06237.Leuna.SchwarzerWeg.XX
+   LeipzigCentralStation.XX
+
+Nachzutragen: 
+04105.Leipzig.Marienweg.56
+04277.Leipzig.Wolfgang-Heinze-Strasse.34
+
+*/
 
 function getAddressURI($row) {
     $strasse=$row["address"];

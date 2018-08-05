@@ -50,6 +50,7 @@ function createAkteur($row) {
   $id=$row['id'];
   $b=array(); 
   $b[]=' a nl:Akteur '; 
+  $b=addLiteral($b,'nl:hasFullAddress', $row['full_address']);
   $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/",
      proposeAddressURI($row['full_address']));
   $b=addLiteral($b,'foaf:mbox', $row['email']);
@@ -90,6 +91,7 @@ function createLDAkteur($row) {
     $uri=fixOrgURI($row['name']);
     $b=array(); 
     $b[]=' a nl:Akteur '; 
+    $b=addLiteral($b,'nl:hasFullAddress', $row['full_address']);
     $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/",
     proposeAddressURI($row['full_address']));
     $b=addResource($b,'owl:sameAs', "http://nachhaltiges-leipzig.de/Data/Akteur.",$id);
