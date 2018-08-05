@@ -80,7 +80,7 @@ function getLDAkteure() {
 <http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
     dct:created "2018-08-05" ; 
-    rdfs:label "Nachhaltiges Leipzig - LD-Akteure" .
+    rdfs:label "Nachhaltiges Leipzig - Akteure. LD-Sicht" .
 
 '.$out;
 
