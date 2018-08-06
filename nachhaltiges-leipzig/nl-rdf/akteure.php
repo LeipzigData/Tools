@@ -27,8 +27,8 @@
 include_once("helper.php");
 
 function getAkteure() {
-    //$src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
-    $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    //$src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
     $string = file_get_contents($src);
     $res = json_decode($string, true);
     $out=''; // print_r($res);
@@ -42,7 +42,7 @@ function getAkteure() {
     dct:created "2018-08-04" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
 
-'.$out;
+'.fixAkteurURI($out);
 
 }
 
@@ -82,7 +82,7 @@ function getLDAkteure() {
     dct:created "2018-08-05" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure. LD-Sicht" .
 
-'.$out;
+'.fixAkteurURI($out);
 
 }
 
@@ -101,6 +101,23 @@ function createLDAkteur($row) {
     return
         '<http://leipzig-data.de/Data/Akteur/'.$uri.'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
+
+function fixAkteurURI($s) {
+    $s=str_replace("Akteur/archenoVaInitiativefuerMenscheninNot", "Verein/ArcheNova", $s);
+    $s=str_replace("Akteur/Sukumaarts", "Verein/SukumaArts", $s);
+    $s=str_replace("Akteur/OrangUtansinNot", "Verein/OrangUtansinNot", $s);
+    $s=str_replace("Akteur/PiepenbrockSicherheit+Co.KG", "Firma/PiepenbrockSicherheit", $s);
+    $s=str_replace("Akteur/MaxPlanckInstitutfuerMathematik", "MPI.MIS", $s);
+    $s=str_replace("Akteur/GeoWerkstattLeipzig", "Verein/GeoWerkstattLeipzig", $s);
+    $s=str_replace("Akteur/DirkScheffler", "Person/Scheffler_Dirk", $s);
+    $s=str_replace("Akteur/StefanHaertel", "Person/Haertel_Stefan", $s);
+    $s=str_replace("Akteur/AnjaBuechting", "Person/Buechting_Anja", $s);
+    $s=str_replace("", "", $s);
+    $s=str_replace("", "", $s);
+    $s=str_replace("", "", $s);
+    $s=str_replace("", "", $s);
+    return $s;
+}   
 
 // zum Testen
 // echo getAkteure();
