@@ -16,7 +16,6 @@ function save($method,$file) {
    
 function main() {
     save("getAkteure","Akteure.ttl"); 
-    save("getLDAkteure","NL-Akteure.ttl"); 
     save("getPersonen","Personen.ttl"); 
     save("getAllActivities","Activities.ttl"); 
 }

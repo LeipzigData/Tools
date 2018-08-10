@@ -52,7 +52,6 @@ function applicationList() {
 <div class="container">
 <ul>
 <li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
-<li> <a href="./getdata.php?show=ldakteure&embedded=true">Die LD-Akteure</a></li>
 <li> <a href="./getdata.php?show=personen&embedded=true">Die Personen</a></li>
 <li> <a href="./getdata.php?show=aktivitaeten&embedded=true">Die Aktivitäten (Gesamt)</a></li>
 <li> <a href="./getdata.php?show=events&embedded=true">Die Events</a></li>

@@ -42,7 +42,7 @@ function getAkteure() {
     dct:created "2018-08-04" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
 
-'.fixAkteurURI($out);
+'.$out;
 
 }
 
@@ -61,14 +61,14 @@ function createAkteur($row) {
   //$b=addResource($b,'foaf:image', "", $row['organization_logo_url']);
   $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
   // $b=addLiteral($b,'nl:hasDistrict', $row['district']);
-  $b=addLiteral($b,"dct:modified","2018-08-04");
+  // $b=addLiteral($b,"dct:modified","2018-08-04");
   return
       '<http://nachhaltiges-leipzig.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
 
 function getLDAkteure() {
-    //$src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
-    $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    // $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
     $string = file_get_contents($src);
     $res = json_decode($string, true);
     $out=''; // print_r($res);
@@ -77,12 +77,12 @@ function getLDAkteure() {
     }
   
     return TurtlePrefix().'
-<http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
+<http://nachhaltiges-leipzig.de/Data/NL-Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
     dct:created "2018-08-05" ; 
-    rdfs:label "Nachhaltiges Leipzig - Akteure. LD-Sicht" .
+    rdfs:label "Nachhaltiges Leipzig - Akteure zum Abgleich mit leipzig-data.de" .
 
-'.fixAkteurURI($out);
+'.$out;
 
 }
 
@@ -96,31 +96,17 @@ function createLDAkteur($row) {
     proposeAddressURI($row['full_address']));
     $b=addResource($b,'owl:sameAs', "http://nachhaltiges-leipzig.de/Data/Akteur.",$id);
     $b=addLiteral($b,'rdfs:label', $row['name']);
+    $b=addLiteral($b,'foaf:mbox', $row['email']);
+    $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
     $b=addResource($b,'a', "http://nachhaltiges-leipzig.de/Data/Model#", $row['organization_type']);
     $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
+    $b=addLiteral($b,"dct:modified","2018-08-10");
     return
         '<http://leipzig-data.de/Data/Akteur/'.$uri.'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
 
-function fixAkteurURI($s) {
-    $s=str_replace("Akteur/archenoVaInitiativefuerMenscheninNot", "Verein/ArcheNova", $s);
-    $s=str_replace("Akteur/Sukumaarts", "Verein/SukumaArts", $s);
-    $s=str_replace("Akteur/OrangUtansinNot", "Verein/OrangUtansinNot", $s);
-    $s=str_replace("Akteur/PiepenbrockSicherheit+Co.KG", "Firma/PiepenbrockSicherheit", $s);
-    $s=str_replace("Akteur/MaxPlanckInstitutfuerMathematik", "MPI.MIS", $s);
-    $s=str_replace("Akteur/GeoWerkstattLeipzig", "Verein/GeoWerkstattLeipzig", $s);
-    $s=str_replace("Akteur/DirkScheffler", "Person/Scheffler_Dirk", $s);
-    $s=str_replace("Akteur/StefanHaertel", "Person/Haertel_Stefan", $s);
-    $s=str_replace("Akteur/AnjaBuechting", "Person/Buechting_Anja", $s);
-    $s=str_replace("", "", $s);
-    $s=str_replace("", "", $s);
-    $s=str_replace("", "", $s);
-    $s=str_replace("", "", $s);
-    return $s;
-}   
-
 // zum Testen
 // echo getAkteure();
-// echo getLDAkteure();
+echo getLDAkteure();
 
 ?>
