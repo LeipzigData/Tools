@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Datum: 07.06.2015
- * Last Update: 03.08.2018
+ * Last Update: 11.08.2018
 
  * Generisches Werkzeug, um RDF aus einer CSV-Datei zu erzeugen.
 
@@ -51,7 +51,8 @@ function createGenericRDF($subject,$data) {
 
 function postProcess($string,$feldnamen) {
   $genericPredicates=
-    array_map(create_function('$i','return "ihr:predicate".$i;'), range(100,count($feldnamen)+99));
+    array_map(create_function('$i','return "ihr:predicate".$i;'),
+    range(100,count($feldnamen)+99));
   // print_r($genericPredicates);
   // print_r($feldnamen);
   $string=str_replace($genericPredicates,$feldnamen,$string);
@@ -150,9 +151,16 @@ function processBerufsschulen() {
   return $out;
 }
 
+function processHaltestellen() {
+  $datadir="/home/graebe/git/LD/Tools/Transform/Data";
+  $out=readCSV("$datadir/stops.txt","createGenericRDF","",",");
+  return $out;
+}
+
 // echo processHorte();
 // echo processGrundschulen();
-echo processBerufsschulen();
+// echo processBerufsschulen();
+echo processHaltestellen();
 
 ?>
 

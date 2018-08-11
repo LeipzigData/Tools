@@ -7,6 +7,16 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 ---------------------------------------------------
+Auflistung aller Prädikate einer Klasse
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+SELECT distinct ?p 
+from  <http://leipzig-data.de/Data/Spielplaetze/> 
+WHERE {
+  ?a a ld:Ort; ?p ?q .
+} order by ?p
+
+---------------------------------------------------
 Horte. Validierung der Adressen. 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>

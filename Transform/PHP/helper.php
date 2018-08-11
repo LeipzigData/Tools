@@ -17,6 +17,12 @@ function addResource($a,$key,$prefix,$value) {
   return $a;
 }
 
+function addLiteralGroup($a,$key,$value) {
+    if (!empty($value)) {
+        $a[]=" $key ".'"'.join('", "', fixQuotes($value)).'"'; }
+    return $a;
+}
+
 
 function TurtlePrefix() {
 return '
@@ -30,6 +36,7 @@ return '
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 
 
 ';
@@ -53,6 +60,16 @@ function fixURL($u) {
 function fixImageString($u) {
   $u=str_replace("/~swp15-aae/drupal", "", $u);
   $u=str_replace("/sites/default/files/", "", $u);
+  return $u;
+  
+}function fixQuotes($u) {
+  $u=str_replace("\"", "\\\"", $u);
+  // $u=str_replace("\n", " <br/> ", $u);
+  return $u;
+}
+
+function fixBackslash($u) {
+  $u=str_replace("\\", "\\\\", $u);
   return $u;
 }
 
@@ -88,6 +105,20 @@ function asWKT($string) {
 /* Versuche, eine plausible Adress-URI aus den gegebenen Bestandteilen zu
    erzeugen */
 
+function getStreet($s) {
+    if(preg_match('/\d+/',$s)) {
+        return substr($s, 0, strrpos($s, " "));
+    }
+    else { return $s; }
+}
+
+function getHouseNumber($s) {
+    if(preg_match('/\d+/',$s)) {
+        return strtoupper(substr($s, strrpos ($s, " ")+1));
+    }
+    else { return "XX"; }
+}
+
 function createAddress($strasse,$nr,$plz,$ort) {
   if (empty($ort)) return;
   $uri=$plz.".".$ort.".".$strasse.".".$nr;
@@ -95,4 +126,15 @@ function createAddress($strasse,$nr,$plz,$ort) {
   $uri=preg_replace(array("/\s+/"),array(""),$uri);
   $uri=fixURI($uri);
   return "http://leipzig-data.de/Data/".$uri;
+}
+
+function proposeAddressURI($s) {
+    if (empty($s)) { return ; }
+    if ($s=="Marienweg, Leipzig") { return "04105.Leipzig.Marienweg.56"; }
+    preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
+    $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
+    $strasse=getStreet($strasse).".".getHouseNumber($strasse);
+    $out=fixURI("$plz.$stadt.$strasse");
+    $out=str_replace("01455","04155",$out);
+    return $out;
 }
