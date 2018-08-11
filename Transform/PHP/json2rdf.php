@@ -50,19 +50,31 @@ function createSpielplatz($row) {
 function getAfeefaAkteur($row) {
   $id=$row['id'];
   $b=array(); 
-  $b[]=' a ld:AfeefaAkteur '; 
+  $b[]=' a ld:AfeefaEntry '; 
+  $b=addLiteral($b,'rdfs:label', fixQuotes($row['name']));
   $b=addLiteral($b,'ld:AfeefaEntryType', $row['entryType']);
   $b=addLiteral($b,'ld:AfeefaEntryId', $row['entryId']);
-  $b=addLiteral($b,'rdfs:label', fixQuotes($row['name']));
+  $b=addLiteral($b,'ld:AfeefaCertified', $row['certified']);
   $b=addMLiteral($b,'ical:description', $row['description']);
   $b=addMLiteral($b,'ical:summary', $row['descriptionShort']);
   $b=addLiteral($b,'foaf:mbox', $row['mail']);
   $b=addLiteral($b,'foaf:phone', $row['phone']);
+  $b=addLiteral($b,"ld:AfeefaSpeaker", $row['speakerPublic']);
+  $b=addLiteral($b,"ld:SpokenLanguages", $row['spokenLanguages']);
+  $b=addMLiteral($b,"ld:supportWantedDetail", $row['supportWantedDetail']);
+  $b=addMLiteral($b,"ld:AfeefaTags", $row['tags']);
+  $b=addMLiteral($b,"ld:AfeefaType", $row['type']);
   $b=addResource($b,'foaf:homepage', "", $row['facebook']);
   $b=addResource($b,'foaf:homepage', "", $row['web']);
   $b=addLiteral($b,"dct:created", $row['created_at']);
   $b=addLiteral($b,"dct:modified", $row['updated_at']);
-  $b=addLiteral($b,"ld:AfeefaSpeaker", $row['speakerPublic']);
+  $b=addLiteral($b,"ld:AfeefaParentOrgaId", $row['parentOrgaId']);
+  if (array_key_exists('dateFrom',$row)) {
+          $b=addLiteral($b,"ical:dtstart", $row['dateFrom']."T".$row['timeFrom']);
+      }
+  if (array_key_exists('dateTo',$row)) {
+          $b=addLiteral($b,"ical:dtend", $row['dateTo']."T".$row['timeTo']);
+      }
   foreach ($row['location'] as $a) {
       $s=$a['street']; $plz=$a['zip']; $ort=$a['city'];
       $strasse=getStreet($s); $nr=getHouseNumber($s);

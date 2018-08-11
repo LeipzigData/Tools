@@ -28,3 +28,34 @@ Quellen für Datentransformationen
 * leipzig-de.json - Dump von https://afeefa.de/api/marketentries?area=leipzig
   API soll aber noch umgestaltet werden. 
 
+Analyse der Schnittstelle:
+
+* id => String
+* entryType => String
+* category => Array
+* certified => String
+* description => String
+* descriptionShort => String
+* entryId => String
+* facebook => String
+* image => String
+* imageType => String
+* location => Array
+* mail => String
+* name => String
+* phone => String
+* speakerPublic => String
+* spokenLanguages => String
+* subCategory => String
+* supportWantedDetail => String
+* tags => String
+* type => String
+* web => String
+* inheritance => Array
+* created_at => String
+* updated_at => String
+* parentOrgaId => String
+* dateFrom => String
+* timeFrom => String
+* dateTo => String
+* timeTo => String
