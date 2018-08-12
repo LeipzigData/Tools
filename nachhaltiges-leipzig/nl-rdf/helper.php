@@ -133,26 +133,6 @@ function toRDFString($s) {
     return $s;
 }
 
-function createAdresse($row) {
-    $uri=getAddressURI($row);
-    $strasse=$row["address"];
-    if(empty($strasse)) { return ""; }
-    $plz=$row["zip"];
-    $stadt=$row["location"];
-    $gps_long=$row["longitude"];
-    $gps_lat=$row["latitude"];
-    $a=array();
-    if ($stadt=="Leipzig") { $a[]=' a ld:LeipzigerAdresse '; }
-    else { $a[]=' a ld:Adresse '; }
-    $a=addLiteral($a,'rdfs:label', "$stadt, $strasse");
-    $a=addLiteral($a,'ld:hasCity', $stadt);
-    $a=addLiteral($a,'ld:hasStreet', getStreet($strasse));
-    $a=addLiteral($a,'ld:hasPostCode', $plz);
-    $a=addLiteral($a,'ld:hasHouseNumber', getHouseNumber($strasse));
-    $a=addLiteral($a,'gsp:asWKT', "Point($gps_long $gps_lat)");
-    return '<http://leipzig-data.de/Data/'.$uri.'>'. join(" ;\n  ",$a) . " . \n\n" ;
-}
-
 function getStreet($s) {
     if(preg_match('/\d+/',$s)) { 
         return substr($s, 0, strrpos($s, " "));
@@ -203,9 +183,9 @@ function proposeAddressURI($s) {
     $out=str_replace("Naschmarkt.XX","Naschmarkt.1",$out);
     $out=str_replace("Wilhelm-Leuschner-Platz.XX","Wilhelm-Leuschner-Platz.10",$out);
     $out=str_replace("09648.MittweidaOTRingethal.Hauptstrasse.18","09648.Ringethal.Hauptstrasse.18",$out);
-    $out=str_replace("","",$out);
-    $out=str_replace("","",$out);
-    $out=str_replace("","",$out);
+    $out=str_replace("Trebsen/Mulde","Trebsen",$out);
+    $out=str_replace("DemmeringStrasse","Demmeringstrasse",$out);
+    $out=str_replace("04155.Leipzig.GohliserStrasse.6","04105.Leipzig.GohliserStrasse.6",$out);
     $out=str_replace("","",$out);
     $out=str_replace("","",$out);
 
@@ -214,40 +194,12 @@ function proposeAddressURI($s) {
 
 /* Weitere Probleme:
 
-   04177.Leipzig.Helmholtzstrasse.XX
-   Karl-Heine-Strasse.XX
-   04668.Grimma,OrtsteilKoessern.Treffpunkt:WaldparkplatzanderStrasseGrimma/OTKoessern–Boehlen.XX
-   04683.Belgershain,OrtteilRohrbach.anderKircheinRohrbach.XX
-   http://leipzig-data.de/Data/...XX
-   04668.Otterwisch.OtterwischamMuehlteich,linksderStrassevonOtterwischnachRohrbachanderScheune.XX
-   04821.Polenz.PlanitzwaldanderAltenFoersterei,Zufahrt:WegueberPolenzamPferdehof.XX
-   04668.Grimma.Flossplatz,ParkplatzanderHaengebrueckeinGrimma.XX
-   04177.Leipzig.GrillplatzFriesenstrasse.XX
-   04277.Leipzig.NeueLinie,Wildschweingehege.XX
-   04178.Leipzig.ZumBahnhof.XX
-   04277.Leipzig.Mathildenstrasse.XX
-   04317.Leipzig.EilenburgerStrasse.XX
-   04277.Leipzig.KohrenerStrasse.XX
-   06237.Leuna.SchwarzerWeg.XX
-   LeipzigCentralStation.XX
+http://nachhaltiges-leipzig.de/Data/Akteur.6
+http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX 
+"Johann Simowitsch"
 
-Nachzutragen: 
-04105.Leipzig.Marienweg.56
-04277.Leipzig.Wolfgang-Heinze-Strasse.34
+http://nachhaltiges-leipzig.de/Data/Akteur.76 	
+http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX 	
+"Ackerwinde Gemüsegarten" 	
 
 */
-
-function getAddressURI($row) {
-    $strasse=$row["address"];
-    if(empty($strasse)) { return ""; }
-    $strasse=getStreet($strasse).".".getHouseNumber($strasse);
-    $plz=$row["zip"];
-    $stadt=$row["location"];
-    $out=fixURI("$plz.$stadt.$strasse");
-    $out=str_replace("Trebsen/Mulde", "Trebsen", $out);  
-    $out=str_replace("LuetznerStreet", "LuetznerStrasse", $out);  
-    $out=str_replace("Katharinenstrasse.21-23", "Katharinenstrasse.21", $out);  
-    $out=str_replace("R.-Becher", "R-Becher", $out);  
-    $out=str_replace("Stockartstrasse.111", "Stockartstrasse.11", $out);  
-    return $out;
-}

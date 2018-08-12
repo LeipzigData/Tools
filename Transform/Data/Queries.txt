@@ -17,14 +17,16 @@ WHERE {
 } order by ?p
 
 ---------------------------------------------------
-Horte. Validierung der Adressen. 
+Validierung der Adressen. 
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
 SELECT *
-from  <http://leipzig-data.de/Data/Horte/> 
 from  <http://leipzig-data.de/Data/Adressen/> 
+from  <http://leipzig-data.de/Data/WeitereAdressen/> 
+from  <http://nachhaltiges-leipzig.de/Data/Akteure/> 
 WHERE {
-  ?p a ld:Hort; ld:hasAddress ?a; rdfs:label ?l .
+  ?p a nl:Akteur; ld:proposedAddress ?a; rdfs:label ?l .
 optional{ ?a rdfs:label ?al . }
 filter (!bound(?al))
 } order by ?p

@@ -106,7 +106,7 @@ function createLDAkteur($row) {
 }
 
 // zum Testen
-// echo getAkteure();
-echo getLDAkteure();
+echo getAkteure();
+// echo getLDAkteure();
 
 ?>
