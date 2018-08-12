@@ -121,6 +121,8 @@ function getHouseNumber($s) {
 
 function createAddress($strasse,$nr,$plz,$ort) {
   if (empty($ort)) return;
+  $strasse=str_replace("str.","strasse",$strasse);
+  $strasse=str_replace("Str.","Strasse",$strasse);
   $uri=$plz.".".$ort.".".$strasse.".".$nr;
   // mache eine Reihe sinnvoller Ersetzungen
   $uri=preg_replace(array("/\s+/"),array(""),$uri);

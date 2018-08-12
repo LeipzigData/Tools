@@ -78,12 +78,55 @@ function getAfeefaAkteur($row) {
   foreach ($row['location'] as $a) {
       $s=$a['street']; $plz=$a['zip']; $ort=$a['city'];
       $strasse=getStreet($s); $nr=getHouseNumber($s);
-      $b=addResource($b,"ld:hasAddress","",createAddress($strasse,$nr,$plz,$ort));
+      $b=addResource($b,"ld:hasAddress","",fixAddress(createAddress($strasse,$nr,$plz,$ort)));
       $b=addLiteral($b,'gsp:asWKT', asWKT($a['lat'].", ".$a['lon']));
       $b=addLiteral($b,"ld:hasPlaceName", fixQuotes($a['placename']));
   }
   return
       '<http://Leipzig-data.de/Data/AfeefaAkteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n\n" ;
+}
+
+function fixAddress($s) {
+    $s=str_replace("Data/.Leipzig.Arndtstrasse.63","Data/04275.Leipzig.Arndtstrasse.63",$s);
+    $s=str_replace("Pommernstrasse10.(GARTENADRESSE)","Pommernstrasse.10",$s);
+    $s=str_replace("04105Leipzig.Leipzig","04105.Leipzig",$s);
+    $s=str_replace("Loehrstrasse3/.7","Loehrstrasse.3",$s);
+    $s=str_replace("04347Leipzig.Leipzig","04347.Leipzig",$s);
+    $s=str_replace("PragerStrasse.118-136","PragerStrasse.118",$s);
+    $s=str_replace("Georg-Schumann-Strasse.171-175","Georg-Schumann-Strasse.171",$s);
+    $s=str_replace("Data/.Leipzig.Lessingstrasse.7","Data/04109.Leipzig.Lessingstrasse.7",$s);
+    $s=str_replace("DresdnerStrasse.11-13","DresdnerStrasse.11",$s);
+    $s=str_replace("DresdnerStrasse.11/13","DresdnerStrasse.11",$s);
+    $s=str_replace("Data/.Leipzig.MockauerStrasse.120","Data/04357.Leipzig.MockauerStrasse.120",$s);
+    $s=str_replace("18.Oktober","18Oktober",$s);
+    $s=str_replace("Wilhelm-Leuschner-Platz10-.11","Wilhelm-Leuschner-Platz.10",$s);
+    $s=str_replace("17.Juni","17Juni",$s);
+    $s=str_replace("SchoenefelderAllee23a.","SchoenefelderAllee.23A",$s);
+    $s=str_replace("Rosa-Luxemburg-Strasse45,.","Rosa-Luxemburg-Strasse.45",$s);
+    $s=str_replace("04177Leipzig.Leipzig","04177.Leipzig",$s);
+    $s=str_replace("04109Leipzig.Leipzig","04109.Leipzig",$s);
+    $s=str_replace("KiewerStrasse.1–3","KiewerStrasse.1",$s);
+    $s=str_replace("Martin-Luther-Ring4-.6","Martin-Luther-Ring.4",$s);
+    $s=str_replace("04329Leipzig.Leipzig","04329.Leipzig",$s);
+    $s=str_replace("04229Leipzig.Leipzig","04229.Leipzig",$s);
+    $s=str_replace("04317.Leipzig..ueHLSTR.14","04317.Leipzig.Muehlstrasse.14",$s);
+    $s=str_replace("ZurSchule10.A","ZurSchule.10A",$s);
+    $s=str_replace("DresdnerStrasse78-.80","DresdnerStrasse.78",$s);
+    $s=str_replace("AnderKotsche11-.13","AnderKotsche.11",$s);
+    $s=str_replace("Rossplatz.5/6","Rossplatz.5",$s);
+    $s=str_replace("Emilienstrasse17.","Emilienstrasse.17",$s);
+    $s=str_replace("Braunstrasse.26-28","Braunstrasse.26",$s);
+    $s=str_replace("Zschochersche.STR.2A","ZschocherscheStrasse.2A",$s);
+    $s=str_replace("Karl-HeineStrasse","Karl-Heine-Strasse",$s);
+    $s=str_replace("BornaischeStrasse179b.","BornaischeStrasse.179B",$s);
+    $s=str_replace("TorgauerPlatz.1-2","TorgauerPlatz.1",$s);
+    $s=str_replace("NaumburgerStrasse23.","NaumburgerStrasse.23",$s);
+    $s=str_replace("Paul-Gruner-Strasse62.(HINTERHAUS)","Paul-Gruner-Strasse.62",$s);
+    $s=str_replace("WeissenfelserStrasse65.H","WeissenfelserStrasse.65H",$s);
+    $s=str_replace("aul-Gruner-Strasse62.","aul-Gruner-Strasse.62",$s);
+    $s=str_replace("","",$s);
+    $s=str_replace("","",$s);
+    return $s;
 }
 
 // ---- Transformationen ----

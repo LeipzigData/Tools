@@ -131,6 +131,21 @@ function createBerufsschulen($subject,$data) { // subject is not used
         .join(";\n\t",$a)." .\n\n";
 }
 
+function createHaltestellen($subject,$data) { // subject is not used
+    $a=array(); // stop_id,stop_name,stop_lat,stop_lon
+    $id=$data[0];
+    $name=$data[1];
+    $name=str_replace("Leipzig, ","",$name);
+    $name=str_replace("str.","straße",$name);
+    $name=str_replace("Str.","Straße",$name);
+    $a=addLiteral($a,"rdfs:label",$name);
+    $a=addLiteral($a,'gsp:asWKT', asWKT($data[2].", ".$data[3]));
+    $a=addLiteral($a,"dct:modified","2018-08-12");
+    return 
+        "<http://leipzig-data.de/Data/Haltestelle/H.$id> a ld:Haltestelle, ld:Treffpunkt;\n\t"
+        .join(";\n\t",$a).".\n\n";
+}
+
 // ---- Transformationen ----
 
 function processHorte() {
@@ -153,7 +168,7 @@ function processBerufsschulen() {
 
 function processHaltestellen() {
   $datadir="/home/graebe/git/LD/Tools/Transform/Data";
-  $out=readCSV("$datadir/stops.txt","createGenericRDF","",",");
+  $out=readCSV("$datadir/stops.txt","createHaltestellen","",",");
   return $out;
 }
 

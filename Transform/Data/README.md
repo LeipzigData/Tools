@@ -24,6 +24,9 @@ Quellen für Datentransformationen
 
 * stops.txt - Haltestellenliste (Stand 2018)
   Quelle: https://opendata.leipzig.de/dataset/lvb-fahrplandaten
+  Transformiert in Haltestellen.ttl
+  Extraktion der zugehörigen Linien ist etwas diffizil, siehe dazu
+  ld-workbench/OpenData-Leipzig/Fahrplaene
 
 * leipzig-de.json - Dump von https://afeefa.de/api/marketentries?area=leipzig
   API soll aber noch umgestaltet werden. 
