@@ -24,9 +24,9 @@ PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#>
 SELECT *
 from  <http://leipzig-data.de/Data/Adressen/> 
 from  <http://leipzig-data.de/Data/WeitereAdressen/> 
-from  <http://nachhaltiges-leipzig.de/Data/Akteure/> 
+from  <http://nachhaltiges-leipzig.de/Data/Activities/> 
 WHERE {
-  ?p a nl:Akteur; ld:proposedAddress ?a; rdfs:label ?l .
+  ?p a nl:Activity; ld:proposedAddress ?a; rdfs:label ?l .
 optional{ ?a rdfs:label ?al . }
 filter (!bound(?al))
 } order by ?p
