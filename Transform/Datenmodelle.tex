@@ -1,0 +1,355 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{a4wide,ngerman,url}
+\usepackage[utf8]{inputenc}
+\parskip4pt
+\parindent0pt
+
+\title{Datenmodelle verschiedener Leipziger Plattformen.\\ Ein Vergleich} 
+\author{Hans-Gert Gräbe}
+\date{Version vom 10. Oktober 2018}
+
+\begin{document}
+\maketitle
+\tableofcontents 
+\newpage
+
+\section{Vorbemerkungen}
+
+Innerhalb einer Stadt wie Leipzig gibt es viele Akteure mit eigenen Portalen.
+Eine Zusammenführung von Informationen erfolgt teilweise auf der Ebene von
+Multiplikatoren wie den „Leipziger Ecken“ im Leipziger Osten, die das
+Zusammenspiel von Akteuren innerhalb einzelner Stadtteile koordinieren und
+eine gemeinsame Stadtteilplattform\footnote{\url{http://leipziger-ecken.de}.}
+betreiben.  Weiterhin gibt es stadtweite Plattformen mit speziellen
+„Sammelgebieten“\footnote{Etwa \url{https://nachhaltiges-leipzig.de} oder
+\url{https://leipzig.afeefa.de}.}.
+
+Eines der Ziele des \emph{Leipzig Data
+  Projekts}\footnote{\url{http://leipzig-data.de/}.} besteht darin, einen
+\textbf{Leipziger Open Data Raum} voranzubringen, indem verschiedene dieser
+Leipziger Portalanbieter miteinander vernetzt werden. Ein erfolgversprechendes
+Vorgehen wurde mit den Partnern \emph{Leipziger Ecken} sowie
+\emph{Nachhaltiges Leipzig} entwickelt:
+\begin{itemize}
+\item [1)] Die Partner betreiben eigene Portale zur Datenerfassung und
+  organisieren den dazu erforderlichen techno-sozialen Prozess einschließlich
+  einer gewissen Qualitätssicherung (insbesondere Spamvermeidung) in ihrer
+  jeweiligen Zielgruppe. 
+\item [2)] Über eine Schnittstelle (REST, JSON, RDF, \ldots) wird lesender
+  Zugriff auf einen definierten teil der Daten gewährt.
+\item [3)] Diese Schnittstellen werden im Kontext von \emph{Leipzig Data}
+  integriert, entsprechende Metadaten und Dienste entwickelt, um einen
+  einheitlichen \emph{verteilten} Datenraum zu konstituieren, der über diese
+  integrierte Schnittstelle angemessen semantisch exploriert werden kann. 
+\end{itemize}
+Die Schnittstellen der einzelnen Partner greifen üblicherweise auf eine lokale
+Datenbank zu, welche die lokal verwalteten Zustände (also genaue Informationen
+über einzelne Akteure, Orte, Events, \ldots\ auf Instanzebene) einmal für die
+eigene Webdarstellung verwaltet und zum anderen für den Austausch vorhält. 
+
+Jeder solchen Datenbank liegt ein eigenes \emph{Datenbankschema} und damit
+letztlich ein eigenes \emph{Datenmodell} zugrunde, das im Rahmen der
+Integrationsbemühungen zunächst zu explizieren und mit den Datenmodellen der
+anderen Partner zu vergleichen ist. 
+
+Mit dieser Zusammenstellung wird ein erster Schritt in dieser Richtung zur
+Integration verschiedener Leipziger Plattformen gegangen.  Die Darstellung und
+Vergleiche orientieren sich dabei am Datenmodell von Leipzig Data, da dieses
+von Anfang an unter dem Blcikwinkel der Interoperabilität entwickelt wurde.
+Für die einzelnen Anwendungen werden deshalb vor allem die Differenzen zum
+Leipzig Data Datenmodell hervorgehoben. 
+\newpage
+
+\section{Leipzig Data}
+
+\subsection{Hintergrund}
+
+Die \emph{Leipziger Initiative für Offene Daten} ist angetreten, um die
+Bemühungen zur Etablierung Offener Daten als wesentlichen Teil einer sich
+entfaltenden Weblandschaft in der Leipziger Region voranzubringen.
+
+Kern der Bemühungen ist die Etablierung von \emph{Leipzig Data} als einer
+signifikaten Menge von Beschreibungen des „Leipziger Lebens”, die unter einer
+freien Lizenz in digital adressierbarer Form öffentlich verfügbar sind.
+
+Im Fokus steht allerdings nicht so sehr \emph{Open Data} als vielmehr
+\emph{Free Speech}, da wir offene Daten nicht als Selbstzweck begreifen,
+sondern als Voraussetzung der Selbstermächtigung mündiger Bürger, Freie Rede
+über die sie betreffenden Angelegenheiten zu führen.
+
+Die Initiative setzt die Aktivitäten von API Leipzig (2008-2012) mit
+veränderter Schwerpunktsetzung fort und wurde von der Stadt Leipzig in einem
+Kurzzeitprojekt (Nov. 2012 bis April 2013) im Rahmen ihrer „Open Innovation”
+Ausschreibung unterstützt.
+ 
+\emph{Leipzig Data} betreibt folgende Infrastruktur:
+\begin{itemize}\itemsep0pt
+\item Webseiten \url{http://leipzig-data.de} auf Wordpress-Basis,
+\item Ein github Organisationsaccount \url{https://github.com/LeipzigData} mit
+  den Projekten 
+  \begin{itemize}\itemsep0pt
+  \item \texttt{RDFData} – RDF-Wissensbasen (als Primärdaten)
+  \item \texttt{Tools} – eine Reihe von Werkzeugen, im Wesentlichen zum
+    Anschauen, wie es gehen könnte (Blick über die Schulter auf die Werkbank), 
+  \item \texttt{web} – die Webseiten des Projekts. Der Code kann studiert
+    werden, wenn es um die Einbindung von RDF-Quellen in Websites geht.
+  \item sowie einer Zahl von weiteren Repos für Teilprojekte.
+  \end{itemize}
+\item Dazu wird eine \emph{Leipzig
+  Ontology}\footnote{\url{http://leipzig-data.de/ontology/}.} entwickelt.
+\item Unter \url{http://leipzig-data.de:8890/sparql} wird ein Sparql Endpunkt
+  für Queries auf den Daten angeboten, die in einem Virtuoso basierten
+  RDF-Store (als Sekundärdaten) gehostet sind.
+\item Unter \url{http://leipzig-data.de/info} wird eine Infoseite mit
+  Beispielen betrieben, in denen demonstriert wird, wie sich Webseiten aus
+  RDF-Quellen erzeugen lassen.  Die Quellen dieser Anwendungen sind im Repo
+  \url{https://github.com/LeipzigData/web} zu finden. 
+\item Dazu wird eine \emph{Leipzig
+  Ontology}\footnote{\url{http://leipzig-data.de/ontology/}.} entwickelt.
+\end{itemize}
+
+\subsection{Datenmodell}
+
+Das Datenmodell ist hier nur bis zu einer groben Granularitätsebene
+beschrieben.  Für weitere Informationen wird auf
+\url{http://leipzig-data.de/ontology} verwiesen.
+
+\subsubsection*{Allgemeine Übersicht über den Datenbestand}
+
+Kern dieses Datenbestands sind aktuell \emph{Akteure}, \emph{Orte},
+\emph{Adressen}, \emph{Treffpunkte} und \emph{Events}, die zusammen ein System
+von \emph{White Pages} bilden, mit denen Geolokalität auf einheitliche Weise
+referenzierbar (und damit auch aufeinander beziehbar) wird. Basis dieses
+Systems sind die aus dem API-Leipzig Projekt und damit letztlich von der Stadt
+Leipzig übernommenen und weiter aktualisierten über 65\,000 Datensätze
+Adressdaten, von denen über 63\,000 mit Geokoordinaten (Übernahme aus
+Nominatim mit anschließender weiterer Konsolidierung und Qualitätssicherung)
+versehen sind. Damit lassen sich auch ohne Dienste wie Google Maps Leipziger
+Orte an Geodaten binden und so auf Karten lokalisieren. Die höhere Qualität
+gegenüber eine reinen Referenzierung der Geokoordinaten etwa über die
+Google-API ergibt sich aus der vorgenommenen Disambiguierung, die etwa dem
+Unterschied zwischen der Verwendung von Rechneradressen und Rechnernamen
+entspricht, sowie der Möglichkeit, an diese Adress- oder Orts-URIs weitere
+Information zu binden. Diese White Pages werden vor allem im Leipzig Data
+Event Projekt fortgeschrieben.
+
+Daneben gibt es Einzelprojekte, mit denen Daten aus verschiedenen Quellen
+aufbereitet worden sind wie MINT-Orte, Schulen, Polizeidirektion,
+Seniorenbüros.
+
+\subsubsection*{RDF-Graphen und Klassen}
+
+\paragraph{Adressen und Geodaten der Stadt Leipzig.} 
+Eine \emph{Leipziger Adresse} ist ein geolokaler Punkt in der Stadt Leipzig
+mit einer Hausnummer, wo zum Beispiel eine Postzustellung möglich ist. Die
+Daten (über 65\,000 Datensätze) wurden 2012 im Rahmen des API-Leipzig Projekts
+von der Stadtverwaltung (einschließlich Referenzen auf das Straßenverzeichnis)
+übernommen, im Rahmen des Leipzig Data Projekts in das RDF-Format
+transformiert und in \texttt{Adressen.ttl} zusammengefasst.
+
+Hausnummern sind \emph{Grundstücken} zugewiesen, diese können aus mehreren
+\emph{Flurstücken} bestehen. Verschiedene Gebäude auf einem solchen Grundstück
+könnten später durch URIs bezeichnet werden, die die Grundstücksadresse als
+Namenspräfix haben. Damit folgt unsere Bezeichnung der im Kataster.
+
+Im Rahmen des Linked Geodata Projekts wurden diese Daten mit Geodaten
+angereichert. Die Daten wurden initial von Claus Stadler über nominatim aus
+Open Streetmap extrahiert, danach weiter ergänzt und aktualisiert.
+
+Ausgewählte Adressen außerhalb von Leipzig sind in
+\texttt{WeitereAdressen.ttl} nach demselben URI-Schema in einer verkürzten
+Ontologie erfasst.
+
+Es gibt geolokale Punkte, die nicht durch eine solche Adresse referenziert
+werden können, wie Treffpunkte, Kinderspielplätze u.ä. Dafür wurde das Konzept
+\emph{Treffpunkt} eingeführt, das aus einem Bezeichner und weiterer geolokaler
+Information besteht.
+
+In Anwendungen (etwa den Events) sind die standardisierten Adressen bis auf
+die Hausnummer aufgelöst. Weitere Informationen sind als Adresszusatz
+(\texttt{ld:hasAddressAddendum}) einzutragen.
+
+Die URI einer solchen Adresse wird nach einheitlichen Prinzipien aus den
+Informationen (PLZ, Stadt, Straße, Hausnummer) aufgebaut, so dass auch aus
+anderen Adresssystemen diese URIs generieret werden können, insofern diese
+vier Datenbestandteile separiert werden können.  
+
+\textbf{Prädikate:}
+\begin{itemize}\itemsep0pt
+\item ld:hasPostCode Literal – Postleitzahl
+ \item ld:hasCity Literal – Stadt
+\item ld:hasStreet Literal – Straße, in welcher sich die Adresse befindet
+\item rdfs:label Literal – Bezeichner, etwa “Leipzig, Messering 6” 
+\item gsp:asWKT Literal – Geokoordinaten im WKT-Format “Point(long lat)”
+\item ld:inOrtsteil ld:Ortsteil – Ortsteil, in welchem sich die Adresse
+  befindet
+\item ld:inStreetId ld:Strasse – Straße, in welcher sich die Adresse befindet
+\end{itemize}
+
+\paragraph{Orte.} 
+Orte in der Stadt Leipzig sind Orte mit einer \emph{Adresse} und einem
+\emph{Träger}, an denen Events veranstaltet werden.
+
+Neben dieser Art von Orten existieren auch Stellen in Leipzig, die einen
+gebräuchlichen Namen haben, aber nur durch Geokoordinaten referenzierbar sind,
+also zur Kategorie Treffpunkt gehören. Dazu gehören Spielplätze, die aus
+Stadtdaten übernommen wurden, die codefor.de/leipzig (Stand 2014) extrahiert
+hat.
+
+\textbf{Prädikate:}
+\begin{itemize}\itemsep0pt
+\item dct:modified xsd:date – letzte Modifikation des Datensatzes
+\item Orga-Literale foaf:mbox, foaf:phone, foaf:homepage
+\item ld:erreichbar Literal – Erreichbarkeit mit öffentlichem Nahverkehr
+\item ld:hasAddress ld:LeipzigerAdresse – Adresse
+\item ld:hasAddressAddendum Literal – Adresszusatz
+\item ld:hasAnschrift Literal – Anschrift, Postfach oder so, wenn der Ort
+  keine ld:Adresse hat (Beispiel: LSGM)
+\item ld:hasSupplier org:Organization oder Unterklasse – Träger
+\item ld:hasTag ld:Tag – Klassifizierung (Konsolidierung der literalen Werte
+  von ld:Art und ld:Bereich)
+\item ld:contactPerson, ld:engagedPerson ld:Person – am Ort engagierte
+  Personen
+\item rdfs:label Literal – Bezeichnung
+\item Inhalts-Literale (alle mehrfach möglich) ld:Arbeitsformen, ld:Art,
+  ld:Auszeichnungen ld:Finanzierung, ld:Hintergrund, ld:Kosten,
+  ld:Kurzinformation, ld:Leistungsangebot, ld:Oeffnungszeiten,
+  ld:Teilnahmebedingungen, ld:Zielgruppe, ld:Zielstellung
+\item Einordnungsliterale zu einer der städtischen Übersichten: ld:Categories,
+  ld:hasStadtId
+\end{itemize}
+
+\paragraph{Akteure und Personen.} 
+Synonym wird auch der Begriff \emph{Träger} verwendet. \emph{Akteure} sind
+natürliche oder juristische Personen mit verschiedenen Aktivitäten. Diese
+wurden zunächst in einem RDF-Graphen \texttt{Traeger.ttl} zusammengefasst,
+sind aber nun nach verschiedenen Kriterien in einzelne RDF-Graphen
+aufgesplittet.  Die Ontologie orientiert sich an der org-Ontologie, die für
+die verschiedenen Unterklassen um einzelne Felder erweitert wird.
+
+\emph{Juristische Personen} sind rechtsfähige Träger verschiedener Aktivitäten
+und Betreiber von Orten in Leipzig. Eine juristische Person ist eine
+Unterklasse von \texttt{org:Organization} und kann weiteren Klassen wie
+\texttt{ld:Verein}, \texttt{ld:Unternehmen} zugeordnet werden, soll aber immer
+auch \texttt{org:Organization} sein, um Inferenz längs Vererbungshierarchien
+zu vermeiden. URIs juristischer Personen haben die Gestalt
+\texttt{Data/<OrgForm>/<name>}, wobei \texttt{<OrgForm>} auf die
+Organisationsform hinweist. Damit soll diese Information perspektivisch
+verfeinert werden.
+
+Personen sind im RDF-Graphen \texttt{Personen.ttl} als \texttt{foaf:Person}
+erfasst und in den anderen RDF-Graphen referenziert, etwa über das
+Prädikat\texttt{org:hasMember}.
+
+Über das Prädikat \texttt{owl:sameAs} werden Verweise auf dieselben Akteure
+oder Personen in den Datenbanken von Partnern verwaltet. 
+
+\paragraph{Events.}
+Ziel dieses Teilprojekts ist es, eine Infrastruktur aufzubauen, in die
+Event-Daten in einheitlichem Format aus verschiedenen Quellen und von
+verschiedenen Akteuren eingespeist werden und der Allgemeinheit zum Gebrauch
+zur Verfügung stehen.
+
+Die Infrastruktur bietet keinen elaborierten eigenen Service zur Präsentation
+dieser Event-Daten, sondern überlässt die Zusammenführung mit weiteren
+Event-Daten, Filterung und Präsentation den Anbietern, die auf diese
+Infrastruktur zugreifen möchten. Die prinzipiellen Möglichkeiten eines solchen
+Events Frameworks wurden in mehreren Beispielprojekten demonstriert. 
+
+Der primäre Zugriff erfolgt über Sparql-Anfragen auf einen Sparql-Endpunkt, in
+dem die Event-Daten mit weiteren Daten über Veranstalter und
+Veranstaltungsorte angereichert und zusammengeführt sind.  Das derzeit
+vorliegende einheitliche Format (aka Protokoll) als Ergebnis eines längeren
+Entwicklungsprozesses ist weiter unten genauer beschrieben. Fragen der
+Weiterentwicklung des Protokolls sind zwischen interessierten Partnern noch
+genauer abzustimmen.
+
+\textbf{Prädikate:}
+\begin{itemize}\itemsep0pt
+\item ld:contactPerson foaf:Person – Ansprechpartner für das Event
+\item ical:contact Literal – Kontaktinformation als String
+\item ical:description Literal – Beschreibung des Events
+\item ld:hatVeranstaltungsort ld:Ort – Ort, an dem das Event stattfindet
+\item ld:hatTreffpunkt ld:Treffpunkt – Treffpunkt für das Event
+\item ld:hasAddressAddendum Literal – genauere Bezeichnung innerhalb von
+  ical:location
+\item ical:summary Literal – kurze Beschreibung (max. 100 Zeichen) des Events
+\item ical:dtstart, ical:dtend Literale (xsd:date oder xsd:datetime)
+\item ld:hatVeranstalter org:Organization – Veranstalter des Events
+\item ical:sentBy foaf:Agent – Quelle der Eventinformation
+\item ld:hasTag ld:Tag – Tags für das Event
+\item ld:zurReihe ld:Projekt – Zuordnung zu einer Veranstaltungsreihe
+\item Weitere Orga-Literale wie ld:Kosten
+\end{itemize}
+\newpage
+
+\section{Leipziger Ecken}
+\subsection{Hintergrund}
+
+\emph{Leipziger Ecken} ist eine Stadtteilinitiative, welche die Plattform
+\url{https://leipziger-ecken.de} betreibt. Die Plattform basiert auf Drupal
+und wird im Wesentlichen von Felix Albroscheit gewartet und weiterentwickelt,
+mit dem zunächst eine RDF-Schnittstelle auf einem Dump der Datenbank
+entwickelt wurde, die aktuell unter \url{https://leipziger-ecken.de/Data/} auf
+der Produktivplattform ausgerollt ist. 
+
+\subsection{Datenmodell}
+
+Im Modell werden die vier Klassen \emph{Akteure}, \emph{Adressen},
+\emph{Events} und \emph{Sparten} unterschieden.
+
+\paragraph{Adressen.}
+Instanzen dieser Klasse enthalten die Textprädikate plz (Stadt ist immer
+Leipzig), strasse, nr, adresszusatz, gps (Geokoordinaten) sowie einen Verweis
+auf den Stadtbezirk.  Mit dem Adresszusatz sind die Instanzen also nicht ganz
+identisch mit ld:LeipzigerAdresse. Im Transformationsskript werden daraus
+(syntaktisch korrekte Vorschläge für) Instanzen von ld:LeipzigerAdresse
+generiert.
+
+\paragraph{Akteure.}
+In dieser Klasse sind Informationen zur juristischen Person (ld:Akteur), zum
+betriebenen Ort (ld:Ort) sowie zu einigen beteiligten Personen (foaf:Person)
+zusammengefasst.  Im Transformationsskript wird versucht, diese drei
+Bestandteile voneinander zu trennen, wobei die Personen-Referenzen nur bis zu
+org:Membership aufgelöst werden können, da Personen über einen Fremdschlüssel
+in eine Tabelle referenziert werden, die aus naheliegenden Gründen nicht mit
+exportiert wird\footnote{Im Gegensatz zu den anderen Tabellen, die eine
+  Erweiterung des Drupal-Datenmodells darstellen, verweisen diese Referenzen
+  auf die Drupal-Usertabelle.}. Hier wäre es sinnvoll, diese Angaben
+zusätzlich als foaf:Person zu extrahieren und damit die exportierten RDF-Daten
+zu ergänzen.
+
+Instanzen dieser Klasse enthalten die Textprädikate name, email, telefon, url,
+ansprechpartner,funktion, bild, beschreibung, oeffnungszeiten sowie die
+Verweise auf adresse und ersteller. 
+
+\paragraph{Event.}
+Die Modellierung folgt der von ld:Event. In der neuen LE-Version sind für
+Events nur noch Start- und Endzeit gegeben, die komplexeren Möglichkeiten von
+regelmäßig stattfindenden Events wird aktuell -- wie in ld:Event -- nicht
+unterstützt.  
+
+Instanzen dieser Klasse enthalten die Textprädikate name, kurzbeschreibung,
+bild, url, die Verweise auf ort und ersteller sowie die datetime-Prädikate
+\texttt{start\_ts} und \texttt{ende\_ts}
+
+\paragraph{Sparten.}
+Instanzen dieser Klasse spannen eine nicht konsolidierte Tagwolke auf, mit
+denen die Events kategorisiert werden können. 
+
+Unterschiede zu ld:Event:
+\begin{itemize}
+\item ical:location verweist nicht auf einen ld:Ort, sondern auf eine
+  le:Adresse.
+\item ical:creator verweist wieder auf eine Person in der nicht zugänglichen
+  Personentabelle.
+\item Über le:hatAkteur ist einem Event teilweise ein Akteur zugeordnet.
+\item Über le:zurSparte sind einem Event Schlagworte zugeordnet.
+\end{itemize}
+
+
+\section{Nachhaltiges Leipzig}
+\subsection{Hintergrund}
+\subsection{Datenmodell}
+
+\end{document}
