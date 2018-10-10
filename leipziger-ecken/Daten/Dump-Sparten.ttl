@@ -1110,7 +1110,7 @@
 
 <http://leipziger-ecken.de/Data/Sparte/S546> a le:Sparte  ;
    le:hasKID "546" ;
-   rdfs:label "umsonst &amp;amp; draußen" . 
+   rdfs:label "umsonst &amp; draußen" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S547> a le:Sparte  ;
    le:hasKID "547" ;
@@ -1226,7 +1226,7 @@
 
 <http://leipziger-ecken.de/Data/Sparte/S575> a le:Sparte  ;
    le:hasKID "575" ;
-   rdfs:label "entrances &amp;amp; exit" . 
+   rdfs:label "entrances &amp; exit" . 
 
 <http://leipziger-ecken.de/Data/Sparte/S576> a le:Sparte  ;
    le:hasKID "576" ;
@@ -1315,4 +1315,36 @@
 <http://leipziger-ecken.de/Data/Sparte/S597> a le:Sparte  ;
    le:hasKID "597" ;
    rdfs:label "tanzen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S598> a le:Sparte  ;
+   le:hasKID "598" ;
+   rdfs:label "bildhauern in holz" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S599> a le:Sparte  ;
+   le:hasKID "599" ;
+   rdfs:label "holzschnitt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S600> a le:Sparte  ;
+   le:hasKID "600" ;
+   rdfs:label "holzwerkstatt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S601> a le:Sparte  ;
+   le:hasKID "601" ;
+   rdfs:label "werkstatt" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S602> a le:Sparte  ;
+   le:hasKID "602" ;
+   rdfs:label "holzbearbeitung" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S603> a le:Sparte  ;
+   le:hasKID "603" ;
+   rdfs:label "holz" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S604> a le:Sparte  ;
+   le:hasKID "604" ;
+   rdfs:label "schnitzen" . 
+
+<http://leipziger-ecken.de/Data/Sparte/S605> a le:Sparte  ;
+   le:hasKID "605" ;
+   rdfs:label "buchbinden" . 
 

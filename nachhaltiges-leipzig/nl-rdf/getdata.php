@@ -2,31 +2,26 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2018-01-07
+ * LastUpdate: 2018-08-05
  */
 
-include_once("actions.php");
-include_once("ld-adressen.php");
 include_once("akteure.php");
-include_once("ld-akteure.php");
-include_once("changes.php");
-include_once("events.php");
-include_once("projects.php");
-include_once("services.php");
-include_once("stores.php");
+include_once("personen.php");
+include_once("activities.php");
 
 function main() {
     $what=$_GET['show'];
     $out='';
-    if ($what=='akteure') { $out=getAkteure(); }
-    if ($what=='ld-akteure') { $out=getLDAkteure(); }
-    else if ($what=='aktionen') { $out=getAktionen(); }
-    else if ($what=='ld-adressen') { $out=getAdressen(); }
-    else if ($what=='changes') { $out=displayChanges(); }
+    if ($what=='personen') { $out=getPersonen(); }
+    else if ($what=='akteure') { $out=getAkteure(); }
+    else if ($what=='ldakteure') { $out=getLDAkteure(); }
+    else if ($what=='aktivitaeten') { $out=getAllActivities(); }
     else if ($what=='events') { $out=getEvents(); }
-    else if ($what=='projekte') { $out=getProjekte(); }
+    else if ($what=='aktionen') { $out=getActions(); }
+    else if ($what=='projekte') { $out=getProjects(); }
     else if ($what=='services') { $out=getServices(); }
     else if ($what=='stores') { $out=getStores(); }
-    else $out="Aufruf getdata.php?show=akteure";
+    else $out="GET war $what. Aufruf getdata.php fehlerhaft";
     if (defined($_GET['embedded'])) { $out=htmlwrap($out); }
     return $out;
 }

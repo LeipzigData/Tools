@@ -884,3 +884,13 @@ optional { ?u foaf:name ?l .}
 filter (!bound(?l))
 }
 	
+PREFIX ld: <http://leipzig-data.de/Data/Model/> 
+SELECT ?l ?p ?c ?s ?h ?o ?url
+FROM <http://leipzig-data.de/Data/Schulen/>
+FROM <http://leipzig-data.de/Data/Adressen/>
+WHERE {
+?u a ld:Grundschule; rdfs:label ?l ; ld:hasAddress ?a .
+optional { ?a ld:hasStreet ?s ; ld:hasHouseNumber ?h; ld:hasCity ?c; ld:hasPostCode ?p ;
+ld:inOrtsteil ?o . }
+optional { ?u foaf:homepage ?url . }
+}

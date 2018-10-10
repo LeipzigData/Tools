@@ -28,13 +28,14 @@ function displayChanges() {
 function akteurDeaktiviert($row,$nr) {
     preg_match('|Akteur deaktiviert:\s+(.+)\s*\((.*),\s*(.*)\)\s*\s*\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixQuotes(trim($matches[1])); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
+    $akteur=trim($matches[1]); $ort=$matches[2]; $user=$matches[3]; $date=$matches[4];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$akteur.'"';
-    $a[]='nl:Kontakt "'.$user.'"';
-    $a[]='nl:Aktivitaet "deactivated"';
-    $a[]='dct:created "'.$date.'"';
+    $a=addLiteral($a,'nl:Akteur',$akteur);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($akteur));
+    $a=addLiteral($a,'nl:Kontakt',$user);
+    $a=addLiteral($a,'nl:Aktivitaet', 'deactivated');
+    $a=addLiteral($a,'dct:created', $date);
     return join(" ;\n ",$a)." . ";
 }
 
@@ -44,16 +45,17 @@ function akteurRegistriert($row,$nr) {
     $user=fixQuotes(trim($matches[1])); $date=$matches[2];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$user.'"';
-    $a[]='nl:Aktivitaet "registered"';
-    $a[]='dct:created "'.$date.'"';
+    $a=addLiteral($a,'nl:Akteur',$user);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($user));
+    $a=addLiteral($a,'nl:Aktivitaet', 'registered');
+    $a=addLiteral($a,'dct:created', $date);
     return join(" ;\n ",$a)." . ";
 }
 
 function neueAktivitaet($row,$nr) {
     preg_match('|Neue Aktivität von\s*(.*)\s*eingetragen.\s*(.*)\s*(admin/users/.+)\.\s*(.+)\.\s*(.+)$|',$row,$matches);
     // print_r($matches);
-    $akteur=fixQuotes(trim($matches[1])); $rest=$matches[2]; $user=$matches[3];
+    $akteur=trim($matches[1]); $rest=$matches[2]; $user=$matches[3];
     $action=$matches[4]; $date=$matches[5];
     $action=str_replace('actions/','http://nachhaltiges-leipzig.de/Data/Action.',$action);
     $action=str_replace('events/','http://nachhaltiges-leipzig.de/Data/Event.',$action);
@@ -63,11 +65,12 @@ function neueAktivitaet($row,$nr) {
     $user=str_replace('admin/users/','http://nachhaltiges-leipzig.de/Data/Akteur.',$user);
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:User <'.$user.'>';
-    $a[]='nl:Akteur "'.$akteur.'"';
-    $a[]='nl:linksTo <'.$action.'>';
-    $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
+    $a=addResource($a,'nl:User', '',$user);
+    $a=addLiteral($a,'nl:Akteur',$akteur);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($akteur));
+    $a=addResource($a,'nl:linksTo', '', $action);
+    $a=addLiteral($a,'dct:created', $date);
+    if (!empty($rest)) { $a=addLiteral($a,'rdfs:comment',trim($rest)); }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -78,10 +81,11 @@ function processLine($row,$nr) {
     $rest=$matches[1]; $user=fixLiteral($matches[2]); $action=$matches[3]; $date=$matches[4];
     $a=array();
     $a[]='<http://nachhaltiges-leipzig.de/Data/ChangeEntry.'.$nr.'> a nl:ChangeEntry';
-    $a[]='nl:Akteur "'.$user.'"';
-    $a[]='nl:Aktivitaet "'.$action.'"';
-    $a[]='dct:created "'.$date.'"';
-    if (!empty($rest)) { $a[]='rdfs:comment "'.trim($rest).'"'; }
+    $a=addLiteral($a,'nl:Akteur',$user);
+    $a=addResource($a,'ld:proposedURI','http://leipzig-data.de/Data/Akteur/',fixOrgURI($user));
+    $a=addLiteral($a,'nl:Aktivitaet', $action);
+    $a=addLiteral($a,'dct:created', $date);
+    if (!empty($rest)) { $a=addLiteral($a,'rdfs:comment',trim($rest)); }
     return join(" ;\n ",$a)." . ";
 }
 
@@ -90,13 +94,187 @@ function getData() {
     return 
 '
 
-
-
-Akteur deaktiviert: Carina Flores de Looß  (Leipzig, Carina Flores de Looß) .  2018-02-19
+Akteur deaktiviert: VDI - GaraGe gGmbH (Leipzig, Dr. Konstanze Schellenberger) . 2018-05-23
+Akteur deaktiviert: Max Planck Institut für Mathematik (Leipzig, Jürgen Jost) . 2018-05-23
+Akteur deaktiviert: kidscode e.V. (Leipzig, Uwe Koch) . 2018-05-23
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1220. 2018-05-22
+Neue Aktivität von Büro der Leipziger Agenda 21 eingetragen. admin/users/3. events/1219. 2018-05-22
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1218. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1217. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1216. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1215. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1214. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1213. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1212. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1211. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1210. 2018-05-14
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1209. 2018-05-14
+Neue Aktivität von Zoo Leipzig GmbH eingetragen. admin/users/214. projects/121. 2018-05-05
+Neue Aktivität von Lebendige Luppe eingetragen. admin/users/78. events/1208. 2018-05-04
+Neue Aktivität von KonsumGlobal Leipzig eingetragen. admin/users/233. events/1207. 2018-05-03
+Akteur hat sich registriert. Name: KonsumGlobal Leipzig  . 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1206. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1205. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1204. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1203. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1202. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1201. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1200. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1199. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1198. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1197. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1196. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1195. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1194. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1193. 2018-05-03
+Neue Aktivität von WeltOffen e.V. eingetragen. admin/users/33. events/1192. 2018-05-03
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1191. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1190. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1189. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1188. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1187. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1186. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1185. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1184. 2018-04-30
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1183. 2018-04-30
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. councelings/2. 2018-04-26
+Akteur hat sich registriert. Name: Stefan Härtel . 2018-04-26
+Neue Aktivität von Gemeinsam Wandeln eingetragen. admin/users/23. councelings/1. 2018-04-26
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. educations/1. 2018-04-26
+Neue Aktivität von Blütenreich eingetragen. admin/users/208. events/1182. 2018-04-26
+Neue Aktivität von Annett Antonia Graeske eingetragen. admin/users/230. events/1181. 2018-04-25
+Akteur hat sich registriert. Name: Annett Antonia Graeske . 2018-04-25
+Akteur deaktiviert: ÖDP Sachsen (Leipzig, Rahel Wehemeyer-Blum) .  2018-03-24
+Neue Aktivität von  eingetragen. admin/users/114. projects/120. 2018-04-20
+Akteur hat sich registriert. Name: Ecofacture . 2018-04-18
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1180. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1179. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1178. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1177. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1176. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1175. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1174. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1173. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1172. 2018-04-11
+Neue Aktivität von Eine Welt Laden eingetragen. admin/users/50. events/1171. 2018-04-11
+Neue Aktivität von Dr. Matias Langer eingetragen. admin/users/48. actions/68. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1170. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1169. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1168. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1167. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1166. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1165. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1164. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1163. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1162. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1161. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1160. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1159. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1158. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1157. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1156. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1155. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1154. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1153. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1152. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1151. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1150. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1149. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1148. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1147. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1146. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1145. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1144. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1143. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1142. 2018-04-05
+Neue Aktivität von BUND Leipzig eingetragen. admin/users/73. events/1141. 2018-04-05
+Akteur hat sich registriert. Name:  the shop she loves  . 2018-03-29
+Neue Aktivität von Delitzscher Land e.V eingetragen. admin/users/222. events/1140. 2018-03-27
+Neue Aktivität von kunZstoffe eingetragen. admin/users/64. events/1139. 2018-03-27
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1138. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1137. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1136. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1135. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1134. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1133. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1132. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1131. 2018-03-22
+Neue Aktivität von Vier Fährten eingetragen. admin/users/176. events/1130. 2018-03-22
+Neue Aktivität von UFZ (T. Lange) eingetragen. admin/users/12. services/90. 2018-03-22
+Neue Aktivität von Bunte Gärten Leipzig e.V. eingetragen. admin/users/227. events/1129. 2018-03-20
+Neue Aktivität von Bunte Gärten Leipzig e.V. eingetragen. admin/users/227. events/1128. 2018-03-20
+Neue Aktivität von Bunte Gärten Leipzig e.V. eingetragen. admin/users/227. events/1127. 2018-03-20
+Neue Aktivität von Bunte Gärten Leipzig e.V.  eingetragen. admin/users/227. projects/119. 2018-03-20
+Akteur hat sich registriert. Name: Bunte Gärten Leipzig e.V.  . 2018-03-20
+Akteur deaktiviert: WWF Jugend (Berlin, Franziska Losse) .  2018-03-14
+Neue Aktivität von Förderverein UiZ e.V. eingetragen. admin/users/11. events/1126. 2018-03-13
+Neue Aktivität von Ramona Strohwald eingetragen. admin/users/226. services/89. 2018-03-13
+Akteur hat sich registriert. Name: Ramona Strohwald  . 2018-03-13
+Akteur deaktiviert: Zoo Leipzig GmbH (Leipzig, Maik Haupt) .  2018-03-11
+Akteur deaktiviert: Leipziger Messe GmbH (Leipzig, Ekkehard Trümper) .  2018-03-10
+Akteur deaktiviert:  Netzwerk Gewaltfreie Kommunikation Leipzig e.V. (Leipzig, Janette Lemke) .  2018-03-07
+Neue Aktivität von Bildungsverein Parcours e.V. eingetragen. admin/users/170. events/1125. 2018-03-05
+Neue Aktivität von Luise Neugebauer Schmuck eingetragen. admin/users/183. stores/319. 2018-03-01
+Neue Aktivität von Ackerdemia e.V. eingetragen. admin/users/224. services/88. 2018-02-27
+Akteur hat sich registriert. Name: Ackerdemia e.V. . 2018-02-26
+Neue Aktivität von Delitzscher Land e.V eingetragen. admin/users/222. actions/67. 2018-02-26
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1124. 2018-02-25
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1123. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1122. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1121. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1120. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1119. 2018-02-25
+Neue Aktivität von  ernte-mich eingetragen. admin/users/77. events/1118. 2018-02-25
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1117. 2018-02-24
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1116. 2018-02-23
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1115. 2018-02-23
+Neue Aktivität von GeoWerkstatt Leipzig e.V. eingetragen. admin/users/168. events/1114. 2018-02-23
+Akteur deaktiviert: Bio Tempel (Leipzig, Christel Wust) .  2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1113. 2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1112. 2018-02-23
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1111. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1110. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1109. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1108. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1107. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1106. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1105. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1104. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1103. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1102. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1101. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1100. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1099. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1098. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1097. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1096. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1095. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1094. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1093. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1092. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1091. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1090. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1089. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1088. 2018-02-22
+Neue Aktivität von DGGL Sachsen  eingetragen. admin/users/179. events/1087. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1086. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1085. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1084. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1083. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1082. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1081. 2018-02-22
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1080. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1079. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1078. 2018-02-21
+Neue Aktivität von Projekt "Lebendige Luppe" eingetragen. admin/users/78. events/1078. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. events/1077. 2018-02-21
+Neue Aktivität von ANNALINDE gGmbH  eingetragen. admin/users/51. projects/118. 2018-02-21
+Akteur hat sich registriert. Name: ANNALINDE Akademie  . 2018-02-21
+Akteur deaktiviert: Carina Flores de Looß  (Leipzig, Carina Flores de Looß) .  2018-02-21
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1076. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1075. 2018-02-19
 Neue Aktivität von Magistralenmanagement Georg-Schumann-Straße eingetragen. admin/users/220. events/1074. 2018-02-19
-Akteur hat sich registriert. Name: Delitzscher Land e.V  . 2018-02-19
+Akteur hat sich registriert. Name: Delitzscher Land e.V.  . 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1073. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1072. 2018-02-19
 Neue Aktivität von heldenküche eingetragen. admin/users/221. events/1071. 2018-02-19
@@ -373,7 +551,6 @@ Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/866. 
 Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/865. 2018-02-14
 Neue Aktivität von  Zoo Leipzig GmbH eingetragen. admin/users/214. events/864. 2018-02-14
 Neue Aktivität von Wilde Leipziger  eingetragen. admin/users/204. events/863. 2018-02-14
-Neue Aktivität von Marktschwärmer  eingetragen. admin/users/141. events/862. 2018-02-14
 Akteur hat sich registriert. Name: Ölmühle Leipzig  . 2018-02-14
 Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/861. 2018-02-14
 Neue Aktivität von Ökolöwe - Umweltbund Leipzig e.V.  eingetragen. admin/users/69. events/860. 2018-02-14
@@ -491,8 +668,6 @@ Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. even
 Neue Aktivität von Konzeptwerk Neue Ökonomie eingetragen. admin/users/27. events/765. 2018-02-09
 Neue Aktivität von Cafe. Restaurant. Symbiose eingetragen. admin/users/207. stores/318. 2018-02-09
 Akteur hat sich registriert. Name: Cafe. Restaurant. Symbiose  . 2018-02-09
-Neue Aktivität von Graeske eingetragen. admin/users/206. projects/111. 2018-02-08
-Akteur hat sich registriert. Name: Graeske . 2018-02-08
 Neue Aktivität von Stadt Delitzsch eingetragen. admin/users/205. events/764. 2018-02-08
 Akteur hat sich registriert. Name: Stadt Delitzsch  . 2018-02-08
 Akteur deaktiviert: Förderverein "Umweltinformationszentrum Leipzig - UiZ" e.V. (Leipzig, Annette Körner) . 2018-02-08
@@ -611,7 +786,7 @@ Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/655. 2018-02-
 Neue Aktivität von erleb-bar eingetragen. admin/users/197. events/650. 2018-02-04
 Akteur hat sich registriert. Name: erleb-bar . 2018-02-02
 Akteur hat sich registriert. Name: Biomare II GmbH . 2018-02-02
-Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/195. events/649. 2018-02-02
+Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/649. 2018-02-02
 Akteur hat sich registriert. Name: Dirk Scheffler . 2018-02-02
 Akteur hat sich registriert. Name: Stadtverband Leipzig der Kleingärtner e.V. . 2018-02-02
 Neue Aktivität von Park- und Stadtführerin Daniela Neumann eingetragen. admin/users/193. events/648. 2018-02-01
@@ -804,7 +979,7 @@ Akteur deaktiviert: kunZstoffe – urbane Ideenwerkstatt e.V. (Leipzig, Christin
 }
 
 // zum Testen
-echo displayChanges();
+// echo displayChanges();
 
 
 ?>

@@ -2,6 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2018-01-07
+ * LastUpdate: 2018-08-05
  */
 
 function pageHeader() {
@@ -51,9 +52,10 @@ function applicationList() {
 <div class="container">
 <ul>
 <li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
-<li> <a href="./getdata.php?show=aktionen&embedded=true">Die Aktionen</a></li>
-<li> <a href="./getdata.php?show=changes&embedded=true">Die Changes</a></li>
+<li> <a href="./getdata.php?show=personen&embedded=true">Die Personen</a></li>
+<li> <a href="./getdata.php?show=aktivitaeten&embedded=true">Die Aktivitäten (Gesamt)</a></li>
 <li> <a href="./getdata.php?show=events&embedded=true">Die Events</a></li>
+<li> <a href="./getdata.php?show=aktionen&embedded=true">Die Aktionen</a></li>
 <li> <a href="./getdata.php?show=projekte&embedded=true">Die Projekte</a></li>
 <li> <a href="./getdata.php?show=services&embedded=true">Die Services</a></li>
 <li> <a href="./getdata.php?show=stores&embedded=true">Die Stores</a></li>

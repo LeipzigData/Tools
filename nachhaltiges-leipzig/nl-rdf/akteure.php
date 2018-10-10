@@ -1,21 +1,45 @@
 <?php
+/**
+ * User: Hans-Gert Gräbe
+ * Created: 2018-08-04
+ * Last Update: 2018-08-05
 
-/* Copy inc_sample.php to inc.php and fill in your credentials */
+ * Extrahiere Akteursinformationen aus der REST-Schnittstelle users.json
 
-include_once("inc.php");
+ * Es werden Instanzen der Klasse nl:Akteur erzeugt. Jede Instanz hat die
+ * NL-URI http://nachhaltiges-leipzig.de/Data/Akteur.<id> sowie eine aus dem
+ * Namen abgeleitete LD-URI. Aus der Adresse wird weiter eine LD-Adress-URI
+ * berechnet, die in einem weiteren Arbeitsgang zu konsolidieren sind.  
+
+ * Es gibt zwei Ausgaberoutinen. getAkteure() ist ausführlicher und sortiert
+ * die Instanzen nach der NL-URI.  getLDAkteure() ist kompakter und sortiert
+ * die Instanzen nach der LD-URI.  Letztere Daten dienen dem Abgleich mit den
+ * Einträgen in leipzig-data.de, wobei die Akteure nach Adressen und Namen
+ * sortiert werden.
+
+ * Alle personenbezogenen Daten sind in personen.php ausgelagert und werden von
+ * dort referenziert.  Hier werden keine personenbezogenen Daten gespeichert.
+
+ * Prädikate sind in der README.md genauer beschrieben. 
+
+ */
+
 include_once("helper.php");
 
 function getAkteure() {
-  $query='SELECT * FROM users';
-  $res = db_query($query);
-  $out='';
-  foreach ($res as $row) {
-    $out.=createAkteur($row);
-  }
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    //$src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    $out=''; // print_r($res);
+    foreach ($res as $row) {
+        $out.=createAkteur($row);
+    }
   
-  return TurtlePrefix().'
+    return TurtlePrefix().'
 <http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
+    dct:created "2018-08-04" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
 
 '.$out;
@@ -24,40 +48,65 @@ function getAkteure() {
 
 function createAkteur($row) {
   $id=$row['id'];
-  $a=array(); $b=array(); $c=array(); 
-  $a[]=' a foaf:Person '; $b[]=' a nl:Akteur '; $c[]=' a org:Membership ';
-  $a=addLiteral($a,'nl:hasID', $id);
-//  $a=addLiteral($a,'dct:created', fixDate($row['created_at']));
-  $b=addLiteral($b,'dct:modified', fixDate($row['updated_at']));
-//  $a=addLiteral($a,'nl:lastLoginAt', fixDate($row['last_login_at']));
-//  $a=addLiteral($a,'nl:lastActivityCheckAt', fixDate($row['activity_check_at']));
-//  $a=addLiteral($a,'nl:ActivityCheckState', $row['activity_check_state']);
-  $a=addLiteral($a,'foaf:firstName', $row['first_name']);
-  $a=addLiteral($a,'foaf:lastName', $row['last_name']);
-  $a=addLiteral($a,'nl:proposedURI', fixNameURI($row['last_name']."_".$row['first_name']));
-  $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/", getAddressURI($row));
+  $b=array(); 
+  $b[]=' a nl:Akteur '; 
+  $b=addLiteral($b,'nl:hasFullAddress', $row['full_address']);
+  $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/",
+     proposeAddressURI($row['full_address']));
   $b=addLiteral($b,'foaf:mbox', $row['email']);
-  $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_primary']));
-  $a=addLiteral($a,'foaf:phone', fixPhone($row['phone_secondary']));
-  $b=addResource($b,'nl:contactPerson', "http://leipzig-data.de/Data/Person.", $id);
-  $b=addLiteral($b,'rdfs:label', $row['organization']);
-  $b=addLiteral($b,'nl:proposedURI', fixOrgURI($row['organization']));
+  $b=addLiteral($b,'rdfs:label', $row['name']);
+  //$b=addResource($b,'nl:proposedURI', "http://leipzig-data.de/Data/Akteur/", fixOrgURI($row['name']));
   $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
-  $b=addLiteral($b,'nl:orgType', $row['organization_type']);
-  $c=addResource($c,'org:member', "http://leipzig-data.de/Data/Person.", $id);
-  $c=addResource($c,'org:organization', "http://leipzig-data.de/Data/Akteur.", $id);
-  $c=addLiteral($c,'nl:hasPosition', $row['organization_position']);
-//  $b=addLiteral($b,'foaf:image', $row['organization_logo']);
-//  $b=addLiteral($b,'nl:hasDistrict', $row['district']);
-//  $b=addLiteral($b,'nl:isReviewed', $row['reviewed']);
-  $b=addLiteral($b,'nl:isTradeOrganization', $row['trade_organization']);
+  $b=addResource($b,'a', "http://nachhaltiges-leipzig.de/Data/Model#", $row['organization_type']);
+  //$b=addResource($b,'foaf:image', "", $row['organization_logo_url']);
+  $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
+  // $b=addLiteral($b,'nl:hasDistrict', $row['district']);
+  // $b=addLiteral($b,"dct:modified","2018-08-04");
   return
-      '<http://nachhaltiges-leipzig.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n" .
-      '<http://nachhaltiges-leipzig.de/Data/Person.'. $id .'>'. join(" ;\n  ",$a) . " . \n" .
-      '<http://nachhaltiges-leipzig.de/Data/Membership.'. $id .'>'. join(" ;\n  ",$c) . " . \n\n" ;
+      '<http://nachhaltiges-leipzig.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n\n" ;
+}
+
+function getLDAkteure() {
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    // $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    $out=''; // print_r($res);
+    foreach ($res as $row) {
+        $out.=createLDAkteur($row);
+    }
+  
+    return TurtlePrefix().'
+<http://nachhaltiges-leipzig.de/Data/NL-Akteure/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    dct:created "2018-08-05" ; 
+    rdfs:label "Nachhaltiges Leipzig - Akteure zum Abgleich mit leipzig-data.de" .
+
+'.$out;
+
+}
+
+function createLDAkteur($row) {
+    $id=$row['id'];
+    $uri=fixOrgURI($row['name']);
+    $b=array(); 
+    $b[]=' a nl:Akteur '; 
+    $b=addLiteral($b,'nl:hasFullAddress', $row['full_address']);
+    $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/",
+    proposeAddressURI($row['full_address']));
+    $b=addResource($b,'owl:sameAs', "http://nachhaltiges-leipzig.de/Data/Akteur.",$id);
+    $b=addLiteral($b,'rdfs:label', $row['name']);
+    $b=addLiteral($b,'foaf:mbox', $row['email']);
+    $b=addResource($b,'foaf:homepage', "", $row['organization_url']);
+    $b=addResource($b,'a', "http://nachhaltiges-leipzig.de/Data/Model#", $row['organization_type']);
+    $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
+    $b=addLiteral($b,"dct:modified","2018-08-10");
+    return
+        '<http://leipzig-data.de/Data/Akteur/'.$uri.'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
 
 // zum Testen
 echo getAkteure();
+// echo getLDAkteure();
 
 ?>

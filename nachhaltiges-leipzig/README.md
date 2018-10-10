@@ -70,6 +70,8 @@ graebe@informatik.uni-leipzig.de) verfügbar.
 
 ## Aktuelle Arbeiten
 
+2018-06-02: Erste Arbeiten mit der REST-API.
+
 2018-01-28: Erweiterung um Datei `changes.php`, in der Änderungen an der
 Datenbasis "Nachhaltiges Leipzig" aufgearbeitet werden, die über
 Email-Notification ausgeliefert werden.

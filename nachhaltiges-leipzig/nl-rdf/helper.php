@@ -1,6 +1,23 @@
 <?php
 
-// require 'vendor/autoload.php';
+/* == REST-API ==
+
+Basis-URL: daten.nachhaltiges-leipzig.de
+
+API:
+    /api/v1/activities.json
+    /api/v1/activities/[id].json
+    /api/v1/categories.json
+    /api/v1/categories/[id].json
+    /api/v1/products.json
+    /api/v1/products/[id].json
+    /api/v1/trade_types.json
+    /api/v1/trade_categories.json
+    /api/v1/users.json
+    /api/v1/users/[id].json
+*/
+
+// ==== Weitere Hilfsfunktionen
 
 function addLiteral($a,$key,$value) {
     if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes(trim($value)).'"'; }
@@ -13,10 +30,15 @@ function addMLiteral($a,$key,$value) {
 }
 
 function addResource($a,$key,$prefix,$value) {
-    if (!empty($value)) { $a[]=" $key <".$prefix.$value.'>'; }
+    if (!empty($value)) { $a[]=" $key <".$prefix.trim($value).'>'; }
   return $a;
 }
 
+function addLiteralGroup($a,$key,$value) {
+    if (!empty($value)) {
+        $a[]=" $key ".'"'.join('", "', $value).'"'; }
+    return $a;
+}
 
 function TurtlePrefix() {
 return '
@@ -80,15 +102,24 @@ function fixURI($u) { // Umlaute und so'n Zeugs transformieren
   return $u;
 }
 
+function getWKT($a) {
+    if (empty($a)) { return ; }
+    return "Point($a[1] $a[0])";
+}
+
 function fixNameURI($u) { // Weitere Transformation für Namen
   $u=fixURI($u);
   $u=str_replace("-", "", $u);
+  $u=str_replace("Dr.", "", $u);
   return $u;
 }
 
 function fixOrgURI($u) { // Weitere Transformation für Organisationen
   $u=fixURI($u);
+  $u=str_replace("-", "", $u);
+  $u=str_replace("!", "", $u);
   $u=str_replace("e.V.", "", $u);
+  $u=str_replace("e.V", "", $u);
   $u=str_replace("GmbH", "", $u);
   $u=str_replace("undCo.oHG", "", $u);
   return $u;
@@ -102,26 +133,6 @@ function toRDFString($s) {
     return $s;
 }
 
-function createAdresse($row) {
-    $uri=getAddressURI($row);
-    $strasse=$row["address"];
-    if(empty($strasse)) { return ""; }
-    $plz=$row["zip"];
-    $stadt=$row["location"];
-    $gps_long=$row["longitude"];
-    $gps_lat=$row["latitude"];
-    $a=array();
-    if ($stadt=="Leipzig") { $a[]=' a ld:LeipzigerAdresse '; }
-    else { $a[]=' a ld:Adresse '; }
-    $a=addLiteral($a,'rdfs:label', "$stadt, $strasse");
-    $a=addLiteral($a,'ld:hasCity', $stadt);
-    $a=addLiteral($a,'ld:hasStreet', getStreet($strasse));
-    $a=addLiteral($a,'ld:hasPostCode', $plz);
-    $a=addLiteral($a,'ld:hasHouseNumber', getHouseNumber($strasse));
-    $a=addLiteral($a,'gsp:asWKT', "Point($gps_long $gps_lat)");
-    return '<http://leipzig-data.de/Data/'.$uri.'>'. join(" ;\n  ",$a) . " . \n\n" ;
-}
-
 function getStreet($s) {
     if(preg_match('/\d+/',$s)) { 
         return substr($s, 0, strrpos($s, " "));
@@ -131,21 +142,64 @@ function getStreet($s) {
 
 function getHouseNumber($s) {
     if(preg_match('/\d+/',$s)) { 
-        return substr($s, strrpos ($s, " ")+1);
+        return strtoupper(substr($s, strrpos ($s, " ")+1));
     }
     else { return "XX"; }
 }
 
-function getAddressURI($row) {
-    $strasse=$row["address"];
-    if(empty($strasse)) { return ""; }
+function proposeAddressURI($s) {
+    if (empty($s)) { return ; }
+    if ($s=="Marienweg, Leipzig") { return "04105.Leipzig.Marienweg.56"; }
+    preg_match("/(.*)\s*,\s*(\d+)\s*(.*)/",$s,$a);
+    $strasse=$a[1]; $plz=$a[2]; $stadt=$a[3];
     $strasse=getStreet($strasse).".".getHouseNumber($strasse);
-    $plz=$row["zip"];
-    $stadt=$row["location"];
     $out=fixURI("$plz.$stadt.$strasse");
-    $out=str_replace("Trebsen/Mulde", "Trebsen", $out);  
-    $out=str_replace("LuetznerStreet", "LuetznerStrasse", $out);  
-    $out=str_replace("Katharinenstrasse.21-23", "Katharinenstrasse.21", $out);  
-    $out=str_replace("R.-Becher", "R-Becher", $out);  
+    $out=str_replace("01455","04155",$out);
+    $out=str_replace("Strassedes17.Juni","Strassedes17Juni",$out);
+    $out=str_replace("Karl-Tauchnitz-Strasse.9-11","Karl-Tauchnitz-Strasse.9",$out);
+    $out=str_replace("Angerstrasse.40-42","Angerstrasse.40",$out);
+    $out=str_replace("04277.Leipzig.BornaischeStrasse.XX","04277.Leipzig.BornaischeStrasse.18",$out);
+    $out=str_replace("04277.Leipzig.Stockartstrasse.111","04277.Leipzig.Stockartstrasse.11",$out);
+    $out=str_replace("Dorotheenplatz.2-4","Dorotheenplatz.2",$out);
+    $out=str_replace("Johannes-R.-Becher-Strasse","Johannes-R-Becher-Strasse",$out);
+    $out=str_replace("Katharinenstrasse.21-23","Katharinenstrasse.21",$out);
+    $out=str_replace(".LuetznerStreet.75",".LuetznerStrasse.75",$out);
+    $out=str_replace("GrimmaischeStrasse.6-16","GrimmaischeStrasse.6",$out);
+    $out=str_replace("04155.Leipzig.GrillplatzMarienweg.XX","04105.Leipzig.Marienweg.56",$out);
+    $out=str_replace("04105.Leipzig.GrillplatzMarienweg.XX","04105.Leipzig.Marienweg.56",$out);
+    $out=str_replace("04668.Grimma.Taeubchenweg2,GutKoetz,inder.„RANGERSTATIONundQUOT;","04668.Grimma.Taeubchenweg.2",$out);
+    $out=str_replace("04107.Leipzig.StadtbibliothekamWilhelm-Leuschner-Platz.10/11","04107.Leipzig.Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("Wilhelm-Leuschner-Platz.10-11","Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("Martin-Luther-Ring.4-6","Martin-Luther-Ring.4",$out);
+    $out=str_replace("Richard-Wagner-Platz.XX","Richard-Wagner-Platz.1",$out);
+    $out=str_replace("04179.Leipzig.Rathenaustrasse.XX","04179.Leipzig.Rathenaustrasse.50",$out);
+    $out=str_replace("MarkranstaedterStrasse29.B","MarkranstaedterStrasse.29B",$out);
+    $out=str_replace("Wolfgang-Heinze-Strasse.XX","Wolfgang-Heinze-Strasse.34",$out);
+    $out=str_replace("Nikolaikirchhof.XX","Nikolaikirchhof.1",$out);
+    $out=str_replace("Markt.XX","Markt.1",$out);
+    $out=str_replace("Kolonnadenstrasse.XX","Kolonnadenstrasse.19",$out);
+    $out=str_replace("Basedowstrasse.XX","Wolfgang-Heinze-Strasse.34",$out);
+    $out=str_replace("Anton-Bruckner-Allee.XX","Anton-Bruckner-Allee.1",$out);
+    $out=str_replace("Naschmarkt.XX","Naschmarkt.1",$out);
+    $out=str_replace("Wilhelm-Leuschner-Platz.XX","Wilhelm-Leuschner-Platz.10",$out);
+    $out=str_replace("09648.MittweidaOTRingethal.Hauptstrasse.18","09648.Ringethal.Hauptstrasse.18",$out);
+    $out=str_replace("Trebsen/Mulde","Trebsen",$out);
+    $out=str_replace("DemmeringStrasse","Demmeringstrasse",$out);
+    $out=str_replace("04155.Leipzig.GohliserStrasse.6","04105.Leipzig.GohliserStrasse.6",$out);
+    $out=str_replace("","",$out);
+    $out=str_replace("","",$out);
+
     return $out;
 }
+
+/* Weitere Probleme:
+
+http://nachhaltiges-leipzig.de/Data/Akteur.6
+http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX 
+"Johann Simowitsch"
+
+http://nachhaltiges-leipzig.de/Data/Akteur.76 	
+http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX 	
+"Ackerwinde Gemüsegarten" 	
+
+*/
