@@ -777,19 +777,38 @@ optional { ?a rdfs:label ?al . }
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/> 
 PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
-SELECT distinct ?a ?b count(?c) as ?cc
+SELECT distinct ?a ?b count(?c) as ?cc ?v
 FROM <http://nachhaltiges-leipzig.de/Data/Changes/> 
+FROM <http://leipzig-data.de/Data/Vereine/> 
+FROM <http://leipzig-data.de/Data/Unternehmen/> 
+FROM <http://leipzig-data.de/Data/Orte/>  
+FROM <http://leipzig-data.de/Data/Projekte/> 
 WHERE {  
 ?u nl:User ?a; nl:Akteur ?b; nl:linksTo ?c . 
+optional { ?v owl:sameAs ?a . }
 }
-order by ?cc
+order by desc(?cc)
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/> 
-SELECT ?a ?b 
+PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
+SELECT distinct ?u ?b ?c
+FROM <http://nachhaltiges-leipzig.de/Data/Changes/> 
 WHERE {  
-?a rdfs:label ?b .
-filter regex(?b, "ÖkoLöwe", "i")
+?u nl:Akteur ?b; nl:Aktivitaet ?c . 
+# ?v rdfs:label ?l . filter regex(?l, ?b, "i") 
 }
+order by ?c
+
+
+
+
+
+b 	c 	v
+"about source UG" 	"deactivated" 	http://leipzig-data.de/Data/Firma/aboutsource
+"Kati Magyar" 	"deactivated" 	http://leipzig-data.de/Data/Firma/KatiMagyar
+"Zoo Leipzig GmbH" 	"registered" 	http://leipzig-data.de/Data/Firma/ZooLeipzig
+"heldenküche" 	"registered" 	http://leipzig-data.de/Data/Firma/Heldenkueche
+
 
 --------------------------------
 -- Abgleich mit Leipziger Ecken
