@@ -2,6 +2,7 @@
 *.log
 *.dvi
 *.bbl
+*.blg
 *.toc 
 blib/
 .build/
