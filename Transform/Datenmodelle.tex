@@ -4,7 +4,7 @@
 \parskip4pt
 \parindent0pt
 
-\title{Datenmodelle verschiedener Leipziger Plattformen.\\ Ein Vergleich} 
+\title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
 \date{Version vom 12. Oktober 2018}
 
@@ -56,7 +56,7 @@ Mit dieser Zusammenstellung wird ein erster Schritt in dieser Richtung zur
 Integration verschiedener Leipziger Plattformen gegangen.  Die Darstellungen
 und Vergleiche orientieren sich dabei am Datenmodell von Leipzig Data, da
 dieses von Anfang an unter dem Blcikwinkel der Interoperabilität entwickelt
-wurde.  Das Leipzig Data Datenmodell (LDD) wird im Abschnitt 2 genauer
+wurde.  Das Leipzig Data Datenmodell (LDD) wird im Abschnitt~2 genauer
 dargestellt. Für die anderen Portale werden die Datenmodelle in Relation zum
 LDD beschrieben.
 
@@ -77,7 +77,7 @@ verwendet.
 Die \emph{Leipziger Initiative für Offene Daten} ist angetreten, um die
 Bemühungen zur Etablierung Offener Daten als wesentlichen Teil einer sich
 entfaltenden Weblandschaft in der Leipziger Region voranzubringen.  Kern der
-Bemühungen ist die Etablierung von \emph{Leipzig Data} als einer signifikaten
+Bemühungen ist die Etablierung von \emph{Leipzig Data} als einer signifikanten
 Menge von Beschreibungen des „Leipziger Lebens”, die unter einer freien Lizenz
 in digital adressierbarer Form als Teil der \emph{Linked Open Data
   Cloud}\footnote{\url{http://lod-cloud.net/}.} öffentlich verfügbar sind.
@@ -134,7 +134,7 @@ Adressdaten, von denen über 63\,000 mit Geokoordinaten (Übernahme aus
 Nominatim mit anschließender weiterer Konsolidierung und Qualitätssicherung)
 versehen sind. Damit lassen sich auch ohne Dienste wie Google Maps Leipziger
 Orte an Geodaten binden und so auf Karten lokalisieren. Die höhere Qualität
-gegenüber eine reinen Referenzierung der Geokoordinaten etwa über die
+gegenüber einer reinen Referenzierung der Geokoordinaten etwa über die
 Google-API ergibt sich aus der vorgenommenen Disambiguierung, die etwa dem
 Unterschied zwischen der Verwendung von Rechneradressen und Rechnernamen
 entspricht, sowie der Möglichkeit, an diese Adress- oder Orts-URIs weitere
@@ -205,12 +205,6 @@ Ein \emph{Leipziger Ort} ist ein Ort mit einer \emph{Adresse} und einem
 \emph{Träger}, der ein genaueres \emph{Profil} hat und wo \emph{Events}
 veranstaltet werden.
 
-Neben dieser Art von Orten existieren auch Stellen in Leipzig, die einen
-gebräuchlichen Namen haben, aber nur durch Geokoordinaten referenzierbar sind,
-also zur Kategorie \emph{Treffpunkt} gehören. Dazu gehören Spielplätze, die
-aus Stadtdaten übernommen wurden, die im Rahmen der OK-Lab Initiative
-\texttt{codefor.de/leipzig} (Stand 2014) extrahiert hat.
-
 \paragraph{Prädikate:}
 \begin{itemize}\itemsep0pt
 \item dct:modified xsd:date – letzte Modifikation des Datensatzes
@@ -233,6 +227,14 @@ aus Stadtdaten übernommen wurden, die im Rahmen der OK-Lab Initiative
 \item Einordnungsliterale zu einer der städtischen Übersichten: ld:Categories,
   ld:hasStadtId
 \end{itemize}
+
+Neben dieser Art von Orten existieren auch Stellen in Leipzig, die einen
+gebräuchlichen Namen haben, aber nur durch Geokoordinaten referenzierbar sind,
+also zur Kategorie \emph{Treffpunkt} gehören. Dazu gehören \emph{Spielplätze},
+die aus Stadtdaten übernommen wurden, die im Rahmen der OK-Lab Initiative
+\texttt{codefor.de/leipzig} (Stand 2014) extrahiert hat, sowie
+\emph{Haltestellen} des Nahverkehrs, die aus Daten im Open Data Portal der
+Stadt Leipzig extrahiert wurden. 
 
 \paragraph{Akteure und Personen.} 
 Synonym wird auch der Begriff \emph{Träger} verwendet. \emph{Akteure} sind
@@ -274,10 +276,9 @@ Events Frameworks wurden in mehreren Beispielprojekten demonstriert.
 Der primäre Zugriff erfolgt über Sparql-Anfragen auf einen Sparql-Endpunkt, in
 dem die Event-Daten mit weiteren Daten über Veranstalter und
 Veranstaltungsorte angereichert und zusammengeführt sind.  Das derzeit
-vorliegende einheitliche Format (aka Protokoll) als Ergebnis eines längeren
-Entwicklungsprozesses ist weiter unten genauer beschrieben. Fragen der
-Weiterentwicklung des Protokolls sind zwischen interessierten Partnern noch
-genauer abzustimmen.
+vorliegende einheitliche Format (aka Protokoll) ist das Ergebnis eines
+längeren Entwicklungsprozesses. Fragen der Weiterentwicklung des Protokolls
+sind zwischen interessierten Partnern noch genauer abzustimmen.
 
 \paragraph{Prädikate:}
 \begin{itemize}\itemsep0pt
@@ -325,7 +326,7 @@ immer Leipzig), \texttt{strasse}, \texttt{nr}, \texttt{adresszusatz},
 die Instanzen also nicht ganz identisch mit \texttt{ld:LeipzigerAdresse}. Im
 Transformationsskript werden daraus (syntaktisch korrekte Vorschläge für)
 Instanzen von \texttt{ld:LeipzigerAdresse} generiert.  Der Verweis auf den
-Ortsteil ist redundant, da aus einer LDD Liepziger Adresse der zugehörige
+Ortsteil ist redundant, da aus einer LDD Leipziger Adresse der zugehörige
 Ortsteil ermittelt werden kann. 
 
 \paragraph{Akteure.}
@@ -425,7 +426,7 @@ Datenschutzgründen nur intern verwendet) grundsätzlich die Struktur
 \paragraph{Akteure.}
 In der Collection \texttt{users} (Akteure) sind Informationen über Akteure
 zusammengefasst, wobei nicht zwischen den juristischen Personen und den für
-diese agierenden personellen Verantwortlichen unterschieden wird. 
+diese agierenden Personen unterschieden wird. 
 
 Prädikate in users.json:
 \begin{itemize}\itemsep0pt
@@ -489,15 +490,16 @@ Prädikate in activities.json:
 
 Auf dieser Basis sind folgende Transformationen nach LDD möglich:
 \begin{itemize}\raggedright
-\item \texttt{full\_address} als \texttt{ld:proposedAddress} in eine
-  syntaktisch korrekte URI einer \texttt{ld:LeipzigerAdresse}
-\item \texttt{latlng} in eine \texttt{gsp:asWKT} Geo-Adresse.
+\item \texttt{full\_address} kann als \texttt{ld:proposedAddress} in eine
+  syntaktisch korrekte URI einer \texttt{ld:LeipzigerAdresse} transformiert
+  werden. 
+\item \texttt{latlng} kann in eine \texttt{gsp:asWKT} Geo-Adresse
+  transformiert werden.
 \end{itemize}
 
 \paragraph{Weitere Teile der Modellierung.}
 Diese sind noch wenig ausgearbeitet und enthalten oft nur wenige Instanzen pro
-Klasse. Die entsprechenden JSON-Dateien sind zu Referenzzwecken im Verzeichnis
-Daten gespeichert.
+Klasse. 
 \begin{itemize}\itemsep0pt
 \item \texttt{categories} repräsentiert eine baumartige Struktur verschiedener
   Tags, die einzelnen Aktivitäten zugewiesen sind.
