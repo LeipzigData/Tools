@@ -44,9 +44,6 @@ where {
   ?a a org:OrganizationalUnit; ?b ?c . 
 } 
 
-3079 Tripel
-Extrahiert in units.ttl.
-
 PREFIX org: <http://www.w3.org/ns/org#> 
 PREFIX bwd: <https://opendata.leipzig.de/behoerdenwegweiser/data/>
 PREFIX bws: <https://opendata.leipzig.de/behoerdenwegweiser/schema/>
@@ -55,8 +52,6 @@ where {
   ?a a org:Site; ?b ?c . 
 } 
 
-Extrahiert in sites.ttl.
-
 PREFIX org: <http://www.w3.org/ns/org#> 
 PREFIX bwd: <https://opendata.leipzig.de/behoerdenwegweiser/data/>
 PREFIX bws: <https://opendata.leipzig.de/behoerdenwegweiser/schema/>
@@ -64,8 +59,6 @@ construct { ?a ?b ?c . }
 where {
   ?a a bws:Entry; ?b ?c . 
 } 
-
-Extrahiert in entries.ttl.
 
 Prädikate:
 
