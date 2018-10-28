@@ -512,4 +512,258 @@ Klasse.
   Crossreferenz-Tabellen zugewiesen sind.
 \end{itemize}
 
+\section{Gebäudenavigator}
+
+\subsection{Hintergrund}
+Im Rahmen der Zusammenarbeit mit dem Behindertenverband Leipzig e.V. hat Konrad
+Abcht vom AKSW-Team einen
+Gebäudenavigator\footnote{\url{http://leipzig-data.de/anwendungen/gebaudenavigator/}}
+entwickelt, in welchem die behindertengerechte Ausstattung von etwa 1800
+Leipziger Orten hinterlegt ist.
+
+Datenbasis ist eine vom BVL gepflegte Datenbank mit Informationen über 2600
+öffentliche Gebäude und Plätze in Leipzig. Jedes Gebäude und jeder Platz wurde
+nach der Eignung für Menschen mit Mobilitätseinschränkungen klassifiziert. Es
+wurden jedoch nicht nur Angaben zur Mobilität gemacht, sondern auch
+Informationen über viele andere Zugangshilfen hinterlegt. Für Menschen mit
+Sinnesbeeinträchtigungen (blind, gehörlos) gibt es, falls vorhanden, genaue
+Beschreibungen der Angebote vor Ort.
+
+Die Datenbasis (Instanzdaten) ist im Open Data Portal der Stadt Leipzig im RDF
+Graphen \url{https://opendata.leipzig.de/bvlplaces/} zugänglich.  Es wird der
+Namensraum \url{https://places.behindertenverband-leipzig.de/} verwendet und
+die Instanzdaten unter der jeweiligen Adresse RDF-konform menschenlesbar
+dargestellt. 
+
+\subsection{Datenmodell}
+
+Alle Instanzen gehören zur Klasse \texttt{bvlo:Place}.  Neben den bekannten
+Ontologien (rdf, dc, schema, skos, dbpedia-owl, geo) sowie der weniger bekannten
+„Wheelchair Accessibility“ Ontologie 
+\begin{quote}\tt
+  swa: <http://semweb.mmlab.be/ns/wa\#>
+\end{quote}
+werden zwei eigene Ontologien entwickelt
+\begin{quote}\tt 
+  bvlo: <https://github.com/AKSW/leds-asp-f-ontologies/raw/master\\/ontologies/place/ontology.ttl\#>\\
+  bvla: <https://github.com/AKSW/leds-asp-f-ontologies/raw/master\\/ontologies/place-accessibility/ontology.ttl\#>
+\end{quote}
+Die geo-Ontologie wird inkorrekt angewendet.
+
+Aus den drei Prädikaten \texttt{schema:addressLocality} (Ort),
+\texttt{schema:postalCode} (PLZ) und \texttt{schema:streetAddress} (Straße und
+Hausnummer) lässt sich für viele Instanzen ein Mapping auf
+\texttt{ld:LeipzigerAdresse} konstruieren.
+
+Die Prädikate sind oft selbsterklärend, da „sprechende Namen“ verwendet werden:
+\begin{itemize}\itemsep0pt
+\item rdf:type, dc:title, dc:identifier, dbpedia-owl:category, skos:note
+\item Adressinformationen: schema:addressLocality, schema:postalCode,\\ schema:streetAddress, geo:lat, geo:long
+\item schema:email, schema:WebSite, schema:faxNumber, schema:telephone
+\item swa:toiletDoorWidth
+\item swa:elevatorDoorWidth
+\item swa:elevatorSpaceDepth
+\item swa:elevatorSpaceWidth
+\item swa:entranceDoorWidth
+\item bvla:altEntranceForWheelchairUserExisting
+\item bvla:elevatorAvailable
+\item bvla:elevatorSuitableForWheelchairs
+\item bvla:entranceSuitableForWheelchairs
+\item bvla:localSupport
+\item bvla:locationAltEntranceForWheelchairUser
+\item bvla:markedWithPictogramAsDisabledToilet
+\item bvla:numberOfSlotsDisabledParkingLotInFrontOfPlace
+\item bvla:numberOfSlotsDisabledParkingLotOnSite
+\item bvla:numberOfStepsTillElevator
+\item bvla:stepsTillElevatorInPlaceAvailable
+\item bvla:supportForHearingImpairedAvailable
+\item bvla:supportForVisuallyImpairedAvailable
+\item bvla:toiletSuitableForWheelchairs
+\item bvlo:areaInFrontOfWCDepthCm
+\item bvlo:areaInFrontOfWCWidthCm
+\item bvlo:areaLeftOfWCDepthCm
+\item bvlo:areaLeftOfWCWidthCm
+\item bvlo:areaRightOfWCDepthCm
+\item bvlo:areaRightOfWCWidthCm
+\item bvlo:category
+\item bvlo:contactPersonName
+\item bvlo:contactPersonPhone
+\item bvlo:dateOfLatestInterview
+\item bvlo:distanceFromGroundEmergencyBellInsideToiletCabin
+\item bvlo:elevatorCabineDistanceFromGroundHeighestButtonCm
+\item bvlo:elevatorOutsideDistanceFromGroundHeighestButtonCm
+\item bvlo:elevatorTurningCircleExit
+\item bvlo:emergencyBellInsideToiletCabinAvailable
+\item bvlo:entranceBellAvailable
+\item bvlo:entranceBellHeightOfHeighestButtonCm
+\item bvlo:entranceBellWithIntercomAvailable
+\item bvlo:entranceContinuousHandrailLeftAvailable
+\item bvlo:entranceContinuousHandrailRightAvailable
+\item bvlo:entranceDoorType
+\item bvlo:entranceLocationOfTheBell
+\item bvlo:entranceRampAvailable
+\item bvlo:entranceRampContinuousHandrailLeftAvailable
+\item bvlo:entranceRampContinuousHandrailRightAvailable
+\item bvlo:entranceRampGradient
+\item bvlo:entranceRampHeightCm
+\item bvlo:entranceRampLengthCm
+\item bvlo:entranceRampStartEndColorized
+\item bvlo:entranceRampWidthCm
+\item bvlo:heightOfAStepTillEntrance
+\item bvlo:intervieweeName
+\item bvlo:locationOfElevatorMaintainer
+\item bvlo:locationParkingLotOnSite
+\item bvlo:numberOfStepsTillEntrance
+\item bvlo:numberOfStepsTillToiletInPlace
+\item bvlo:openingHours
+\item bvlo:parkingLotOnSiteAvailable
+\item bvlo:publiclyAvailable
+\item bvlo:stepsHeightTillToiletInPlace
+\item bvlo:stepsTillEntranceAvailable
+\item bvlo:stepsTillEntranceFirstLastColorized
+\item bvlo:stepsTillToiletContinuousHandrailLeftAvailable
+\item bvlo:stepsTillToiletContinuousHandrailRightAvailable
+\item bvlo:stepsTillToiletFirstLastColorized
+\item bvlo:stepsTillToiletInPlaceAvailable
+\item bvlo:toiletAvailable
+\item bvlo:toiletDoorUnlockableFromOutside
+\item bvlo:toiletLeftSupportHandleIsFoldable
+\item bvlo:toiletRightSupportHandleIsFoldable
+\item bvlo:toiletSupportHandleAvailable
+\item bvlo:toiletVanityBasinFittingActivation
+\end{itemize}
+
+\section{MINT-Orte}
+
+\subsection{Hintergrund}
+Während die Grundausrichtung des Leipzig Data Projekts auf den Aufbau von White
+Pages bzw. Yellow Pages zu Akteuren, Orten und Adressen orientiert ist, wurde
+zu verschiedenen Zeiten auch mit Möglichkeiten einer genaueren Darstellung von
+Akteuren und deren Aktivitäten experimentiert.
+
+Im Zuge eines dieser Experimente wurde der 2014 in Printform von der Stadt
+Leipzig herausgegebene „Katalog der MINT- und Umweltangebote“ in eine digitale
+Form übertragen. In diesem Katalog sind entsprechende Akteure und
+außerschulische Lernorte zusammen mit einer Auswahl von Angeboten gelistet.
+
+Die Arbeiten wurden im Rahmen eines studentischen Projekts
+ausgeführt\footnote{\url{http://leipzig-data.de/ontology/mintbroschuere/}}, in
+welchem die Daten nicht nur als RDF digitalisiert, sondern diese auch noch mit
+weiteren Informationen aus eigener Recherche (Fotografien der einzelnen
+Objekte) angereichert wurden. Die Daten sind in der Turtle-Datei
+\url{http://leipzig-data.de/RDFData/MINTBroschuere2014.ttl} zusammengefasst.
+
+\subsection{Datenmodell}
+
+Das Datenmodell umfasst drei Klassen \texttt{mint2014:Ortsbeschreibung},
+\texttt{mint2014:Angebot} und \texttt{mint2014:Schwerpunkt}, mit denen eine
+genauere Beschreibung der einzelnen Orte, der dort vorgehaltenen Angebote sowie
+die Zuordnung dieser zu Schwerpunkten entsprechend der Methodik der
+vorliegenden städtischen Broschüre umgesetzt wird.  Die Zuordnung zu Instanzen
+vom Typ \texttt{ld:Ort} erfolgt durch ein Prädikat \texttt{mint2014:describes}
+
+\paragraph{mint2014:Ortsbeschreibung – Beschreibung eines MINT-Orts}
+\begin{itemize}\itemsep0pt
+\item rdfs:label Literal – Bezeichnung
+\item  mint2014:Kurzinformation Literal – Kurzinformation
+\item  mint2014:Leistungsangebot Literal – Leistungsangebot
+\item  mint2014:Oeffnungszeiten Literal – Öffnungszeiten
+\item  mint2014:OePNV-Anbindung Literal – ÖPNV-Anbindung
+\item  mint2014:Telefon Literal – Telefon
+\item  mint2014:Fax Literal – Fay
+\item  mint2014:Mail Literal – Email
+\item  mint2014:Internet Literal  Webseite
+\item  mint2014:hasTag ld:Tag – verschiedene Tags
+\item  mint2014:hasImage Literal – Dateiname eines Fotos
+\item  mint2014:hasLogo Literal – Dateiname des Logos
+\item  mint2014:describes ld:Ort – MINT-Ort als Leipzig Data Ort
+\end{itemize}
+\paragraph{mint2014:Angebot – MINT-Angebot eines MINT-Orts}
+\begin{itemize}\itemsep0pt
+\item ld:Lernziele Literal – Lernziele des Angebots
+\item ld:Zielgruppen Literal – Zielgruppen
+\item ld:Kosten Literal – Kosten
+\item ld:Veranstaltungsort Literal – Adresse – in LD.Adresse zu verwandeln
+\item ld:Hinweise Literal – Hinweise zum Angebot
+\item ld:Laufzeit Literal – Laufzeit des Angebots
+\item ld:relatedBundle mint2014:Ortsbeschreibung – MINT-Ort, welcher das
+  Angebot verantwortet
+\item mint2014:hasTag ld:Tag – verschiedene Tags
+\item rdfs:label Literal – Bezeichnung des Angebots
+\end{itemize}
+\paragraph{mint2014:Schwerpunkt – MINT-Schwerpunkt}
+\begin{itemize}\itemsep0pt
+\item ld:Zielgruppen Literal – Zielgruppe des Schwerpunkts
+\item ld:Kosten Literal – Kosten
+\item ld:GTA Literal – als Ganztagsangebot nutzbar?
+\item ld:relatedBundle mint2014:Ortsbeschreibung – Schwerpunkt welches
+  MINT-Orts
+\item rdfs:label Literal – Bezeichnung des Schwerpunkts
+\end{itemize}
+
+\section{Jugendstadtplan}
+
+\subsection{Hintergrund}
+Mit ähnlicher Motivation wie im Teilprojekt „MINT-Orte“ wurde bereits 2013 im
+Vorfeld der in Leipzig stattfindenden „World Skills“ an einem Jugendtsdtplan
+gearbeitet. 
+
+Die Arbeiten wurden im Rahmen eines studentischen Projekts
+ausgeführt\footnote{\url{http://leipzig-data.de/jugendstadtplan/}}, in welchem
+eine entsprechende Datenbasis aufgebaut wurde. Die Daten wurden 2013 von einer
+studentischen Projektgruppe gesammelt. Die Informationen sind in vielen Fällen
+in Englisch und Deutsch vorhanden. Die Daten sind in der
+Turtle-Datei \url{http://leipzig-data.de/RDFData/Jugendstadtplan.ttl}
+zusammengefasst.
+
+\subsection{Datenmodell}
+In diesem Projekt wurde eine größere Hierarchie von Klassen aufgebaut, um so
+Zusammenhänge zu modellieren, die in späteren Ansätzen als Tags oder
+Eigenschaften modelliert wurden.
+
+Zentrale Klasse ist \texttt{jsp:Ort}, die 142 Instanzen von Einrichtungen in
+Leipzig beschreibt, die für Jugendliche interessant sind.  Dies entspricht
+einer Ortsbeschreibung, allerdings mit einer eigenen Ontologie. Über das
+Prädikat \texttt{jsp:describes} sind die Orte zu Instanzen von Typ
+\texttt{ld:Ort} relatiert und damit in die restliche Welt des Leipzig Data
+Projekt eingebunden.  Als Namenspräfix wird (bis auf aktuell zwei Ausnahmen --
+das ist zu fixen) 
+\begin{center}
+  \texttt{http://leipzig-data.de/Data/Jugendstadtplan/Ort/}
+\end{center}
+verwendet.
+
+\paragraph{Prädikate von jsp:Ort}
+\begin{itemize}
+\item rdfs:label, foaf:homepage, jsp:describes
+\item jsp:AccessibilityComment
+\item jsp:Altersbeschraenkung
+\item jsp:Ambiente
+\item jsp:Angebot
+\item jsp:Anmeldung
+\item jsp:Kostentyp
+\item jsp:Musikrichtung
+\item jsp:Rauchmoeglichkeit
+\item jsp:Religioeser\_Ort
+\item jsp:Type
+\item jsp:Unterpunkt
+\item jsp:hasAccessibility
+\item jsp:hasArt
+\item jsp:hasCost
+\item jsp:hasEquipment
+\item jsp:hasFreeTag
+\item jsp:hasInstitutionType
+\item jsp:hasIrregularOpeningHours
+\item jsp:hasOpeningHours
+\item jsp:hasUnterpunkt
+\item jsp:hascategory
+\item jsp:hasdescription
+\item jsp:isType
+\item jsp:suppliedBy
+\item jsp:Untergruppe
+\end{itemize}
+
+Die weitere Struktur ist noch genauer zu beschreiben. 
+
+
 \end{document}
