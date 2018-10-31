@@ -67,7 +67,7 @@ RDF-Klassen nl:Akteur und foaf:Person auch in verschiedenen RDF-Graphen
 erfasst.  *akteure.php* stellt Routinen für gesonderte Dumps der Akteure und
 der Personen zur Verfügung.
 
-Prädikate in users.json:
+### Prädikate in users.json:
 
 * id => String
 * name => String
@@ -89,7 +89,7 @@ verschiedenen Typen von Aktivitäten zusammengefasst, wobei nicht alle Prädikat
 bei allen Untertypen verwendet werden. Das ist noch genauer zu analysieren.
 Leere Prädikate werden bei den RDF-Dumps nicht berücksichtigt.
 
-Prädikate in activities.json:
+### Prädikate in activities.json:
 
 * id => String
 * type => String  (Typ der Aktivität)
@@ -117,6 +117,63 @@ Prädikate in activities.json:
 * service_type => String
 * target_group_selection => String
 * duration => String
+* products => Array
+* trade_categories => Array
+* trade_types => Array
+
+### Nach Datensatztypen:
+
+Generisch:
+* id => String
+* type => String
+* user_id => String
+* name => String
+* description => String
+* latlng => Array
+* district => String (deprecated)
+* full_address => String
+* is_fallback_address => String (was das auch immer ist)
+* info_url => String
+* video_url => String
+* image_url => String
+
+Action:
+* start_at => String
+* categories => Array
+* first_root_category => String
+
+Event:
+* start_at => String
+* end_at => String
+* target_group => String
+* costs => String
+* requirements => String
+* speaker => String
+* categories => Array
+* first_root_category => String
+
+Project:
+* short_description => String
+* goals => Array
+* property_list => Array
+* categories => Array
+* first_root_category => String
+
+Service:
+* short_description => String
+* service_type => String
+* target_group_selection => String
+* target_group => String
+* duration => String
+* costs => String
+* requirements => String
+* goals => Array
+* categories => Array
+* first_root_category => String
+
+Store:
+* short_description => String
+* property_list => Array
 * products => Array
 * trade_categories => Array
 * trade_types => Array

@@ -6,7 +6,7 @@
 
 \title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
-\date{Version vom 28. Oktober 2018}
+\date{Version vom 30. Oktober 2018}
 
 \begin{document}
 \maketitle
@@ -411,9 +411,17 @@ Mit dem Transformationsskript wird versucht, diese Informationen in die Teile
 \texttt{org:Organization} (Akteure), \texttt{foaf:Person} (Personen) und
 \texttt{org:Membership} (Rolle dieser Person beim Akteur) aufzuteilen. 
 
-Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen \texttt{Event},
-\texttt{Action}, \texttt{Project}, \texttt{Service} und \texttt{Store} im
-Sinne einer einfachen zweistufigen Vererbungshierarchie.
+Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen („Datensatztypen“ in
+der NL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
+\texttt{Service} und \texttt{Store} im Sinne einer einfachen zweistufigen
+Vererbungshierarchie.  Diese Typen sind Aktivitäts-Instanzen über ein Prädikat
+\texttt{type} zugeordnet. Die Zahl der Typen kann also innerhalb der
+vorliegenden zweistufigen Vererbungshierarchie einfach linear erweitert werden.
+
+In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) wird weiter
+ein Datensatztyp „Angebot“ erwähnt, der in zwei Teile „Beratungsangebot“ und
+„Bildungsangebot“ aufgespalten werden soll. Weiter soll ein Typ „Ressource“
+hinzugefügt werden. 
 
 Zur Unterscheidung der Instanzen werden numerische Primärschlüssel der
 Datenbank verwendet. In den Transformationsskripten werden lokale URIs direkt
@@ -422,6 +430,9 @@ Daten dem Namensschema von Leipzig Data folgen, die Informationen werden aus
 Datenschutzgründen nur intern verwendet) grundsätzlich die Struktur
 \texttt{<Präfix>/<Typ>.<Id>} mit \texttt{<Typ>}$\in \{\texttt{Person},
 \texttt{Akteur}, \texttt{Activity}\}$.
+
+In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) soll eine
+weitere Klasse \emph{Orte} ergänzt werden.  
 
 \paragraph{Akteure.}
 In der Collection \texttt{users} (Akteure) sind Informationen über Akteure
@@ -452,23 +463,34 @@ Prädikate in users.json:
 \texttt{nl:hasType} näher spezifiziert werden.  In der Collection
 \texttt{activities} sind Informationen über die verschiedenen Typen von
 Aktivitäten zusammengefasst, wobei nicht alle Prädikate bei allen Untertypen
-verwendet werden. Das ist noch genauer zu analysieren.  Leere Prädikate werden
-bei den RDF-Dumps nicht berücksichtigt.
+verwendet werden. Leere Prädikate werden bei den RDF-Dumps nicht
+berücksichtigt.
 
-Prädikate in activities.json:
+Generische Prädikate:
 \begin{itemize}\itemsep0pt
   \item id -- String
   \item type -- String (Typ der Aktivität)
   \item user\_id -- String (Id des beteiligten Akteurs)
   \item name -- String
-  \item latlng -- Array
   \item description -- String
-  \item district -- String
+  \item district -- String (deprecated)
   \item full\_address -- String
-  \item is\_fallback\_address -- String
+  \item latlng -- Array
+  \item is\_fallback\_address -- String (Boolescher Wert, Bedeutung unklar)
   \item info\_url -- String
   \item video\_url -- String
   \item image\_url -- String
+\end{itemize}
+
+Weitere Prädikate für Actions:
+\begin{itemize}\itemsep0pt
+  \item start\_at -- String
+  \item categories -- Array
+  \item first\_root\_category -- String
+\end{itemize}
+
+Weitere Prädikate für Events:
+\begin{itemize}\itemsep0pt
   \item start\_at -- String
   \item end\_at -- String
   \item target\_group -- String
@@ -477,12 +499,35 @@ Prädikate in activities.json:
   \item speaker -- String
   \item categories -- Array
   \item first\_root\_category -- String
+\end{itemize}
+
+Weitere Prädikate für Projects:
+\begin{itemize}\itemsep0pt
+  \item categories -- Array
+  \item first\_root\_category -- String
   \item short\_description -- String
   \item goals -- Array
   \item property\_list -- Array
+\end{itemize}
+
+Weitere Prädikate für Services:
+\begin{itemize}\itemsep0pt
+  \item target\_group -- String
+  \item costs -- String
+  \item requirements -- String
+  \item categories -- Array
+  \item first\_root\_category -- String
+  \item short\_description -- String
+  \item goals -- Array
   \item service\_type -- String
   \item target\_group\_selection -- String
   \item duration -- String
+\end{itemize}
+
+Weitere Prädikate für Store:
+\begin{itemize}\itemsep0pt
+  \item short\_description -- String
+  \item property\_list -- Array
   \item products -- Array
   \item trade\_categories -- Array
   \item trade\_types -- Array
@@ -502,15 +547,19 @@ Diese sind noch wenig ausgearbeitet und enthalten oft nur wenige Instanzen pro
 Klasse. 
 \begin{itemize}\itemsep0pt
 \item \texttt{categories} repräsentiert eine baumartige Struktur verschiedener
-  Tags, die einzelnen Aktivitäten zugewiesen sind.
-\item \texttt{goals} repräsentiert eine geordnete Liste verschiedener Tags,
-  die einzelnen Aktivitäten zugewiesen sind.
+  Tags, die einzelnen Aktivitäten zugewiesen sind.  Diese Struktur wird zur
+  Menüführung verwendet. 
+\item \texttt{goals} repräsentiert eine geordnete Liste verschiedener Tags, die
+  einzelnen Aktivitäten zugewiesen sind. Das ist als Tagwolke modelliert, kann
+  aber -- mit Blick auf die Datenqualität -- nur von einem Administrator
+  erweitert werden.
 \item \texttt{products} repräsentiert eine Liste verschiedener
   Produktkategorien, die einzelnen Stores zugewiesen sind.
 \item \texttt{trade\_types} und \texttt{trade\_categories} repräsentieren zwei
   geordnete Listen verschiedener Tags, die einzelnen Akteuren über 
   Crossreferenz-Tabellen zugewiesen sind.
 \end{itemize}
+\newpage
 
 \section{Gebäudenavigator}
 
@@ -538,17 +587,13 @@ dargestellt.
 \subsection{Datenmodell}
 
 Alle Instanzen gehören zur Klasse \texttt{bvlo:Place}.  Neben den bekannten
-Ontologien (rdf, dc, schema, skos, dbpedia-owl, geo) sowie der weniger bekannten
-„Wheelchair Accessibility“ Ontologie 
+Ontologien (rdf, dc, dcterm, schema, skos, dbpedia-owl, geo) sowie der weniger
+bekannten „Wheelchair Accessibility“ Ontologie
 \begin{quote}\tt
   swa: <http://semweb.mmlab.be/ns/wa\#>
 \end{quote}
-werden zwei eigene Ontologien entwickelt
-\begin{quote}\tt 
-  bvlo: <https://github.com/AKSW/leds-asp-f-ontologies/raw/master\\/ontologies/place/ontology.ttl\#>\\
-  bvla: <https://github.com/AKSW/leds-asp-f-ontologies/raw/master\\/ontologies/place-accessibility/ontology.ttl\#>
-\end{quote}
-Die geo-Ontologie wird inkorrekt angewendet.
+werden zwei eigene Ontologien \texttt{bvlo} und \texttt{bvla} entwickelt, um
+die Zugänglichkeit der Places genauer zu beschreiben.
 
 Aus den drei Prädikaten \texttt{schema:addressLocality} (Ort),
 \texttt{schema:postalCode} (PLZ) und \texttt{schema:streetAddress} (Straße und
@@ -557,81 +602,18 @@ Hausnummer) lässt sich für viele Instanzen ein Mapping auf
 
 Die Prädikate sind oft selbsterklärend, da „sprechende Namen“ verwendet werden:
 \begin{itemize}\itemsep0pt
-\item rdf:type, dc:title, dc:identifier, dbpedia-owl:category, skos:note
-\item Adressinformationen: schema:addressLocality, schema:postalCode,\\ schema:streetAddress, geo:lat, geo:long
-\item schema:email, schema:WebSite, schema:faxNumber, schema:telephone
-\item swa:toiletDoorWidth
-\item swa:elevatorDoorWidth
-\item swa:elevatorSpaceDepth
-\item swa:elevatorSpaceWidth
-\item swa:entranceDoorWidth
-\item bvla:altEntranceForWheelchairUserExisting
-\item bvla:elevatorAvailable
-\item bvla:elevatorSuitableForWheelchairs
-\item bvla:entranceSuitableForWheelchairs
-\item bvla:localSupport
-\item bvla:locationAltEntranceForWheelchairUser
-\item bvla:markedWithPictogramAsDisabledToilet
-\item bvla:numberOfSlotsDisabledParkingLotInFrontOfPlace
-\item bvla:numberOfSlotsDisabledParkingLotOnSite
-\item bvla:numberOfStepsTillElevator
-\item bvla:stepsTillElevatorInPlaceAvailable
-\item bvla:supportForHearingImpairedAvailable
-\item bvla:supportForVisuallyImpairedAvailable
-\item bvla:toiletSuitableForWheelchairs
-\item bvlo:areaInFrontOfWCDepthCm
-\item bvlo:areaInFrontOfWCWidthCm
-\item bvlo:areaLeftOfWCDepthCm
-\item bvlo:areaLeftOfWCWidthCm
-\item bvlo:areaRightOfWCDepthCm
-\item bvlo:areaRightOfWCWidthCm
-\item bvlo:category
-\item bvlo:contactPersonName
-\item bvlo:contactPersonPhone
-\item bvlo:dateOfLatestInterview
-\item bvlo:distanceFromGroundEmergencyBellInsideToiletCabin
-\item bvlo:elevatorCabineDistanceFromGroundHeighestButtonCm
-\item bvlo:elevatorOutsideDistanceFromGroundHeighestButtonCm
-\item bvlo:elevatorTurningCircleExit
-\item bvlo:emergencyBellInsideToiletCabinAvailable
-\item bvlo:entranceBellAvailable
-\item bvlo:entranceBellHeightOfHeighestButtonCm
-\item bvlo:entranceBellWithIntercomAvailable
-\item bvlo:entranceContinuousHandrailLeftAvailable
-\item bvlo:entranceContinuousHandrailRightAvailable
-\item bvlo:entranceDoorType
-\item bvlo:entranceLocationOfTheBell
-\item bvlo:entranceRampAvailable
-\item bvlo:entranceRampContinuousHandrailLeftAvailable
-\item bvlo:entranceRampContinuousHandrailRightAvailable
-\item bvlo:entranceRampGradient
-\item bvlo:entranceRampHeightCm
-\item bvlo:entranceRampLengthCm
-\item bvlo:entranceRampStartEndColorized
-\item bvlo:entranceRampWidthCm
-\item bvlo:heightOfAStepTillEntrance
-\item bvlo:intervieweeName
-\item bvlo:locationOfElevatorMaintainer
-\item bvlo:locationParkingLotOnSite
-\item bvlo:numberOfStepsTillEntrance
-\item bvlo:numberOfStepsTillToiletInPlace
-\item bvlo:openingHours
-\item bvlo:parkingLotOnSiteAvailable
-\item bvlo:publiclyAvailable
-\item bvlo:stepsHeightTillToiletInPlace
-\item bvlo:stepsTillEntranceAvailable
-\item bvlo:stepsTillEntranceFirstLastColorized
-\item bvlo:stepsTillToiletContinuousHandrailLeftAvailable
-\item bvlo:stepsTillToiletContinuousHandrailRightAvailable
-\item bvlo:stepsTillToiletFirstLastColorized
-\item bvlo:stepsTillToiletInPlaceAvailable
-\item bvlo:toiletAvailable
-\item bvlo:toiletDoorUnlockableFromOutside
-\item bvlo:toiletLeftSupportHandleIsFoldable
-\item bvlo:toiletRightSupportHandleIsFoldable
-\item bvlo:toiletSupportHandleAvailable
-\item bvlo:toiletVanityBasinFittingActivation
+\item rdf:type, dc:title (rdfs:label), dcterms:identifier (ID des Datensatzes)
+\item dbpedia-owl:category -- Zuordnung zu einer Dbpedia Kategorie, hier als
+  Literal 
+\item skos:note -- genauere Aufzeichnungen zur Historie des Datensatzes
+\item Adressinformationen: schema:addressLocality,
+  schema:postalCode,\\ schema:streetAddress, geo:lat, geo:long
+\item Weitere Informationen zum Betreiber: schema:email, schema:WebSite,\\
+  schema:faxNumber, schema:telephone
 \end{itemize}
+Jeder solche \texttt{bvlo:Place} wird dann umfassend bzgl. der Zugangsparameter
+auf der Basis der drei Ontologien swa, bvla und bvlo beschrieben.
+\newpage
 
 \section{MINT-Orte}
 
@@ -700,6 +682,7 @@ vom Typ \texttt{ld:Ort} erfolgt durch ein Prädikat \texttt{mint2014:describes}
   MINT-Orts
 \item rdfs:label Literal – Bezeichnung des Schwerpunkts
 \end{itemize}
+\newpage
 
 \section{Jugendstadtplan}
 
@@ -764,7 +747,7 @@ verwendet.
 \end{itemize}
 
 Die weitere Struktur ist noch genauer zu beschreiben. 
-
+\newpage
 
 \section{Afeefa}
 

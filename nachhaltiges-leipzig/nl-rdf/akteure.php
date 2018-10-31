@@ -105,8 +105,45 @@ function createLDAkteur($row) {
         '<http://leipzig-data.de/Data/Akteur/'.$uri.'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
 
+function getAkteursOrte() {
+    $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
+    // $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    $out=''; // print_r($res);
+    foreach ($res as $row) {
+        $out.=createAkteursOrt($row);
+    }
+  
+    return TurtlePrefix().'
+<http://nachhaltiges-leipzig.de/Data/NL-Akteure/> a owl:Ontology ;
+    rdfs:comment "Dump aus der Datenbank";
+    dct:created "2018-10-30" ; 
+    rdfs:label "Nachhaltiges Leipzig - Akteursorte zum Abgleich mit leipzig-data.de" .
+
+'.$out;
+
+}
+
+function createAkteursOrt($row) {
+    $id=$row['id'];
+    $uri=fixOrgURI($row['name']);
+    $b=array(); 
+    $b[]=' a nl:Ort '; 
+    $b=addLiteral($b,'nl:hasFullAddress', $row['full_address']);
+    $b=addResource($b,'ld:proposedAddress', "http://leipzig-data.de/Data/",
+    proposeAddressURI($row['full_address']));
+    $b=addResource($b,'ld:hasSupplier', "http://nachhaltiges-leipzig.de/Data/Akteur.",$id);
+    $b=addLiteral($b,'rdfs:label', $row['name']);
+    $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
+    $b=addLiteral($b,"dct:modified","2018-10-30");
+    return
+        '<http://leipzig-data.de/Data/Ort/'.$uri.'>'. join(" ;\n  ",$b) . " . \n\n" ;
+}
+
 // zum Testen
-echo getAkteure();
+echo getAkteursOrte();
+// echo getAkteure();
 // echo getLDAkteure();
 
 ?>
