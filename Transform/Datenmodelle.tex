@@ -6,7 +6,7 @@
 
 \title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
-\date{Version vom 30. Oktober 2018}
+\date{Version vom 11. Dezember 2018}
 
 \begin{document}
 \maketitle
@@ -441,20 +441,40 @@ diese agierenden Personen unterschieden wird.
 
 Prädikate in users.json:
 \begin{itemize}\itemsep0pt
+\item Akteur
+\begin{itemize}\itemsep0pt
   \item id -- String
-  \item name -- String
-  \item organization\_type -- String
-  \item organization\_url -- String
-  \item organization\_logo\_url -- String
-  \item full\_address -- String
+  \item name -- String, Name der Organisation
+  \item organization\_type -- String, Art der Organisation (gewerbliches
+    Unternehmen, gemeinnütziger Verein, Stiftung, Genossenschaft, Initiative,
+    Bildungseinrichtung, Freiberufler, Sonstige Organisation)
+  \item organization\_url -- String, Homepage
+  \item organization\_logo\_url -- String, Logo
+  \item ?? -- Checkbox, Handels- oder Gastronomieeinrichtung (nicht mit
+    ausgeliefert)
+  \item ?? -- Checkbox, veröffentlicht (nicht mit ausgeliefert)
+  \item ?? -- Checkbox, aktiv (nicht mit ausgeliefert)
+\end{itemize}
+\item Adresse (des Ansprechpartners)
+\begin{itemize}\itemsep0pt
+  \item full\_address -- String, inzwischen aufgespalten als Adresse (?)
   \item district -- String
   \item latlng -- Array
+\item ?? -- Checkbox, Anschrift öffentlich sichtbar (nicht mit ausgeliefert)
+\end{itemize}
+\item Ansprechpartner
+\begin{itemize}\itemsep0pt
   \item first\_name -- String
   \item last\_name -- String
   \item organization\_position -- String
+\end{itemize}
+\item Account
+\begin{itemize}\itemsep0pt
   \item email -- String
   \item phone\_primary -- String
   \item phone\_secondary -- String
+  \item Passwort (nicht mit ausgeliefert)
+\end{itemize}
 \end{itemize}
 
 \paragraph{Aktivitäten.}
@@ -469,8 +489,8 @@ berücksichtigt.
 Generische Prädikate:
 \begin{itemize}\itemsep0pt
   \item id -- String
-  \item type -- String (Typ der Aktivität)
-  \item user\_id -- String (Id des beteiligten Akteurs)
+  \item type -- String (Typ der Aktivität), Auswahl
+  \item user\_id -- String (Id des beteiligten Akteurs), Auswahl
   \item name -- String
   \item description -- String
   \item district -- String (deprecated)
@@ -480,13 +500,13 @@ Generische Prädikate:
   \item info\_url -- String
   \item video\_url -- String
   \item image\_url -- String
+  \item categories -- Array, weitere Kategorien
+  \item first\_root\_category -- String, Hauptkategorie
 \end{itemize}
 
 Weitere Prädikate für Actions:
 \begin{itemize}\itemsep0pt
-  \item start\_at -- String
-  \item categories -- Array
-  \item first\_root\_category -- String
+  \item start\_at -- String, Zeitraum/Termine
 \end{itemize}
 
 Weitere Prädikate für Events:
@@ -497,32 +517,32 @@ Weitere Prädikate für Events:
   \item costs -- String
   \item requirements -- String
   \item speaker -- String
-  \item categories -- Array
-  \item first\_root\_category -- String
+  \item ?? -- Checkboxen, kostenfrei, kinderfreundlich, barrierefrei (nicht
+    mit ausgeliefert) 
 \end{itemize}
 
 Weitere Prädikate für Projects:
 \begin{itemize}\itemsep0pt
-  \item categories -- Array
-  \item first\_root\_category -- String
   \item short\_description -- String
   \item goals -- Array
-  \item property\_list -- Array
+  \item property\_list -- Array, Liste mit speziellen Merkmalen
 \end{itemize}
 
-Weitere Prädikate für Services:
+Weitere Prädikate für Services (Angebot):
 \begin{itemize}\itemsep0pt
-  \item target\_group -- String
-  \item costs -- String
-  \item requirements -- String
-  \item categories -- Array
-  \item first\_root\_category -- String
-  \item short\_description -- String
+  \item target\_group -- String, Zielgruppenbeschreibung
+  \item costs -- String, Kosten
+  \item requirements -- String, Bedingungen
+  \item short\_description -- String, Kurzbeschreibung
   \item goals -- Array
-  \item service\_type -- String
-  \item target\_group\_selection -- String
+  \item service\_type -- String, Angebotsart (Workshop, Exkursion, Vortrag,
+    GTA, Unterrichtseinheit, Beratungsangebot)
+  \item target\_group\_selection -- String, Auswahl (Kindergarten,
+    Grundschule, Sekundarstufe, Erwachsenenbildung)
   \item duration -- String
 \end{itemize}
+Neu gibt es Beratungsangebote und Bidungsangebote, jeweils ohne Feld
+„Angebotsart“ 
 
 Weitere Prädikate für Store:
 \begin{itemize}\itemsep0pt
