@@ -6,7 +6,7 @@
 
 \title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
-\date{Version vom 11. Dezember 2018}
+\date{Version vom 14. Dezember 2018}
 
 \begin{document}
 \maketitle
@@ -397,42 +397,88 @@ ausgelesen werden können.
 
 Im Modell werden die zwei Klassen \emph{Akteure} (\texttt{users}) und
 \emph{Aktivitäten} (\texttt{activities}) unterschieden, welche über die
-REST-API ausgelesen werden können.
+REST-API ausgelesen werden können.  Im Modell sind weitere Datenstrukturen
+implizit als Konzepte vorhanden.
 
-Die folgenden Ausführungen nehmen Bezug auf die in den Leipzig
+Das ist zum einen eine genauere Aufteilung eines \emph{Akteurs} in
+\begin{itemize}\itemsep0pt
+\item die Beschreibung des Akteurs,
+\item die Adresse,
+\item der Ansprechpartner und
+\item die Accountdaten des Ansprechpartners,
+\end{itemize}
+die alle in einer gemeinsamen Datenbanktabelle \emph{users} zusammengefasst
+sind.
+
+\emph{Aktivitäten} sind in verschiedene Aktivitätstypen unterteilt, welche
+durch den Wert eines speziellen Attributs \texttt{type} unterschieden werden.
+Neben generischen Attributen haben die einzelnen Aktivitätstypen weitere
+spezielle Attribute, was man in einer zweistufigen (erweiterbaren)
+Vererbungshierarchie oder in einem RDF-Modell bzw. als abstrakten Datentyp (im
+Sinne etwa von Java Interfaces) als Mengen von Signaturen beschreiben kann.
+Im Weiteren wird die letztere Darstellungsform verwendet. 
+
+Die folgenden Ausführungen nehmen außerdem Bezug auf die in den Leipzig
 Data Tools verfügbaren Transformationsskripte\footnote{Siehe
   \url{https://github.com/LeipzigData/Tools/tree/master/nachhaltiges-leipzig/nl-rdf}.}.
 
 Die Klasse \emph{Akteure} umfasst wie im LE-Projekt ein Sublimat aus
-Informationen zu \texttt{ld:Akteur} sowie zu Personen, die für den Akteur in
-verschiedenen Rollen tätig sind.  Es lässt sich nicht unterscheiden, ob zum
-Beispiel eine Telefonnummer zum Vereinsbüro gehört oder eine Privatnummer ist.
-Mit dem Transformationsskript wird versucht, diese Informationen in die Teile
-\texttt{org:Organization} (Akteure), \texttt{foaf:Person} (Personen) und
-\texttt{org:Membership} (Rolle dieser Person beim Akteur) aufzuteilen. 
+Informationen zu \texttt{ld:Akteur}, zu dessen Adresse sowie zu Personen, die
+für den Akteur als Ansprechpartner tätig sind.  Es lässt sich nicht
+unterscheiden, ob zum Beispiel eine Telefonnummer oder eine Adresse zum
+Vereinsbüro gehört oder zum Ansprechpartner.  Mit dem Transformationsskript
+wird versucht, diese Informationen in die Teile \texttt{org:Organization}
+(Akteure), \texttt{foaf:Person} (Personen) und \texttt{org:Membership} (Rolle
+dieser Person beim Akteur) aufzuteilen.
 
-Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen („Datensatztypen“ in
-der NL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
+Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen („Datensatztypen“
+in der NL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
 \texttt{Service} und \texttt{Store} im Sinne einer einfachen zweistufigen
-Vererbungshierarchie.  Diese Typen sind Aktivitäts-Instanzen über ein Prädikat
-\texttt{type} zugeordnet. Die Zahl der Typen kann also innerhalb der
-vorliegenden zweistufigen Vererbungshierarchie einfach linear erweitert werden.
+Vererbungshierarchie.  Die Liste der Unterklassen wurde im Zuge des
+Überarbeitung Ende 2018 um die Klassen \texttt{Bildungsangebot} und
+\texttt{Beratungsangebot} erweitert.  
 
 In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) wird weiter
-ein Datensatztyp „Angebot“ erwähnt, der in zwei Teile „Beratungsangebot“ und
-„Bildungsangebot“ aufgespalten werden soll. Weiter soll ein Typ „Ressource“
-hinzugefügt werden. 
+ein Datensatztyp „Angebot“ sowie ein Typ „Ressource“ erwähnt.
 
-Zur Unterscheidung der Instanzen werden numerische Primärschlüssel der
-Datenbank verwendet. In den Transformationsskripten werden lokale URIs direkt
-aus diesen Primärschlüsseln erzeugt. Diese haben (bis auf Personen, deren
-Daten dem Namensschema von Leipzig Data folgen, die Informationen werden aus
-Datenschutzgründen nur intern verwendet) grundsätzlich die Struktur
+Zur Unterscheidung der Instanzen werden ID's als numerische Primärschlüssel
+der Datenbank verwendet. In den Transformationsskripten werden lokale URIs
+direkt aus diesen Primär"|schlüsseln erzeugt. Diese haben (bis auf Personen,
+deren Daten dem Namensschema von Leipzig Data folgen, die Informationen werden
+aus Datenschutzgründen nur intern verwendet) grundsätzlich die Struktur
 \texttt{<Präfix>/<Typ>.<Id>} mit \texttt{<Typ>}$\in \{\texttt{Person},
 \texttt{Akteur}, \texttt{Activity}\}$.
 
+\paragraph{Adressen.} 
 In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) soll eine
-weitere Klasse \emph{Orte} ergänzt werden.  
+weitere Klasse \emph{Orte} ergänzt werden, die eine akteursübergreifende
+Verwaltung von Adressdaten umsetzt. Eine \emph{Adresse} ist dabei eine
+implizite Datenstruktur, die über die API als Menge von Attributen
+\begin{itemize}\itemsep0pt
+  \item full\_address -- String
+  \item district -- String
+  \item latlng -- Array
+\end{itemize}
+ausgeliefert wird. \texttt{full\_address} ist dabei bereits ein Aggregat, das
+aus den intern separierten Bestandteilen \emph{Straße und Hausnummer},
+\emph{PLZ} und \emph{Ort} kombiniert wurde.
+
+Adressen\footnote{In der NL-Terminologie „Orte“, allerdings werden zu Orten in
+  der aktuellen Konzeption keine Daten jenseits der Adressdaten und eines
+  (verbindlichen) Namens gespeichert.} werden grundsätzlich als Datenaggregate
+verwaltet, nicht als Datenobjekte.  Wenn zu einer Aktivität keine Adresse
+angegeben ist, wird die Adresse aus den Profildaten des Akteurs übernommen.
+Spätere Änderungen dieser Profildaten haben aber aktuell keine Auswirkung auf
+diesen Klon.
+
+Es ist eine akteursübergreifende Datenbank zu Orten im Aufbau, aus der häufig
+verwendete Adressdaten übernommen werden können.  Auch dies geschieht durch
+einfache Übernahme der entsprechenden Attributwerte. Geplant ist, Änderungen
+in dieser Datenbasis in die entsprechenden ADressfelder von Aktivitäten (und
+auch Akteuren?) zu propagieren, wozu ein System von Backlinks aufgebaut werden
+müsste. Unklar bleibt, wie mit zwischenzeitlichen Änderungen umgegangen wird,
+die vom Besitzer der Aktivität an den früher übernommenen Adressdaten
+vorgenommen worden sind.
 
 \paragraph{Akteure.}
 In der Collection \texttt{users} (Akteure) sind Informationen über Akteure
@@ -447,28 +493,23 @@ Prädikate in users.json:
   \item name -- String, Name der Organisation
   \item organization\_type -- String, Art der Organisation (gewerbliches
     Unternehmen, gemeinnütziger Verein, Stiftung, Genossenschaft, Initiative,
-    Bildungseinrichtung, Freiberufler, Sonstige Organisation)
+    Freiberufler, Bildungseinrichtung, Sonstige Organisation)
   \item organization\_url -- String, Homepage
   \item organization\_logo\_url -- String, Logo
-  \item ?? -- Checkbox, Handels- oder Gastronomieeinrichtung (nicht mit
-    ausgeliefert)
-  \item ?? -- Checkbox, veröffentlicht (nicht mit ausgeliefert)
-  \item ?? -- Checkbox, aktiv (nicht mit ausgeliefert)
 \end{itemize}
-\item Adresse (des Ansprechpartners)
-\begin{itemize}\itemsep0pt
-  \item full\_address -- String, inzwischen aufgespalten als Adresse (?)
-  \item district -- String
-  \item latlng -- Array
+\item ?? -- Checkbox, Handels- oder Gastronomieeinrichtung (nicht mit
+  ausgeliefert)
+\item ?? -- Checkbox, veröffentlicht (nicht mit ausgeliefert)
+\item ?? -- Checkbox, aktiv (nicht mit ausgeliefert)
+\item Adresse (des Akteurs oder des Ansprechpartners?)
 \item ?? -- Checkbox, Anschrift öffentlich sichtbar (nicht mit ausgeliefert)
-\end{itemize}
 \item Ansprechpartner
 \begin{itemize}\itemsep0pt
   \item first\_name -- String
   \item last\_name -- String
   \item organization\_position -- String
 \end{itemize}
-\item Account
+\item Account- und Erreichbarkeitsdaten
 \begin{itemize}\itemsep0pt
   \item email -- String
   \item phone\_primary -- String
@@ -479,7 +520,7 @@ Prädikate in users.json:
 
 \paragraph{Aktivitäten.}
 \texttt{activities} ist ein Obertyp zu verschiedenen Arten von Aktivitäten
-(Aktionen, Events, Projekte, Services, Stores), die mit dem Prädikat
+(Aktionen, Events, Projekte, Services, Stores, \ldots), die mit dem Prädikat
 \texttt{nl:hasType} näher spezifiziert werden.  In der Collection
 \texttt{activities} sind Informationen über die verschiedenen Typen von
 Aktivitäten zusammengefasst, wobei nicht alle Prädikate bei allen Untertypen
@@ -493,9 +534,7 @@ Generische Prädikate:
   \item user\_id -- String (Id des beteiligten Akteurs), Auswahl
   \item name -- String
   \item description -- String
-  \item district -- String (deprecated)
-  \item full\_address -- String
-  \item latlng -- Array
+  \item Adresse (an der die Aktivität stattfindet)
   \item is\_fallback\_address -- String (Boolescher Wert, Bedeutung unklar)
   \item info\_url -- String
   \item video\_url -- String
@@ -528,7 +567,7 @@ Weitere Prädikate für Projects:
   \item property\_list -- Array, Liste mit speziellen Merkmalen
 \end{itemize}
 
-Weitere Prädikate für Services (Angebot):
+Weitere Prädikate für Services (neu: Angebot?):
 \begin{itemize}\itemsep0pt
   \item target\_group -- String, Zielgruppenbeschreibung
   \item costs -- String, Kosten
