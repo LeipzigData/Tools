@@ -3,12 +3,12 @@
 
 function getFileFromAPI($file) {
     $src="http://daten.nachhaltiges-leipzig.de/api/v1/$file";
-    return file_get_contents($src);
+    $string=file_get_contents($src);
+    return json_decode($string, true);
 }
 
 function collectAllPredicates($file) {
-    $string=getFileFromAPI($file); 
-    $res=json_decode($string, true);
+    $res=getFileFromAPI($file); 
     // print_r($res);
     $out=''; 
     $a=array();
@@ -23,8 +23,7 @@ function collectAllPredicates($file) {
 }
 
 function collectAllPredicatesByType($file) {
-    $string=getFileFromAPI($file); 
-    $res=json_decode($string, true);
+    $res=getFileFromAPI($file); 
     // print_r($res);
     $out=''; 
     $a=array();
@@ -57,8 +56,20 @@ function collectPredicatesByType($a,$row) {
     return $a ;
 }
 
+function checkAdressen() {
+    $res=getFileFromAPI("activities.json");
+    $a=array();
+    foreach ($res as $row) {
+        $address=$row["full_address"];
+        $id=$row["id"];
+        $a[$address]=$a[$address].", ".$id;
+    }
+    print_r($a);
+    
+}
 
-echo CollectAllPredicatesByType("activities.json");
+checkAdressen();
+//echo CollectAllPredicatesByType("activities.json");
 //echo CollectAllPredicates("activities.json");
 //echo CollectAllPredicates("categories.json");
 //echo CollectAllPredicates("products.json");
