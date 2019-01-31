@@ -15,6 +15,8 @@ API:
     /api/v1/trade_categories.json
     /api/v1/users.json
     /api/v1/users/[id].json
+    /api/v1/locations.json
+    /api/v1/locations/[id].json
 */
 
 // ==== Weitere Hilfsfunktionen
@@ -189,6 +191,13 @@ function proposeAddressURI($s) {
     $out=str_replace("","",$out);
     $out=str_replace("","",$out);
 
+    return $out;
+}
+
+function infereAddressURI($s) {
+    if (empty($s)) { return ; }
+    $uri=$s['zip'].'.'.$s['city'].'.'.$s['street_name'].'.'.$s['house_number'];
+    $out=fixURI($uri);
     return $out;
 }
 
