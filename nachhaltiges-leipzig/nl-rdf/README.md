@@ -67,6 +67,23 @@ RDF-Klassen nl:Akteur und foaf:Person auch in verschiedenen RDF-Graphen
 erfasst.  *akteure.php* stellt Routinen für gesonderte Dumps der Akteure und
 der Personen zur Verfügung.
 
+User sind bis id=241 nach LD übernommen und über das Prädikat owl:sameAs in
+den LD-Daten identifizierbar.
+
+Folgende User fehlen: 1, 7, 17, 20, 31, 44, 65, 82, 107, 119, 121, 132, 140,
+158, 161, 169, 180, 225
+
+Folgende User sind nicht nach LD übernommen
+205 = Stadt Delitzsch
+206 = Gartenpforte Muldental
+213 = Grüne Liga Kohrener Land
+222 = Delitzscher Land e.V.
+230 = Annett Antonia Graeske, Grimma
+236 = Naturschule Deutschland e.V., Göttingen
+238 = Geopark Porphyrland. Steinreich in Sachsen e.V., Grimma
+
+Offen: ab 242
+
 ### Prädikate in users.json:
 
 * id => String

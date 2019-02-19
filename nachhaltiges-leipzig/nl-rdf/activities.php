@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Created: 2018-08-04
- * Last Update: 2018-08-05
+ * Last Update: 2019-01-31
 
  * Extrahiere Informationen zu Aktivitäten aus der REST-Schnittstelle
  * activities.json
@@ -12,8 +12,12 @@
  * wird weiter eine LD-Adress-URI berechnet, die in einem weiteren Arbeitsgang
  * zu konsolidieren sind.
 
+ * In der neuen Version wird außerdem die neu verfügbare strukturierte
+ * Adressinformation ausgewertet.
+
  * getActivities() ist ausführlicher und sortiert die Instanzen nach der
- * NL-URI.  Noch zu klären ist, wie mit verschiedenen Aktivitätstypen umzugehen ist. 
+ * NL-URI.  Noch zu klären ist, wie mit verschiedenen Aktivitätstypen
+ * umzugehen ist.
 
  * Prädikate sind in der README.md genauer beschrieben. 
 
@@ -38,7 +42,7 @@ function getAllActivities() {
     return TurtlePrefix()
         .'<http://nachhaltiges-leipzig.de/Data/Activities/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
-    dct:created "2018-08-05" ; 
+    dct:created "2019-01-31" ; 
     rdfs:label "Nachhaltiges Leipzig - Alle Aktivitäten" .
     '. join("\n\n",$a);
 }
@@ -108,6 +112,8 @@ function createActivity($u,$row) {
   $a=addLiteral($a,'nl:hasFullAddress', $row['full_address']);
   $a=addResource($a, 'ld:proposedAddress', "http://leipzig-data.de/Data/",
       proposeAddressURI($row['full_address']));
+  $a=addResource($a, 'ld:inferredAddress', "http://leipzig-data.de/Data/",
+      infereAddressURI($row));
   // $a=addLiteral($a,'nl:hasFallbackAddress', $row['is_fallback_address']); Wert ggf=1
   $a=addResource($a,'nl:hasInfoURL', "", fixInfoURL($row['info_url']));
   $a=addResource($a,'nl:hasImageURL', "", $row['image_url']);
@@ -141,6 +147,6 @@ function fixInfoURL($s) {
 }
 
 // zum Testen
-// echo getAllActivities();
+echo getAllActivities();
 
 ?>

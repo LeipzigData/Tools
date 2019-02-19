@@ -754,14 +754,242 @@ WHERE {
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/> 
 PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 
-SELECT ?u 
-FROM <http://nachhaltiges-leipzig.de/Data/Adressen/> 
-FROM <http://leipzig-data.de/Data/Adressen/> 
+SELECT distinct ?v
 WHERE {  
-?u a nl:Adresse ; ld:hasCity "Leipzig" .
-optional { ?u ld:inOrtsteil ?b . }
-filter (!bound(?b))
+?u owl:sameAs ?v  .
+filter regex(?v,'nachhaltiges-leipzig.de') 
+filter (!regex(?v,'Data/Akteur')) 
 }
+
+Folgende User fehlen: 1, 7, 17, 20, 31, 44, 65, 82, 107, 119, 121, 132, 140,
+158, 161, 169, 180, 225
+
+Folgende User sind nicht nach LD übernommen
+205 = Stadt Delitzsch
+206 = Gartenpforte Muldental
+213 = Grüne Liga Kohrener Land
+222 = Delitzscher Land e.V.
+230 = Annett Antonia Graeske, Grimma
+236 = Naturschule Deutschland e.V., Göttingen
+238 = Geopark Porphyrland. Steinreich in Sachsen e.V., Grimma
+
+Offen: ab 242
+
+http://nachhaltiges-leipzig.de/Data/Akteur.2
+http://nachhaltiges-leipzig.de/Data/Akteur.3
+http://nachhaltiges-leipzig.de/Data/Akteur.4
+http://nachhaltiges-leipzig.de/Data/Akteur.5
+http://nachhaltiges-leipzig.de/Data/Akteur.6
+http://nachhaltiges-leipzig.de/Data/Akteur.8
+http://nachhaltiges-leipzig.de/Data/Akteur.10
+http://nachhaltiges-leipzig.de/Data/Akteur.11
+http://nachhaltiges-leipzig.de/Data/Akteur.12
+http://nachhaltiges-leipzig.de/Data/Akteur.13
+http://nachhaltiges-leipzig.de/Data/Akteur.14
+http://nachhaltiges-leipzig.de/Data/Akteur.15
+http://nachhaltiges-leipzig.de/Data/Akteur.16
+http://nachhaltiges-leipzig.de/Data/Akteur.18
+http://nachhaltiges-leipzig.de/Data/Akteur.19
+http://nachhaltiges-leipzig.de/Data/Akteur.21
+http://nachhaltiges-leipzig.de/Data/Akteur.22
+http://nachhaltiges-leipzig.de/Data/Akteur.23
+http://nachhaltiges-leipzig.de/Data/Akteur.24
+http://nachhaltiges-leipzig.de/Data/Akteur.25
+http://nachhaltiges-leipzig.de/Data/Akteur.26
+http://nachhaltiges-leipzig.de/Data/Akteur.27
+http://nachhaltiges-leipzig.de/Data/Akteur.28
+http://nachhaltiges-leipzig.de/Data/Akteur.29
+http://nachhaltiges-leipzig.de/Data/Akteur.30
+http://nachhaltiges-leipzig.de/Data/Akteur.32
+http://nachhaltiges-leipzig.de/Data/Akteur.33
+http://nachhaltiges-leipzig.de/Data/Akteur.34
+http://nachhaltiges-leipzig.de/Data/Akteur.35
+http://nachhaltiges-leipzig.de/Data/Akteur.36
+http://nachhaltiges-leipzig.de/Data/Akteur.37
+http://nachhaltiges-leipzig.de/Data/Akteur.38
+http://nachhaltiges-leipzig.de/Data/Akteur.39
+http://nachhaltiges-leipzig.de/Data/Akteur.40
+http://nachhaltiges-leipzig.de/Data/Akteur.41
+http://nachhaltiges-leipzig.de/Data/Akteur.42
+http://nachhaltiges-leipzig.de/Data/Akteur.43
+http://nachhaltiges-leipzig.de/Data/Akteur.45
+http://nachhaltiges-leipzig.de/Data/Akteur.46
+http://nachhaltiges-leipzig.de/Data/Akteur.47
+http://nachhaltiges-leipzig.de/Data/Akteur.48
+http://nachhaltiges-leipzig.de/Data/Akteur.49
+http://nachhaltiges-leipzig.de/Data/Akteur.50
+http://nachhaltiges-leipzig.de/Data/Akteur.51
+http://nachhaltiges-leipzig.de/Data/Akteur.52
+http://nachhaltiges-leipzig.de/Data/Akteur.53
+http://nachhaltiges-leipzig.de/Data/Akteur.54
+http://nachhaltiges-leipzig.de/Data/Akteur.55
+http://nachhaltiges-leipzig.de/Data/Akteur.56
+http://nachhaltiges-leipzig.de/Data/Akteur.57
+http://nachhaltiges-leipzig.de/Data/Akteur.58
+http://nachhaltiges-leipzig.de/Data/Akteur.59
+http://nachhaltiges-leipzig.de/Data/Akteur.60
+http://nachhaltiges-leipzig.de/Data/Akteur.61
+http://nachhaltiges-leipzig.de/Data/Akteur.62
+http://nachhaltiges-leipzig.de/Data/Akteur.63
+http://nachhaltiges-leipzig.de/Data/Akteur.64
+http://nachhaltiges-leipzig.de/Data/Akteur.66
+http://nachhaltiges-leipzig.de/Data/Akteur.67
+http://nachhaltiges-leipzig.de/Data/Akteur.68
+http://nachhaltiges-leipzig.de/Data/Akteur.69
+http://nachhaltiges-leipzig.de/Data/Akteur.70
+http://nachhaltiges-leipzig.de/Data/Akteur.71
+http://nachhaltiges-leipzig.de/Data/Akteur.72
+http://nachhaltiges-leipzig.de/Data/Akteur.73
+http://nachhaltiges-leipzig.de/Data/Akteur.74
+http://nachhaltiges-leipzig.de/Data/Akteur.75
+http://nachhaltiges-leipzig.de/Data/Akteur.76
+http://nachhaltiges-leipzig.de/Data/Akteur.77
+http://nachhaltiges-leipzig.de/Data/Akteur.78
+http://nachhaltiges-leipzig.de/Data/Akteur.79
+http://nachhaltiges-leipzig.de/Data/Akteur.80
+http://nachhaltiges-leipzig.de/Data/Akteur.81
+http://nachhaltiges-leipzig.de/Data/Akteur.83
+http://nachhaltiges-leipzig.de/Data/Akteur.84
+http://nachhaltiges-leipzig.de/Data/Akteur.85
+http://nachhaltiges-leipzig.de/Data/Akteur.86
+http://nachhaltiges-leipzig.de/Data/Akteur.87
+http://nachhaltiges-leipzig.de/Data/Akteur.88
+http://nachhaltiges-leipzig.de/Data/Akteur.89
+http://nachhaltiges-leipzig.de/Data/Akteur.90
+http://nachhaltiges-leipzig.de/Data/Akteur.91
+http://nachhaltiges-leipzig.de/Data/Akteur.92
+http://nachhaltiges-leipzig.de/Data/Akteur.93
+http://nachhaltiges-leipzig.de/Data/Akteur.94
+http://nachhaltiges-leipzig.de/Data/Akteur.95
+http://nachhaltiges-leipzig.de/Data/Akteur.96
+http://nachhaltiges-leipzig.de/Data/Akteur.97
+http://nachhaltiges-leipzig.de/Data/Akteur.98
+http://nachhaltiges-leipzig.de/Data/Akteur.99
+http://nachhaltiges-leipzig.de/Data/Akteur.100
+http://nachhaltiges-leipzig.de/Data/Akteur.101
+http://nachhaltiges-leipzig.de/Data/Akteur.102
+http://nachhaltiges-leipzig.de/Data/Akteur.103
+http://nachhaltiges-leipzig.de/Data/Akteur.104
+http://nachhaltiges-leipzig.de/Data/Akteur.105
+http://nachhaltiges-leipzig.de/Data/Akteur.106
+http://nachhaltiges-leipzig.de/Data/Akteur.108
+http://nachhaltiges-leipzig.de/Data/Akteur.109
+http://nachhaltiges-leipzig.de/Data/Akteur.110
+http://nachhaltiges-leipzig.de/Data/Akteur.111
+http://nachhaltiges-leipzig.de/Data/Akteur.112
+http://nachhaltiges-leipzig.de/Data/Akteur.113
+http://nachhaltiges-leipzig.de/Data/Akteur.114
+http://nachhaltiges-leipzig.de/Data/Akteur.115
+http://nachhaltiges-leipzig.de/Data/Akteur.116
+http://nachhaltiges-leipzig.de/Data/Akteur.117
+http://nachhaltiges-leipzig.de/Data/Akteur.118
+http://nachhaltiges-leipzig.de/Data/Akteur.120
+http://nachhaltiges-leipzig.de/Data/Akteur.122
+http://nachhaltiges-leipzig.de/Data/Akteur.123
+http://nachhaltiges-leipzig.de/Data/Akteur.124
+http://nachhaltiges-leipzig.de/Data/Akteur.125
+http://nachhaltiges-leipzig.de/Data/Akteur.126
+http://nachhaltiges-leipzig.de/Data/Akteur.127
+http://nachhaltiges-leipzig.de/Data/Akteur.128
+http://nachhaltiges-leipzig.de/Data/Akteur.129
+http://nachhaltiges-leipzig.de/Data/Akteur.130
+http://nachhaltiges-leipzig.de/Data/Akteur.131
+http://nachhaltiges-leipzig.de/Data/Akteur.133
+http://nachhaltiges-leipzig.de/Data/Akteur.134
+http://nachhaltiges-leipzig.de/Data/Akteur.135
+http://nachhaltiges-leipzig.de/Data/Akteur.136
+http://nachhaltiges-leipzig.de/Data/Akteur.137
+http://nachhaltiges-leipzig.de/Data/Akteur.138
+http://nachhaltiges-leipzig.de/Data/Akteur.139
+http://nachhaltiges-leipzig.de/Data/Akteur.141
+http://nachhaltiges-leipzig.de/Data/Akteur.142
+http://nachhaltiges-leipzig.de/Data/Akteur.143
+http://nachhaltiges-leipzig.de/Data/Akteur.144
+http://nachhaltiges-leipzig.de/Data/Akteur.145
+http://nachhaltiges-leipzig.de/Data/Akteur.146
+http://nachhaltiges-leipzig.de/Data/Akteur.147
+http://nachhaltiges-leipzig.de/Data/Akteur.148
+http://nachhaltiges-leipzig.de/Data/Akteur.149
+http://nachhaltiges-leipzig.de/Data/Akteur.150
+http://nachhaltiges-leipzig.de/Data/Akteur.151
+http://nachhaltiges-leipzig.de/Data/Akteur.152
+http://nachhaltiges-leipzig.de/Data/Akteur.153
+http://nachhaltiges-leipzig.de/Data/Akteur.154
+http://nachhaltiges-leipzig.de/Data/Akteur.155
+http://nachhaltiges-leipzig.de/Data/Akteur.156
+http://nachhaltiges-leipzig.de/Data/Akteur.157
+http://nachhaltiges-leipzig.de/Data/Akteur.159
+http://nachhaltiges-leipzig.de/Data/Akteur.160
+http://nachhaltiges-leipzig.de/Data/Akteur.162
+http://nachhaltiges-leipzig.de/Data/Akteur.163
+http://nachhaltiges-leipzig.de/Data/Akteur.164
+http://nachhaltiges-leipzig.de/Data/Akteur.165
+http://nachhaltiges-leipzig.de/Data/Akteur.166
+http://nachhaltiges-leipzig.de/Data/Akteur.167
+http://nachhaltiges-leipzig.de/Data/Akteur.168
+http://nachhaltiges-leipzig.de/Data/Akteur.170
+http://nachhaltiges-leipzig.de/Data/Akteur.171
+http://nachhaltiges-leipzig.de/Data/Akteur.172
+http://nachhaltiges-leipzig.de/Data/Akteur.173
+http://nachhaltiges-leipzig.de/Data/Akteur.174
+http://nachhaltiges-leipzig.de/Data/Akteur.175
+http://nachhaltiges-leipzig.de/Data/Akteur.176
+http://nachhaltiges-leipzig.de/Data/Akteur.177
+http://nachhaltiges-leipzig.de/Data/Akteur.178
+http://nachhaltiges-leipzig.de/Data/Akteur.179
+http://nachhaltiges-leipzig.de/Data/Akteur.181
+http://nachhaltiges-leipzig.de/Data/Akteur.182
+http://nachhaltiges-leipzig.de/Data/Akteur.183
+http://nachhaltiges-leipzig.de/Data/Akteur.184
+http://nachhaltiges-leipzig.de/Data/Akteur.185
+http://nachhaltiges-leipzig.de/Data/Akteur.186
+http://nachhaltiges-leipzig.de/Data/Akteur.187
+http://nachhaltiges-leipzig.de/Data/Akteur.188
+http://nachhaltiges-leipzig.de/Data/Akteur.189
+http://nachhaltiges-leipzig.de/Data/Akteur.190
+http://nachhaltiges-leipzig.de/Data/Akteur.191
+http://nachhaltiges-leipzig.de/Data/Akteur.192
+http://nachhaltiges-leipzig.de/Data/Akteur.193
+http://nachhaltiges-leipzig.de/Data/Akteur.194
+http://nachhaltiges-leipzig.de/Data/Akteur.195
+http://nachhaltiges-leipzig.de/Data/Akteur.196
+http://nachhaltiges-leipzig.de/Data/Akteur.197
+http://nachhaltiges-leipzig.de/Data/Akteur.198
+http://nachhaltiges-leipzig.de/Data/Akteur.199
+http://nachhaltiges-leipzig.de/Data/Akteur.200
+http://nachhaltiges-leipzig.de/Data/Akteur.201
+http://nachhaltiges-leipzig.de/Data/Akteur.202
+http://nachhaltiges-leipzig.de/Data/Akteur.203
+http://nachhaltiges-leipzig.de/Data/Akteur.204
+http://nachhaltiges-leipzig.de/Data/Akteur.207
+http://nachhaltiges-leipzig.de/Data/Akteur.208
+http://nachhaltiges-leipzig.de/Data/Akteur.209
+http://nachhaltiges-leipzig.de/Data/Akteur.210
+http://nachhaltiges-leipzig.de/Data/Akteur.211
+http://nachhaltiges-leipzig.de/Data/Akteur.212
+http://nachhaltiges-leipzig.de/Data/Akteur.214
+http://nachhaltiges-leipzig.de/Data/Akteur.215
+http://nachhaltiges-leipzig.de/Data/Akteur.216
+http://nachhaltiges-leipzig.de/Data/Akteur.217
+http://nachhaltiges-leipzig.de/Data/Akteur.218
+http://nachhaltiges-leipzig.de/Data/Akteur.219
+http://nachhaltiges-leipzig.de/Data/Akteur.220
+http://nachhaltiges-leipzig.de/Data/Akteur.221
+http://nachhaltiges-leipzig.de/Data/Akteur.223
+http://nachhaltiges-leipzig.de/Data/Akteur.224
+http://nachhaltiges-leipzig.de/Data/Akteur.226
+http://nachhaltiges-leipzig.de/Data/Akteur.227
+http://nachhaltiges-leipzig.de/Data/Akteur.228
+http://nachhaltiges-leipzig.de/Data/Akteur.229
+http://nachhaltiges-leipzig.de/Data/Akteur.231
+http://nachhaltiges-leipzig.de/Data/Akteur.232
+http://nachhaltiges-leipzig.de/Data/Akteur.233
+http://nachhaltiges-leipzig.de/Data/Akteur.234
+http://nachhaltiges-leipzig.de/Data/Akteur.235
+http://nachhaltiges-leipzig.de/Data/Akteur.237
+http://nachhaltiges-leipzig.de/Data/Akteur.239
+http://nachhaltiges-leipzig.de/Data/Akteur.240
+http://nachhaltiges-leipzig.de/Data/Akteur.241
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/> 
 PREFIX nl: <http://nachhaltiges-leipzig.de/Data/Model#> 

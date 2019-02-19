@@ -68,7 +68,6 @@ function checkAdressen() {
     
 }
 
-//checkAdressen();
 //echo CollectAllPredicatesByType("activities.json");
 //echo CollectAllPredicates("activities.json");
 //echo CollectAllPredicates("categories.json");

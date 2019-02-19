@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Created: 2018-08-04
- * Last Update: 2018-08-05
+ * Last Update: 2019-02-12
 
  * Extrahiere Akteursinformationen aus der REST-Schnittstelle users.json
 
@@ -26,20 +26,20 @@
 
 include_once("helper.php");
 
-function getAkteure() {
+function getAkteure($startId) {
     $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
     //$src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
     $string = file_get_contents($src);
     $res = json_decode($string, true);
     $out=''; // print_r($res);
     foreach ($res as $row) {
-        $out.=createAkteur($row);
+        if ($row['id']>$startId) { $out.=createAkteur($row); }
     }
   
     return TurtlePrefix().'
 <http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
-    dct:created "2018-08-04" ; 
+    dct:created "2019-02-12" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
 
 '.$out;
@@ -66,14 +66,14 @@ function createAkteur($row) {
       '<http://nachhaltiges-leipzig.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
 
-function getLDAkteure() {
+function getLDAkteure($startId) {
     $src="http://daten.nachhaltiges-leipzig.de/api/v1/users.json";
     // $src="/home/graebe/git/LD/ld-workbench/ZAK-Datenprojekt/Daten/users.json";
     $string = file_get_contents($src);
     $res = json_decode($string, true);
     $out=''; // print_r($res);
     foreach ($res as $row) {
-        $out.=createLDAkteur($row);
+        if ($row['id']>$startId) { $out.=createLDAkteur($row); }
     }
   
     return TurtlePrefix().'
@@ -142,8 +142,8 @@ function createAkteursOrt($row) {
 }
 
 // zum Testen
-echo getAkteursOrte();
-// echo getAkteure();
-// echo getLDAkteure();
+// echo getAkteursOrte();
+// echo getAkteure(241);
+echo getLDAkteure(241);
 
 ?>
