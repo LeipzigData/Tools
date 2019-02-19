@@ -6,7 +6,7 @@
 
 \title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
-\date{Version vom 14. Dezember 2018}
+\date{Version vom 19. Februar 2019}
 
 \begin{document}
 \maketitle
@@ -429,17 +429,23 @@ unterscheiden, ob zum Beispiel eine Telefonnummer oder eine Adresse zum
 Vereinsbüro gehört oder zum Ansprechpartner.  Mit dem Transformationsskript
 wird versucht, diese Informationen in die Teile \texttt{org:Organization}
 (Akteure), \texttt{foaf:Person} (Personen) und \texttt{org:Membership} (Rolle
-dieser Person beim Akteur) aufzuteilen.
+dieser Person beim Akteur) aufzuteilen.  An anderer Stelle wird aber sehr wohl
+der Datentyp \emph{Kontakt} („Kontakt zur Abholung“ einer Ressource,
+„Ansprechpartner“ eines Bildungsangebots) als Teilinterface mit [Name,
+  Email-Adresse, Telefon] verwendet.   
 
 Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen („Datensatztypen“
 in der NL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
-\texttt{Service} und \texttt{Store} im Sinne einer einfachen zweistufigen
-Vererbungshierarchie.  Die Liste der Unterklassen wurde im Zuge des
-Überarbeitung Ende 2018 um die Klassen \texttt{Bildungsangebot} und
-\texttt{Beratungsangebot} erweitert.  
+\texttt{Service} und \texttt{Store}, die über das Feld \texttt{type}
+unterschieden werden. Im Zuge der Überarbeitung Ende 2018 wurden die „Klassen“
+\texttt{Ressource}, \texttt{Bildungsangebot} und \texttt{Beratungsangebot} als
+Unterklassen von \texttt{Service} eingeführt, wobei hier die zusätzliche
+Unterscheidung über das Feld \texttt{service\_type} ausgeführt wird.
 
-In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) wird weiter
-ein Datensatztyp „Angebot“ sowie ein Typ „Ressource“ erwähnt.
+In der aktuellen (Febr 2019) Version werden für einen „einfachen Akteur“
+Erfassungsmasken für die Datensatztypen \emph{Project}, \emph{Event},
+\emph{Action} sowie die drei Servicetypen \emph{Ressourcen},
+\emph{Bildungsangebot} und \emph{Beratungsangebot} angeboten. 
 
 Zur Unterscheidung der Instanzen werden ID's als numerische Primärschlüssel
 der Datenbank verwendet. In den Transformationsskripten werden lokale URIs
@@ -532,42 +538,45 @@ Generische Prädikate:
   \item id -- String
   \item type -- String (Typ der Aktivität), Auswahl
   \item user\_id -- String (Id des beteiligten Akteurs), Auswahl
-  \item name -- String
-  \item description -- String
-  \item Adresse (an der die Aktivität stattfindet)
+  \item name -- (Titel, Name) String
+  \item description -- (Beschreibung) String
+  \item Adresse (an der die Aktivität stattfindet) -- Ortsauswahl
   \item is\_fallback\_address -- String (Boolescher Wert, Bedeutung unklar)
   \item info\_url -- String
   \item video\_url -- String
   \item image\_url -- String
-  \item categories -- Array, weitere Kategorien
+  \item categories -- Array, weitere Kategorien (siehe Kategorienkonzept)
   \item first\_root\_category -- String, Hauptkategorie
 \end{itemize}
 
 Weitere Prädikate für Actions:
 \begin{itemize}\itemsep0pt
-  \item start\_at -- String, Zeitraum/Termine
+  \item start\_at -- String, Zeitraum/Termine (als Freitextfeld)
 \end{itemize}
 
 Weitere Prädikate für Events:
 \begin{itemize}\itemsep0pt
-  \item start\_at -- String
-  \item end\_at -- String
-  \item target\_group -- String
-  \item costs -- String
-  \item requirements -- String
-  \item speaker -- String
+  \item start\_at -- String (mit Auswahl Datum/Zeit hinterlegt)
+  \item end\_at -- String (mit Auswahl Datum/Zeit hinterlegt)
+  \item target\_group -- (Zielgruppe) String, Freitextfeld
+  \item costs -- (Kosten) String, Freitextfeld
+  \item requirements -- (Bedingungen) String, Freitext-Area
+  \item speaker -- (Referenten) String, Freitextfeld
   \item ?? -- Checkboxen, kostenfrei, kinderfreundlich, barrierefrei (nicht
     mit ausgeliefert) 
+  \item goals -- (Ziele) Array, Mehrfachauswahl, wird aktuell nicht mit
+    ausgeliefert.
 \end{itemize}
 
 Weitere Prädikate für Projects:
 \begin{itemize}\itemsep0pt
-  \item short\_description -- String
-  \item goals -- Array
-  \item property\_list -- Array, Liste mit speziellen Merkmalen
+  \item short\_description -- (Kurzbeschreibung) String, Freitext-Area
+  \item goals -- (Ziele) Array, Mehrfachauswahl
+  \item property\_list -- Array, Liste mit speziellen Merkmalen, als
+    Freitext-Area, die zeilenweise ausgelesen wird. 
 \end{itemize}
 
-Weitere Prädikate für Services (neu: Angebot?):
+Weitere Prädikate für Services:
 \begin{itemize}\itemsep0pt
   \item target\_group -- String, Zielgruppenbeschreibung
   \item costs -- String, Kosten
