@@ -39,7 +39,7 @@ function getAkteure($startId) {
     return TurtlePrefix().'
 <http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
-    dct:created "2019-02-12" ; 
+    dct:created "2019-02-24" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure" .
 
 '.$out;
@@ -61,7 +61,7 @@ function createAkteur($row) {
   //$b=addResource($b,'foaf:image', "", $row['organization_logo_url']);
   $b=addLiteral($b,'gsp:asWKT', getWKT($row['latlng']));
   // $b=addLiteral($b,'nl:hasDistrict', $row['district']);
-  // $b=addLiteral($b,"dct:modified","2018-08-04");
+  $b=addLiteral($b,"dct:modified","2019-02-24");
   return
       '<http://nachhaltiges-leipzig.de/Data/Akteur.'. $id .'>'. join(" ;\n  ",$b) . " . \n\n" ;
 }
@@ -79,7 +79,7 @@ function getLDAkteure($startId) {
     return TurtlePrefix().'
 <http://nachhaltiges-leipzig.de/Data/NL-Akteure/> a owl:Ontology ;
     rdfs:comment "Dump aus der Datenbank";
-    dct:created "2018-08-05" ; 
+    dct:created "2019-02-24" ; 
     rdfs:label "Nachhaltiges Leipzig - Akteure zum Abgleich mit leipzig-data.de" .
 
 '.$out;
@@ -143,7 +143,7 @@ function createAkteursOrt($row) {
 
 // zum Testen
 // echo getAkteursOrte();
-// echo getAkteure(241);
-echo getLDAkteure(241);
+echo getAkteure(235);
+// echo getLDAkteure(1);
 
 ?>

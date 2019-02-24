@@ -188,6 +188,19 @@ function proposeAddressURI($s) {
     $out=str_replace("Trebsen/Mulde","Trebsen",$out);
     $out=str_replace("DemmeringStrasse","Demmeringstrasse",$out);
     $out=str_replace("04155.Leipzig.GohliserStrasse.6","04105.Leipzig.GohliserStrasse.6",$out);
+    $out=str_replace("LeipzigerStrasse17.A","LeipzigerStrasse.17A",$out);
+    $out=str_replace("Universitaetsstrasse18,Gewerbe.2","Universitaetsstrasse.18",$out);
+    $out=str_replace("Kreuzstrasse3.B","Kreuzstrasse.3B",$out);
+    $out=str_replace("Hildgardstrasse49/.51","Hildgardstrasse.49",$out);
+    $out=str_replace("BautznerStrasse.45-47","BautznerStrasse.45",$out);
+    $out=str_replace("WiesegegenueberAnderAue.35","AnderAue.35",$out);
+    $out=str_replace("Loehrstrasse.3-7","Loehrstrasse.3",$out);
+    $out=str_replace("Muehlstrasse14.E.V.","Muehlstrasse.14",$out);
+    $out=str_replace("Pittlerstrasse21-.25","Pittlerstrasse.21",$out);
+    $out=str_replace("c/oB.Weisshaar;Reichelstrasse.7","Reichelstrasse.7",$out);
+    $out=str_replace("Lene-Voigt-Park,HoeheReichpietschstrasse.53-55","Reichpietschstrasse.53",$out);
+    $out=str_replace("Leipzig..ABELSBERGERSTR.1","Leipzig.GabelsbergerStrasse.1A",$out);
+    $out=str_replace("PragerStrasse.118-136","PragerStrasse.118",$out);
     $out=str_replace("","",$out);
     $out=str_replace("","",$out);
 
