@@ -64,9 +64,29 @@ function checkAdressen() {
         $id=$row["id"];
         $a[$address]=$a[$address].", ".$id;
     }
-    print_r($a);
-    
+    print_r($a);    
 }
+
+function getActivitiesByUser($id) {
+    $res=getFileFromAPI("activities.json");
+    $s=array();
+    foreach ($res as $row) {
+        if (($row["user_id"]==$id)
+        and ($row["start_at"]>="2019-01-01")
+        ) { $s[]=displayActivity($row); }
+    }
+    return join("\n-------\n",$s);
+}
+
+function displayActivity($row) {
+    $s=array();
+    $s[]="Event-ID: ".$row["id"];
+    $s[]="Tag: ".$row["start_at"];
+    $s[]="Titel: ".$row["name"]; 
+    $s[]="Beschreibung: ".$row["description"]; 
+    return join("\n",$s);
+}
+
 
 //echo CollectAllPredicatesByType("activities.json");
 //echo CollectAllPredicates("activities.json");
@@ -78,3 +98,5 @@ function checkAdressen() {
 //echo getFileFromAPI("products.json");
 //echo getFileFromAPI("trade_types.json");
 //echo getFileFromAPI("trade_categories.json");
+
+echo getActivitiesByUser(16);
