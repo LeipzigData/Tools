@@ -78,6 +78,15 @@ function getActivitiesByUser($id) {
     return join("\n-------\n",$s);
 }
 
+function listActivitiesByUser($id) {
+    $res=getFileFromAPI("activities.json");
+    $s=array();
+    foreach ($res as $row) {
+        if ($row["user_id"]==$id) { $s[]=$row["id"]; }
+    }
+    return join(", ",$s);
+}
+
 function displayActivity($row) {
     $s=array();
     $s[]="Event-ID: ".$row["id"];
@@ -99,4 +108,5 @@ function displayActivity($row) {
 //echo getFileFromAPI("trade_types.json");
 //echo getFileFromAPI("trade_categories.json");
 
-echo getActivitiesByUser(16);
+echo getActivitiesByUser(73);
+// echo listActivitiesByUser(73);
