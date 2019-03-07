@@ -68,6 +68,15 @@ function checkAdressen() {
     
 }
 
+function getActivitiesByUser($id) {
+    $res=getFileFromAPI("activities.json");
+    $a=array();
+    foreach ($res as $row) {
+        if ($row["user_id"]==$id) { $a[]=$row["id"] ; }
+    }
+    print_r($a);
+}
+
 //echo CollectAllPredicatesByType("activities.json");
 //echo CollectAllPredicates("activities.json");
 //echo CollectAllPredicates("categories.json");
@@ -78,3 +87,4 @@ function checkAdressen() {
 //echo getFileFromAPI("products.json");
 //echo getFileFromAPI("trade_types.json");
 //echo getFileFromAPI("trade_categories.json");
+getActivitiesByUser(15);
