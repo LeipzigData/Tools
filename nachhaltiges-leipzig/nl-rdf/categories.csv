@@ -1,0 +1,178 @@
+id;parent;name
+8;0;Wirtschaft und Ökonomie
+18;8;nachaltiger Lebensstil
+1;8;Beteiligung / Mitbestimmung
+16;8;lokale Wertschöpfung
+5;8;Engagemenentförderung
+13;8;Inklusion
+12;8;Handlungskompetenz erwerben
+24;8;sozialer Zusammenhalt
+8;8;Familienfreundlichkeit
+25;8;Transparenz
+19;0;Energie, Mobilität und Klimaschutz
+6;19;erneuerbare Ressourcen nutzen
+2;19;Boden und Grundwasser schützen
+11;19;Gesunde Stadt
+19;19;Naturraum schützen
+16;19;lokale Wertschöpfung
+20;19;Recycling
+7;19;fair handeln
+17;19;Luftreinhaltung
+22;19;ressourcenschonend Wirtschaften
+15;19;langlebige Produkte
+9;19;Flächenverbrauch reduzieren
+18;19;nachaltiger Lebensstil
+37;0;Soziale Nachhaltigkeit und Zusammenleben
+5;37;Engagemenentförderung
+18;37;nachaltiger Lebensstil
+24;37;sozialer Zusammenhalt
+13;37;Inklusion
+1;37;Beteiligung / Mitbestimmung
+14;37;Kinderfreundlichkeit
+12;37;Handlungskompetenz erwerben
+8;37;Familienfreundlichkeit
+23;37;Solidarität
+16;37;lokale Wertschöpfung
+3;37;Chancengerechtigkeit
+22;37;ressourcenschonend Wirtschaften
+19;37;Naturraum schützen
+7;37;fair handeln
+17;37;Luftreinhaltung
+2;37;Boden und Grundwasser schützen
+10;37;Generationengerechtigkeit
+6;37;erneuerbare Ressourcen nutzen
+20;37;Recycling
+25;37;Transparenz
+4;37;Effizienz
+26;37;Wohnsituation
+21;37;reparaturfreundliche Produkte
+11;37;Gesunde Stadt
+9;37;Flächenverbrauch reduzieren
+15;37;langlebige Produkte
+50;0;Ernährung und Gärtnern
+18;50;nachaltiger Lebensstil
+19;50;Naturraum schützen
+16;50;lokale Wertschöpfung
+2;50;Boden und Grundwasser schützen
+22;50;ressourcenschonend Wirtschaften
+14;50;Kinderfreundlichkeit
+8;50;Familienfreundlichkeit
+7;50;fair handeln
+9;50;Flächenverbrauch reduzieren
+11;50;Gesunde Stadt
+25;50;Transparenz
+6;50;erneuerbare Ressourcen nutzen
+12;50;Handlungskompetenz erwerben
+5;50;Engagemenentförderung
+24;50;sozialer Zusammenhalt
+13;50;Inklusion
+23;50;Solidarität
+1;50;Beteiligung / Mitbestimmung
+20;50;Recycling
+3;50;Chancengerechtigkeit
+17;50;Luftreinhaltung
+21;50;reparaturfreundliche Produkte
+15;50;langlebige Produkte
+10;50;Generationengerechtigkeit
+26;50;Wohnsituation
+51;0;Stadtraum, Bauen, Wohnen
+19;51;Naturraum schützen
+1;51;Beteiligung / Mitbestimmung
+14;51;Kinderfreundlichkeit
+26;51;Wohnsituation
+7;51;fair handeln
+15;51;langlebige Produkte
+8;51;Familienfreundlichkeit
+18;51;nachaltiger Lebensstil
+16;51;lokale Wertschöpfung
+11;51;Gesunde Stadt
+24;51;sozialer Zusammenhalt
+52;0;Nachhaltiger Konsum
+18;52;nachaltiger Lebensstil
+22;52;ressourcenschonend Wirtschaften
+16;52;lokale Wertschöpfung
+7;52;fair handeln
+15;52;langlebige Produkte
+11;52;Gesunde Stadt
+9;52;Flächenverbrauch reduzieren
+6;52;erneuerbare Ressourcen nutzen
+2;52;Boden und Grundwasser schützen
+23;52;Solidarität
+19;52;Naturraum schützen
+25;52;Transparenz
+4;52;Effizienz
+14;52;Kinderfreundlichkeit
+1;52;Beteiligung / Mitbestimmung
+21;52;reparaturfreundliche Produkte
+5;52;Engagemenentförderung
+12;52;Handlungskompetenz erwerben
+24;52;sozialer Zusammenhalt
+20;52;Recycling
+8;52;Familienfreundlichkeit
+3;52;Chancengerechtigkeit
+53;0;Reparieren und Wiederverwenden
+22;53;ressourcenschonend Wirtschaften
+18;53;nachaltiger Lebensstil
+20;53;Recycling
+15;53;langlebige Produkte
+16;53;lokale Wertschöpfung
+23;53;Solidarität
+21;53;reparaturfreundliche Produkte
+24;53;sozialer Zusammenhalt
+4;53;Effizienz
+7;53;fair handeln
+54;0;Bildung und Forschung
+12;54;Handlungskompetenz erwerben
+18;54;nachaltiger Lebensstil
+1;54;Beteiligung / Mitbestimmung
+14;54;Kinderfreundlichkeit
+13;54;Inklusion
+19;54;Naturraum schützen
+16;54;lokale Wertschöpfung
+5;54;Engagemenentförderung
+24;54;sozialer Zusammenhalt
+6;54;erneuerbare Ressourcen nutzen
+3;54;Chancengerechtigkeit
+2;54;Boden und Grundwasser schützen
+22;54;ressourcenschonend Wirtschaften
+8;54;Familienfreundlichkeit
+23;54;Solidarität
+7;54;fair handeln
+20;54;Recycling
+11;54;Gesunde Stadt
+9;54;Flächenverbrauch reduzieren
+17;54;Luftreinhaltung
+21;54;reparaturfreundliche Produkte
+25;54;Transparenz
+10;54;Generationengerechtigkeit
+15;54;langlebige Produkte
+26;54;Wohnsituation
+55;0;Kultur und Kunst
+5;55;Engagemenentförderung
+18;55;nachaltiger Lebensstil
+23;55;Solidarität
+24;55;sozialer Zusammenhalt
+12;55;Handlungskompetenz erwerben
+1;55;Beteiligung / Mitbestimmung
+8;55;Familienfreundlichkeit
+7;55;fair handeln
+20;55;Recycling
+11;55;Gesunde Stadt
+21;55;reparaturfreundliche Produkte
+3;55;Chancengerechtigkeit
+14;55;Kinderfreundlichkeit
+15;55;langlebige Produkte
+22;55;ressourcenschonend Wirtschaften
+13;55;Inklusion
+19;55;Naturraum schützen
+169;0;Nachhaltiger Lebensstil
+176;0;Nachhaltig Wirtschaften
+187;0;Energie / Klimaschutz
+205;0;Soziale Nachhaltigkeit
+5;205;Engagemenentförderung
+24;205;sozialer Zusammenhalt
+13;205;Inklusion
+14;205;Kinderfreundlichkeit
+3;205;Chancengerechtigkeit
+23;205;Solidarität
+218;0;Gesundheit
