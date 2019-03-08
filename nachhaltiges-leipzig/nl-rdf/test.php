@@ -97,16 +97,23 @@ function displayActivity($row) {
 }
 
 function collectGoals() {
-    $res=getFileFromAPI("activities.json");
+    $string=file_get_contents("/home/graebe/git/LD/web/demo/zd-web/activities.json");
+    $res=json_decode($string, true);
+    //$res=getFileFromAPI("activities.json");
     $a=array();
     foreach ($res as $row) {
         $a=getGoals($a,$row);
     }
-    return $out;
+    return join("\n",$a);
 }
 
 function getGoals($a,$row) {
-    return $a;    
+    if (isset($row["goals"])) {
+        foreach($row["goals"] as $v) {
+            $a[$v]=$v;
+        }
+    }
+    return $a;
 }
 
 function getCategories() {
@@ -138,4 +145,6 @@ function getCategories() {
 // echo getActivitiesByUser(73);
 // echo listActivitiesByUser(73);
 
-echo getCategories();
+// echo getCategories();
+
+echo collectGoals();
