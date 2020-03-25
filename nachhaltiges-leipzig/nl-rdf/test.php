@@ -67,6 +67,31 @@ function checkAdressen() {
     print_r($a);    
 }
 
+// -----  Display Bildungsangebote ------------
+
+function getBildungsangebote() {
+    $string=file_get_contents("/home/graebe/git/LD/web/demo/zd-web/activities.json");
+    $res=json_decode($string, true);
+    $s=array();
+    foreach ($res as $row) {
+        if (($row["type"]=="Service")
+        and ($row["service_type"]=="Bildungsangebot")
+        ) { $s[]=displayAngebot($row); }
+    }
+    return join("\n-------\n",$s);
+}
+
+function displayAngebot($row) {
+    $s=array();
+    $s[]="Event-ID: ".$row["id"];
+    $s[]="Service-Type: ".$row["service_type"];
+    $s[]="Titel: ".$row["name"]; 
+    $s[]="Beschreibung: ".$row["description"]; 
+    return join("\n",$s);
+}
+
+// -----  Display Activities ------------
+
 function getActivitiesByUser($id) {
     $res=getFileFromAPI("activities.json");
     $s=array();
@@ -96,6 +121,8 @@ function displayActivity($row) {
     return join("\n",$s);
 }
 
+// -----  Display Goals ------------
+
 function collectGoals() {
     $string=file_get_contents("/home/graebe/git/LD/web/demo/zd-web/activities.json");
     $res=json_decode($string, true);
@@ -116,6 +143,8 @@ function getGoals($a,$row) {
     return $a;
 }
 
+// -----  Display Categories ------------
+
 function getCategories() {
     $res=getFileFromAPI("categories.json");
     $a=array();
@@ -127,9 +156,6 @@ function getCategories() {
     }
     return join("\n",$a);
 }
-
-
-
 
 //echo CollectAllPredicatesByType("activities.json");
 //echo CollectAllPredicates("activities.json");
@@ -146,5 +172,5 @@ function getCategories() {
 // echo listActivitiesByUser(73);
 
 // echo getCategories();
-
-echo collectGoals();
+// echo collectGoals();
+echo getBildungsangebote(); 
