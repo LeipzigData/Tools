@@ -13,7 +13,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-  Die Leipziger Nachhaltigkeitsdatenbank (ND) ist ein von RENN.Mitte und der
+  Die Leipziger Nachhaltigkeitsdatenbank (NDL) ist ein von RENN.Mitte und der
   Leipziger Zukunftsakademie vorangetriebenes Projekt, um regionale
   Aktivitäten im BNE- und MINT-Bereich in Leipzig zu unterstützen und zu
   popularisieren.
@@ -80,6 +80,9 @@ Aktuell gehören zum Betreiberteam
     Joschka ?? & afeefa & seit 29.11.2019
   \end{tabular}
 \end{center}
+Admins erhalten bei Änderungen an der Datenbank (Eintrag neuer Akteure oder
+Aktivitäten) eine Mail mit einer Kurzzusammenafssung der Änderung.
+
 \paragraph{Level 3.}
 Datenbank und Erfassungssystem wurden ursprünglich von der Firma
 \emph{aboutSource}\footnote{\url{https://www.aboutsource.net/}} entwickelt und
@@ -92,35 +95,49 @@ Ganze seither auch betreibt.
 
 \section{Nutzung der Datenbank}
 
-Informationen der Datenbank werden derzeit an folgenden Stellen genutzt:
+\subsection{Die REST-Schnittstelle}
 
-\paragraph{Im Veranstaltungskalender des Forums Nachhaltiges Leipzig.}
+Informationen der Datenbank können über eine REST-Schnittstelle ausgelesen
+werden, die über konkrete Erweiterungen des Präfix
+\begin{center}
+  \texttt{\$NDL = https://daten.nachhaltiges-leipzig.de/api/v1/}
+\end{center}
+angesprochen werden und die entsprechenden Informationen im JSON-Format
+zurückliefern.
+
+\subsection{Forum Nachhaltiges Leipzig}
+
+Das volle Angebot wird im Veranstaltungskalender des Forums Nachhaltiges
+Leipzig
 \begin{center}
   \url{https://www.nachhaltiges-leipzig.de/leben/events}
 \end{center}
+angezeigt, das nach verschiedenen Kategorien und Parametern sortiertt und
+gefiltert werden kann.
+
 Dieser Veranstaltungskalender wurde von der Firma \emph{Studio
   Bosco}\footnote{\url{https://www.studiobosco.de}} auf der Basis der
 REST-Schnittstelle konzipiert. 
 
-\paragraph{Im Veranstaltungskalender des Zukunftsdiploms.}
+\subsection{Zukunftsdiplom}
+
+Auf der Wordpress basierten Website der Zukunftsakademie werden unter 
 \begin{center}
   \url{https://www.zukunftsakademie-leipzig.de/ziele/zukunftsdiplom/veranstaltungen-und-aktionen-zum-zukunftsdiplom/}
 \end{center}
+die Veranstaltungen des aktuellen Zukunftsdiploms angezeigt.
 
-Die Webseite in der Wordpress basierten Website der Zukunftsakademie enthält
-als experimentelle prototypische Implementierung einen WP-Shortcode, der das
-Skript \texttt{content.php} aus der Demo-Version zur ND-Schnittstelle im
-Leipzig-Data-Projekt einbindet, siehe das github-Projekt
-\texttt{LeipzigData/web}, Verzeichnis \texttt{demo/zd-web}.
-
-Der Code des Plugins ist ebenda im Verzeichnis \texttt{plugins/zukunftsdiplom}
-zu finden. 
+Diese experimentelle prototypische Implementierung ist über einen WP-Shortcode
+realisiert, der über ein Plugin eigebunden ist und das Skript
+\texttt{content.php} aus der Demo-Version zur NDL-Schnittstelle im
+Leipzig-Data-Projekt einbindet. Der Code dazu ist im github-Projekt
+\texttt{LeipzigData/web}, Verzeichnis \texttt{demo/zd-web} zu finden, der Code
+des Plugins ebenda im Verzeichnis \texttt{plugins/zukunftsdiplom}.
 
 \section{Datenmodell}
 
 Im Modell werden die zwei Klassen \emph{Akteure} (\texttt{users}) und
-\emph{Aktivitäten} (\texttt{activities}) unterschieden, welche über die
-REST-API ausgelesen werden können.  Im Modell sind weitere Datenstrukturen
+\emph{Aktivitäten} unterschieden.  Im Modell sind weitere Datenstrukturen
 implizit als Konzepte vorhanden.
 
 Das ist zum einen eine genauere Aufteilung eines \emph{Akteurs} in
@@ -131,7 +148,8 @@ Das ist zum einen eine genauere Aufteilung eines \emph{Akteurs} in
 \item die Accountdaten des Ansprechpartners,
 \end{itemize}
 die alle in einer gemeinsamen Datenbanktabelle \emph{users} zusammengefasst
-sind.
+sind, welche über die REST-Schnittstelle \texttt{\$NDL/users.json} ausgelesen
+werden kann.
 
 \emph{Aktivitäten} sind in verschiedene Aktivitätstypen unterteilt, welche
 durch den Wert eines speziellen Attributs \texttt{type} unterschieden werden.
@@ -139,7 +157,9 @@ Neben generischen Attributen haben die einzelnen Aktivitätstypen weitere
 spezielle Attribute, was man in einer zweistufigen (erweiterbaren)
 Vererbungshierarchie oder in einem RDF-Modell bzw. als abstrakten Datentyp (im
 Sinne etwa von Java Interfaces) als Mengen von Signaturen beschreiben kann.
-Im Weiteren wird die letztere Darstellungsform verwendet. 
+Im Weiteren wird die letztere Darstellungsform verwendet. Die Aktivitäten
+können über die REST-Schnittstelle \texttt{\$NDL/activities.json} ausgelesen
+werden.
 
 Die Klasse \emph{Akteure} umfasst ein Sublimat aus Informationen zu
 \texttt{ld:Akteur}, zu dessen Adresse sowie zu Personen, die für den Akteur
@@ -151,7 +171,7 @@ eines Bildungsangebots) als Teilinterface mit [Name, Email-Adresse, Telefon]
 verwendet.
 
 Die Klasse \emph{Aktivitäten} zerfällt in die Unterklassen („Datensatztypen“
-in der NL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
+in der NDL-Sprache) \texttt{Event}, \texttt{Action}, \texttt{Project},
 \texttt{Service} und \texttt{Store}, die über das Feld \texttt{type}
 unterschieden werden. Im Zuge der Überarbeitung Ende 2018 wurden die „Klassen“
 \texttt{Ressource}, \texttt{Bildungsangebot} und \texttt{Beratungsangebot} als
@@ -165,11 +185,14 @@ Erfassungsmasken für die Datensatztypen \emph{Project}, \emph{Event},
 Unterscheidung der Instanzen werden ID's als numerische Primärschlüssel der
 Datenbank verwendet.
 
-\paragraph{Adressen.} 
-In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) soll eine
-weitere Klasse \emph{Orte} ergänzt werden, die eine akteursübergreifende
-Verwaltung von Adressdaten umsetzt. Eine \emph{Adresse} ist dabei eine
-implizite Datenstruktur, die über die API als Menge von Attributen
+In der Anforderungsbeschreibung Ende 2017 für eine Erweiterung wurde eine
+weitere Klasse \emph{Orte} ergänzt, die eine akteursübergreifende Verwaltung
+von Adressdaten umsetzt. Die Orte können über die REST-Schnittstelle
+\texttt{\$NDL/locations.json} ausgelesen werden.
+
+\paragraph{Adressen.}
+Eine \emph{Adresse} ist eine implizite Datenstruktur, die über die API als
+Menge von Attributen
 \begin{itemize}\itemsep0pt
   \item full\_address -- String
   \item district -- String
@@ -179,29 +202,27 @@ ausgeliefert wird. \texttt{full\_address} ist dabei bereits ein Aggregat, das
 aus den intern separierten Bestandteilen \emph{Straße und Hausnummer},
 \emph{PLZ} und \emph{Ort} kombiniert wurde.
 
-Adressen\footnote{In der NL-Terminologie „Orte“, allerdings werden zu Orten in
-  der aktuellen Konzeption keine Daten jenseits der Adressdaten und eines
-  (verbindlichen) Namens gespeichert.} werden grundsätzlich als Datenaggregate
-verwaltet, nicht als Datenobjekte.  Wenn zu einer Aktivität keine Adresse
-angegeben ist, wird die Adresse aus den Profildaten des Akteurs übernommen.
-Spätere Änderungen dieser Profildaten haben aber aktuell keine Auswirkung auf
-diesen Klon.
+Adressen werden grundsätzlich als Datenaggregate verwaltet, nicht als
+Datenobjekte.  Wenn zu einer Aktivität keine Adresse angegeben ist, wird die
+Adresse aus den Profildaten des Akteurs übernommen.  Spätere Änderungen dieser
+Profildaten haben aber aktuell keine Auswirkung auf diesen Klon.
 
-Es ist eine akteursübergreifende Datenbank zu Orten im Aufbau, aus der häufig
-verwendete Adressdaten übernommen werden können.  Auch dies geschieht durch
-einfache Übernahme der entsprechenden Attributwerte. Geplant ist, Änderungen
-in dieser Datenbasis in die entsprechenden ADressfelder von Aktivitäten (und
-auch Akteuren?) zu propagieren, wozu ein System von Backlinks aufgebaut werden
-müsste. Unklar bleibt, wie mit zwischenzeitlichen Änderungen umgegangen wird,
-die vom Besitzer der Aktivität an den früher übernommenen Adressdaten
-vorgenommen worden sind.
+Inzwischen wurde eine akteursübergreifende Datenbank zu \emph{Orten}
+aufgebaut, aus der häufig verwendete Adressdaten übernommen werden können.
+Auch dies geschieht durch einfache Übernahme der entsprechenden Attributwerte,
+womit eine spätere Modifizierung der Ortseintrags keine Auswirkungen auf diese
+Kopien hat.
+
+Geplant ist, Änderungen in dieser Datenbasis in die entsprechenden
+Adressfelder von Aktivitäten (und auch Akteuren?) zu propagieren, wozu ein
+System von Backlinks aufgebaut werden müsste. 
 
 \paragraph{Akteure.}
 In der Collection \texttt{users} (Akteure) sind Informationen über Akteure
 zusammengefasst, wobei nicht zwischen den juristischen Personen und den für
 diese agierenden Personen unterschieden wird. 
 
-Prädikate in users.json:
+Prädikate in \texttt{users.json}:
 \begin{itemize}\itemsep0pt
 \item Akteur
 \begin{itemize}\itemsep0pt
@@ -319,6 +340,27 @@ Auf dieser Basis sind folgende Transformationen nach LDD möglich:
   transformiert werden.
 \end{itemize}
 
+\paragraph{Orte.}
+\texttt{locations} ist ein später hinzugefügter Typ, um Adressen zentral zu
+verwalten.  Der Datentyp ist weitgehend nach dem Konzept der
+\texttt{ld:Adresse} modelliert.  Zu beachten ist allerdings, dass die Angaben
+in den einzelnen Feldern extrem variieren und unter den 391 Einträgen (Stand
+25.03.2020) auch Mehrfacheinträge zum selben Ort vorhanden sind.  Eine
+sinnvolle Trasformation zum Datentyp \texttt{ld:Adresse} ist deshalb erst nach
+einer fundamentalen Konsolidierung dieses Datenbestands möglich.
+
+Prädikate in \texttt{locations.json}:
+\begin{itemize}\itemsep0pt
+  \item id -- String	
+  \item name -- String, Name des Ortes
+  \item street -- String, Straße und Hausnummer
+  \item zip -- String, Postleitzahl
+  \item city -- String, Ort
+  \item street\_name -- String, Name der Straße
+  \item house\_number -- String, Hausnummer
+\end{itemize}
+
+
 \paragraph{Weitere Teile der Modellierung.}
 Diese sind noch wenig ausgearbeitet und enthalten oft nur wenige Instanzen pro
 Klasse. 
@@ -338,3 +380,23 @@ Klasse.
 \end{itemize}
 
 \end{document}
+
+/* == REST-API ==
+
+Basis-URL: daten.nachhaltiges-leipzig.de
+
+API:
+    /api/v1/activities.json
+    /api/v1/activities/[id].json
+    /api/v1/categories.json
+    /api/v1/categories/[id].json
+    /api/v1/products.json
+    /api/v1/products/[id].json
+    /api/v1/trade_types.json
+    /api/v1/trade_categories.json
+    /api/v1/users.json
+    /api/v1/users/[id].json
+    /api/v1/locations.json
+    /api/v1/locations/[id].json
+*/
+
