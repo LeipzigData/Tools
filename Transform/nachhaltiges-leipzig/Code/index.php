@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2018-01-07
- * LastUpdate: 2018-08-05
+ * LastUpdate: 2020-03-27
  */
 
 function pageHeader() {
@@ -32,7 +32,7 @@ function generalContent() {
 <div class="container">
 <div style="text-align:left"><a href=".">Back</a></div>
 
-  <h1 align="center">Nachhaltiges Leipzig RDF Infoseite</h1>
+  <h1 align="center">Nachhaltiges Leipzig Demo Transformationen</h1>
 
 <p> Mit dieser kleinen Anwendung wird gezeigt, wie sich aus der SQL-basierten
 Plattform <a href="https://daten.nachhaltiges-leipzig.de/"
@@ -54,11 +54,6 @@ function applicationList() {
 <li> <a href="./getdata.php?show=akteure&embedded=true">Die Akteure</a></li>
 <li> <a href="./getdata.php?show=personen&embedded=true">Die Personen</a></li>
 <li> <a href="./getdata.php?show=aktivitaeten&embedded=true">Die Aktivitäten</a></li>
-<li> <a href="./getdata.php?show=events&embedded=true">Die Events</a></li>
-<li> <a href="./getdata.php?show=aktionen&embedded=true">Die Aktionen</a></li>
-<li> <a href="./getdata.php?show=projekte&embedded=true">Die Projekte</a></li>
-<li> <a href="./getdata.php?show=services&embedded=true">Die Services</a></li>
-<li> <a href="./getdata.php?show=stores&embedded=true">Die Stores</a></li>
 </ul>
 </div> 
 ';
