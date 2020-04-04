@@ -6,32 +6,43 @@ Im Sommersemester 2015 wurde in einem Projektpraktikum an der Uni Leipzig der
 Verein "Helden wider Willen e.V." unterstützt, eine Drupal-basierte
 Stadtteilplattform aufzubauen, die nach einer weiteren Konsolidierungsphase im
 Wintersemester 2015 seither unter <http://leipziger-ecken.de/> zu erreichen
-ist.  Die Stadtteilplattform ist eine Standard-Drupal-Installation, für die
-ein weiteres Modul `aae_data` zur Verwaltung der Daten zu Akteuren und Events
-entwickelt wurde.  Der Code dazu ist zusammen mit einem eher spezifischen
-Theme `aae_theme` als Projekt "easteasteast" bei
-[github.com](https://github.com/JuliAne/easteasteast) zu finden und wird
-ständig weiterentwickelt.
+ist.
 
-- http://pcai042.informatik.uni-leipzig.de/swp/SWP-15/AAE-15.html
-- https://github.com/JuliAne/easteasteast
+Die Stadtteilplattform ist eine Standard-Drupal-Installation, für die ein
+weiteres Modul `aae_data` als RDF/JSON API zu den Daten der Akteure und Events
+entwickelt wurde.  Der Code dazu ist zusammen mit einem eher spezifischen
+Theme `aae_theme` als github-Projekt "easteasteast" zu finden, scheint aber
+nicht weiterentwickelt zu werden - die letzten commits sind vom Oktober 2017.
+
+- <http://pcai042.informatik.uni-leipzig.de/swp/SWP-15/AAE-15.html>
+- <https://github.com/JuliAne/easteasteast>
 
 ## Konzeptionelle Überlegungen 
 
-Da der Anspruch der Entwicklung einer *semantischen* Stadtteilplattform dabei
-nicht realisiert wurde, die in der Lage ist, die oben formulierte Vision des
-Datenaustauschs auf RDF-Basis umzusetzen, soll diese Vision nun in einem
-kleinen Nachfolgeprojekt mit beschränkten Ressourcen weiter konkretisiert
-werden.
+Ein sinnvoller semantischer Austausch zwischen verschiedenen Plattformen
+bzw. auch nur die Nutzung von Daten aus verschiedenen solchen Quellen in einer
+gemeinsamen Website ist nur bei einigermaßen harmonisierten Datenmodellen
+möglich.
 
-Als "einfache Lösung" wurde eine direkte Daten-Transformation eingerichtet,
-die sich im Backend ausrollen lässt, über einen Web Service `getdata.php`
-angesprochen werden kann und unmittelbar über die entsprechende
-Drupal-Schnittstelle auf die Datenbank zugreift. Der Code dazu ist im
-Verzeichnis `API-Code` zu finden und auch auf der Plattform unter der Adresse
-<http://leipziger-ecken.de/Daten> produktiv ausgerollt (Stand April 2020).
+Eine solche Harmonisierung ist weniger ein _technischer_ als vielmehr ein
+_sozialer_ Prozess, denn über eine Harmonisierung können nur Betreiber
+verhandeln, die zu einer solchen Harmonisierung _bereit_ sind und nicht darauf
+beharren, dass ihre eigene Plattform der Nabel der Welt ist und alle anderen
+sich daran anzupassen haben.
 
-## Nutzung der API
+## Die API
 
-Eine experimentelle Nutzung der API wird im Repo `LeipzigData/web` im
-Verzeichnis `demo/le-web` untersucht.  Work in progress ...
+Um dies zu befördern, müssen sinnvolle Daten zunächst von einer API
+bereitgestellt werden.  Dies ist mit der API
+<https://leipziger-ecken.de/Data/> umgesetzt, welche eine Webseite erzeugt,
+auf der die exportierten Daten angezeigt werden (Stand April 2020).
+
+Die Funktionalität, Daten unmittelbar aus der Datenbank zu extrahieren und als
+RDF/JSON zu exportieren, sind in einem Drupal-Modul implementiert, dessen Code
+im Verzeichnis `API-Code` zu finden ist.
+
+Die API kann auch über einen Web Service `getdata.php` angesprochen werden,
+siehe dazu das `Makefile` in diesem Verzeichnis.
+
+Eine experimentelle Nutzung der API ist im Repo `LeipzigData/web` im
+Verzeichnis `demo/le-web` ausgerollt. 
