@@ -1,35 +1,64 @@
-Quellen für Datentransformationen
+# Quellen für Datentransformationen
 
-* kitas.json - Kitas in Leipzig. Extrahiert von codefor.de/leipzig aus
-  gescrapten Stadtdaten, Stand 2014. Transformiert in Kitas.ttl
-  https://codefor.de/projekte/2014-05-06-le-kitas_und_schulen_in_leipzig.html
+## kitas.json
 
-* playgrounds.json - Spielplätze in Leipzig. Extrahiert von codefor.de/leipzig
-  aus gescrapten Stadtdaten, Stand 2014. Transformiert in Spielplaetze.ttl
+Kitas in Leipzig. Extrahiert von codefor.de/leipzig aus gescrapten Stadtdaten,
+Stand 2014. Transformiert in Kitas.ttl
 
-* horte-leipzig.csv - Horte in Leipzig. Extrahiert von Tobias Mann im Rahmen
-  des Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juni 2018. Transformiert
-  in Horte.ttl
-  https://www.leipzig.de/jugend-familie-und-soziales/kinderbetreuung/horte
+Quelle: <https://codefor.de/projekte/le-kitas_und_schulen_in_leipzig/>
 
-* grundschulen.csv - Grundschulen in Leipzig. Extrahiert von Tobias Mann im
-  Rahmen des Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018. In
-  Schulen.ttl eingearbeitet.
-  https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/grundschulen/
+## playgrounds.json
 
-* berufsschulen.csv - Berufsschulen in Leipzig. Extrahiert von Tobias Mann im
-  Rahmen des Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018. In
-  Schulen.ttl eingearbeitet.
-  https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/berufliche-schulen/
+Spielplätze in Leipzig. Extrahiert von codefor.de/leipzig aus gescrapten
+Stadtdaten, Stand 2014. Transformiert in Spielplaetze.ttl
 
-* stops.txt - Haltestellenliste (Stand 2018)
-  Quelle: https://opendata.leipzig.de/dataset/lvb-fahrplandaten
-  Transformiert in Haltestellen.ttl
-  Extraktion der zugehörigen Linien ist etwas diffizil, siehe dazu
-  ld-workbench/OpenData-Leipzig/Fahrplaene
+## horte-leipzig.csv
 
-* leipzig-de.json - Dump von https://afeefa.de/api/marketentries?area=leipzig
-  API soll aber noch umgestaltet werden. 
+Horte in Leipzig. Extrahiert von Tobias Mann im Rahmen des Zukunftsdiploms aus
+gescrapten Stadtdaten, Stand Juni 2018. Transformiert in Horte.ttl
+
+Quelle: <https://www.leipzig.de/jugend-familie-und-soziales/kinderbetreuung/horte> 
+
+## Schulen
+
+### grundschulen.csv
+
+Grundschulen in Leipzig. Extrahiert von Tobias Mann im Rahmen des
+Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018. In Schulen.ttl
+eingearbeitet.
+
+Quelle: <https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/grundschulen/>
+
+### berufsschulen.csv
+
+Berufsschulen in Leipzig. Extrahiert von Tobias Mann im Rahmen des
+Zukunftsdiploms aus gescrapten Stadtdaten, Stand Juli 2018. In Schulen.ttl
+eingearbeitet.
+
+Quelle: <https://www.leipzig.de/jugend-familie-und-soziales/schulen-und-bildung/schulen/berufliche-schulen/>
+
+### Schulen in Sachsen
+
+Die sächsische Schuldatenbank kann über eine API, die unter
+<https://schuldatenbank.sachsen.de/docs/api.html> beschrieben ist, ausgelesen
+werden. Wie das genau funktioniert, ist wenig plausibel, allerdings kann ein
+[Dump aller Schulen](https://schuldatenbank.sachsen.de/api/v1/schools)
+heruntergeladen werden (aber nur direkt von der Webseite, ansonsten greift die
+Beschränkung auf 20 Einträge). Dieser ist unter schools.json gespeichert. 
+
+## stops.txt
+
+Haltestellenliste (Stand 2018)
+
+Quelle: <https://opendata.leipzig.de/dataset/lvb-fahrplandaten>
+
+Transformiert in Haltestellen.ttl Extraktion der zugehörigen Linien ist etwas
+diffizil, siehe dazu ld-workbench/OpenData-Leipzig/Fahrplaene
+
+## leipzig-de.json
+
+Dump von <https://afeefa.de/api/marketentries?area=leipzig>.  API soll aber
+noch umgestaltet werden. (Stand 2018)
 
 Analyse der Schnittstelle:
 
