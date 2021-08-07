@@ -1,48 +1,30 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Created: 2018-08-04
- * Last Update: 2020-03-27
+ * Last Update: 2021-08-07
 
- * Extrahiere Akteursinformationen aus dem Dump ../Daten/users.json
-
- * Es werden Instanzen der Klasse nl:Akteur erzeugt. Jede Instanz hat die
- * NL-URI http://nachhaltiges-leipzig.de/Data/Akteur.<id> sowie eine aus dem
- * Namen abgeleitete LD-URI. Aus der Adresse wird weiter eine LD-Adress-URI
- * berechnet, die in einem weiteren Arbeitsgang zu konsolidieren sind.  
-
- * Es gibt zwei Ausgaberoutinen. getAkteure() ist ausführlicher und sortiert
- * die Instanzen nach der NL-URI.  getLDAkteure() ist kompakter und sortiert
- * die Instanzen nach der LD-URI.  Letztere Daten dienen dem Abgleich mit den
- * Einträgen in leipzig-data.de, wobei die Akteure nach Adressen und Namen
- * sortiert werden.
-
- * Alle personenbezogenen Daten sind in personen.php ausgelagert und werden von
- * dort referenziert.  Hier werden keine personenbezogenen Daten gespeichert.
-
- * Prädikate sind in der Datei README.md genauer beschrieben. 
+ * Extrahiere Akteursinformationen aus den verschiedenen Dumps
 
  */
 
 include_once("helper.php");
 
-function getAkteure() {
-    $src="../Daten/users.json";
+function getNLAkteure() {
+    $src="../Dumps/nachhaltiges-sachsen/Users.json";
     $string = file_get_contents($src);
     $res = json_decode($string, true);
-    $out=''; // print_r($res);
+    $a=array();
     foreach ($res as $row) {
-        $out.=createAkteur($row);
+        $id=$row["id"];
+        $b=array();
+        $b[]=' a org:Organization';
+        $b=addLiteral($b,'skos:prefLabel',$row['name']);
+        $b=addLiteral($b,'ld:hasType',$row['organization_type']);
+        $b=addResource($b,'foaf:homepage',"",$row['organization_url']);
+        $a[]='<http://nachhaltiges-sachsen.de/rdf/User_'.$id.'>'.
+            join(" ;\n  ",$b) . " ." ;
     }
-  
-    return TurtlePrefix().'
-<http://nachhaltiges-leipzig.de/Data/Akteure/> a owl:Ontology ;
-    rdfs:comment "Dump aus der Datenbank";
-    dct:created "2019-02-24" ; 
-    rdfs:label "Nachhaltiges Leipzig - Akteure" .
-
-'.$out;
-
+    return $a;
 }
 
 function createAkteur($row) {
@@ -139,7 +121,7 @@ function createAkteursOrt($row) {
 }
 
 // zum Testen
-// echo getAkteursOrte();
+echo TurtlePrefix().join("\n\n", getNLAkteure());
 // echo getLDAkteure(1);
 
 ?>

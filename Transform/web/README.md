@@ -1,4 +1,4 @@
-# Erzeugung von RDF-Daten aus der API "Nachhaltiges Leipzig"
+# Erzeugung von RDF-Daten aus den APIs der verschiedenen Projekte
 
 ## Grundsätzliche Struktur des Verzeichnisses
 

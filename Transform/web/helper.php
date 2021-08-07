@@ -47,13 +47,14 @@ return '
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix ld: <http://leipzig-data.de/Data/Model/> .
-@prefix nl: <http://nachhaltiges-leipzig.de/Data/Model#> .
-@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+
 
 
 ';
