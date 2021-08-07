@@ -45,4 +45,9 @@ Die API kann auch über einen Web Service `getdata.php` angesprochen werden,
 siehe dazu das `Makefile` in diesem Verzeichnis.
 
 Eine experimentelle Nutzung der API ist im Repo `LeipzigData/web` im
-Verzeichnis `demo/le-web` ausgerollt. 
+Verzeichnis `demo/le-web` ausgerollt.
+
+## Neue API
+
+2021 wurde im Zusammenhang mit Drupal 8 eine neue API implementiert, siehe
+<https://github.com/Leipziger-Ecken/drupal/blob/master/docu/API.md>. 

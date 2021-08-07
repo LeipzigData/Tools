@@ -1,12 +1,16 @@
 \documentclass[a4paper,11pt]{article}
-\usepackage{a4wide,ngerman,url}
+\usepackage{a4wide,ngerman,url,enumitem}
 \usepackage[utf8]{inputenc}
 \parskip4pt
 \parindent0pt
+\setlist{noitemsep}
+\newenvironment{code}{\tt \begin{tabbing}
+\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip5cm\=\hskip5cm\=\kill}
+{\end{tabbing}}
 
 \title{Datenmodelle verschiedener\\ Leipziger Plattformen im Vergleich} 
 \author{Hans-Gert Gräbe}
-\date{Version vom 19. Februar 2019}
+\date{Version vom 7. August 2021}
 
 \begin{document}
 \maketitle
@@ -28,34 +32,31 @@ Eines der Ziele des \emph{Leipzig Data
   Projekts}\footnote{\url{http://leipzig-data.de/}.} besteht darin, einen
 \textbf{Leipziger Open Data Raum} voranzubringen, indem verschiedene dieser
 Leipziger Portalanbieter miteinander vernetzt werden. Ein erfolgversprechendes
-Vorgehen wurde mit den Partnern \emph{Leipziger Ecken} sowie
-\emph{Nachhaltiges Leipzig} entwickelt:
+Vorgehen setzt auf dies folgenden Prämissen:
 \begin{itemize}
 \item [1)] Die Partner betreiben eigene Portale zur Datenerfassung und
   organisieren den dazu erforderlichen techno-sozialen Prozess einschließlich
   einer gewissen Qualitätssicherung (insbesondere Spamvermeidung) in ihrer
   jeweiligen Zielgruppe. 
-\item [2)] Über eine Schnittstelle (REST, JSON, RDF, \ldots) wird lesender
-  Zugriff auf einen definierten Teil der Daten gewährt.
+\item [2)] Über eine Schnittstelle (derzeit präferiert im JSON-Format) wird
+  lesender Zugriff auf einen definierten Teil der Daten gewährt.
 \item [3)] Diese Schnittstellen werden im Kontext von \emph{Leipzig Data}
   integriert, entsprechende Metadaten und Dienste entwickelt, um einen
   einheitlichen \emph{verteilten} Datenraum zu konstituieren, der über diese
-  integrierte Schnittstelle angemessen semantisch exploriert werden kann. 
+  integrierte Schnittstelle angemessen exploriert werden kann. 
 \end{itemize}
 Die Schnittstellen der einzelnen Partner greifen üblicherweise auf eine lokale
 Datenbank zu, welche die lokal verwalteten Zustände (also genaue Informationen
 über einzelne Akteure, Orte, Events, \ldots\ auf Instanzebene) einmal für die
-eigene Webdarstellung verwaltet und zum anderen für den Austausch vorhält. 
-
-Jeder solchen Datenbank liegt ein eigenes \emph{Datenbankschema} und damit
-letztlich ein eigenes \emph{Datenmodell} zugrunde, das im Rahmen der
-Integrationsbemühungen zunächst zu explizieren und mit den Datenmodellen der
-anderen Partner zu vergleichen ist. 
+eigene Webdarstellung verwaltet und zum anderen für den Austausch vorhält.
+Jeder solchen Datenbank liegt ein eigenes \emph{Datenmodell} zu Grunde, das im
+Rahmen der Integrationsbemühungen zunächst zu explizieren und mit den
+Datenmodellen der anderen Partner zu vergleichen ist.
 
 Mit dieser Zusammenstellung wird ein erster Schritt in dieser Richtung zur
 Integration verschiedener Leipziger Plattformen gegangen.  Die Darstellungen
 und Vergleiche orientieren sich dabei am Datenmodell von Leipzig Data, da
-dieses von Anfang an unter dem Blcikwinkel der Interoperabilität entwickelt
+dieses von Anfang an unter dem Blickwinkel der Interoperabilität entwickelt
 wurde.  Das Leipzig Data Datenmodell (LDD) wird im Abschnitt~2 genauer
 dargestellt. Für die anderen Portale werden die Datenmodelle in Relation zum
 LDD beschrieben.
@@ -93,11 +94,12 @@ Kurzzeitprojekt (Nov. 2012 bis April 2013) im Rahmen ihrer „Open Innovation”
 Ausschreibung unterstützt.
  
 \emph{Leipzig Data} betreibt folgende Infrastruktur:
-\begin{itemize}\itemsep0pt
-\item Webseiten \url{http://leipzig-data.de} auf Wordpress-Basis,
+\begin{itemize}
+\item Webseiten \url{http://leipzig-data.de} auf Wordpress-Basis\footnote{Dies
+  soll in absehbarer Zeit durch github pages abgelöst werden.},
 \item Einen github Organisationsaccount \url{https://github.com/LeipzigData}
   mit den Projekten
-  \begin{itemize}\itemsep0pt
+  \begin{itemize}
   \item \texttt{RDFData} – RDF-Wissensbasen (als Primärdaten)
   \item \texttt{Tools} – eine Reihe von Werkzeugen, im Wesentlichen zum
     Anschauen, wie es gehen könnte (Blick über die Schulter auf die Werkbank), 
@@ -110,11 +112,16 @@ Ausschreibung unterstützt.
 \item Unter \url{http://leipzig-data.de:8890/sparql} wird ein Sparql Endpunkt
   für Queries auf den Daten angeboten, die in einem Virtuoso basierten
   RDF-Store (als Sekundärdaten) gehostet sind.
-\item Unter \url{http://leipzig-data.de/info} wird eine Infoseite mit
-  Beispielen betrieben, in denen demonstriert wird, wie sich Webseiten aus
-  RDF-Quellen erzeugen lassen.  Die Quellen dieser Anwendungen sind im Repo
-  \url{https://github.com/LeipzigData/web} zu finden. 
+\item Unter \url{http://leipzig-data.de/info} und
+  \url{http://leipzig-data.de/demo} werden zwei Infoseiten mit Beispielen
+  betrieben, in denen demonstriert wird, wie sich Webseiten aus RDF-Quellen
+  erzeugen lassen.  Die Quellen dieser Anwendungen sind im Repo
+  \url{https://github.com/LeipzigData/web} zu finden.
 \end{itemize}
+
+\subsection{Schnittstelle}
+
+SPARQL Endpunkt \url{http://leipzig-data.de:8890/sparql} des LD-Projekts.
 
 \subsection{Datenmodell}
 
@@ -189,9 +196,9 @@ anderen Adresssystemen diese URIs generierbar sind, insofern diese vier
 Datenbestandteile separiert werden können.
 
 \paragraph{Prädikate:}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item ld:hasPostCode Literal – Postleitzahl
- \item ld:hasCity Literal – Stadt
+\item ld:hasCity Literal – Stadt
 \item ld:hasStreet Literal – Straße, in welcher sich die Adresse befindet
 \item rdfs:label Literal – Bezeichner, etwa “Leipzig, Messering 6” 
 \item gsp:asWKT Literal – Geokoordinaten im WKT-Format “Point(long lat)”
@@ -206,7 +213,7 @@ Ein \emph{Leipziger Ort} ist ein Ort mit einer \emph{Adresse} und einem
 veranstaltet werden.
 
 \paragraph{Prädikate:}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item dct:modified xsd:date – letzte Modifikation des Datensatzes
 \item Orga-Literale foaf:mbox, foaf:phone, foaf:homepage
 \item ld:erreichbar Literal – Erreichbarkeit mit öffentlichem Nahverkehr
@@ -281,7 +288,7 @@ längeren Entwicklungsprozesses. Fragen der Weiterentwicklung des Protokolls
 sind zwischen interessierten Partnern noch genauer abzustimmen.
 
 \paragraph{Prädikate:}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item ld:contactPerson foaf:Person – Ansprechpartner für das Event
 \item ical:contact Literal – Kontaktinformation als String
 \item ical:description Literal – Beschreibung des Events
@@ -310,7 +317,41 @@ mit dem zunächst eine RDF-Schnittstelle auf einem Dump der Datenbank
 entwickelt wurde, die aktuell unter \url{https://leipziger-ecken.de/Data/} auf
 der Produktivplattform ausgerollt ist. 
 
-\subsection{Datenmodell}
+Am 19.06.2021 schreibt Felix Albroscheit über eine neu implementierte API:
+\begin{quote}
+  Meine Ambitionen gingen bisher dahin, eine vollständig durch das Drupal-Team
+  unterstützte API anzubieten (samt unterstützter Paginierung, Filterung und
+  Sortierung). Aktuell ist dies mit unserer JSON-API der Fall, welche nun auch
+  halbwegs dokumentiert ist:
+  \begin{center}
+    \url{https://github.com/Leipziger-Ecken/drupal/blob/master/docu/API.md}    
+  \end{center}
+  Es gäbe also die Möglichkeit, auf Basis dieser API die Daten nach RDF
+  umzuwandeln und als weiteren Endpunkt anzubieten. 
+\end{quote}
+
+\subsection{Schnittstelle}
+
+Hier ist eine Übersicht über die einzelnen Teil-APIs, die aus der oben
+genannten Quelle übernommen wurde
+\begin{center}
+  \begin{tabular}{ll}
+    Index & \url{https://leipziger-ecken.de/jsonapi/}\\
+    Akteure/Actors & \url{https://leipziger-ecken.de/jsonapi/akteure}\\
+    Veranstaltungen/Events & \url{https://leipziger-ecken.de/jsonapi/events}\\
+    Bezirke/Districts & \url{https://leipziger-ecken.de/jsonapi/districts}\\
+    Akteurtypen/Actor types &
+    \url{https://leipziger-ecken.de/jsonapi/akteur_types}\\
+    Kategorien/Categories &
+    \url{https://leipziger-ecken.de/jsonapi/categories}\\
+    Schlagwörter/Tags & \url{https://leipziger-ecken.de/jsonapi/tags}\\  
+    Zielgruppen/Target groups &
+    \url{https://leipziger-ecken.de/jsonapi/target_groups}
+  \end{tabular}
+\end{center}
+
+
+\subsection{Datenmodell (alt)}
 
 Im Modell werden die vier Klassen \emph{Akteure}, \emph{Adressen},
 \emph{Events} und \emph{Sparten} unterschieden.  Die folgenden Ausführungen
@@ -365,33 +406,85 @@ Instanzen dieser Klasse spannen eine nicht konsolidierte Tagwolke auf, um die
 Events zu kategorisieren.
 
 \paragraph{Unterschiede zu \texttt{ld:Event}.}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item \texttt{ical:location} verweist nicht auf einen \texttt{ld:Ort}, sondern
   auf eine \texttt{le:Adresse}.
 \item \texttt{ical:creator} verweist auf eine Person in der nicht zugänglichen
   Personentabelle.
-\item Über \texttt{le:hatAkteur} ist einem Event teilweise ein Akteur zugeordnet.
+\item Über \texttt{le:hatAkteur} ist einem Event teilweise ein Akteur
+  zugeordnet.
 \item Über \texttt{le:zurSparte} sind einem Event Schlagworte zugeordnet.
 \end{itemize}
 \newpage
 
-\section{Nachhaltiges Leipzig}
+\section{Nachhaltiges Sachsen}
 
 \subsection{Hintergrund}
 
-\emph{Nachhaltiges Leipzig}\footnote{\url{https://nachhaltiges-leipzig.de/}.}
-ist ein stadtweites Projekt, um Anbietern in den Bereichen Nachhaltigkeit und
-MINT eine gemeinsame Plattform zu bieten, über die standardisierte
+\emph{Nachhaltiges Sachen}\footnote{\url{https://nachhaltiges-sachsen.de/}.}
+ist ein sachsenweites Projekt, um Anbietern in den Bereichen Nachhaltigkeit
+und MINT eine gemeinsame Plattform zu bieten, über die standardisierte
 Informationen zu den \emph{Anbietern} sowie deren \emph{Aktivitäten}
-verbreitet werden.  Nach dem Zusammengehen mit \emph{Leipzig
-  Grün}\footnote{\url{http://www.leipziggruen.de/}.} sind inzwischen über 300
-Anbieter auf der Plattform vertreten. 
+verbreitet werden.  Das Projekt entstand aus dem Vorgängerprojekt
+\emph{Nachhaltiges Leipzig} durch eine Werweiterung um Regionen. Das
+Vorgängerprojekt ist in diesem Projekt aufgegangen.
 
 Die Anbieter nutzen eine webbasierte
-Erfassungsschnittstelle\footnote{\url{https://daten.nachhaltiges-leipzig.de/}.},
+Erfassungsschnittstelle\footnote{\url{https://daten.nachhaltiges-sachsen.de/}.},
 um die entsprechenden Informationen bereitzustellen.  Die Plattform stellt
 eine REST-Schnittstelle zur Verfügung, über welche Informationen strukturiert
 ausgelesen werden können.
+
+\subsection{Schnittstelle}
+
+Die Schnittstelle ist unter
+\url{https://daten.nachhaltiges-sachsen.de/api/doc} genauer beschrieben.
+
+\begin{itemize}
+\item \url{https://daten.nachhaltiges-sachsen.de/api/v1/activities.json}
+
+Returns an array of all activity objects. They are the core concept of this
+application.
+
+\item
+  \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/categories.json} 
+
+Returns an array of all category objects. Activities may belong to one or more
+categories and subcategories. Each activity can have one or more goals, think
+of them as „tags“. The count for each \texttt{goal\_cloud} object shows how
+many activities from each category use each goal. Use this to build a tag
+cloud.
+
+\item \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/locations.json} 
+
+Returns an array of all location objects. Locations can be referenced by users
+and activities.
+
+\item \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/regions.json}
+
+Returns an array of all region objects.
+ 
+\item \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/products.json}
+
+Returns an array of all product objects. They are specific to the activity
+type \emph{Filiale}.
+
+\item
+  \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/trade_categories.json} 
+
+Returns an array of all \texttt{trade\_category} objects. They are specific to
+the activity type \emph{Filiale}.
+
+\item
+  \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/trade_types.json} 
+
+Returns an array of all \texttt{trade\_type} objects. They are specific to the
+activity type \emph{Filiale}.
+
+\item \url{https://daten.nachhaltiges-sachsen.de/api/v1/api/v1/users.json}
+
+Returns an array of all user objects. 
+\end{itemize}
 
 \subsection{Datenmodell}
 
@@ -401,7 +494,7 @@ REST-API ausgelesen werden können.  Im Modell sind weitere Datenstrukturen
 implizit als Konzepte vorhanden.
 
 Das ist zum einen eine genauere Aufteilung eines \emph{Akteurs} in
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item die Beschreibung des Akteurs,
 \item die Adresse,
 \item der Ansprechpartner und
@@ -460,7 +553,7 @@ In der Anforderungsbeschreibung für eine Erweiterung (Ende 2017) soll eine
 weitere Klasse \emph{Orte} ergänzt werden, die eine akteursübergreifende
 Verwaltung von Adressdaten umsetzt. Eine \emph{Adresse} ist dabei eine
 implizite Datenstruktur, die über die API als Menge von Attributen
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item full\_address -- String
   \item district -- String
   \item latlng -- Array
@@ -492,9 +585,9 @@ zusammengefasst, wobei nicht zwischen den juristischen Personen und den für
 diese agierenden Personen unterschieden wird. 
 
 Prädikate in users.json:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item Akteur
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item id -- String
   \item name -- String, Name der Organisation
   \item organization\_type -- String, Art der Organisation (gewerbliches
@@ -510,13 +603,13 @@ Prädikate in users.json:
 \item Adresse (des Akteurs oder des Ansprechpartners?)
 \item ?? -- Checkbox, Anschrift öffentlich sichtbar (nicht mit ausgeliefert)
 \item Ansprechpartner
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item first\_name -- String
   \item last\_name -- String
   \item organization\_position -- String
 \end{itemize}
 \item Account- und Erreichbarkeitsdaten
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item email -- String
   \item phone\_primary -- String
   \item phone\_secondary -- String
@@ -534,7 +627,7 @@ verwendet werden. Leere Prädikate werden bei den RDF-Dumps nicht
 berücksichtigt.
 
 Generische Prädikate:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item id -- String
   \item type -- String (Typ der Aktivität), Auswahl
   \item user\_id -- String (Id des beteiligten Akteurs), Auswahl
@@ -550,12 +643,12 @@ Generische Prädikate:
 \end{itemize}
 
 Weitere Prädikate für Actions:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item start\_at -- String, Zeitraum/Termine (als Freitextfeld)
 \end{itemize}
 
 Weitere Prädikate für Events:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item start\_at -- String (mit Auswahl Datum/Zeit hinterlegt)
   \item end\_at -- String (mit Auswahl Datum/Zeit hinterlegt)
   \item target\_group -- (Zielgruppe) String, Freitextfeld
@@ -569,7 +662,7 @@ Weitere Prädikate für Events:
 \end{itemize}
 
 Weitere Prädikate für Projects:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item short\_description -- (Kurzbeschreibung) String, Freitext-Area
   \item goals -- (Ziele) Array, Mehrfachauswahl
   \item property\_list -- Array, Liste mit speziellen Merkmalen, als
@@ -577,7 +670,7 @@ Weitere Prädikate für Projects:
 \end{itemize}
 
 Weitere Prädikate für Services:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item target\_group -- String, Zielgruppenbeschreibung
   \item costs -- String, Kosten
   \item requirements -- String, Bedingungen
@@ -593,7 +686,7 @@ Neu gibt es Beratungsangebote und Bidungsangebote, jeweils ohne Feld
 „Angebotsart“ 
 
 Weitere Prädikate für Store:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
   \item short\_description -- String
   \item property\_list -- Array
   \item products -- Array
@@ -613,7 +706,7 @@ Auf dieser Basis sind folgende Transformationen nach LDD möglich:
 \paragraph{Weitere Teile der Modellierung.}
 Diese sind noch wenig ausgearbeitet und enthalten oft nur wenige Instanzen pro
 Klasse. 
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item \texttt{categories} repräsentiert eine baumartige Struktur verschiedener
   Tags, die einzelnen Aktivitäten zugewiesen sind.  Diese Struktur wird zur
   Menüführung verwendet. 
@@ -652,6 +745,23 @@ Namensraum \url{https://places.behindertenverband-leipzig.de/} verwendet und
 die Instanzdaten unter der jeweiligen Adresse RDF-konform menschenlesbar
 dargestellt. 
 
+\subsection{Schnittstelle}
+
+Die Daten können über den SPARQL Endpunkt
+\url{https://opendata.leipzig.de/virt-sparql} des Open Data Portals der Stadt
+Leipzig ausgelesen werden.
+
+Die folgende Anfrage (der Prefix ist hier aus drucktechnischen Gründen
+eingekürzt) etwa listet alle 814 Orte auf
+\begin{code}
+  PREFIX bvlo: <https://github.com/AKSW/.../ontologies/place/ontology.ttl\#>\\
+  SELECT *\\
+  FROM <https://opendata.leipzig.de/bvlplaces/>\\
+  WHERE \{\\\>
+    ?s a bvlo:Place; dc:title ?t .\\
+  \}
+\end{code}
+
 \subsection{Datenmodell}
 
 Alle Instanzen gehören zur Klasse \texttt{bvlo:Place}.  Neben den bekannten
@@ -669,7 +779,7 @@ Hausnummer) lässt sich für viele Instanzen ein Mapping auf
 \texttt{ld:LeipzigerAdresse} konstruieren.
 
 Die Prädikate sind oft selbsterklärend, da „sprechende Namen“ verwendet werden:
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item rdf:type, dc:title (rdfs:label), dcterms:identifier (ID des Datensatzes)
 \item dbpedia-owl:category -- Zuordnung zu einer Dbpedia Kategorie, hier als
   Literal 
@@ -703,6 +813,22 @@ weiteren Informationen aus eigener Recherche (Fotografien der einzelnen
 Objekte) angereichert wurden. Die Daten sind in der Turtle-Datei
 \url{http://leipzig-data.de/RDFData/MINTBroschuere2014.ttl} zusammengefasst.
 
+\subsection{Schnittstelle}
+
+SPARQL Endpunkt \url{http://leipzig-data.de:8890/sparql} des LD-Projekts.
+
+Beispielanfrage:
+\begin{code}  
+  PREFIX mint2014: <http://leipzig-data.de/Data/MINT-2014/> \\
+  PREFIX ld: <http://leipzig-data.de/Data/Model/> \\
+  SELECT distinct ?a ?l ?k \\
+  from  <http://leipzig-data.de/Data/MINTBroschuere2014/> \\
+  WHERE \{ \+\\
+    ?a a mint2014:Ortsbeschreibung; rdfs:label ?l . \\ 
+    optional \{ ?a mint2014:Kurzinformation ?k . \} \-\\ 
+  \} order by ?a
+\end{code}
+
 \subsection{Datenmodell}
 
 Das Datenmodell umfasst drei Klassen \texttt{mint2014:Ortsbeschreibung},
@@ -713,7 +839,7 @@ vorliegenden städtischen Broschüre umgesetzt wird.  Die Zuordnung zu Instanzen
 vom Typ \texttt{ld:Ort} erfolgt durch ein Prädikat \texttt{mint2014:describes}
 
 \paragraph{mint2014:Ortsbeschreibung – Beschreibung eines MINT-Orts}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item rdfs:label Literal – Bezeichnung
 \item  mint2014:Kurzinformation Literal – Kurzinformation
 \item  mint2014:Leistungsangebot Literal – Leistungsangebot
@@ -729,7 +855,7 @@ vom Typ \texttt{ld:Ort} erfolgt durch ein Prädikat \texttt{mint2014:describes}
 \item  mint2014:describes ld:Ort – MINT-Ort als Leipzig Data Ort
 \end{itemize}
 \paragraph{mint2014:Angebot – MINT-Angebot eines MINT-Orts}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item ld:Lernziele Literal – Lernziele des Angebots
 \item ld:Zielgruppen Literal – Zielgruppen
 \item ld:Kosten Literal – Kosten
@@ -742,7 +868,7 @@ vom Typ \texttt{ld:Ort} erfolgt durch ein Prädikat \texttt{mint2014:describes}
 \item rdfs:label Literal – Bezeichnung des Angebots
 \end{itemize}
 \paragraph{mint2014:Schwerpunkt – MINT-Schwerpunkt}
-\begin{itemize}\itemsep0pt
+\begin{itemize}
 \item ld:Zielgruppen Literal – Zielgruppe des Schwerpunkts
 \item ld:Kosten Literal – Kosten
 \item ld:GTA Literal – als Ganztagsangebot nutzbar?
@@ -766,6 +892,22 @@ studentischen Projektgruppe gesammelt. Die Informationen sind in vielen Fällen
 in Englisch und Deutsch vorhanden. Die Daten sind in der
 Turtle-Datei \url{http://leipzig-data.de/RDFData/Jugendstadtplan.ttl}
 zusammengefasst.
+
+\subsection{Schnittstelle}
+
+SPARQL Endpunkt \url{http://leipzig-data.de:8890/sparql} des LD-Projekts.
+
+Beispielanfrage:
+\begin{code}  
+  PREFIX jsp: <http://leipzig-data.de/Data/Jugendstadtplan/> \\
+  PREFIX ld: <http://leipzig-data.de/Data/Model/>\\
+  SELECT distinct ?a ?l ?amb\\
+  from  <http://leipzig-data.de/Data/Jugendstadtplan/>\\
+  WHERE \{\+\\
+    ?a a jsp:Ort; rdfs:label ?l . \\
+    optional \{ ?a jsp:Ambiente ?amb . \} \-\\
+  \} order by ?a
+\end{code}
 
 \subsection{Datenmodell}
 In diesem Projekt wurde eine größere Hierarchie von Klassen aufgebaut, um so
@@ -828,11 +970,70 @@ Leipzig e.V“ betrieben, hat sich also organisatorisch von der Dresdner „Mutt
 abgespalten. Der Verein hat sich besonders im Bereich der Flüchtlingsarbeit
 positioniert und profiliert. 
 
+\subsection{Schnittstelle}
+
+Wo ist die zu finden? 
+
 \subsection{Datenmodell}
 Ein erster Pitch einer Datentransformation, die über eine uns kommunizierte
 REST-API ausgeführt wurde, ist unter \texttt{Transform/Data/Afeefa-Leipzig.ttl}
 im LD „Tools“ Repo zu finden.
 
 Das Ganze muss noch weiter analysiert werden. 
+
+\section{bne-sachsen.de}
+
+\subsection{Hintergrund}
+
+Zu ergänzen.
+
+\subsection{Schnittstelle}
+Anfang Juni 2020 wurde die folgende API veröffentlicht\footnote{Siehe dazu die
+  Mail von Mara Kayser an Matthias Schirmer vom 4.6.2020.}, über die einzene
+Teile der Datenbasis ausgelesen werden können.  Die Daten werden als
+JSON-Array zurückgegeben. Die folgenden Informationen sind aus der Datei
+übernommen, die uns am 4.6.2020 geschickt wurde. 
+\begin{itemize}
+  \item Angebote: \url{https://bne-sachsen.de/wp-json/content/offers}
+  \item Veranstaltungen: \url{https://bne-sachsen.de/wp-json/content/events}
+  \item Materialien: \url{https://bne-sachsen.de/wp-json/content/materials}
+  \item News: \url{https://bne-sachsen.de/wp-json/content/posts}
+\end{itemize}
+Mit Hilfe von Parametern können die zurückgegebenen Beiträge eingegrenzt
+werden.  Parameter werden immer mit der Syntax
+\texttt{?\{PARAMETER\_NAME\}=\{WERT\}} übergeben und können auf die übliche
+Weise kombiniert werden.
+
+Bsp.: \url{https://bne-sachsen.de/wp-json/content/offers?p=8234} 
+
+\begin{itemize}
+  \item \texttt{p} -- einzelnen Eintrag ausgeben. ID des Beitrags muss
+    übergeben werden. \\ Beispiel:
+    \url{https://bne-sachsen.de/wp-json/content/offers?p=8234} 
+  \item \texttt{limit} -- Maximum der ausgegebenen Beiträgen angeben.
+    \\ Beispiel: \url{https://bne-sachsen.de/wp-json/content/offers?limit=20}
+  \item \texttt{author} -- Gibt alle Beiträge eines Autors zurück.
+    \\ Beispiel:
+    \url{https://bne-sachsen.de/wp-json/content/offers?author=115}
+  \item \texttt{author\_name} -- Gibt alle Beiträge eines Autors zurück. Der
+    „Slug“ des Autors muss übergeben werden. Der Slug kann aus dem Link zum
+    Autorenprofil übernommen werden.  
+  \item \texttt{district} - Gibt alle Beiträge aus dem Landkreis zurück. Nur
+    für Veranstaltungen und Angebote verfügbar.  \\ Beispiel:
+    \url{https://bne-sachsen.de/wp-json/content/offers?district=dresden}
+\end{itemize}
+
+\subsection{Analyse HGG vom 7. August 2021}
+
+Die API von \texttt{bne-sachsen.de} wurde inzwischen komplett geändert.  Im
+Gegensatz zu Juni 2020 gibt es keine districts mehr und wenn ich nach events
+frage, bekomme ich nur posts geliefert. Die vier Aufrufe
+\begin{itemize}
+\item \url{https://bne-sachsen.de/wp-json/content/posts?p=9025}
+\item \url{https://bne-sachsen.de/wp-json/content/events?p=9025}
+\item \url{https://bne-sachsen.de/wp-json/content/materials?p=9025}
+\item \url{https://bne-sachsen.de/wp-json/content/offers?p=9025}
+\end{itemize}
+liefern alle denselben post-Eintrag.
 
 \end{document}

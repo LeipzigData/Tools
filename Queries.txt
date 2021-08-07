@@ -11,6 +11,20 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 ---------------------------------------------------
 Suchen. Weitere Suchanfragen ganz unten
 
+Information zu einer Adresse
+
+PREFIX ld: <http://leipzig-data.de/Data/Model/>
+PREFIX gsp: <http://www.opengis.net/ont/geosparql#> 
+SELECT distinct ?a ?l ?g ?lo as ?Ortsteil ?xl as ?Ort 
+WHERE {
+  ?a a ld:LeipzigerAdresse; rdfs:label ?l .
+  optional{ ?a gsp:asWKT ?g . }
+  optional{ ?a ld:inOrtsteil ?o . ?o rdfs:label ?lo . }
+  optional{ ?x ld:hasAddress ?a . ?x rdfs:label ?xl . }
+  filter regex(?l,"Leuschner")
+} order by (?l)
+
+
 Alle MINT-Orte finden
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
