@@ -15,13 +15,36 @@ function getNLAkteure() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=$row["id"];
+        $id=$row['id'];
         $b=array();
         $b[]=' a org:Organization';
+        $b=addLiteral($b,'ld:hasSource','Nachhaltiges Leipzig');
         $b=addLiteral($b,'skos:prefLabel',$row['name']);
         $b=addLiteral($b,'ld:hasType',$row['organization_type']);
-        $b=addResource($b,'foaf:homepage',"",$row['organization_url']);
-        $a[]='<http://nachhaltiges-sachsen.de/rdf/User_'.$id.'>'.
+        $b=addResource($b,'foaf:homepage','',$row['organization_url']);
+        $a[]='<http://nachhaltiges-sachsen.de/rdf/Akteur_'.$id.'>'.
+            join(" ;\n  ",$b) . " ." ;
+    }
+    return $a;
+}
+
+function getLEAkteure() {
+    $src="../Dumps/leipziger-ecken/Akteure.json";
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    $a=array();
+    foreach ($res['data'] as $row) {
+        $id=$row['id'];
+        $att=$row['attributes'];
+        $b=array();
+        $b[]=' a org:Organization';
+        $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addLiteral($b,'skos:prefLabel',$att['title']);
+        $b=addLiteral($b,'ld:hasType',$row['type']);
+        if (!empty($att['external_url'])) { 
+            $b=addResource($b,'foaf:homepage',"",$att['external_url']['uri']);
+        }
+        $a[]='<http://leipziger-ecken.de/rdf/Akteur_'.$id.'>'.
             join(" ;\n  ",$b) . " ." ;
     }
     return $a;
@@ -121,7 +144,7 @@ function createAkteursOrt($row) {
 }
 
 // zum Testen
-echo TurtlePrefix().join("\n\n", getNLAkteure());
-// echo getLDAkteure(1);
+//echo TurtlePrefix().join("\n\n", getNLAkteure());
+echo TurtlePrefix().join("\n\n", getLEAkteure());
 
 ?>

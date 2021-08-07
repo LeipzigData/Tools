@@ -1,25 +1,6 @@
 <?php
 
-/* == REST-API ==
-
-Basis-URL: daten.nachhaltiges-leipzig.de
-
-API:
-    /api/v1/activities.json
-    /api/v1/activities/[id].json
-    /api/v1/categories.json
-    /api/v1/categories/[id].json
-    /api/v1/products.json
-    /api/v1/products/[id].json
-    /api/v1/trade_types.json
-    /api/v1/trade_categories.json
-    /api/v1/users.json
-    /api/v1/users/[id].json
-    /api/v1/locations.json
-    /api/v1/locations/[id].json
-*/
-
-// ==== Weitere Hilfsfunktionen
+// ==== Hilfsfunktionen
 
 function addLiteral($a,$key,$value) {
     if (!empty($value)) { $a[]=" $key ".'"'.fixQuotes(trim($value)).'"'; }
