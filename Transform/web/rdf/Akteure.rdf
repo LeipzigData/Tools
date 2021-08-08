@@ -1,0 +1,3012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:gsp="http://www.opengis.net/ont/geosparql#"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:ld="http://leipzig-data.de/Data/Model/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_07a7d21e-6d21-4ca9-89e6-126d02e9290c">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/07a7d21e-6d21-4ca9-89e6-126d02e9290c"/>
+    <skos:prefLabel>Lichtstrahl</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lichtstrahl-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_0922f1db-65b4-4fe1-ba55-2a4a67e5c344">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/0922f1db-65b4-4fe1-ba55-2a4a67e5c344"/>
+    <skos:prefLabel>Johanniter-Familienzentrum Marcusgasse</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_0bfe14ba-ca5c-496a-90fc-89978b4e161a">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/0bfe14ba-ca5c-496a-90fc-89978b4e161a"/>
+    <skos:prefLabel>FAIRbund e.V. Familienberatungsstelle</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://verein-fairbund.de/familien-und-jugendhilfe/familienberatung-und-bildung/beratung-fuer-eltern-und-familie/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_1b96379f-49b9-4231-b419-020cd8a87a73">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/1b96379f-49b9-4231-b419-020cd8a87a73"/>
+    <skos:prefLabel>Initiative Ost-Passage Theater</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://ost-passage-theater.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_2506b64d-aed1-476b-8dca-992a79107cb4">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/2506b64d-aed1-476b-8dca-992a79107cb4"/>
+    <skos:prefLabel>Bibliothek Schönefeld</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://stadtbibliothek.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_26bc31f5-a03d-42c1-9ddd-1df194eabeac">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/26bc31f5-a03d-42c1-9ddd-1df194eabeac"/>
+    <skos:prefLabel>Bibliothek Reudnitz</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://stadtbibliothek.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_2a869e19-e684-402e-9ff7-afb75dde5d42">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/2a869e19-e684-402e-9ff7-afb75dde5d42"/>
+    <skos:prefLabel>Kinder- und Jugendkulturzentrum O.S.K.A.R.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://oskarinleipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_2f6e0b2d-642c-4c1e-88de-551024253ce0">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/2f6e0b2d-642c-4c1e-88de-551024253ce0"/>
+    <skos:prefLabel>Kleine stadtfarm</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_3514d3b7-b476-411a-94f8-c6386d66cfe6">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/3514d3b7-b476-411a-94f8-c6386d66cfe6"/>
+    <skos:prefLabel>Pöge-Haus e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://verein.poege-haus.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_35f8c95e-89fd-475b-ae8c-99dee6dad727">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/35f8c95e-89fd-475b-ae8c-99dee6dad727"/>
+    <skos:prefLabel>Kirchgemeinde Podelwitz-Wiederitzsch</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://kirche-wiederitzsch.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_3aace3c0-1020-49e5-aa01-2dfb413f2058">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/3aace3c0-1020-49e5-aa01-2dfb413f2058"/>
+    <skos:prefLabel>IG FORTUNA | Kino der Jugend</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://ig-fortuna.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_3dfbb379-b227-432b-b10c-95747a78ce69">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/3dfbb379-b227-432b-b10c-95747a78ce69"/>
+    <skos:prefLabel>MÜHLSTRASSE 14</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.muehlstrasse.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_44402a78-bc06-4f68-8b5b-0f9f3c3621fe">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/44402a78-bc06-4f68-8b5b-0f9f3c3621fe"/>
+    <skos:prefLabel>Das Japanische Haus e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.djh-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_5299845b-d4d3-4524-b7fc-3e303b0a0a53">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/5299845b-d4d3-4524-b7fc-3e303b0a0a53"/>
+    <skos:prefLabel>Bürgerverein Anger-Crottendorf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://koenigreich-crottendorf.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_559cc48e-0800-4255-96aa-b6189edc39c0">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/559cc48e-0800-4255-96aa-b6189edc39c0"/>
+    <skos:prefLabel>Bürgerverein Neustädter Markt e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.neustaedtermarkt-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_5a71ff7d-6ecc-401c-bda6-20179f06fa70">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/5a71ff7d-6ecc-401c-bda6-20179f06fa70"/>
+    <skos:prefLabel>Arbeitskreis Flüchtlingshilfe Region Alte Messe</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_5f570b5a-6d0d-4763-a493-247f2a926c57">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/5f570b5a-6d0d-4763-a493-247f2a926c57"/>
+    <skos:prefLabel>FAIRbund e.V. wellcome - Praktische Hilfe nach der Geburt</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://verein-fairbund.de/unterstuetzen-sie-uns/zeit-spenden-ehrenamt/wellcome/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_5f5c2c27-0ca5-4e56-8a49-fbe982d05019">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/5f5c2c27-0ca5-4e56-8a49-fbe982d05019"/>
+    <skos:prefLabel>Ostwache</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_689034b0-9afe-4762-bd51-86fe7e5a2d01">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/689034b0-9afe-4762-bd51-86fe7e5a2d01"/>
+    <skos:prefLabel>MiO Der Interkulturelle Mädchentreff im Osten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mio-maedchentreff.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_68d37677-1943-4661-bba5-dd4818e28548">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/68d37677-1943-4661-bba5-dd4818e28548"/>
+    <skos:prefLabel>Jazzkollektiv Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://jazzkollektiv-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_6f546efc-fb08-42ca-9b04-035b5fc0c151">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/6f546efc-fb08-42ca-9b04-035b5fc0c151"/>
+    <skos:prefLabel>Internationale Frauen Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.if-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_71b4468a-329f-4cfb-a9a8-2c8117c56dd7">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/71b4468a-329f-4cfb-a9a8-2c8117c56dd7"/>
+    <skos:prefLabel>FabLab Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fablab-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_7427fb99-54ef-48aa-a85b-33c6cc5c4338">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/7427fb99-54ef-48aa-a85b-33c6cc5c4338"/>
+    <skos:prefLabel>Arbeit im Quartier</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://daa-leipzig.de/biwaq"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_789864ee-b42c-461a-a021-978a33dede80">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/789864ee-b42c-461a-a021-978a33dede80"/>
+    <skos:prefLabel>sherLOCKRooms</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.sherlock-rooms.de/EscapeRooms/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_7c27eec8-4f3b-4318-bf2e-ca85504afab2">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/7c27eec8-4f3b-4318-bf2e-ca85504afab2"/>
+    <skos:prefLabel>Nachbarschafts-Sommerschule Eisenbahnstraße</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_9096f19d-b9a5-4768-b167-cdb3c9c8260a">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/9096f19d-b9a5-4768-b167-cdb3c9c8260a"/>
+    <skos:prefLabel>Die Wunderfinder</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.diewunderfinder.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_967824aa-a526-464d-8021-5250a6de35a1">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/967824aa-a526-464d-8021-5250a6de35a1"/>
+    <skos:prefLabel>Kultur Café Leipzig Ost</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_98582c39-adde-4ada-a896-847f909a57f5">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/98582c39-adde-4ada-a896-847f909a57f5"/>
+    <skos:prefLabel>Kunstverein gegenwart e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kunstverein-gegenwart.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_9c0c51de-7836-4e50-83c8-5ac3673f11df">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/9c0c51de-7836-4e50-83c8-5ac3673f11df"/>
+    <skos:prefLabel>Offener Treff für Kinder und Jugendliche »Tante Hedwig«</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/IB-Offener-Treff-Tante-Hedwig-339073406217093/?fref=ts"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_9fbaeacf-deed-4a31-b813-71f69688c77d">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/9fbaeacf-deed-4a31-b813-71f69688c77d"/>
+    <skos:prefLabel>Zündkerzenwerkstatt KUNST|KULTUR|HANDWERK</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/zuendkerzenwerkstatt/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_a67a86bd-590f-4906-8e82-acc676a14b89">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/a67a86bd-590f-4906-8e82-acc676a14b89"/>
+    <skos:prefLabel>Kerstin Köppen | Kunstvermittlung</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.meinholzhandwerk.de/kunstvermittlung/kursangebot/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_af97242f-1165-4552-82da-9fbfb9682b7f">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/af97242f-1165-4552-82da-9fbfb9682b7f"/>
+    <skos:prefLabel>Kinder&amp;JugendKulturWerkstatt JOJO</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.jukuwe-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_b1b9d289-ec0f-4070-bec9-12c3bde3ded4">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/b1b9d289-ec0f-4070-bec9-12c3bde3ded4"/>
+    <skos:prefLabel>St. Trinitatisgemeinde in der Lukaskirche</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_b4ea154a-b00f-475b-933d-7e4fc429509c">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/b4ea154a-b00f-475b-933d-7e4fc429509c"/>
+    <skos:prefLabel>Kunstfest Neustadt</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_b7650c67-521d-4a8e-b1fd-c868d72c1a3e">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/b7650c67-521d-4a8e-b1fd-c868d72c1a3e"/>
+    <skos:prefLabel>Kulturleben Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://kulturleben-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_b78afdc2-1d24-404b-aaeb-501f1ec5033d">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/b78afdc2-1d24-404b-aaeb-501f1ec5033d"/>
+    <skos:prefLabel>Referat für Migration und Integration der Stadt Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de/integration"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_b7a19f19-4561-457d-afbf-5c6c9d01f212">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/b7a19f19-4561-457d-afbf-5c6c9d01f212"/>
+    <skos:prefLabel>Dresdner59</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://dresdner59.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_be0c54f6-b5ce-48bb-88c6-80f13da8fe75">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/be0c54f6-b5ce-48bb-88c6-80f13da8fe75"/>
+    <skos:prefLabel>help* Festival</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://leipziger-ecken.de/akteurprofil/91"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_c05232bd-9dda-495a-af2e-457542eb1d92">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/c05232bd-9dda-495a-af2e-457542eb1d92"/>
+    <skos:prefLabel>Bienenland</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bienenland-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_c145ba03-2f36-494c-bee1-e47faa311dbd">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/c145ba03-2f36-494c-bee1-e47faa311dbd"/>
+    <skos:prefLabel>KollektivArtesMobiles</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kollektivartesmobiles.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_c53ca95b-c7fc-42b6-b324-6e551a4d7fc3">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/c53ca95b-c7fc-42b6-b324-6e551a4d7fc3"/>
+    <skos:prefLabel>Bibliothek Volkmarsdorf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://stadtbibliothek.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_cfb37e46-3558-4d79-bc89-93f5fba5cb31">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/cfb37e46-3558-4d79-bc89-93f5fba5cb31"/>
+    <skos:prefLabel>FAIRbund e.V. Elternkurs Kinder FAIRstehen</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://verein-fairbund.de/familien-und-jugendhilfe/familienberatung-und-bildung/kurse-und-austausch-fuer-eltern/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_d10c902b-4e98-4f24-ae09-30eefb031428">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/d10c902b-4e98-4f24-ae09-30eefb031428"/>
+    <skos:prefLabel>Grüne Liga Kohrener Land e.V.</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_d7c0a229-85e9-442a-8489-9b3d71d56f26">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/d7c0a229-85e9-442a-8489-9b3d71d56f26"/>
+    <skos:prefLabel>Helden wider Willen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://honoraryhotel.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_edc3bd83-1265-4c33-b836-716b057e67d1">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/edc3bd83-1265-4c33-b836-716b057e67d1"/>
+    <skos:prefLabel>Konrads Eisenbahn e.V.</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_f2d1fdd1-5e24-4960-a108-c5e15e91c982">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/f2d1fdd1-5e24-4960-a108-c5e15e91c982"/>
+    <skos:prefLabel>Bibliothek Paunsdorf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://stadtbibliothek.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_f7a1306f-2cae-496d-a321-e812d4344895">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/f7a1306f-2cae-496d-a321-e812d4344895"/>
+    <skos:prefLabel>Straßensozialarbeit Team Ost</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_ff83df31-2f53-4ebc-82d8-a478d428a1d8">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/ff83df31-2f53-4ebc-82d8-a478d428a1d8"/>
+    <skos:prefLabel>International Library Leipzig</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_ff96d065-6d76-4ac9-bbb9-1b443ebad910">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/ff96d065-6d76-4ac9-bbb9-1b443ebad910"/>
+    <skos:prefLabel>Kampfsportschule Leipzig</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://leipziger-ecken.de/rdf/Akteur_ffb92f77-2138-47c5-a4bb-1bf510773386">
+    <ld:hasSource>Leipziger Ecken</ld:hasSource>
+    <ld:hasType>akteur</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://leipziger-ecken.de/jsonapi/akteure/ffb92f77-2138-47c5-a4bb-1bf510773386"/>
+    <skos:prefLabel>Förderverein Bülowgärten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://buelowviertel.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_10">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/10.json"/>
+    <skos:prefLabel>Naturschutz und Kunst Leipziger Auwald e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nukla.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_100">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>foundation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/100.json"/>
+    <skos:prefLabel>Stiftung Bürger für Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.buergerfuerleipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_101">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/101.json"/>
+    <skos:prefLabel>Haus der Demokratie Leipzig e.v.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hddl.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_102">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/102.json"/>
+    <skos:prefLabel>fairgourmet GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fairgourmet.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_103">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/103.json"/>
+    <skos:prefLabel>Hotel Fürstenhof Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.hotelfuerstenhof-leipzig.com/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_104">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/104.json"/>
+    <skos:prefLabel>Dresdner59</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.dresdner59.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_105">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/105.json"/>
+    <skos:prefLabel>Autodidaktische Initiative e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://adi-leipzig.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_106">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/106.json"/>
+    <skos:prefLabel>Amt für Umweltschutz der Stadt Leipzig</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_108">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/108.json"/>
+    <skos:prefLabel>Fairer Einkaufsführer - Discounter</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_109">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/109.json"/>
+    <skos:prefLabel>Rossmann</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_11">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/11.json"/>
+    <skos:prefLabel>Förderverein "Umweltinformationszentrum Leipzig - UiZ" e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.umwelt-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_110">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/110.json"/>
+    <skos:prefLabel>Fairer Einkaufsführer - Restaurant/Cafe</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_111">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/111.json"/>
+    <skos:prefLabel>Fairer Einkaufsführer - Bäckerei/Cafe</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_112">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/112.json"/>
+    <skos:prefLabel>Nelly Morelly</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nelly-morelly.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_113">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/113.json"/>
+    <skos:prefLabel>Stadtteilbibliothek Plagwitz</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de/stadtbib"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_114">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/114.json"/>
+    <skos:prefLabel>Freie Kommunikation und Nachhaltiger Lebensstil e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://greennetproject.org/de/content/downloads"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_115">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/115.json"/>
+    <skos:prefLabel>röskant DIE MANUFAKTUR</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.roeskant.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_116">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/116.json"/>
+    <skos:prefLabel>Kuchenhimmel &amp; Brotfein</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_117">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/117.json"/>
+    <skos:prefLabel>St. Benno Verlag</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vivat.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_118">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/118.json"/>
+    <skos:prefLabel>heldenküche</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.heldenküche.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_12">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/12.json"/>
+    <skos:prefLabel>Helmholtz-Zentrum für Umweltforschung GmbH - UFZ</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ufz-schuelerlabor.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_120">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/120.json"/>
+    <skos:prefLabel>Café Chavalo</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.cafe-chavalo.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_122">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/122.json"/>
+    <skos:prefLabel>Veganes Catering "La Tortita"</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.la-tortita.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_123">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/123.json"/>
+    <skos:prefLabel>Der Lindwurm Handelsgesellschaft mbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.derlindwurm.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_124">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/124.json"/>
+    <skos:prefLabel>LOst Food</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://lost-food.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_125">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/125.json"/>
+    <skos:prefLabel>Kunst und Katze</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kunstundkatze.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_126">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/126.json"/>
+    <skos:prefLabel>Konsum Leipzig eG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.konsum-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_127">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/127.json"/>
+    <skos:prefLabel>HANDS on TECHNOLOGY e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hands-on-technology.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_128">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/128.json"/>
+    <skos:prefLabel>Mrs. Hippie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mrs.hippie.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_129">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/129.json"/>
+    <skos:prefLabel>Anja Büchting</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.alltagsinstitut.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_13">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/13.json"/>
+    <skos:prefLabel>Kontaktstelle Orientierung</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.orientierung-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_130">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/130.json"/>
+    <skos:prefLabel>Einkaufsführer - Supermärkte</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_131">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/131.json"/>
+    <skos:prefLabel>Einkaufsführer - Supermarkt</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_133">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/133.json"/>
+    <skos:prefLabel>Creme BRÜHLé</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.restaurant-creme-bruehle.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_134">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/134.json"/>
+    <skos:prefLabel>Rehability</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.rehability.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_135">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/135.json"/>
+    <skos:prefLabel>little kiwi</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.little-kiwi.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_136">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/136.json"/>
+    <skos:prefLabel>Kati Magyar</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.katimagyar.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_137">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/137.json"/>
+    <skos:prefLabel>freigeist-Bibliothek im Shakunda</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.freigeist-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_138">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/138.json"/>
+    <skos:prefLabel>Pulita2016</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://stores.ebay.de/pulita2016?_trksid=p2047675.l2563"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_139">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/139.json"/>
+    <skos:prefLabel>NextLeipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nextleipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_141">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/141.json"/>
+    <skos:prefLabel>Zukunftsspeisen</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zukunftsspeisen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_142">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/142.json"/>
+    <skos:prefLabel>Schäfer &amp; Breuss GbR</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.schaeferbreuss.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_143">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/143.json"/>
+    <skos:prefLabel>Yellowbrasil</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.yellowbrasil.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_144">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/144.json"/>
+    <skos:prefLabel>Leila e.V. iG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leila-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_145">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/145.json"/>
+    <skos:prefLabel>Konzeptwerk Neue Ökonomie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.knoe.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_146">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/146.json"/>
+    <skos:prefLabel>ÖDP Sachsen</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.oedp-sachsen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_147">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/147.json"/>
+    <skos:prefLabel>EchtUnverpackt</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.EchtUnverpackt.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_148">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/148.json"/>
+    <skos:prefLabel>DLRG Bezirk Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://bez-leipzig.dlrg.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_149">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/149.json"/>
+    <skos:prefLabel>Verein der Freunde und Förderer des Wildparks Leipzige.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wildparkverein-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_15">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/15.json"/>
+    <skos:prefLabel>Auwaldstation</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.auwaldstation.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_150">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/150.json"/>
+    <skos:prefLabel>SCI Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://sci-d.de/lokalgruppe-leipzig"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_151">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/151.json"/>
+    <skos:prefLabel>Batzentauschring e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.batzen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_152">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/152.json"/>
+    <skos:prefLabel>Sylke Nissen</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_153">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/153.json"/>
+    <skos:prefLabel>Nextleipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nextleipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_154">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/154.json"/>
+    <skos:prefLabel>Die Hellen Köpfe - Mitmachlabor</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://diehellenkoepfe.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_155">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/155.json"/>
+    <skos:prefLabel>Bio Tempel</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/BioTempelLeipzig/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_156">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>foundation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/156.json"/>
+    <skos:prefLabel>WWF Jugend</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.wwf-jugend.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_157">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/157.json"/>
+    <skos:prefLabel>Energiegenossenschaft Leipzig eG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.energiegenossenschaft-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_159">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/159.json"/>
+    <skos:prefLabel>kidscode e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://kidscode.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_16">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/16.json"/>
+    <skos:prefLabel>Dölitzer Wassermühle</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.doelitzer-wassermuehle.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_160">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/160.json"/>
+    <skos:prefLabel>Phyllodrom, Museum und Institut für Regenwaldökologie e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://phyllodrom.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_162">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/162.json"/>
+    <skos:prefLabel>Max Planck Institut für Mathematik</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.mis.mpg.de/de/start.html"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_163">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/163.json"/>
+    <skos:prefLabel>VDI - GaraGe gGmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.g-a-r-a-g-e.com/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_164">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/164.json"/>
+    <skos:prefLabel>ENEDAS e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.enedas.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_165">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/165.json"/>
+    <skos:prefLabel>Bergbau-Technik-Park e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bergbau-technik-park.de/park/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_166">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/166.json"/>
+    <skos:prefLabel>MÜHLSTRASSE 14 e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.muehlstrasse.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_167">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/167.json"/>
+    <skos:prefLabel>arche noVa - Initiative für Menschen in Not e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://arche-nova.org/de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_168">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/168.json"/>
+    <skos:prefLabel>GeoWerkstatt Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.geowerkstatt.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_170">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/170.json"/>
+    <skos:prefLabel>Bildungsverein Parcours e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://parcours-bildung.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_171">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/171.json"/>
+    <skos:prefLabel>Botanischer Garten für Arznei- und Gewürzpflanzen Großpösna-Oberholz</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.botanischer-garten-oberholz.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_172">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/172.json"/>
+    <skos:prefLabel>Jeepney Café</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://jeepney-cafe.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_174">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/174.json"/>
+    <skos:prefLabel>ALDI Einkauf GmbH &amp; Co. oHG</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_175">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/175.json"/>
+    <skos:prefLabel>Sabrina Bollmann</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_176">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/176.json"/>
+    <skos:prefLabel>Vier Fährten - Wege in den wilden Wald</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vierfaehrten.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_177">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/177.json"/>
+    <skos:prefLabel>LUXAA</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.luxaa.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_178">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/178.json"/>
+    <skos:prefLabel>Fanö-Mode</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fanoe-mode.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_179">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/179.json"/>
+    <skos:prefLabel>LeipzigGrün</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipziggruen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_18">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/18.json"/>
+    <skos:prefLabel>sedruck KG</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.sedruck.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_181">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/181.json"/>
+    <skos:prefLabel>Orang-Utans in Not</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.orang-utans-in-not.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_182">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/182.json"/>
+    <skos:prefLabel>Matthias Schmidt</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gold-schmied.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_183">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/183.json"/>
+    <skos:prefLabel>Luise Neugebauer Schmuck</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.luiseneugebauer.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_184">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/184.json"/>
+    <skos:prefLabel>Gartenfreunde Süd e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gartenfreundesued.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_185">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/185.json"/>
+    <skos:prefLabel>Stadt Leipzig Umweltinformationszentrum</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de/uiz"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_186">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/186.json"/>
+    <skos:prefLabel>Natur- und Wildnisschule Leipzig GbR</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.natur-wildnisschule-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_187">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/187.json"/>
+    <skos:prefLabel>Bürgerverein Sellerhausen-Stünz</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bv-sellerhausen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_188">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/188.json"/>
+    <skos:prefLabel>Botanischer Garten der Universität Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bota.uni-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_189">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/189.json"/>
+    <skos:prefLabel>Hofmann</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://buelowviertel.de/projekte/foerderverein-buelowgaerten-e-v/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_19">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/19.json"/>
+    <skos:prefLabel>Stadt Leipzig</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_190">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/190.json"/>
+    <skos:prefLabel>Anja Hümmer</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.naturnah.co"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_191">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/191.json"/>
+    <skos:prefLabel>Fabian</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.studiobosco.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_192">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/192.json"/>
+    <skos:prefLabel>Slow Food Leipzig-Halle</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.slowfood.de/slow_food_vor_ort/leipzig_halle"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_193">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/193.json"/>
+    <skos:prefLabel>Park- und Stadtführerin Daniela Neumann</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/EntdecktinLeipzig"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_194">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/194.json"/>
+    <skos:prefLabel>Stadtverband Leipzig der kleingärtner e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.stadtverband-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_195">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/195.json"/>
+    <skos:prefLabel>e-fect eG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.e-fect.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_196">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/196.json"/>
+    <skos:prefLabel>Biomare II GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bio-mare.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_197">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/197.json"/>
+    <skos:prefLabel>erleb-bar</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.erleb-bar.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_198">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/198.json"/>
+    <skos:prefLabel>Dt. Kleingärtnermuseum</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kleingarten-museum.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_199">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/199.json"/>
+    <skos:prefLabel>Michael Schaaf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzigdetails.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_2">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/2.json"/>
+    <skos:prefLabel>Wasser-Stadt-Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wasser-stadt-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_201">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/201.json"/>
+    <skos:prefLabel>Gohliser Verein zur Förderung von Kunst und Kultur e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://kuk-gohlis.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_202">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/202.json"/>
+    <skos:prefLabel>Zentrum für Fermentation</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zff-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_203">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/203.json"/>
+    <skos:prefLabel>Hörspielsommer e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://hoerspielsommer.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_204">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/204.json"/>
+    <skos:prefLabel>Wilde Leipziger</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wilde-leipziger.eu"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_205">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/205.json"/>
+    <skos:prefLabel>Stadt Delitzsch</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.delitzsch.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_206">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/206.json"/>
+    <skos:prefLabel>Graeske</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.offene-gartenpforte-muldental.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_207">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/207.json"/>
+    <skos:prefLabel>Cafe. Restaurant. Symbiose</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.symbiose-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_208">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/208.json"/>
+    <skos:prefLabel>Blütenreich</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://bluetenreich.jimdo.com/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_209">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/209.json"/>
+    <skos:prefLabel>Notenspur Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.notenspur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_21">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/21.json"/>
+    <skos:prefLabel>oikos Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://leipzig.oikos-international.org/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_210">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/210.json"/>
+    <skos:prefLabel>Querbeet Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.querbeet-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_211">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/211.json"/>
+    <skos:prefLabel>GRASSI Museum für Angewandte Kunst</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.grassimuseum.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_212">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/212.json"/>
+    <skos:prefLabel>Galerie für Zeitgenössische Kunst</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gfzk.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_213">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/213.json"/>
+    <skos:prefLabel>GRÜNE LIGA Kohrener Land</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.apfelkola.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_214">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/214.json"/>
+    <skos:prefLabel>Zoo Leipzig GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zoo-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_215">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/215.json"/>
+    <skos:prefLabel>Cammerspiele Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.cammerspiele.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_216">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/216.json"/>
+    <skos:prefLabel>Ölmühle Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ölmühle-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_217">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/217.json"/>
+    <skos:prefLabel>agra-Park</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.agra-park.info"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_218">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/218.json"/>
+    <skos:prefLabel>mobile- apfelquetsche</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mobile-apfelquetsche.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_219">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/219.json"/>
+    <skos:prefLabel>Solidarische Feldwirtschaft</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.solidarischefeldwirtschaft.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_22">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/22.json"/>
+    <skos:prefLabel>Verbundnetz der Wärme</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.verbundnetz-der-waerme.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_220">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/220.json"/>
+    <skos:prefLabel>Magistralenmanagement Georg-Schumann-Straße</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.schumann-magistrale.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_221">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/221.json"/>
+    <skos:prefLabel>heldenküche</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.heldenkueche.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_222">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/222.json"/>
+    <skos:prefLabel>Delitzscher Land e.V</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.delitzscherland.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_223">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/223.json"/>
+    <skos:prefLabel>ANNALINDE Akademie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://annalinde-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_224">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/224.json"/>
+    <skos:prefLabel>Ackerdemia e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gemueseackerdemie.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_226">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/226.json"/>
+    <skos:prefLabel>Ramona Strohwald</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_227">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/227.json"/>
+    <skos:prefLabel>Bunte Gärten Leipzig e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://bunte-gaerten.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_228">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/228.json"/>
+    <skos:prefLabel>the shop she loves</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.theshopsheloves.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_229">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/229.json"/>
+    <skos:prefLabel>Ecofacture</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ecofacture.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_23">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/23.json"/>
+    <skos:prefLabel>Gemeinsam Wandeln</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.transitiontown-leipzig.de/blog/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_230">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/230.json"/>
+    <skos:prefLabel>Annett Antonia Graeske</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.offene-gartenpforte-muldental.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_231">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/231.json"/>
+    <skos:prefLabel>Stefan Härtel</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_233">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/233.json"/>
+    <skos:prefLabel>Code it!</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://code-it-studio.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_234">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/234.json"/>
+    <skos:prefLabel>Naturdrogerie Sturm</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.naturdrogerie-sturm.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_235">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/235.json"/>
+    <skos:prefLabel>EvoLeipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.EvoLeipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_236">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/236.json"/>
+    <skos:prefLabel>Naturschule Deutschland e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.naturschule.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_237">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/237.json"/>
+    <skos:prefLabel>VITERA Solutions GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vitera.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_238">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/238.json"/>
+    <skos:prefLabel>Geopark Porphyrland. Steinreich in Sachsen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.geopark-porphyrland.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_239">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/239.json"/>
+    <skos:prefLabel>Bohemian Kids Cafe/Bar</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/BohemianKidsCafe/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_24">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/24.json"/>
+    <skos:prefLabel>rad3.de</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://rad3.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_240">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/240.json"/>
+    <skos:prefLabel>Marco</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fairmeals.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_241">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/241.json"/>
+    <skos:prefLabel>Café kaputt</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.reparieren-in-leipig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_243">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/243.json"/>
+    <skos:prefLabel>agnes reuter</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/Hildegarten-Leipzig-1880750768814057/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_244">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/244.json"/>
+    <skos:prefLabel>hundert2grad - Konsumbewusste DIY-Workshops</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hundert2grad.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_245">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/245.json"/>
+    <skos:prefLabel>Carls Laden</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_246">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/246.json"/>
+    <skos:prefLabel>Afeefa - Digitaler Zusammenhalt e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.afeefa.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_247">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/247.json"/>
+    <skos:prefLabel>Peter Dreißig - Nachtpeter Verlag</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nachtpeter.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_248">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/248.json"/>
+    <skos:prefLabel>Roger Schaumberg</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://sachsen.mehr-demokratie.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_249">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/249.json"/>
+    <skos:prefLabel>LSGM</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://lsgm.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_250">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/250.json"/>
+    <skos:prefLabel>Hildes Bauernmarkt - Die Marktschwärmerei im Leipziger Osten</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://marktschwaermer.de/de-DE/assemblies/7826"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_251">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/251.json"/>
+    <skos:prefLabel>Robyn Chamberlain</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.robynchamberlain.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_253">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/253.json"/>
+    <skos:prefLabel>Wilde Kräuterey</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://wildekraeuterey.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_254">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/254.json"/>
+    <skos:prefLabel>Erna Primula - Blumen Studio</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.erna-primula.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_255">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/255.json"/>
+    <skos:prefLabel>Sächsischer Landesverband der Kita- und Schulfördervereine (SLSFV) e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.slsfv.de/chancenpatenschaften"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_256">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/256.json"/>
+    <skos:prefLabel>Zukunftsgärtner(n) in Gnandorf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nabu-zukunftsgarten.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_258">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/258.json"/>
+    <skos:prefLabel>Amt für Stadtgrün und Gewässer, Abteilung Friedhoefe</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de/friedhoefe"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_259">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/259.json"/>
+    <skos:prefLabel>Volkshochschule Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vhs-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_26">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/26.json"/>
+    <skos:prefLabel>ADFC Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.adfc-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_260">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/260.json"/>
+    <skos:prefLabel>MÜHLSTRASSE 14 e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.muehlstrasse.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_261">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/261.json"/>
+    <skos:prefLabel>KoLa Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kolaleipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_262">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/262.json"/>
+    <skos:prefLabel>ANSTALT für Koch- und Lebensmittelkultur</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://kochanstalt.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_263">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/263.json"/>
+    <skos:prefLabel>Kleine Beete</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kleinebeete.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_264">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/264.json"/>
+    <skos:prefLabel>Uferleben Stömthaler See e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.uferleben.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_265">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/265.json"/>
+    <skos:prefLabel>Naturkundemuseum Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://naturkundemuseum.leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_266">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/266.json"/>
+    <skos:prefLabel>Arbeitskreis Sachsens schönste Dörfer</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_267">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/267.json"/>
+    <skos:prefLabel>Soziokulturelles Zentrum KuHstall e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kuhstall-grosspoesna.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_268">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/268.json"/>
+    <skos:prefLabel>Werkstatt für nachhaltiges Leben und Arbeiten e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.schmiede4.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_269">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/269.json"/>
+    <skos:prefLabel>Burmeister</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.viridosent.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_27">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/27.json"/>
+    <skos:prefLabel>Konzeptwerk Neue Ökonomie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.konzeptwerk-neue-oekonomie.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_270">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/270.json"/>
+    <skos:prefLabel>Hof Igelgasse</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hof-igelgasse.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_271">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/271.json"/>
+    <skos:prefLabel>FUSS e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig-zu-fuss.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_272">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/272.json"/>
+    <skos:prefLabel>Notenspur Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.notenspur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_273">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/273.json"/>
+    <skos:prefLabel>VAGaBUND Lene</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.bund-leipzig.de/themen-und-projekte/urban-gardening/vagabund-lene/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_274">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/274.json"/>
+    <skos:prefLabel>Atelier Latent</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.atelier-latent.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_275">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/275.json"/>
+    <skos:prefLabel>Kulturhaus Beucha e.v.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kulturhaus-beucha.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_276">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/276.json"/>
+    <skos:prefLabel>culturtraeger</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipziggruen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_277">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/277.json"/>
+    <skos:prefLabel>Stadt Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_278">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/278.json"/>
+    <skos:prefLabel>Konsum Global Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.konsumglobal-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_279">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/279.json"/>
+    <skos:prefLabel>OIKOnnect</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mitteldeutschland.oikocredit.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_28">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/28.json"/>
+    <skos:prefLabel>WEGE e.V. - für Angehörige und Freunde psychisch Kranker</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wege-ev.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_280">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/280.json"/>
+    <skos:prefLabel>Amt für Stadtgrün und Gewässer der Stadt Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzig.de/stadtgruen"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_281">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/281.json"/>
+    <skos:prefLabel>Verbraucherzentrale Sachsen</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.verbraucherzentrale-sachsen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_282">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/282.json"/>
+    <skos:prefLabel>Givebox Leipzig- Schleußig</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_283">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/283.json"/>
+    <skos:prefLabel>Caritasverband Leipzig e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.caritas-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_284">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/284.json"/>
+    <skos:prefLabel>Mütterzentrum e.V. Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.muetterzentrum-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_285">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/285.json"/>
+    <skos:prefLabel>Martin Jähnert</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/ImpactHubCandidateLeipzig"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_286">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/286.json"/>
+    <skos:prefLabel>Frische Botschaften</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.FrischeBotschaften.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_287">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/287.json"/>
+    <skos:prefLabel>Slow Food Youth Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://slowfoodyouth.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_288">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/288.json"/>
+    <skos:prefLabel>Haus Steinstraße e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.haus-steinstrasse.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_289">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/289.json"/>
+    <skos:prefLabel>RobertaRegioZentrum Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://roberta.htwk-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_29">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/29.json"/>
+    <skos:prefLabel>Kinder- und Jugendbüro des Deutschen Kinderschutzbundes Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipziger-kinderbuero.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_290">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/290.json"/>
+    <skos:prefLabel>Natur-Abenteuer-Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.natur-abenteuer-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_291">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/291.json"/>
+    <skos:prefLabel>Schulbiologiezentrum Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.Schulbiologiezentrum-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_292">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/292.json"/>
+    <skos:prefLabel>Orang-Utans in Not e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.orang-utans-in-not.org/de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_293">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/293.json"/>
+    <skos:prefLabel>RENN.mitte - Koordinierungsstelle Sachsen</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.renn-netzwerk.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_294">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/294.json"/>
+    <skos:prefLabel>Leipziger Städtische Bibliotheken</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.stadtbibliothek.leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_295">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/295.json"/>
+    <skos:prefLabel>GRASSI Museum für Völkerkunde zu Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://grassi-voelkerkunde.skd.museum/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_296">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/296.json"/>
+    <skos:prefLabel>Franziska Frank</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lieberlose.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_297">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/297.json"/>
+    <skos:prefLabel>INSPIRATA - Zentrum für  mathematisch-naturwissenschaftliche Bildung e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.inspirata.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_298">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/298.json"/>
+    <skos:prefLabel>Wetando gemeinnützige GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.growing-cultures.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_299">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/299.json"/>
+    <skos:prefLabel>GEW Hochschulgruppe</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.gew-sachsen.de/lass/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_3">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/3.json"/>
+    <skos:prefLabel>Forum Nachhaltiges Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.nachhaltiges-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_30">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/30.json"/>
+    <skos:prefLabel>Leipziger KulturPaten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipzigerkulturpaten.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_300">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/300.json"/>
+    <skos:prefLabel>KF Education</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kf-education.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_301">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/301.json"/>
+    <skos:prefLabel>Erfinderkinder</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://erfinderkinder.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_302">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/302.json"/>
+    <skos:prefLabel>Volker Wönckhaus</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://familienerlebnisgarten.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_303">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/303.json"/>
+    <skos:prefLabel>Tipunen Manufaktur</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.tipunen.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_304">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/304.json"/>
+    <skos:prefLabel>EY</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.eypva.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_305">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/305.json"/>
+    <skos:prefLabel>Tribe</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_306">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/306.json"/>
+    <skos:prefLabel>Freiraumkonzepte Landschaftsarchitekten</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_307">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/307.json"/>
+    <skos:prefLabel>Studio Bosco</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://studiobosco.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_308">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/308.json"/>
+    <skos:prefLabel>Julia von Gönner</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.idiv.de/flow"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_309">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/309.json"/>
+    <skos:prefLabel>Oikocredit</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.mitteldeutschland.oikocredit.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_310">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/310.json"/>
+    <skos:prefLabel>Ernährungsrat Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://ernaehrungsrat-leipzig.org/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_311">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/311.json"/>
+    <skos:prefLabel>AnimaLeser - das wohltätige Antiquariat</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.booklooker.de/animaleser/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_312">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/312.json"/>
+    <skos:prefLabel>Gaia Protection</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_313">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/313.json"/>
+    <skos:prefLabel>Stadt.Name.Land</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.stadtnameland.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_314">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/314.json"/>
+    <skos:prefLabel>Ulrike Hänisch</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hup-le.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_315">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/315.json"/>
+    <skos:prefLabel>Aeracura - Natur- und Wildnisschule Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wildnisschule-aeracura.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_316">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/316.json"/>
+    <skos:prefLabel>Ulrike Hänisch</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hup-le.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_317">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/317.json"/>
+    <skos:prefLabel>Einfach Unverpackt</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.einfach-unverpackt.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_318">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/318.json"/>
+    <skos:prefLabel>Christine Kröhnert</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://krummerdamm-gaertnerei.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_32">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/32.json"/>
+    <skos:prefLabel>leben.lernen.leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lebenlernenleipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_320">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/320.json"/>
+    <skos:prefLabel>LUKAS Bäcker Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lukas-baecker.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_321">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/321.json"/>
+    <skos:prefLabel>LOCKER und LOSE Veronika Drefke und Kristin Zettl GbR</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.locker-lose.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_322">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/322.json"/>
+    <skos:prefLabel>MALA Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/pg/malaleipzig"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_323">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/323.json"/>
+    <skos:prefLabel>Unikatum Kinder- und Jugendmuseum</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kindermuseum-unikatum.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_324">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/324.json"/>
+    <skos:prefLabel>Maria Preußner</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_325">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/325.json"/>
+    <skos:prefLabel>Stephan Schürer</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://uferleben.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_326">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/326.json"/>
+    <skos:prefLabel>offener Gemeinschaftsgarten Markkleeberg</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_327">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/327.json"/>
+    <skos:prefLabel>Essbarer Palmengarten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gemeinsamgrün-leipzig.de/new/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_328">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/328.json"/>
+    <skos:prefLabel>Deutsches Biomasseforschungszentrum gGmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.dbfz.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_329">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/329.json"/>
+    <skos:prefLabel>KOMM-Haus</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kommhaus.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_330">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/330.json"/>
+    <skos:prefLabel>Gemeinsam Lernen</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://gemeinsam-lernen.jimdosite.com/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_331">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/331.json"/>
+    <skos:prefLabel>Patricia Geyer</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gartendialoge.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_332">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/332.json"/>
+    <skos:prefLabel>H I L D E G A R T E N</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.instagram.com/hildegartenleipzig"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_333">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/333.json"/>
+    <skos:prefLabel>florafungi.leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.instagram.com/florafungi.leipzig/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_334">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/334.json"/>
+    <skos:prefLabel>Goase e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.goase-ev.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_335">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/335.json"/>
+    <skos:prefLabel>Stadtgeschichtliches Museum Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.stadtgeschichtliches-museum-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_336">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/336.json"/>
+    <skos:prefLabel>SUPERFOODZ Health Food</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.superfoodz-store-leipzig.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_337">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/337.json"/>
+    <skos:prefLabel>Bürgerverein Gohlis e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gohlis.info/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_338">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/338.json"/>
+    <skos:prefLabel>Wir für Schönefeld e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wir-für-schönefeld.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_339">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/339.json"/>
+    <skos:prefLabel>Budde-Haus - Soziokulturelles Zentrum Leipzig-Gohlis</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.budde-haus.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_34">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/34.json"/>
+    <skos:prefLabel>Sabine Bolte</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_340">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/340.json"/>
+    <skos:prefLabel>Kranwerk Naunhof</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kranwerk.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_341">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/341.json"/>
+    <skos:prefLabel>Notenspur Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.notenspur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_342">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/342.json"/>
+    <skos:prefLabel>barfuß e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.barfuss-ev.de/home/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_344">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/344.json"/>
+    <skos:prefLabel>Kerstin Siebert-Pohl</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://Leipzig.parentsforfuture.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_345">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/345.json"/>
+    <skos:prefLabel>Patchwork Communities</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_347">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/347.json"/>
+    <skos:prefLabel>Raumzauber-Sinnwelt - Das Floristikfachgeschäft</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.raumzauber-sinnwelt.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_348">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/348.json"/>
+    <skos:prefLabel>Schülerforschungszentrum Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://home.uni-leipzig.de/~almalab/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_349">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/349.json"/>
+    <skos:prefLabel>Landesverband Sächsischer Jugendbildungswerke e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ljbw.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_35">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/35.json"/>
+    <skos:prefLabel>Initiative Grundeinkommen Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://bge-initiative-leipzig.blogspot.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_350">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/350.json"/>
+    <skos:prefLabel>Courage-Werkstatt für demokratische Bildungsarbeit e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.netzwerk-courage.de/index.html"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_351">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/351.json"/>
+    <skos:prefLabel>Naturschutzstation Partheland</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://partheland.info/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_352">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/352.json"/>
+    <skos:prefLabel>Frauenkultur Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.frauenkultur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_353">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/353.json"/>
+    <skos:prefLabel>naturwissenschaftliche Forschungswerkstatt Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://home.uni-leipzig.de/forschungswerkstatt"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_354">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/354.json"/>
+    <skos:prefLabel>Elektrotechnische Sammlung Markkleeberg</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vde-leipzig-halle.de/sammlung"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_355">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/355.json"/>
+    <skos:prefLabel>gemeinsam grün e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gemeinsamgrün-leipzig.de/new/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_356">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/356.json"/>
+    <skos:prefLabel>Mrs.Hippie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mrs.hippie.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_357">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>foundation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/357.json"/>
+    <skos:prefLabel>Sächsische Landesstiftung Natur und Umwelt</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.lanu.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_358">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/358.json"/>
+    <skos:prefLabel>RUSH Kurierkollektiv GbR</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.rush-kurierkollektiv.de/ueber"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_359">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/359.json"/>
+    <skos:prefLabel>Entwicklungspolitisches Netzwerk Sachsen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.einewelt-sachsen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_36">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/36.json"/>
+    <skos:prefLabel>Energiegenossenschaft Leipzig EGL eG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.energiegenossenschaft-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_360">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/360.json"/>
+    <skos:prefLabel>GWÖ Mitteldeutschland</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://web.ecogood.org/de/mitteldeutschland/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_361">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/361.json"/>
+    <skos:prefLabel>GWÖ Regionalgruppe Leipzig-Halle</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://web.ecogood.org/de/leipzig-halle/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_362">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/362.json"/>
+    <skos:prefLabel>fahrradfreude-leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://fahrradfreude-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_363">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/363.json"/>
+    <skos:prefLabel>Hicecream</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.instagram.com/hicecream_t.h.c/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_364">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/364.json"/>
+    <skos:prefLabel>again fashion</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.again-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_365">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/365.json"/>
+    <skos:prefLabel>BUND Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.bund-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_366">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/366.json"/>
+    <skos:prefLabel>Florian Fahr</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://hybridartlab.de/natur-fuer-staedter"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_367">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/367.json"/>
+    <skos:prefLabel>Projekt Regioküche</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_368">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/368.json"/>
+    <skos:prefLabel>WeltOffen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.weltoffen-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_371">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/371.json"/>
+    <skos:prefLabel>Radio Henne</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.radiohenne.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_372">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/372.json"/>
+    <skos:prefLabel>ZierlichManierlich</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://zierlichmanierlich.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_373">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/373.json"/>
+    <skos:prefLabel>NAHhaft e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nahhaft.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_374">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/374.json"/>
+    <skos:prefLabel>Govinda Catering</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.Govinda-Leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_375">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/375.json"/>
+    <skos:prefLabel>Holger Günther</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://spielzeug-reparatur.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_376">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/376.json"/>
+    <skos:prefLabel>Kulturjurte Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://kulturjurte-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_377">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/377.json"/>
+    <skos:prefLabel>Integrationsverein Leipzig-Brücke der Kulturen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.moct.eu"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_378">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/378.json"/>
+    <skos:prefLabel>Reef Guardian e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://reef-guardian.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_379">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/379.json"/>
+    <skos:prefLabel>Paul Rottke</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_38">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/38.json"/>
+    <skos:prefLabel>Westbesuch e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.westbesuch.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_380">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/380.json"/>
+    <skos:prefLabel>Matthias Werner Test</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_381">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/381.json"/>
+    <skos:prefLabel>&amp;organics</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.andorganics.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_382">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/382.json"/>
+    <skos:prefLabel>HILO</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.hilo.cafe"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_383">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/383.json"/>
+    <skos:prefLabel>Naturgarten Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.naturgarten-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_384">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/384.json"/>
+    <skos:prefLabel>Kunststofferei</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.kunststofferei.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_385">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/385.json"/>
+    <skos:prefLabel>Sportgaststätte Leukersdorf</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.sportgaststätte-leukersdorf.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_386">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/386.json"/>
+    <skos:prefLabel>Stadt-Land-Plus-Projekt OLGA (BMBF)</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.projekt-olga.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_387">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/387.json"/>
+    <skos:prefLabel>Rigardu e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://rigardu.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_388">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/388.json"/>
+    <skos:prefLabel>Integrale - Institut für studium generale der TU Dresden</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.integrale.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_389">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/389.json"/>
+    <skos:prefLabel>Konglomerat e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://konglomerat.org/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_39">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/39.json"/>
+    <skos:prefLabel>Piepenbrock Sicherheit GmbH + Co. KG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.piepenbrock.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_390">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/390.json"/>
+    <skos:prefLabel>naturverbunden-sein</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.instagram.com/florafungi.leipzig/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_392">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/392.json"/>
+    <skos:prefLabel>Leipziger Notenspur</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.notenspur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_393">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/393.json"/>
+    <skos:prefLabel>Nawila- Mobiele Natur - und Wildnisschule Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://wildnisschule-aeracura.de/nawila-mobile-wildnisschule/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_394">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/394.json"/>
+    <skos:prefLabel>Sagart Edu</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.sagart-edu.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_395">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/395.json"/>
+    <skos:prefLabel>Energieja Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://solar-strassenlampe.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_396">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/396.json"/>
+    <skos:prefLabel>Initiative MIMAH -Mitmachstadt Hoyerswerda</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.mima-hoy.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_397">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/397.json"/>
+    <skos:prefLabel>Landesverband Nachhaltiges Sachsen e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.nachhaltiges-sachsen.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_398">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/398.json"/>
+    <skos:prefLabel>Rubikon Garten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.rubikon-garten.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_399">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/399.json"/>
+    <skos:prefLabel>Palais Café Dresden</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.palais-cafe.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_4">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/4.json"/>
+    <skos:prefLabel>Umweltbibliothek Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.umweltbibliothek-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_40">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/40.json"/>
+    <skos:prefLabel>Ideenwerkstatt Bildungsagenten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.konzeptwerk-neue-oekonomie.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_400">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/400.json"/>
+    <skos:prefLabel>Marktschwärmerei Karl-Heine</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://marktschwaermer.de/de-DE/assemblies/7704"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_401">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/401.json"/>
+    <skos:prefLabel>Oikocredit - Förderkreis Nordost</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.nordost.oikocredit.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_402">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/402.json"/>
+    <skos:prefLabel>Bazar Manufaktur</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bazarmanufaktur.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_403">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/403.json"/>
+    <skos:prefLabel>Silicon Valley Kids</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.sivakids.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_404">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/404.json"/>
+    <skos:prefLabel>UFER-Projekte "Junges Gemüse"</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://ufer-projekte.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_405">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/405.json"/>
+    <skos:prefLabel>Evangelisch-Lutherisches Missionswerk Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipziger-missionswerk.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_406">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/406.json"/>
+    <skos:prefLabel>Budde-Haus</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.budde-haus.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_407">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/407.json"/>
+    <skos:prefLabel>Hannah</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_408">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/408.json"/>
+    <skos:prefLabel>Umweltinstitut Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://uil.de/neu/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_409">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/409.json"/>
+    <skos:prefLabel>Sauberkasten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.sauberkasten.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_41">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/41.json"/>
+    <skos:prefLabel>AUREL Marketing</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_410">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/410.json"/>
+    <skos:prefLabel>Die Quernetzer e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://die-quernetzer.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_411">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/411.json"/>
+    <skos:prefLabel>Markkleeberg</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_412">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/412.json"/>
+    <skos:prefLabel>toddlin town</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.toddlin-town.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_413">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/413.json"/>
+    <skos:prefLabel>toddlin town fabrics</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.toddlin-town-fabrics.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_414">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/414.json"/>
+    <skos:prefLabel>Schwesterchen &amp; Schwesterchen</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.schwesterchenundschwesterchen.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_415">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/415.json"/>
+    <skos:prefLabel>HAIX Store Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.haix.com/haix-store-leipzig/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_416">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/416.json"/>
+    <skos:prefLabel>KOCHEN macht Schule gGmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.kochen-macht-schule.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_417">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/417.json"/>
+    <skos:prefLabel>Stadtgarten H17</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.freiraumsyndikat.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_418">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/418.json"/>
+    <skos:prefLabel>FISCHER druck&amp;medien</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fischerdruckmedien.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_419">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/419.json"/>
+    <skos:prefLabel>Mitmachgarten Wirrwuchs</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wirrwuchs.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_42">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/42.json"/>
+    <skos:prefLabel>Querbeet</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.querbeet-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_420">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/420.json"/>
+    <skos:prefLabel>Verkehrswende Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://verkehrswende-le.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_421">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/421.json"/>
+    <skos:prefLabel>Six Days for Future</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://6days4future.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_43">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/43.json"/>
+    <skos:prefLabel>Rockzipfel Eltern-Kind-Büro</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.rockzipfel-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_45">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>collective</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/45.json"/>
+    <skos:prefLabel>Vereinigte Leipziger Wohnungsgenossenschaft eG</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.vlw-eg.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_46">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/46.json"/>
+    <skos:prefLabel>Netzwerk Energie &amp; Umwelt e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.energiemetropole-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_47">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/47.json"/>
+    <skos:prefLabel>Fundamentale - Die junge Akademie</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.fundamentale.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_48">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/48.json"/>
+    <skos:prefLabel>Dr. Matias Langer</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.seidentraum.eu"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_49">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/49.json"/>
+    <skos:prefLabel>projektUP!</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.projektup.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_5">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/5.json"/>
+    <skos:prefLabel>Zukunftsakademie Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zukunftsakademie-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_50">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/50.json"/>
+    <skos:prefLabel>Eine Welt e.V. Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://einewelt-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_51">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/51.json"/>
+    <skos:prefLabel>ANNALINDE gGmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.annalinde-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_52">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/52.json"/>
+    <skos:prefLabel>Sukuma arts e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.sukuma-award.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_53">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/53.json"/>
+    <skos:prefLabel>Lust auf neues Geld</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lust-auf-neues-geld.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_54">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/54.json"/>
+    <skos:prefLabel>Grüner Ring Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gruenerring-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_55">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/55.json"/>
+    <skos:prefLabel>Lipsia-e-motion</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.Lipsia-e-motion.com"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_56">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/56.json"/>
+    <skos:prefLabel>WVG Rabe</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_57">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/57.json"/>
+    <skos:prefLabel>Familienbüro Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.familienbuero-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_58">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/58.json"/>
+    <skos:prefLabel>Transition Town Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.transitiontown-leipzig.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_59">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/59.json"/>
+    <skos:prefLabel>Permakultur Forum</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.transitiontown-leipzig.de/?page_id=456"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_6">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/6.json"/>
+    <skos:prefLabel>Johann Simowitsch</skos:prefLabel>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_60">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/60.json"/>
+    <skos:prefLabel>NABU-Regionalverband Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.NABU-Leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_61">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/61.json"/>
+    <skos:prefLabel>Radbar "Velocibar"</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.velocibar.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_62">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>foundation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/62.json"/>
+    <skos:prefLabel>Stiftung "Ecken wecken"</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://stiftung-ecken-wecken.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_63">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/63.json"/>
+    <skos:prefLabel>Kollektiv Lastenrad Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://kolara.wordpress.com/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_64">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/64.json"/>
+    <skos:prefLabel>kunZstoffe – urbane Ideenwerkstatt e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.kunzstoffe.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_66">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/66.json"/>
+    <skos:prefLabel>Stadtpflanzer e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.stadtpflanzer.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_67">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/67.json"/>
+    <skos:prefLabel>Querbeet</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.querbeet-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_68">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/68.json"/>
+    <skos:prefLabel>zackig auf kurs - die offene Nähwerkstatt für Upcycling</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zackig-auf-kurs.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_69">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/69.json"/>
+    <skos:prefLabel>Ökolöwe - Umweltbund Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.oekoloewe.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_70">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/70.json"/>
+    <skos:prefLabel>Klimagerechtigkeit Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://klimagerechtigkeit.blogsport.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_71">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/71.json"/>
+    <skos:prefLabel>Das Schwarze Brett</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.dsble.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_72">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/72.json"/>
+    <skos:prefLabel>Nachbarschaftsgärten e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.nachbarschaftsgaerten.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_73">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/73.json"/>
+    <skos:prefLabel>BUND Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.bund-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_74">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/74.json"/>
+    <skos:prefLabel>WOLLZIRKEL</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://wollzirkel.blogspot.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_75">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/75.json"/>
+    <skos:prefLabel>Tanz zentrale</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.tanz-zentrale.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_76">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/76.json"/>
+    <skos:prefLabel>Ackerwinde Gemüsegarten</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ackerwinde.net"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_77">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/77.json"/>
+    <skos:prefLabel>ernte-mich</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.erntemich.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_78">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/78.json"/>
+    <skos:prefLabel>Projekt "Lebendige Luppe"</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.Lebendige-Luppe.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_79">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/79.json"/>
+    <skos:prefLabel>EDUVENTIS-Bildung erleben e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.eduventis.org"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_80">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/80.json"/>
+    <skos:prefLabel>Projektwohnung "krudebude"</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://www.facebook.com/pages/Projektwohnung-krudebude/617099368382416?fref=ts"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_81">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/81.json"/>
+    <skos:prefLabel>Leipziger Messe GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.leipziger-messe.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_83">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>freelancer</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/83.json"/>
+    <skos:prefLabel>Lehmolandia Lehmatelier</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.lehmolandia.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_84">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>initiative</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/84.json"/>
+    <skos:prefLabel>Johannes Timaeus</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://kochkultur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_85">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/85.json"/>
+    <skos:prefLabel>Batzen-Tauschring Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.batzen.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_86">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/86.json"/>
+    <skos:prefLabel>Araki Verlag</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://araki.de/"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_87">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/87.json"/>
+    <skos:prefLabel>Freiwilligen-Agentur Leipzig e. V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.freiwilligen-agentur-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_88">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>educational</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/88.json"/>
+    <skos:prefLabel>Wisamar Bildungsgesellschaft</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.wisamar.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_89">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/89.json"/>
+    <skos:prefLabel>Ratskeller der Stadt Leipzig GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.ratskeller-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_90">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/90.json"/>
+    <skos:prefLabel>Haedi-Flor Meisterbetrieb</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.haediflor.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_91">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/91.json"/>
+    <skos:prefLabel>CONTIGO Fairtrade Shop</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://leipzig.contigo.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_92">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/92.json"/>
+    <skos:prefLabel>Das Japanische Haus e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.djh-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_93">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/93.json"/>
+    <skos:prefLabel>Makerspace Leipzig</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.Makerspace-Leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_94">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/94.json"/>
+    <skos:prefLabel>GRÜNSCHNABEL</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gruenschnabel-shop.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_95">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/95.json"/>
+    <skos:prefLabel>Alte Schlosserei</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.alte-schlosserei.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_96">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/96.json"/>
+    <skos:prefLabel>Social Impact Lab</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://leipzig.socialimpactlab.eu"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_97">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>other</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/97.json"/>
+    <skos:prefLabel>Zoo Leipzig GmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.zoo-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_98">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>club</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/98.json"/>
+    <skos:prefLabel>Netzwerk Gewaltfreie Kommunikation Leipzig e.V.</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.gfk-leipzig.de"/>
+  </org:Organization>
+  <org:Organization rdf:about="http://nachhaltiges-sachsen.de/rdf/Akteur_99">
+    <ld:hasSource>Nachhaltiges Leipzig</ld:hasSource>
+    <ld:hasType>corporation</ld:hasType>
+    <rdfs:isDefinedBy rdf:resource="https://daten.nachhaltiges-sachsen.de/api/v1/users/99.json"/>
+    <skos:prefLabel>Oxfam Deutschland Shops gGmbH</skos:prefLabel>
+    <foaf:homepage rdf:resource="http://www.oxfam-shops.de"/>
+  </org:Organization>
+</rdf:RDF>

@@ -1,0 +1,35 @@
+Stefan Härtel, 31.05.2018
+
+während meiner Arbeit an der Erweiterung von daten.nachhaltiges-leipzig.de bin
+ich auf eine öffentliche API gestoßen, welche JSON-Dokumente liefert und ohne
+Einschränkungen genutzt werden kann.
+
+Basis-URL: daten.nachhaltiges-leipzig.de
+
+API:
+
+    /api/v1/activities.json
+    /api/v1/activities/[id].json
+    /api/v1/categories.json
+    /api/v1/categories/[id].json
+    /api/v1/products.json
+    /api/v1/products/[id].js
+    /api/v1/trade_types.json
+    /api/v1/trade_categories.json
+    /api/v1/users.json
+    /api/v1/users/[id].json
+
+Am interessantesten werden Anfragen an "/api/v1/activities.json" sein, diese
+können parametrisiert werden:
+
+?text=[], Filtern nach Titel und Beschreibung von Aktivitäten
+
+?type=[action,event,project,service,store], Filtern nach Aktivitätstyp
+
+?upcoming=[], Filtern nach Datum; es kann ein beliebiger String eingegeben
+werden; das Ergebnis sind immer alle Aktivitäten, die nach dem Zeitpunkt der
+Abfrage stattfinden
+    
+?user_name=[], Filtern nach Benutzern / Organisationen
+
+"[]" ist jeweils duch einen entsprechenden Wert oder eine ID zu erstzen.
