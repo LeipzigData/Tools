@@ -18,10 +18,16 @@ function getNLAkteure() {
         $id=$row['id'];
         $lid="https://daten.nachhaltiges-sachsen.de/api/v1/users/$id.json";
         $b=array();
-        $b[]=' a org:Organization';
+        $b[]=' a ld:Akteur';
         $b=addResource($b,'rdfs:isDefinedBy','',$lid);
         $b=addLiteral($b,'ld:hasSource','Nachhaltiges Leipzig');
-        $b=addLiteral($b,'skos:prefLabel',$row['name']);
+        $b=addLiteral($b,'rdfs:label',$row['name']);
+        $b=addLiteral($b,'ld:hasFullAddress',$row['full_address']);
+        $b=addLiteral($b,'ld:inRegion',$row['district']);
+        $b=addLiteral($b,'gsp:asWKT',getWKT($row['latlng']));
+        if (!empty($row['region'])) {
+            $b=addLiteral($b,'ld:inRegion',$row['region']['name']);
+        }
         $b=addLiteral($b,'ld:hasType',$row['organization_type']);
         $b=addResource($b,'foaf:homepage','',$row['organization_url']);
         $a[]='<http://nachhaltiges-sachsen.de/rdf/Akteur_'.$id.'>'.
@@ -40,14 +46,17 @@ function getLEAkteure() {
         $lid="https://leipziger-ecken.de/jsonapi/akteure/$id";
         $att=$row['attributes'];
         $b=array();
-        $b[]=' a org:Organization';
+        $b[]=' a ld:Akteur';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
         $b=addResource($b,'rdfs:isDefinedBy','',$lid);
-        $b=addLiteral($b,'skos:prefLabel',$att['title']);
+        $b=addLiteral($b,'rdfs:label',$att['title']);
         $b=addLiteral($b,'ld:hasType',$row['type']);
         if (!empty($att['external_url'])) { 
             $b=addResource($b,'foaf:homepage',"",$att['external_url']['uri']);
         }
+        $b=addLiteral($b,'ld:hasFullAddress',getLEFullAddress($att["address"]));
+        //$b=addLiteral($b,'ld:inRegion',$row['district']);
+        $b=addLiteral($b,'gsp:asWKT',$att['geodata']['value']);
         $a[]='<http://leipziger-ecken.de/rdf/Akteur_'.$id.'>'.
             join(" ;\n  ",$b) . " ." ;
     }
@@ -150,6 +159,7 @@ function createAkteursOrt($row) {
 // zum Testen
 echo TurtlePrefix()
     .join("\n\n", getNLAkteure())
-    .join("\n\n", getLEAkteure());
+    .join("\n\n", getLEAkteure())
+    ;
 
 ?>

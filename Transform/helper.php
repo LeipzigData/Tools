@@ -196,14 +196,7 @@ function infereAddressURI($s) {
     return $out;
 }
 
-/* Weitere Probleme:
-
-http://nachhaltiges-leipzig.de/Data/Akteur.6
-http://leipzig-data.de/Data/04229.Leipzig.Karl-Heine-Strasse.XX 
-"Johann Simowitsch"
-
-http://nachhaltiges-leipzig.de/Data/Akteur.76 	
-http://leipzig-data.de/Data/04177.Leipzig.Helmholtzstrasse.XX 	
-"Ackerwinde Gemüsegarten" 	
-
-*/
+function getLEFullAddress($s) {
+    if (empty($s)) { return ; }
+    return $s['address_line1'].', '.$s['postal_code'].' '.$s['locality'];
+}
