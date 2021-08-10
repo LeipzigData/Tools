@@ -10,6 +10,22 @@ function createDump($src,$dest) {
     jsonDump("Dumps/$dest.json",$res);
 }
 
+function createLEDump($src,$dest) {
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    $data=$res["data"];
+    $u=$res["links"]["next"];
+    while(!empty($u)) {
+        $src=$u["href"];
+        $string = file_get_contents($src);
+        echo "$src\n";
+        $res = json_decode($string, true);
+        $data=array_merge($data,$res["data"]);
+        $u=$res["links"]["next"];
+    } 
+    jsonDump("Dumps/$dest.json",$data);
+}
+
 function jsonDump($fn,$s) {
     $fp=fopen($fn, "w");
     fwrite($fp, json_encode($s));
@@ -36,13 +52,13 @@ function createNachhaltigesSachsenDumps() {
 
 function createLeipzigerEckenDumps() {
     $prefix="https://leipziger-ecken.de/jsonapi/";
-    createDump($prefix."akteure","leipziger-ecken/Akteure");
-    createDump($prefix."events","leipziger-ecken/Events");
-    createDump($prefix."districts","leipziger-ecken/Districts");
-    createDump($prefix."akteur_types","leipziger-ecken/AkteurTypes");
-    createDump($prefix."categories","leipziger-ecken/Categories");
-    createDump($prefix."tags","leipziger-ecken/Tags");
-    createDump($prefix."target_groups","leipziger-ecken/TargetGroups");
+    createLEDump($prefix."akteure","leipziger-ecken/Akteure");
+    createLEDump($prefix."events","leipziger-ecken/Events");
+    createLEDump($prefix."districts","leipziger-ecken/Districts");
+    createLEDump($prefix."akteur_types","leipziger-ecken/AkteurTypes");
+    createLEDump($prefix."categories","leipziger-ecken/Categories");
+    createLEDump($prefix."tags","leipziger-ecken/Tags");
+    createLEDump($prefix."target_groups","leipziger-ecken/TargetGroups");
 }
 
 // ---- test ----

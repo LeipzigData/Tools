@@ -1,3 +1,5 @@
 all:
-	php akteure.php >a.ttl
-	rapper -g a.ttl -o rdfxml-abbrev >Akteure.rdf
+	php le.php >le.ttl
+	rapper -g le.ttl -o rdfxml-abbrev >LeipzigerEcken.rdf
+	php nl.php >nl.ttl
+	rapper -g nl.ttl -o rdfxml-abbrev >NachhaltigesSachsen.rdf

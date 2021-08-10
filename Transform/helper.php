@@ -34,7 +34,10 @@ return '
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
 @prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix le: <http://leipziger-ecken.de/Data/Model/> .
+@prefix nl: <http://nachhaltiges-sachsen.de/Data/Model/> .
 
 
 
@@ -194,9 +197,4 @@ function infereAddressURI($s) {
     $uri=$s['zip'].'.'.$s['city'].'.'.$s['street_name'].'.'.$s['house_number'];
     $out=fixURI($uri);
     return $out;
-}
-
-function getLEFullAddress($s) {
-    if (empty($s)) { return ; }
-    return $s['address_line1'].', '.$s['postal_code'].' '.$s['locality'];
 }
