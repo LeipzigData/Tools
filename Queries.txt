@@ -41,12 +41,14 @@ optional{ ?p  mint2014:Mail ?email . }
 Alle Schuladressen heraussuchen
 
 PREFIX ld: <http://leipzig-data.de/Data/Model/>
-PREFIX ldtag: <http://leipzig-data.de/Data/Tag/>
-SELECT distinct ?p ?l ?k WHERE {
-  ?p ld:hasTag ldtag:MINT .
-  ?p rdfs:label ?l .
-  ?p ld:hasStatus ?k .
-} order by (?l)
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+SELECT distinct ?l ?a ?h
+from  <http://leipzig-data.de/Data/Schulen/> 
+WHERE {
+  ?s a ld:Oberschule; rdfs:label ?l .
+  optional {?s ld:hasAddress ?a . }
+  optional {?s foaf:homepage ?h . }
+} order by (?s)
 
 Alle MINT-Orte und zugehörige Projekte finden
 

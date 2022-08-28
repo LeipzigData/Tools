@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Last Update: 2021-08-10
+ * Last Update: 2021-08-14
 
  * Extrahiere Informationen aus "Leipziger Ecken"
 
@@ -20,11 +20,38 @@ function getLink($v) {
     $type=str_replace("bezirk",$prefix."districts",$type);
     $type=str_replace("category",$prefix."categories",$type);
     $type=str_replace("event",$prefix."events",$type);
+    $type=str_replace("file",$prefix."file",$type);
     $type=str_replace("tag",$prefix."tags",$type);
-    $type=str_replace("target_group","target_groups",$type);
+    $type=str_replace("target_group",$prefix."target_groups",$type);
     return $type."/".$v["id"];
 }
 
+function getURI($v) {
+    if (empty($v)) return;
+    $prefix="https://leipziger-ecken.de/rdf/";
+    $type=$v["type"];
+    $type=str_replace("akteur",$prefix."Akteur",$type);
+    $type=str_replace("akteur_typ",$prefix."AkteurType",$type);
+    $type=str_replace("bezirk",$prefix."District",$type);
+    $type=str_replace("category",$prefix."Category",$type);
+    $type=str_replace("event",$prefix."Event",$type);
+    $type=str_replace("file",$prefix."File",$type);
+    $type=str_replace("tag",$prefix."Tag",$type);
+    $type=str_replace("target_group",$prefix."TargetGroup",$type);
+    return $type."/".$v["id"];
+}
+
+function getImage($v) {
+    // Dauert zu lange
+    return;
+    if (empty($v)) return;
+    $src=getlink($v['data']);
+    if (empty($src)) return;
+    $string = file_get_contents($src);
+    $res = json_decode($string, true);
+    return $res['data']['attributes']['uri']['url'];
+}
+   
 function getLEFullAddress($s) {
     if (empty($s)) { return ; }
     return $s['address_line1'].', '.$s['postal_code'].' '.$s['locality'];
@@ -38,33 +65,34 @@ function getLEAkteure() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/Akteur/".$row["id"];
         $att=$row['attributes'];
         $rel=$row['relationships'];
         $b=array();
         $b[]=' a le:Akteur';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['title']);
         if (!empty($att['external_url'])) { 
-            $b=addResource($b,'foaf:homepage',"",$att['external_url']['uri']);
+            $b=addResource($b,'foaf:homepage','',
+                           $att['external_url']['uri']);
         }
-        $b=addLiteral($b,'ld:hasFullAddress',getLEFullAddress($att["address"]));
+        //$b=addResource($b,'foaf:depiction','',getImage($rel['image']));
+        $b=addLiteral($b,'ld:hasFullAddress',
+                      getLEFullAddress($att["address"]));
         if (!empty($att['geodata'])) { 
             $b=addLiteral($b,'gsp:asWKT',$att['geodata']['value']);
         }
-        /* if (!empty($att['description'])) { 
-            $b=addMLiteral($b,'ld:hasDescription',$att['description']['processed']);
-            } */
-        $b=addResource($b,'ld:inRegion','',getLink($rel['district']['data']));
-        $b=addResource($b,'ld:hasType','',getLink($rel['typ']['data']));
+        $b=addResource($b,'ld:inRegion','',getURI($rel['district']['data']));
+        $b=addResource($b,'ld:hasType','',getURI($rel['typ']['data']));
         foreach($rel["target_groups"]["data"] as $v) {
-            $b=addResource($b,'ld:hasTargetGroup','',getLink($v));
+            $b=addResource($b,'ld:hasTargetGroup','',getURI($v));
         }
         foreach($rel["tags"]["data"] as $v) {
-            $b=addResource($b,'ld:hasTag','',getLink($v));
+            $b=addResource($b,'ld:hasTag','',getURI($v));
         }
         foreach($rel["categories"]["data"] as $v) {
-            $b=addResource($b,'ld:hasCategory','',getLink($v));
+            $b=addResource($b,'ld:hasCategory','',getURI($v));
         }
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -77,37 +105,36 @@ function getLEEvents() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/Event/".$row["id"];
         $att=$row['attributes'];
         $rel=$row['relationships'];
         $b=array();
         $b[]=' a le:Event';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['title']);
         $b=addLiteral($b,'ld:isBarrierFree',$att['barrier_free_location']);
         if (!empty($att['external_website'])) { 
             $b=addResource($b,'foaf:homepage',"",$att['external_website']);
         }
+        //$b=addResource($b,'foaf:depiction','',getImage($rel['image']));
         $b=addLiteral($b,'ld:hasFullAddress',getLEFullAddress($att["address"]));
         if (!empty($att['geodata'])) { 
             $b=addLiteral($b,'gsp:asWKT',$att['geodata']['value']);
         }
-        /* if (!empty($att['description'])) { 
-            $b=addMLiteral($b,'ld:hasDescription',$att['description']['processed']);
-            } */
         foreach($att["occurrences"] as $v) {
             $b=addLiteral($b,'ical:dtstart',$v["value"]);
         }
-        $b=addResource($b,'ld:inRegion','',getLink($rel['district']['data']));
-        $b=addResource($b,'ld:hasAkteur','',getLink($rel['akteur']['data']));
+        $b=addResource($b,'ld:inRegion','',getURI($rel['district']['data']));
+        $b=addResource($b,'ld:hasAkteur','',getURI($rel['akteur']['data']));
         foreach($rel["target_groups"]["data"] as $v) {
-            $b=addResource($b,'ld:hasTargetGroup','',getLink($v));
+            $b=addResource($b,'ld:hasTargetGroup','',getURI($v));
         }
         foreach($rel["tags"]["data"] as $v) {
-            $b=addResource($b,'ld:hasTag','',getLink($v));
+            $b=addResource($b,'ld:hasTag','',getURI($v));
         }
         foreach($rel["categories"]["data"] as $v) {
-            $b=addResource($b,'ld:hasCategory','',getLink($v));
+            $b=addResource($b,'ld:hasCategory','',getURI($v));
         }
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -120,15 +147,17 @@ function getLEAkteurTypes() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/AkteurType/".$row["id"];
         $att=$row['attributes'];
         $rel=$row['relationships'];
         $b=array();
         $b[]=' a le:AkteurType';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['name']);
         if (!empty($att['description'])) { 
-            $b=addMLiteral($b,'ld:hasDescription',$att['description']['processed']);
+            $b=addMLiteral($b,'ld:hasDescription',
+                           $att['description']['processed']);
         }        
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -141,15 +170,16 @@ function getLECategories() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/Category/".$row["id"];
         $att=$row['attributes'];
         $rel=$row['relationships'];
         $b=array();
         $b[]=' a le:Category';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['name']);
         foreach($rel["parent"]["data"] as $v) {
-            $b=addResource($b,'ld:hasParent','',getLink($v));
+            $b=addResource($b,'ld:hasParent','',getURI($v));
         }        
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -162,11 +192,12 @@ function getLEDistricts() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/District/".$row["id"];
         $att=$row['attributes'];
         $b=array();
         $b[]=' a le:District';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['name']);
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -179,11 +210,12 @@ function getLETags() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/Tag/".$row["id"];
         $att=$row['attributes'];
         $b=array();
         $b[]=' a le:Tag';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['name']);
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
@@ -196,11 +228,12 @@ function getLETargetGroups() {
     $res = json_decode($string, true);
     $a=array();
     foreach ($res as $row) {
-        $id=getLink($row);
+        $id="http://leipziger-ecken.de/rdf/TargetGroup/".$row["id"];
         $att=$row['attributes'];
         $b=array();
         $b[]=' a le:TargetGroup';
         $b=addLiteral($b,'ld:hasSource','Leipziger Ecken');
+        $b=addResource($b,'rdfs:seeAlso','',getLink($row));
         $b=addLiteral($b,'rdfs:label',$att['name']);
         $a[]="<$id>".join(" ;\n  ",$b) . " ." ;
     }
